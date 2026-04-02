@@ -13,7 +13,6 @@ yarn.lock
 # Environment Files
 # =======================================
 .env
-.env.*
 .env.local
 .env.development
 .env.production
