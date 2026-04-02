@@ -1,0 +1,105 @@
+# =======================================
+# Node.js & Dependencies
+# =======================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# =======================================
+# Environment Files
+# =======================================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =======================================
+# Next.js Build Output
+# =======================================
+.next/
+.next/*
+out/
+build/
+
+# =======================================
+# Coverage Reports
+# =======================================
+coverage/
+coverage-final.json
+.scannerwork/
+
+# =======================================
+# CI/CD & Docker
+# =======================================
+.gitlab-ci.yml
+docker-compose.yaml
+docker-compose.yml
+Dockerfile
+Dockerfile.*
+
+# =======================================
+# PWA (Generated Files)
+# =======================================
+public/sw.js
+public/sw.js.map
+public/service-worker.js
+public/service-worker.js.map
+
+public/workbox-*.js
+public/workbox-*.js.map
+
+public/swe-worker-development.js
+public/swe-worker-*.js
+
+# Jika PWA build output tidak selalu di public/
+sw.js
+sw.js.map
+service-worker.js
+service-worker.js.map
+workbox-*.js
+workbox-*.js.map
+swe-worker-development.js
+swe-worker-*.js
+
+# =======================================
+# Build Tools & Cache
+# =======================================
+.eslintcache
+.stylelintcache
+.cache/
+.idea/
+*.log
+.tmp/
+tmp/
+*.tmp
+
+# =======================================
+# OS-specific files
+# =======================================
+.DS_Store
+Thumbs.db
+
+# =======================================
+# Project-specific
+# =======================================
+ps.md
+readmeai.md
+dump.rdb
+src/utils/helpers/test.tsx
+src/utils/helpers/test2.tsx
+src/components/i18n/scripts/package.json
+src/components/i18n/scripts/build-json.js
+
+# ===========================
+#  Check dependencies
+# ===========================
+
+check-all-peers.js
+peer-deps-report.json
+prompt.md
