@@ -39,8 +39,6 @@ coverage-final.json
 .gitlab-ci.yml
 docker-compose.yaml
 docker-compose.yml
-Dockerfile
-Dockerfile.*
 
 # =======================================
 # PWA (Generated Files)
