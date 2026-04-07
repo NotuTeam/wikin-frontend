@@ -2,331 +2,31 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import WritingVisual from "./components/WritingVisual";
+import { WritingVisual } from "@/components/features/WritingVisual";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
-const SESSION_DB_NAME = "wikin2-simulation-db";
-const SESSION_STORE_NAME = "sessions";
-const SESSION_RECORD_ID = "active-session-v1";
-const SESSION_ENCRYPTION_KEY =
-  process.env.NEXT_PUBLIC_SESSION_ENCRYPTION_KEY ||
-  "wikin2-local-session-encryption";
-const LOCAL_SESSION_TTL_MS = 3 * 60 * 60 * 1000;
+import {
+  streamGenerate,
+  idbGetSession,
+  idbDeleteSession,
+  idbSetSession,
+  decryptLocalSession,
+  encryptLocalSession,
+  formatTime,
+  EXAM_TEMPLATES,
+  TOEFL_LISTENING_PARTS,
+  IELTS_LISTENING_PARTS,
+  API_URL,
+} from "@/lib";
 
-const encoder = new TextEncoder();
-const decoder = new TextDecoder();
-
-function bytesToBase64(bytes: Uint8Array) {
-  let binary = "";
-  bytes.forEach((b) => {
-    binary += String.fromCharCode(b);
-  });
-  return btoa(binary);
-}
-
-function base64ToBytes(base64: string) {
-  const binary = atob(base64);
-  const bytes = new Uint8Array(binary.length);
-  for (let i = 0; i < binary.length; i += 1) {
-    bytes[i] = binary.charCodeAt(i);
-  }
-  return bytes;
-}
-
-function openSessionDb() {
-  return new Promise<IDBDatabase>((resolve, reject) => {
-    const request = indexedDB.open(SESSION_DB_NAME, 1);
-
-    request.onupgradeneeded = () => {
-      const db = request.result;
-      if (!db.objectStoreNames.contains(SESSION_STORE_NAME)) {
-        db.createObjectStore(SESSION_STORE_NAME, { keyPath: "id" });
-      }
-    };
-
-    request.onsuccess = () => resolve(request.result);
-    request.onerror = () => reject(request.error);
-  });
-}
-
-async function idbSetSession(data: LocalEncryptedSession) {
-  const db = await openSessionDb();
-  await new Promise<void>((resolve, reject) => {
-    const tx = db.transaction(SESSION_STORE_NAME, "readwrite");
-    const store = tx.objectStore(SESSION_STORE_NAME);
-    store.put({ id: SESSION_RECORD_ID, ...data });
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-async function idbGetSession(): Promise<LocalEncryptedSession | null> {
-  const db = await openSessionDb();
-  return await new Promise<LocalEncryptedSession | null>((resolve, reject) => {
-    const tx = db.transaction(SESSION_STORE_NAME, "readonly");
-    const store = tx.objectStore(SESSION_STORE_NAME);
-    const request = store.get(SESSION_RECORD_ID);
-    request.onsuccess = () => {
-      const value = request.result;
-      if (!value) {
-        resolve(null);
-        return;
-      }
-      const { id: _id, ...rest } = value;
-      resolve(rest as LocalEncryptedSession);
-    };
-    request.onerror = () => reject(request.error);
-  });
-}
-
-async function idbDeleteSession() {
-  const db = await openSessionDb();
-  await new Promise<void>((resolve, reject) => {
-    const tx = db.transaction(SESSION_STORE_NAME, "readwrite");
-    const store = tx.objectStore(SESSION_STORE_NAME);
-    store.delete(SESSION_RECORD_ID);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-async function deriveLocalSessionKey(salt: Uint8Array) {
-  const keyMaterial = await crypto.subtle.importKey(
-    "raw",
-    encoder.encode(SESSION_ENCRYPTION_KEY),
-    "PBKDF2",
-    false,
-    ["deriveKey"],
-  );
-
-  return crypto.subtle.deriveKey(
-    {
-      name: "PBKDF2",
-      salt: Uint8Array.from(salt).buffer,
-      iterations: 120000,
-      hash: "SHA-256",
-    },
-    keyMaterial,
-    { name: "AES-GCM", length: 256 },
-    false,
-    ["encrypt", "decrypt"],
-  );
-}
-
-async function encryptLocalSession(payload: SimulationSessionPayload): Promise<LocalEncryptedSession> {
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  const iv = crypto.getRandomValues(new Uint8Array(12));
-  const key = await deriveLocalSessionKey(salt);
-  const plain = encoder.encode(JSON.stringify(payload));
-  const encrypted = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, key, plain);
-
-  return {
-    v: 1,
-    expiresAt: Date.now() + LOCAL_SESSION_TTL_MS,
-    salt: bytesToBase64(salt),
-    iv: bytesToBase64(iv),
-    cipher: bytesToBase64(new Uint8Array(encrypted)),
-  };
-}
-
-async function decryptLocalSession(data: LocalEncryptedSession): Promise<SimulationSessionPayload | null> {
-  if (data.v !== 1) return null;
-  if (Date.now() > data.expiresAt) return null;
-
-  const salt = base64ToBytes(data.salt);
-  const iv = base64ToBytes(data.iv);
-  const cipher = base64ToBytes(data.cipher);
-  const key = await deriveLocalSessionKey(salt);
-
-  const decrypted = await crypto.subtle.decrypt({ name: "AES-GCM", iv }, key, cipher);
-  const text = decoder.decode(decrypted);
-  return JSON.parse(text) as SimulationSessionPayload;
-}
-
-type Difficulty = "EASY" | "MEDIUM" | "HARD";
-type ExamType = "toefl" | "ielts";
-type GenerationStatus =
-  | "pending"
-  | "generating"
-  | "done"
-  | "failed"
-  | "skipped";
-
-type WritingReview = {
-  overallBand: number;
-  criteria: {
-    taskAchievement: number;
-    coherenceAndCohesion: number;
-    lexicalResource: number;
-    grammaticalRangeAndAccuracy: number;
-  };
-  checks: {
-    wordCount: number;
-    minWordCount: number;
-    wordCountOk: boolean;
-    relevanceToPrompt: number;
-    structureQuality: number;
-    grammarQuality: number;
-  };
-  strengths: string[];
-  improvements: string[];
-  summary: string;
-};
-
-type SimulationQuestion = {
-  id: string;
-  number: number;
-  text: string;
-  options?: string[];
-  type: "mcq" | "text";
-  correctAnswer?: number;
-  explanation?: string;
-  details?: {
-    instructions?: string;
-    statement?: string;
-    questionText?: string;
-    visualData?: {
-      chartType?: string;
-      title?: string;
-      xAxisLabel?: string;
-      yAxisLabel?: string;
-      categories?: string[];
-      series?: { name: string; data: number[] }[];
-      units?: string;
-      keyFeatures?: string[];
-    };
-    rubricFocus?: string[];
-    sampleAnswer?: {
-      bandScore?: number;
-      content?: string;
-      examinerComments?: string;
-    };
-    writingReview?: WritingReview;
-  };
-};
-
-type ListeningTrack = {
-  label: string;
-  start: number;
-  end: number;
-  script: string;
-};
-
-type SimulationSection = {
-  id: string;
-  title: string;
-  durationMinutes: number;
-  targetQuestionCount: number;
-  questions: SimulationQuestion[];
-  rawQuestions: any[];
-  listeningScripts: string[];
-  listeningTracks: ListeningTrack[];
-  passageTitle?: string;
-  passageContent?: string;
-  passages?: { title: string; content: string; questionStart?: number; questionEnd?: number }[];
-  status: GenerationStatus;
-  error?: string;
-};
-
-type SectionTemplate = {
-  id: string;
-  title: string;
-  durationMinutes: number;
-  targetQuestionCount: number;
-};
-
-type SectionResultSummary = {
-  sectionId: string;
-  sectionTitle: string;
-  correct: number;
-  total: number;
-  percentage: number;
-};
-
-type SimulationResultData = {
-  examType: ExamType;
-  difficulty: Difficulty;
-  sectionScores: SectionResultSummary[];
-  totalCorrect: number;
-  totalQuestions: number;
-  totalPercentage: number;
-  sections: SimulationSection[];
-  answers: Record<string, string>;
-};
-
-type SimulationSessionPayload = {
-  examType: ExamType;
-  difficulty: Difficulty;
-  started: boolean;
-  sections: SimulationSection[];
-  currentSectionIndex: number;
-  currentQuestionIndex: number;
-  remainingSeconds: number;
-  answers: Record<string, string>;
-  failedSectionIndex: number | null;
-  failedListeningPartIndex: number | null;
-  progress: string;
-  error: string | null;
-  toeflListeningPartial: Record<string, any>;
-  ieltsListeningPartial: Record<string, any>;
-};
-
-type LocalEncryptedSession = {
-  v: 1;
-  expiresAt: number;
-  salt: string;
-  iv: string;
-  cipher: string;
-};
-
-const EXAM_TEMPLATES: Record<ExamType, SectionTemplate[]> = {
-  toefl: [
-    {
-      id: "listening",
-      title: "Listening",
-      durationMinutes: 35,
-      targetQuestionCount: 50,
-    },
-    {
-      id: "reading",
-      title: "Reading",
-      durationMinutes: 55,
-      targetQuestionCount: 50,
-    },
-    {
-      id: "structure",
-      title: "Structure & Written Expression",
-      durationMinutes: 25,
-      targetQuestionCount: 40,
-    },
-  ],
-  ielts: [
-    {
-      id: "listening",
-      title: "Listening",
-      durationMinutes: 30,
-      targetQuestionCount: 40,
-    },
-    {
-      id: "reading",
-      title: "Reading",
-      durationMinutes: 60,
-      targetQuestionCount: 40,
-    },
-    {
-      id: "writing",
-      title: "Writing",
-      durationMinutes: 60,
-      targetQuestionCount: 2,
-    },
-  ],
-};
-
-const formatTime = (seconds: number) => {
-  const m = Math.floor(seconds / 60);
-  const s = seconds % 60;
-  return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-};
+import {
+  Difficulty,
+  ExamType,
+  SimulationQuestion,
+  SimulationSection,
+  SectionTemplate,
+  SimulationResultData,
+  SimulationSessionPayload,
+} from "@/types";
 
 const toQuestion = (question: any, index: number): SimulationQuestion => {
   let text =
@@ -354,117 +54,7 @@ const toQuestion = (question: any, index: number): SimulationQuestion => {
   };
 };
 
-const TOEFL_LISTENING_PARTS = [
-  {
-    key: "partA",
-    label: "Part A",
-    start: 1,
-    end: 5,
-    endpoint: "/toefl/listening/part-a",
-  },
-  {
-    key: "partB",
-    label: "Part B",
-    start: 6,
-    end: 12,
-    endpoint: "/toefl/listening/part-b",
-  },
-  {
-    key: "partC",
-    label: "Part C",
-    start: 13,
-    end: 25,
-    endpoint: "/toefl/listening/part-c",
-  },
-  {
-    key: "partD",
-    label: "Part D",
-    start: 26,
-    end: 35,
-    endpoint: "/toefl/listening/part-d",
-  },
-  {
-    key: "partE",
-    label: "Part E",
-    start: 36,
-    end: 50,
-    endpoint: "/toefl/listening/part-e",
-  },
-] as const;
-
-const IELTS_LISTENING_PARTS = [
-  {
-    key: "partA",
-    label: "Part A",
-    start: 1,
-    end: 10,
-    section: "SECTION_1",
-    endpoint: "/ielts/listening",
-  },
-  {
-    key: "partB",
-    label: "Part B",
-    start: 11,
-    end: 20,
-    section: "SECTION_2",
-    endpoint: "/ielts/listening",
-  },
-  {
-    key: "partC",
-    label: "Part C",
-    start: 21,
-    end: 30,
-    section: "SECTION_3",
-    endpoint: "/ielts/listening",
-  },
-  {
-    key: "partD",
-    label: "Part D",
-    start: 31,
-    end: 40,
-    section: "SECTION_4",
-    endpoint: "/ielts/listening",
-  },
-] as const;
-
-async function streamGenerate(
-  endpoint: string,
-  difficulty: Difficulty,
-  body: Record<string, string>,
-  onProgress: (message: string) => void,
-) {
-  return await new Promise<any>((resolve, reject) => {
-    const params = new URLSearchParams({ endpoint, difficulty, ...body });
-    const source = new EventSource(
-      `${API_URL}/api/questions/stream?${params.toString()}`,
-    );
-
-    source.addEventListener("progress", (event) => {
-      const data = JSON.parse((event as MessageEvent).data);
-      onProgress(data.message || "Processing...");
-    });
-
-    source.addEventListener("done", (event) => {
-      const data = JSON.parse((event as MessageEvent).data);
-      source.close();
-      if (data.success) resolve(data.data);
-      else reject(new Error(data.error || "Failed to generate"));
-    });
-
-    source.addEventListener("error", (event) => {
-      const messageEvent = event as MessageEvent;
-      source.close();
-      if (messageEvent.data) {
-        const data = JSON.parse(messageEvent.data);
-        reject(new Error(data.error || "Generation failed"));
-      } else {
-        reject(new Error("Connection lost during generation"));
-      }
-    });
-  });
-}
-
-export default function Home() {
+export default function SimulationPage() {
   const [examType, setExamType] = useState<ExamType>("toefl");
   const [difficulty, setDifficulty] = useState<Difficulty>("MEDIUM");
   const [loading, setLoading] = useState(false);
@@ -483,10 +73,15 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [ttsPlaying, setTtsPlaying] = useState(false);
   const [showNextSectionModal, setShowNextSectionModal] = useState(false);
-  const [nextFlowAction, setNextFlowAction] = useState<"next" | "finish" | null>(null);
-  const [failedListeningPartIndex, setFailedListeningPartIndex] = useState<number | null>(null);
+  const [nextFlowAction, setNextFlowAction] = useState<
+    "next" | "finish" | null
+  >(null);
+  const [failedListeningPartIndex, setFailedListeningPartIndex] = useState<
+    number | null
+  >(null);
   const [sessionActive, setSessionActive] = useState(false);
-  const [recoverableSessionPayload, setRecoverableSessionPayload] = useState<SimulationSessionPayload | null>(null);
+  const [recoverableSessionPayload, setRecoverableSessionPayload] =
+    useState<SimulationSessionPayload | null>(null);
   const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
   const toeflListeningPartialRef = useRef<Record<string, any>>({});
   const ieltsListeningPartialRef = useRef<Record<string, any>>({});
@@ -558,8 +153,6 @@ export default function Home() {
     return () => clearInterval(timer);
   }, [started, remainingSeconds, currentSection]);
 
-
-
   useEffect(() => {
     stopTts();
   }, [currentSectionIndex]);
@@ -615,13 +208,17 @@ export default function Home() {
 
   const calculateSectionScore = (section: SimulationSection) => {
     if (section.id === "writing") {
-      const reviewed = section.questions.filter((q) => q.details?.writingReview);
+      const reviewed = section.questions.filter(
+        (q) => q.details?.writingReview,
+      );
       const total = section.questions.length;
 
       if (reviewed.length > 0) {
         const avgBand =
-          reviewed.reduce((sum, q) => sum + (q.details?.writingReview?.overallBand || 0), 0) /
-          reviewed.length;
+          reviewed.reduce(
+            (sum, q) => sum + (q.details?.writingReview?.overallBand || 0),
+            0,
+          ) / reviewed.length;
         return {
           correct: Math.round((avgBand / 9) * 100),
           total: 100,
@@ -629,8 +226,8 @@ export default function Home() {
         };
       }
 
-      const answered = section.questions.filter(
-        (q) => answers[`${section.id}:${q.id}`]?.trim(),
+      const answered = section.questions.filter((q) =>
+        answers[`${section.id}:${q.id}`]?.trim(),
       ).length;
       return {
         correct: answered,
@@ -662,7 +259,9 @@ export default function Home() {
   const evaluateIeltsWriting = async (currentSections: SimulationSection[]) => {
     if (examType !== "ielts") return currentSections;
 
-    const writingSection = currentSections.find((section) => section.id === "writing");
+    const writingSection = currentSections.find(
+      (section) => section.id === "writing",
+    );
     if (!writingSection) return currentSections;
 
     const reviewedQuestions = await Promise.all(
@@ -674,11 +273,14 @@ export default function Home() {
         if (!taskRaw) return q;
 
         try {
-          const resp = await fetch(`${API_URL}/api/questions/ielts/writing/review`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ task: taskRaw, answer }),
-          });
+          const resp = await fetch(
+            `${API_URL}/api/questions/ielts/writing/review`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ task: taskRaw, answer }),
+            },
+          );
           const data = await resp.json();
           if (!resp.ok || !data?.success || !data?.data) return q;
 
@@ -697,7 +299,9 @@ export default function Home() {
     );
 
     return currentSections.map((section) =>
-      section.id === "writing" ? { ...section, questions: reviewedQuestions } : section,
+      section.id === "writing"
+        ? { ...section, questions: reviewedQuestions }
+        : section,
     );
   };
 
@@ -723,7 +327,9 @@ export default function Home() {
 
     const payloadWithCheckpoint = {
       ...payload,
-      remainingSecondsCheckpoint: Math.floor((payload.remainingSeconds || 0) / 15),
+      remainingSecondsCheckpoint: Math.floor(
+        (payload.remainingSeconds || 0) / 15,
+      ),
     };
     const payloadHash = JSON.stringify(payloadWithCheckpoint);
     const now = Date.now();
@@ -739,7 +345,9 @@ export default function Home() {
     } catch {}
   };
 
-  const buildResultData = (finalSections: SimulationSection[] = sections): SimulationResultData => {
+  const buildResultData = (
+    finalSections: SimulationSection[] = sections,
+  ): SimulationResultData => {
     const sectionScores = finalSections.map((section) => {
       const score = calculateSectionScore(section);
       return {
@@ -751,10 +359,18 @@ export default function Home() {
       };
     });
 
-    const totalCorrect = sectionScores.reduce((sum, item) => sum + item.correct, 0);
-    const totalQuestions = sectionScores.reduce((sum, item) => sum + item.total, 0);
+    const totalCorrect = sectionScores.reduce(
+      (sum, item) => sum + item.correct,
+      0,
+    );
+    const totalQuestions = sectionScores.reduce(
+      (sum, item) => sum + item.total,
+      0,
+    );
     const totalPercentage =
-      totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+      totalQuestions > 0
+        ? Math.round((totalCorrect / totalQuestions) * 100)
+        : 0;
 
     return {
       examType,
@@ -809,20 +425,31 @@ export default function Home() {
     }
 
     if (type === "ielts" && sectionId === "listening") {
-      const partOrder = [data.partA, data.partB, data.partC, data.partD].filter(Boolean);
+      const partOrder = [data.partA, data.partB, data.partC, data.partD].filter(
+        Boolean,
+      );
       const sectionsData = partOrder.length ? partOrder : data.sections || [];
-      const sectionsWithPartMeta = sectionsData.map((sectionData: any, idx: number) => ({
-        ...sectionData,
-        questions: (sectionData.questions || []).map((q: any, qIdx: number) => ({
-          ...q,
-          questionNumber: idx * 10 + qIdx + 1,
-          questionText: q.questionText || q.question || `Question ${idx * 10 + qIdx + 1}`,
-          options: Array.isArray(q.options) ? q.options : undefined,
-          correctAnswer:
-            typeof q.correctAnswer === "number" ? q.correctAnswer : undefined,
-          explanation: q.explanation || q.paraphrasing || undefined,
-        })),
-      }));
+      const sectionsWithPartMeta = sectionsData.map(
+        (sectionData: any, idx: number) => ({
+          ...sectionData,
+          questions: (sectionData.questions || []).map(
+            (q: any, qIdx: number) => ({
+              ...q,
+              questionNumber: idx * 10 + qIdx + 1,
+              questionText:
+                q.questionText ||
+                q.question ||
+                `Question ${idx * 10 + qIdx + 1}`,
+              options: Array.isArray(q.options) ? q.options : undefined,
+              correctAnswer:
+                typeof q.correctAnswer === "number"
+                  ? q.correctAnswer
+                  : undefined,
+              explanation: q.explanation || q.paraphrasing || undefined,
+            }),
+          ),
+        }),
+      );
       const flatQuestions = sectionsWithPartMeta.flatMap(
         (section: any) => section.questions || [],
       );
@@ -935,8 +562,10 @@ export default function Home() {
     const normalizedPassages = passages?.map((p: any, idx: number) => ({
       title: p?.title || `Passage ${idx + 1}`,
       content: p?.content || "",
-      questionStart: typeof p?.questionStart === "number" ? p.questionStart : idx * 10 + 1,
-      questionEnd: typeof p?.questionEnd === "number" ? p.questionEnd : idx * 10 + 10,
+      questionStart:
+        typeof p?.questionStart === "number" ? p.questionStart : idx * 10 + 1,
+      questionEnd:
+        typeof p?.questionEnd === "number" ? p.questionEnd : idx * 10 + 10,
     }));
 
     return {
@@ -971,7 +600,11 @@ export default function Home() {
       });
     }
 
-    for (let idx = startPartIndex; idx < TOEFL_LISTENING_PARTS.length; idx += 1) {
+    for (
+      let idx = startPartIndex;
+      idx < TOEFL_LISTENING_PARTS.length;
+      idx += 1
+    ) {
       const part = TOEFL_LISTENING_PARTS[idx];
       setProgress(`Generating TOEFL Listening ${part.label}...`);
 
@@ -1034,7 +667,11 @@ export default function Home() {
       });
     }
 
-    for (let idx = startPartIndex; idx < IELTS_LISTENING_PARTS.length; idx += 1) {
+    for (
+      let idx = startPartIndex;
+      idx < IELTS_LISTENING_PARTS.length;
+      idx += 1
+    ) {
       const part = IELTS_LISTENING_PARTS[idx];
       setProgress(`Generating IELTS Listening ${part.label}...`);
 
@@ -1148,7 +785,9 @@ export default function Home() {
           : ieltsListeningPartialRef.current;
 
       const partDefs =
-        resumedExamType === "toefl" ? TOEFL_LISTENING_PARTS : IELTS_LISTENING_PARTS;
+        resumedExamType === "toefl"
+          ? TOEFL_LISTENING_PARTS
+          : IELTS_LISTENING_PARTS;
 
       if (
         typeof resumedFailedListeningPartIndex === "number" &&
@@ -1242,15 +881,19 @@ export default function Home() {
     const resumedFailedListeningPartIndex =
       recoverableSessionPayload.failedListeningPartIndex;
 
-    toeflListeningPartialRef.current = recoverableSessionPayload.toeflListeningPartial || {};
-    ieltsListeningPartialRef.current = recoverableSessionPayload.ieltsListeningPartial || {};
+    toeflListeningPartialRef.current =
+      recoverableSessionPayload.toeflListeningPartial || {};
+    ieltsListeningPartialRef.current =
+      recoverableSessionPayload.ieltsListeningPartial || {};
 
     setExamType(recoverableSessionPayload.examType);
     setDifficulty(recoverableSessionPayload.difficulty);
     setStarted(recoverableSessionPayload.started);
     setSections(resumedSections);
     setCurrentSectionIndex(recoverableSessionPayload.currentSectionIndex || 0);
-    setCurrentQuestionIndex(recoverableSessionPayload.currentQuestionIndex || 0);
+    setCurrentQuestionIndex(
+      recoverableSessionPayload.currentQuestionIndex || 0,
+    );
     setRemainingSeconds(recoverableSessionPayload.remainingSeconds || 0);
     setAnswers(recoverableSessionPayload.answers || {});
     setFailedSectionIndex(recoverableSessionPayload.failedSectionIndex);
@@ -1360,7 +1003,10 @@ export default function Home() {
   const skipFailedSection = async () => {
     if (failedSectionIndex === null) return;
 
-    if (failedSectionIndex === 0 && templates[failedSectionIndex]?.id === "listening") {
+    if (
+      failedSectionIndex === 0 &&
+      templates[failedSectionIndex]?.id === "listening"
+    ) {
       toeflListeningPartialRef.current = {};
       ieltsListeningPartialRef.current = {};
       setFailedListeningPartIndex(null);
@@ -1487,7 +1133,19 @@ export default function Home() {
       window.removeEventListener("beforeunload", flush);
       document.removeEventListener("visibilitychange", onVisibilityChange);
     };
-  }, [sessionActive, started, sections, currentSectionIndex, currentQuestionIndex, remainingSeconds, answers, failedSectionIndex, failedListeningPartIndex, progress, error]);
+  }, [
+    sessionActive,
+    started,
+    sections,
+    currentSectionIndex,
+    currentQuestionIndex,
+    remainingSeconds,
+    answers,
+    failedSectionIndex,
+    failedListeningPartIndex,
+    progress,
+    error,
+  ]);
 
   const selectedAnswer =
     currentSection && currentQuestion
@@ -1565,13 +1223,29 @@ export default function Home() {
           </div>
 
           {recoverableSessionPayload ? (
-            <div style={{ marginBottom: 12, padding: 10, borderRadius: 6, background: "#fff7ed", border: "1px solid #fdba74" }}>
+            <div
+              style={{
+                marginBottom: 12,
+                padding: 10,
+                borderRadius: 6,
+                background: "#fff7ed",
+                border: "1px solid #fdba74",
+              }}
+            >
               <p style={{ marginTop: 0, marginBottom: 8 }}>
-                Session sebelumnya masih aktif (maks 3 jam). Lanjutkan atau keluar untuk mulai session baru.
+                Session sebelumnya masih aktif (maks 3 jam). Lanjutkan atau
+                keluar untuk mulai session baru.
               </p>
               <div style={{ display: "flex", gap: 8 }}>
-                <button onClick={resumeSimulationSession} style={startBtnStyle}>Lanjutkan Session</button>
-                <button onClick={exitCurrentSession} style={{ ...startBtnStyle, background: "#9a3412" }}>Keluar Session</button>
+                <button onClick={resumeSimulationSession} style={startBtnStyle}>
+                  Lanjutkan Session
+                </button>
+                <button
+                  onClick={exitCurrentSession}
+                  style={{ ...startBtnStyle, background: "#9a3412" }}
+                >
+                  Keluar Session
+                </button>
               </div>
             </div>
           ) : null}
@@ -1780,7 +1454,8 @@ export default function Home() {
                     const activePassageIdx = currentSection.passages.findIndex(
                       (p) =>
                         currentQuestionNum >= (p.questionStart ?? 1) &&
-                        currentQuestionNum <= (p.questionEnd ?? currentSection.questions.length),
+                        currentQuestionNum <=
+                          (p.questionEnd ?? currentSection.questions.length),
                     );
 
                     if (
@@ -1791,7 +1466,8 @@ export default function Home() {
 
                     const passage = currentSection.passages[activePassageIdx];
                     const start = passage.questionStart ?? 1;
-                    const end = passage.questionEnd ?? currentSection.questions.length;
+                    const end =
+                      passage.questionEnd ?? currentSection.questions.length;
 
                     return (
                       <div
@@ -1868,23 +1544,30 @@ export default function Home() {
 
                 {currentQuestion.details?.statement && (
                   <p style={{ marginBottom: 10, whiteSpace: "pre-wrap" }}>
-                    <strong>Statement:</strong> {currentQuestion.details.statement}
+                    <strong>Statement:</strong>{" "}
+                    {currentQuestion.details.statement}
                   </p>
                 )}
 
                 {currentQuestion.details?.questionText && (
                   <p style={{ marginBottom: 10, whiteSpace: "pre-wrap" }}>
-                    <strong>Question:</strong> {currentQuestion.details.questionText}
+                    <strong>Question:</strong>{" "}
+                    {currentQuestion.details.questionText}
                   </p>
                 )}
 
                 {currentQuestion.details?.visualData && (
-                  <WritingVisual visualData={currentQuestion.details.visualData} />
+                  <WritingVisual
+                    visualData={currentQuestion.details.visualData}
+                  />
                 )}
 
                 {currentQuestion.details?.instructions && (
-                  <p style={{ marginBottom: 10, fontSize: 12, color: "#475569" }}>
-                    <strong>Note:</strong> {currentQuestion.details.instructions}
+                  <p
+                    style={{ marginBottom: 10, fontSize: 12, color: "#475569" }}
+                  >
+                    <strong>Note:</strong>{" "}
+                    {currentQuestion.details.instructions}
                   </p>
                 )}
 
@@ -1989,14 +1672,14 @@ export default function Home() {
               )}
               {!allSectionsGenerated && isLastSection && (
                 <p style={{ marginTop: 8, color: "#a33" }}>
-                  Tunggu semua section selesai digenerate sebelum menyelesaikan simulasi.
+                  Tunggu semua section selesai digenerate sebelum menyelesaikan
+                  simulasi.
                 </p>
               )}
             </div>
           </section>
         </div>
       )}
-
 
       {showNextSectionModal && (
         <div

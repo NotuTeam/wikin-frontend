@@ -12,6 +12,7 @@ import {
   Tooltip,
 } from "chart.js";
 import { Bar, Line, Pie } from "react-chartjs-2";
+import { VisualData } from "@/types";
 
 ChartJS.register(
   CategoryScale,
@@ -21,23 +22,16 @@ ChartJS.register(
   BarElement,
   ArcElement,
   Tooltip,
-  Legend,
+  Legend
 );
-
-type WritingVisualData = {
-  chartType?: string;
-  title?: string;
-  xAxisLabel?: string;
-  yAxisLabel?: string;
-  categories?: string[];
-  series?: { name: string; data: number[] }[];
-  units?: string;
-  keyFeatures?: string[];
-};
 
 const COLORS = ["#2563eb", "#16a34a", "#dc2626", "#d97706", "#7c3aed"];
 
-export default function WritingVisual({ visualData }: { visualData: WritingVisualData }) {
+interface WritingVisualProps {
+  visualData: VisualData;
+}
+
+export function WritingVisual({ visualData }: WritingVisualProps) {
   const labels = visualData.categories || [];
   const datasets = (visualData.series || []).map((s, idx) => ({
     label: s.name,
@@ -50,26 +44,32 @@ export default function WritingVisual({ visualData }: { visualData: WritingVisua
 
   if (visualData.chartType === "table" || visualData.chartType === "process") {
     return (
-      <div style={{ marginBottom: 12, background: "#f9fafb", border: "1px solid #e5e7eb", padding: 10, borderRadius: 6 }}>
-        <p style={{ marginTop: 0, marginBottom: 8, fontWeight: 700 }}>
+      <div className="mb-3 bg-gray-50 border border-gray-200 p-3 rounded-lg">
+        <p className="font-semibold mb-2">
           {visualData.chartType === "process" ? "Process Data" : "Table Data"}: {visualData.title || "-"}
         </p>
-        <div style={{ overflowX: "auto" }}>
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border-collapse">
             <thead>
               <tr>
-                <th style={thStyle}>{visualData.xAxisLabel || "Category"}</th>
+                <th className="border border-gray-300 p-2 bg-gray-100 text-left font-medium">
+                  {visualData.xAxisLabel || "Category"}
+                </th>
                 {(visualData.series || []).map((s) => (
-                  <th key={s.name} style={thStyle}>{s.name}</th>
+                  <th key={s.name} className="border border-gray-300 p-2 bg-gray-100 text-left font-medium">
+                    {s.name}
+                  </th>
                 ))}
               </tr>
             </thead>
             <tbody>
               {labels.map((label, rowIdx) => (
                 <tr key={`${label}-${rowIdx}`}>
-                  <td style={tdStyle}>{label}</td>
+                  <td className="border border-gray-300 p-2">{label}</td>
                   {(visualData.series || []).map((s) => (
-                    <td key={`${label}-${s.name}`} style={tdStyle}>{s.data[rowIdx] ?? "-"}</td>
+                    <td key={`${label}-${s.name}`} className="border border-gray-300 p-2">
+                      {s.data[rowIdx] ?? "-"}
+                    </td>
                   ))}
                 </tr>
               ))}
@@ -91,10 +91,8 @@ export default function WritingVisual({ visualData }: { visualData: WritingVisua
   };
 
   return (
-    <div style={{ marginBottom: 12, background: "#f9fafb", border: "1px solid #e5e7eb", padding: 10, borderRadius: 6 }}>
-      <p style={{ marginTop: 0, marginBottom: 8, fontWeight: 700 }}>
-        Chart Data: {visualData.title || "-"}
-      </p>
+    <div className="mb-3 bg-gray-50 border border-gray-200 p-3 rounded-lg">
+      <p className="font-semibold mb-2">Chart Data: {visualData.title || "-"}</p>
       {visualData.chartType === "pie" ? (
         <Pie data={{ labels, datasets: [{ ...datasets[0], backgroundColor: COLORS }] }} />
       ) : visualData.chartType === "bar" ? (
@@ -103,22 +101,10 @@ export default function WritingVisual({ visualData }: { visualData: WritingVisua
         <Line data={chartData} options={options} />
       )}
       {visualData.keyFeatures?.length ? (
-        <p style={{ marginTop: 8, marginBottom: 0 }}>
-          <strong>Key Features:</strong> {visualData.keyFeatures.join("; ")}
+        <p className="mt-2 text-sm">
+          <span className="font-medium">Key Features:</span> {visualData.keyFeatures.join("; ")}
         </p>
       ) : null}
     </div>
   );
 }
-
-const thStyle: React.CSSProperties = {
-  border: "1px solid #d1d5db",
-  padding: 6,
-  background: "#f3f4f6",
-  textAlign: "left",
-};
-
-const tdStyle: React.CSSProperties = {
-  border: "1px solid #d1d5db",
-  padding: 6,
-};
