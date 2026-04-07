@@ -118,9 +118,9 @@ export async function decryptLocalSession(
   if (data.v !== 1) return null;
   if (Date.now() > data.expiresAt) return null;
 
-  const salt = base64ToBytes(data.salt);
-  const iv = base64ToBytes(data.iv);
-  const cipher = base64ToBytes(data.cipher);
+  const salt = new Uint8Array(base64ToBytes(data.salt));
+  const iv = new Uint8Array(base64ToBytes(data.iv));
+  const cipher = new Uint8Array(base64ToBytes(data.cipher));
   const key = await deriveLocalSessionKey(salt);
 
   const decrypted = await crypto.subtle.decrypt(

@@ -1,18 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #5d3fd3;
+  --color-primary-dark: #4527a0;
+  --color-primary-light: #7b61e4;
+  --color-primary-pale: #ede9fb;
+  --color-accent: #3dd68c;
+  --color-accent-dark: #1daf6a;
+  --color-accent-pale: #e6faf2;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+  --color-neutral-900: #111827;
+  --color-neutral-700: #374151;
+  --color-neutral-500: #6b7280;
+  --color-neutral-300: #d1d5db;
+  --color-neutral-100: #f3f4f6;
+  --color-neutral-50: #f9fafb;
+  --color-white: #ffffff;
+  --gradient-banner: linear-gradient(135deg, #4527a0 0%, #5d3fd3 60%, #7b61e4 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  margin: 0;
+  color: var(--color-neutral-700);
+  background: var(--color-neutral-50);
+  font-family: "Inter", "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+  color: var(--color-neutral-900);
 }

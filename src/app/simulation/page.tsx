@@ -72,6 +72,8 @@ export default function SimulationPage() {
   );
   const [isGenerating, setIsGenerating] = useState(false);
   const [ttsPlaying, setTtsPlaying] = useState(false);
+  const [ttsElapsedSeconds, setTtsElapsedSeconds] = useState(0);
+  const [ttsEstimatedSeconds, setTtsEstimatedSeconds] = useState(0);
   const [showNextSectionModal, setShowNextSectionModal] = useState(false);
   const [nextFlowAction, setNextFlowAction] = useState<
     "next" | "finish" | null
@@ -83,6 +85,7 @@ export default function SimulationPage() {
   const [recoverableSessionPayload, setRecoverableSessionPayload] =
     useState<SimulationSessionPayload | null>(null);
   const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const ttsProgressTimerRef = useRef<number | null>(null);
   const toeflListeningPartialRef = useRef<Record<string, any>>({});
   const ieltsListeningPartialRef = useRef<Record<string, any>>({});
   const persistDebounceRef = useRef<number | null>(null);
@@ -108,9 +111,15 @@ export default function SimulationPage() {
 
   const stopTts = () => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    if (ttsProgressTimerRef.current) {
+      window.clearInterval(ttsProgressTimerRef.current);
+      ttsProgressTimerRef.current = null;
+    }
     window.speechSynthesis.cancel();
     speechRef.current = null;
     setTtsPlaying(false);
+    setTtsElapsedSeconds(0);
+    setTtsEstimatedSeconds(0);
   };
 
   const playTts = (text: string) => {
@@ -120,11 +129,45 @@ export default function SimulationPage() {
       !text
     )
       return;
+
+    if (ttsProgressTimerRef.current) {
+      window.clearInterval(ttsProgressTimerRef.current);
+      ttsProgressTimerRef.current = null;
+    }
+
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = 0.95;
-    utterance.onend = () => setTtsPlaying(false);
-    utterance.onerror = () => setTtsPlaying(false);
+
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    const estimatedSeconds = Math.max(
+      1,
+      Math.ceil((words / 150) * (60 / utterance.rate)),
+    );
+
+    setTtsEstimatedSeconds(estimatedSeconds);
+    setTtsElapsedSeconds(0);
+
+    utterance.onend = () => {
+      if (ttsProgressTimerRef.current) {
+        window.clearInterval(ttsProgressTimerRef.current);
+        ttsProgressTimerRef.current = null;
+      }
+      setTtsElapsedSeconds(estimatedSeconds);
+      setTtsPlaying(false);
+    };
+    utterance.onerror = () => {
+      if (ttsProgressTimerRef.current) {
+        window.clearInterval(ttsProgressTimerRef.current);
+        ttsProgressTimerRef.current = null;
+      }
+      setTtsPlaying(false);
+    };
+
+    ttsProgressTimerRef.current = window.setInterval(() => {
+      setTtsElapsedSeconds((prev) => Math.min(estimatedSeconds, prev + 1));
+    }, 1000);
+
     speechRef.current = utterance;
     setTtsPlaying(true);
     window.speechSynthesis.speak(utterance);
@@ -854,21 +897,21 @@ export default function SimulationPage() {
         }
 
         setProgress(
-          `Section ${i + 1}/${activeTemplates.length} (${parsed.title}) siap dikerjakan`,
+          `Section ${i + 1}/${activeTemplates.length} (${parsed.title}) is ready`,
         );
       } catch (err) {
         const message = (err as Error).message;
         updateSection(i, { status: "failed", error: message });
         setFailedSectionIndex(i);
         setError(message);
-        setProgress(`Gagal generate ${activeTemplates[i].title}`);
+        setProgress(`Failed to generate ${activeTemplates[i].title}`);
         setIsGenerating(false);
         setLoading(false);
         return;
       }
     }
 
-    setProgress("Semua section selesai digenerate");
+    setProgress("All sections have been generated");
     setIsGenerating(false);
     setLoading(false);
   };
@@ -910,7 +953,7 @@ export default function SimulationPage() {
     );
 
     if (resumePoint) {
-      setProgress("Melanjutkan generate section yang belum selesai...");
+      setProgress("Continuing generation for unfinished sections...");
       await processSectionsFrom(resumePoint.startIndex, {
         listeningStartPartIndex: resumePoint.listeningStartPartIndex,
         examTypeOverride: resumedExamType,
@@ -1023,7 +1066,7 @@ export default function SimulationPage() {
     const next = failedSectionIndex + 1;
     setFailedSectionIndex(null);
     setError(null);
-    setProgress(`Section di-skip, lanjut ke section ${next + 1}`);
+    setProgress(`Section skipped, continuing to section ${next + 1}`);
     if (next < templates.length) {
       await processSectionsFrom(next);
     }
@@ -1156,56 +1199,70 @@ export default function SimulationPage() {
       ? currentSection.targetQuestionCount
       : currentSection?.questions.length || 0;
 
-  return (
-    <main style={{ maxWidth: 1280, margin: "0 auto", padding: 20 }}>
-      <h1 style={{ textAlign: "center", marginBottom: 16 }}>
-        TOEFL & IELTS Simulation Platform
-      </h1>
+  const generatedSections = sections.filter(
+    (section) => section.status === "done" || section.status === "skipped",
+  ).length;
+  const generatedPercent = sections.length
+    ? Math.round((generatedSections / sections.length) * 100)
+    : 0;
+  const answeredPercent = currentSection?.questions.length
+    ? Math.round((answeredCount / currentSection.questions.length) * 100)
+    : 0;
 
+  const getSectionProgress = (section: SimulationSection) => {
+    const answered = Object.entries(answers).filter(
+      ([key, value]) => key.startsWith(`${section.id}:`) && value.trim(),
+    ).length;
+    const total = Math.max(
+      1,
+      section.targetQuestionCount || section.questions.length || 1,
+    );
+    const percentage = Math.min(100, Math.round((answered / total) * 100));
+    return { answered, total, percentage };
+  };
+
+  const ttsProgressPercent = ttsEstimatedSeconds
+    ? Math.min(100, Math.round((ttsElapsedSeconds / ttsEstimatedSeconds) * 100))
+    : 0;
+
+  return (
+    <main className="mx-auto max-w-[1280px] px-4 py-6 md:px-7">
       {!started && (
-        <div style={{ background: "#f7f7f7", padding: 20, borderRadius: 8 }}>
-          <div
-            style={{
-              display: "flex",
-              gap: 12,
-              alignItems: "center",
-              marginBottom: 12,
-            }}
-          >
-            <label>Simulation Type</label>
+        <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-6 shadow-sm">
+          <div className="mb-5 flex flex-wrap items-center gap-3">
+            <span className="text-sm font-medium text-[var(--color-neutral-700)]">
+              Simulation Type
+            </span>
             <button
               onClick={() => setExamType("toefl")}
-              style={{
-                ...tabStyle,
-                background: examType === "toefl" ? "#0066cc" : "#ddd",
-              }}
+              className={`rounded-[10px] px-5 py-2.5 text-sm font-semibold transition ${
+                examType === "toefl"
+                  ? "bg-[var(--color-primary)] text-white"
+                  : "border border-[var(--color-neutral-300)] bg-white text-[var(--color-neutral-700)]"
+              }`}
             >
               TOEFL
             </button>
             <button
               onClick={() => setExamType("ielts")}
-              style={{
-                ...tabStyle,
-                background: examType === "ielts" ? "#cc3300" : "#ddd",
-              }}
+              className={`rounded-[10px] px-5 py-2.5 text-sm font-semibold transition ${
+                examType === "ielts"
+                  ? "bg-[var(--color-primary)] text-white"
+                  : "border border-[var(--color-neutral-300)] bg-white text-[var(--color-neutral-700)]"
+              }`}
             >
               IELTS
             </button>
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              gap: 12,
-              alignItems: "center",
-              marginBottom: 16,
-            }}
-          >
-            <label>Difficulty</label>
+          <div className="mb-5 flex flex-wrap items-center gap-3">
+            <label className="text-sm font-medium text-[var(--color-neutral-700)]">
+              Difficulty
+            </label>
             <select
               value={difficulty}
               onChange={(e) => setDifficulty(e.target.value as Difficulty)}
-              style={{ padding: 8, borderRadius: 4 }}
+              className="rounded-[10px] border border-[var(--color-neutral-300)] bg-[var(--color-neutral-100)] px-4 py-2 text-sm"
             >
               <option value="EASY">Easy</option>
               <option value="MEDIUM">Medium</option>
@@ -1213,38 +1270,39 @@ export default function SimulationPage() {
             </select>
           </div>
 
-          <div style={{ marginBottom: 16 }}>
+          <div className="mb-5 space-y-2">
             {templates.map((s, idx) => (
-              <div key={s.id} style={{ marginBottom: 8 }}>
-                {idx + 1}. {s.title} — {s.durationMinutes} menit — target{" "}
-                {s.targetQuestionCount} soal
+              <div
+                key={s.id}
+                className="rounded-xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] px-4 py-3 text-sm"
+              >
+                <span className="font-semibold text-[var(--color-primary)]">
+                  {idx + 1}. {s.title}
+                </span>{" "}
+                — {s.durationMinutes} minutes — target {s.targetQuestionCount}{" "}
+                questions
               </div>
             ))}
           </div>
 
           {recoverableSessionPayload ? (
-            <div
-              style={{
-                marginBottom: 12,
-                padding: 10,
-                borderRadius: 6,
-                background: "#fff7ed",
-                border: "1px solid #fdba74",
-              }}
-            >
-              <p style={{ marginTop: 0, marginBottom: 8 }}>
-                Session sebelumnya masih aktif (maks 3 jam). Lanjutkan atau
-                keluar untuk mulai session baru.
+            <div className="mb-4 rounded-[10px] border border-[#fdba74] bg-[#fff7ed] p-3">
+              <p className="mb-2 mt-0 text-sm text-[var(--color-neutral-700)]">
+                Your previous session is still active (up to 3 hours). Continue
+                or exit to start a new session.
               </p>
-              <div style={{ display: "flex", gap: 8 }}>
-                <button onClick={resumeSimulationSession} style={startBtnStyle}>
-                  Lanjutkan Session
+              <div className="flex gap-2">
+                <button
+                  onClick={resumeSimulationSession}
+                  className="rounded-[10px] bg-[var(--color-primary)] px-4 py-2 text-sm font-semibold text-white"
+                >
+                  Resume Session
                 </button>
                 <button
                   onClick={exitCurrentSession}
-                  style={{ ...startBtnStyle, background: "#9a3412" }}
+                  className="rounded-[10px] bg-[#9a3412] px-4 py-2 text-sm font-semibold text-white"
                 >
-                  Keluar Session
+                  Exit Session
                 </button>
               </div>
             </div>
@@ -1253,496 +1311,466 @@ export default function SimulationPage() {
           <button
             onClick={startSimulation}
             disabled={loading || !!recoverableSessionPayload}
-            style={startBtnStyle}
+            className="rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)] disabled:cursor-not-allowed disabled:opacity-60"
           >
             {loading ? "Preparing simulation..." : "Start Full Simulation"}
           </button>
-          {loading && <p style={{ marginTop: 10 }}>Progress: {progress}</p>}
-          {error && <p style={{ color: "red", marginTop: 10 }}>{error}</p>}
-        </div>
+          {loading && <p className="mt-3 text-sm">Progress: {progress}</p>}
+          {error && (
+            <p className="mt-3 text-sm text-[var(--color-danger)]">{error}</p>
+          )}
+        </section>
       )}
 
       {started && currentSection && (
-        <div
-          style={{ display: "grid", gridTemplateColumns: "300px 1fr", gap: 16 }}
-        >
-          <aside
-            style={{ background: "#f7f7f7", padding: 12, borderRadius: 8 }}
-          >
-            <h3 style={{ marginTop: 0 }}>Section Progress</h3>
-            <p style={{ marginTop: 0, fontSize: 13 }}>
-              Status: {isGenerating ? "Generating..." : "Idle"}
-            </p>
-            <p style={{ marginTop: 0, fontSize: 13 }}>Progress: {progress}</p>
+        <section className="space-y-4">
+          <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-4 shadow-sm">
+            <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
+              {sections.map((section, idx) => {
+                const sectionProgress = getSectionProgress(section);
+                const isActive = idx === currentSectionIndex;
+                const progressDeg = Math.max(
+                  0,
+                  Math.min(360, sectionProgress.percentage * 3.6),
+                );
 
-            {sections.map((section, idx) => (
-              <div
-                key={section.id}
-                style={{
-                  marginBottom: 10,
-                  padding: 8,
-                  borderRadius: 6,
-                  background: idx === currentSectionIndex ? "#e8f1ff" : "white",
-                  opacity: idx > currentSectionIndex ? 0.75 : 1,
-                }}
-              >
-                <div>
-                  {idx + 1}. {section.title}
-                </div>
-                <small>
-                  {section.questions.length}/{section.targetQuestionCount}{" "}
-                  generated — {section.status}
-                </small>
-                {section.error && (
-                  <div style={{ color: "#a33", fontSize: 12, marginTop: 4 }}>
-                    {section.error}
-                  </div>
-                )}
-              </div>
-            ))}
-
-            {failedSectionIndex !== null && (
-              <div style={{ marginBottom: 12 }}>
-                <button
-                  onClick={retryFailedSection}
-                  disabled={isGenerating}
-                  style={{ ...startBtnStyle, marginRight: 8 }}
-                >
-                  Retry Failed Section
-                </button>
-                <button
-                  onClick={skipFailedSection}
-                  disabled={isGenerating}
-                  style={{ ...startBtnStyle, background: "#9a3412" }}
-                >
-                  Skip & Continue
-                </button>
-              </div>
-            )}
-
-            {sessionActive && (
-              <div style={{ marginBottom: 12 }}>
-                <button
-                  onClick={exitCurrentSession}
-                  style={{ ...startBtnStyle, background: "#7f1d1d" }}
-                >
-                  Exit Session
-                </button>
-              </div>
-            )}
-
-            <hr />
-            <div style={{ marginBottom: 10 }}>
-              <strong>Waktu Tersisa:</strong> {formatTime(remainingSeconds)}
-            </div>
-            <div style={{ marginBottom: 10 }}>
-              <strong>Dijawab:</strong> {answeredCount}/
-              {currentSection.questions.length}
-            </div>
-
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(5, 1fr)",
-                gap: 6,
-              }}
-            >
-              {Array.from({ length: mapTotal }).map((_, idx) => {
-                const q = currentSection.questions[idx];
-                const disabled = !q;
-                const key = q
-                  ? `${currentSection.id}:${q.id}`
-                  : `pending-${idx}`;
-                const answered = q ? !!answers[key]?.trim() : false;
                 return (
-                  <button
-                    key={q?.id || `pending-${idx + 1}`}
-                    onClick={() => {
-                      if (!disabled) setCurrentQuestionIndex(idx);
-                    }}
-                    disabled={disabled}
+                  <div
+                    key={section.id}
+                    className="rounded-xl p-[2px]"
                     style={{
-                      padding: "6px 0",
-                      borderRadius: 4,
-                      border: "1px solid #ccc",
-                      background: disabled
-                        ? "#eee"
-                        : idx === currentQuestionIndex
-                          ? "#2d6cdf"
-                          : answered
-                            ? "#d4f8d4"
-                            : "white",
-                      color: disabled
-                        ? "#888"
-                        : idx === currentQuestionIndex
-                          ? "white"
-                          : "black",
-                      cursor: disabled ? "not-allowed" : "pointer",
+                      background: `conic-gradient(from -90deg, var(--color-primary) 0deg ${progressDeg}deg, var(--color-neutral-300) ${progressDeg}deg 360deg)`,
                     }}
                   >
-                    {idx + 1}
-                  </button>
+                    <div
+                      className={`rounded-[10px] px-3 py-3 text-sm ${
+                        isActive ? "bg-[var(--color-primary-pale)]" : "bg-white"
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-3">
+                          <div className="font-semibold text-2xl text-[var(--color-primary)]">
+                            {idx + 1}.
+                          </div>
+                          <div>
+                            <div className="font-semibold text-[var(--color-neutral-900)]">
+                              {section.title}
+                            </div>
+                            <div className="text-xs text-[var(--color-neutral-500)]">
+                              {section.questions.length ===
+                              section.targetQuestionCount
+                                ? "All Generated"
+                                : "Generating"}
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="text-sm font-semibold text-[var(--color-primary)]"
+                          style={{
+                            fontFamily:
+                              '"JetBrains Mono", "Fira Code", monospace',
+                          }}
+                        >
+                          {sectionProgress.percentage}%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 );
               })}
             </div>
-          </aside>
+          </div>
 
-          <section
-            style={{
-              background: "#fff",
-              border: "1px solid #ddd",
-              padding: 16,
-              borderRadius: 8,
-            }}
-          >
-            <h2 style={{ marginTop: 0 }}>{currentSection.title}</h2>
-            <p>
-              Soal{" "}
-              {Math.min(
-                currentQuestionIndex + 1,
-                Math.max(1, currentSection.questions.length),
-              )}{" "}
-              dari {currentSection.questions.length}
-            </p>
-
-            {currentSection.id === "listening" && activeListeningTrack && (
-              <div
-                style={{
-                  marginBottom: 14,
-                  padding: 10,
-                  background: "#f6f8ff",
-                  borderRadius: 6,
-                  border: "1px solid #dbe5ff",
-                }}
-              >
-                <p style={{ marginTop: 0, marginBottom: 8 }}>
-                  Audio aktif: {activeListeningTrack.label} (Soal{" "}
-                  {activeListeningTrack.start}-{activeListeningTrack.end})
+          <div className="grid gap-4 lg:grid-cols-[1fr_220px]">
+            <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
+              <div className="mb-4 flex items-center justify-between">
+                <h2 className="text-2xl font-semibold text-[var(--color-neutral-900)]">
+                  {currentSection.title}
+                </h2>
+                <p className="text-sm text-[var(--color-neutral-500)]">
+                  Question{" "}
+                  {Math.min(
+                    currentQuestionIndex + 1,
+                    Math.max(1, currentSection.questions.length),
+                  )}{" "}
+                  of {currentSection.questions.length}
                 </p>
-                <div style={{ display: "flex", gap: 8 }}>
-                  <button
-                    onClick={() => playTts(activeListeningTrack.script)}
-                    disabled={ttsPlaying}
-                    style={navBtnStyle}
-                  >
-                    Play TTS
-                  </button>
-                  <button
-                    onClick={stopTts}
-                    disabled={!ttsPlaying}
-                    style={navBtnStyle}
-                  >
-                    Stop TTS
-                  </button>
-                </div>
               </div>
-            )}
 
-            {currentSection.status !== "done" && (
-              <p>
-                Section ini masih diproses. Soal yang sudah selesai digenerate
-                tetap bisa dikerjakan.
-              </p>
-            )}
-
-            {currentSection.id === "reading" &&
-              currentSection.passages &&
-              currentSection.passages.length > 1 && (
-                <div style={{ marginBottom: 14 }}>
-                  {(() => {
-                    const currentQuestionNum = currentQuestionIndex + 1;
-                    const activePassageIdx = currentSection.passages.findIndex(
-                      (p) =>
-                        currentQuestionNum >= (p.questionStart ?? 1) &&
-                        currentQuestionNum <=
-                          (p.questionEnd ?? currentSection.questions.length),
-                    );
-
-                    if (
-                      activePassageIdx === -1 ||
-                      !currentSection.passages?.[activePassageIdx]
-                    )
-                      return null;
-
-                    const passage = currentSection.passages[activePassageIdx];
-                    const start = passage.questionStart ?? 1;
-                    const end =
-                      passage.questionEnd ?? currentSection.questions.length;
-
-                    return (
-                      <div
-                        key={activePassageIdx}
-                        style={{
-                          padding: 10,
-                          background: "#f9fafb",
-                          border: "1px solid #e5e7eb",
-                          borderRadius: 6,
-                        }}
+              {currentSection.id === "listening" && activeListeningTrack && (
+                <div className="mb-4 rounded-[10px] border border-[#dbe5ff] bg-[#f6f8ff] p-3">
+                  <p className="mb-2 mt-0 text-sm font-semibold text-[var(--color-neutral-700)]">
+                    {activeListeningTrack.label} (Questions{" "}
+                    {activeListeningTrack.start}-{activeListeningTrack.end})
+                  </p>
+                  <div className="flex items-center gap-2">
+                    {ttsPlaying ? (
+                      <button
+                        onClick={stopTts}
+                        disabled={!ttsPlaying}
+                        aria-label="Stop TTS"
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-neutral-300)] bg-white text-[var(--color-danger)] disabled:cursor-not-allowed disabled:opacity-60"
                       >
-                        <p
-                          style={{
-                            marginTop: 0,
-                            fontWeight: 700,
-                            marginBottom: 8,
-                          }}
+                        <svg
+                          viewBox="0 0 24 24"
+                          className="h-4 w-4"
+                          fill="currentColor"
+                          aria-hidden="true"
                         >
-                          Passage {activePassageIdx + 1}: {passage.title}{" "}
-                          (Questions {start}-{end})
-                        </p>
-                        <div style={{ maxHeight: 240, overflow: "auto" }}>
-                          <p
-                            style={{
-                              whiteSpace: "pre-wrap",
-                              lineHeight: 1.5,
-                              marginBottom: 0,
-                            }}
-                          >
-                            {passage.content}
-                          </p>
-                        </div>
+                          <rect x="6" y="6" width="12" height="12" rx="2" />
+                        </svg>
+                      </button>
+                    ) : (
+                      <button
+                        onClick={() => playTts(activeListeningTrack.script)}
+                        disabled={ttsPlaying}
+                        aria-label="Play TTS"
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-neutral-300)] bg-white text-[var(--color-primary)] disabled:cursor-not-allowed disabled:opacity-60"
+                      >
+                        <svg
+                          viewBox="0 0 24 24"
+                          className="h-4 w-4"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path d="M8 5v14l11-7-11-7z" />
+                        </svg>
+                      </button>
+                    )}
+                    <div className="w-full">
+                      <div className="mb-1 w-full flex items-center justify-end text-xs text-[var(--color-neutral-500)]">
+                        <span>
+                          {ttsElapsedSeconds} sec / {ttsEstimatedSeconds || 0}{" "}
+                          sec
+                        </span>
                       </div>
-                    );
-                  })()}
+                      <div className="h-1.5 rounded-full bg-[var(--color-neutral-100)]">
+                        <div
+                          className="h-full rounded-full bg-[var(--color-primary)] transition-all"
+                          style={{ width: `${ttsProgressPercent}%` }}
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               )}
 
-            {currentSection.id === "reading" &&
-              currentSection.passageContent &&
-              (!currentSection.passages ||
-                currentSection.passages.length <= 1) && (
-                <div
-                  style={{
-                    marginBottom: 14,
-                    padding: 10,
-                    background: "#f9fafb",
-                    border: "1px solid #e5e7eb",
-                    borderRadius: 6,
-                    maxHeight: 240,
-                    overflow: "auto",
-                  }}
-                >
-                  {currentSection.passageTitle && (
-                    <p style={{ marginTop: 0, fontWeight: 700 }}>
-                      {currentSection.passageTitle}
+              {currentSection.status !== "done" && (
+                <p className="mb-4 rounded-[10px] bg-[var(--color-neutral-50)] p-3 text-sm text-[var(--color-neutral-500)]">
+                  This section is still being processed. Questions that are
+                  already generated can still be answered.
+                </p>
+              )}
+
+              {currentSection.id === "reading" &&
+                currentSection.passages &&
+                currentSection.passages.length > 1 && (
+                  <div className="mb-4">
+                    {(() => {
+                      const currentQuestionNum = currentQuestionIndex + 1;
+                      const activePassageIdx =
+                        currentSection.passages.findIndex(
+                          (p) =>
+                            currentQuestionNum >= (p.questionStart ?? 1) &&
+                            currentQuestionNum <=
+                              (p.questionEnd ??
+                                currentSection.questions.length),
+                        );
+
+                      if (
+                        activePassageIdx === -1 ||
+                        !currentSection.passages?.[activePassageIdx]
+                      )
+                        return null;
+
+                      const passage = currentSection.passages[activePassageIdx];
+                      const start = passage.questionStart ?? 1;
+                      const end =
+                        passage.questionEnd ?? currentSection.questions.length;
+
+                      return (
+                        <div
+                          key={activePassageIdx}
+                          className="rounded-[10px] border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-3"
+                        >
+                          <p className="mb-2 mt-0 text-sm font-semibold text-[var(--color-neutral-900)]">
+                            Passage {activePassageIdx + 1}: {passage.title}{" "}
+                            (Questions {start}-{end})
+                          </p>
+                          <div className="max-h-60 overflow-auto">
+                            <p className="mb-0 whitespace-pre-wrap text-sm leading-7 text-[var(--color-neutral-700)]">
+                              {passage.content}
+                            </p>
+                          </div>
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
+
+              {currentSection.id === "reading" &&
+                currentSection.passageContent &&
+                (!currentSection.passages ||
+                  currentSection.passages.length <= 1) && (
+                  <div className="mb-4 max-h-60 overflow-auto rounded-[10px] border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-3">
+                    {currentSection.passageTitle && (
+                      <p className="mb-2 mt-0 text-sm font-semibold text-[var(--color-neutral-900)]">
+                        {currentSection.passageTitle}
+                      </p>
+                    )}
+                    <p className="mb-0 whitespace-pre-wrap text-sm leading-7 text-[var(--color-neutral-700)]">
+                      {currentSection.passageContent}
+                    </p>
+                  </div>
+                )}
+
+              {currentQuestion && (
+                <div>
+                  <p className="mb-4 text-base font-semibold leading-7 text-[var(--color-neutral-900)]">
+                    {currentQuestion.text}
+                  </p>
+
+                  {currentQuestion.details?.statement && (
+                    <p className="mb-3 whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">
+                      <strong>Statement:</strong>{" "}
+                      {currentQuestion.details.statement}
                     </p>
                   )}
-                  <p
-                    style={{
-                      whiteSpace: "pre-wrap",
-                      lineHeight: 1.5,
-                      marginBottom: 0,
-                    }}
-                  >
-                    {currentSection.passageContent}
-                  </p>
+
+                  {currentQuestion.details?.questionText && (
+                    <p className="mb-3 whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">
+                      <strong>Question:</strong>{" "}
+                      {currentQuestion.details.questionText}
+                    </p>
+                  )}
+
+                  {currentQuestion.details?.visualData && (
+                    <WritingVisual
+                      visualData={currentQuestion.details.visualData}
+                    />
+                  )}
+
+                  {currentQuestion.details?.instructions && (
+                    <p className="mb-3 text-xs text-slate-600">
+                      <strong>Note:</strong>{" "}
+                      {currentQuestion.details.instructions}
+                    </p>
+                  )}
+
+                  {currentQuestion.options?.length ? (
+                    <div className="grid gap-2">
+                      {currentQuestion.options.map((opt, idx) => {
+                        const selected = selectedAnswer === String(idx);
+                        return (
+                          <label
+                            key={`${currentQuestion.id}-${idx}`}
+                            className={`flex cursor-pointer items-start gap-3 rounded-[10px] border p-3 text-sm transition ${
+                              selected
+                                ? "border-[var(--color-primary)] bg-[var(--color-primary-pale)] text-[var(--color-primary)]"
+                                : "border-[var(--color-neutral-300)] bg-white text-[var(--color-neutral-700)] hover:border-[var(--color-primary-light)] hover:bg-[var(--color-primary-pale)]"
+                            }`}
+                          >
+                            <input
+                              type="radio"
+                              name={currentQuestion.id}
+                              checked={selected}
+                              onChange={() => onAnswer(String(idx))}
+                              className="mt-0.5"
+                            />
+                            <span>{opt}</span>
+                          </label>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <textarea
+                      value={selectedAnswer}
+                      onChange={(e) => onAnswer(e.target.value)}
+                      placeholder="Write your answer..."
+                      className="min-h-[120px] w-full rounded-[10px] border border-[var(--color-neutral-300)] bg-[var(--color-neutral-100)] p-3 text-sm"
+                    />
+                  )}
                 </div>
               )}
 
-            {currentQuestion && (
-              <div>
-                <p style={{ fontWeight: 600 }}>{currentQuestion.text}</p>
+              <div className="mt-6 flex items-center justify-between gap-2">
+                <button
+                  onClick={() =>
+                    setCurrentQuestionIndex((prev) => Math.max(0, prev - 1))
+                  }
+                  disabled={
+                    currentQuestionIndex === 0 ||
+                    currentSection.questions.length === 0
+                  }
+                  className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white px-4 py-2 text-sm font-semibold text-[var(--color-neutral-700)] disabled:opacity-60"
+                >
+                  Previous
+                </button>
 
-                {currentQuestion.details?.statement && (
-                  <p style={{ marginBottom: 10, whiteSpace: "pre-wrap" }}>
-                    <strong>Statement:</strong>{" "}
-                    {currentQuestion.details.statement}
-                  </p>
-                )}
+                <button
+                  onClick={() =>
+                    setCurrentQuestionIndex((prev) =>
+                      Math.min(currentSection.questions.length - 1, prev + 1),
+                    )
+                  }
+                  disabled={
+                    currentQuestionIndex >=
+                      currentSection.questions.length - 1 ||
+                    currentSection.questions.length === 0
+                  }
+                  className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white px-4 py-2 text-sm font-semibold text-[var(--color-neutral-700)] disabled:opacity-60"
+                >
+                  Next
+                </button>
+              </div>
 
-                {currentQuestion.details?.questionText && (
-                  <p style={{ marginBottom: 10, whiteSpace: "pre-wrap" }}>
-                    <strong>Question:</strong>{" "}
-                    {currentQuestion.details.questionText}
-                  </p>
-                )}
-
-                {currentQuestion.details?.visualData && (
-                  <WritingVisual
-                    visualData={currentQuestion.details.visualData}
-                  />
-                )}
-
-                {currentQuestion.details?.instructions && (
-                  <p
-                    style={{ marginBottom: 10, fontSize: 12, color: "#475569" }}
-                  >
-                    <strong>Note:</strong>{" "}
-                    {currentQuestion.details.instructions}
-                  </p>
-                )}
-
-                {currentQuestion.options?.length ? (
-                  <div style={{ display: "grid", gap: 8 }}>
-                    {currentQuestion.options.map((opt, idx) => (
-                      <label
-                        key={`${currentQuestion.id}-${idx}`}
-                        style={{
-                          display: "flex",
-                          gap: 8,
-                          alignItems: "center",
-                        }}
-                      >
-                        <input
-                          type="radio"
-                          name={currentQuestion.id}
-                          checked={selectedAnswer === String(idx)}
-                          onChange={() => onAnswer(String(idx))}
-                        />
-                        <span>{opt}</span>
-                      </label>
-                    ))}
-                  </div>
-                ) : (
-                  <textarea
-                    value={selectedAnswer}
-                    onChange={(e) => onAnswer(e.target.value)}
-                    placeholder="Tulis jawaban Anda..."
+              <div className="mt-4">
+                {!isLastSection && (
+                  <button
+                    onClick={goToNextSection}
+                    disabled={!currentSectionReady}
+                    className="rounded-[10px] px-4 py-2 text-sm font-semibold text-white disabled:opacity-60"
                     style={{
-                      width: "100%",
-                      minHeight: 120,
-                      padding: 10,
-                      borderRadius: 6,
-                      border: "1px solid #bbb",
+                      background: currentSectionReady
+                        ? "var(--color-primary)"
+                        : "#9ca3af",
                     }}
-                  />
+                  >
+                    Skip Section
+                  </button>
+                )}
+                {isLastSection && (
+                  <button
+                    onClick={goToNextSection}
+                    disabled={!allSectionsGenerated}
+                    className="rounded-[10px] px-4 py-2 text-sm font-semibold text-white disabled:opacity-60"
+                    style={{
+                      background: allSectionsGenerated
+                        ? "var(--color-accent-dark)"
+                        : "#9ca3af",
+                    }}
+                  >
+                    Simulation Completed
+                  </button>
+                )}
+                {!allSectionsGenerated && isLastSection && (
+                  <p className="mt-2 text-sm text-[var(--color-danger)]">
+                    Wait until all sections are generated before completing the
+                    simulation.
+                  </p>
                 )}
               </div>
-            )}
+            </section>
 
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                marginTop: 20,
-              }}
-            >
-              <button
-                onClick={() =>
-                  setCurrentQuestionIndex((prev) => Math.max(0, prev - 1))
-                }
-                disabled={
-                  currentQuestionIndex === 0 ||
-                  currentSection.questions.length === 0
-                }
-                style={navBtnStyle}
-              >
-                Previous
-              </button>
-
-              <button
-                onClick={() =>
-                  setCurrentQuestionIndex((prev) =>
-                    Math.min(currentSection.questions.length - 1, prev + 1),
-                  )
-                }
-                disabled={
-                  currentQuestionIndex >= currentSection.questions.length - 1 ||
-                  currentSection.questions.length === 0
-                }
-                style={navBtnStyle}
-              >
-                Next
-              </button>
-            </div>
-
-            <div style={{ marginTop: 16 }}>
-              {!isLastSection && (
-                <button
-                  onClick={goToNextSection}
-                  disabled={!currentSectionReady}
-                  style={{
-                    ...startBtnStyle,
-                    background: currentSectionReady ? "#0b7a34" : "#aaa",
-                  }}
-                >
-                  Lanjut ke Section Berikutnya
-                </button>
-              )}
-              {isLastSection && (
-                <button
-                  onClick={goToNextSection}
-                  disabled={!allSectionsGenerated}
-                  style={{
-                    ...startBtnStyle,
-                    background: allSectionsGenerated ? "#0b7a34" : "#aaa",
-                  }}
-                >
-                  Simulation Completed
-                </button>
-              )}
-              {!allSectionsGenerated && isLastSection && (
-                <p style={{ marginTop: 8, color: "#a33" }}>
-                  Tunggu semua section selesai digenerate sebelum menyelesaikan
-                  simulasi.
+            <aside className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-4 shadow-sm">
+              <div className="mb-5 text-center">
+                <p className="mb-1 text-xs text-[var(--color-neutral-500)]">
+                  Time
                 </p>
+                <div
+                  className="text-[32px] font-bold text-[var(--color-neutral-900)]"
+                  style={{
+                    fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                  }}
+                >
+                  {formatTime(remainingSeconds).replace(":", " : ")}
+                </div>
+                <p className="text-xs text-[var(--color-neutral-500)]">
+                  Min : Sec
+                </p>
+              </div>
+              <div className="grid grid-cols-5 gap-1.5">
+                {Array.from({ length: mapTotal }).map((_, idx) => {
+                  const q = currentSection.questions[idx];
+                  const disabled = !q;
+                  const key = q
+                    ? `${currentSection.id}:${q.id}`
+                    : `pending-${idx}`;
+                  const answered = q ? !!answers[key]?.trim() : false;
+                  const isCurrent = idx === currentQuestionIndex;
+
+                  const bubbleClass = disabled
+                    ? "border-[var(--color-neutral-300)] bg-[var(--color-neutral-100)] text-[var(--color-neutral-500)]"
+                    : isCurrent
+                      ? "border-[var(--color-primary)] bg-[var(--color-primary)] text-white"
+                      : answered
+                        ? "border-[var(--color-primary)] bg-[var(--color-primary-pale)] text-[var(--color-primary)]"
+                        : "border-[var(--color-neutral-300)] bg-white text-[var(--color-neutral-500)]";
+
+                  return (
+                    <button
+                      key={q?.id || `pending-${idx + 1}`}
+                      onClick={() => {
+                        if (!disabled) setCurrentQuestionIndex(idx);
+                      }}
+                      disabled={disabled}
+                      className={`h-7 w-7 rounded-md border text-xs font-semibold transition ${bubbleClass}`}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {failedSectionIndex !== null && (
+                <div className="mt-4 space-y-2">
+                  <button
+                    onClick={retryFailedSection}
+                    disabled={isGenerating}
+                    className="w-full rounded-[10px] bg-[var(--color-primary)] px-3 py-2 text-xs font-semibold text-white disabled:opacity-60"
+                  >
+                    Retry Failed Section
+                  </button>
+                  <button
+                    onClick={skipFailedSection}
+                    disabled={isGenerating}
+                    className="w-full rounded-[10px] bg-[#9a3412] px-3 py-2 text-xs font-semibold text-white disabled:opacity-60"
+                  >
+                    Skip & Continue
+                  </button>
+                </div>
               )}
-            </div>
-          </section>
-        </div>
+
+              {sessionActive && (
+                <button
+                  onClick={exitCurrentSession}
+                  className="mt-4 w-full rounded-[10px] bg-[#7f1d1d] px-3 py-2 text-xs font-semibold text-white"
+                >
+                  Exit Session
+                </button>
+              )}
+            </aside>
+          </div>
+        </section>
       )}
 
       {showNextSectionModal && (
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            background: "rgba(0, 0, 0, 0.5)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            zIndex: 1000,
-          }}
-        >
-          <div
-            style={{
-              background: "white",
-              padding: 24,
-              borderRadius: 12,
-              maxWidth: 400,
-              width: "90%",
-              boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
-            }}
-          >
-            <h3 style={{ marginTop: 0, marginBottom: 12 }}>
-              {nextFlowAction === "finish"
-                ? "Selesaikan Simulasi?"
-                : "Lanjut ke Section Berikutnya?"}
-            </h3>
-            <p style={{ marginBottom: 20, lineHeight: 1.6 }}>
-              {nextFlowAction === "finish"
-                ? "Semua section sudah selesai digenerate. Lanjutkan untuk melihat hasil akhir: total skor, detail skor per section, dan review jawaban beserta pembahasannya."
-                : `Anda telah menjawab ${answeredCount} dari ${currentSection?.questions.length || 0} soal. Yakin ingin melanjutkan ke section berikutnya? Jawaban yang sudah diisi akan tersimpan.`}
-            </p>
-            <div
-              style={{ display: "flex", gap: 12, justifyContent: "flex-end" }}
-            >
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="w-[90%] max-w-md rounded-2xl bg-white p-6 shadow-xl">
+            <div className="flex flex-col gap-3">
+              <h3 className="text-xl font-semibold text-[var(--color-neutral-900)]">
+                {nextFlowAction === "finish"
+                  ? "Finish Simulation?"
+                  : "Continue to Next Section?"}
+              </h3>
+              <p className="mb-5 text-sm text-[var(--color-neutral-700)]">
+                {nextFlowAction === "finish"
+                  ? "All sections are generated. Continue to view the final result: total score, section breakdown, and answer review with explanations."
+                  : `You have answered ${answeredCount} of ${currentSection?.questions.length || 0} questions. Are you sure you want to continue to the next section? Your current answers will be saved.`}
+              </p>
+            </div>
+            <div className="flex justify-end gap-3">
               <button
                 onClick={() => setShowNextSectionModal(false)}
-                style={{
-                  padding: "10px 20px",
-                  borderRadius: 6,
-                  border: "1px solid #ccc",
-                  background: "white",
-                  cursor: "pointer",
-                }}
+                className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white px-4 py-2 text-sm font-semibold text-[var(--color-neutral-700)]"
               >
-                Batal
+                Cancel
               </button>
               <button
                 onClick={confirmNextSection}
-                style={{
-                  padding: "10px 20px",
-                  borderRadius: 6,
-                  border: "none",
-                  background: "#0b7a34",
-                  color: "white",
-                  cursor: "pointer",
-                }}
+                className="rounded-[10px] bg-[var(--color-primary)] px-4 py-2 text-sm font-semibold text-white"
               >
-                Lanjutkan
+                Continue
               </button>
             </div>
           </div>
@@ -1751,28 +1779,3 @@ export default function SimulationPage() {
     </main>
   );
 }
-
-const tabStyle: React.CSSProperties = {
-  color: "white",
-  border: "none",
-  borderRadius: 5,
-  padding: "8px 14px",
-  cursor: "pointer",
-};
-
-const startBtnStyle: React.CSSProperties = {
-  padding: "10px 16px",
-  borderRadius: 6,
-  border: "none",
-  background: "#1d4ed8",
-  color: "white",
-  cursor: "pointer",
-};
-
-const navBtnStyle: React.CSSProperties = {
-  padding: "8px 14px",
-  borderRadius: 6,
-  border: "1px solid #bbb",
-  background: "white",
-  cursor: "pointer",
-};

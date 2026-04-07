@@ -3,7 +3,7 @@
 import React from "react";
 
 type TypographyVariant = "h1" | "h2" | "h3" | "body" | "body-sm" | "label" | "caption";
-type TypographyColor = "default" | "muted" | "primary" | "error";
+type TypographyColor = "default" | "muted" | "primary" | "error" | "success" | "warning" | "info";
 type TypographySize = "xs" | "sm" | "base" | "lg" | "xl" | "2xl" | "3xl";
 
 interface TypographyProps {
@@ -40,6 +40,9 @@ const colorStyles: Record<TypographyColor, string> = {
   muted: "text-gray-500",
   primary: "text-blue-600",
   error: "text-red-600",
+  success: "text-green-600",
+  warning: "text-amber-600",
+  info: "text-sky-600",
 };
 
 const variantElements: Record<TypographyVariant, React.ElementType> = {

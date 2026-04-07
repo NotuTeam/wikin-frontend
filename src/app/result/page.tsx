@@ -2,13 +2,6 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import {
-  Button,
-  Card,
-  Typography,
-  Badge,
-  Modal,
-} from "@/components";
 import { WritingVisual, WritingReviewCard } from "@/components/features";
 import { SimulationResultData, SectionResultSummary } from "@/types";
 
@@ -37,149 +30,162 @@ export default function ResultPage() {
 
   const toggleSection = (sectionId: string) => {
     const newExpanded = new Set(expandedSections);
-    if (newExpanded.has(sectionId)) {
-      newExpanded.delete(sectionId);
-    } else {
-      newExpanded.add(sectionId);
-    }
+    if (newExpanded.has(sectionId)) newExpanded.delete(sectionId);
+    else newExpanded.add(sectionId);
     setExpandedSections(newExpanded);
   };
 
-  const getAnswerStatus = (
-    isMcq: boolean,
-    isCorrect: boolean | null,
-    questionType: string
-  ) => {
+  const getAnswerStatus = (isCorrect: boolean | null, questionType: string) => {
     if (isCorrect === null) {
-      if (questionType === "text") return { text: "Submitted", variant: "info" as const };
-      return { text: "Not auto-graded", variant: "neutral" as const };
+      return questionType === "text"
+        ? { text: "Submitted", className: "bg-blue-100 text-blue-800" }
+        : { text: "Not auto-graded", className: "bg-slate-100 text-slate-700" };
     }
     return isCorrect
-      ? { text: "Correct", variant: "success" as const }
-      : { text: "Incorrect", variant: "error" as const };
+      ? { text: "Correct", className: "bg-[var(--color-accent-pale)] text-[var(--color-accent-dark)]" }
+      : { text: "Incorrect", className: "bg-red-100 text-red-700" };
   };
 
   if (!result) {
     return (
-      <main className="max-w-4xl mx-auto p-6">
-        <Card className="text-center py-12">
-          <Typography variant="h2" className="mb-4">No Results Found</Typography>
-          <Typography variant="body" color="muted" className="mb-6">
+      <main className="mx-auto max-w-4xl p-6">
+        <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white px-6 py-12 text-center shadow-sm">
+          <h2 className="mb-3 text-2xl font-semibold text-[var(--color-neutral-900)]">No Results Found</h2>
+          <p className="mb-6 text-sm text-[var(--color-neutral-500)]">
             Please complete a simulation first to see your results.
-          </Typography>
-          <Button onClick={() => router.push("/")}>Back to Simulation</Button>
-        </Card>
+          </p>
+          <button
+            onClick={() => router.push("/")}
+            className="rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white"
+          >
+            Back to Simulation
+          </button>
+        </div>
       </main>
     );
   }
 
+  const heroGradient =
+    result.totalPercentage >= 70
+      ? "linear-gradient(135deg, #1DAF6A, #3DD68C)"
+      : result.totalPercentage >= 50
+        ? "linear-gradient(135deg, #D97706, #F59E0B)"
+        : "linear-gradient(135deg, #DC2626, #EF4444)";
+
+  const strengths = result.sectionScores.filter((s) => s.percentage >= 70);
+  const weaknesses = result.sectionScores.filter((s) => s.percentage < 50);
+
   return (
-    <main className="max-w-5xl mx-auto p-6">
-      <Typography variant="h1" className="mb-2">
-        {result.examType.toUpperCase()} Results
-      </Typography>
-      <Typography variant="body" color="muted" className="mb-6">
-        Difficulty: {result.difficulty}
-      </Typography>
-
-      {/* Total Score Card */}
-      <Card className="mb-6 bg-gradient-to-r from-blue-50 to-indigo-50">
-        <Typography variant="h2" className="mb-4">Total Score</Typography>
-        <div className="flex items-center gap-4">
-          <div className="text-5xl font-bold text-blue-600">
-            {result.totalPercentage}%
-          </div>
-          <div className="text-gray-600">
-            <Typography variant="body-sm">
-              MCQ: {result.totalCorrect}/{result.totalQuestions} correct
-            </Typography>
-          </div>
+    <main className="mx-auto max-w-6xl space-y-6 px-4 py-6 md:px-7">
+      <section
+        className="rounded-3xl px-6 py-10 text-center text-white md:px-10"
+        style={{ background: heroGradient }}
+      >
+        <p className="text-sm text-white/80">{result.examType.toUpperCase()} Simulation — {result.difficulty}</p>
+        <div
+          className="my-2 text-[72px] font-extrabold leading-none md:text-[80px]"
+          style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
+        >
+          {result.totalPercentage}
         </div>
-      </Card>
+        <p className="text-base text-white/80">dari 100 maksimal</p>
+        <span className="mt-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-xs font-medium">
+          {result.totalPercentage >= 70
+            ? "Excellent"
+            : result.totalPercentage >= 50
+              ? "Good"
+              : "Needs Improvement"}
+        </span>
+      </section>
 
-      {/* Section Scores */}
-      <Card className="mb-6">
-        <Typography variant="h3" className="mb-4">Section Scores</Typography>
-        <div className="grid gap-3">
-          {result.sectionScores.map((section) => (
-            <div
-              key={section.sectionId}
-              className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
-            >
-              <Typography variant="body-sm" className="font-medium">
-                {section.sectionTitle}
-              </Typography>
-              <div className="flex items-center gap-3">
-                <Badge
-                  variant={
-                    section.percentage >= 70
-                      ? "success"
-                      : section.percentage >= 50
-                      ? "warning"
-                      : "error"
-                  }
-                >
-                  {section.percentage}%
-                </Badge>
-                <span className="text-sm text-gray-500">
-                  {section.correct}/{section.total}
-                </span>
+      <section className={`grid gap-4 ${result.sectionScores.length === 1 ? "grid-cols-1" : "md:grid-cols-2 xl:grid-cols-4"}`}>
+        {result.sectionScores.map((section) => {
+          const colorClass =
+            section.percentage >= 70
+              ? "text-[var(--color-accent-dark)]"
+              : section.percentage >= 50
+                ? "text-[var(--color-warning)]"
+                : "text-[var(--color-danger)]";
+          const barColor =
+            section.percentage >= 70
+              ? "var(--color-accent)"
+              : section.percentage >= 50
+                ? "var(--color-warning)"
+                : "var(--color-danger)";
+
+          return (
+            <div key={section.sectionId} className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
+              <div className="mb-2 text-xs font-medium text-[var(--color-neutral-500)]">{section.sectionTitle}</div>
+              <div
+                className={`mb-3 text-[28px] font-bold ${colorClass}`}
+                style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
+              >
+                {section.percentage}%
               </div>
+              <div className="mb-2 h-1.5 rounded-full bg-[var(--color-neutral-100)]">
+                <div
+                  className="h-full rounded-full transition-all"
+                  style={{ width: `${section.percentage}%`, background: barColor }}
+                />
+              </div>
+              <p className="text-xs text-[var(--color-neutral-500)]">{section.correct} / {section.total} correct answers</p>
             </div>
-          ))}
-        </div>
-      </Card>
+          );
+        })}
+      </section>
 
-      {/* Question Review */}
-      <Card className="mb-6">
-        <Typography variant="h3" className="mb-4">Question Review</Typography>
+      <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
+        <h3 className="mb-3 text-xl font-semibold text-[var(--color-neutral-900)]">Performance Tags</h3>
+        <div className="flex flex-wrap gap-2">
+          {strengths.map((s) => (
+            <span key={`strong-${s.sectionId}`} className="rounded-full bg-[var(--color-accent-pale)] px-3 py-1 text-xs font-medium text-[var(--color-accent-dark)]">
+Strong: {s.sectionTitle}
+            </span>
+          ))}
+          {weaknesses.map((s) => (
+            <span key={`weak-${s.sectionId}`} className="rounded-full bg-red-50 px-3 py-1 text-xs font-medium text-[var(--color-danger)]">
+Weak: {s.sectionTitle}
+            </span>
+          ))}
+          {!strengths.length && !weaknesses.length && (
+            <span className="rounded-full bg-[var(--color-neutral-100)] px-3 py-1 text-xs font-medium text-[var(--color-neutral-500)]">
+All sections are in the middle range
+            </span>
+          )}
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
+        <h2 className="mb-4 text-[32px] font-bold text-[var(--color-neutral-900)]">Question Review</h2>
         <div className="space-y-3">
-          {result.sections.map((section, idx) => {
+          {result.sections.map((section) => {
             const sectionScore = scoreMap.get(section.id);
             const isExpanded = expandedSections.has(section.id);
 
             return (
-              <div
-                key={section.id}
-                className="border border-gray-200 rounded-lg overflow-hidden"
-              >
+              <div key={section.id} className="overflow-hidden rounded-2xl border border-[var(--color-neutral-300)]">
                 <button
                   onClick={() => toggleSection(section.id)}
-                  className="w-full flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 transition-colors text-left"
+                  className="flex w-full items-center justify-between bg-[var(--color-neutral-50)] px-5 py-4 text-left transition hover:bg-white"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-lg">
-                      {isExpanded ? "▼" : "▶"}
-                    </span>
-                    <Typography variant="body-sm" className="font-medium">
-                      {section.title}
-                    </Typography>
+                    <span className="text-sm text-[var(--color-neutral-500)]">{isExpanded ? "▼" : "▶"}</span>
+                    <span className="text-sm font-semibold text-[var(--color-neutral-900)]">{section.title}</span>
                     {sectionScore && (
-                      <Badge
-                        variant={
-                          sectionScore.percentage >= 70
-                            ? "success"
-                            : sectionScore.percentage >= 50
-                            ? "warning"
-                            : "error"
-                        }
-                        size="sm"
-                      >
+                      <span className="rounded-full bg-[var(--color-primary-pale)] px-2 py-0.5 text-xs font-medium text-[var(--color-primary)]">
                         {sectionScore.correct}/{sectionScore.total} ({sectionScore.percentage}%)
-                      </Badge>
+                      </span>
                     )}
                   </div>
                 </button>
 
                 {isExpanded && (
-                  <div className="p-4 space-y-4">
+                  <div className="space-y-4 border-t border-[var(--color-neutral-100)] p-5">
                     {section.questions.map((q) => {
                       const key = `${section.id}:${q.id}`;
                       const userAnswer = result.answers[key] ?? "";
                       const isMcq = q.type === "mcq" && q.correctAnswer !== undefined;
-                      const isCorrect = isMcq
-                        ? userAnswer === String(q.correctAnswer)
-                        : null;
+                      const isCorrect = isMcq ? userAnswer === String(q.correctAnswer) : null;
 
                       const userAnswerLabel =
                         q.options && userAnswer !== "" && !Number.isNaN(Number(userAnswer))
@@ -191,77 +197,67 @@ export default function ResultPage() {
                           ? `${(q.correctAnswer as number) + 1}. ${q.options[q.correctAnswer as number] ?? ""}`
                           : "N/A";
 
-                      const status = getAnswerStatus(isMcq, isCorrect, q.type);
+                      const status = getAnswerStatus(isCorrect, q.type);
 
                       return (
-                        <div
-                          key={q.id}
-                          className="p-4 bg-gray-50 rounded-lg border border-gray-200"
-                        >
-                          <div className="flex items-start justify-between gap-4 mb-3">
-                            <Typography variant="body-sm" className="font-medium whitespace-pre-wrap flex-1">
+                        <div key={q.id} className="rounded-2xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4">
+                          <div className="mb-3 flex items-start justify-between gap-3">
+                            <p className="flex-1 whitespace-pre-wrap text-sm font-medium text-[var(--color-neutral-900)]">
                               Q{q.number}. {q.text}
-                            </Typography>
-                            <Badge variant={status.variant} size="sm">
+                            </p>
+                            <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${status.className}`}>
                               {status.text}
-                            </Badge>
+                            </span>
                           </div>
 
                           {q.details?.statement && (
-                            <div className="mb-3 p-2 bg-white rounded border border-gray-200">
-                              <Typography variant="label" size="sm">Statement:</Typography>
-                              <Typography variant="body-sm" color="muted" className="whitespace-pre-wrap mt-1">
-                                {q.details.statement}
-                              </Typography>
+                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">Statement</p>
+                              <p className="whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">{q.details.statement}</p>
                             </div>
                           )}
 
                           {q.details?.questionText && (
-                            <div className="mb-3">
-                              <Typography variant="label" size="sm">Question:</Typography>
-                              <Typography variant="body-sm" color="muted" className="whitespace-pre-wrap mt-1">
-                                {q.details.questionText}
-                              </Typography>
+                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">Question</p>
+                              <p className="whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">{q.details.questionText}</p>
                             </div>
                           )}
 
-                          {q.details?.visualData && (
-                            <WritingVisual visualData={q.details.visualData} />
-                          )}
+                          {q.details?.visualData && <WritingVisual visualData={q.details.visualData} />}
 
                           {q.details?.instructions && (
-                            <p className="text-xs text-slate-600 mb-3">
-                              <span className="font-medium">Note:</span> {q.details.instructions}
-                            </p>
+                            <p className="mb-3 text-xs text-slate-600">Note: {q.details.instructions}</p>
                           )}
 
-                          <div className="grid gap-2 text-sm">
-                            <div className="flex gap-2">
-                              <span className="text-gray-600 min-w-[120px]">Your Answer:</span>
-                              <span className={isCorrect === false ? "text-red-600" : ""}>
-                                {userAnswerLabel}
-                              </span>
+                          <div className="mb-3 space-y-2 text-sm">
+                            <div className={`rounded-[10px] border-l-4 p-3 ${
+                              isCorrect === false
+                                ? "border-[var(--color-danger)] bg-red-50"
+                                : "border-[var(--color-accent)] bg-[var(--color-accent-pale)]"
+                            }`}>
+                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-700)]">Your Answer:</p>
+                              <p className={isCorrect === false ? "text-[var(--color-danger)]" : "text-[var(--color-neutral-700)]"}>{userAnswerLabel}</p>
                             </div>
-                            {isMcq && (
-                              <div className="flex gap-2">
-                                <span className="text-gray-600 min-w-[120px]">Correct Answer:</span>
-                                <span className="text-green-600">{correctAnswerLabel}</span>
+
+                            {isMcq && isCorrect === false && (
+                              <div className="rounded-[10px] border-l-4 border-[var(--color-accent)] bg-[var(--color-accent-pale)] p-3">
+                                <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-700)]">Correct Answer:</p>
+                                <p className="text-[var(--color-accent-dark)]">{correctAnswerLabel}</p>
                               </div>
                             )}
                           </div>
 
-                          {q.details?.writingReview && (
-                            <WritingReviewCard review={q.details.writingReview} />
-                          )}
+                          {q.details?.writingReview && <WritingReviewCard review={q.details.writingReview} />}
 
-                          <div className="mt-3 pt-3 border-t border-gray-200">
-                            <Typography variant="label" size="sm">Explanation:</Typography>
-                            <Typography variant="body-sm" color="muted" className="whitespace-pre-wrap mt-1">
+                          <div className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-4">
+                            <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">Explanation:</p>
+                            <p className="whitespace-pre-wrap text-sm leading-7 text-[var(--color-neutral-700)]">
                               {q.details?.writingReview?.summary ||
                                 q.explanation ||
                                 q.details?.sampleAnswer?.examinerComments ||
                                 "Explanation not available."}
-                            </Typography>
+                            </p>
                           </div>
                         </div>
                       );
@@ -272,11 +268,14 @@ export default function ResultPage() {
             );
           })}
         </div>
-      </Card>
+      </section>
 
-      <Button onClick={() => router.push("/")} className="w-full">
+      <button
+        onClick={() => router.push("/")}
+        className="w-full rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)]"
+      >
         Back to Home
-      </Button>
+      </button>
     </main>
   );
 }

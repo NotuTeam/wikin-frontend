@@ -16,14 +16,14 @@ export function SessionRecovery({ onResume, onExit }: SessionRecoveryProps) {
   return (
     <Card className="mb-4 bg-amber-50 border-amber-200" padding="md">
       <Typography variant="body" className="mb-3">
-        Session sebelumnya masih aktif (maks 3 jam). Lanjutkan atau keluar untuk mulai session baru.
+        Your previous session is still active (up to 3 hours). Continue or exit to start a new session.
       </Typography>
       <div className="flex gap-2">
         <Button variant="success" onClick={onResume}>
-          Lanjutkan Session
+          Resume Session
         </Button>
         <Button variant="danger" onClick={onExit}>
-          Keluar Session
+          Exit Session
         </Button>
       </div>
     </Card>

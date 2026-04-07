@@ -5,8 +5,8 @@ import {
   idbGetSession,
   idbDeleteSession,
   decryptLocalSession,
-  SimulationSessionPayload,
 } from "@/lib";
+import { SimulationSessionPayload } from "@/types";
 
 export function useSessionRecovery() {
   const [sessionActive, setSessionActive] = useState(false);
