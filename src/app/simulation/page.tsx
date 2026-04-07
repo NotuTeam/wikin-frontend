@@ -74,6 +74,9 @@ export default function SimulationPage() {
   const [ttsPlaying, setTtsPlaying] = useState(false);
   const [ttsElapsedSeconds, setTtsElapsedSeconds] = useState(0);
   const [ttsEstimatedSeconds, setTtsEstimatedSeconds] = useState(0);
+  const [ttsPermissionAccepted, setTtsPermissionAccepted] = useState(false);
+  const [showTtsPermissionModal, setShowTtsPermissionModal] = useState(false);
+  const [ttsUnavailableReason, setTtsUnavailableReason] = useState<string | null>(null);
   const [showNextSectionModal, setShowNextSectionModal] = useState(false);
   const [nextFlowAction, setNextFlowAction] = useState<
     "next" | "finish" | null
@@ -122,13 +125,35 @@ export default function SimulationPage() {
     setTtsEstimatedSeconds(0);
   };
 
+  const ensureTtsReady = () => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+      setTtsUnavailableReason(
+        "Text-to-Speech is not supported on this browser/device.",
+      );
+      return false;
+    }
+
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices.length) {
+      setTtsUnavailableReason(
+        "No speech voice is available on this device. Please enable a system voice and try again.",
+      );
+      return false;
+    }
+
+    setTtsUnavailableReason(null);
+    return true;
+  };
+
   const playTts = (text: string) => {
-    if (
-      typeof window === "undefined" ||
-      !("speechSynthesis" in window) ||
-      !text
-    )
+    if (!text) return;
+
+    if (!ttsPermissionAccepted) {
+      setShowTtsPermissionModal(true);
       return;
+    }
+
+    if (!ensureTtsReady()) return;
 
     if (ttsProgressTimerRef.current) {
       window.clearInterval(ttsProgressTimerRef.current);
@@ -161,6 +186,9 @@ export default function SimulationPage() {
         window.clearInterval(ttsProgressTimerRef.current);
         ttsProgressTimerRef.current = null;
       }
+      setTtsUnavailableReason(
+        "TTS playback failed or was blocked by your device/browser settings.",
+      );
       setTtsPlaying(false);
     };
 
@@ -170,6 +198,7 @@ export default function SimulationPage() {
 
     speechRef.current = utterance;
     setTtsPlaying(true);
+    setTtsUnavailableReason(null);
     window.speechSynthesis.speak(utterance);
   };
 
@@ -226,6 +255,50 @@ export default function SimulationPage() {
 
     init();
   }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const storedPermission = localStorage.getItem("wikin-tts-permission");
+    if (storedPermission === "accepted") {
+      setTtsPermissionAccepted(true);
+      if (!ensureTtsReady()) {
+        setTtsPermissionAccepted(false);
+      }
+      return;
+    }
+
+    setShowTtsPermissionModal(true);
+
+    if (!("speechSynthesis" in window)) {
+      setTtsUnavailableReason(
+        "Text-to-Speech is not supported on this browser/device.",
+      );
+    }
+  }, []);
+
+  const handleAcceptTtsPermission = () => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("wikin-tts-permission", "accepted");
+    }
+    setTtsPermissionAccepted(true);
+    setShowTtsPermissionModal(false);
+    if (!ensureTtsReady()) {
+      setTtsPermissionAccepted(false);
+    }
+  };
+
+  const handleRejectTtsPermission = () => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("wikin-tts-permission", "rejected");
+    }
+    setTtsPermissionAccepted(false);
+    setShowTtsPermissionModal(false);
+    setTtsUnavailableReason(
+      "TTS is disabled. You can still continue the simulation without audio playback.",
+    );
+    stopTts();
+  };
 
   const answeredCount = useMemo(() => {
     if (!currentSection) return 0;
@@ -1423,7 +1496,9 @@ export default function SimulationPage() {
                     ) : (
                       <button
                         onClick={() => playTts(activeListeningTrack.script)}
-                        disabled={ttsPlaying}
+                        disabled={
+                          ttsPlaying || (!!ttsUnavailableReason && ttsPermissionAccepted)
+                        }
                         aria-label="Play TTS"
                         className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-neutral-300)] bg-white text-[var(--color-primary)] disabled:cursor-not-allowed disabled:opacity-60"
                       >
@@ -1452,6 +1527,16 @@ export default function SimulationPage() {
                       </div>
                     </div>
                   </div>
+                  {ttsUnavailableReason && (
+                    <p className="mt-2 text-xs text-[var(--color-danger)]">
+                      {ttsUnavailableReason}
+                    </p>
+                  )}
+                  {!ttsPermissionAccepted && !ttsUnavailableReason && (
+                    <p className="mt-2 text-xs text-[var(--color-neutral-500)]">
+                      Enable TTS permission to play listening audio guidance.
+                    </p>
+                  )}
                 </div>
               )}
 
@@ -1742,6 +1827,39 @@ export default function SimulationPage() {
             </aside>
           </div>
         </section>
+      )}
+
+      {showTtsPermissionModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="w-[90%] max-w-md rounded-2xl bg-white p-6 shadow-xl">
+            <h3 className="mb-2 text-xl font-semibold text-[var(--color-neutral-900)]">
+              Enable Text-to-Speech (TTS)?
+            </h3>
+            <p className="mb-2 text-sm text-[var(--color-neutral-700)]">
+              We use device Text-to-Speech to read listening scripts aloud during
+              simulation. This helps you practice listening flow with audio-like
+              playback.
+            </p>
+            <p className="mb-5 text-xs text-[var(--color-neutral-500)]">
+              If you reject it, simulation still works normally, but TTS playback
+              will be disabled.
+            </p>
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={handleRejectTtsPermission}
+                className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white px-4 py-2 text-sm font-semibold text-[var(--color-neutral-700)]"
+              >
+                Continue without TTS
+              </button>
+              <button
+                onClick={handleAcceptTtsPermission}
+                className="rounded-[10px] bg-[var(--color-primary)] px-4 py-2 text-sm font-semibold text-white"
+              >
+                Enable TTS
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       {showNextSectionModal && (
