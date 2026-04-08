@@ -17,6 +17,8 @@ export type SimulationSessionPayload = {
   currentSectionIndex: number;
   currentQuestionIndex: number;
   remainingSeconds: number;
+  timerDeadlineMs?: number | null;
+  timerSectionIndex?: number | null;
   answers: Record<string, string>;
   failedSectionIndex: number | null;
   failedListeningPartIndex: number | null;

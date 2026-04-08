@@ -8,7 +8,13 @@ export async function streamGenerate(
   onProgress: (message: string) => void
 ): Promise<any> {
   return await new Promise((resolve, reject) => {
-    const params = new URLSearchParams({ endpoint, difficulty, ...body });
+    const requestId = `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+    const params = new URLSearchParams({
+      endpoint,
+      difficulty,
+      ...body,
+      requestId,
+    });
     const source = new EventSource(
       `${API_URL}/api/questions/stream?${params.toString()}`
     );

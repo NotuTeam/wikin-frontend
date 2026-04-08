@@ -66,6 +66,10 @@ export default function SimulationPage() {
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [remainingSeconds, setRemainingSeconds] = useState(0);
+  const [timerDeadlineMs, setTimerDeadlineMs] = useState<number | null>(null);
+  const [timerSectionIndex, setTimerSectionIndex] = useState<number | null>(
+    null,
+  );
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [failedSectionIndex, setFailedSectionIndex] = useState<number | null>(
     null,
@@ -76,7 +80,9 @@ export default function SimulationPage() {
   const [ttsEstimatedSeconds, setTtsEstimatedSeconds] = useState(0);
   const [ttsPermissionAccepted, setTtsPermissionAccepted] = useState(false);
   const [showTtsPermissionModal, setShowTtsPermissionModal] = useState(false);
-  const [ttsUnavailableReason, setTtsUnavailableReason] = useState<string | null>(null);
+  const [ttsUnavailableReason, setTtsUnavailableReason] = useState<
+    string | null
+  >(null);
   const [showNextSectionModal, setShowNextSectionModal] = useState(false);
   const [nextFlowAction, setNextFlowAction] = useState<
     "next" | "finish" | null
@@ -87,6 +93,10 @@ export default function SimulationPage() {
   const [sessionActive, setSessionActive] = useState(false);
   const [recoverableSessionPayload, setRecoverableSessionPayload] =
     useState<SimulationSessionPayload | null>(null);
+  const [devFillConfig, setDevFillConfig] = useState<Record<string, number>>(
+    {},
+  );
+  const [devAutoFillMinimized, setDevAutoFillMinimized] = useState(false);
   const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
   const ttsProgressTimerRef = useRef<number | null>(null);
   const toeflListeningPartialRef = useRef<Record<string, any>>({});
@@ -94,8 +104,39 @@ export default function SimulationPage() {
   const persistDebounceRef = useRef<number | null>(null);
   const lastPersistedHashRef = useRef("");
   const lastPersistedAtRef = useRef(0);
+  const autoAdvanceLockRef = useRef(false);
+
+  const getSectionDurationSeconds = (sectionIndex: number) => {
+    const section = sections[sectionIndex];
+    if (section) return section.durationMinutes * 60;
+    return templates[sectionIndex]?.durationMinutes
+      ? templates[sectionIndex].durationMinutes * 60
+      : 0;
+  };
+
+  const syncRemainingFromDeadline = (deadline: number | null) => {
+    if (!deadline) return;
+    const nextRemaining = Math.max(
+      0,
+      Math.ceil((deadline - Date.now()) / 1000),
+    );
+    setRemainingSeconds(nextRemaining);
+  };
+
+  const startSectionTimer = (
+    sectionIndex: number,
+    durationSeconds?: number,
+  ) => {
+    const seconds = durationSeconds ?? getSectionDurationSeconds(sectionIndex);
+    const safeSeconds = Math.max(0, seconds);
+    const deadline = Date.now() + safeSeconds * 1000;
+    setTimerSectionIndex(sectionIndex);
+    setTimerDeadlineMs(deadline);
+    setRemainingSeconds(safeSeconds);
+  };
 
   const router = useRouter();
+  const isDevMode = process.env.NODE_ENV === "development";
   const templates = useMemo(() => EXAM_TEMPLATES[examType], [examType]);
   const currentSection = sections[currentSectionIndex];
   const currentQuestion = currentSection?.questions[currentQuestionIndex];
@@ -123,6 +164,7 @@ export default function SimulationPage() {
     setTtsPlaying(false);
     setTtsElapsedSeconds(0);
     setTtsEstimatedSeconds(0);
+    setTtsUnavailableReason(null);
   };
 
   const ensureTtsReady = () => {
@@ -181,11 +223,18 @@ export default function SimulationPage() {
       setTtsElapsedSeconds(estimatedSeconds);
       setTtsPlaying(false);
     };
-    utterance.onerror = () => {
+    utterance.onerror = (event) => {
       if (ttsProgressTimerRef.current) {
         window.clearInterval(ttsProgressTimerRef.current);
         ttsProgressTimerRef.current = null;
       }
+
+      const reason = event.error;
+      if (reason === "interrupted" || reason === "canceled") {
+        setTtsPlaying(false);
+        return;
+      }
+
       setTtsUnavailableReason(
         "TTS playback failed or was blocked by your device/browser settings.",
       );
@@ -210,6 +259,7 @@ export default function SimulationPage() {
 
   useEffect(() => {
     if (!started || !currentSection) return;
+
     const canRunTimer =
       currentSection.status === "done" ||
       (currentSection.id === "listening" &&
@@ -217,13 +267,25 @@ export default function SimulationPage() {
         currentSection.questions.length > 0);
     if (!canRunTimer) return;
     if (currentSection.questions.length === 0) return;
-    if (remainingSeconds <= 0) return;
-    const timer = setInterval(
-      () => setRemainingSeconds((prev) => Math.max(0, prev - 1)),
-      1000,
-    );
+
+    if (timerSectionIndex !== currentSectionIndex || !timerDeadlineMs) {
+      startSectionTimer(currentSectionIndex);
+      return;
+    }
+
+    syncRemainingFromDeadline(timerDeadlineMs);
+    const timer = setInterval(() => {
+      syncRemainingFromDeadline(timerDeadlineMs);
+    }, 1000);
+
     return () => clearInterval(timer);
-  }, [started, remainingSeconds, currentSection]);
+  }, [
+    started,
+    currentSection,
+    currentSectionIndex,
+    timerSectionIndex,
+    timerDeadlineMs,
+  ]);
 
   useEffect(() => {
     stopTts();
@@ -429,6 +491,8 @@ export default function SimulationPage() {
     currentSectionIndex,
     currentQuestionIndex,
     remainingSeconds,
+    timerDeadlineMs,
+    timerSectionIndex,
     answers,
     failedSectionIndex,
     failedListeningPartIndex,
@@ -738,11 +802,6 @@ export default function SimulationPage() {
         if (partBReady) {
           const parsed = parseSection("toefl", "listening", partial);
           updateSection(sectionIndex, { ...parsed, status: "generating" });
-
-          if (remainingSeconds === 0) {
-            const template = templates.find((s) => s.id === "listening");
-            if (template) setRemainingSeconds(template.durationMinutes * 60);
-          }
         } else {
           updateSection(sectionIndex, {
             questions: [],
@@ -805,11 +864,6 @@ export default function SimulationPage() {
         if (partBReady) {
           const parsed = parseSection("ielts", "listening", partial);
           updateSection(sectionIndex, { ...parsed, status: "generating" });
-
-          if (remainingSeconds === 0) {
-            const template = templates.find((s) => s.id === "listening");
-            if (template) setRemainingSeconds(template.durationMinutes * 60);
-          }
         } else {
           updateSection(sectionIndex, {
             questions: [],
@@ -958,10 +1012,6 @@ export default function SimulationPage() {
         const parsed = parseSection(activeExamType, activeTemplates[i].id, raw);
         updateSection(i, parsed);
 
-        if (i === 0 && remainingSeconds === 0) {
-          setRemainingSeconds(parsed.durationMinutes * 60);
-        }
-
         if (
           i === currentSectionIndex &&
           currentQuestionIndex >= parsed.questions.length
@@ -1006,12 +1056,35 @@ export default function SimulationPage() {
     setDifficulty(recoverableSessionPayload.difficulty);
     setStarted(recoverableSessionPayload.started);
     setSections(resumedSections);
-    setCurrentSectionIndex(recoverableSessionPayload.currentSectionIndex || 0);
+    const resumedSectionIndex =
+      recoverableSessionPayload.currentSectionIndex || 0;
+    const resumedRemainingSeconds =
+      recoverableSessionPayload.remainingSeconds || 0;
+
+    setCurrentSectionIndex(resumedSectionIndex);
     setCurrentQuestionIndex(
       recoverableSessionPayload.currentQuestionIndex || 0,
     );
-    setRemainingSeconds(recoverableSessionPayload.remainingSeconds || 0);
+    setRemainingSeconds(resumedRemainingSeconds);
     setAnswers(recoverableSessionPayload.answers || {});
+
+    const restoredDeadline = recoverableSessionPayload.timerDeadlineMs || null;
+    const restoredTimerSectionIndex =
+      recoverableSessionPayload.timerSectionIndex ?? resumedSectionIndex;
+
+    if (restoredDeadline && restoredDeadline > Date.now()) {
+      setTimerDeadlineMs(restoredDeadline);
+      setTimerSectionIndex(restoredTimerSectionIndex);
+      syncRemainingFromDeadline(restoredDeadline);
+    } else if (resumedRemainingSeconds > 0) {
+      const rebuiltDeadline = Date.now() + resumedRemainingSeconds * 1000;
+      setTimerDeadlineMs(rebuiltDeadline);
+      setTimerSectionIndex(restoredTimerSectionIndex);
+      syncRemainingFromDeadline(rebuiltDeadline);
+    } else {
+      setTimerDeadlineMs(null);
+      setTimerSectionIndex(null);
+    }
     setFailedSectionIndex(recoverableSessionPayload.failedSectionIndex);
     setFailedListeningPartIndex(resumedFailedListeningPartIndex);
     setProgress(recoverableSessionPayload.progress || "Session resumed");
@@ -1048,6 +1121,8 @@ export default function SimulationPage() {
     setCurrentSectionIndex(0);
     setCurrentQuestionIndex(0);
     setRemainingSeconds(0);
+    setTimerDeadlineMs(null);
+    setTimerSectionIndex(null);
     setFailedSectionIndex(null);
     setFailedListeningPartIndex(null);
     setProgress("");
@@ -1073,6 +1148,8 @@ export default function SimulationPage() {
     setCurrentSectionIndex(0);
     setCurrentQuestionIndex(0);
     setRemainingSeconds(0);
+    setTimerDeadlineMs(null);
+    setTimerSectionIndex(null);
     setProgress("Initializing simulation...");
 
     setSessionActive(true);
@@ -1085,6 +1162,8 @@ export default function SimulationPage() {
       currentSectionIndex: 0,
       currentQuestionIndex: 0,
       remainingSeconds: 0,
+      timerDeadlineMs: null,
+      timerSectionIndex: null,
       answers: {},
       failedSectionIndex: null,
       failedListeningPartIndex: null,
@@ -1145,6 +1224,31 @@ export default function SimulationPage() {
     }
   };
 
+  const finalizeSimulation = async () => {
+    const evaluatedSections = await evaluateIeltsWriting(sections);
+    const resultData = buildResultData(evaluatedSections);
+    try {
+      sessionStorage.setItem("simulation-result", JSON.stringify(resultData));
+    } catch {}
+
+    try {
+      await idbDeleteSession();
+    } catch {}
+    setSessionActive(false);
+
+    router.push("/result");
+  };
+
+  const advanceToNextSection = () => {
+    const nextIndex = currentSectionIndex + 1;
+    if (nextIndex >= sections.length) return;
+
+    const nextDuration = getSectionDurationSeconds(nextIndex);
+    setCurrentSectionIndex(nextIndex);
+    setCurrentQuestionIndex(0);
+    startSectionTimer(nextIndex, nextDuration);
+  };
+
   const goToNextSection = () => {
     if (isLastSection) {
       if (!allSectionsGenerated) return;
@@ -1166,30 +1270,46 @@ export default function SimulationPage() {
     setNextFlowAction(null);
 
     if (action === "finish") {
-      const evaluatedSections = await evaluateIeltsWriting(sections);
-      const resultData = buildResultData(evaluatedSections);
-      try {
-        sessionStorage.setItem("simulation-result", JSON.stringify(resultData));
-      } catch {}
-
-      try {
-        await idbDeleteSession();
-      } catch {}
-      setSessionActive(false);
-
-      router.push("/result");
+      await finalizeSimulation();
       return;
     }
 
     if (action === "next") {
-      const nextIndex = currentSectionIndex + 1;
-      if (nextIndex < sections.length) {
-        setCurrentSectionIndex(nextIndex);
-        setCurrentQuestionIndex(0);
-        setRemainingSeconds(sections[nextIndex].durationMinutes * 60);
-      }
+      advanceToNextSection();
     }
   };
+
+  useEffect(() => {
+    if (!started || !currentSection) return;
+
+    if (remainingSeconds > 0) {
+      autoAdvanceLockRef.current = false;
+      return;
+    }
+
+    if (currentSection.questions.length === 0) return;
+    if (!currentSectionReady) return;
+    if (isLastSection && !allSectionsGenerated) return;
+    if (autoAdvanceLockRef.current) return;
+
+    autoAdvanceLockRef.current = true;
+    setShowNextSectionModal(false);
+    setNextFlowAction(null);
+
+    if (isLastSection) {
+      void finalizeSimulation();
+      return;
+    }
+
+    advanceToNextSection();
+  }, [
+    started,
+    remainingSeconds,
+    currentSection,
+    currentSectionReady,
+    isLastSection,
+    allSectionsGenerated,
+  ]);
 
   const onAnswer = (value: string) => {
     if (!currentSection || !currentQuestion) return;
@@ -1221,6 +1341,8 @@ export default function SimulationPage() {
     currentSectionIndex,
     currentQuestionIndex,
     remainingSeconds,
+    timerDeadlineMs,
+    timerSectionIndex,
     answers,
     failedSectionIndex,
     failedListeningPartIndex,
@@ -1256,6 +1378,8 @@ export default function SimulationPage() {
     currentSectionIndex,
     currentQuestionIndex,
     remainingSeconds,
+    timerDeadlineMs,
+    timerSectionIndex,
     answers,
     failedSectionIndex,
     failedListeningPartIndex,
@@ -1297,6 +1421,73 @@ export default function SimulationPage() {
   const ttsProgressPercent = ttsEstimatedSeconds
     ? Math.min(100, Math.round((ttsElapsedSeconds / ttsEstimatedSeconds) * 100))
     : 0;
+
+  const showDevWaitingVideo =
+    isDevMode &&
+    started &&
+    !!currentSection &&
+    currentSection.status !== "done" &&
+    currentSection.questions.length === 0;
+
+  useEffect(() => {
+    if (!isDevMode || !started || !sections.length) return;
+
+    setDevFillConfig((prev) => {
+      const next: Record<string, number> = { ...prev };
+      sections.forEach((section) => {
+        if (next[section.id] === undefined) {
+          next[section.id] = 100;
+        }
+      });
+      return next;
+    });
+  }, [isDevMode, started, sections]);
+
+  const applyDevAutoFill = () => {
+    if (!isDevMode || !sections.length) return;
+
+    const nextAnswers: Record<string, string> = { ...answers };
+
+    sections.forEach((section) => {
+      const percent = devFillConfig[section.id] ?? 100;
+      const mcqQuestions = section.questions.filter(
+        (q) => q.type === "mcq" && q.correctAnswer !== undefined,
+      );
+
+      if (!mcqQuestions.length) return;
+
+      const targetCorrect = Math.round((percent / 100) * mcqQuestions.length);
+
+      mcqQuestions.forEach((q, idx) => {
+        const key = `${section.id}:${q.id}`;
+        const correct = String(q.correctAnswer);
+
+        if (idx < targetCorrect) {
+          nextAnswers[key] = correct;
+          return;
+        }
+
+        const wrongOptions = (q.options || [])
+          .map((_, optionIdx) => String(optionIdx))
+          .filter((optionIdx) => optionIdx !== correct);
+
+        nextAnswers[key] = wrongOptions[0] || correct;
+      });
+
+      const writingQuestions = section.questions.filter(
+        (q) => q.type === "text",
+      );
+      writingQuestions.forEach((q, idx) => {
+        const key = `${section.id}:${q.id}`;
+        if (!nextAnswers[key]?.trim()) {
+          nextAnswers[key] =
+            `Development auto-fill answer ${idx + 1} for ${section.title}.`;
+        }
+      });
+    });
+
+    setAnswers(nextAnswers);
+  };
 
   return (
     <main className="mx-auto max-w-[1280px] px-4 py-6 md:px-7">
@@ -1496,9 +1687,7 @@ export default function SimulationPage() {
                     ) : (
                       <button
                         onClick={() => playTts(activeListeningTrack.script)}
-                        disabled={
-                          ttsPlaying || (!!ttsUnavailableReason && ttsPermissionAccepted)
-                        }
+                        disabled={ttsPlaying}
                         aria-label="Play TTS"
                         className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-neutral-300)] bg-white text-[var(--color-primary)] disabled:cursor-not-allowed disabled:opacity-60"
                       >
@@ -1541,10 +1730,23 @@ export default function SimulationPage() {
               )}
 
               {currentSection.status !== "done" && (
-                <p className="mb-4 rounded-[10px] bg-[var(--color-neutral-50)] p-3 text-sm text-[var(--color-neutral-500)]">
+                <p className="mb-4 animate-pulse rounded-[10px] border border-[var(--color-neutral-300)] bg-[var(--color-neutral-100)] p-3 text-sm text-[var(--color-neutral-500)]">
                   This section is still being processed. Questions that are
                   already generated can still be answered.
                 </p>
+              )}
+
+              {showDevWaitingVideo && (
+                <div className="mb-4 overflow-hidden rounded-[10px] border border-[var(--color-neutral-300)] bg-black">
+                  <video
+                    src="https://res.cloudinary.com/dm1iagszk/video/upload/v1775639679/YTDown.com_YouTube_Backstreet-Boys-Shape-Of-My-Heart-Offici_Media_OT5msu-dap8_003_480p_lxinzl.mp4"
+                    autoPlay
+                    loop
+                    playsInline
+                    controls
+                    className="h-full w-full object-cover"
+                  />
+                </div>
               )}
 
               {currentSection.id === "reading" &&
@@ -1829,6 +2031,66 @@ export default function SimulationPage() {
         </section>
       )}
 
+      {isDevMode && started && (
+        <>
+          {devAutoFillMinimized ? (
+            <button
+              onClick={() => setDevAutoFillMinimized(false)}
+              className="fixed bottom-5 right-5 z-40 rounded-full bg-[var(--color-primary)] px-3 py-2 text-xs font-semibold text-white shadow-lg"
+            >
+              Dev Fill
+            </button>
+          ) : (
+            <div className="fixed bottom-5 right-5 z-40 w-[290px] rounded-xl border border-[var(--color-neutral-300)] bg-white p-3 shadow-xl">
+              <div className="mb-2 flex items-center justify-between">
+                <p className="text-xs font-semibold uppercase tracking-wide text-[var(--color-primary)]">
+                  Dev Auto Fill
+                </p>
+                <button
+                  onClick={() => setDevAutoFillMinimized(true)}
+                  className="rounded-md border border-[var(--color-neutral-300)] px-2 py-0.5 text-[10px] font-semibold text-[var(--color-neutral-700)]"
+                >
+                  Minimize
+                </button>
+              </div>
+              <div className="max-h-56 space-y-2 overflow-auto pr-1">
+                {sections.map((section) => (
+                  <div
+                    key={`dev-${section.id}`}
+                    className="rounded-lg bg-[var(--color-neutral-50)] p-2"
+                  >
+                    <div className="mb-1 text-xs font-medium text-[var(--color-neutral-700)]">
+                      {section.title}
+                    </div>
+                    <select
+                      value={devFillConfig[section.id] ?? 100}
+                      onChange={(e) =>
+                        setDevFillConfig((prev) => ({
+                          ...prev,
+                          [section.id]: Number(e.target.value),
+                        }))
+                      }
+                      className="w-full rounded-md border border-[var(--color-neutral-300)] bg-white px-2 py-1 text-xs"
+                    >
+                      <option value={50}>50% correct</option>
+                      <option value={75}>75% correct</option>
+                      <option value={100}>100% correct</option>
+                    </select>
+                  </div>
+                ))}
+              </div>
+              <button
+                onClick={applyDevAutoFill}
+                disabled={!allSectionsGenerated}
+                className="mt-3 w-full rounded-[8px] bg-[var(--color-primary)] px-3 py-2 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                Execute Auto Fill
+              </button>
+            </div>
+          )}
+        </>
+      )}
+
       {showTtsPermissionModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
           <div className="w-[90%] max-w-md rounded-2xl bg-white p-6 shadow-xl">
@@ -1836,13 +2098,13 @@ export default function SimulationPage() {
               Enable Text-to-Speech (TTS)?
             </h3>
             <p className="mb-2 text-sm text-[var(--color-neutral-700)]">
-              We use device Text-to-Speech to read listening scripts aloud during
-              simulation. This helps you practice listening flow with audio-like
-              playback.
+              We use device Text-to-Speech to read listening scripts aloud
+              during simulation. This helps you practice listening flow with
+              audio-like playback.
             </p>
             <p className="mb-5 text-xs text-[var(--color-neutral-500)]">
-              If you reject it, simulation still works normally, but TTS playback
-              will be disabled.
+              If you reject it, simulation still works normally, but TTS
+              playback will be disabled.
             </p>
             <div className="flex justify-end gap-3">
               <button

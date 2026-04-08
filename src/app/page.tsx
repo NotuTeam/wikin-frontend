@@ -117,11 +117,14 @@ export default function HomePage() {
             </h1>
             <p className="mb-8 max-w-xl text-lg leading-8 text-[var(--color-neutral-700)]">
               Wikin helps you prepare with AI-powered simulations, actionable
-              performance insights, and flexible IELTS/TOEFL pathways tailored to
-              your goals.
+              performance insights, and flexible IELTS/TOEFL pathways tailored
+              to your goals.
             </p>
             <div className="flex flex-wrap items-center gap-3">
-              <Link href="/auth" className={buttonVariants({ variant: "default" })}>
+              <Link
+                href="/auth"
+                className={buttonVariants({ variant: "default" })}
+              >
                 Start Session
               </Link>
             </div>
@@ -144,14 +147,21 @@ export default function HomePage() {
             </div>
             <CardContent className="grid gap-3 p-5 sm:grid-cols-2">
               {stats.slice(0, 4).map((item) => (
-                <div key={item.label} className="rounded-xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4">
+                <div
+                  key={item.label}
+                  className="rounded-xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4"
+                >
                   <p
                     className="text-2xl font-bold text-[var(--color-primary)]"
-                    style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
+                    style={{
+                      fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                    }}
                   >
                     {item.value}
                   </p>
-                  <p className="mt-1 text-xs text-[var(--color-neutral-500)]">{item.label}</p>
+                  <p className="mt-1 text-xs text-[var(--color-neutral-500)]">
+                    {item.label}
+                  </p>
                 </div>
               ))}
             </CardContent>
@@ -166,11 +176,15 @@ export default function HomePage() {
               <div key={item.label} className="text-center">
                 <p
                   className="text-3xl font-bold text-[var(--color-primary)]"
-                  style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
+                  style={{
+                    fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                  }}
                 >
                   {item.value}
                 </p>
-                <p className="mt-1 text-sm text-[var(--color-neutral-500)]">{item.label}</p>
+                <p className="mt-1 text-sm text-[var(--color-neutral-500)]">
+                  {item.label}
+                </p>
               </div>
             ))}
           </div>
@@ -180,13 +194,20 @@ export default function HomePage() {
       <section className="mx-auto w-full max-w-[1280px] px-6 py-20 md:px-12 lg:px-16">
         <Card className="border-[var(--color-neutral-300)]">
           <CardHeader>
-            <CardTitle className="text-center">Problems We Help You Solve</CardTitle>
+            <CardTitle className="text-center">
+              Problems We Help You Solve
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid gap-4 md:grid-cols-2">
               {painPoints.map((item) => (
-                <Card key={item} className="rounded-2xl bg-[var(--color-neutral-50)] p-5 transition-transform hover:-translate-y-0.5 hover:border-[var(--color-primary-light)]">
-                  <CardDescription className="text-base">• {item}</CardDescription>
+                <Card
+                  key={item}
+                  className="rounded-2xl bg-[var(--color-neutral-50)] p-5 transition-transform hover:-translate-y-0.5 hover:border-[var(--color-primary-light)]"
+                >
+                  <CardDescription className="text-base">
+                    • {item}
+                  </CardDescription>
                 </Card>
               ))}
             </div>
@@ -202,7 +223,10 @@ export default function HomePage() {
           <CardContent>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               {features.map((feature) => (
-                <Card key={feature.title} className="rounded-2xl bg-[var(--color-neutral-50)] transition-transform hover:-translate-y-0.5 hover:border-[var(--color-primary-light)]">
+                <Card
+                  key={feature.title}
+                  className="rounded-2xl bg-[var(--color-neutral-50)] transition-transform hover:-translate-y-0.5 hover:border-[var(--color-primary-light)]"
+                >
                   <CardHeader className="p-5 pb-2">
                     <CardTitle className="text-base">{feature.title}</CardTitle>
                   </CardHeader>
@@ -235,7 +259,9 @@ export default function HomePage() {
                     <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--gradient-banner)] text-sm font-bold text-white">
                       {idx + 1}
                     </div>
-                    <CardDescription className="text-sm">{step}</CardDescription>
+                    <CardDescription className="text-sm">
+                      {step}
+                    </CardDescription>
                   </Card>
                 </div>
               ))}
@@ -256,7 +282,10 @@ export default function HomePage() {
           <CardContent>
             <div className="grid gap-4 md:grid-cols-4">
               {demoInsights.map((item) => (
-                <Card key={item.label} className="rounded-2xl bg-[var(--color-neutral-50)] p-5 text-center">
+                <Card
+                  key={item.label}
+                  className="rounded-2xl bg-[var(--color-neutral-50)] p-5 text-center"
+                >
                   <CardDescription className="text-xs text-[var(--color-neutral-500)]">
                     {item.label}
                   </CardDescription>
@@ -278,8 +307,13 @@ export default function HomePage() {
           <CardContent>
             <div className="grid gap-4 md:grid-cols-3">
               {testimonials.map((item) => (
-                <Card key={item.name} className="rounded-2xl bg-white p-5 transition-colors hover:border-[var(--color-primary-light)]">
-                  <CardDescription className="mb-3 italic">“{item.quote}”</CardDescription>
+                <Card
+                  key={item.name}
+                  className="rounded-2xl bg-white p-5 transition-colors hover:border-[var(--color-primary-light)]"
+                >
+                  <CardDescription className="mb-3 italic">
+                    “{item.quote}”
+                  </CardDescription>
                   <p className="text-sm font-semibold text-[var(--color-neutral-900)]">
                     {item.name}
                   </p>
@@ -296,11 +330,16 @@ export default function HomePage() {
       <section className="mx-auto w-full max-w-[820px] px-6 pb-20 md:px-12">
         <Card>
           <CardHeader>
-            <CardTitle className="text-center">Frequently Asked Questions</CardTitle>
+            <CardTitle className="text-center">
+              Frequently Asked Questions
+            </CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
             {faqs.map((faq) => (
-              <Card key={faq.q} className="rounded-2xl bg-[var(--color-neutral-50)] p-5">
+              <Card
+                key={faq.q}
+                className="rounded-2xl bg-[var(--color-neutral-50)] p-5"
+              >
                 <p className="mb-1 text-sm font-semibold text-[var(--color-neutral-900)]">
                   {faq.q}
                 </p>
@@ -313,7 +352,7 @@ export default function HomePage() {
 
       <section className="mx-auto w-full max-w-[1280px] px-6 pb-20 md:px-12 lg:px-16">
         <div className="rounded-3xl bg-[var(--gradient-banner)] px-6 py-20 text-center text-white">
-          <div className="mx-auto mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
+          <div className="mx-auto inline-flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
             <Image
               src="/logo.png"
               alt="Wikin logo"
@@ -323,16 +362,19 @@ export default function HomePage() {
               className="rounded-full object-contain"
             />
           </div>
-          <h5 className="mb-4 text-sm font-semibold tracking-[0.14em] text-white/85">WIKIN</h5>
-          <h2 className="mx-auto mb-6 max-w-2xl text-4xl font-bold">
-            Let's prepare for IELTS/TOEFL with more clarity?
+          <h5 className="mb-8! text-sm font-semibold tracking-[.5em] text-[var(--color-primary)]!">
+            WIKIN
+          </h5>
+          <h2 className="mx-auto! mb-6 max-w-2xl text-4xl font-bold">
+            Let's prepare your test with more clarity?
           </h2>
-          <div className="flex flex-wrap items-center justify-center gap-3">
+          <div className="flex mt-10 flex-wrap items-center justify-center gap-3">
             <Link
               href="/auth"
               className={buttonVariants({
                 variant: "outline",
-                className: "border-white/80 text-white hover:bg-white/10",
+                className:
+                  "border-white/80 text-[var(--color-primary)] hover:bg-[var(--color-primary-pale)]",
               })}
             >
               Start Session

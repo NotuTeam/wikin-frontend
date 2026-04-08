@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { WritingVisual, WritingReviewCard } from "@/components/features";
 import { SimulationResultData, SectionResultSummary } from "@/types";
@@ -9,6 +9,8 @@ export default function ResultPage() {
   const router = useRouter();
   const [result, setResult] = useState<SimulationResultData | null>(null);
   const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
+  const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const [activeScriptKey, setActiveScriptKey] = useState<string | null>(null);
 
   useEffect(() => {
     try {
@@ -45,6 +47,42 @@ export default function ResultPage() {
       ? { text: "Correct", className: "bg-[var(--color-accent-pale)] text-[var(--color-accent-dark)]" }
       : { text: "Incorrect", className: "bg-red-100 text-red-700" };
   };
+
+  const stopScriptPlayback = () => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    window.speechSynthesis.cancel();
+    speechRef.current = null;
+    setActiveScriptKey(null);
+  };
+
+  const playScript = (script: string, key: string) => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window) || !script) return;
+
+    if (activeScriptKey === key) {
+      stopScriptPlayback();
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(script);
+    utterance.rate = 0.95;
+    utterance.onend = () => {
+      setActiveScriptKey(null);
+      speechRef.current = null;
+    };
+    utterance.onerror = () => {
+      setActiveScriptKey(null);
+      speechRef.current = null;
+    };
+
+    speechRef.current = utterance;
+    setActiveScriptKey(key);
+    window.speechSynthesis.speak(utterance);
+  };
+
+  useEffect(() => {
+    return () => stopScriptPlayback();
+  }, []);
 
   if (!result) {
     return (
@@ -187,9 +225,14 @@ All sections are in the middle range
                       const isMcq = q.type === "mcq" && q.correctAnswer !== undefined;
                       const isCorrect = isMcq ? userAnswer === String(q.correctAnswer) : null;
 
-                      const userAnswerLabel =
+                      const userAnswerIndex =
                         q.options && userAnswer !== "" && !Number.isNaN(Number(userAnswer))
-                          ? `${Number(userAnswer) + 1}. ${q.options[Number(userAnswer)] ?? ""}`
+                          ? Number(userAnswer)
+                          : null;
+
+                      const userAnswerLabel =
+                        q.options && userAnswerIndex !== null
+                          ? `${userAnswerIndex + 1}. ${q.options[userAnswerIndex] ?? ""}`
                           : userAnswer || "(empty)";
 
                       const correctAnswerLabel =
@@ -229,6 +272,105 @@ All sections are in the middle range
                           {q.details?.instructions && (
                             <p className="mb-3 text-xs text-slate-600">Note: {q.details.instructions}</p>
                           )}
+
+                          {section.id === "listening" && section.listeningTracks?.length > 0 && (
+                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                              <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                Listening Reference
+                              </p>
+                              <div className="space-y-2">
+                                {section.listeningTracks
+                                  .filter((track) => q.number >= track.start && q.number <= track.end)
+                                  .map((track) => {
+                                    const scriptKey = `${section.id}:${q.id}:${track.label}`;
+                                    return (
+                                      <div key={scriptKey} className="rounded-lg border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-2">
+                                        <div className="mb-2 flex items-center justify-between gap-2">
+                                          <p className="text-xs font-medium text-[var(--color-neutral-700)]">
+                                            {track.label} (Q{track.start}-{track.end})
+                                          </p>
+                                          <button
+                                            onClick={() => playScript(track.script, scriptKey)}
+                                            className="rounded-md border border-[var(--color-neutral-300)] bg-white px-2 py-1 text-xs font-semibold text-[var(--color-primary)]"
+                                          >
+                                            {activeScriptKey === scriptKey ? "Stop Audio" : "Play Audio"}
+                                          </button>
+                                        </div>
+                                        <p className="whitespace-pre-wrap text-xs leading-6 text-[var(--color-neutral-700)]">
+                                          {track.script}
+                                        </p>
+                                      </div>
+                                    );
+                                  })}
+                              </div>
+                            </div>
+                          )}
+
+                          {section.id === "reading" && (
+                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                              <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                Reading Passage Reference
+                              </p>
+                              {section.passages && section.passages.length > 0 ? (
+                                section.passages
+                                  .filter((passage) => {
+                                    const start = passage.questionStart ?? 1;
+                                    const end = passage.questionEnd ?? section.questions.length;
+                                    return q.number >= start && q.number <= end;
+                                  })
+                                  .map((passage, idx) => (
+                                    <div key={`${section.id}:${q.id}:passage:${idx}`} className="mb-2 last:mb-0 rounded-lg border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-2">
+                                      <p className="mb-1 text-xs font-medium text-[var(--color-neutral-700)]">
+                                        {passage.title}
+                                      </p>
+                                      <p className="max-h-40 overflow-auto whitespace-pre-wrap text-xs leading-6 text-[var(--color-neutral-700)]">
+                                        {passage.content}
+                                      </p>
+                                    </div>
+                                  ))
+                              ) : (
+                                <p className="max-h-40 overflow-auto whitespace-pre-wrap text-xs leading-6 text-[var(--color-neutral-700)]">
+                                  {section.passageContent || "Passage not available."}
+                                </p>
+                              )}
+                            </div>
+                          )}
+
+                          {isMcq && q.options?.length ? (
+                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                              <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                Choices Review
+                              </p>
+                              <div className="space-y-2">
+                                {q.options.map((option, optionIdx) => {
+                                  const isCorrectChoice = optionIdx === q.correctAnswer;
+                                  const isUserChoice = userAnswerIndex === optionIdx;
+
+                                  return (
+                                    <div
+                                      key={`${q.id}-choice-${optionIdx}`}
+                                      className={`rounded-lg border p-2 text-xs ${
+                                        isCorrectChoice
+                                          ? "border-[var(--color-accent)] bg-[var(--color-accent-pale)]"
+                                          : isUserChoice
+                                            ? "border-[var(--color-danger)] bg-red-50"
+                                            : "border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)]"
+                                      }`}
+                                    >
+                                      <div className="flex items-start justify-between gap-2">
+                                        <span className="whitespace-pre-wrap text-[var(--color-neutral-700)]">
+                                          {optionIdx + 1}. {option}
+                                        </span>
+                                        <span className="shrink-0 text-[10px] font-semibold">
+                                          {isCorrectChoice ? "Correct" : isUserChoice ? "Your choice" : ""}
+                                        </span>
+                                      </div>
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                          ) : null}
 
                           <div className="mb-3 space-y-2 text-sm">
                             <div className={`rounded-[10px] border-l-4 p-3 ${
