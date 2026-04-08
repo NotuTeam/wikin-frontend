@@ -1,4 +1,9 @@
+"use client";
+
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { API_URL } from "@/lib";
+import { AuthGuard } from "@/components/AuthGuard";
 
 const testItems = [
   {
@@ -37,7 +42,20 @@ const stats = [
   { label: "Study Time", value: "6h 20m", delta: "↑ +1h 10m" },
 ];
 
-export default function DashboardPage() {
+function DashboardContent({ user }: { user: { name: string; picture?: string } }) {
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    try {
+      await fetch(`${API_URL}/api/auth/logout`, {
+        method: "POST",
+        credentials: "include",
+      });
+    } finally {
+      router.replace("/auth");
+    }
+  };
+
   return (
     <main className="min-h-screen bg-[var(--color-neutral-50)]">
       <aside className="fixed left-0 top-0 flex h-screen w-[60px] flex-col items-center border-r border-[var(--color-neutral-300)] bg-white py-5">
@@ -65,7 +83,14 @@ export default function DashboardPage() {
             </button>
           ))}
         </nav>
-        <div className="mt-auto">
+        <div className="mt-auto flex flex-col items-center gap-2">
+          <button
+            onClick={handleLogout}
+            className="flex h-11 w-11 items-center justify-center rounded-[10px] text-[var(--color-neutral-500)] hover:bg-[var(--color-neutral-100)]"
+            aria-label="Logout"
+          >
+            ⎋
+          </button>
           <Link
             href="/"
             className="flex h-11 w-11 items-center justify-center rounded-[10px] text-[var(--color-neutral-500)] hover:bg-[var(--color-neutral-100)]"
@@ -88,15 +113,20 @@ export default function DashboardPage() {
           <div className="flex items-center gap-3 text-sm">
             <span className="text-[var(--color-neutral-500)]">🔔</span>
             <div className="h-5 w-px bg-[var(--color-neutral-300)]" />
-            <div className="h-8 w-8 rounded-full bg-[var(--color-primary-pale)]" />
-            <span className="font-medium text-[var(--color-neutral-700)]">Learner</span>
+            {user.picture ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={user.picture} alt={user.name} className="h-8 w-8 rounded-full object-cover" />
+            ) : (
+              <div className="h-8 w-8 rounded-full bg-[var(--color-primary-pale)]" />
+            )}
+            <span className="font-medium text-[var(--color-neutral-700)]">{user.name}</span>
           </div>
         </header>
 
         <section className="p-7">
           <div className="mb-7 rounded-[24px] px-6 py-6 text-white" style={{ background: "var(--gradient-banner)" }}>
             <p className="text-[11px] uppercase tracking-[0.14em] text-white/70">Wikin Academy</p>
-            <h1 className="mt-1 text-2xl font-bold">Welcome back, Learner</h1>
+            <h1 className="mt-1 text-2xl font-bold">Welcome back, {user.name}</h1>
             <p className="mt-1 text-sm text-white/80">Continue your preparation and keep your streak alive.</p>
           </div>
 
@@ -154,4 +184,8 @@ export default function DashboardPage() {
       </div>
     </main>
   );
+}
+
+export default function DashboardPage() {
+  return <AuthGuard>{(user) => <DashboardContent user={user} />}</AuthGuard>;
 }
