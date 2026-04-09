@@ -25,12 +25,10 @@ export default function AuthCallbackPage() {
           credentials: "include",
         });
 
-        console.log(res);
-
-        // if (!res.ok) {
-        //   router.replace("/auth?error=login_failed");
-        //   return;
-        // }
+        if (!res.ok) {
+          router.replace("/auth?error=login_failed");
+          return;
+        }
 
         const json = (await res.json()) as {
           success: boolean;
@@ -38,13 +36,13 @@ export default function AuthCallbackPage() {
         };
 
         if (!json.success || !json.data?.user?.sub) {
-          // router.replace("/auth?error=login_failed");
-          // return;
+          router.replace("/auth?error=login_failed");
+          return;
         }
 
-        // router.replace("/dashboard");
+        router.replace("/dashboard");
       } catch {
-        // router.replace("/auth?error=login_failed");
+        router.replace("/auth?error=login_failed");
       }
     };
 
@@ -52,8 +50,8 @@ export default function AuthCallbackPage() {
   }, [router]);
 
   return (
-    <main className="min-h-screen bg-[var(--color-neutral-50)] p-8">
-      <div className="mx-auto max-w-xl rounded-2xl border border-[var(--color-neutral-300)] bg-white p-6 text-sm text-[var(--color-neutral-500)]">
+    <main className="min-h-screen bg-(--color-neutral-50) p-8">
+      <div className="mx-auto max-w-xl rounded-2xl border border-neutral-300 bg-white p-6 text-sm text-neutral-500">
         Finishing sign in...
       </div>
     </main>
