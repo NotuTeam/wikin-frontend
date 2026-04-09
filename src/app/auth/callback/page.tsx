@@ -14,7 +14,9 @@ export default function AuthCallbackPage() {
       const hasState = Boolean(params.get("state"));
 
       if (hasCode && hasState) {
-        window.location.replace(`${API_URL}/api/auth/google/callback?${params.toString()}`);
+        window.location.replace(
+          `${API_URL}/api/auth/google/callback?${params.toString()}`,
+        );
         return;
       }
 
@@ -23,10 +25,12 @@ export default function AuthCallbackPage() {
           credentials: "include",
         });
 
-        if (!res.ok) {
-          router.replace("/auth?error=login_failed");
-          return;
-        }
+        console.log(res);
+
+        // if (!res.ok) {
+        //   router.replace("/auth?error=login_failed");
+        //   return;
+        // }
 
         const json = (await res.json()) as {
           success: boolean;
@@ -34,13 +38,13 @@ export default function AuthCallbackPage() {
         };
 
         if (!json.success || !json.data?.user?.sub) {
-          router.replace("/auth?error=login_failed");
-          return;
+          // router.replace("/auth?error=login_failed");
+          // return;
         }
 
-        router.replace("/dashboard");
+        // router.replace("/dashboard");
       } catch {
-        router.replace("/auth?error=login_failed");
+        // router.replace("/auth?error=login_failed");
       }
     };
 
