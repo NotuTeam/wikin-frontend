@@ -44,6 +44,36 @@ export type SectionResultSummary = {
   correct: number;
   total: number;
   percentage: number;
+  scaledScore?: number;
+  bandScore?: number;
+};
+
+export type TOEFLScoreSummary = {
+  sectionRaw: {
+    listening: number;
+    structure: number;
+    reading: number;
+  };
+  sectionScaled: {
+    listening: number;
+    structure: number;
+    reading: number;
+  };
+  overall: number;
+};
+
+export type IELTSScoreSummary = {
+  sectionRaw: {
+    listening: number;
+    reading: number;
+  };
+  sectionBand: {
+    listening: number;
+    reading: number;
+    writing: number;
+  };
+  rawAverage: number;
+  overallBand: number;
 };
 
 export type SimulationResultData = {
@@ -55,4 +85,8 @@ export type SimulationResultData = {
   totalPercentage: number;
   sections: SimulationSection[];
   answers: Record<string, string>;
+  scoreSummary?: {
+    toefl?: TOEFLScoreSummary;
+    ielts?: IELTSScoreSummary;
+  };
 };

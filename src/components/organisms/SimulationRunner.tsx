@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 import { WritingVisual } from "@/components/features/WritingVisual";
 
 import {
@@ -15,6 +16,8 @@ import {
   EXAM_TEMPLATES,
   TOEFL_LISTENING_PARTS,
   IELTS_LISTENING_PARTS,
+  calcIeltsScore,
+  calcToeflScore,
 } from "@/lib";
 
 import {
@@ -53,9 +56,16 @@ const toQuestion = (question: any, index: number): SimulationQuestion => {
   };
 };
 
-export default function SimulationPage() {
-  const [examType, setExamType] = useState<ExamType>("toefl");
-  const [difficulty, setDifficulty] = useState<Difficulty>("MEDIUM");
+type SimulationRunnerProps = {
+  examType: ExamType;
+  initialDifficulty?: Difficulty;
+};
+
+export function SimulationRunner({
+  examType,
+  initialDifficulty = "MEDIUM",
+}: SimulationRunnerProps) {
+  const [difficulty, setDifficulty] = useState<Difficulty>(initialDifficulty);
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -92,6 +102,7 @@ export default function SimulationPage() {
   const [sessionActive, setSessionActive] = useState(false);
   const [recoverableSessionPayload, setRecoverableSessionPayload] =
     useState<SimulationSessionPayload | null>(null);
+  const [sessionInitDone, setSessionInitDone] = useState(false);
   const [devFillConfig, setDevFillConfig] = useState<Record<string, number>>(
     {},
   );
@@ -104,6 +115,7 @@ export default function SimulationPage() {
   const lastPersistedHashRef = useRef("");
   const lastPersistedAtRef = useRef(0);
   const autoAdvanceLockRef = useRef(false);
+  const hasAutoStartedRef = useRef(false);
 
   const getSectionDurationSeconds = (sectionIndex: number) => {
     const section = sections[sectionIndex];
@@ -295,6 +307,11 @@ export default function SimulationPage() {
   }, []);
 
   useEffect(() => {
+    if (!error) return;
+    toast.error(error);
+  }, [error]);
+
+  useEffect(() => {
     const init = async () => {
       try {
         const encrypted = await idbGetSession();
@@ -311,6 +328,8 @@ export default function SimulationPage() {
         try {
           await idbDeleteSession();
         } catch {}
+      } finally {
+        setSessionInitDone(true);
       }
     };
 
@@ -551,15 +570,75 @@ export default function SimulationPage() {
         ? Math.round((totalCorrect / totalQuestions) * 100)
         : 0;
 
+    if (examType === "toefl") {
+      const toefl = calcToeflScore(finalSections, answers);
+      const enrichedScores = sectionScores.map((section) => {
+        if (section.sectionId === "listening") {
+          return { ...section, scaledScore: toefl.scaled.listening };
+        }
+        if (section.sectionId === "structure") {
+          return { ...section, scaledScore: toefl.scaled.structure };
+        }
+        if (section.sectionId === "reading") {
+          return { ...section, scaledScore: toefl.scaled.reading };
+        }
+        return section;
+      });
+
+      return {
+        examType,
+        difficulty,
+        sectionScores: enrichedScores,
+        totalCorrect,
+        totalQuestions,
+        totalPercentage,
+        sections: finalSections,
+        answers,
+        scoreSummary: {
+          toefl: {
+            sectionRaw: toefl.raw,
+            sectionScaled: toefl.scaled,
+            overall: toefl.overall,
+          },
+        },
+      };
+    }
+
+    const ielts = calcIeltsScore(finalSections, answers);
+    const enrichedScores = sectionScores.map((section) => {
+      if (section.sectionId === "listening") {
+        return { ...section, bandScore: ielts.band.listening };
+      }
+      if (section.sectionId === "reading") {
+        return { ...section, bandScore: ielts.band.reading };
+      }
+      if (section.sectionId === "writing") {
+        return { ...section, bandScore: ielts.band.writing };
+      }
+      return section;
+    });
+
     return {
       examType,
       difficulty,
-      sectionScores,
+      sectionScores: enrichedScores,
       totalCorrect,
       totalQuestions,
       totalPercentage,
       sections: finalSections,
       answers,
+      scoreSummary: {
+        ielts: {
+          sectionRaw: ielts.raw,
+          sectionBand: {
+            listening: ielts.band.listening,
+            reading: ielts.band.reading,
+            writing: ielts.band.writing,
+          },
+          rawAverage: ielts.band.rawAverage,
+          overallBand: ielts.band.overall,
+        },
+      },
     };
   };
 
@@ -1051,7 +1130,6 @@ export default function SimulationPage() {
     ieltsListeningPartialRef.current =
       recoverableSessionPayload.ieltsListeningPartial || {};
 
-    setExamType(recoverableSessionPayload.examType);
     setDifficulty(recoverableSessionPayload.difficulty);
     setStarted(recoverableSessionPayload.started);
     setSections(resumedSections);
@@ -1175,6 +1253,19 @@ export default function SimulationPage() {
     await persistSession(seedPayload);
     await processSectionsFrom(0);
   };
+
+  useEffect(() => {
+    if (!sessionInitDone || started || hasAutoStartedRef.current) return;
+
+    hasAutoStartedRef.current = true;
+
+    if (recoverableSessionPayload) {
+      void resumeSimulationSession();
+      return;
+    }
+
+    void startSimulation();
+  }, [recoverableSessionPayload, sessionInitDone, started]);
 
   const retryFailedSection = async () => {
     if (failedSectionIndex === null) return;
@@ -1492,95 +1583,19 @@ export default function SimulationPage() {
     <main className="mx-auto max-w-[1280px] px-4 py-6 md:px-7">
       {!started && (
         <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-6 shadow-sm">
-          <div className="mb-5 flex flex-wrap items-center gap-3">
-            <span className="text-sm font-medium text-[var(--color-neutral-700)]">
-              Simulation Type
-            </span>
+          <p className="text-sm text-[var(--color-neutral-700)]">
+            {recoverableSessionPayload
+              ? "Resuming previous session..."
+              : "Preparing simulation session..."}
+          </p>
+          {progress && <p className="mt-2 text-sm">Progress: {progress}</p>}
+          {recoverableSessionPayload && (
             <button
-              onClick={() => setExamType("toefl")}
-              className={`rounded-[10px] px-5 py-2.5 text-sm font-semibold transition ${
-                examType === "toefl"
-                  ? "bg-[var(--color-primary)] text-white"
-                  : "border border-[var(--color-neutral-300)] bg-white text-[var(--color-neutral-700)]"
-              }`}
+              onClick={exitCurrentSession}
+              className="mt-4 rounded-[10px] bg-[#9a3412] px-4 py-2 text-sm font-semibold text-white"
             >
-              TOEFL
+              Exit Session
             </button>
-            <button
-              onClick={() => setExamType("ielts")}
-              className={`rounded-[10px] px-5 py-2.5 text-sm font-semibold transition ${
-                examType === "ielts"
-                  ? "bg-[var(--color-primary)] text-white"
-                  : "border border-[var(--color-neutral-300)] bg-white text-[var(--color-neutral-700)]"
-              }`}
-            >
-              IELTS
-            </button>
-          </div>
-
-          <div className="mb-5 flex flex-wrap items-center gap-3">
-            <label className="text-sm font-medium text-[var(--color-neutral-700)]">
-              Difficulty
-            </label>
-            <select
-              value={difficulty}
-              onChange={(e) => setDifficulty(e.target.value as Difficulty)}
-              className="rounded-[10px] border border-[var(--color-neutral-300)] bg-[var(--color-neutral-100)] px-4 py-2 text-sm"
-            >
-              <option value="EASY">Easy</option>
-              <option value="MEDIUM">Medium</option>
-              <option value="HARD">Hard</option>
-            </select>
-          </div>
-
-          <div className="mb-5 space-y-2">
-            {templates.map((s, idx) => (
-              <div
-                key={s.id}
-                className="rounded-xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] px-4 py-3 text-sm"
-              >
-                <span className="font-semibold text-[var(--color-primary)]">
-                  {idx + 1}. {s.title}
-                </span>{" "}
-                — {s.durationMinutes} minutes — target {s.targetQuestionCount}{" "}
-                questions
-              </div>
-            ))}
-          </div>
-
-          {recoverableSessionPayload ? (
-            <div className="mb-4 rounded-[10px] border border-[#fdba74] bg-[#fff7ed] p-3">
-              <p className="mb-2 mt-0 text-sm text-[var(--color-neutral-700)]">
-                Your previous session is still active (up to 3 hours). Continue
-                or exit to start a new session.
-              </p>
-              <div className="flex gap-2">
-                <button
-                  onClick={resumeSimulationSession}
-                  className="rounded-[10px] bg-[var(--color-primary)] px-4 py-2 text-sm font-semibold text-white"
-                >
-                  Resume Session
-                </button>
-                <button
-                  onClick={exitCurrentSession}
-                  className="rounded-[10px] bg-[#9a3412] px-4 py-2 text-sm font-semibold text-white"
-                >
-                  Exit Session
-                </button>
-              </div>
-            </div>
-          ) : null}
-
-          <button
-            onClick={startSimulation}
-            disabled={loading || !!recoverableSessionPayload}
-            className="rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)] disabled:cursor-not-allowed disabled:opacity-60"
-          >
-            {loading ? "Preparing simulation..." : "Start Full Simulation"}
-          </button>
-          {loading && <p className="mt-3 text-sm">Progress: {progress}</p>}
-          {error && (
-            <p className="mt-3 text-sm text-[var(--color-danger)]">{error}</p>
           )}
         </section>
       )}

@@ -1,9 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { SidebarSimple } from "@phosphor-icons/react";
-import { AuthGuard } from "@/components/AuthGuard";
-import { Sidebar } from "@/components/organisms/Sidebar";
+import { useDashboardUser } from "@/components/organisms/DashboardShell";
 
 const testItems = [
   {
@@ -42,67 +39,11 @@ const stats = [
   { label: "Study Time", value: "6h 20m", delta: "↑ +1h 10m" },
 ];
 
-function DashboardContent({
-  user,
-}: {
-  user: { name: string; picture?: string };
-}) {
-  const [isSidebarExpanded, setIsSidebarExpanded] = useState(false);
+export default function DashboardPage() {
+  const user = useDashboardUser();
 
   return (
-    <main className="flex min-h-screen bg-[var(--color-neutral-50)]">
-      <Sidebar
-        user={user}
-        isExpanded={isSidebarExpanded}
-        onToggle={() => setIsSidebarExpanded(!isSidebarExpanded)}
-      />
-
-      <div className="flex-1 min-h-screen">
-        <header className="sticky top-0 z-10 flex h-14 items-center justify-between border-b border-[var(--color-neutral-300)] bg-white px-7">
-          <div className="flex items-center gap-3">
-            {/* Sidebar Toggle Button */}
-            <button
-              onClick={() => setIsSidebarExpanded(!isSidebarExpanded)}
-              className="flex h-9 w-9 items-center justify-center rounded-[10px] text-[var(--color-neutral-500)] transition-colors hover:bg-[var(--color-neutral-100)] hover:text-[var(--color-neutral-700)]"
-              aria-label={
-                isSidebarExpanded ? "Collapse sidebar" : "Expand sidebar"
-              }
-            >
-              <SidebarSimple
-                size={16}
-                weight={isSidebarExpanded ? "bold" : "regular"}
-              />
-            </button>
-            <div className="relative">
-              <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-xs text-[var(--color-neutral-500)]">
-                ⌕
-              </span>
-              <input
-                placeholder="Search your test"
-                className="h-9 w-[280px] rounded-full border border-[var(--color-neutral-300)] bg-[var(--color-neutral-100)] pl-8 pr-4 text-sm"
-              />
-            </div>
-          </div>
-          <div className="flex items-center gap-3 text-sm">
-            <span className="text-[var(--color-neutral-500)]">🔔</span>
-            <div className="h-5 w-px bg-[var(--color-neutral-300)]" />
-            {user.picture ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={user.picture}
-                alt={user.name}
-                className="h-8 w-8 rounded-full object-cover"
-              />
-            ) : (
-              <div className="h-8 w-8 rounded-full bg-[var(--color-primary-pale)]" />
-            )}
-            <span className="font-medium text-[var(--color-neutral-700)]">
-              {user.name}
-            </span>
-          </div>
-        </header>
-
-        <section className="p-7">
+    <>
           <div
             className="mb-7 rounded-[24px] px-6 py-6 text-white"
             style={{ background: "var(--gradient-banner)" }}
@@ -203,12 +144,6 @@ function DashboardContent({
               </div>
             ))}
           </div>
-        </section>
-      </div>
-    </main>
+    </>
   );
-}
-
-export default function DashboardPage() {
-  return <AuthGuard>{(user) => <DashboardContent user={user} />}</AuthGuard>;
 }

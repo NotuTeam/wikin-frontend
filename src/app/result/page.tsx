@@ -103,6 +103,9 @@ export default function ResultPage() {
     );
   }
 
+  const toeflSummary = result.scoreSummary?.toefl;
+  const ieltsSummary = result.scoreSummary?.ielts;
+
   const heroGradient =
     result.totalPercentage >= 70
       ? "linear-gradient(135deg, #1DAF6A, #3DD68C)"
@@ -112,6 +115,16 @@ export default function ResultPage() {
 
   const strengths = result.sectionScores.filter((s) => s.percentage >= 70);
   const weaknesses = result.sectionScores.filter((s) => s.percentage < 50);
+
+  const heroValue =
+    result.examType === "toefl"
+      ? String(toeflSummary?.overall ?? result.totalPercentage)
+      : (ieltsSummary?.overallBand ?? 0).toFixed(1);
+
+  const heroSubLabel =
+    result.examType === "toefl"
+      ? "TOEFL ITP Overall Score"
+      : "IELTS Overall Band (3 sections)";
 
   return (
     <main className="mx-auto max-w-6xl space-y-6 px-4 py-6 md:px-7">
@@ -124,9 +137,9 @@ export default function ResultPage() {
           className="my-2 text-[72px] font-extrabold leading-none md:text-[80px]"
           style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
         >
-          {result.totalPercentage}
+          {heroValue}
         </div>
-        <p className="text-base text-white/80">dari 100 maksimal</p>
+        <p className="text-base text-white/80">{heroSubLabel}</p>
         <span className="mt-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-xs font-medium">
           {result.totalPercentage >= 70
             ? "Excellent"
@@ -167,6 +180,16 @@ export default function ResultPage() {
                 />
               </div>
               <p className="text-xs text-[var(--color-neutral-500)]">{section.correct} / {section.total} correct answers</p>
+              {typeof section.scaledScore === "number" && (
+                <p className="mt-1 text-xs font-semibold text-[var(--color-primary)]">
+                  Scaled: {section.scaledScore}
+                </p>
+              )}
+              {typeof section.bandScore === "number" && (
+                <p className="mt-1 text-xs font-semibold text-[var(--color-primary)]">
+                  Band: {section.bandScore.toFixed(1)}
+                </p>
+              )}
             </div>
           );
         })}

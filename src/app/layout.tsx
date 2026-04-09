@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { GlobalToaster } from "@/components/GlobalToaster";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TOEFL & IELTS Simulator",
+  title: "Wiqin | TOEFL & IELTS Assistant",
   description: "AI-powered TOEFL and IELTS test simulation platform",
 };
 
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="m-0 font-sans">{children}</body>
+      <body className="m-0 font-sans">
+        {children}
+        <GlobalToaster />
+      </body>
     </html>
   );
 }

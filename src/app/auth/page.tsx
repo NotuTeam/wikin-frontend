@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
+import { AuthErrorToast } from "@/components/AuthErrorToast";
 import { AuthPageGuard } from "@/components/AuthPageGuard";
 
 type AuthPageProps = {
@@ -42,6 +43,7 @@ export default async function AuthPage({ searchParams }: AuthPageProps) {
   return (
     <main className="min-h-screen bg-[var(--color-neutral-50)] px-4 py-10 md:px-7 flex items-center justify-center">
       <AuthPageGuard />
+      <AuthErrorToast hasLoginError={hasLoginError} />
       <div className="mx-auto grid w-full max-w-5xl overflow-hidden rounded-3xl border border-[var(--color-neutral-300)] bg-white shadow-sm md:grid-cols-2 min-h-[50dvh]">
         <section
           className="hidden p-8 text-white md:flex flex-col justify-center gap-5"
@@ -66,12 +68,6 @@ export default async function AuthPage({ searchParams }: AuthPageProps) {
           <p className="text-sm text-[var(--color-neutral-500)]">
             Use your prevered signin method that we serve below.
           </p>
-
-          {hasLoginError && (
-            <div className="mt-4 rounded-[10px] border border-red-200 bg-red-50 px-4 py-2 text-sm text-red-700">
-              Login gagal. Silakan coba lagi.
-            </div>
-          )}
 
           <a
             href="/api/auth/google/login"

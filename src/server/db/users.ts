@@ -34,6 +34,68 @@ async function ensureUserTable() {
   tableReady = true;
 }
 
+export async function getUserByGoogleSub(googleSub: string): Promise<AuthDbUser | null> {
+  await ensureUserTable();
+
+  const pool = getDbPool();
+  const result = await pool.query<{
+    id: string;
+    google_sub: string;
+    email: string;
+    name: string;
+    picture: string | null;
+  }>(
+    `SELECT id, google_sub, email, name, picture FROM auth_users WHERE google_sub = $1 LIMIT 1;`,
+    [googleSub],
+  );
+
+  const row = result.rows[0];
+  if (!row) return null;
+
+  return {
+    id: row.id,
+    googleSub: row.google_sub,
+    email: row.email,
+    name: row.name,
+    picture: row.picture,
+  };
+}
+
+export async function updateUserProfile(
+  googleSub: string,
+  payload: { name: string; picture: string | null },
+): Promise<AuthDbUser | null> {
+  await ensureUserTable();
+
+  const pool = getDbPool();
+  const result = await pool.query<{
+    id: string;
+    google_sub: string;
+    email: string;
+    name: string;
+    picture: string | null;
+  }>(
+    `
+      UPDATE auth_users
+      SET name = $2, picture = $3, updated_at = NOW()
+      WHERE google_sub = $1
+      RETURNING id, google_sub, email, name, picture;
+    `,
+    [googleSub, payload.name, payload.picture],
+  );
+
+  const row = result.rows[0];
+  if (!row) return null;
+
+  return {
+    id: row.id,
+    googleSub: row.google_sub,
+    email: row.email,
+    name: row.name,
+    picture: row.picture,
+  };
+}
+
 export async function upsertGoogleUser(profile: GoogleUserInfo): Promise<AuthDbUser> {
   await ensureUserTable();
 
