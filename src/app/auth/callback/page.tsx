@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { API_URL } from "@/lib";
 
 export default function AuthCallbackPage() {
   const router = useRouter();
@@ -14,14 +13,12 @@ export default function AuthCallbackPage() {
       const hasState = Boolean(params.get("state"));
 
       if (hasCode && hasState) {
-        window.location.replace(
-          `${API_URL}/api/auth/google/callback?${params.toString()}`,
-        );
+        window.location.replace(`/api/auth/google/callback?${params.toString()}`);
         return;
       }
 
       try {
-        const res = await fetch(`${API_URL}/api/auth/session`, {
+        const res = await fetch(`/api/auth/session`, {
           credentials: "include",
         });
 

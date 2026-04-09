@@ -1,6 +1,5 @@
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
-import { API_URL } from "@/lib";
 import { AuthPageGuard } from "@/components/AuthPageGuard";
 
 type AuthPageProps = {
@@ -13,7 +12,11 @@ export default async function AuthPage({ searchParams }: AuthPageProps) {
 
   if (cookie) {
     try {
-      const sessionRes = await fetch(`${API_URL}/api/auth/session`, {
+      const host = headerStore.get("host");
+      const protocol = process.env.NODE_ENV === "production" ? "https" : "http";
+      const baseUrl = host ? `${protocol}://${host}` : "http://localhost:3000";
+
+      const sessionRes = await fetch(`${baseUrl}/api/auth/session`, {
         headers: { cookie },
         cache: "no-store",
       });
@@ -71,7 +74,7 @@ export default async function AuthPage({ searchParams }: AuthPageProps) {
           )}
 
           <a
-            href={`${API_URL}/api/auth/google/login`}
+            href="/api/auth/google/login"
             className="inline-flex w-full items-center justify-center gap-2 rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)]"
           >
             <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white text-xs font-bold text-[var(--color-primary)]">

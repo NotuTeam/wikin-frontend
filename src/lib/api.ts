@@ -1,5 +1,4 @@
 import { Difficulty } from "@/types";
-import { API_URL } from "./constants";
 
 export async function streamGenerate(
   endpoint: string,
@@ -15,9 +14,7 @@ export async function streamGenerate(
       ...body,
       requestId,
     });
-    const source = new EventSource(
-      `${API_URL}/api/questions/stream?${params.toString()}`
-    );
+    const source = new EventSource(`/api/questions/stream?${params.toString()}`);
 
     source.addEventListener("progress", (event) => {
       const data = JSON.parse((event as MessageEvent).data);

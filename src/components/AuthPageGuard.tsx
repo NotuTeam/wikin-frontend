@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { API_URL } from "@/lib";
 
 export function AuthPageGuard() {
   const router = useRouter();
@@ -10,7 +9,7 @@ export function AuthPageGuard() {
   useEffect(() => {
     const checkSession = async () => {
       try {
-        const res = await fetch(`${API_URL}/api/auth/session`, {
+        const res = await fetch(`/api/auth/session`, {
           credentials: "include",
           cache: "no-store",
         });

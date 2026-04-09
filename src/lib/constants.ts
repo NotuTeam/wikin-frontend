@@ -1,6 +1,3 @@
-export const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
-
 export const SESSION_DB_NAME = "wikin-session";
 export const SESSION_STORE_NAME = "sessions";
 export const SESSION_RECORD_ID = "active-session-v1";

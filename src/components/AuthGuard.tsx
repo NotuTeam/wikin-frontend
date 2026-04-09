@@ -1,6 +1,5 @@
 "use client";
 
-import { API_URL } from "@/lib";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -23,7 +22,7 @@ export function AuthGuard({ children }: AuthGuardProps) {
   useEffect(() => {
     const run = async () => {
       try {
-        const res = await fetch(`${API_URL}/api/auth/session`, {
+        const res = await fetch(`/api/auth/session`, {
           credentials: "include",
         });
 

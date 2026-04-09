@@ -15,7 +15,6 @@ import {
   SignOut,
 } from "@phosphor-icons/react";
 import { cn } from "@/lib/cn";
-import { API_URL } from "@/lib";
 
 interface NavItem {
   label: string;
@@ -51,7 +50,7 @@ export function Sidebar({ user, isExpanded, onToggle }: SidebarProps) {
 
   const handleLogout = async () => {
     try {
-      await fetch(`${API_URL}/api/auth/logout`, {
+      await fetch(`/api/auth/logout`, {
         method: "POST",
         credentials: "include",
       });

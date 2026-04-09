@@ -15,7 +15,6 @@ import {
   EXAM_TEMPLATES,
   TOEFL_LISTENING_PARTS,
   IELTS_LISTENING_PARTS,
-  API_URL,
 } from "@/lib";
 
 import {
@@ -452,7 +451,7 @@ export default function SimulationPage() {
 
         try {
           const resp = await fetch(
-            `${API_URL}/api/questions/ielts/writing/review`,
+            `/api/questions/ielts/writing/review`,
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },

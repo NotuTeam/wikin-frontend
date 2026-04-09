@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { API_URL } from "@/lib";
 
 export function HomeNavbar() {
   const router = useRouter();
@@ -13,7 +12,7 @@ export function HomeNavbar() {
   useEffect(() => {
     const checkSession = async () => {
       try {
-        const res = await fetch(`${API_URL}/api/auth/session`, {
+        const res = await fetch(`/api/auth/session`, {
           credentials: "include",
         });
 
@@ -39,7 +38,7 @@ export function HomeNavbar() {
   const handleAuthAction = async () => {
     if (isAuthenticated) {
       try {
-        await fetch(`${API_URL}/api/auth/logout`, {
+        await fetch(`/api/auth/logout`, {
           method: "POST",
           credentials: "include",
         });
