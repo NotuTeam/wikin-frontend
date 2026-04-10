@@ -4,3 +4,4 @@ export * from "./visual";
 export * from "./question";
 export * from "./section";
 export * from "./session";
+export * from "./progress";

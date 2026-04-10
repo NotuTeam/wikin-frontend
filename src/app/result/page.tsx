@@ -8,21 +8,51 @@ import { SimulationResultData, SectionResultSummary } from "@/types";
 export default function ResultPage() {
   const router = useRouter();
   const [result, setResult] = useState<SimulationResultData | null>(null);
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
+  const [isLoadingResult, setIsLoadingResult] = useState(true);
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(
+    new Set(),
+  );
   const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
   const [activeScriptKey, setActiveScriptKey] = useState<string | null>(null);
 
   useEffect(() => {
-    try {
-      const raw = sessionStorage.getItem("simulation-result");
-      if (!raw) {
-        setResult(null);
-        return;
+    const resultId = new URLSearchParams(window.location.search).get("id");
+
+    const load = async () => {
+      try {
+        if (resultId) {
+          try {
+            const response = await fetch(`/api/results/${resultId}`, {
+              credentials: "include",
+              cache: "no-store",
+            });
+            const json = (await response.json()) as {
+              success?: boolean;
+              data?: { result?: SimulationResultData };
+            };
+            if (response.ok && json.success && json.data?.result) {
+              setResult(json.data.result);
+              return;
+            }
+          } catch {}
+        }
+
+        try {
+          const raw = sessionStorage.getItem("simulation-result");
+          if (!raw) {
+            setResult(null);
+            return;
+          }
+          setResult(JSON.parse(raw) as SimulationResultData);
+        } catch {
+          setResult(null);
+        }
+      } finally {
+        setIsLoadingResult(false);
       }
-      setResult(JSON.parse(raw) as SimulationResultData);
-    } catch {
-      setResult(null);
-    }
+    };
+
+    void load();
   }, []);
 
   const scoreMap = useMemo(() => {
@@ -44,7 +74,11 @@ export default function ResultPage() {
         : { text: "Not auto-graded", className: "bg-slate-100 text-slate-700" };
     }
     return isCorrect
-      ? { text: "Correct", className: "bg-[var(--color-accent-pale)] text-[var(--color-accent-dark)]" }
+      ? {
+          text: "Correct",
+          className:
+            "bg-[var(--color-accent-pale)] text-[var(--color-accent-dark)]",
+        }
       : { text: "Incorrect", className: "bg-red-100 text-red-700" };
   };
 
@@ -56,7 +90,12 @@ export default function ResultPage() {
   };
 
   const playScript = (script: string, key: string) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window) || !script) return;
+    if (
+      typeof window === "undefined" ||
+      !("speechSynthesis" in window) ||
+      !script
+    )
+      return;
 
     if (activeScriptKey === key) {
       stopScriptPlayback();
@@ -84,11 +123,28 @@ export default function ResultPage() {
     return () => stopScriptPlayback();
   }, []);
 
+  if (isLoadingResult) {
+    return (
+      <main className="mx-auto max-w-4xl p-6">
+        <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white px-6 py-12 text-center shadow-sm">
+          <h2 className="mb-3 text-2xl font-semibold text-[var(--color-neutral-900)]">
+            Loading Result...
+          </h2>
+          <p className="text-sm text-[var(--color-neutral-500)]">
+            Please wait while we load your test result.
+          </p>
+        </div>
+      </main>
+    );
+  }
+
   if (!result) {
     return (
       <main className="mx-auto max-w-4xl p-6">
         <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white px-6 py-12 text-center shadow-sm">
-          <h2 className="mb-3 text-2xl font-semibold text-[var(--color-neutral-900)]">No Results Found</h2>
+          <h2 className="mb-3 text-2xl font-semibold text-[var(--color-neutral-900)]">
+            No Results Found
+          </h2>
           <p className="mb-6 text-sm text-[var(--color-neutral-500)]">
             Please complete a simulation first to see your results.
           </p>
@@ -132,7 +188,9 @@ export default function ResultPage() {
         className="rounded-3xl px-6 py-10 text-center text-white md:px-10"
         style={{ background: heroGradient }}
       >
-        <p className="text-sm text-white/80">{result.examType.toUpperCase()} Simulation — {result.difficulty}</p>
+        <p className="text-sm text-white/80">
+          {result.examType.toUpperCase()} Simulation — {result.difficulty}
+        </p>
         <div
           className="my-2 text-[72px] font-extrabold leading-none md:text-[80px]"
           style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
@@ -149,7 +207,9 @@ export default function ResultPage() {
         </span>
       </section>
 
-      <section className={`grid gap-4 ${result.sectionScores.length === 1 ? "grid-cols-1" : "md:grid-cols-2 xl:grid-cols-4"}`}>
+      <section
+        className={`grid gap-4 ${result.sectionScores.length === 1 ? "grid-cols-1" : "md:grid-cols-2 xl:grid-cols-4"}`}
+      >
         {result.sectionScores.map((section) => {
           const colorClass =
             section.percentage >= 70
@@ -165,21 +225,33 @@ export default function ResultPage() {
                 : "var(--color-danger)";
 
           return (
-            <div key={section.sectionId} className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
-              <div className="mb-2 text-xs font-medium text-[var(--color-neutral-500)]">{section.sectionTitle}</div>
+            <div
+              key={section.sectionId}
+              className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm"
+            >
+              <div className="mb-2 text-xs font-medium text-[var(--color-neutral-500)]">
+                {section.sectionTitle}
+              </div>
               <div
                 className={`mb-3 text-[28px] font-bold ${colorClass}`}
-                style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
+                style={{
+                  fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                }}
               >
                 {section.percentage}%
               </div>
               <div className="mb-2 h-1.5 rounded-full bg-[var(--color-neutral-100)]">
                 <div
                   className="h-full rounded-full transition-all"
-                  style={{ width: `${section.percentage}%`, background: barColor }}
+                  style={{
+                    width: `${section.percentage}%`,
+                    background: barColor,
+                  }}
                 />
               </div>
-              <p className="text-xs text-[var(--color-neutral-500)]">{section.correct} / {section.total} correct answers</p>
+              <p className="text-xs text-[var(--color-neutral-500)]">
+                {section.correct} / {section.total} correct answers
+              </p>
               {typeof section.scaledScore === "number" && (
                 <p className="mt-1 text-xs font-semibold text-[var(--color-primary)]">
                   Scaled: {section.scaledScore}
@@ -196,45 +268,63 @@ export default function ResultPage() {
       </section>
 
       <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
-        <h3 className="mb-3 text-xl font-semibold text-[var(--color-neutral-900)]">Performance Tags</h3>
+        <h3 className="mb-3 text-xl font-semibold text-[var(--color-neutral-900)]">
+          Performance Tags
+        </h3>
         <div className="flex flex-wrap gap-2">
           {strengths.map((s) => (
-            <span key={`strong-${s.sectionId}`} className="rounded-full bg-[var(--color-accent-pale)] px-3 py-1 text-xs font-medium text-[var(--color-accent-dark)]">
-Strong: {s.sectionTitle}
+            <span
+              key={`strong-${s.sectionId}`}
+              className="rounded-full bg-[var(--color-accent-pale)] px-3 py-1 text-xs font-medium text-[var(--color-accent-dark)]"
+            >
+              Strong: {s.sectionTitle}
             </span>
           ))}
           {weaknesses.map((s) => (
-            <span key={`weak-${s.sectionId}`} className="rounded-full bg-red-50 px-3 py-1 text-xs font-medium text-[var(--color-danger)]">
-Weak: {s.sectionTitle}
+            <span
+              key={`weak-${s.sectionId}`}
+              className="rounded-full bg-red-50 px-3 py-1 text-xs font-medium text-[var(--color-danger)]"
+            >
+              Weak: {s.sectionTitle}
             </span>
           ))}
           {!strengths.length && !weaknesses.length && (
             <span className="rounded-full bg-[var(--color-neutral-100)] px-3 py-1 text-xs font-medium text-[var(--color-neutral-500)]">
-All sections are in the middle range
+              All sections are in the middle range
             </span>
           )}
         </div>
       </section>
 
       <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
-        <h2 className="mb-4 text-[32px] font-bold text-[var(--color-neutral-900)]">Question Review</h2>
+        <h2 className="mb-4 text-[32px] font-bold text-[var(--color-neutral-900)]">
+          Question Review
+        </h2>
         <div className="space-y-3">
           {result.sections.map((section) => {
             const sectionScore = scoreMap.get(section.id);
             const isExpanded = expandedSections.has(section.id);
 
             return (
-              <div key={section.id} className="overflow-hidden rounded-2xl border border-[var(--color-neutral-300)]">
+              <div
+                key={section.id}
+                className="overflow-hidden rounded-2xl border border-[var(--color-neutral-300)]"
+              >
                 <button
                   onClick={() => toggleSection(section.id)}
                   className="flex w-full items-center justify-between bg-[var(--color-neutral-50)] px-5 py-4 text-left transition hover:bg-white"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-sm text-[var(--color-neutral-500)]">{isExpanded ? "▼" : "▶"}</span>
-                    <span className="text-sm font-semibold text-[var(--color-neutral-900)]">{section.title}</span>
+                    <span className="text-sm text-[var(--color-neutral-500)]">
+                      {isExpanded ? "▼" : "▶"}
+                    </span>
+                    <span className="text-sm font-semibold text-[var(--color-neutral-900)]">
+                      {section.title}
+                    </span>
                     {sectionScore && (
                       <span className="rounded-full bg-[var(--color-primary-pale)] px-2 py-0.5 text-xs font-medium text-[var(--color-primary)]">
-                        {sectionScore.correct}/{sectionScore.total} ({sectionScore.percentage}%)
+                        {sectionScore.correct}/{sectionScore.total} (
+                        {sectionScore.percentage}%)
                       </span>
                     )}
                   </div>
@@ -245,11 +335,42 @@ All sections are in the middle range
                     {section.questions.map((q) => {
                       const key = `${section.id}:${q.id}`;
                       const userAnswer = result.answers[key] ?? "";
-                      const isMcq = q.type === "mcq" && q.correctAnswer !== undefined;
-                      const isCorrect = isMcq ? userAnswer === String(q.correctAnswer) : null;
+                      const isMcq =
+                        q.type === "mcq" && q.correctAnswer !== undefined;
+                      const isCorrect = isMcq
+                        ? userAnswer === String(q.correctAnswer)
+                        : null;
+
+                      const matchingListeningTracks =
+                        section.id === "listening"
+                          ? (section.listeningTracks ?? []).filter(
+                              (track) =>
+                                q.number >= track.start &&
+                                q.number <= track.end,
+                            )
+                          : [];
+                      const listeningTracksToShow =
+                        matchingListeningTracks.filter(
+                          (track) => q.number === track.start,
+                        );
+
+                      const matchingPassages =
+                        section.id === "reading"
+                          ? (section.passages ?? []).filter((passage) => {
+                              const start = passage.questionStart ?? 1;
+                              const end =
+                                passage.questionEnd ?? section.questions.length;
+                              return q.number >= start && q.number <= end;
+                            })
+                          : [];
+                      const passagesToShow = matchingPassages.filter(
+                        (passage) => q.number === (passage.questionStart ?? 1),
+                      );
 
                       const userAnswerIndex =
-                        q.options && userAnswer !== "" && !Number.isNaN(Number(userAnswer))
+                        q.options &&
+                        userAnswer !== "" &&
+                        !Number.isNaN(Number(userAnswer))
                           ? Number(userAnswer)
                           : null;
 
@@ -266,57 +387,84 @@ All sections are in the middle range
                       const status = getAnswerStatus(isCorrect, q.type);
 
                       return (
-                        <div key={q.id} className="rounded-2xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4">
+                        <div
+                          key={q.id}
+                          className="rounded-2xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4"
+                        >
                           <div className="mb-3 flex items-start justify-between gap-3">
                             <p className="flex-1 whitespace-pre-wrap text-sm font-medium text-[var(--color-neutral-900)]">
                               Q{q.number}. {q.text}
                             </p>
-                            <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${status.className}`}>
+                            <span
+                              className={`rounded-full px-2 py-0.5 text-xs font-medium ${status.className}`}
+                            >
                               {status.text}
                             </span>
                           </div>
 
                           {q.details?.statement && (
                             <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
-                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">Statement</p>
-                              <p className="whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">{q.details.statement}</p>
+                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                Statement
+                              </p>
+                              <p className="whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">
+                                {q.details.statement}
+                              </p>
                             </div>
                           )}
 
                           {q.details?.questionText && (
                             <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
-                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">Question</p>
-                              <p className="whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">{q.details.questionText}</p>
+                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                Question
+                              </p>
+                              <p className="whitespace-pre-wrap text-sm text-[var(--color-neutral-700)]">
+                                {q.details.questionText}
+                              </p>
                             </div>
                           )}
 
-                          {q.details?.visualData && <WritingVisual visualData={q.details.visualData} />}
-
-                          {q.details?.instructions && (
-                            <p className="mb-3 text-xs text-slate-600">Note: {q.details.instructions}</p>
+                          {q.details?.visualData && (
+                            <WritingVisual visualData={q.details.visualData} />
                           )}
 
-                          {section.id === "listening" && section.listeningTracks?.length > 0 && (
-                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
-                              <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
-                                Listening Reference
-                              </p>
-                              <div className="space-y-2">
-                                {section.listeningTracks
-                                  .filter((track) => q.number >= track.start && q.number <= track.end)
-                                  .map((track) => {
+                          {q.details?.instructions && (
+                            <p className="mb-3 text-xs text-slate-600">
+                              Note: {q.details.instructions}
+                            </p>
+                          )}
+
+                          {section.id === "listening" &&
+                            listeningTracksToShow.length > 0 && (
+                              <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                                <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                  Listening Reference
+                                </p>
+                                <div className="space-y-2">
+                                  {listeningTracksToShow.map((track) => {
                                     const scriptKey = `${section.id}:${q.id}:${track.label}`;
                                     return (
-                                      <div key={scriptKey} className="rounded-lg border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-2">
+                                      <div
+                                        key={scriptKey}
+                                        className="rounded-lg border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-2"
+                                      >
                                         <div className="mb-2 flex items-center justify-between gap-2">
                                           <p className="text-xs font-medium text-[var(--color-neutral-700)]">
-                                            {track.label} (Q{track.start}-{track.end})
+                                            {track.label} (Q{track.start}-
+                                            {track.end})
                                           </p>
                                           <button
-                                            onClick={() => playScript(track.script, scriptKey)}
+                                            onClick={() =>
+                                              playScript(
+                                                track.script,
+                                                scriptKey,
+                                              )
+                                            }
                                             className="rounded-md border border-[var(--color-neutral-300)] bg-white px-2 py-1 text-xs font-semibold text-[var(--color-primary)]"
                                           >
-                                            {activeScriptKey === scriptKey ? "Stop Audio" : "Play Audio"}
+                                            {activeScriptKey === scriptKey
+                                              ? "Stop Audio"
+                                              : "Play Audio"}
                                           </button>
                                         </div>
                                         <p className="whitespace-pre-wrap text-xs leading-6 text-[var(--color-neutral-700)]">
@@ -325,24 +473,25 @@ All sections are in the middle range
                                       </div>
                                     );
                                   })}
+                                </div>
                               </div>
-                            </div>
-                          )}
+                            )}
 
-                          {section.id === "reading" && (
-                            <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
-                              <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
-                                Reading Passage Reference
-                              </p>
-                              {section.passages && section.passages.length > 0 ? (
-                                section.passages
-                                  .filter((passage) => {
-                                    const start = passage.questionStart ?? 1;
-                                    const end = passage.questionEnd ?? section.questions.length;
-                                    return q.number >= start && q.number <= end;
-                                  })
-                                  .map((passage, idx) => (
-                                    <div key={`${section.id}:${q.id}:passage:${idx}`} className="mb-2 last:mb-0 rounded-lg border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-2">
+                          {section.id === "reading" &&
+                            (passagesToShow.length > 0 ||
+                              (!section.passages?.length &&
+                                q.number === 1)) && (
+                              <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
+                                <p className="mb-2 text-xs font-semibold text-[var(--color-neutral-500)]">
+                                  Reading Passage Reference
+                                </p>
+                                {section.passages &&
+                                section.passages.length > 0 ? (
+                                  passagesToShow.map((passage, idx) => (
+                                    <div
+                                      key={`${section.id}:${q.id}:passage:${idx}`}
+                                      className="mb-2 last:mb-0 rounded-lg border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-2"
+                                    >
                                       <p className="mb-1 text-xs font-medium text-[var(--color-neutral-700)]">
                                         {passage.title}
                                       </p>
@@ -351,13 +500,14 @@ All sections are in the middle range
                                       </p>
                                     </div>
                                   ))
-                              ) : (
-                                <p className="max-h-40 overflow-auto whitespace-pre-wrap text-xs leading-6 text-[var(--color-neutral-700)]">
-                                  {section.passageContent || "Passage not available."}
-                                </p>
-                              )}
-                            </div>
-                          )}
+                                ) : (
+                                  <p className="max-h-40 overflow-auto whitespace-pre-wrap text-xs leading-6 text-[var(--color-neutral-700)]">
+                                    {section.passageContent ||
+                                      "Passage not available."}
+                                  </p>
+                                )}
+                              </div>
+                            )}
 
                           {isMcq && q.options?.length ? (
                             <div className="mb-3 rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-3">
@@ -366,8 +516,10 @@ All sections are in the middle range
                               </p>
                               <div className="space-y-2">
                                 {q.options.map((option, optionIdx) => {
-                                  const isCorrectChoice = optionIdx === q.correctAnswer;
-                                  const isUserChoice = userAnswerIndex === optionIdx;
+                                  const isCorrectChoice =
+                                    optionIdx === q.correctAnswer;
+                                  const isUserChoice =
+                                    userAnswerIndex === optionIdx;
 
                                   return (
                                     <div
@@ -385,7 +537,11 @@ All sections are in the middle range
                                           {optionIdx + 1}. {option}
                                         </span>
                                         <span className="shrink-0 text-[10px] font-semibold">
-                                          {isCorrectChoice ? "Correct" : isUserChoice ? "Your choice" : ""}
+                                          {isCorrectChoice
+                                            ? "Correct"
+                                            : isUserChoice
+                                              ? "Your choice"
+                                              : ""}
                                         </span>
                                       </div>
                                     </div>
@@ -396,27 +552,49 @@ All sections are in the middle range
                           ) : null}
 
                           <div className="mb-3 space-y-2 text-sm">
-                            <div className={`rounded-[10px] border-l-4 p-3 ${
-                              isCorrect === false
-                                ? "border-[var(--color-danger)] bg-red-50"
-                                : "border-[var(--color-accent)] bg-[var(--color-accent-pale)]"
-                            }`}>
-                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-700)]">Your Answer:</p>
-                              <p className={isCorrect === false ? "text-[var(--color-danger)]" : "text-[var(--color-neutral-700)]"}>{userAnswerLabel}</p>
+                            <div
+                              className={`rounded-[10px] border-l-4 p-3 ${
+                                isCorrect === false
+                                  ? "border-[var(--color-danger)] bg-red-50"
+                                  : "border-[var(--color-accent)] bg-[var(--color-accent-pale)]"
+                              }`}
+                            >
+                              <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-700)]">
+                                Your Answer:
+                              </p>
+                              <p
+                                className={
+                                  isCorrect === false
+                                    ? "text-[var(--color-danger)]"
+                                    : "text-[var(--color-neutral-700)]"
+                                }
+                              >
+                                {userAnswerLabel}
+                              </p>
                             </div>
 
                             {isMcq && isCorrect === false && (
                               <div className="rounded-[10px] border-l-4 border-[var(--color-accent)] bg-[var(--color-accent-pale)] p-3">
-                                <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-700)]">Correct Answer:</p>
-                                <p className="text-[var(--color-accent-dark)]">{correctAnswerLabel}</p>
+                                <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-700)]">
+                                  Correct Answer:
+                                </p>
+                                <p className="text-[var(--color-accent-dark)]">
+                                  {correctAnswerLabel}
+                                </p>
                               </div>
                             )}
                           </div>
 
-                          {q.details?.writingReview && <WritingReviewCard review={q.details.writingReview} />}
+                          {q.details?.writingReview && (
+                            <WritingReviewCard
+                              review={q.details.writingReview}
+                            />
+                          )}
 
                           <div className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white p-4">
-                            <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">Explanation:</p>
+                            <p className="mb-1 text-xs font-semibold text-[var(--color-neutral-500)]">
+                              Explanation:
+                            </p>
                             <p className="whitespace-pre-wrap text-sm leading-7 text-[var(--color-neutral-700)]">
                               {q.details?.writingReview?.summary ||
                                 q.explanation ||
@@ -436,10 +614,10 @@ All sections are in the middle range
       </section>
 
       <button
-        onClick={() => router.push("/")}
+        onClick={() => router.push("/dashboard/result")}
         className="w-full rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)]"
       >
-        Back to Home
+        Back to Dashboard
       </button>
     </main>
   );

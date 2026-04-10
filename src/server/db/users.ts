@@ -7,11 +7,21 @@ export type AuthDbUser = {
   email: string;
   name: string;
   picture: string | null;
+  createdAt?: string;
+};
+
+export type AuthDbUserListItem = {
+  id: string;
+  googleSub: string;
+  email: string;
+  name: string;
+  picture: string | null;
+  createdAt: string;
 };
 
 let tableReady = false;
 
-async function ensureUserTable() {
+export async function ensureUserTable() {
   if (tableReady) return;
 
   const pool = getDbPool();
@@ -93,6 +103,71 @@ export async function updateUserProfile(
     email: row.email,
     name: row.name,
     picture: row.picture,
+  };
+}
+
+export async function listUsers(limit = 100): Promise<AuthDbUserListItem[]> {
+  await ensureUserTable();
+
+  const pool = getDbPool();
+  const result = await pool.query<{
+    id: string;
+    google_sub: string;
+    email: string;
+    name: string;
+    picture: string | null;
+    created_at: string;
+  }>(
+    `
+      SELECT id, google_sub, email, name, picture, created_at
+      FROM auth_users
+      ORDER BY created_at DESC
+      LIMIT $1;
+    `,
+    [limit],
+  );
+
+  return result.rows.map((row) => ({
+    id: row.id,
+    googleSub: row.google_sub,
+    email: row.email,
+    name: row.name,
+    picture: row.picture,
+    createdAt: row.created_at,
+  }));
+}
+
+export async function getUserById(id: string): Promise<AuthDbUserListItem | null> {
+  await ensureUserTable();
+
+  const pool = getDbPool();
+  const result = await pool.query<{
+    id: string;
+    google_sub: string;
+    email: string;
+    name: string;
+    picture: string | null;
+    created_at: string;
+  }>(
+    `
+      SELECT id, google_sub, email, name, picture, created_at
+      FROM auth_users
+      WHERE id = $1
+      LIMIT 1;
+    `,
+    [id],
+  );
+
+  const row = result.rows[0];
+  if (!row) return null;
+
+  return {
+    id: row.id,
+    googleSub: row.google_sub,
+    email: row.email,
+    name: row.name,
+    picture: row.picture,
+    createdAt: row.created_at,
   };
 }
 

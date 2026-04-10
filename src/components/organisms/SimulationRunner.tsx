@@ -147,7 +147,7 @@ export function SimulationRunner({
   };
 
   const router = useRouter();
-  const isDevMode = process.env.NODE_ENV === "development";
+  const [isAdmin, setIsAdmin] = useState(false);
   const templates = useMemo(() => EXAM_TEMPLATES[examType], [examType]);
   const currentSection = sections[currentSectionIndex];
   const currentQuestion = currentSection?.questions[currentQuestionIndex];
@@ -334,6 +334,30 @@ export function SimulationRunner({
     };
 
     init();
+  }, []);
+
+  useEffect(() => {
+    const resolveAdmin = async () => {
+      try {
+        const res = await fetch("/api/auth/session", {
+          credentials: "include",
+          cache: "no-store",
+        });
+        const json = (await res.json()) as {
+          success?: boolean;
+          data?: { user?: { isAdmin?: boolean } };
+        };
+        if (res.ok && json.success && json.data?.user?.isAdmin) {
+          setIsAdmin(true);
+        } else {
+          setIsAdmin(false);
+        }
+      } catch {
+        setIsAdmin(false);
+      }
+    };
+
+    void resolveAdmin();
   }, []);
 
   useEffect(() => {
@@ -1317,6 +1341,24 @@ export function SimulationRunner({
   const finalizeSimulation = async () => {
     const evaluatedSections = await evaluateIeltsWriting(sections);
     const resultData = buildResultData(evaluatedSections);
+
+    let persistedResultId: string | null = null;
+    try {
+      const response = await fetch("/api/questions/session/local/finish", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ result: resultData }),
+      });
+      const payload = (await response.json()) as {
+        success?: boolean;
+        data?: { resultId?: string };
+      };
+      if (response.ok && payload?.success && payload.data?.resultId) {
+        persistedResultId = payload.data.resultId;
+      }
+    } catch {}
+
     try {
       sessionStorage.setItem("simulation-result", JSON.stringify(resultData));
     } catch {}
@@ -1326,7 +1368,7 @@ export function SimulationRunner({
     } catch {}
     setSessionActive(false);
 
-    router.push("/result");
+    router.push(persistedResultId ? `/result?id=${persistedResultId}` : "/result");
   };
 
   const advanceToNextSection = () => {
@@ -1513,14 +1555,14 @@ export function SimulationRunner({
     : 0;
 
   const showDevWaitingVideo =
-    isDevMode &&
+    isAdmin &&
     started &&
     !!currentSection &&
     currentSection.status !== "done" &&
     currentSection.questions.length === 0;
 
   useEffect(() => {
-    if (!isDevMode || !started || !sections.length) return;
+    if (!isAdmin || !started || !sections.length) return;
 
     setDevFillConfig((prev) => {
       const next: Record<string, number> = { ...prev };
@@ -1531,10 +1573,10 @@ export function SimulationRunner({
       });
       return next;
     });
-  }, [isDevMode, started, sections]);
+  }, [isAdmin, started, sections]);
 
   const applyDevAutoFill = () => {
-    if (!isDevMode || !sections.length) return;
+    if (!isAdmin || !sections.length) return;
 
     const nextAnswers: Record<string, string> = { ...answers };
 
@@ -2045,7 +2087,7 @@ export function SimulationRunner({
         </section>
       )}
 
-      {isDevMode && started && (
+      {isAdmin && started && (
         <>
           {devAutoFillMinimized ? (
             <button

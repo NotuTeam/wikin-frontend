@@ -9,6 +9,7 @@ import {
   ChartLineUp,
   GraduationCapIcon,
   BookOpen,
+  Pulse,
 } from "@phosphor-icons/react";
 import { cn } from "@/lib/cn";
 
@@ -19,42 +20,53 @@ interface NavItem {
   section?: string;
 }
 
-const navItems: NavItem[] = [
-  {
-    label: "Dashboard",
-    icon: SquaresFour,
-    href: "/dashboard",
-    section: "Overview",
-  },
-  {
-    label: "Simulation",
-    icon: BookOpen,
-    href: "/dashboard/simulation",
-    section: "Progress",
-  },
-  {
-    label: "Result",
-    icon: ChartLineUp,
-    href: "/dashboard/result",
-    section: "Progress",
-  },
-  {
-    label: "Study Group",
-    icon: GraduationCapIcon,
-    href: "/dashboard/study-group",
-    section: "Progress",
-  },
-];
-
 interface SidebarProps {
   isExpanded: boolean;
+  isAdmin?: boolean;
 }
 
-export function Sidebar({ isExpanded }: SidebarProps) {
+export function Sidebar({ isExpanded, isAdmin = false }: SidebarProps) {
   const [tooltip, setTooltip] = useState<{ text: string; y: number } | null>(
     null,
   );
   const pathname = usePathname();
+
+  const navItems: NavItem[] = [
+    {
+      label: "Dashboard",
+      icon: SquaresFour,
+      href: "/dashboard",
+      section: "Overview",
+    },
+    {
+      label: "Simulation",
+      icon: BookOpen,
+      href: "/dashboard/simulation",
+      section: "Progress",
+    },
+    {
+      label: "Result",
+      icon: ChartLineUp,
+      href: "/dashboard/result",
+      section: "Progress",
+    },
+    {
+      label: "Study Group",
+      icon: GraduationCapIcon,
+      href: "/dashboard/study-group",
+      section: "Progress",
+    },
+    ...(isAdmin
+      ? [
+          {
+            label: "Activity",
+            icon: Pulse,
+            href: "/dashboard/activity",
+            section: "Admin",
+          } satisfies NavItem,
+        ]
+      : []),
+  ];
 
   const groupedNavItems = navItems.reduce(
     (acc, item) => {
@@ -66,7 +78,7 @@ export function Sidebar({ isExpanded }: SidebarProps) {
     {} as Record<string, NavItem[]>,
   );
 
-  const sections = ["Overview", "Progress"];
+  const sections = ["Overview", "Progress", "Admin"];
 
   return (
     <aside
@@ -160,7 +172,6 @@ export function Sidebar({ isExpanded }: SidebarProps) {
           </div>
         ))}
       </nav>
-
 
       {/* Tooltip - Only show when collapsed */}
       {!isExpanded && tooltip && (

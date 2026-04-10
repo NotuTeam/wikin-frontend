@@ -18,6 +18,7 @@ type DashboardUser = {
   email: string;
   name: string;
   picture?: string;
+  isAdmin?: boolean;
 };
 
 const DashboardUserContext = createContext<DashboardUser | null>(null);
@@ -80,7 +81,7 @@ function DashboardShellInner({
 
   return (
     <main className="flex min-h-screen bg-[var(--color-neutral-50)]">
-      <Sidebar isExpanded={isSidebarExpanded} />
+      <Sidebar isExpanded={isSidebarExpanded} isAdmin={user.isAdmin} />
 
       <div className="flex-1 min-h-screen">
         <header className="sticky top-0 z-10 flex h-14 items-center justify-between border-b border-[var(--color-neutral-300)] bg-white px-7">
