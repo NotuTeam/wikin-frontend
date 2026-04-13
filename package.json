@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
+    "@types/aos": "^3.0.7",
     "@types/node": "^22.13.14",
     "@types/pg": "^8.11.11",
     "@types/react": "^19.0.12",
