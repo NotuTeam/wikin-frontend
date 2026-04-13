@@ -8,23 +8,28 @@ import "aos/dist/aos.css";
 
 import { HomeFooter, HomeNavbar } from "@/components";
 import { buttonVariants } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Headphones,
   BookOpen,
   PenNib,
   ChatCircleText,
   Check,
-  TrendUp,
-  Target,
-  ChartBar,
+  Sparkle,
+  Lightning,
+  Gauge,
 } from "@phosphor-icons/react/dist/ssr";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title as ChartTitle,
+  Tooltip,
+  Legend,
+} from "chart.js";
+
+import AnimatedWLogo from "@/components/AnimatedLogo";
 
 const trustedBy = [
   { name: "Universitas Indonesia", abbr: "UI" },
@@ -145,6 +150,16 @@ const missionStats = [
   { value: "4.8/5", label: "Average Rating" },
 ];
 
+// Register ChartJS components
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  ChartTitle,
+  Tooltip,
+  Legend,
+);
+
 const pricingFeatures = {
   free: [
     "5 simulation sessions",
@@ -204,7 +219,7 @@ export default function HomePage() {
             </div>
 
             {/* Trusted by */}
-            <div className="mt-12" data-aos="fade-up" data-aos-delay="100">
+            {/* <div className="mt-12" data-aos="fade-up" data-aos-delay="100">
               <p className="mb-3 text-xs font-medium uppercase tracking-[0.1em] text-[var(--color-neutral-500)]">
                 Trusted by learners from
               </p>
@@ -220,7 +235,7 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Kolom Kanan - Card Mockup */}
@@ -272,6 +287,88 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Social Proof / Stats Section - 3 Kolom Grid dengan Pill Badge */}
+      <section className="mx-auto w-full max-w-[1140px] px-6 py-16 md:px-8 lg:px-6">
+        <div className="mb-10 text-center" data-aos="fade-up">
+          <span className="inline-flex rounded-full bg-[var(--color-primary-pale)] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--color-primary)] mb-3">
+            Why Wikin
+          </span>
+          <h2 className="mt-4 text-2xl font-bold text-[var(--color-neutral-900)] md:text-3xl">
+            Practice Smarter, Not Harder
+          </h2>
+          <p className="mx-auto mt-3 max-w-xl text-[15px] text-[var(--color-neutral-400)]">
+            Experience a preparation journey designed for real results
+          </p>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-3">
+          {/* Point 1 - Fresh AI-Generated Questions */}
+          <Card
+            className="flex flex-col border-[var(--color-neutral-200)] bg-white p-6 transition-all hover:shadow-lg hover:-translate-y-1"
+            data-aos="fade-up"
+            data-aos-delay="0"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-primary-pale)] to-[var(--color-primary-light)]/30">
+              <Sparkle
+                className="h-6 w-6 text-[var(--color-primary)]"
+                weight="fill"
+              />
+            </div>
+            <h3 className="mb-2 text-[17px] font-semibold text-[var(--color-neutral-900)]">
+              Infinite Fresh Questions
+            </h3>
+            <p className="text-[14px] leading-6 text-[var(--color-neutral-600)]">
+              Never practice the same test twice. Our AI generates unique
+              questions for every session, ensuring you face new challenges that
+              mirror the actual exam format.
+            </p>
+          </Card>
+
+          {/* Point 2 - Instant Results & Review */}
+          <Card
+            className="flex flex-col border-[var(--color-neutral-200)] bg-white p-6 transition-all hover:shadow-lg hover:-translate-y-1"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-accent-pale)] to-[var(--color-accent)]/30">
+              <Lightning
+                className="h-6 w-6 text-[var(--color-accent-dark)]"
+                weight="fill"
+              />
+            </div>
+            <h3 className="mb-2 text-[17px] font-semibold text-[var(--color-neutral-900)]">
+              Instant Results & Review
+            </h3>
+            <p className="text-[14px] leading-6 text-[var(--color-neutral-600)]">
+              Get your comprehensive score breakdown the moment you finish.
+              Review your answers, see correct responses, and understand your
+              mistakes immediately.
+            </p>
+          </Card>
+
+          {/* Point 3 - Progress Tracking with Interactive Barchart */}
+          <Card
+            className="flex flex-col border-[var(--color-neutral-200)] bg-white p-6 transition-all hover:shadow-lg hover:-translate-y-1"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-primary-pale)] to-[var(--color-primary-light)]/30">
+              <Gauge
+                className="h-6 w-6 text-[var(--color-primary)]"
+                weight="fill"
+              />
+            </div>
+            <h3 className="mb-2 text-[17px] font-semibold text-[var(--color-neutral-900)]">
+              Smart Progress Dashboard
+            </h3>
+            <p className="text-[14px] leading-6 text-[var(--color-neutral-600)]">
+              Track your improvement across all sections with visual analytics.
+              See how your band scores evolve over time.
+            </p>
+          </Card>
+        </div>
+      </section>
+
       {/* Feature Section - 2 Kolom dengan Stacked Cards */}
       <section className="mx-auto w-full max-w-[1140px] px-6 py-24 md:px-8 lg:px-6">
         <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-16">
@@ -280,10 +377,10 @@ export default function HomePage() {
             <p className="mb-4 inline-flex rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-primary)]">
               Features
             </p>
-            <h2 className="mb-4 text-3xl font-bold leading-tight text-[var(--color-neutral-900)] md:text-4xl">
+            <h2 className="mb-4! text-3xl font-bold leading-tight text-[var(--color-neutral-900)] md:text-4xl">
               Experience that grows with you
             </h2>
-            <p className="max-w-md text-base leading-7 text-[var(--color-neutral-600)]">
+            <p className="max-w-md text-base leading-7 text-[var(--color-neutral-400)]">
               Our AI adapts to your learning pace, providing personalized
               simulations that target your specific weaknesses and build on your
               strengths.
@@ -324,83 +421,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Social Proof / Stats Section - 3 Kolom Grid dengan Pill Badge */}
-      <section className="mx-auto w-full max-w-[1140px] px-6 py-16 md:px-8 lg:px-6">
-        <div className="mb-10 text-center" data-aos="fade-up">
-          <span className="inline-flex rounded-full bg-[var(--color-primary-pale)] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--color-primary)]">
-            Why Wikin
-          </span>
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-3">
-          {/* Stat Card 1 */}
-          <Card
-            className="flex flex-col items-center justify-center border-[var(--color-neutral-200)] bg-white p-8 text-center"
-            data-aos="fade-up"
-            data-aos-delay="0"
-          >
-            <p
-              className="text-[36px] font-bold text-[var(--color-primary)]"
-              style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
-            >
-              3K+
-            </p>
-            <p className="mt-1 text-[13px] text-[var(--color-neutral-500)]">
-              Active Learners
-            </p>
-          </Card>
-
-          {/* Stat Card 2 - Feature dengan diagram alur */}
-          <Card
-            className="flex flex-col items-center justify-center border-[var(--color-neutral-200)] bg-white p-8 text-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-accent-pale)]">
-              <TrendUp className="h-6 w-6 text-[var(--color-accent-dark)]" />
-            </div>
-            <p className="text-[15px] font-semibold text-[var(--color-neutral-900)]">
-              Instant Withdraw
-            </p>
-            <p className="mt-1 text-[13px] text-[var(--color-neutral-500)]">
-              Results in 24 hours
-            </p>
-            {/* Mini flow diagram */}
-            <div className="mt-4 flex items-center gap-2">
-              <div className="h-2 w-2 rounded-full bg-[var(--color-primary)]" />
-              <div className="h-px w-6 border-t border-dashed border-[var(--color-primary)]" />
-              <div className="h-2 w-2 rounded-full bg-[var(--color-primary)]" />
-              <div className="h-px w-6 border-t border-dashed border-[var(--color-primary)]" />
-              <div className="h-2 w-2 rounded-full bg-[var(--color-primary)]" />
-            </div>
-          </Card>
-
-          {/* Stat Card 3 - Mini chart */}
-          <Card
-            className="flex flex-col items-center justify-center border-[var(--color-neutral-200)] bg-white p-8 text-center"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-primary-pale)]">
-              <ChartBar className="h-6 w-6 text-[var(--color-primary)]" />
-            </div>
-            <p className="text-[15px] font-semibold text-[var(--color-neutral-900)]">
-              Progress Tracking
-            </p>
-            <p className="mt-1 text-[13px] text-[var(--color-neutral-500)]">
-              Visual analytics
-            </p>
-            {/* Mini bar chart */}
-            <div className="mt-4 flex items-end gap-1">
-              <div className="h-4 w-3 rounded-sm bg-[var(--color-primary)] opacity-40" />
-              <div className="h-6 w-3 rounded-sm bg-[var(--color-primary)] opacity-60" />
-              <div className="h-5 w-3 rounded-sm bg-[var(--color-primary)] opacity-50" />
-              <div className="h-8 w-3 rounded-sm bg-[var(--color-primary)]" />
-            </div>
-          </Card>
-        </div>
-      </section>
-
       {/* How It Works - Dark Section dengan Step Connectors */}
       <section
         id="how-it-works"
@@ -418,7 +438,7 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold text-white! md:text-4xl">
               Maximize your score improvement
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-sm text-white/70">
+            <p className="mx-auto mt-4 max-w-xl text-base text-white/70">
               Start your first focused practice in under 2 minutes
             </p>
           </div>
@@ -434,7 +454,7 @@ export default function HomePage() {
                 className={`relative rounded-xl bg-[var(--color-primary-fade)] pt-10 pb-5 backdrop-blur-sm transition-all hover:scale-[1.02] animate-on-scroll-delay-${idx + 1}`}
               >
                 {/* Nomor step besar sebagai dekorasi */}
-                <span className="absolute right-4 top-2 text-[64px] font-bold leading-none text-white opacity-[0.08]">
+                <span className="absolute right-4 top-2 text-[64px] font-bold leading-none text-white opacity-[0.3]">
                   {idx + 1}
                 </span>
 
@@ -451,83 +471,58 @@ export default function HomePage() {
       </section>
 
       {/* Mission / Stats Bar Section - Centered dengan vertical dividers */}
-      <section className="mx-auto w-full max-w-[600px] px-6 py-24 text-center md:px-8">
-        <h2 className="mb-4 text-3xl font-bold leading-tight text-[var(--color-neutral-900)] md:text-4xl">
-          We have helped innovative learners reach their goals
-        </h2>
-        <p className="mb-10 text-base text-[var(--color-neutral-600)]">
-          Join thousands of students and professionals who transformed their
-          test preparation journey with Wikin.
-        </p>
+      <section className=" w-full relative">
+        <AnimatedWLogo
+          size={450}
+          classname="absolute top-0 -right-[15%] rotate-160"
+        />
 
-        {/* Stats dengan vertical divider */}
-        <div className="flex items-center justify-center">
-          {missionStats.map((stat, idx) => (
-            <div key={stat.label} className="flex items-center">
-              <div className="px-6 text-center md:px-10">
-                <p
-                  className="text-[40px] font-bold text-[var(--color-primary)]"
-                  style={{
-                    fontFamily: '"JetBrains Mono", "Fira Code", monospace',
-                  }}
-                >
-                  {stat.value}
-                </p>
-                <p className="mt-1 text-[13px] text-[var(--color-neutral-500)]">
-                  {stat.label}
-                </p>
-              </div>
-              {idx < missionStats.length - 1 && (
-                <div className="h-10 w-px bg-[var(--color-neutral-300)]" />
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
+        <div className="max-w-[600px] px-6 py-24 mx-auto md:px-8 text-center">
+          <h2 className="mb-4! text-3xl font-bold leading-tight text-[var(--color-neutral-900)] md:text-4xl">
+            We have helped innovative learners reach their goals
+          </h2>
+          <p className="mb-10 text-base text-[var(--color-neutral-400)]">
+            Join thousands of students and professionals who transformed their
+            test preparation journey with Wikin.
+          </p>
 
-      {/* Sample Simulation Insights */}
-      <section
-        className="mx-auto w-full max-w-[1140px] px-6 pb-16 md:px-8 lg:px-6"
-        data-aos="fade-up"
-      >
-        <Card className="border-[var(--color-neutral-200)]">
-          <CardHeader>
-            <CardTitle className="text-xl">
-              Sample Simulation Insights
-            </CardTitle>
-            <CardDescription>
-              After one session, you immediately see where you stand and what to
-              improve next.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="grid gap-4 md:grid-cols-4">
-              {demoInsights.map((item, idx) => (
-                <Card
-                  key={item.label}
-                  className="rounded-xl bg-[var(--color-neutral-50)] p-5 text-center"
-                  data-aos="fade-up"
-                  data-aos-delay={idx * 100}
-                >
-                  <CardDescription className="text-xs text-[var(--color-neutral-500)]">
-                    {item.label}
-                  </CardDescription>
-                  <p className="mt-1 text-base font-semibold text-[var(--color-neutral-900)]">
-                    {item.value}
+          {/* Stats dengan vertical divider */}
+          <div className="flex items-center justify-center">
+            {missionStats.map((stat, idx) => (
+              <div key={stat.label} className="flex items-center">
+                <div className="px-6 text-center md:px-10">
+                  <p
+                    className="text-[40px] font-bold text-[var(--color-primary)]"
+                    style={{
+                      fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                    }}
+                  >
+                    {stat.value}
                   </p>
-                </Card>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
+                  <p className="mt-1 text-[13px] text-[var(--color-neutral-500)]">
+                    {stat.label}
+                  </p>
+                </div>
+                {idx < missionStats.length - 1 && (
+                  <div className="h-10 w-px bg-[var(--color-neutral-300)]" />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <AnimatedWLogo
+          size={400}
+          classname="absolute bottom-0 -left-[13%] -rotate-15"
+        />
       </section>
 
       {/* Testimonials */}
       <section className="mx-auto w-full max-w-[1140px] px-6 py-16 md:px-8 lg:px-6">
         <div className="mb-10 text-center">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-primary)]">
+          <span className="inline-flex rounded-full bg-[var(--color-primary-pale)] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--color-primary)] mb-3">
             Testimonials
-          </p>
+          </span>
           <h2 className="text-2xl font-bold text-[var(--color-neutral-900)] md:text-3xl">
             What our learners say
           </h2>
@@ -563,9 +558,9 @@ export default function HomePage() {
       {/* FAQ Section */}
       <section className="mx-auto w-full max-w-[720px] px-6 py-16 md:px-8">
         <div className="mb-10 text-center" data-aos="fade-up">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-primary)]">
+          <span className="inline-flex rounded-full bg-[var(--color-primary-pale)] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--color-primary)] mb-3">
             FAQ
-          </p>
+          </span>
           <h2 className="text-2xl font-bold text-[var(--color-neutral-900)] md:text-3xl">
             Frequently Asked Questions
           </h2>
@@ -593,98 +588,115 @@ export default function HomePage() {
       {/* Pricing Section - 2 Card dengan Feature List */}
       <section className="mx-auto w-full max-w-[800px] px-6 py-16 md:px-8 lg:px-6">
         <div className="mb-10 text-center" data-aos="fade-up">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-primary)]">
+          <span className="inline-flex rounded-full bg-[var(--color-primary-pale)] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--color-primary)] mb-3">
             Pricing
-          </p>
+          </span>
           <h2 className="text-2xl font-bold text-[var(--color-neutral-900)] md:text-3xl">
             Choose your plan
           </h2>
-          <p className="mx-auto mt-3 max-w-md text-[15px] text-[var(--color-neutral-600)]">
+          <p className="mx-auto mt-3 max-w-md text-[15px] text-[var(--color-neutral-400)]">
             Start free and upgrade when you need more features
           </p>
         </div>
 
-        <div className="grid gap-5 md:grid-cols-2">
-          {/* Free Plan */}
-          <Card
-            className="border-[var(--color-neutral-200)] bg-white p-6"
-            data-aos="fade-right"
-            data-aos-delay="100"
-          >
-            <div className="mb-4">
-              <h3 className="text-lg font-semibold text-[var(--color-neutral-900)]">
-                Free
-              </h3>
-              <p className="text-sm text-[var(--color-neutral-500)]">
-                For starters
-              </p>
-            </div>
-            <p className="mb-6 text-3xl font-bold text-[var(--color-neutral-900)]">
-              $0
-              <span className="text-base font-normal text-[var(--color-neutral-500)]">
-                /month
-              </span>
-            </p>
-            <ul className="mb-6 space-y-3">
-              {pricingFeatures.free.map((feature) => (
-                <li
-                  key={feature}
-                  className="flex items-start gap-2 text-[13px] text-[var(--color-neutral-600)]"
-                >
-                  <Check className="h-4 w-4 shrink-0 text-[var(--color-primary)]" />
-                  {feature}
-                </li>
-              ))}
-            </ul>
+        <div className="relative">
+          {/* Blur Overlay */}
+          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center rounded-xl backdrop-blur-sm bg-white/50 -rotate-6 gap-1">
             <Link
               href="/auth"
-              className="block w-full rounded-[10px] border border-[var(--color-primary)] py-3 text-center text-sm font-semibold text-[var(--color-primary)] hover:bg-[var(--color-primary-pale)] transition-colors"
+              className="rounded-xl bg-[var(--color-primary-light)] px-6 py-3 shadow-lg"
             >
-              Get Started
+              <span className="text-sm font-semibold text-[var(--color-primary-pale)] tracking-[0.1em]">
+                No Need to Pay
+              </span>
             </Link>
-          </Card>
-
-          {/* Pro Plan - Highlighted */}
-          <Card
-            className="relative border-2 border-[var(--color-primary)] bg-white p-6"
-            data-aos="fade-left"
-            data-aos-delay="200"
-          >
-            <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-semibold text-[var(--color-primary-dark)]">
-              Most Popular
+            <span className="text-xs text-[var(--color-neutral-500)]">
+              *for now hehe
             </span>
-            <div className="mb-4">
-              <h3 className="text-lg font-semibold text-[var(--color-neutral-900)]">
-                Pro
-              </h3>
-              <p className="text-sm text-[var(--color-neutral-500)]">
-                For serious learners
-              </p>
-            </div>
-            <p className="mb-6 text-3xl font-bold text-[var(--color-primary)]">
-              $12
-              <span className="text-base font-normal text-[var(--color-neutral-500)]">
-                /month
-              </span>
-            </p>
-            <ul className="mb-6 space-y-3">
-              {pricingFeatures.pro.map((feature) => (
-                <li
-                  key={feature}
-                  className="flex items-start gap-2 text-[13px] text-[var(--color-neutral-600)]"
-                >
-                  <Check className="h-4 w-4 shrink-0 text-[var(--color-primary)]" />
-                  {feature}
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/auth"
-              className="block w-full rounded-[10px] bg-[var(--color-primary)] py-3 text-center text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)] hover:bg-[var(--color-primary-dark)] transition-colors"
+          </div>
+
+          <div className="grid gap-5 md:grid-cols-2">
+            {/* Free Plan */}
+            <Card
+              className="border-[var(--color-neutral-200)] bg-white p-6"
+              data-aos="fade-right"
+              data-aos-delay="100"
             >
-              Upgrade to Pro
-            </Link>
-          </Card>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-[var(--color-neutral-900)]">
+                  Free
+                </h3>
+                <p className="text-sm text-[var(--color-neutral-500)]">
+                  For starters
+                </p>
+              </div>
+              <p className="mb-6 text-3xl font-bold text-[var(--color-neutral-900)]">
+                $0
+                <span className="text-base font-normal text-[var(--color-neutral-500)]">
+                  /month
+                </span>
+              </p>
+              <ul className="mb-6 space-y-3">
+                {pricingFeatures.free.map((feature) => (
+                  <li
+                    key={feature}
+                    className="flex items-start gap-2 text-[13px] text-[var(--color-neutral-600)]"
+                  >
+                    <Check className="h-4 w-4 shrink-0 text-[var(--color-primary)]" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/auth"
+                className="block w-full rounded-[10px] border border-[var(--color-primary)] py-3 text-center text-sm font-semibold text-[var(--color-primary)] hover:bg-[var(--color-primary-pale)] transition-colors"
+              >
+                Get Started
+              </Link>
+            </Card>
+
+            {/* Pro Plan - Highlighted */}
+            <Card
+              className="relative border-2 border-[var(--color-primary)] bg-white p-6"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
+              <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-semibold text-[var(--color-primary-dark)]">
+                Most Popular
+              </span>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-[var(--color-neutral-900)]">
+                  Pro
+                </h3>
+                <p className="text-sm text-[var(--color-neutral-500)]">
+                  For serious learners
+                </p>
+              </div>
+              <p className="mb-6 text-3xl font-bold text-[var(--color-primary)]">
+                $12
+                <span className="text-base font-normal text-[var(--color-neutral-500)]">
+                  /month
+                </span>
+              </p>
+              <ul className="mb-6 space-y-3">
+                {pricingFeatures.pro.map((feature) => (
+                  <li
+                    key={feature}
+                    className="flex items-start gap-2 text-[13px] text-[var(--color-neutral-600)]"
+                  >
+                    <Check className="h-4 w-4 shrink-0 text-[var(--color-primary)]" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/auth"
+                className="block w-full rounded-[10px] bg-[var(--color-primary)] py-3 text-center text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)] hover:bg-[var(--color-primary-dark)] transition-colors"
+              >
+                Upgrade to Pro
+              </Link>
+            </Card>
+          </div>
         </div>
       </section>
 
@@ -693,16 +705,16 @@ export default function HomePage() {
         className="mx-auto w-full max-w-[1140px] px-6 pb-16 md:px-8 lg:px-6"
         data-aos="fade-up"
       >
-        <div className="relative overflow-hidden rounded-3xl bg-[var(--gradient-banner)] px-8 py-20 text-white md:px-16">
+        <div className="relative overflow-hidden rounded-3xl px-8 py-20 text-white md:px-16 bg-[var(--color-primary)]">
           {/* Geometric pattern di pojok kanan */}
           <div className="absolute -right-10 -top-10 h-[200px] w-[200px] rounded-full bg-white/5" />
           <div className="absolute -bottom-16 -right-16 h-[250px] w-[250px] rounded-full bg-white/5" />
 
-          <div className="relative flex flex-col items-center justify-between gap-8 md:flex-row">
+          <div className="relative flex flex-col items-center justify-between gap-8 md:flex-row ">
             {/* Kolom Kiri - Judul */}
             <div className="max-w-md text-center md:text-left">
-              <h2 className="mb-3 text-3xl font-bold leading-tight md:text-4xl">
-                Ready to level up your test preparation?
+              <h2 className="mb-3! text-3xl font-bold leading-tight md:text-4xl text-white!">
+                Ready to level up your preparation?
               </h2>
               <p className="text-white/80">
                 Start your adaptive learning journey today and see results in
@@ -719,7 +731,7 @@ export default function HomePage() {
                 Get Started Now
               </Link>
               <Link
-                href="#how-it-works"
+                href="/"
                 className="min-w-[160px] rounded-[10px] border-2 border-white/50 px-7 py-3.5 text-center text-sm font-semibold text-white hover:border-white hover:bg-white/10 transition-colors"
               >
                 Learn More

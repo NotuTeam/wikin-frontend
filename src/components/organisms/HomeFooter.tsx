@@ -24,7 +24,10 @@ export function HomeFooter() {
             IELTS
           </h3>
           <h3 className="mb-2! text-sm font-semibold cursor-pointer hover:text-[var(--color-primary)]">
-            Pricing
+            PRICING
+          </h3>
+          <h3 className="mb-2! text-sm font-semibold cursor-pointer hover:text-[var(--color-primary)]">
+            CERTIFICATE
           </h3>
         </div>
         <div className="flex gap-5">

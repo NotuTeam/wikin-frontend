@@ -5,6 +5,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Wikin | TOEFL & IELTS Assistant",
   description: "AI-powered TOEFL and IELTS test simulation platform",
+  icons: {
+    icon: "/big.png",
+    apple: "/big.png",
+  },
 };
 
 export default function RootLayout({
