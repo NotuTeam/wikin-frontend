@@ -12,6 +12,7 @@ function getDbConnectionString() {
   const user = process.env.DB_USER;
   const password = process.env.DB_PASSWORD;
   const database = process.env.DB_NAME;
+  const scheme = process.env.DB_SCHEME;
 
   if (!host || !port || !user || !password || !database) {
     throw new Error(
@@ -19,7 +20,7 @@ function getDbConnectionString() {
     );
   }
 
-  return `postgresql://${encodeURIComponent(user)}:${encodeURIComponent(password)}@${host}:${port}/${database}`;
+  return `postgresql://${encodeURIComponent(user)}:${encodeURIComponent(password)}@${host}:${port}/${database}?schema=${scheme}&options=-csearch_path%3D${scheme}`;
 }
 
 export function getDbPool() {
