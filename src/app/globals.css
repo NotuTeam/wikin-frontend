@@ -6,6 +6,7 @@
   --color-primary-dark: #4527a0;
   --color-primary-light: #7b61e4;
   --color-primary-pale: #ede9fb;
+  --color-primary-fade: #ae97ff8a;
   --color-accent: #3dd68c;
   --color-accent-dark: #1daf6a;
   --color-accent-pale: #e6faf2;
@@ -46,4 +47,49 @@ h6 {
 
 button {
   cursor: pointer;
+}
+
+/* AOS Animations Override - Subtle */
+[data-aos] {
+  transition-duration: 600ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Infinite Marquee for Testimonials */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  gap: 1.25rem;
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  
+  .marquee-track {
+    animation: none;
+  }
 }
