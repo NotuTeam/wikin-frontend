@@ -266,7 +266,7 @@ function FillInTheBlankDemo() {
       {/* Feedback */}
       {selectedAnswer && (
         <div
-          className={`rounded-lg px-4 py-3 text-sm ${
+          className={`rounded-lg px-4 py-3 text-xs ${
             isCorrect ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"
           }`}
         >
@@ -316,7 +316,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-[var(--color-neutral-50)] pt-16">
+    <main className="min-h-screen bg-[var(--color-neutral-50)] pt-16 max-w-screen overflow-x-hidden">
       <HomeNavbar />
 
       {/* Hero Section - Split 50/50 dengan Trusted by */}
