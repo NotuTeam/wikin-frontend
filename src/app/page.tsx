@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,7 +12,6 @@ import {
   Headphones,
   BookOpen,
   PenNib,
-  ChatCircleText,
   Check,
   Sparkle,
   Lightning,
