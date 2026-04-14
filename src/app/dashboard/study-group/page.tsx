@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { LoadingState } from "@/components/features/LoadingState";
 
 type StudyGroupItem = {
   id: string;
@@ -236,7 +237,7 @@ export default function StudyGroupPage() {
 
       <div className="space-y-3">
         {loading ? (
-          <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-4 text-sm text-[var(--color-neutral-500)]">Loading groups...</div>
+          <LoadingState message="Loading groups..." />
         ) : groups.length === 0 ? (
           <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-4 text-sm text-[var(--color-neutral-500)]">No group yet.</div>
         ) : (

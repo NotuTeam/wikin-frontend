@@ -3,9 +3,8 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
-import { useDashboardUser } from "@/components/organisms/DashboardShell";
 import { ResultHistoryItem } from "@/types";
-import { ArrowLeftIcon } from "@phosphor-icons/react";
+import { ArrowLeft } from "@phosphor-icons/react";
 import { ResultHistoryCard } from "@/components/features/ResultHistoryCard";
 import { LoadingState } from "@/components/features/LoadingState";
 import {
@@ -19,12 +18,9 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 
-type TargetUser = {
-  id: string;
-  email: string;
+type ProfileUser = {
   name: string;
   picture?: string;
-  createdAt: string;
 };
 
 const PAGE_SIZE = 9;
@@ -38,21 +34,9 @@ ChartJS.register(
   Legend,
 );
 
-function formatDate(dateIso: string | null) {
-  if (!dateIso) return "-";
-  return new Intl.DateTimeFormat("en-GB", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(new Date(dateIso));
-}
-
-export default function ActivityUserDetailPage() {
-  const { userId } = useParams<{ userId: string }>();
-  const viewer = useDashboardUser();
-  const [user, setUser] = useState<TargetUser | null>(null);
+export default function UserProfilePage() {
+  const { googleSub } = useParams<{ googleSub: string }>();
+  const [user, setUser] = useState<ProfileUser | null>(null);
   const [results, setResults] = useState<ResultHistoryItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
@@ -61,7 +45,10 @@ export default function ActivityUserDetailPage() {
     const totalSimulations = results.length;
     const avgAccuracy =
       totalSimulations > 0
-        ? Math.round(results.reduce((acc, item) => acc + item.totalPercentage, 0) / totalSimulations)
+        ? Math.round(
+            results.reduce((acc, item) => acc + item.totalPercentage, 0) /
+              totalSimulations,
+          )
         : 0;
     const bestAccuracy =
       totalSimulations > 0
@@ -79,7 +66,8 @@ export default function ActivityUserDetailPage() {
 
   const progressChart = useMemo(() => {
     const sorted = [...results].sort(
-      (a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime(),
+      (a, b) =>
+        new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime(),
     );
 
     const labels = sorted.map((item) =>
@@ -107,14 +95,14 @@ export default function ActivityUserDetailPage() {
   useEffect(() => {
     const load = async () => {
       try {
-        const res = await fetch(`/api/admin/activity/${userId}`, {
+        const res = await fetch(`/api/users/${googleSub}`, {
           credentials: "include",
           cache: "no-store",
         });
         const json = (await res.json()) as {
           success?: boolean;
           data?: {
-            user?: TargetUser;
+            user?: ProfileUser;
             results?: ResultHistoryItem[];
           };
         };
@@ -134,12 +122,10 @@ export default function ActivityUserDetailPage() {
       }
     };
 
-    if (viewer.isAdmin && userId) {
+    if (googleSub) {
       void load();
-    } else {
-      setLoading(false);
     }
-  }, [viewer.isAdmin, userId]);
+  }, [googleSub]);
 
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
 
@@ -154,78 +140,86 @@ export default function ActivityUserDetailPage() {
     return results.slice(start, start + PAGE_SIZE);
   }, [results, currentPage]);
 
-  if (!viewer.isAdmin) {
-    return (
-      <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-6 text-sm text-[var(--color-neutral-600)]">
-        This page is only available for admin account.
-      </div>
-    );
-  }
-
   return (
     <section className="space-y-4">
       <Link
-        href="/dashboard/activity"
-        className="text-sm font-semibold text-white border border-2 border-[var(--color-primary)] bg-[var(--color-primary)] mb-5! p-2 block w-fit rounded-lg hover:bg-transparent hover:text-[var(--color-primary)] duration-150"
+        href="/dashboard/leaderboard"
+        className="inline-flex items-center gap-2 rounded-lg border-2 border-[var(--color-primary)] bg-[var(--color-primary)] p-2 text-sm font-semibold text-white duration-150 hover:bg-transparent hover:text-[var(--color-primary)]"
       >
-        <ArrowLeftIcon size={18} />
+        <ArrowLeft size={18} />
       </Link>
 
       {loading ? (
-        <LoadingState message="Loading user detail..." />
+        <LoadingState message="Loading user profile..." />
       ) : !user ? (
         <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 text-sm text-[var(--color-neutral-500)]">
           User not found.
         </div>
       ) : (
         <>
+          {/* Profile Header */}
           <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5">
             <div className="flex items-center gap-3">
               {user.picture ? (
-                // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={user.picture}
                   alt={user.name}
                   className="h-12 w-12 rounded-full object-cover"
                 />
               ) : (
-                <div className="h-12 w-12 rounded-full bg-[var(--color-primary-pale)]" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-primary-pale)] text-lg font-semibold text-[var(--color-primary)]">
+                  {user.name.charAt(0).toUpperCase()}
+                </div>
               )}
               <div>
                 <h1 className="text-xl font-semibold text-[var(--color-neutral-900)]">
                   {user.name}
                 </h1>
-                <p className="text-sm text-[var(--color-neutral-600)]">
-                  {user.email}
-                </p>
-                <p className="text-xs text-[var(--color-neutral-500)]">
-                  Created: {formatDate(user.createdAt)}
-                </p>
+                {/* <p className="text-sm text-[var(--color-neutral-500)]">
+                  User Profile
+                </p> */}
               </div>
             </div>
           </div>
 
+          {/* Stats Dashboard */}
           <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5">
             <h2 className="mb-3 text-lg font-semibold text-[var(--color-neutral-900)]">
-              Account Statistics Dashboard
+              Simulation Statistics
             </h2>
 
             <div className="mb-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-xl bg-[var(--color-neutral-50)] p-3">
-                <p className="text-xs text-[var(--color-neutral-500)]">Total Simulations</p>
-                <p className="text-lg font-semibold text-[var(--color-neutral-900)]">{stats.totalSimulations}</p>
+                <p className="text-xs text-[var(--color-neutral-500)]">
+                  Total Simulations
+                </p>
+                <p className="text-lg font-semibold text-[var(--color-neutral-900)]">
+                  {stats.totalSimulations}
+                </p>
               </div>
               <div className="rounded-xl bg-[var(--color-neutral-50)] p-3">
-                <p className="text-xs text-[var(--color-neutral-500)]">Average Accuracy</p>
-                <p className="text-lg font-semibold text-[var(--color-neutral-900)]">{stats.avgAccuracy}%</p>
+                <p className="text-xs text-[var(--color-neutral-500)]">
+                  Average Accuracy
+                </p>
+                <p className="text-lg font-semibold text-[var(--color-neutral-900)]">
+                  {stats.avgAccuracy}%
+                </p>
               </div>
               <div className="rounded-xl bg-[var(--color-neutral-50)] p-3">
-                <p className="text-xs text-[var(--color-neutral-500)]">Best Accuracy</p>
-                <p className="text-lg font-semibold text-[var(--color-neutral-900)]">{stats.bestAccuracy}%</p>
+                <p className="text-xs text-[var(--color-neutral-500)]">
+                  Best Accuracy
+                </p>
+                <p className="text-lg font-semibold text-[var(--color-neutral-900)]">
+                  {stats.bestAccuracy}%
+                </p>
               </div>
               <div className="rounded-xl bg-[var(--color-neutral-50)] p-3">
-                <p className="text-xs text-[var(--color-neutral-500)]">Latest Score</p>
-                <p className="text-sm font-semibold text-[var(--color-neutral-900)]">{stats.latestScore}</p>
+                <p className="text-xs text-[var(--color-neutral-500)]">
+                  Latest Score
+                </p>
+                <p className="text-sm font-semibold text-[var(--color-neutral-900)]">
+                  {stats.latestScore}
+                </p>
               </div>
             </div>
 
@@ -250,40 +244,47 @@ export default function ActivityUserDetailPage() {
                 />
               ) : (
                 <p className="text-sm text-[var(--color-neutral-500)]">
-                  No simulation data for chart yet.
+                  No simulation data yet.
                 </p>
               )}
             </div>
           </div>
 
+          {/* Simulation Results */}
           <div className="space-y-3">
-            <h2 className="text-lg font-semibold text-[var(--color-neutral-900)]">Simulation Results</h2>
+            <h2 className="text-lg mb-3! font-semibold text-[var(--color-neutral-900)]">
+              Simulation History
+            </h2>
             {results.length === 0 ? (
               <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 text-sm text-[var(--color-neutral-500)]">
-                No simulation result for this user.
+                No simulation results yet.
               </div>
             ) : (
               <>
                 <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                   {paginatedResults.map((result) => (
-                    <ResultHistoryCard key={result.id} item={result} />
+                    <ResultHistoryCard key={result.id} item={result} readOnly />
                   ))}
                 </div>
 
                 {results.length > PAGE_SIZE && (
                   <div className="flex items-center justify-end gap-2">
                     <button
-                      onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                      onClick={() =>
+                        setCurrentPage((prev) => Math.max(1, prev - 1))
+                      }
                       disabled={currentPage === 1}
                       className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white px-3 py-1.5 text-xs font-semibold text-[var(--color-neutral-700)] disabled:opacity-50"
                     >
-                      Prev
+                      Previous
                     </button>
                     <span className="text-xs font-semibold text-[var(--color-neutral-600)]">
                       {currentPage} / {totalPages}
                     </span>
                     <button
-                      onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
+                      onClick={() =>
+                        setCurrentPage((prev) => Math.min(totalPages, prev + 1))
+                      }
                       disabled={currentPage === totalPages}
                       className="rounded-[10px] border border-[var(--color-neutral-300)] bg-white px-3 py-1.5 text-xs font-semibold text-[var(--color-neutral-700)] disabled:opacity-50"
                     >

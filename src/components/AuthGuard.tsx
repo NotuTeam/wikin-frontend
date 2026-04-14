@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { LoadingState } from "@/components/features/LoadingState";
 
 type AuthUser = {
   sub: string;
@@ -55,10 +56,8 @@ export function AuthGuard({ children }: AuthGuardProps) {
 
   if (isLoading) {
     return (
-      <main className="min-h-screen bg-[var(--color-neutral-50)] p-8">
-        <div className="mx-auto max-w-xl rounded-2xl border border-[var(--color-neutral-300)] bg-white p-6 text-sm text-[var(--color-neutral-500)]">
-          Checking session...
-        </div>
+      <main className="flex min-h-screen items-center justify-center bg-[var(--color-neutral-50)]">
+        <LoadingState message="Checking session..." />
       </main>
     );
   }

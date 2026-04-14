@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import { LoadingState } from "@/components/features/LoadingState";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -192,9 +193,7 @@ export default function StudyGroupDetailPage() {
       </Link>
 
       {loading ? (
-        <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 text-sm text-[var(--color-neutral-500)]">
-          Loading group detail...
-        </div>
+        <LoadingState message="Loading group detail..." />
       ) : !detail ? (
         <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 text-sm text-[var(--color-neutral-500)]">
           Group not found.

@@ -24,12 +24,9 @@ function getScoreDisplay(item: ResultHistoryItem) {
     : `IELTS ${(item.totalPercentage / 10).toFixed(1)}`;
 }
 
-export function ResultHistoryCard({ item }: { item: ResultHistoryItem }) {
-  return (
-    <Link
-      href={`/result?id=${item.id}`}
-      className="group block cursor-pointer rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm transition-all duration-300 hover:border-[var(--color-primary-pale)] hover:shadow-[0_8px_18px_rgba(0,0,0,0.10)] hover:bg-[var(--color-primary-pale)]"
-    >
+export function ResultHistoryCard({ item, readOnly = false }: { item: ResultHistoryItem; readOnly?: boolean }) {
+  const content = (
+    <>
       <div className="mb-3 flex items-start justify-between gap-2">
         <div>
           <p className="text-sm font-semibold text-[var(--color-neutral-900)]">
@@ -94,6 +91,23 @@ export function ResultHistoryCard({ item }: { item: ResultHistoryItem }) {
           </div>
         ))}
       </div>
+    </>
+  );
+
+  if (readOnly) {
+    return (
+      <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
+        {content}
+      </div>
+    );
+  }
+
+  return (
+    <Link
+      href={`/result?id=${item.id}`}
+      className="group block cursor-pointer rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm transition-all duration-300 hover:border-[var(--color-primary-pale)] hover:shadow-[0_8px_18px_rgba(0,0,0,0.10)] hover:bg-[var(--color-primary-pale)]"
+    >
+      {content}
     </Link>
   );
 }

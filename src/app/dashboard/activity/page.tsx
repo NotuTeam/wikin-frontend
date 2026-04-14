@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useDashboardUser } from "@/components/organisms/DashboardShell";
+import { LoadingState } from "@/components/features/LoadingState";
 import { MagnifyingGlassIcon } from "@phosphor-icons/react";
 
 type ActivityUser = {
@@ -149,9 +150,7 @@ export default function ActivityPage() {
         </div>
 
         {loading ? (
-          <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 text-sm text-[var(--color-neutral-500)]">
-            Loading users...
-          </div>
+          <LoadingState message="Loading users..." />
         ) : filteredUsers.length === 0 ? (
           <div className="rounded-2xl border border-neutral-300 bg-white p-5 text-sm text-[var(--color-neutral-500)]">
             No users found.

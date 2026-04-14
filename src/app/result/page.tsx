@@ -8,6 +8,7 @@ import {
   WritingReviewCard,
   Certificate,
 } from "@/components/features";
+import { LoadingState } from "@/components/features/LoadingState";
 import { SimulationResultData, SectionResultSummary } from "@/types";
 
 export default function ResultPage() {
@@ -131,14 +132,7 @@ export default function ResultPage() {
   if (isLoadingResult) {
     return (
       <main className="mx-auto max-w-4xl p-6">
-        <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white px-6 py-12 text-center shadow-sm">
-          <h2 className="mb-3 text-2xl font-semibold text-[var(--color-neutral-900)]">
-            Loading Result...
-          </h2>
-          <p className="text-sm text-[var(--color-neutral-500)]">
-            Please wait while we load your test result.
-          </p>
-        </div>
+        <LoadingState message="Loading your result..." />
       </main>
     );
   }

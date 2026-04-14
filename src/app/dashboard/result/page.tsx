@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { ResultHistoryItem } from "@/types";
 import { ArchiveIcon } from "@phosphor-icons/react";
 import { ResultHistoryCard } from "@/components/features/ResultHistoryCard";
+import { LoadingState } from "@/components/features/LoadingState";
 
 type SortField = "date" | "score";
 type SortDirection = "asc" | "desc";
@@ -136,9 +137,7 @@ export default function DashboardResultPage() {
       </div>
 
       {loading ? (
-        <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white px-5 py-10 text-sm text-[var(--color-neutral-500)]">
-          Loading history...
-        </div>
+        <LoadingState message="Loading history..." />
       ) : filteredResults.length === 0 ? (
         <div className="rounded-2xl border border-[var(--color-neutral-300)] bg-white px-5 py-10 text-sm text-[var(--color-neutral-500)] flex items-center flex-col gap-2">
           <ArchiveIcon className="text-[var(--color-neutral-500)]" size={45} />

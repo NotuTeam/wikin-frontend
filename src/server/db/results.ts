@@ -354,6 +354,181 @@ export async function getSimulationResultById(
   return row.rows[0]?.result_json || null;
 }
 
+export type MonthlyRankingItem = {
+  rank: number;
+  userGoogleSub: string;
+  userName: string;
+  userPicture: string | null;
+  bestScore: number;
+  bestScoreLabel: string;
+  bestScoreValue: string;
+  examType: "toefl" | "ielts";
+  difficulty: "EASY" | "MEDIUM" | "HARD";
+  totalSimulations: number;
+  achievedAt: string;
+};
+
+export async function getMonthlyRankings(
+  year: number,
+  month: number,
+  options?: {
+    limit?: number;
+    offset?: number;
+    examType?: "toefl" | "ielts";
+    difficulty?: "EASY" | "MEDIUM" | "HARD";
+  },
+): Promise<{ rankings: MonthlyRankingItem[]; total: number }> {
+  await ensureResultsTables();
+
+  const pool = getDbPool();
+
+  const startDate = new Date(year, month - 1, 1);
+  const endDate = new Date(year, month, 0, 23, 59, 59, 999);
+
+  const limit = options?.limit ?? 100;
+  const offset = options?.offset ?? 0;
+
+  const filterClauses: string[] = [];
+  const filterParams: unknown[] = [startDate.toISOString(), endDate.toISOString()];
+  let paramIdx = 3;
+
+  if (options?.examType) {
+    filterClauses.push(`r.exam_type = $${paramIdx}`);
+    filterParams.push(options.examType);
+    paramIdx++;
+  }
+
+  if (options?.difficulty) {
+    filterClauses.push(`r.difficulty = $${paramIdx}`);
+    filterParams.push(options.difficulty);
+    paramIdx++;
+  }
+
+  const whereFilter = filterClauses.length > 0
+    ? `AND ${filterClauses.join(" AND ")}`
+    : "";
+
+  // Count total
+  const countRow = await pool.query<{ total: number }>(
+    `
+      WITH monthly_filtered AS (
+        SELECT user_google_sub
+        FROM simulation_results r
+        WHERE r.created_at >= $1 AND r.created_at <= $2
+          ${whereFilter}
+        GROUP BY user_google_sub
+      )
+      SELECT COUNT(*)::int AS total FROM monthly_filtered;
+    `,
+    filterParams,
+  );
+  const total = countRow.rows[0]?.total ?? 0;
+
+  const rows = await pool.query<{
+    user_google_sub: string;
+    name: string;
+    picture: string | null;
+    exam_type: "toefl" | "ielts";
+    difficulty: "EASY" | "MEDIUM" | "HARD";
+    total_percentage: number;
+    score_summary: SimulationResultData["scoreSummary"] | null;
+    total_simulations: number;
+    achieved_at: string;
+  }>(
+    `
+      WITH monthly_results AS (
+        SELECT 
+          r.user_google_sub,
+          r.exam_type,
+          r.difficulty,
+          r.total_percentage,
+          r.score_summary,
+          r.created_at,
+          ROW_NUMBER() OVER (
+            PARTITION BY r.user_google_sub 
+            ORDER BY r.total_percentage DESC, r.created_at ASC
+          ) as rn
+        FROM simulation_results r
+        WHERE r.created_at >= $1 AND r.created_at <= $2
+          ${whereFilter}
+      ),
+      user_best AS (
+        SELECT 
+          mr.user_google_sub,
+          mr.exam_type,
+          mr.difficulty,
+          mr.total_percentage,
+          mr.score_summary,
+          mr.created_at as achieved_at
+        FROM monthly_results mr
+        WHERE mr.rn = 1
+      ),
+      user_stats AS (
+        SELECT 
+          user_google_sub,
+          COUNT(*) as total_simulations
+        FROM simulation_results r
+        WHERE r.created_at >= $1 AND r.created_at <= $2
+          ${whereFilter}
+        GROUP BY user_google_sub
+      )
+      SELECT 
+        ub.user_google_sub,
+        u.name,
+        u.picture,
+        ub.exam_type,
+        ub.difficulty,
+        ub.total_percentage,
+        ub.score_summary,
+        us.total_simulations::int,
+        ub.achieved_at
+      FROM user_best ub
+      JOIN auth_users u ON u.google_sub = ub.user_google_sub
+      JOIN user_stats us ON us.user_google_sub = ub.user_google_sub
+      ORDER BY ub.total_percentage DESC, ub.achieved_at ASC
+      LIMIT $${paramIdx} OFFSET $${paramIdx + 1};
+    `,
+    [...filterParams, limit, offset],
+  );
+
+  const rankings = rows.rows.map((row, index) => {
+    let heroLabel = "Score";
+    let heroValue = String(row.total_percentage);
+
+    if (row.exam_type === "toefl") {
+      const toeflScore = row.score_summary?.toefl?.overall;
+      if (typeof toeflScore === "number") {
+        heroLabel = "TOEFL ITP";
+        heroValue = String(toeflScore);
+      }
+    } else {
+      const ieltsBand = row.score_summary?.ielts?.overallBand;
+      if (typeof ieltsBand === "number") {
+        heroLabel = "IELTS Band";
+        heroValue = ieltsBand.toFixed(1);
+      } else {
+        heroValue = (row.total_percentage / 10).toFixed(1);
+      }
+    }
+
+    return {
+      rank: offset + index + 1,
+      userGoogleSub: row.user_google_sub,
+      userName: row.name,
+      userPicture: row.picture,
+      bestScore: row.total_percentage,
+      bestScoreLabel: heroLabel,
+      bestScoreValue: heroValue,
+      examType: row.exam_type,
+      difficulty: row.difficulty,
+      totalSimulations: row.total_simulations,
+      achievedAt: row.achieved_at,
+    };
+  });
+
+  return { rankings, total };
+}
+
 export async function getProgressOverview(userGoogleSub: string) {
   await ensureResultsTables();
 
@@ -485,6 +660,28 @@ export async function getProgressOverview(userGoogleSub: string) {
     })),
     recentResults,
   };
+}
+
+export async function getDailyQuotaUsage(userGoogleSub: string): Promise<{ used: number; limit: number }> {
+  await ensureResultsTables();
+  const pool = getDbPool();
+
+  const today = new Date();
+  const startOfDay = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const startOfTomorrow = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 1);
+
+  const row = await pool.query<{ count: number }>(
+    `
+      SELECT COUNT(*)::int AS count
+      FROM simulation_results
+      WHERE user_google_sub = $1
+        AND created_at >= $2 AND created_at < $3;
+    `,
+    [userGoogleSub, startOfDay.toISOString(), startOfTomorrow.toISOString()],
+  );
+
+  const DAILY_LIMIT = 3;
+  return { used: row.rows[0].count, limit: DAILY_LIMIT };
 }
 
 function mapSection(row: ResultSectionRow) {

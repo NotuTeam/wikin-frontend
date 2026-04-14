@@ -10,6 +10,7 @@ import {
   GraduationCapIcon,
   BookOpen,
   Pulse,
+  Trophy,
 } from "@phosphor-icons/react";
 import { cn } from "@/lib/cn";
 
@@ -51,11 +52,17 @@ export function Sidebar({ isExpanded, isAdmin = false }: SidebarProps) {
       section: "Progress",
     },
     {
-      label: "Study Group",
-      icon: GraduationCapIcon,
-      href: "/dashboard/study-group",
+      label: "Leaderboard",
+      icon: Trophy,
+      href: "/dashboard/leaderboard",
       section: "Progress",
     },
+    // {
+    //   label: "Study Group",
+    //   icon: GraduationCapIcon,
+    //   href: "/dashboard/study-group",
+    //   section: "Progress",
+    // },
     ...(isAdmin
       ? [
           {
