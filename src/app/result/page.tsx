@@ -2,7 +2,12 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { WritingVisual, WritingReviewCard } from "@/components/features";
+import CountUp from "react-countup";
+import {
+  WritingVisual,
+  WritingReviewCard,
+  Certificate,
+} from "@/components/features";
 import { SimulationResultData, SectionResultSummary } from "@/types";
 
 export default function ResultPage() {
@@ -162,12 +167,12 @@ export default function ResultPage() {
   const toeflSummary = result.scoreSummary?.toefl;
   const ieltsSummary = result.scoreSummary?.ielts;
 
-  const heroGradient =
+  const scoreColor =
     result.totalPercentage >= 70
-      ? "linear-gradient(135deg, #1DAF6A, #3DD68C)"
+      ? "text-[#1DAF6A]"
       : result.totalPercentage >= 50
-        ? "linear-gradient(135deg, #D97706, #F59E0B)"
-        : "linear-gradient(135deg, #DC2626, #EF4444)";
+        ? "text-[#D9770]"
+        : "text-[#DC2626]";
 
   const strengths = result.sectionScores.filter((s) => s.percentage >= 70);
   const weaknesses = result.sectionScores.filter((s) => s.percentage < 50);
@@ -184,94 +189,33 @@ export default function ResultPage() {
 
   return (
     <main className="mx-auto max-w-6xl space-y-6 px-4 py-6 md:px-7">
-      <section
-        className="rounded-3xl px-6 py-10 text-center text-white md:px-10"
-        style={{ background: heroGradient }}
-      >
-        <p className="text-sm text-white/80">
-          {result.examType.toUpperCase()} Simulation — {result.difficulty}
+      <section className="rounded-3xl px-6 pt-10 flex flex-col items-center text-white md:px-10">
+        <p className="text-xs text-gray-500 font-semibold bg-gray-200 block w-fit px-4 py-2 rounded-full">
+          {result.difficulty}
         </p>
         <div
-          className="my-2 text-[72px] font-extrabold leading-none md:text-[80px]"
-          style={{ fontFamily: '"JetBrains Mono", "Fira Code", monospace' }}
+          className={`my-2 text-[72px] font-extrabold leading-none md:text-[80px] ${scoreColor}`}
+          style={{
+            fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+          }}
         >
-          {heroValue}
+          <CountUp
+            end={parseFloat(heroValue)}
+            duration={2}
+            decimals={result.examType === "toefl" ? 0 : 1}
+            separator=""
+          />
         </div>
-        <p className="text-base text-white/80">{heroSubLabel}</p>
-        <span className="mt-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-xs font-medium">
-          {result.totalPercentage >= 70
-            ? "Excellent"
-            : result.totalPercentage >= 50
-              ? "Good"
-              : "Needs Improvement"}
-        </span>
-      </section>
-
-      <section
-        className={`grid gap-4 ${result.sectionScores.length === 1 ? "grid-cols-1" : "md:grid-cols-2 xl:grid-cols-4"}`}
-      >
-        {result.sectionScores.map((section) => {
-          const colorClass =
-            section.percentage >= 70
-              ? "text-[var(--color-accent-dark)]"
-              : section.percentage >= 50
-                ? "text-[var(--color-warning)]"
-                : "text-[var(--color-danger)]";
-          const barColor =
-            section.percentage >= 70
-              ? "var(--color-accent)"
-              : section.percentage >= 50
-                ? "var(--color-warning)"
-                : "var(--color-danger)";
-
-          return (
-            <div
-              key={section.sectionId}
-              className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm"
-            >
-              <div className="mb-2 text-xs font-medium text-[var(--color-neutral-500)]">
-                {section.sectionTitle}
-              </div>
-              <div
-                className={`mb-3 text-[28px] font-bold ${colorClass}`}
-                style={{
-                  fontFamily: '"JetBrains Mono", "Fira Code", monospace',
-                }}
-              >
-                {section.percentage}%
-              </div>
-              <div className="mb-2 h-1.5 rounded-full bg-[var(--color-neutral-100)]">
-                <div
-                  className="h-full rounded-full transition-all"
-                  style={{
-                    width: `${section.percentage}%`,
-                    background: barColor,
-                  }}
-                />
-              </div>
-              <p className="text-xs text-[var(--color-neutral-500)]">
-                {section.correct} / {section.total} correct answers
-              </p>
-              {typeof section.scaledScore === "number" && (
-                <p className="mt-1 text-xs font-semibold text-[var(--color-primary)]">
-                  Scaled: {section.scaledScore}
-                </p>
-              )}
-              {typeof section.bandScore === "number" && (
-                <p className="mt-1 text-xs font-semibold text-[var(--color-primary)]">
-                  Band: {section.bandScore.toFixed(1)}
-                </p>
-              )}
-            </div>
-          );
-        })}
-      </section>
-
-      <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
-        <h3 className="mb-3 text-xl font-semibold text-[var(--color-neutral-900)]">
-          Performance Tags
-        </h3>
-        <div className="flex flex-wrap gap-2">
+        <p className={`font-semibold ${scoreColor}`}>{heroSubLabel}</p>
+        <div className="flex flex-wrap gap-2 w-full items-center justify-center p-5">
+          <span className="rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-medium text-[var(--color-primary)]">
+            {" "}
+            {result.totalPercentage >= 70
+              ? "Excellent"
+              : result.totalPercentage >= 50
+                ? "Good"
+                : "Needs Improvement"}
+          </span>
           {strengths.map((s) => (
             <span
               key={`strong-${s.sectionId}`}
@@ -295,9 +239,72 @@ export default function ResultPage() {
           )}
         </div>
       </section>
+      <section
+        className={`shadow-sm rounded-2xl border-[var(--color-neutral-300)] bg-white`}
+      >
+        <div
+          className={`grid gap-4 ${result.sectionScores.length === 1 ? "grid-cols-1" : "grid-cols-3"}`}
+        >
+          {result.sectionScores.map((section) => {
+            const colorClass =
+              section.percentage >= 70
+                ? "text-[var(--color-accent-dark)]"
+                : section.percentage >= 50
+                  ? "text-[var(--color-warning)]"
+                  : "text-[var(--color-danger)]";
+
+            return (
+              <div
+                key={section.sectionId}
+                className="flex flex-col items-center p-5"
+              >
+                <div className="mb-2 text-lg font-medium text-[var(--color-neutral-500)] text-center">
+                  {section.sectionTitle}
+                </div>
+                {typeof section.scaledScore === "number" && (
+                  <p
+                    style={{
+                      fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                    }}
+                    className={`my-1 text-center text-[60px] text-xs font-bold ${colorClass}`}
+                  >
+                    <CountUp
+                      end={section.scaledScore}
+                      duration={1.5}
+                      decimals={0}
+                    />
+                  </p>
+                )}
+                {typeof section.bandScore === "number" && (
+                  <p
+                    style={{
+                      fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                    }}
+                    className={`my-1 text-center text-[60px] text-xs font-bold ${colorClass}`}
+                  >
+                    <CountUp
+                      end={section.bandScore}
+                      duration={1.5}
+                      decimals={1}
+                    />
+                  </p>
+                )}
+                <div className="flex justify-between w-[50%]">
+                  <p className="text-xs text-[var(--color-neutral-500)]">
+                    {section.correct} / {section.total}
+                  </p>
+                  <p className="text-xs text-[var(--color-neutral-500)]">
+                    {section.percentage}%
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
 
       <section className="rounded-2xl border border-[var(--color-neutral-300)] bg-white p-5 shadow-sm">
-        <h2 className="mb-4 text-[32px] font-bold text-[var(--color-neutral-900)]">
+        <h2 className="mb-4! text-[32px] font-bold text-[var(--color-neutral-900)]">
           Question Review
         </h2>
         <div className="space-y-3">
@@ -613,12 +620,15 @@ export default function ResultPage() {
         </div>
       </section>
 
-      <button
-        onClick={() => router.push("/dashboard/result")}
-        className="w-full rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)]"
-      >
-        Back to Dashboard
-      </button>
+      <section className="flex justify-center gap-5">
+        <button
+          onClick={() => router.push("/dashboard/result")}
+          className="rounded-[10px] bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(93,63,211,0.35)]"
+        >
+          Back to Dashboard
+        </button>
+        <Certificate result={result} />
+      </section>
     </main>
   );
 }

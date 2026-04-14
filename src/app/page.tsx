@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -57,12 +57,12 @@ const features = [
     description:
       "Receive instant scoring and specific suggestions to improve coherence and grammar.",
   },
-  {
-    icon: ChatCircleText,
-    title: "Speaking Simulation",
-    description:
-      "Practice with realistic prompts and get feedback on fluency and pronunciation.",
-  },
+  // {
+  //   icon: ChatCircleText,
+  //   title: "Speaking Simulation",
+  //   description:
+  //     "Practice with realistic prompts and get feedback on fluency and pronunciation.",
+  // },
 ];
 
 const steps = [
@@ -160,6 +160,137 @@ ChartJS.register(
   Legend,
 );
 
+// Interactive Fill in the Blank Demo Component
+function FillInTheBlankDemo() {
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+
+  const question = {
+    textBefore: "The scientist",
+    blank: "_____",
+    textAfter: "the data carefully before publishing the results.",
+    options: [
+      { id: "A", text: "analyze", isCorrect: false },
+      { id: "B", text: "analyzed", isCorrect: true },
+      { id: "C", text: "analyzing", isCorrect: false },
+      { id: "D", text: "analyzes", isCorrect: false },
+    ],
+  };
+
+  const handleSelect = (optionId: string, correct: boolean) => {
+    setSelectedAnswer(optionId);
+    setIsCorrect(correct);
+  };
+
+  const handleReset = () => {
+    setSelectedAnswer(null);
+    setIsCorrect(null);
+  };
+
+  return (
+    <div className="space-y-5">
+      {/* Header */}
+      <div className="flex items-center justify-between">
+        <span className="text-xs font-semibold uppercase tracking-[0.1em] text-[var(--color-primary)]">
+          Fill in the Blank
+        </span>
+        <span className="rounded-full bg-[var(--color-primary-pale)] px-2 py-1 text-xs font-medium text-[var(--color-primary)]">
+          Grammar
+        </span>
+      </div>
+
+      {/* Question */}
+      <p className="text-[15px] leading-7 text-[var(--color-neutral-800)]">
+        {question.textBefore}{" "}
+        <span
+          className={`inline-block min-w-[80px] rounded-md px-2 py-0.5 text-center font-semibold ${
+            selectedAnswer === null
+              ? "bg-[var(--color-neutral-200)] text-[var(--color-neutral-500)]"
+              : isCorrect
+                ? "bg-green-100 text-green-700"
+                : "bg-red-100 text-red-700"
+          }`}
+        >
+          {selectedAnswer
+            ? question.options.find((o) => o.id === selectedAnswer)?.text
+            : question.blank}
+        </span>{" "}
+        {question.textAfter}
+      </p>
+
+      {/* Options */}
+      <div className="flex flex-col gap-3">
+        {question.options.map((option) => {
+          const isSelected = selectedAnswer === option.id;
+          const showCorrect = isSelected && option.isCorrect;
+          const showWrong = isSelected && !option.isCorrect;
+
+          return (
+            <button
+              key={option.id}
+              onClick={() => handleSelect(option.id, option.isCorrect)}
+              disabled={selectedAnswer !== null}
+              className={`flex items-center rounded-lg border px-4 py-3 text-left text-sm font-medium transition-all ${
+                showCorrect
+                  ? "border-green-500 bg-green-50 text-green-700"
+                  : showWrong
+                    ? "border-red-500 bg-red-50 text-red-700"
+                    : isSelected
+                      ? "border-[var(--color-primary)] bg-[var(--color-primary-pale)] text-[var(--color-primary)]"
+                      : "border-[var(--color-neutral-200)] bg-white text-[var(--color-neutral-700)] hover:border-[var(--color-primary-light)] hover:bg-[var(--color-neutral-50)]"
+              } ${selectedAnswer !== null && !isSelected ? "opacity-60" : ""}`}
+            >
+              {/* Radio Button */}
+              <span
+                className={`mr-3 flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2 ${
+                  showCorrect
+                    ? "border-green-500 bg-green-500"
+                    : showWrong
+                      ? "border-red-500 bg-red-500"
+                      : isSelected
+                        ? "border-[var(--color-primary)] bg-[var(--color-primary)]"
+                        : "border-[var(--color-neutral-300)] bg-white"
+                }`}
+              >
+                {(isSelected || showCorrect || showWrong) && (
+                  <span className="h-1.5 w-1.5 rounded-full bg-white" />
+                )}
+              </span>
+              <span className="flex-1">
+                <span className="mr-2 font-bold">{option.id}.</span>
+                {option.text}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Feedback */}
+      {selectedAnswer && (
+        <div
+          className={`rounded-lg px-4 py-3 text-sm ${
+            isCorrect ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"
+          }`}
+        >
+          {isCorrect
+            ? "Correct! The past tense 'analyzed' is appropriate here because the action was completed before publishing."
+            : "Not quite. Consider the timeline - the analysis was completed before the publishing (past action)."}
+        </div>
+      )}
+
+      {/* Reset Button */}
+      {selectedAnswer && (
+        <button
+          onClick={handleReset}
+          className="w-full rounded-lg border border-[var(--color-neutral-300)] bg-white py-2.5 text-sm font-medium text-[var(--color-neutral-600)] transition-colors hover:bg-[var(--color-neutral-50)]"
+        >
+          Try Again
+        </button>
+      )}
+    </div>
+  );
+}
+
 const pricingFeatures = {
   free: [
     "5 simulation sessions",
@@ -199,9 +330,9 @@ export default function HomePage() {
           {/* Kolom Kiri - Konten */}
           <div className="order-2 lg:order-1" data-aos="fade-up">
             <p className="mb-4 inline-flex rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-primary)]">
-              IELTS & TOEFL Prep
+              WIKIN
             </p>
-            <h1 className="mb-5 max-w-2xl text-4xl font-bold leading-[1.15] text-[var(--color-neutral-900)] md:text-5xl lg:text-[52px]">
+            <h1 className="mb-5! max-w-2xl text-4xl font-bold leading-[1.15] text-[var(--color-neutral-900)] md:text-5xl lg:text-[52px]">
               Adaptive practice, detailed feedback, and progress tracking
             </h1>
             <p className="mb-8 max-w-xl text-lg leading-8 text-[var(--color-neutral-700)]">
@@ -245,42 +376,8 @@ export default function HomePage() {
             data-aos-delay="150"
           >
             <Card className="overflow-hidden border-[var(--color-primary-light)] shadow-xl transition-transform hover:scale-[1.02] duration-500">
-              <div className="bg-[var(--gradient-banner)] p-6 text-white">
-                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-white/15">
-                  <Image
-                    src="/logo.png"
-                    alt="Wikin logo"
-                    width={56}
-                    height={56}
-                    priority
-                    className="rounded-full object-contain"
-                  />
-                </div>
-                <p className="text-sm text-white/90">
-                  Live Performance Snapshot
-                </p>
-                <p className="mt-1 text-2xl font-bold">Skor 8.5 IELTS</p>
-              </div>
-              <CardContent className="grid gap-3 p-5 sm:grid-cols-2">
-                {stats.slice(0, 4).map((item, idx) => (
-                  <div
-                    key={item.label}
-                    className="rounded-xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4 transition-all hover:border-[var(--color-primary-light)] hover:shadow-sm"
-                    style={{ animationDelay: `${idx * 0.1}s` }}
-                  >
-                    <p
-                      className="text-2xl font-bold text-[var(--color-primary)]"
-                      style={{
-                        fontFamily: '"JetBrains Mono", "Fira Code", monospace',
-                      }}
-                    >
-                      {item.value}
-                    </p>
-                    <p className="mt-1 text-xs text-[var(--color-neutral-500)]">
-                      {item.label}
-                    </p>
-                  </div>
-                ))}
+              <CardContent className="p-6 bg-white">
+                <FillInTheBlankDemo />
               </CardContent>
             </Card>
           </div>
