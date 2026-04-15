@@ -30,14 +30,14 @@ const MONTH_NAMES = [
 ];
 
 const DIFFICULTY_COLORS = {
-  EASY: "bg-green-100 text-green-700",
-  MEDIUM: "bg-yellow-100 text-yellow-700",
-  HARD: "bg-red-100 text-red-700",
+  EASY: "bg-gray-100 text-gray-700",
+  MEDIUM: "bg-gray-100 text-gray-700",
+  HARD: "bg-gray-100 text-gray-700",
 };
 
 const EXAM_COLORS = {
   toefl: "text-blue-600",
-  ielts: "text-purple-600",
+  ielts: "text-yellow-600",
 };
 
 type ExamType = "toefl" | "ielts";
@@ -47,7 +47,9 @@ const PER_PAGE = 10;
 
 function getRankIcon(rank: number) {
   if (rank === 1)
-    return <Trophy size={24} weight="fill" className="text-yellow-500" />;
+    return (
+      <Trophy size={24} weight="fill" className="text-[var(--color-primary)]" />
+    );
   if (rank === 2)
     return <Medal size={24} weight="fill" className="text-gray-400" />;
   if (rank === 3)
@@ -61,7 +63,7 @@ function getRankIcon(rank: number) {
 
 function getRankBgColor(rank: number) {
   if (rank === 1)
-    return "bg-gradient-to-r from-yellow-50 to-transparent border-l-4 border-yellow-400";
+    return "bg-gradient-to-r from-[var(--color-primary-pale)] to-transparent border-l-4 border-[var(--color-primary)]";
   if (rank === 2)
     return "bg-gradient-to-r from-gray-50 to-transparent border-l-4 border-gray-400";
   if (rank === 3)
@@ -204,22 +206,22 @@ export default function LeaderboardPage() {
             <table className="w-full">
               <thead className="bg-[var(--color-neutral-50)]">
                 <tr>
-                  <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-neutral-600)]">
+                  <th className="px-4 py-4 text-left text-sm font-semibold text-[var(--color-neutral-600)]">
                     Rank
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-neutral-600)]">
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--color-neutral-600)]">
                     Name
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-neutral-600)]">
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--color-neutral-600)]">
                     Type
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-neutral-600)]">
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--color-neutral-600)]">
                     Best Score
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-neutral-600)] hidden sm:table-cell">
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--color-neutral-600)] hidden sm:table-cell">
                     Simulations
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold text-[var(--color-neutral-600)] hidden md:table-cell">
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-[var(--color-neutral-600)] hidden md:table-cell">
                     Achieved
                   </th>
                 </tr>
@@ -229,7 +231,11 @@ export default function LeaderboardPage() {
                   <tr
                     key={`${item.userGoogleSub}-${item.rank}`}
                     className={`cursor-pointer hover:bg-[var(--color-neutral-50)] transition-colors ${getRankBgColor(item.rank)}`}
-                    onClick={() => router.push(`/dashboard/profile/${encodeURIComponent(item.userGoogleSub)}`)}
+                    onClick={() =>
+                      router.push(
+                        `/dashboard/profile/${encodeURIComponent(item.userGoogleSub)}`,
+                      )
+                    }
                   >
                     <td className="px-4 py-4">
                       <div className="flex items-center justify-center">
