@@ -203,7 +203,6 @@ export default function ResultPage() {
         <p className={`font-semibold ${scoreColor}`}>{heroSubLabel}</p>
         <div className="flex flex-wrap gap-2 w-full items-center justify-center p-5">
           <span className="rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-medium text-[var(--color-primary)]">
-            {" "}
             {result.totalPercentage >= 70
               ? "Excellent"
               : result.totalPercentage >= 50
@@ -234,10 +233,10 @@ export default function ResultPage() {
         </div>
       </section>
       <section
-        className={`shadow-sm rounded-2xl border-[var(--color-neutral-300)] bg-white`}
+        className={`shadow-sm rounded-2xl border border-[var(--color-neutral-300)] bg-white`}
       >
         <div
-          className={`grid gap-4 ${result.sectionScores.length === 1 ? "grid-cols-1" : "grid-cols-3"}`}
+          className={`divide-y divide-[var(--color-neutral-200)] ${result.sectionScores.length === 1 ? "grid-cols-1" : "grid grid-cols-1 sm:grid-cols-3 sm:divide-y-0 sm:divide-x"}`}
         >
           {result.sectionScores.map((section) => {
             const colorClass =
@@ -250,46 +249,48 @@ export default function ResultPage() {
             return (
               <div
                 key={section.sectionId}
-                className="flex flex-col items-center p-5"
+                className="flex flex-col items-center px-4 py-6 sm:p-5 justify-between"
               >
                 <div className="mb-2 text-lg font-medium text-[var(--color-neutral-500)] text-center">
                   {section.sectionTitle}
                 </div>
-                {typeof section.scaledScore === "number" && (
-                  <p
-                    style={{
-                      fontFamily: '"JetBrains Mono", "Fira Code", monospace',
-                    }}
-                    className={`my-1 text-center text-[60px] text-xs font-bold ${colorClass}`}
-                  >
-                    <CountUp
-                      end={section.scaledScore}
-                      duration={1.5}
-                      decimals={0}
-                    />
-                  </p>
-                )}
-                {typeof section.bandScore === "number" && (
-                  <p
-                    style={{
-                      fontFamily: '"JetBrains Mono", "Fira Code", monospace',
-                    }}
-                    className={`my-1 text-center text-[60px] text-xs font-bold ${colorClass}`}
-                  >
-                    <CountUp
-                      end={section.bandScore}
-                      duration={1.5}
-                      decimals={1}
-                    />
-                  </p>
-                )}
-                <div className="flex justify-between w-[50%]">
-                  <p className="text-xs text-[var(--color-neutral-500)]">
-                    {section.correct} / {section.total}
-                  </p>
-                  <p className="text-xs text-[var(--color-neutral-500)]">
-                    {section.percentage}%
-                  </p>
+                <div className="w-full flex items-center flex-col">
+                  {typeof section.scaledScore === "number" && (
+                    <p
+                      style={{
+                        fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                      }}
+                      className={`my-1 text-center text-[48px] sm:text-[60px] text-xs font-bold ${colorClass}`}
+                    >
+                      <CountUp
+                        end={section.scaledScore}
+                        duration={1.5}
+                        decimals={0}
+                      />
+                    </p>
+                  )}
+                  {typeof section.bandScore === "number" && (
+                    <p
+                      style={{
+                        fontFamily: '"JetBrains Mono", "Fira Code", monospace',
+                      }}
+                      className={`my-1 text-center text-[48px] sm:text-[60px] text-xs font-bold ${colorClass}`}
+                    >
+                      <CountUp
+                        end={section.bandScore}
+                        duration={1.5}
+                        decimals={1}
+                      />
+                    </p>
+                  )}
+                  <div className="flex justify-between w-[50%]">
+                    <p className="text-xs text-[var(--color-neutral-500)]">
+                      {section.correct} / {section.total}
+                    </p>
+                    <p className="text-xs text-[var(--color-neutral-500)]">
+                      {section.percentage}%
+                    </p>
+                  </div>
                 </div>
               </div>
             );
@@ -388,10 +389,7 @@ export default function ResultPage() {
                       const status = getAnswerStatus(isCorrect, q.type);
 
                       return (
-                        <div
-                          key={q.id}
-                          className="rounded-2xl border border-[var(--color-neutral-300)] bg-[var(--color-neutral-50)] p-4"
-                        >
+                        <div key={q.id}>
                           <div className="mb-3 flex items-start justify-between gap-3">
                             <p className="flex-1 whitespace-pre-wrap text-sm font-medium text-[var(--color-neutral-900)]">
                               Q{q.number}. {q.text}

@@ -326,7 +326,7 @@ export default function HomePage() {
 
         <div className="grid items-center gap-12 lg:grid-cols-[6fr_5fr] lg:gap-16">
           {/* Kolom Kiri - Konten */}
-          <div className="order-2 lg:order-1" data-aos="fade-up">
+          <div className="order-1" data-aos="fade-up">
             <p className="mb-4 inline-flex rounded-full bg-[var(--color-primary-pale)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-primary)]">
               WIKIN
             </p>
@@ -369,7 +369,7 @@ export default function HomePage() {
 
           {/* Kolom Kanan - Card Mockup */}
           <div
-            className="order-1 lg:order-2"
+            className="order-2"
             data-aos="fade-up"
             data-aos-delay="150"
           >
@@ -569,7 +569,7 @@ export default function HomePage() {
       <section className=" w-full relative">
         <AnimatedWLogo
           size={450}
-          classname="absolute top-0 -right-[15%] rotate-160"
+          classname="absolute top-0 -right-[15%] rotate-160 md:block hidden"
         />
 
         <div className="max-w-[600px] px-6 py-24 mx-auto md:px-8 text-center">
@@ -582,12 +582,12 @@ export default function HomePage() {
           </p>
 
           {/* Stats dengan vertical divider */}
-          <div className="flex items-center justify-center">
+          <div className="flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-0">
             {missionStats.map((stat, idx) => (
               <div key={stat.label} className="flex items-center">
                 <div className="px-6 text-center md:px-10">
                   <p
-                    className="text-[40px] font-bold text-[var(--color-primary)]"
+                    className="text-3xl font-bold text-[var(--color-primary)] sm:text-[40px]"
                     style={{
                       fontFamily: '"JetBrains Mono", "Fira Code", monospace',
                     }}
@@ -599,7 +599,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 {idx < missionStats.length - 1 && (
-                  <div className="h-10 w-px bg-[var(--color-neutral-300)]" />
+                  <div className="hidden h-10 w-px bg-[var(--color-neutral-300)] sm:block" />
                 )}
               </div>
             ))}
@@ -608,7 +608,7 @@ export default function HomePage() {
 
         <AnimatedWLogo
           size={400}
-          classname="absolute bottom-0 -left-[13%] -rotate-15"
+          classname="absolute bottom-0 -left-[13%] -rotate-15 md:block hidden"
         />
       </section>
 
