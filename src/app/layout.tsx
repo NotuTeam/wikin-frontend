@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 function isMaintenanceModeEnabled() {
-  const value = process.env.MAINTENANCE_MODE?.trim().toUpperCase();
+  const value = process.env.NEXT_PUBLIC_MAINTENANCE_MODE?.trim().toUpperCase();
   return value === "ON";
 }
 
