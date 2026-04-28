@@ -7,6 +7,7 @@ import { WritingVisual } from "@/components/features/WritingVisual";
 
 import {
   streamGenerate,
+  StreamAbortedError,
   idbGetSession,
   idbDeleteSession,
   idbSetSession,
@@ -116,6 +117,14 @@ export function SimulationRunner({
   const lastPersistedAtRef = useRef(0);
   const autoAdvanceLockRef = useRef(false);
   const hasAutoStartedRef = useRef(false);
+  const activeAbortRef = useRef<AbortController | null>(null);
+
+  const abortActiveStream = () => {
+    if (activeAbortRef.current) {
+      activeAbortRef.current.abort();
+      activeAbortRef.current = null;
+    }
+  };
 
   const getSectionDurationSeconds = (sectionIndex: number) => {
     const section = sections[sectionIndex];
@@ -303,7 +312,10 @@ export function SimulationRunner({
   }, [currentSectionIndex]);
 
   useEffect(() => {
-    return () => stopTts();
+    return () => {
+      stopTts();
+      abortActiveStream();
+    };
   }, []);
 
   useEffect(() => {
@@ -493,14 +505,11 @@ export function SimulationRunner({
         if (!taskRaw) return q;
 
         try {
-          const resp = await fetch(
-            `/api/questions/ielts/writing/review`,
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ task: taskRaw, answer }),
-            },
-          );
+          const resp = await fetch(`/api/questions/ielts/writing/review`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ task: taskRaw, answer }),
+          });
           const data = await resp.json();
           if (!resp.ok || !data?.success || !data?.data) return q;
 
@@ -896,6 +905,7 @@ export function SimulationRunner({
           difficulty,
           {},
           setProgress,
+          activeAbortRef.current?.signal,
         );
         partial[part.key] = result;
         toeflListeningPartialRef.current = { ...partial };
@@ -958,6 +968,7 @@ export function SimulationRunner({
           difficulty,
           { section: part.section },
           setProgress,
+          activeAbortRef.current?.signal,
         );
         partial[part.key] = result;
         ieltsListeningPartialRef.current = { ...partial };
@@ -993,16 +1004,18 @@ export function SimulationRunner({
     sectionIndex: number,
     startPartIndex = 0,
   ) => {
+    const signal = activeAbortRef.current?.signal;
+
     if (type === "toefl" && sectionId === "listening") {
       return generateToeflListeningIncremental(sectionIndex, startPartIndex);
     }
 
     if (type === "toefl" && sectionId === "reading") {
-      return streamGenerate("/toefl/reading", difficulty, {}, setProgress);
+      return streamGenerate("/toefl/reading", difficulty, {}, setProgress, signal);
     }
 
     if (type === "toefl" && sectionId === "structure") {
-      return streamGenerate("/toefl/structure", difficulty, {}, setProgress);
+      return streamGenerate("/toefl/structure", difficulty, {}, setProgress, signal);
     }
 
     if (type === "ielts" && sectionId === "listening") {
@@ -1010,7 +1023,7 @@ export function SimulationRunner({
     }
 
     if (type === "ielts" && sectionId === "reading") {
-      return streamGenerate("/ielts/reading", difficulty, {}, setProgress);
+      return streamGenerate("/ielts/reading", difficulty, {}, setProgress, signal);
     }
 
     if (type === "ielts" && sectionId === "writing") {
@@ -1020,6 +1033,7 @@ export function SimulationRunner({
         difficulty,
         {},
         setProgress,
+        signal,
       );
       setProgress("Generating IELTS Writing Task 2...");
       const task2 = await streamGenerate(
@@ -1027,11 +1041,12 @@ export function SimulationRunner({
         difficulty,
         {},
         setProgress,
+        signal,
       );
       return { task1, task2 };
     }
 
-    return streamGenerate("/ielts/writing/task-2", difficulty, {}, setProgress);
+    return streamGenerate("/ielts/writing/task-2", difficulty, {}, setProgress, signal);
   };
 
   const detectResumePoint = (
@@ -1089,12 +1104,18 @@ export function SimulationRunner({
     const activeExamType = options?.examTypeOverride ?? examType;
     const activeTemplates = options?.templatesOverride ?? templates;
 
+    // Abort any active stream before starting new generation
+    abortActiveStream();
+    activeAbortRef.current = new AbortController();
+
     setIsGenerating(true);
     setLoading(true);
     setFailedSectionIndex(null);
     setError(null);
 
     for (let i = startIndex; i < activeTemplates.length; i += 1) {
+      if (activeAbortRef.current?.signal.aborted) break;
+
       if (sections[i]?.status === "done" || sections[i]?.status === "skipped")
         continue;
 
@@ -1125,6 +1146,11 @@ export function SimulationRunner({
           `Section ${i + 1}/${activeTemplates.length} (${parsed.title}) is ready`,
         );
       } catch (err) {
+        if (err instanceof StreamAbortedError) {
+          setIsGenerating(false);
+          setLoading(false);
+          return;
+        }
         const message = (err as Error).message;
         updateSection(i, { status: "failed", error: message });
         setFailedSectionIndex(i);
@@ -1210,6 +1236,8 @@ export function SimulationRunner({
   };
 
   const exitCurrentSession = async () => {
+    abortActiveStream();
+
     try {
       await idbDeleteSession();
     } catch {}
@@ -1228,6 +1256,7 @@ export function SimulationRunner({
     setFailedListeningPartIndex(null);
     setProgress("");
     setError(null);
+    router.push("/dashboard/simulation");
   };
 
   const startSimulation = async () => {
@@ -1294,6 +1323,8 @@ export function SimulationRunner({
   const retryFailedSection = async () => {
     if (failedSectionIndex === null) return;
 
+    abortActiveStream();
+
     if (
       failedSectionIndex === 0 &&
       templates[failedSectionIndex]?.id === "listening" &&
@@ -1311,6 +1342,8 @@ export function SimulationRunner({
 
   const skipFailedSection = async () => {
     if (failedSectionIndex === null) return;
+
+    abortActiveStream();
 
     if (
       failedSectionIndex === 0 &&
@@ -1339,6 +1372,8 @@ export function SimulationRunner({
   };
 
   const finalizeSimulation = async () => {
+    abortActiveStream();
+
     const evaluatedSections = await evaluateIeltsWriting(sections);
     const resultData = buildResultData(evaluatedSections);
 
@@ -1368,7 +1403,9 @@ export function SimulationRunner({
     } catch {}
     setSessionActive(false);
 
-    router.push(persistedResultId ? `/result?id=${persistedResultId}` : "/result");
+    router.push(
+      persistedResultId ? `/result?id=${persistedResultId}` : "/result",
+    );
   };
 
   const advanceToNextSection = () => {
@@ -1395,6 +1432,8 @@ export function SimulationRunner({
   };
 
   const confirmNextSection = async () => {
+    abortActiveStream();
+
     setShowNextSectionModal(false);
     if (!currentSection) return;
 

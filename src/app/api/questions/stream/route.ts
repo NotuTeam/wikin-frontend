@@ -4,6 +4,7 @@ import {
   type ListeningSection,
   generateByEndpoint,
 } from "@/server/http/questions";
+import { logResponse } from "@/server/logger/responseLog";
 
 export const runtime = "nodejs";
 
@@ -14,6 +15,9 @@ export async function GET(req: NextRequest) {
   const section =
     (req.nextUrl.searchParams.get("section") as ListeningSection) ||
     "SECTION_1";
+  const attemptId =
+    req.nextUrl.searchParams.get("requestId") || undefined;
+  const startedAt = Date.now();
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream<Uint8Array>({
@@ -37,11 +41,32 @@ export async function GET(req: NextRequest) {
 
         const data = await generateByEndpoint(endpoint, difficulty, section);
 
+        await logResponse({
+          endpoint,
+          difficulty,
+          section,
+          attemptId,
+          success: true,
+          durationMs: Date.now() - startedAt,
+          data,
+        });
+
         send("progress", { stage: "finalizing", message: "Finalizing response" });
         send("done", { success: true, data });
       } catch (error) {
         const message =
           error instanceof Error ? error.message : "Generation failed";
+
+        await logResponse({
+          endpoint,
+          difficulty,
+          section,
+          attemptId,
+          success: false,
+          durationMs: Date.now() - startedAt,
+          error: message,
+        });
+
         send("error", { success: false, error: message });
       } finally {
         controller.close();

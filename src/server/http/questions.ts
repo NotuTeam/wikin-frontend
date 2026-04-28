@@ -20,35 +20,73 @@ export async function generateByEndpoint(
   difficulty: Difficulty = "MEDIUM",
   section: ListeningSection = "SECTION_1",
 ) {
-  switch (endpoint) {
-    case "/toefl/listening/part-a":
-      return toeflEngine.generateListeningPartA(difficulty);
-    case "/toefl/listening/part-b":
-      return toeflEngine.generateListeningPartB(difficulty);
-    case "/toefl/listening/part-c":
-      return toeflEngine.generateListeningPartC(difficulty);
-    case "/toefl/listening/part-d":
-      return toeflEngine.generateListeningPartD(difficulty);
-    case "/toefl/listening/part-e":
-      return toeflEngine.generateListeningPartE(difficulty);
-    case "/toefl/reading":
-      return toeflEngine.generateReading(difficulty);
-    case "/toefl/structure":
-      return toeflEngine.generateStructure(difficulty);
-    case "/ielts/listening":
-      return ieltsEngine.generateListeningSection(section, difficulty);
-    case "/ielts/reading":
-      return ieltsEngine.generateReadingPassage(difficulty);
-    case "/ielts/writing/task-1":
-      return ieltsEngine.generateWritingTask1(difficulty);
-    case "/ielts/writing/task-2":
-      return ieltsEngine.generateWritingTask2(difficulty);
-    case "/ielts/complete-listening":
-      return ieltsEngine.generateCompleteListeningTest(difficulty);
-    case "/ielts/complete-writing":
-      return ieltsEngine.generateCompleteWritingTest(difficulty);
-    default:
-      throw new Error("Unsupported endpoint");
+  const startedAt = Date.now();
+  console.log("[question-gen][dispatch] start", { endpoint, difficulty, section });
+
+  try {
+    let result;
+
+    switch (endpoint) {
+      case "/toefl/listening/part-a":
+        result = await toeflEngine.generateListeningPartA(difficulty);
+        break;
+      case "/toefl/listening/part-b":
+        result = await toeflEngine.generateListeningPartB(difficulty);
+        break;
+      case "/toefl/listening/part-c":
+        result = await toeflEngine.generateListeningPartC(difficulty);
+        break;
+      case "/toefl/listening/part-d":
+        result = await toeflEngine.generateListeningPartD(difficulty);
+        break;
+      case "/toefl/listening/part-e":
+        result = await toeflEngine.generateListeningPartE(difficulty);
+        break;
+      case "/toefl/reading":
+        result = await toeflEngine.generateReading(difficulty);
+        break;
+      case "/toefl/structure":
+        result = await toeflEngine.generateStructure(difficulty);
+        break;
+      case "/ielts/listening":
+        result = await ieltsEngine.generateListeningSection(section, difficulty);
+        break;
+      case "/ielts/reading":
+        result = await ieltsEngine.generateReadingPassage(difficulty);
+        break;
+      case "/ielts/writing/task-1":
+        result = await ieltsEngine.generateWritingTask1(difficulty);
+        break;
+      case "/ielts/writing/task-2":
+        result = await ieltsEngine.generateWritingTask2(difficulty);
+        break;
+      case "/ielts/complete-listening":
+        result = await ieltsEngine.generateCompleteListeningTest(difficulty);
+        break;
+      case "/ielts/complete-writing":
+        result = await ieltsEngine.generateCompleteWritingTest(difficulty);
+        break;
+      default:
+        throw new Error("Unsupported endpoint");
+    }
+
+    console.log("[question-gen][dispatch] success", {
+      endpoint,
+      difficulty,
+      section,
+      durationMs: Date.now() - startedAt,
+    });
+
+    return result;
+  } catch (error) {
+    console.error("[question-gen][dispatch] error", {
+      endpoint,
+      difficulty,
+      section,
+      durationMs: Date.now() - startedAt,
+      error,
+    });
+    throw error;
   }
 }
 

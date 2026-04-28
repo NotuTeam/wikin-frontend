@@ -103,8 +103,8 @@ export const TOEFLListeningPartEBaseSchema = BaseQuestionSchema.extend({
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });
 
-export const TOEFLListeningPartEQuestionBatchSchema = z.object({
-  questions: z.array(TOEFLListeningPartEQuestionItemSchema).length(5),
+export const TOEFLListeningPartEQuestionSetSchema = z.object({
+  questions: z.array(TOEFLListeningPartEQuestionItemSchema).length(15),
 });
 
 export const TOEFLListeningPartESchema = TOEFLListeningPartEBaseSchema.extend({
@@ -170,10 +170,6 @@ export const TOEFLReadingPassageOnlySchema = BaseQuestionSchema.extend({
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });
 
-export const TOEFLReadingQuestionBatchSchema = z.object({
-  questions: z.array(TOEFLReadingQuestionItemSchema).length(10),
-});
-
 export const TOEFLReadingSchema = BaseQuestionSchema.extend({
   type: z.literal('READING'),
   passage: TOEFLReadingPassageContentSchema,
@@ -219,12 +215,9 @@ export const TOEFLStructureBatchSchema = z.object({
   questions: z.array(TOEFLStructureQuestionItemSchema).length(5),
 });
 
-export const TOEFLStructureBaseSchema = BaseQuestionSchema.extend({
+export const TOEFLStructureSchema = BaseQuestionSchema.extend({
   type: z.literal('STRUCTURE'),
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
-});
-
-export const TOEFLStructureSchema = TOEFLStructureBaseSchema.extend({
   questions: z.array(TOEFLStructureQuestionItemSchema).length(40),
 });
 

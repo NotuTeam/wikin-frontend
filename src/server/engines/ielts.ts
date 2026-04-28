@@ -1,9 +1,7 @@
-import { generateStructured, IELTS_SYSTEM_PROMPT } from '../ai';
+import { formatStructuredOutput, generateStructured, IELTS_SYSTEM_PROMPT } from '../ai';
 import {
   IELTSListeningSectionSchema,
-  IELTSReadingPassageSchema,
   IELTSReadingPassageOnlySchema,
-  IELTSReadingQuestionBatchSchema,
   IELTSReadingQuestionItemSchema,
   IELTSWritingTask1Schema,
   IELTSWritingTask2Schema,
@@ -12,6 +10,17 @@ import {
 import { z } from 'zod';
 
 export class IELTSEngine {
+  private static readonly DEFAULT_POINTS = 1;
+  private static readonly DEFAULT_ESTIMATED_TIME = 60;
+
+  private withDefaults<T extends Record<string, unknown>>(data: T) {
+    return {
+      points: IELTSEngine.DEFAULT_POINTS,
+      estimatedTime: IELTSEngine.DEFAULT_ESTIMATED_TIME,
+      ...data,
+    };
+  }
+
   private buildListeningScriptRules() {
     return `AudioScript formatting rules:
 - Start with one short context line in this exact style: "Situation: ..."
@@ -20,27 +29,70 @@ export class IELTSEngine {
 - Do not open with speaker introduction list; open with the situation/context first`;
   }
 
-  private async generateListeningWithFixedSetting(
+  private async generateListeningWithFixedSetting<TLean extends Record<string, unknown>, TFull>(
     prompt: string,
-    sectionSetting: 'SOCIAL_SURVIVAL' | 'EDUCATIONAL_SURVIVAL' | 'ACADEMIC_DISCUSSION' | 'ACADEMIC_LECTURE',
+    leanSchema: z.ZodSchema<TLean>,
+    hydrate: (data: TLean) => TFull,
     options: { temperature: number; maxTokens: number }
   ) {
-    const strictPrompt = `${prompt}\n\nCRITICAL: context.setting MUST be exactly ${sectionSetting}.`;
-
-    const first = await generateStructured(strictPrompt, IELTSListeningSectionSchema, {
+    const first = await generateStructured(prompt, leanSchema, {
       system: IELTS_SYSTEM_PROMPT,
       temperature: options.temperature,
       maxTokens: options.maxTokens,
     });
 
-    if (first.context?.setting === sectionSetting) return first;
+    try {
+      return hydrate(first);
+    } catch {
+      const retryPrompt = `${prompt}\n\nRETRY: Return strict valid JSON matching schema. Avoid extra keys and keep only required fields.`;
+      const second = await generateStructured(retryPrompt, leanSchema, {
+        system: IELTS_SYSTEM_PROMPT,
+        temperature: Math.max(0.1, options.temperature - 0.1),
+        maxTokens: options.maxTokens,
+      });
+      return hydrate(second);
+    }
+  }
 
-    const retryPrompt = `${strictPrompt}\n\nRETRY: previous output used wrong context.setting. Return JSON with context.setting exactly ${sectionSetting}.`;
-    return generateStructured(retryPrompt, IELTSListeningSectionSchema, {
-      system: IELTS_SYSTEM_PROMPT,
-      temperature: Math.max(0.1, options.temperature - 0.1),
+  private async generateFormattedWithRetry<T>(
+    sourcePrompt: string,
+    schema: z.ZodSchema<T>,
+    options: { temperature: number; maxTokens: number; formattingInstructions?: string },
+  ) {
+    const startedAt = Date.now();
+    console.log('[question-gen][ielts][formatter] start', {
       maxTokens: options.maxTokens,
+      temperature: options.temperature,
+      promptPreview: sourcePrompt.replace(/\s+/g, ' ').trim().slice(0, 120),
     });
+
+    try {
+      const result = await formatStructuredOutput(sourcePrompt, schema, {
+        system: IELTS_SYSTEM_PROMPT,
+        temperature: options.temperature,
+        maxTokens: options.maxTokens,
+        formattingInstructions: options.formattingInstructions,
+      });
+      console.log('[question-gen][ielts][formatter] success', {
+        durationMs: Date.now() - startedAt,
+      });
+      return result;
+    } catch (error) {
+      console.warn('[question-gen][ielts][formatter] retry', {
+        durationMs: Date.now() - startedAt,
+        message: error instanceof Error ? error.message : 'Unknown formatter failure',
+      });
+      const result = await formatStructuredOutput(sourcePrompt, schema, {
+        system: IELTS_SYSTEM_PROMPT,
+        temperature: Math.max(0.1, options.temperature - 0.1),
+        maxTokens: Math.min(options.maxTokens, 2400),
+        formattingInstructions: options.formattingInstructions,
+      });
+      console.log('[question-gen][ielts][formatter] success-after-retry', {
+        durationMs: Date.now() - startedAt,
+      });
+      return result;
+    }
   }
 
   async generateListeningSection(
@@ -62,48 +114,65 @@ export class IELTSEngine {
     } as const;
     const requiredSetting = sectionSettingMap[section];
 
+    const leanSchema = z.object({
+      type: z.literal('LISTENING'),
+      section: z.enum(['SECTION_1', 'SECTION_2', 'SECTION_3', 'SECTION_4']),
+      questionText: z.string().min(10),
+      audioScript: z.string().min(100),
+      context: z.object({
+        speakers: z.array(z.object({
+          name: z.string().optional(),
+          accent: z.enum(['BRITISH', 'AMERICAN', 'AUSTRALIAN', 'CANADIAN']),
+          gender: z.enum(['MALE', 'FEMALE']).optional(),
+          role: z.string().optional(),
+        })).min(1).max(4),
+      }),
+      questions: z.array(z.object({
+        questionNumber: z.number().int().min(1).max(10),
+        questionType: z.literal('MULTIPLE_CHOICE'),
+        questionText: z.string(),
+        answerFormat: z.literal('LETTER'),
+        correctAnswer: z.number().int().min(0).max(3),
+        options: z.array(z.string()).length(4),
+        keywords: z.array(z.string()).min(1),
+        synonymsUsed: z.array(z.string()),
+      })).length(10),
+      keyVocabulary: z.array(z.object({
+        word: z.string(),
+        pronunciationNote: z.string().optional(),
+        meaning: z.string(),
+      })).min(5),
+    });
+
     const baseRules = `Generate an IELTS Listening ${section} question set with EXACTLY 10 questions in TOEFL-like multiple-choice style.
 
 Context: ${configs[section]}
 Difficulty: ${difficulty}
 Required context.setting: ${requiredSetting}
 
-STRICT SCHEMA RULES:
-1. type must be LISTENING
-2. section must be exactly ${section}
-3. questionText minimum 10 chars
-4. context.setting MUST be exactly ${requiredSetting}
-5. context.speakers must be 1-4 items, each accent MUST be one of: BRITISH, AMERICAN, AUSTRALIAN, CANADIAN
-6. questions must be EXACTLY 10 items with questionNumber 1..10
-7. Every question MUST be MULTIPLE_CHOICE with EXACTLY 4 options
-8. questionType MUST be MULTIPLE_CHOICE
-9. answerFormat MUST be LETTER
-10. correctAnswer MUST be number index 0..3
-11. Include keywords (>=1) and synonymsUsed array in each question
-12. keyVocabulary minimum 5 items
-13. ${this.buildListeningScriptRules()}
-14. Return valid JSON matching schema only`;
+Output rules:
+1. Return only keys: type, section, questionText, audioScript, context, questions, keyVocabulary
+2. type must be LISTENING and section must be exactly ${section}
+3. context.speakers must be 1-4 items, accent in BRITISH|AMERICAN|AUSTRALIAN|CANADIAN
+4. questions must be EXACTLY 10 items with questionNumber 1..10
+5. Every question MUST be MULTIPLE_CHOICE with exactly 4 options
+6. answerFormat MUST be LETTER and correctAnswer MUST be numeric 0..3
+7. Include keywords (>=1) and synonymsUsed array in each question
+8. ${this.buildListeningScriptRules()}`;
 
-    try {
-      return await this.generateListeningWithFixedSetting(
-        baseRules,
-        requiredSetting,
-        { temperature: 0.25, maxTokens: 3600 }
-      );
-    } catch {
-      const retryPrompt = `${baseRules}
-
-IMPORTANT RETRY MODE:
-- Avoid extra fields outside schema.
-- Ensure all enum values match exactly.
-- Ensure correctAnswer is numeric 0..3, never letter/string.`;
-
-      return this.generateListeningWithFixedSetting(
-        retryPrompt,
-        requiredSetting,
-        { temperature: 0.1, maxTokens: 3600 }
-      );
-    }
+    return this.generateListeningWithFixedSetting(
+      baseRules,
+      leanSchema,
+      (data) => IELTSListeningSectionSchema.parse(this.withDefaults({
+        ...data,
+        difficulty,
+        context: {
+          ...data.context,
+          setting: requiredSetting,
+        },
+      })),
+      { temperature: 0.25, maxTokens: 3600 }
+    );
   }
 
   async generateReadingPassage(difficulty: 'EASY' | 'MEDIUM' | 'HARD' = 'MEDIUM') {
@@ -192,10 +261,15 @@ Output rules (STRICT):
           questions: z.array(IELTSReadingQuestionItemSchema).length(count),
         });
 
-        const questionBatch = await generateWithRetry(
+        const questionBatch = await this.generateFormattedWithRetry(
           questionPrompt,
           batchSchema,
-          { temperature: 0.3, maxTokens: 2500 }
+          {
+            temperature: 0.3,
+            maxTokens: 2500,
+            formattingInstructions:
+              `Return an object with a questions array of exactly ${count} items. Preserve questionNumber range ${currentStart}..${end}, use MULTIPLE_CHOICE, exactly 4 options, numeric correctAnswer, explanation, keywordsInPassage, and paraphrasing.`,
+          }
         );
 
         allQuestions.push(...questionBatch.questions);
@@ -253,10 +327,11 @@ Create output optimized for frontend visualization with Chart.js/Table (NOT imag
 5. Band 8-9 sample answer (150-200 words)
 6. Examiner comments on why it's high-scoring`;
 
-    return generateStructured(prompt, IELTSWritingTask1Schema, {
-      system: IELTS_SYSTEM_PROMPT,
+    return this.generateFormattedWithRetry(prompt, IELTSWritingTask1Schema, {
       temperature: 0.3,
       maxTokens: 3000,
+      formattingInstructions:
+        'Return exactly one WRITING_TASK_1 object with visualData, rubricFocus, suggestedApproach, sampleAnswer, timeLimit, wordRequirement, and difficulty matching the schema. visualData.series lengths must match categories length.',
     });
   }
 
