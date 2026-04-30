@@ -115,8 +115,6 @@ export class IELTSEngine {
     const requiredSetting = sectionSettingMap[section];
 
     const leanSchema = z.object({
-      type: z.literal('LISTENING'),
-      section: z.enum(['SECTION_1', 'SECTION_2', 'SECTION_3', 'SECTION_4']),
       questionText: z.string().min(10),
       audioScript: z.string().min(100),
       context: z.object({
@@ -129,9 +127,7 @@ export class IELTSEngine {
       }),
       questions: z.array(z.object({
         questionNumber: z.number().int().min(1).max(10),
-        questionType: z.literal('MULTIPLE_CHOICE'),
         questionText: z.string(),
-        answerFormat: z.literal('LETTER'),
         correctAnswer: z.number().int().min(0).max(3),
         options: z.array(z.string()).length(4),
         keywords: z.array(z.string()).min(1),
@@ -151,21 +147,27 @@ Difficulty: ${difficulty}
 Required context.setting: ${requiredSetting}
 
 Output rules:
-1. Return only keys: type, section, questionText, audioScript, context, questions, keyVocabulary
-2. type must be LISTENING and section must be exactly ${section}
-3. context.speakers must be 1-4 items, accent in BRITISH|AMERICAN|AUSTRALIAN|CANADIAN
-4. questions must be EXACTLY 10 items with questionNumber 1..10
-5. Every question MUST be MULTIPLE_CHOICE with exactly 4 options
-6. answerFormat MUST be LETTER and correctAnswer MUST be numeric 0..3
-7. Include keywords (>=1) and synonymsUsed array in each question
-8. ${this.buildListeningScriptRules()}`;
+1. Return only keys: questionText, audioScript, context, questions, keyVocabulary
+2. context.speakers must be 1-4 items, accent in BRITISH|AMERICAN|AUSTRALIAN|CANADIAN
+3. questions must be EXACTLY 10 items with questionNumber 1..10
+4. Every question MUST include exactly 4 options
+5. correctAnswer MUST be numeric 0..3
+6. Include keywords (>=1) and synonymsUsed array in each question
+7. ${this.buildListeningScriptRules()}`;
 
     return this.generateListeningWithFixedSetting(
       baseRules,
       leanSchema,
       (data) => IELTSListeningSectionSchema.parse(this.withDefaults({
         ...data,
+        type: 'LISTENING',
+        section,
         difficulty,
+        questions: data.questions.map((q) => ({
+          ...q,
+          questionType: 'MULTIPLE_CHOICE',
+          answerFormat: 'LETTER',
+        })),
         context: {
           ...data.context,
           setting: requiredSetting,
@@ -175,74 +177,64 @@ Output rules:
     );
   }
 
-  async generateReadingPassage(difficulty: 'EASY' | 'MEDIUM' | 'HARD' = 'MEDIUM') {
-    const topics = ['SCIENCE_TECHNOLOGY', 'SOCIAL_ISSUES', 'EDUCATION', 'ENVIRONMENT', 'HEALTH_MEDICINE', 'HISTORY_CULTURE', 'BUSINESS_ECONOMICS'];
-    const passages: any[] = [];
-    const allQuestions: any[] = [];
-
-    const generateWithRetry = async <T>(
-      prompt: string,
-      schema: z.ZodSchema<T>,
-      base: { temperature: number; maxTokens: number }
-    ) => {
-      try {
-        return await generateStructured(prompt, schema, {
-          system: IELTS_SYSTEM_PROMPT,
-          temperature: base.temperature,
-          maxTokens: base.maxTokens,
-        });
-      } catch {
-        const retryPrompt = `${prompt}\n\nRETRY MODE:\n- Return strictly valid JSON matching schema.\n- Do not add markdown, code fences, or extra commentary.\n- Keep explanations concise.`;
-        return generateStructured(retryPrompt, schema, {
-          system: IELTS_SYSTEM_PROMPT,
-          temperature: Math.max(0.1, base.temperature - 0.1),
-          maxTokens: Math.min(base.maxTokens, 2200),
-        });
-      }
-    };
-
-    const passageConfigs = [
+  private getIeltsReadingPassageConfigs() {
+    return [
       { questionCount: 15, startIndex: 1 },
       { questionCount: 15, startIndex: 16 },
       { questionCount: 10, startIndex: 31 },
-    ];
+    ] as const;
+  }
 
-    for (let i = 0; i < passageConfigs.length; i += 1) {
-      const config = passageConfigs[i];
-      const topic = topics[Math.floor(Math.random() * topics.length)];
+  async generateReadingPassageUnit(
+    passageIndex: 1 | 2 | 3,
+    difficulty: 'EASY' | 'MEDIUM' | 'HARD' = 'MEDIUM'
+  ) {
+    const topics = ['SCIENCE_TECHNOLOGY', 'SOCIAL_ISSUES', 'EDUCATION', 'ENVIRONMENT', 'HEALTH_MEDICINE', 'HISTORY_CULTURE', 'BUSINESS_ECONOMICS'] as const;
+    const topic = topics[Math.floor(Math.random() * topics.length)];
+    const config = this.getIeltsReadingPassageConfigs()[passageIndex - 1];
 
-      const passagePrompt = `Generate IELTS Academic Reading passage ${i + 1} metadata and content only.
+    const passageLeanSchema = z.object({
+      questionText: z.string().min(10),
+      passage: z.object({
+        title: z.string().min(10),
+        subtitle: z.string().optional(),
+        source: z.string().optional(),
+        author: z.string().optional(),
+        date: z.string().optional(),
+        wordCount: z.number().int().min(500).max(850),
+        content: z.string().min(500),
+        textType: z.enum(['DESCRIPTIVE', 'DISCURSIVE', 'NARRATIVE', 'ARGUMENTATIVE']),
+        hasDiagram: z.boolean().default(false),
+        hasChart: z.boolean().default(false),
+      }),
+    });
+
+    const passagePrompt = `Generate IELTS Academic Reading passage ${passageIndex} metadata and content only.
 
 Topic: ${topic}
 Difficulty: ${difficulty}
-This is passage ${i + 1} of 3.
+This is passage ${passageIndex} of 3.
 
 Output rules:
-1. Return type READING_PASSAGE
+1. Return only keys: questionText, passage
 2. passage content 500-800 words
-3. Include passage.questionStart=${config.startIndex} and passage.questionEnd=${config.startIndex + config.questionCount - 1}
-4. Do not include questions array`;
+3. Do not include questions array`;
 
-      const passageResult = await generateWithRetry(
-        passagePrompt,
-        IELTSReadingPassageOnlySchema,
-        { temperature: 0.3, maxTokens: 2600 }
-      );
+    const passageResult = await generateStructured(passagePrompt, passageLeanSchema, {
+      system: IELTS_SYSTEM_PROMPT,
+      temperature: 0.3,
+      maxTokens: 2600,
+    });
 
-      passages.push({
-        ...passageResult.passage,
-        questionStart: config.startIndex,
-        questionEnd: config.startIndex + config.questionCount - 1,
-      });
+    const batches = config.questionCount === 15 ? [8, 7] : [5, 5];
+    let currentStart = config.startIndex;
+    const allQuestions: any[] = [];
 
-      const batches = config.questionCount === 15 ? [8, 7] : [5, 5];
-      let currentStart = config.startIndex;
+    for (let batch = 0; batch < batches.length; batch += 1) {
+      const count = batches[batch];
+      const end = currentStart + count - 1;
 
-      for (let batch = 0; batch < batches.length; batch += 1) {
-        const count = batches[batch];
-        const end = currentStart + count - 1;
-
-        const questionPrompt = `Generate IELTS Academic Reading questions for passage ${i + 1}, batch ${batch + 1}.
+      const questionPrompt = `Generate IELTS Academic Reading questions for passage ${passageIndex}, batch ${batch + 1}.
 
 Difficulty: ${difficulty}
 Passage title: ${passageResult.passage.title}
@@ -251,30 +243,61 @@ Passage excerpt:\n${passageResult.passage.content.slice(0, 1900)}
 Output rules (STRICT):
 1. Return exactly ${count} questions in questions array
 2. questionNumber must be ${currentStart}..${end}
-3. Every questionType MUST be MULTIPLE_CHOICE
-4. Every question MUST include exactly 4 options
-5. correctAnswer MUST be number index 0..3
-6. explanation minimum 20 chars, paraphrasing minimum 8 chars
-7. Questions must strictly match the provided passage`; 
+3. Every question MUST include exactly 4 options
+4. correctAnswer MUST be number index 0..3
+5. explanation minimum 20 chars, paraphrasing minimum 8 chars
+6. Questions must strictly match the provided passage`;
 
-        const batchSchema = z.object({
-          questions: z.array(IELTSReadingQuestionItemSchema).length(count),
-        });
+      const batchSchema = z.object({
+        questions: z.array(z.object({
+          questionNumber: z.number().int().min(currentStart).max(end),
+          questionText: z.string().min(5),
+          paragraphReference: z.number().int().min(1).optional(),
+          options: z.array(z.string()).length(4),
+          correctAnswer: z.number().int().min(0).max(3),
+          explanation: z.string().min(20),
+          keywordsInPassage: z.array(z.string()).min(1),
+          paraphrasing: z.string().min(8),
+        })).length(count),
+      });
 
-        const questionBatch = await this.generateFormattedWithRetry(
-          questionPrompt,
-          batchSchema,
-          {
-            temperature: 0.3,
-            maxTokens: 2500,
-            formattingInstructions:
-              `Return an object with a questions array of exactly ${count} items. Preserve questionNumber range ${currentStart}..${end}, use MULTIPLE_CHOICE, exactly 4 options, numeric correctAnswer, explanation, keywordsInPassage, and paraphrasing.`,
-          }
-        );
+      const questionBatch = await this.generateFormattedWithRetry(
+        questionPrompt,
+        batchSchema,
+        {
+          temperature: 0.3,
+          maxTokens: 2500,
+          formattingInstructions:
+            `Return an object with a questions array of exactly ${count} items. Preserve questionNumber range ${currentStart}..${end}, exactly 4 options, numeric correctAnswer, explanation, keywordsInPassage, and paraphrasing.`,
+        }
+      );
 
-        allQuestions.push(...questionBatch.questions);
-        currentStart = end + 1;
-      }
+      allQuestions.push(...questionBatch.questions.map((q) => ({
+        ...q,
+        questionType: 'MULTIPLE_CHOICE' as const,
+      })));
+      currentStart = end + 1;
+    }
+
+    return {
+      passage: {
+        ...passageResult.passage,
+        topicCategory: topic,
+        questionStart: config.startIndex,
+        questionEnd: config.startIndex + config.questionCount - 1,
+      },
+      questions: allQuestions,
+    };
+  }
+
+  async generateReadingPassage(difficulty: 'EASY' | 'MEDIUM' | 'HARD' = 'MEDIUM') {
+    const passages: any[] = [];
+    const allQuestions: any[] = [];
+
+    for (const passageIndex of [1, 2, 3] as const) {
+      const unit = await this.generateReadingPassageUnit(passageIndex, difficulty);
+      passages.push(unit.passage);
+      allQuestions.push(...unit.questions);
     }
 
     allQuestions.sort((a, b) => a.questionNumber - b.questionNumber);

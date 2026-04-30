@@ -10,7 +10,7 @@ export class StreamAbortedError extends Error {
 export async function streamGenerate(
   endpoint: string,
   difficulty: Difficulty,
-  body: Record<string, string>,
+  body: Record<string, string | number>, 
   onProgress: (message: string) => void,
   signal?: AbortSignal
 ): Promise<any> {

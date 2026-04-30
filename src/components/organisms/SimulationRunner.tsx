@@ -112,6 +112,8 @@ export function SimulationRunner({
   const ttsProgressTimerRef = useRef<number | null>(null);
   const toeflListeningPartialRef = useRef<Record<string, any>>({});
   const ieltsListeningPartialRef = useRef<Record<string, any>>({});
+  const toeflReadingPartialRef = useRef<Record<string, any>>({});
+  const ieltsReadingPartialRef = useRef<Record<string, any>>({});
   const persistDebounceRef = useRef<number | null>(null);
   const lastPersistedHashRef = useRef("");
   const lastPersistedAtRef = useRef(0);
@@ -551,6 +553,8 @@ export function SimulationRunner({
     error,
     toeflListeningPartial: toeflListeningPartialRef.current,
     ieltsListeningPartial: ieltsListeningPartialRef.current,
+    toeflReadingPartial: toeflReadingPartialRef.current,
+    ieltsReadingPartial: ieltsReadingPartialRef.current,
   });
 
   const persistSession = async (payload: SimulationSessionPayload) => {
@@ -910,8 +914,8 @@ export function SimulationRunner({
         partial[part.key] = result;
         toeflListeningPartialRef.current = { ...partial };
 
-        const partBReady = Boolean(partial.partB);
-        if (partBReady) {
+        const partAReady = Boolean(partial.partA);
+        if (partAReady) {
           const parsed = parseSection("toefl", "listening", partial);
           updateSection(sectionIndex, { ...parsed, status: "generating" });
         } else {
@@ -973,8 +977,8 @@ export function SimulationRunner({
         partial[part.key] = result;
         ieltsListeningPartialRef.current = { ...partial };
 
-        const partBReady = Boolean(partial.partB);
-        if (partBReady) {
+        const partAReady = Boolean(partial.partA);
+        if (partAReady) {
           const parsed = parseSection("ielts", "listening", partial);
           updateSection(sectionIndex, { ...parsed, status: "generating" });
         } else {
@@ -998,6 +1002,138 @@ export function SimulationRunner({
     return partial;
   };
 
+  const generateToeflReadingIncremental = async (sectionIndex: number) => {
+    const partial: Record<string, any> = {};
+    toeflReadingPartialRef.current = {};
+
+    updateSection(sectionIndex, {
+      questions: [],
+      rawQuestions: [],
+      listeningScripts: [],
+      listeningTracks: [],
+      status: "generating",
+    });
+
+    for (const passageIndex of [1, 2, 3] as const) {
+      setProgress(`Generating TOEFL Reading Passage ${passageIndex}...`);
+      const unit = await streamGenerate(
+        "/toefl/reading/passage",
+        difficulty,
+        { passageIndex },
+        setProgress,
+        activeAbortRef.current?.signal,
+      );
+
+      partial[`passage${passageIndex}`] = unit;
+      toeflReadingPartialRef.current = { ...partial };
+
+      const passages = [partial.passage1, partial.passage2, partial.passage3]
+        .filter(Boolean)
+        .map((p) => p.passage);
+      const questions = [partial.passage1, partial.passage2, partial.passage3]
+        .filter(Boolean)
+        .flatMap((p) => p.questions || [])
+        .sort((a, b) => a.questionNumber - b.questionNumber);
+
+      const parsed = parseSection("toefl", "reading", {
+        type: "READING",
+        questionText: "TOEFL Reading Section - Multiple Passages",
+        points: 1,
+        estimatedTime: 60,
+        difficulty,
+        passage: passages[0],
+        passages,
+        questions,
+      });
+      updateSection(sectionIndex, { ...parsed, status: "generating" });
+    }
+
+    const finalPassages = [partial.passage1, partial.passage2, partial.passage3]
+      .filter(Boolean)
+      .map((p) => p.passage);
+    const finalQuestions = [partial.passage1, partial.passage2, partial.passage3]
+      .filter(Boolean)
+      .flatMap((p) => p.questions || [])
+      .sort((a, b) => a.questionNumber - b.questionNumber);
+
+    return {
+      type: "READING",
+      questionText: "TOEFL Reading Section - Multiple Passages",
+      points: 1,
+      estimatedTime: 60,
+      difficulty,
+      passage: finalPassages[0],
+      passages: finalPassages,
+      questions: finalQuestions,
+    };
+  };
+
+  const generateIeltsReadingIncremental = async (sectionIndex: number) => {
+    const partial: Record<string, any> = {};
+    ieltsReadingPartialRef.current = {};
+
+    updateSection(sectionIndex, {
+      questions: [],
+      rawQuestions: [],
+      listeningScripts: [],
+      listeningTracks: [],
+      status: "generating",
+    });
+
+    for (const passageIndex of [1, 2, 3] as const) {
+      setProgress(`Generating IELTS Reading Passage ${passageIndex}...`);
+      const unit = await streamGenerate(
+        "/ielts/reading/passage",
+        difficulty,
+        { passageIndex },
+        setProgress,
+        activeAbortRef.current?.signal,
+      );
+
+      partial[`passage${passageIndex}`] = unit;
+      ieltsReadingPartialRef.current = { ...partial };
+
+      const passages = [partial.passage1, partial.passage2, partial.passage3]
+        .filter(Boolean)
+        .map((p) => p.passage);
+      const questions = [partial.passage1, partial.passage2, partial.passage3]
+        .filter(Boolean)
+        .flatMap((p) => p.questions || [])
+        .sort((a, b) => a.questionNumber - b.questionNumber);
+
+      const parsed = parseSection("ielts", "reading", {
+        type: "READING",
+        questionText: "IELTS Academic Reading - Multiple Passages",
+        points: 1,
+        estimatedTime: 60,
+        difficulty,
+        passage: passages[0],
+        passages,
+        questions,
+      });
+      updateSection(sectionIndex, { ...parsed, status: "generating" });
+    }
+
+    const finalPassages = [partial.passage1, partial.passage2, partial.passage3]
+      .filter(Boolean)
+      .map((p) => p.passage);
+    const finalQuestions = [partial.passage1, partial.passage2, partial.passage3]
+      .filter(Boolean)
+      .flatMap((p) => p.questions || [])
+      .sort((a, b) => a.questionNumber - b.questionNumber);
+
+    return {
+      type: "READING",
+      questionText: "IELTS Academic Reading - Multiple Passages",
+      points: 1,
+      estimatedTime: 60,
+      difficulty,
+      passage: finalPassages[0],
+      passages: finalPassages,
+      questions: finalQuestions,
+    };
+  };
+
   const generateSection = async (
     type: ExamType,
     sectionId: string,
@@ -1011,11 +1147,17 @@ export function SimulationRunner({
     }
 
     if (type === "toefl" && sectionId === "reading") {
-      return streamGenerate("/toefl/reading", difficulty, {}, setProgress, signal);
+      return generateToeflReadingIncremental(sectionIndex);
     }
 
     if (type === "toefl" && sectionId === "structure") {
-      return streamGenerate("/toefl/structure", difficulty, {}, setProgress, signal);
+      return streamGenerate(
+        "/toefl/structure",
+        difficulty,
+        {},
+        setProgress,
+        signal,
+      );
     }
 
     if (type === "ielts" && sectionId === "listening") {
@@ -1023,7 +1165,7 @@ export function SimulationRunner({
     }
 
     if (type === "ielts" && sectionId === "reading") {
-      return streamGenerate("/ielts/reading", difficulty, {}, setProgress, signal);
+      return generateIeltsReadingIncremental(sectionIndex);
     }
 
     if (type === "ielts" && sectionId === "writing") {
@@ -1046,7 +1188,13 @@ export function SimulationRunner({
       return { task1, task2 };
     }
 
-    return streamGenerate("/ielts/writing/task-2", difficulty, {}, setProgress, signal);
+    return streamGenerate(
+      "/ielts/writing/task-2",
+      difficulty,
+      {},
+      setProgress,
+      signal,
+    );
   };
 
   const detectResumePoint = (
@@ -1179,6 +1327,10 @@ export function SimulationRunner({
       recoverableSessionPayload.toeflListeningPartial || {};
     ieltsListeningPartialRef.current =
       recoverableSessionPayload.ieltsListeningPartial || {};
+    toeflReadingPartialRef.current =
+      recoverableSessionPayload.toeflReadingPartial || {};
+    ieltsReadingPartialRef.current =
+      recoverableSessionPayload.ieltsReadingPartial || {};
 
     setDifficulty(recoverableSessionPayload.difficulty);
     setStarted(recoverableSessionPayload.started);
@@ -1271,6 +1423,8 @@ export function SimulationRunner({
 
     toeflListeningPartialRef.current = {};
     ieltsListeningPartialRef.current = {};
+    toeflReadingPartialRef.current = {};
+    ieltsReadingPartialRef.current = {};
     setFailedListeningPartIndex(null);
     setSections(initialSections);
     setStarted(true);
@@ -1301,6 +1455,8 @@ export function SimulationRunner({
       error: null,
       toeflListeningPartial: {},
       ieltsListeningPartial: {},
+      toeflReadingPartial: {},
+      ieltsReadingPartial: {},
     };
 
     await persistSession(seedPayload);
@@ -1593,12 +1749,14 @@ export function SimulationRunner({
     ? Math.min(100, Math.round((ttsElapsedSeconds / ttsEstimatedSeconds) * 100))
     : 0;
 
-  const showDevWaitingVideo =
-    isAdmin &&
-    started &&
-    !!currentSection &&
-    currentSection.status !== "done" &&
-    currentSection.questions.length === 0;
+  // const showDevWaitingVideo =
+  //   isAdmin &&
+  //   started &&
+  //   !!currentSection &&
+  //   currentSection.status !== "done" &&
+  //   currentSection.questions.length === 0;
+
+  const showDevWaitingVideo = false;
 
   useEffect(() => {
     if (!isAdmin || !started || !sections.length) return;

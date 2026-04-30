@@ -26,4 +26,6 @@ export type SimulationSessionPayload = {
   error: string | null;
   toeflListeningPartial: Record<string, any>;
   ieltsListeningPartial: Record<string, any>;
+  toeflReadingPartial?: Record<string, any>;
+  ieltsReadingPartial?: Record<string, any>;
 };

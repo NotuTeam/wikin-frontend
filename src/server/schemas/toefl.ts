@@ -70,17 +70,8 @@ export const TOEFLListeningPartDSchema = BaseQuestionSchema.extend({
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });
 
-const TOEFLListeningPartEQuestionItemSchema = z.object({
-  questionNumber: z.number().int().min(1).max(15),
-  questionText: z.string().min(10),
-  options: z.array(z.string().min(1)).length(4),
-  correctAnswer: z.number().int().min(0).max(3),
-  questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'ORGANIZATION', 'ATTITUDE', 'FUNCTION']),
-  relatedTimestamp: z.string().optional(),
-  explanation: z.string().min(30),
-});
 
-export const TOEFLListeningPartEBaseSchema = BaseQuestionSchema.extend({
+export const TOEFLListeningPartESchema = BaseQuestionSchema.extend({
   type: z.literal('LISTENING_PART_E'),
   audioScript: z.string().min(600),
   speakers: z.array(z.object({
@@ -88,27 +79,21 @@ export const TOEFLListeningPartEBaseSchema = BaseQuestionSchema.extend({
     role: z.string().optional(),
   })).min(1).max(2),
   setting: z.enum(['CAFETERIA', 'STUDENT_CENTER','CAMPUS', 'ACADEMIC_OFFICE', 'LIBRARY', ]),
-  lectureTopic: z.string().min(20),
   academicField: z.enum([
     'BIOLOGY', 'HISTORY', 'LITERATURE', 'PSYCHOLOGY',
     'ANTHROPOLOGY', 'GEOLOGY', 'ART_HISTORY', 'ECONOMICS',
     'PHYSICS', 'CHEMISTRY', 'SOCIOLOGY', 'PHILOSOPHY'
   ]),
   keyVocabulary: z.array(z.string()).min(8),
-  lectureOutline: z.array(z.object({
-    timestamp: z.string(),
-    topic: z.string(),
-    keyPoints: z.array(z.string()),
-  })).min(3),
+  questions: z.array(z.object({
+    questionNumber: z.number().int().min(1).max(15),
+    questionText: z.string().min(10),
+    options: z.array(z.string().min(1)).length(4),
+    correctAnswer: z.number().int().min(0).max(3),
+    questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
+    explanation: z.string().min(30),
+  })).length(15),
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
-});
-
-export const TOEFLListeningPartEQuestionSetSchema = z.object({
-  questions: z.array(TOEFLListeningPartEQuestionItemSchema).length(15),
-});
-
-export const TOEFLListeningPartESchema = TOEFLListeningPartEBaseSchema.extend({
-  questions: z.array(TOEFLListeningPartEQuestionItemSchema).length(15),
 });
 
 export const TOEFLListeningPartCSchema = BaseQuestionSchema.extend({
@@ -237,7 +222,6 @@ export type TOEFLListeningPartB = z.infer<typeof TOEFLListeningPartBSchema>;
 export type TOEFLListeningPartC = z.infer<typeof TOEFLListeningPartCSchema>;
 export type TOEFLListeningPartD = z.infer<typeof TOEFLListeningPartDSchema>;
 export type TOEFLListeningPartE = z.infer<typeof TOEFLListeningPartESchema>;
-export type TOEFLListeningPartEBase = z.infer<typeof TOEFLListeningPartEBaseSchema>;
 export type TOEFLReading = z.infer<typeof TOEFLReadingSchema>;
 export type TOEFLStructure = z.infer<typeof TOEFLStructureSchema>;
 export type TOEFLQuestion = z.infer<typeof TOEFLQuestionSchema>;

@@ -17,6 +17,8 @@ export async function GET(req: NextRequest) {
     "SECTION_1";
   const attemptId =
     req.nextUrl.searchParams.get("requestId") || undefined;
+  const passageIndex =
+    (Number(req.nextUrl.searchParams.get("passageIndex")) as 1 | 2 | 3) || 1;
   const startedAt = Date.now();
 
   const encoder = new TextEncoder();
@@ -39,7 +41,7 @@ export async function GET(req: NextRequest) {
           message: `Generating ${endpoint}`,
         });
 
-        const data = await generateByEndpoint(endpoint, difficulty, section);
+        const data = await generateByEndpoint(endpoint, difficulty, section, passageIndex);
 
         await logResponse({
           endpoint,
