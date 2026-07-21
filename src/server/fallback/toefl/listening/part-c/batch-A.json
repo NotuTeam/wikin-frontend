@@ -1,0 +1,959 @@
+[
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion in the library between a professor and a student about history research methodology.",
+    "audioScript": "Situation: A history professor meets with a graduate student in the library to discuss research methodology for a thesis on medieval trade networks.\nProfessor Adler: Come in, Nadia. I've reviewed your thesis proposal on medieval trade networks in the Baltic region. The topic is promising, but I want to talk about your research methodology before you proceed further.\nNadia: Thank you, Professor. I was planning to rely mainly on secondary sources, specifically recent monographs and journal articles, to analyze how the Hanseatic League influenced regional commerce.\nProfessor Adler: Secondary sources are important, but for a graduate-level thesis you need to engage directly with primary sources. Have you considered using merchant account books, customs records, or guild charters from that period?\nNadia: I have, but I was concerned about language barriers. Many of those documents are in Middle Low German or Latin, and my reading proficiency in both is limited.\nProfessor Adler: That's a valid concern, but not an insurmountable one. The library has a subscription to the digitized Baltic Manuscript Collection, which includes English translations of about sixty percent of the holdings. For the rest, I'd recommend pairing with a language consultant from the Medieval Studies department.\nNadia: That's helpful. How should I handle sources that contradict each other? I've already noticed that two secondary authors disagree sharply on the volume of timber exports in the fourteen hundreds.\nProfessor Adler: Contradictions are actually valuable. They show you where historical debate is active. You should present both perspectives, analyze the evidence each author uses, and explain why they reach different conclusions. That demonstrates critical engagement rather than just summarizing.\nNadia: Should I also use quantitative methods? I've seen some historians use statistical analysis of trade data.\nProfessor Adler: Absolutely. If you can find customs records with consistent formatting, you can build a dataset and use basic regression analysis to identify trends. Just be transparent about your assumptions and the limitations of the data. Historical records are often incomplete, and you should acknowledge gaps explicitly rather than papering over them.\nNadia: One more question. How do I properly cite manuscript sources that don't have standard page numbers?\nProfessor Adler: Use the Chicago Manual of Style's guidelines for archival materials. You'll cite the repository, collection name, document number, and folio. I'll email you a guide with examples. Also, keep a research journal documenting your source evaluation process. It will strengthen your methodology chapter significantly.",
+    "speakers": [
+      { "name": "Professor Adler", "role": "history professor" },
+      { "name": "Nadia", "role": "graduate student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Selecting a thesis topic from scratch",
+          "Discussing research methodology for a thesis on medieval trade networks",
+          "Disputing the grade on a previous paper",
+          "Planning a study abroad trip to the Baltic"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor has reviewed Nadia's thesis proposal and the entire conversation focuses on research methodology, including primary sources, contradictions, and citation practices."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was Nadia originally planning to rely on for her research?",
+        "options": [
+          "Only primary source manuscripts",
+          "Mainly secondary sources like monographs and journal articles",
+          "Oral history interviews with local historians",
+          "Archaeological field data"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia states she was planning to rely mainly on secondary sources, specifically recent monographs and journal articles, to analyze the Hanseatic League's influence."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What primary sources does Professor Adler suggest Nadia use?",
+        "options": [
+          "Newspaper editorials and political pamphlets",
+          "Merchant account books, customs records, and guild charters",
+          "Architectural blueprints and city maps",
+          "Personal diaries and travel journals"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler explicitly recommends merchant account books, customs records, and guild charters as primary sources for a graduate-level thesis."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What percentage of the Baltic Manuscript Collection includes English translations?",
+        "options": ["About thirty percent", "About forty percent", "About sixty percent", "About eighty percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler states the digitized Baltic Manuscript Collection includes English translations of about sixty percent of the holdings."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Professor Adler recommend for documents Nadia cannot translate herself?",
+        "options": [
+          "Skip those sources entirely",
+          "Pair with a language consultant from the Medieval Studies department",
+          "Use an online translation tool",
+          "Ask a classmate who speaks German"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler recommends pairing with a language consultant from the Medieval Studies department for documents not available in English translation."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does Professor Adler say about contradictions between sources?",
+        "options": [
+          "They indicate unreliable research and should be avoided",
+          "They are valuable because they show where historical debate is active",
+          "They should be resolved by picking the older source",
+          "They only occur in secondary sources, never in primary ones"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler says contradictions are valuable because they show where historical debate is active, and Nadia should present both perspectives and analyze the evidence."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What quantitative method does Professor Adler suggest for customs records?",
+        "options": [
+          "Content analysis of text passages",
+          "Building a dataset and using basic regression analysis",
+          "Network analysis of social relationships",
+          "Factor analysis of multiple variables"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler suggests that if Nadia finds customs records with consistent formatting, she can build a dataset and use basic regression analysis to identify trends."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Professor Adler say about the limitations of historical data?",
+        "options": [
+          "Historical records are always complete and reliable",
+          "Historical records are often incomplete and gaps should be acknowledged explicitly",
+          "Limitations only matter for primary sources",
+          "Statistical methods can eliminate all data gaps"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Adler emphasizes that historical records are often incomplete and Nadia should acknowledge gaps explicitly rather than papering over them, showing transparency about data limitations."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How should Nadia cite manuscript sources without standard page numbers?",
+        "options": [
+          "Use APA format with approximate page estimates",
+          "Use Chicago Manual of Style guidelines, citing repository, collection name, document number, and folio",
+          "Use MLA format with paragraph numbers",
+          "Cite them only in footnotes without a bibliography entry"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler instructs Nadia to use the Chicago Manual of Style's guidelines for archival materials, citing repository, collection name, document number, and folio."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Professor Adler suggest Nadia keep to strengthen her methodology chapter?",
+        "options": [
+          "A bibliography of all books she consulted",
+          "A research journal documenting her source evaluation process",
+          "A list of all libraries she visited",
+          "A timeline of medieval historical events"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adler recommends keeping a research journal documenting the source evaluation process, which will strengthen the methodology chapter significantly."
+      }
+    ],
+    "keyVocabulary": ["research methodology", "primary sources", "secondary sources", "Hanseatic League", "customs records", "regression analysis", "Chicago Manual of Style", "archival materials", "research journal"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a campus discussion between a biology professor and two students about planning a field trip.",
+    "audioScript": "Situation: A biology professor meets with two students in the student center to plan a field trip for their ecology course to a coastal wetland reserve.\nDr. Okafor: Thanks for meeting me here, you two. I want to finalize the logistics for our ecology field trip to the Marsh Point Coastal Reserve next Friday. We need to cover transportation, equipment, and safety protocols.\nJames: I can handle transportation. The biology department has a twelve-passenger van we can reserve through the facilities office. I checked, and it's available that day. I just need a faculty signature on the request form.\nDr. Okafor: Perfect, I'll sign that this afternoon. How many students are confirmed?\nPriya: So far fourteen students have signed up, plus the three of us. So we'll need the van plus at least two personal cars. I can drive my car, and James, can yours accommodate four people?\nJames: Yes, my car seats five total. So between the van and two cars, we have room for everyone with a few spare seats for equipment.\nDr. Okafor: Good. Now, equipment. For the biodiversity survey, we'll need quadrat sampling frames, measuring tapes, field notebooks, pH meters for soil and water, and species identification guides. Priya, can you inventory the lab's equipment cabinet and check what we have?\nPriya: I already did. We have six quadrat frames, four pH meters, and plenty of measuring tapes. We're short on field notebooks and identification guides, though. I count only three guides for the whole class.\nDr. Okafor: I'll order twelve additional identification guides from the campus bookstore budget. They should arrive by Wednesday. For notebooks, students can bring their own. Now, the most important part: safety. Marsh Point has tidal zones, and the tide comes in fast. We need to check the tide schedule before we go.\nJames: I looked it up. Low tide is at nine in the morning and high tide is at three in the afternoon. If we arrive by eight thirty, we'll have a solid window for sampling before the water rises.\nDr. Okafor: Good planning. Everyone must wear waterproof boots and bring a change of clothes. I'll also bring a first aid kit and a marine radio in case of emergency. No one goes near the water's edge without a buddy. Clear?\nPriya: Clear. Should students collect specimens to bring back to the lab?\nDr. Okafor: Only observational data this trip. The reserve has a strict no-collection policy to protect the ecosystem. We'll photograph and document species in the field. I'll distribute a data sheet template that everyone will fill out at each quadrat location.",
+    "speakers": [
+      { "name": "Dr. Okafor", "role": "biology professor" },
+      { "name": "James", "role": "student" },
+      { "name": "Priya", "role": "student" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of this discussion?",
+        "options": [
+          "To grade ecology lab reports",
+          "To finalize logistics for a field trip to the Marsh Point Coastal Reserve",
+          "To discuss a new biology curriculum",
+          "To plan a fundraising event for the biology department"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Dr. Okafor states the purpose is to finalize logistics for the ecology field trip to Marsh Point Coastal Reserve, covering transportation, equipment, and safety."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many students have signed up for the field trip?",
+        "options": ["Ten students", "Twelve students", "Fourteen students", "Twenty students"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Priya states that fourteen students have signed up, plus the three of them, requiring the van plus two personal cars."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What vehicle will the biology department provide?",
+        "options": [
+          "A school bus",
+          "A twelve-passenger van",
+          "A minivan",
+          "A charter coach"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "James mentions the biology department has a twelve-passenger van available for reservation through the facilities office."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What equipment is the lab short on according to Priya's inventory?",
+        "options": [
+          "Quadrat frames and pH meters",
+          "Field notebooks and identification guides",
+          "Measuring tapes and first aid kits",
+          "Waterproof boots and marine radios"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya reports the lab is short on field notebooks and identification guides, with only three guides for the whole class."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many additional identification guides will Dr. Okafor order?",
+        "options": ["Six", "Eight", "Ten", "Twelve"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor says he will order twelve additional identification guides from the campus bookstore budget."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What time is low tide at Marsh Point on the day of the trip?",
+        "options": ["Seven in the morning", "Nine in the morning", "Noon", "Three in the afternoon"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "James reports low tide is at nine in the morning and high tide is at three in the afternoon."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What time does the group plan to arrive at the reserve?",
+        "options": ["Seven thirty", "Eight thirty", "Nine sharp", "Ten o'clock"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "James says if they arrive by eight thirty, they will have a solid window for sampling before the water rises."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why does Dr. Okafor emphasize checking the tide schedule?",
+        "options": [
+          "Because the tide affects which species are visible",
+          "Because the tide comes in fast and poses a safety risk in tidal zones",
+          "Because the van cannot drive during high tide",
+          "Because the reserve is closed during low tide"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Okafor emphasizes the tide schedule because Marsh Point has tidal zones where the tide comes in fast, creating a safety risk for students working in the field."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the reserve's policy on collecting specimens?",
+        "options": [
+          "Students may collect up to five specimens each",
+          "There is a strict no-collection policy to protect the ecosystem",
+          "Only professors may collect specimens",
+          "Collection is allowed with a special permit"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor states the reserve has a strict no-collection policy to protect the ecosystem, so students will only collect observational data."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "How will students document species in the field?",
+        "options": [
+          "By collecting samples in jars",
+          "By photographing and documenting species, and filling out a data sheet at each quadrat",
+          "By recording audio descriptions only",
+          "By sketching species from memory after the trip"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor says students will photograph and document species in the field and fill out a data sheet template at each quadrat location."
+      }
+    ],
+    "keyVocabulary": ["field trip", "coastal wetland", "quadrat sampling", "pH meter", "species identification", "tidal zone", "biodiversity survey", "no-collection policy", "observational data"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion in an academic office between a physics professor and two students about designing a physics experiment.",
+    "audioScript": "Situation: A physics professor meets with two undergraduate students to design an experiment measuring the relationship between wavelength and diffraction patterns for their advanced physics lab.\nDr. Chen: Alright, let's talk about your experiment for the advanced lab module. You've proposed investigating how wavelength affects diffraction patterns using a laser and a single slit apparatus. Walk me through your setup.\nOlivia: Sure. We plan to use three laser pointers with different wavelengths: red at six hundred thirty nanometers, green at five hundred thirty-two nanometers, and blue at four hundred forty-five nanometers. We'll shine each laser through a single slit of known width, say zero point zero eight millimeters, and project the pattern onto a screen one meter away.\nDr. Chen: Good start. How will you measure the pattern on the screen?\nMarcus: We'll use a photodiode array mounted on a motorized translation stage. It can scan across the pattern and record intensity at each position with point-one-millimeter precision. We'll connect it to a data acquisition system that logs intensity versus position.\nDr. Chen: That's a solid approach. But I want you to think about error sources. What could introduce systematic errors into your measurements?\nOlivia: One issue is that the slit width might not be exactly what's labeled. Manufacturing tolerances can vary. We should measure the actual slit width using a traveling microscope before starting.\nDr. Chen: Excellent. What else?\nMarcus: The distance from the slit to the screen could be another source. If the screen isn't perfectly perpendicular to the beam, the effective distance changes across the pattern. We should use a plumb line and a protractor to verify alignment.\nDr. Chen: Good. Also consider the laser itself. Laser pointers can have slight wavelength drift as they warm up. Let each laser stabilize for at least five minutes before taking measurements, and take readings at the beginning and end of each run to check for drift.\nOlivia: We'll do that. For the analysis, we plan to fit our intensity data to the theoretical sinc-squared function and extract the slit width as a fitted parameter, then compare it to our direct measurement.\nDr. Chen: That's exactly the kind of cross-validation I like to see. You should also calculate the uncertainty in your fitted parameter using the chi-squared method. And run each configuration at least five times so you can compute standard deviations and report confidence intervals. One last thing: make sure you document your entire setup with photographs and a schematic diagram in your lab report. Reproducibility depends on clear documentation.\nMarcus: Understood. We'll have a draft report ready by next Tuesday for your review.",
+    "speakers": [
+      { "name": "Dr. Chen", "role": "physics professor" },
+      { "name": "Olivia", "role": "undergraduate student" },
+      { "name": "Marcus", "role": "undergraduate student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of this discussion?",
+        "options": [
+          "Grading a completed physics lab report",
+          "Designing an experiment on how wavelength affects diffraction patterns",
+          "Reviewing for a physics midterm exam",
+          "Selecting a research topic for a senior thesis"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor and students discuss the design of an experiment investigating how wavelength affects diffraction patterns using lasers and a single slit apparatus."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many laser pointers with different wavelengths will the students use?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia states they plan to use three laser pointers: red at 630 nm, green at 532 nm, and blue at 445 nm."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What instrument will the students use to measure the diffraction pattern?",
+        "options": [
+          "A digital camera",
+          "A photodiode array on a motorized translation stage",
+          "A spectrometer",
+          "A Michelson interferometer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus describes using a photodiode array mounted on a motorized translation stage that scans across the pattern and records intensity at each position."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What precision does the translation stage provide?",
+        "options": ["One millimeter", "Half a millimeter", "Point one millimeter", "Point zero one millimeter"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states the photodiode array can record intensity at each position with point-one-millimeter precision."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What systematic error does Olivia identify regarding the slit?",
+        "options": [
+          "The slit material absorbs too much light",
+          "The actual slit width may differ from the labeled value due to manufacturing tolerances",
+          "The slit is positioned at the wrong angle",
+          "The slit width changes with temperature"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia notes manufacturing tolerances mean the slit width might not be exactly what's labeled, and suggests measuring the actual width with a traveling microscope."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does Marcus suggest verifying screen alignment?",
+        "options": [
+          "By using a laser level",
+          "By using a plumb line and a protractor to verify perpendicularity",
+          "By measuring the pattern symmetry",
+          "By adjusting the screen until the pattern looks centered"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus suggests using a plumb line and a protractor to verify that the screen is perpendicular to the beam, ensuring the effective distance is correct."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does Dr. Chen recommend letting each laser stabilize for five minutes?",
+        "options": [
+          "To prevent the laser from overheating",
+          "Because laser pointers can have slight wavelength drift as they warm up",
+          "To allow the data acquisition system to calibrate",
+          "To let the room lighting adjust"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen explains that laser pointers can have slight wavelength drift as they warm up, so students should let each laser stabilize for at least five minutes before taking measurements."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What theoretical function will the students fit their intensity data to?",
+        "options": [
+          "A Gaussian function",
+          "A sinc-squared function",
+          "An exponential decay function",
+          "A linear function"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia says they plan to fit their intensity data to the theoretical sinc-squared function and extract the slit width as a fitted parameter."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What method does Dr. Chen recommend for calculating uncertainty in the fitted parameter?",
+        "options": [
+          "The bootstrap method",
+          "The chi-squared method",
+          "Bayesian inference",
+          "Monte Carlo simulation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen advises calculating the uncertainty in the fitted parameter using the chi-squared method and running each configuration at least five times."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Dr. Chen ask the students to include in their lab report for reproducibility?",
+        "options": [
+          "Only the final data tables",
+          "Photographs and a schematic diagram of the entire setup",
+          "A list of all textbooks referenced",
+          "The names of all group members only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Chen asks the students to document their entire setup with photographs and a schematic diagram in the lab report because reproducibility depends on clear documentation."
+      }
+    ],
+    "keyVocabulary": ["diffraction pattern", "wavelength", "single slit", "photodiode array", "systematic error", "wavelength drift", "sinc-squared function", "chi-squared method", "confidence intervals", "reproducibility"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a library discussion between a literature professor and two students about analyzing a novel.",
+    "audioScript": "Situation: A literature professor meets with two students in the library to discuss their analysis of Virginia Woolf's novel 'To the Lighthouse' for a seminar paper.\nProfessor Brennan: I've read both your draft outlines for the seminar paper on 'To the Lighthouse.' I want to push you both to go deeper in your literary analysis rather than staying at the level of plot summary. Let's start with you, Tom. Your outline focuses on the character of Mrs. Ramsay. What's your central argument?\nTom: I argue that Mrs. Ramsay represents the traditional Victorian feminine ideal, and that Woolf uses her to critique the limitations placed on women in the early twentieth century. I plan to analyze the dinner party scene in Part One as the key passage.\nProfessor Brennan: That's a reasonable starting point, but I want you to be more specific about how Woolf critiques that ideal. Is it through narrative voice, through symbolism, or through the juxtaposition with Lily Briscoe's character? You need a more precise analytical framework.\nTom: I hadn't thought about juxtaposition. I could compare Mrs. Ramsay's domestic role with Lily's artistic ambitions and show how Woolf positions them as alternatives.\nProfessor Brennan: Excellent. That contrast is central to the novel. Now, Sarah, your outline takes a different approach, focusing on the stream of consciousness technique. Tell me more.\nSarah: Yes, I want to argue that Woolf's use of shifting perspectives creates a fragmented sense of time that mirrors the characters' inner experiences. I'm particularly interested in the 'Time Passes' section, where ten years are compressed into a few pages.\nProfessor Brennan: That's a rich section. But I want you to be careful not to treat stream of consciousness as just a stylistic choice. Think about what it reveals. What does the constant shifting between narrators suggest to you about memory and reliability? How does the non-linear timeline complicate our understanding of causality? These are the questions you should explore.\nSarah: So for my essay, should I focus on just one technique, or should I compare multiple ones?\nProfessor Brennan: I'd recommend focusing on two techniques so you can show how they interact. For example, you might examine how the non-linear timeline works together with the shifting narrators to create a specific cumulative effect. Choose two that you can connect meaningfully. Also, I want both of you to bring a draft thesis statement to next week's session. We'll workshop them together.\nTom: That sounds great. Should we also incorporate secondary criticism?\nProfessor Brennan: Yes, but selectively. I don't want a literature review. I want you to engage with one or two critics who directly inform your argument. Gerard Genette's work on narrative discourse is a good starting point for structural analysis, and you might look at Suzanne Keen's work on narrative empathy if you're interested in how readers respond to the shifting perspectives.\nSarah: Thank you. I'll start with Genette. One last question: how long should the essay be?\nProfessor Brennan: Between two thousand and two thousand five hundred words. Focus on depth of analysis rather than breadth. Quality over quantity.",
+    "speakers": [
+      { "name": "Professor Brennan", "role": "literature professor" },
+      { "name": "Tom", "role": "student" },
+      { "name": "Sarah", "role": "student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Selecting a novel for the seminar paper",
+          "Deepening literary analysis of Woolf's 'To the Lighthouse' for a seminar paper",
+          "Comparing Victorian and modernist poetry",
+          "Planning a literature conference presentation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Professor Brennan meets with two students to discuss their analysis of 'To the Lighthouse,' pushing them to go deeper than plot summary in their seminar paper."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is Tom's central argument about Mrs. Ramsay?",
+        "options": [
+          "She represents the villain of the novel",
+          "She represents the traditional Victorian feminine ideal, used to critique limitations on women",
+          "She is a symbol of artistic freedom",
+          "She is an unreliable narrator"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tom argues that Mrs. Ramsay represents the traditional Victorian feminine ideal and that Woolf uses her to critique the limitations placed on women in the early twentieth century."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Which scene does Tom plan to analyze as his key passage?",
+        "options": [
+          "The lighthouse arrival scene",
+          "The dinner party scene in Part One",
+          "The 'Time Passes' section",
+          "The final painting scene"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tom states he plans to analyze the dinner party scene in Part One as the key passage for his argument about Mrs. Ramsay."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What contrast does Professor Brennan suggest Tom explore?",
+        "options": [
+          "Between Mr. and Mrs. Ramsay",
+          "Between Mrs. Ramsay's domestic role and Lily Briscoe's artistic ambitions",
+          "Between the novel and other Woolf works",
+          "Between Victorian and modernist prose styles"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Brennan suggests comparing Mrs. Ramsay's domestic role with Lily Briscoe's artistic ambitions, showing how Woolf positions them as alternatives."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What technique does Sarah's outline focus on?",
+        "options": [
+          "First-person narration",
+          "Stream of consciousness and shifting perspectives",
+          "Allegory and symbolism",
+          "Unreliable narration"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sarah's outline focuses on Woolf's stream of consciousness technique and the use of shifting perspectives that create a fragmented sense of time."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Which section of the novel interests Sarah most?",
+        "options": [
+          "The dinner party scene",
+          "The 'Time Passes' section where ten years are compressed",
+          "The opening description of the lighthouse",
+          "The dialogue between Mr. and Mrs. Ramsay"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sarah says she is particularly interested in the 'Time Passes' section, where ten years are compressed into a few pages."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Professor Brennan warn Sarah about regarding stream of consciousness?",
+        "options": [
+          "That it is too difficult to analyze",
+          "Not to treat it as just a stylistic choice but to explore what it reveals about memory and reliability",
+          "That Woolf did not actually use this technique",
+          "That it is the same as free indirect discourse"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Brennan warns Sarah not to treat stream of consciousness as merely a stylistic choice, but to explore what it reveals about memory, reliability, and causality."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How many techniques does Professor Brennan recommend Sarah focus on?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Brennan recommends focusing on two techniques so Sarah can show how they interact and create a cumulative effect."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Which critic does Professor Brennan recommend for structural analysis?",
+        "options": [
+          "Suzanne Keen",
+          "Gerard Genette's work on narrative discourse",
+          "Harold Bloom",
+          "Mikhail Bakhtin"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Brennan recommends Gerard Genette's work on narrative discourse as a starting point for structural analysis, and mentions Suzanne Keen for narrative empathy."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the required essay length?",
+        "options": [
+          "One thousand to fifteen hundred words",
+          "Two thousand to two thousand five hundred words",
+          "Three thousand to four thousand words",
+          "Five thousand words minimum"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Brennan states the essay should be between two thousand and two thousand five hundred words, focusing on depth of analysis rather than breadth."
+      }
+    ],
+    "keyVocabulary": ["literary analysis", "Victorian feminine ideal", "stream of consciousness", "shifting perspectives", "juxtaposition", "non-linear timeline", "narrative discourse", "secondary criticism", "thesis statement", "seminar paper"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion in an academic office between an engineering advisor and two students about a capstone project review.",
+    "audioScript": "Situation: An engineering capstone advisor meets with two senior students to review the progress of their capstone project, a solar-powered water filtration system for rural communities.\nDr. Nguyen: Alright, let's review where you are with your capstone project. You're designing a solar-powered water filtration system for rural communities. The design review is in three weeks, and I need to see significant progress. Kyle, where do we stand on the filtration component?\nKyle: We've selected a three-stage filtration system. The first stage is a sediment filter for large particles, the second is an activated carbon filter for chemical contaminants, and the third is a UV purification stage powered by the solar panel. We've completed flow rate testing for the first two stages.\nDr. Nguyen: Good. What flow rate are you achieving?\nKyle: We're getting about two liters per minute through the sediment and carbon stages combined. The UV stage hasn't been tested yet because we're still finalizing the solar power integration.\nDr. Nguyen: Two liters per minute is reasonable for a community-scale unit, but you need to verify the UV stage can handle that flow rate. UV effectiveness depends on contact time and water clarity. Have you measured turbidity after the carbon stage?\nAisha: Yes, we measured turbidity at zero point five NTU after the carbon filter, which is within the acceptable range for UV treatment. But we're concerned about the UV dose. The system needs to deliver at least forty millijoules per square centimeter to meet WHO standards.\nDr. Nguyen: That's a critical specification. What's your current UV lamp rating?\nAisha: The lamp is rated at twelve watts, but we haven't calculated the actual dose yet because the exposure chamber geometry isn't finalized. That's our priority for this week.\nDr. Nguyen: Good. I also want to see a complete energy budget. You need to account for the solar panel output, battery storage capacity, and the power draw of the UV lamp and any pumps. If the system can't operate through a cloudy day, it fails the reliability requirement.\nKyle: We've started the energy budget. The solar panel is rated at one hundred watts, and we're planning a twelve-volt battery with forty amp-hours of storage. The UV lamp draws one amp, so theoretically the battery could power it for about forty hours without recharge.\nDr. Nguyen: That sounds promising on paper, but you need to account for system losses, battery degradation over time, and real-world solar irradiance data for the target region. Don't use ideal conditions. Use data from the tropical regions you're targeting, accounting for monsoon seasons. Also, for the design review, I want to see a complete bill of materials with cost estimates, a risk assessment matrix, and testing protocols. You should also prepare a Gantt chart showing your remaining timeline.\nAisha: We'll have all of that ready. One question: can we include a backup hand pump for emergencies?\nDr. Nguyen: Absolutely. Redundancy is good engineering practice. Just make sure it doesn't complicate the maintenance requirements. The system needs to be serviceable by someone with minimal technical training.",
+    "speakers": [
+      { "name": "Dr. Nguyen", "role": "engineering capstone advisor" },
+      { "name": "Kyle", "role": "senior engineering student" },
+      { "name": "Aisha", "role": "senior engineering student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Grading midterm exams in engineering",
+          "Reviewing progress on a capstone project for a solar-powered water filtration system",
+          "Selecting capstone project teams",
+          "Planning an engineering career fair"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Dr. Nguyen meets with two senior students to review the progress of their capstone project, a solar-powered water filtration system for rural communities, ahead of a design review."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many filtration stages does the system have?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Kyle describes a three-stage filtration system: sediment filter, activated carbon filter, and UV purification stage."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the third stage of the filtration system?",
+        "options": [
+          "A reverse osmosis membrane",
+          "A UV purification stage powered by the solar panel",
+          "A chemical chlorination unit",
+          "A second sediment filter"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Kyle states the third stage is a UV purification stage powered by the solar panel, following the sediment and activated carbon filters."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What flow rate is the system currently achieving through the first two stages?",
+        "options": ["One liter per minute", "Two liters per minute", "Five liters per minute", "Ten liters per minute"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Kyle reports achieving about two liters per minute through the sediment and carbon stages combined, which Dr. Nguyen says is reasonable for a community-scale unit."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What turbidity level was measured after the carbon filter?",
+        "options": ["0.1 NTU", "0.5 NTU", "1.0 NTU", "2.0 NTU"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha reports turbidity at zero point five NTU after the carbon filter, which is within the acceptable range for UV treatment."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What UV dose does the system need to deliver to meet WHO standards?",
+        "options": [
+          "Twenty millijoules per square centimeter",
+          "Forty millijoules per square centimeter",
+          "Sixty millijoules per square centimeter",
+          "One hundred millijoules per square centimeter"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha states the system needs to deliver at least forty millijoules per square centimeter to meet WHO standards for UV water treatment."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why hasn't the UV dose been calculated yet?",
+        "options": [
+          "The UV lamp has not been purchased",
+          "The exposure chamber geometry isn't finalized",
+          "The team lacks the necessary software",
+          "The solar panel is not connected yet"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha explains the actual dose hasn't been calculated because the exposure chamber geometry isn't finalized, which is their priority for the week."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Dr. Nguyen warn about the energy budget calculations?",
+        "options": [
+          "The solar panel is too small for any region",
+          "The team must account for system losses, battery degradation, and real-world solar irradiance data, not ideal conditions",
+          "The battery will overheat in tropical climates",
+          "The UV lamp draws too much power for solar operation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Nguyen warns that the energy budget must account for system losses, battery degradation over time, and real-world solar irradiance data for the target region including monsoon seasons, rather than ideal conditions."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What three deliverables does Dr. Nguyen request for the design review?",
+        "options": [
+          "A literature review, a survey, and an interview transcript",
+          "A bill of materials with cost estimates, a risk assessment matrix, and testing protocols",
+          "A marketing plan, a budget, and a presentation",
+          "A CAD model, a simulation, and a patent application"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Nguyen requests a complete bill of materials with cost estimates, a risk assessment matrix, testing protocols, and a Gantt chart for the design review."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Dr. Nguyen say about Aisha's suggestion of a backup hand pump?",
+        "options": [
+          "It is unnecessary and adds too much cost",
+          "It is good engineering practice because redundancy is valuable, but must not complicate maintenance",
+          "It should replace the UV stage entirely",
+          "It is required by all international water standards"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Dr. Nguyen approves the backup hand pump, saying redundancy is good engineering practice, but cautions that the system must remain serviceable by someone with minimal technical training."
+      }
+    ],
+    "keyVocabulary": ["capstone project", "solar-powered", "water filtration", "UV purification", "turbidity", "energy budget", "solar irradiance", "bill of materials", "risk assessment matrix", "redundancy"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion in the library between an economics professor and a student about analyzing economic data.",
+    "audioScript": "Situation: An economics professor meets with a graduate student in the library to discuss the statistical analysis of a dataset on unemployment rates and minimum wage policy changes across fifty states.\nDr. Fischer: Let's go over your analysis of the unemployment and minimum wage dataset. You have panel data from fifty states over ten years, and you're trying to determine whether minimum wage increases affect unemployment rates. Walk me through your methodology.\nMaya: I started with a simple ordinary least squares regression, regressing unemployment on the minimum wage level, controlling for state GDP growth and population. The coefficient on minimum wage was positive but not statistically significant.\nDr. Fischer: That's a common finding with a naive OLS approach, but it has serious problems. Can you tell me why?\nMaya: I think the main issue is omitted variable bias. There are likely unobserved state-specific factors that affect both minimum wage policy and unemployment, like political culture or industrial composition. Also, the OLS model doesn't account for the fact that states that raise minimum wages may be different from states that don't in systematic ways.\nDr. Fischer: Exactly. This is a classic selection problem. What alternative approaches have you considered?\nMaya: I've been looking at a differences-in-differences design. If some states raise their minimum wage and others don't, I can compare the change in unemployment in treatment states versus control states, as long as the parallel trends assumption holds.\nDr. Fischer: Good. The parallel trends assumption is critical. How would you test it?\nMaya: I'd examine pre-treatment trends in unemployment for both groups of states. If the trends are similar before the minimum wage change, the assumption is more credible. I could also use event study specifications to look at the dynamic effects year by year.\nDr. Fischer: That's the right approach. But there's another issue you should consider. States don't exist in isolation. If one state raises its minimum wage, workers might commute across the border, creating spillover effects that contaminate your control group. This is the SUTVA violation problem.\nMaya: I hadn't thought about that. How would I address it?\nDr. Fischer: One approach is to exclude states that are geographically adjacent to treatment states from your control group. Another is to use a synthetic control method, which constructs a weighted combination of control states that closely matches the treatment state's pre-treatment characteristics. The synthetic control is more robust to spillovers because it doesn't rely on a simple comparison.\nMaya: That's interesting. Should I also worry about clustering my standard errors?\nDr. Fischer: Absolutely. With panel data at the state level, you should cluster standard errors by state to account for serial correlation within states. If you don't cluster, your standard errors will be too small and you'll over-reject the null hypothesis. Bertrand, Duflo, and Mullainathan showed this in their two thousand four paper. Also, run a robustness check using different model specifications. If your results are sensitive to small changes in the specification, your findings aren't credible.\nMaya: Thank you. I'll implement the differences-in-differences with clustered standard errors and also try the synthetic control approach. How many robustness checks should I include in the final paper?\nDr. Fischer: At minimum, I'd want to see sensitivity to different control groups, alternative outcome measures like teen unemployment specifically, and placebo tests using fake treatment dates. If your results survive all of those, you can be more confident in your conclusions.",
+    "speakers": [
+      { "name": "Dr. Fischer", "role": "economics professor" },
+      { "name": "Maya", "role": "graduate student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Writing a literature review on labor economics",
+          "Analyzing statistical methodology for a dataset on unemployment and minimum wage policy",
+          "Designing a survey on worker satisfaction",
+          "Comparing GDP growth across countries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor and student discuss the statistical analysis methodology for a panel dataset examining whether minimum wage increases affect unemployment rates across fifty states."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What type of data does Maya have for her analysis?",
+        "options": [
+          "Cross-sectional survey data from one year",
+          "Panel data from fifty states over ten years",
+          "Time series data from one state",
+          "Qualitative interview data"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Maya has panel data from fifty states over ten years, which allows her to exploit both cross-sectional and temporal variation in minimum wage policy."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What did Maya's initial OLS regression find?",
+        "options": [
+          "A large negative and significant effect",
+          "A positive but not statistically significant coefficient on minimum wage",
+          "A negative and significant effect",
+          "No coefficient could be estimated"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Maya reports that her OLS regression produced a positive but not statistically significant coefficient on minimum wage, which Dr. Fischer says is a common finding with naive OLS."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the main problem Dr. Fischer identifies with the OLS approach?",
+        "options": [
+          "The sample size is too small",
+          "Omitted variable bias from unobserved state-specific factors and selection problems",
+          "The variables are measured in different units",
+          "The data has too many missing values"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Fischer identifies omitted variable bias from unobserved state-specific factors like political culture or industrial composition, and a classic selection problem where states differ systematically."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What alternative research design does Maya propose?",
+        "options": [
+          "A randomized controlled trial",
+          "A differences-in-differences design comparing treatment and control states",
+          "A structural equation model",
+          "A case study of one state"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Maya proposes a differences-in-differences design that compares the change in unemployment in states that raise minimum wages versus states that don't."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What assumption is critical for the differences-in-differences design?",
+        "options": [
+          "The normality assumption",
+          "The parallel trends assumption",
+          "The independence of observations",
+          "The homoscedasticity assumption"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Maya and Dr. Fischer discuss the parallel trends assumption, which requires that treatment and control states have similar pre-treatment unemployment trends for the design to be credible."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What spillover problem does Dr. Fischer identify?",
+        "options": [
+          "Inflation spillovers between states",
+          "Workers commuting across state borders, contaminating the control group, a SUTVA violation",
+          "Data errors spreading between datasets",
+          "Political influence spreading between states"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Fischer explains that if one state raises its minimum wage, workers might commute across the border, creating spillover effects that contaminate the control group, which is a SUTVA violation."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What method does Dr. Fischer suggest as more robust to spillovers?",
+        "options": [
+          "Instrumental variables estimation",
+          "The synthetic control method, which constructs a weighted combination of control states",
+          "Propensity score matching",
+          "Bayesian model averaging"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Fischer suggests the synthetic control method, which constructs a weighted combination of control states matching the treatment state's pre-treatment characteristics and is more robust to spillovers."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why does Dr. Fischer insist on clustering standard errors by state?",
+        "options": [
+          "To reduce the number of observations",
+          "To account for serial correlation within states and avoid over-rejecting the null hypothesis",
+          "To make the regression run faster",
+          "To eliminate the need for control variables"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Fischer explains that with state-level panel data, standard errors should be clustered by state to account for serial correlation, citing Bertrand, Duflo, and Mullainathan's 2004 paper showing unclustered errors are too small."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Which robustness check does Dr. Fischer specifically request?",
+        "options": [
+          "Only a replication of the main result",
+          "Sensitivity to different control groups, alternative outcome measures like teen unemployment, and placebo tests with fake treatment dates",
+          "A meta-analysis of all prior studies",
+          "A replication using a different statistical software"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Fischer requests robustness checks including sensitivity to different control groups, alternative outcome measures like teen unemployment specifically, and placebo tests using fake treatment dates to confirm credibility."
+      }
+    ],
+    "keyVocabulary": ["panel data", "ordinary least squares", "omitted variable bias", "differences-in-differences", "parallel trends assumption", "SUTVA violation", "synthetic control method", "clustered standard errors", "serial correlation", "robustness check"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion in the library between a psychology professor and a student about designing a research study.",
+    "audioScript": "Situation: A psychology professor meets with a graduate student in the library to discuss the design of an experimental study on the effects of sleep deprivation on working memory.\nDr. Morris: Let's go over your proposed study on sleep deprivation and working memory. I've read your draft, and I have several concerns about the experimental design that we need to work through. Start by summarizing your hypothesis.\nEthan: My hypothesis is that total sleep deprivation for twenty-four hours will significantly reduce working memory capacity compared to a normal sleep condition, as measured by the n-back task.\nDr. Morris: Alright. The n-back is a reasonable measure, but I'm concerned about your participant selection. You've proposed recruiting thirty undergraduate students from the psychology subject pool. That introduces several issues. First, undergraduate samples have restricted age ranges and baseline cognitive abilities. Second, psychology subject pools often have high rates of habitual short sleepers who may be adapted to sleep restriction. Have you considered how that affects your internal validity?\nEthan: I see the point. I could screen participants for habitual sleep duration using the Pittsburgh Sleep Quality Index and exclude anyone who regularly sleeps fewer than seven hours. Would that be sufficient?\nDr. Morris: That's a good start, but you should also screen for caffeine consumption, nicotine use, and any history of sleep disorders. Those are confounding variables that could mask or exaggerate the effect of sleep deprivation. Now, tell me about your experimental conditions.\nEthan: Participants would be randomly assigned to either the sleep deprivation condition, where they stay awake for twenty-four hours under supervision in the lab, or the control condition, where they sleep normally at home and come in for testing.\nDr. Morris: I see a problem. The control condition is fundamentally different from the experimental condition in ways beyond just sleep. The sleep-deprived group is in the lab under supervision, which introduces environmental stress, novelty, and social interaction. The control group sleeps at home in a familiar environment. How would you address this confound?\nEthan: I could have both groups stay in the lab overnight, but allow the control group to sleep in a lab bedroom. That way the environment is constant across conditions.\nDr. Morris: Better, but now you've introduced a different problem. If the control group sleeps in the lab, their sleep quality will likely be poorer than at home due to the unfamiliar setting, which narrows the gap between your conditions and reduces your effect size. This is the classic laboratory sleep adaptation problem.\nEthan: So what's the solution? It seems like every approach has tradeoffs.\nDr. Morris: That's the nature of experimental design. I'd recommend a within-subjects design instead. Each participant serves as their own control. They come in for two sessions, one after normal sleep and one after sleep deprivation, with the order counterbalanced to control for practice effects and fatigue. You'll need a washout period of at least one week between sessions.\nEthan: That makes sense. How many participants would I need for adequate statistical power?\nDr. Morris: With a within-subjects design, you can achieve eighty percent power to detect a medium effect size with approximately twenty-four participants. But you should run a formal power analysis using G-Star software with your expected effect size from prior literature. Also, you'll need to address the ethical considerations. Twenty-four hours of total sleep deprivation is physically and mentally taxing. You need informed consent that clearly describes the risks, a protocol for monitoring participant wellbeing, and a mandatory recovery period.\nEthan: I'll submit the design to the Institutional Review Board with all of those elements included.",
+    "speakers": [
+      { "name": "Dr. Morris", "role": "psychology professor" },
+      { "name": "Ethan", "role": "graduate student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Writing a literature review on sleep research",
+          "Designing an experimental study on the effects of sleep deprivation on working memory",
+          "Diagnosing sleep disorders in clinical patients",
+          "Comparing different cognitive assessment tools"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor and student discuss the experimental design of a study examining how total sleep deprivation for twenty-four hours affects working memory capacity, as measured by the n-back task."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is Ethan's hypothesis?",
+        "options": [
+          "Sleep deprivation improves working memory",
+          "Total sleep deprivation for twenty-four hours will significantly reduce working memory capacity compared to normal sleep",
+          "Working memory is unaffected by sleep",
+          "Partial sleep deprivation is worse than total deprivation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ethan hypothesizes that total sleep deprivation for twenty-four hours will significantly reduce working memory capacity compared to a normal sleep condition, measured by the n-back task."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What task will be used to measure working memory?",
+        "options": [
+          "The Stroop test",
+          "The n-back task",
+          "The Wisconsin Card Sorting Test",
+          "The digit span test"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ethan states that working memory capacity will be measured by the n-back task, which Dr. Morris agrees is a reasonable measure."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What screening tool does Ethan propose to address participant selection issues?",
+        "options": [
+          "The Beck Depression Inventory",
+          "The Pittsburgh Sleep Quality Index to exclude habitual short sleepers",
+          "The Minnesota Multiphasic Personality Inventory",
+          "The Epworth Sleepiness Scale only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ethan proposes screening participants for habitual sleep duration using the Pittsburgh Sleep Quality Index and excluding anyone who regularly sleeps fewer than seven hours."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What additional confounding variables does Dr. Morris ask Ethan to screen for?",
+        "options": [
+          "Age and gender only",
+          "Caffeine consumption, nicotine use, and history of sleep disorders",
+          "Income level and education",
+          "Handedness and eye color"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morris asks Ethan to also screen for caffeine consumption, nicotine use, and any history of sleep disorders, as these confounding variables could mask or exaggerate the sleep deprivation effect."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What environmental confound does Dr. Morris identify in the original design?",
+        "options": [
+          "The testing rooms are too noisy",
+          "The sleep-deprived group is in the lab under supervision, introducing stress and novelty, while the control group sleeps at home",
+          "The lighting is different in each condition",
+          "The lab temperature is not controlled"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Morris identifies that the sleep-deprived group is under supervision in the lab, introducing environmental stress, novelty, and social interaction, while the control group sleeps at home in a familiar environment, creating a confound beyond just sleep."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What problem arises if the control group sleeps in the lab?",
+        "options": [
+          "The lab is too expensive to operate overnight",
+          "The unfamiliar setting reduces sleep quality, narrowing the gap between conditions and reducing effect size",
+          "Participants refuse to sleep in the lab",
+          "The lab equipment interferes with sleep measurement"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morris explains that if the control group sleeps in the lab, their sleep quality will likely be poorer due to the unfamiliar setting, which narrows the gap between conditions and reduces the effect size, the classic laboratory sleep adaptation problem."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What alternative design does Dr. Morris recommend?",
+        "options": [
+          "A cross-sectional observational design",
+          "A within-subjects design where each participant serves as their own control, with counterbalanced order and washout period",
+          "A longitudinal cohort study",
+          "A case-control study with matched pairs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morris recommends a within-subjects design where each participant comes in for two sessions, one after normal sleep and one after sleep deprivation, with order counterbalanced and a washout period of at least one week."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Approximately how many participants does Dr. Morris estimate are needed for adequate power?",
+        "options": [
+          "Twelve participants",
+          "Twenty-four participants",
+          "Fifty participants",
+          "One hundred participants"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morris states that with a within-subjects design, approximately twenty-four participants would achieve eighty percent power to detect a medium effect size, but recommends a formal power analysis."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What ethical requirements does Dr. Morris emphasize for the study?",
+        "options": [
+          "Paying participants above market rate",
+          "Informed consent describing risks, monitoring of participant wellbeing, and a mandatory recovery period",
+          "Publishing results before data collection",
+          "Limiting the study to male participants only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morris emphasizes that twenty-four hours of total sleep deprivation is taxing, requiring informed consent that clearly describes risks, a protocol for monitoring participant wellbeing, and a mandatory recovery period, to be submitted to the IRB."
+      }
+    ],
+    "keyVocabulary": ["sleep deprivation", "working memory", "n-back task", "confounding variables", "internal validity", "within-subjects design", "counterbalanced", "washout period", "statistical power", "Institutional Review Board"]
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "OPINION",
+    "questionText": "University education should be free for everyone. To what extent do you agree or disagree?",
+    "prompt": {
+      "statement": "University education should be free for everyone because higher education is a fundamental right that should not be limited by a person's financial situation.",
+      "question": "To what extent do you agree or disagree with this statement?",
+      "context": "The rising cost of tuition has sparked debate in many countries about whether governments should fully subsidize university education for all citizens."
+    },
+    "topicCategory": "EDUCATION",
+    "instructions": "Write at least 250 words on the topic above. Present a clear opinion throughout your essay and support your view with relevant reasons and examples from your own knowledge or experience.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Begin with a general statement about the cost of higher education, then state your position clearly in a thesis sentence.",
+        "shouldAddress": ["The rising cost of tuition", "Whether education is a right or a privilege", "A clear statement of agreement or disagreement"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Present the first main argument supporting your opinion.",
+          "suggestedContent": "Discuss how free education promotes equal opportunity and social mobility, allowing talented students from low-income backgrounds to reach their potential.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Present a counter-argument or a second supporting argument, then refute or strengthen your position.",
+          "suggestedContent": "Acknowledge the financial burden on governments, but argue that the long-term economic returns through a skilled workforce outweigh the costs.",
+          "exampleType": "HISTORICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Restate your opinion in paraphrased form and summarize the key points made in the body.",
+        "shouldAvoid": ["Introducing new arguments", "Sitting on the fence after stating a clear opinion", "Using informal expressions"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "subsidize", "usage": "Governments can subsidize tuition to reduce student debt.", "formality": "FORMAL" },
+      { "word": "tuition fees", "usage": "Rising tuition fees prevent many from attending university.", "formality": "NEUTRAL" },
+      { "word": "social mobility", "usage": "Free education can improve social mobility across generations.", "formality": "FORMAL" },
+      { "word": "equal opportunity", "usage": "Every citizen deserves equal opportunity to pursue higher education.", "formality": "NEUTRAL" },
+      { "word": "burden", "usage": "Student loans place a heavy financial burden on graduates.", "formality": "NEUTRAL" },
+      { "word": "workforce", "usage": "A well-educated workforce drives economic growth.", "formality": "FORMAL" },
+      { "word": "fundamental right", "usage": "Many argue that education is a fundamental right, not a privilege.", "formality": "FORMAL" },
+      { "word": "meritocracy", "usage": "Free tuition supports a true meritocracy where ability matters more than wealth.", "formality": "FORMAL" },
+      { "word": "disproportionately", "usage": "High fees disproportionately affect low-income families.", "formality": "FORMAL" },
+      { "word": "long-term returns", "usage": "The long-term returns of an educated population justify the investment.", "formality": "NEUTRAL" },
+      { "word": "investment", "usage": "Education is an investment in a nation's future prosperity.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 285,
+      "content": "In many countries, the cost of university education has risen sharply, leading to a heated debate about whether it should be provided free of charge to all citizens. I strongly agree that higher education should be free, as it promotes equal opportunity and yields significant long-term economic benefits for society.\n\nFirstly, free university education would create a more meritocratic society in which talent and effort, rather than family wealth, determine success. At present, students from low-income backgrounds are often deterred by prohibitively high tuition fees, meaning that many capable individuals are denied the chance to reach their full potential. If education were free, everyone would have an equal opportunity to acquire advanced skills and qualifications. Research from Scandinavian countries, where tuition is heavily subsidized, shows that such policies significantly improve social mobility and reduce income inequality.\n\nAdmittedly, critics argue that abolishing tuition fees would place an enormous financial burden on governments and taxpayers. However, this view overlooks the long-term returns of an educated population. Graduates typically earn more, pay higher taxes, and are less reliant on social welfare programs. A skilled workforce also attracts investment and drives innovation, which in turn stimulates economic growth. The initial cost of funding universities is therefore recovered many times over through increased productivity and tax revenue.\n\nIn conclusion, I firmly believe that university education should be free for everyone. While the immediate cost to governments is considerable, the benefits of greater social mobility and a stronger economy far outweigh the expense. Investing in education is, in effect, investing in a nation's future prosperity.",
+      "examinerComments": "The essay presents a clear and consistent opinion throughout, with well-developed arguments supported by relevant examples. Cohesion is strong, with effective use of linking devices and clear paragraphing. The lexical resource is varied and accurate, using terms like 'meritocratic' and 'prohibitive' appropriately. Grammatical structures are diverse with good control, though a few sentences could be more concise.",
+      "strengths": [
+        "Clear thesis statement maintained throughout the essay",
+        "Strong paragraphing with one main idea per paragraph",
+        "Effective use of concessive language to address counter-arguments",
+        "Wide range of academic vocabulary used accurately"
+      ],
+      "areasForImprovement": [
+        "Some sentences are slightly wordy and could be trimmed for conciseness",
+        "The example from Scandinavian countries could be more specific with data"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Failing to state a clear opinion, arguing both sides without commitment.",
+        "correction": "Choose a clear position and maintain it consistently, even when acknowledging counter-arguments.",
+        "whyItMatters": "An opinion essay requires a definitive stance; sitting on the fence lowers the Task Response score."
+      },
+      {
+        "mistake": "Introducing new ideas in the conclusion that were not discussed in the body.",
+        "correction": "The conclusion should only restate and summarize points already made in the body paragraphs.",
+        "whyItMatters": "New information in the conclusion undermines coherence and weakens the overall argument."
+      },
+      {
+        "mistake": "Writing fewer than 250 words, resulting in a penalty.",
+        "correction": "Plan your essay structure beforehand and develop each point fully to ensure you exceed 250 words.",
+        "whyItMatters": "Falling below the word count limit automatically caps the Task Response band at 5."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "EASY"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "DISCUSSION",
+    "questionText": "Some people think that technology in classrooms improves learning, while others believe it distracts students. Discuss both views and give your opinion.",
+    "prompt": {
+      "statement": "The increasing use of technology such as laptops, tablets, and educational software in classrooms has divided opinion among educators and parents regarding its effect on student learning.",
+      "question": "Discuss both these views and give your own opinion.",
+      "context": "Schools worldwide are investing heavily in digital tools, yet studies on their effectiveness remain inconclusive."
+    },
+    "topicCategory": "TECHNOLOGY",
+    "instructions": "Write at least 250 words. Discuss both sides of the argument objectively before presenting your own opinion. Support your points with relevant examples and ensure a balanced structure.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Introduce the debate about classroom technology, paraphrasing the prompt, then state that both sides will be discussed before giving your opinion.",
+        "shouldAddress": ["The prevalence of technology in education", "The two contrasting viewpoints", "A sentence indicating the essay will discuss both views"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Present the arguments in favor of technology in classrooms.",
+          "suggestedContent": "Discuss how interactive software, instant access to information, and personalized learning paths can enhance engagement and accommodate different learning styles.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Present the arguments against technology in classrooms.",
+          "suggestedContent": "Discuss how devices can distract students through social media and games, reduce face-to-face interaction, and potentially widen the digital divide between schools.",
+          "exampleType": "HYPOTHETICAL"
+        },
+        {
+          "purpose": "State and justify your own opinion.",
+          "suggestedContent": "Argue that technology is beneficial when used purposefully and with proper guidance, but should not replace traditional teaching methods entirely.",
+          "exampleType": "PERSONAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Summarize the key points from both perspectives and restate your opinion clearly.",
+        "shouldAvoid": ["Introducing new arguments not discussed in the body", "Failing to give a clear personal opinion", "Using overly emotional language"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "digital tools", "usage": "Schools are investing in digital tools such as tablets and smartboards.", "formality": "NEUTRAL" },
+      { "word": "engagement", "usage": "Interactive software increases student engagement in lessons.", "formality": "FORMAL" },
+      { "word": "distract", "usage": "Social media notifications can distract students from their coursework.", "formality": "NEUTRAL" },
+      { "word": "personalized learning", "usage": "Technology enables personalized learning paths for each student.", "formality": "FORMAL" },
+      { "word": "digital divide", "usage": "Unequal access to devices widens the digital divide between schools.", "formality": "FORMAL" },
+      { "word": "interactive", "usage": "Interactive simulations help students visualize abstract concepts.", "formality": "NEUTRAL" },
+      { "word": "face-to-face interaction", "usage": "Excessive screen time reduces face-to-face interaction between peers.", "formality": "NEUTRAL" },
+      { "word": "pedagogical", "usage": "Teachers need pedagogical training to use technology effectively.", "formality": "FORMAL" },
+      { "word": "implementation", "usage": "Successful implementation requires clear guidelines and support.", "formality": "FORMAL" },
+      { "word": "counterproductive", "usage": "Unrestricted device use can be counterproductive to learning.", "formality": "FORMAL" },
+      { "word": "supplement", "usage": "Technology should supplement, not replace, traditional teaching methods.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 7,
+      "wordCount": 298,
+      "content": "The integration of technology into classrooms has become a topic of considerable debate. While some educators argue that digital tools enhance the learning experience, others contend that they serve primarily as a source of distraction. This essay will examine both perspectives before presenting my own view.\n\nOn the one hand, technology offers numerous educational benefits. Interactive software and multimedia resources can make abstract concepts more accessible and engaging, particularly for visual learners. Furthermore, educational platforms can be tailored to individual needs, allowing students to progress at their own pace. Research has shown that schools using adaptive learning software report higher test scores in mathematics and science, suggesting that technology, when used purposefully, can boost academic performance.\n\nOn the other hand, critics point out that devices such as laptops and smartphones can be highly distracting. Students may be tempted to browse social media or play games during lessons, which undermines concentration and participation. Additionally, excessive reliance on technology can reduce face-to-face interaction, potentially harming students' social development. There is also concern that unequal access to devices widens the gap between well-funded and underfunded schools, creating a digital divide.\n\nIn my opinion, technology is neither inherently good nor bad for education; its effectiveness depends entirely on how it is implemented. When teachers are trained to integrate digital tools meaningfully and when clear rules about device usage are established, technology can significantly enrich the learning experience. However, it should supplement rather than replace traditional teaching methods.\n\nIn conclusion, both sides of the argument have merit. Technology can enhance engagement and personalize learning, but it can also distract and deepen inequality. The key lies in balanced and purposeful integration.",
+      "examinerComments": "The essay effectively discusses both viewpoints before presenting a clear personal opinion. Paragraphing is logical and cohesion is generally well managed. Vocabulary is appropriate, though some expressions are repetitive. Grammar is mostly accurate with a good range of structures, but a few complex sentences contain minor errors.",
+      "strengths": [
+        "Balanced discussion of both perspectives with relevant examples",
+        "Clear personal opinion stated and justified in a separate paragraph",
+        "Good use of cohesive devices such as 'On the one hand' and 'On the other hand'"
+      ],
+      "areasForImprovement": [
+        "Some vocabulary is repetitive; more variety in word choice would raise the lexical score",
+        "The conclusion is somewhat generic and could more forcefully restate the opinion"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Only discussing one side of the argument instead of both views.",
+        "correction": "Ensure you dedicate a full paragraph to each perspective before giving your opinion.",
+        "whyItMatters": "A discussion essay requires balanced treatment of both sides; neglecting one side severely reduces the Task Response score."
+      },
+      {
+        "mistake": "Failing to give a personal opinion at all.",
+        "correction": "Explicitly state your own view, ideally in a dedicated paragraph or clearly within the conclusion.",
+        "whyItMatters": "The prompt explicitly asks for your opinion; omitting it means not fully answering the question."
+      },
+      {
+        "mistake": "Using informal language such as 'kids' or contractions like 'don't'.",
+        "correction": "Use formal academic register: 'children', 'students', and write out contractions in full.",
+        "whyItMatters": "Informal language reduces the Lexical Resource score and is inappropriate for IELTS academic writing."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "PROBLEM_SOLUTION",
+    "questionText": "Traffic congestion is becoming a serious problem in many cities. What are the causes of this problem and what solutions can you suggest?",
+    "prompt": {
+      "statement": "Traffic congestion in major cities has reached alarming levels, causing significant delays, pollution, and economic losses for commuters and businesses alike.",
+      "question": "What are the underlying causes of this growing problem, and what practical solutions can governments and individuals implement?",
+      "context": "Urbanization has led to a rapid increase in the number of vehicles on roads that were not designed to handle such volume."
+    },
+    "topicCategory": "URBANIZATION",
+    "instructions": "Write at least 250 words. Identify the main causes of traffic congestion and propose realistic solutions. Ensure each problem is linked to a corresponding solution and support your ideas with examples.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Paraphrase the problem, then state that the essay will outline causes and suggest solutions.",
+        "shouldAddress": ["The severity of urban traffic congestion", "A thesis sentence outlining that causes and solutions will be discussed"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Identify and explain the main causes of traffic congestion.",
+          "suggestedContent": "Discuss rapid urbanization, overreliance on private cars due to inadequate public transport, and poor urban planning that leads to bottlenecks.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Propose and explain practical solutions to the problem.",
+          "suggestedContent": "Discuss investing in efficient public transportation, implementing congestion charges, and encouraging remote work and carpooling to reduce the number of vehicles on the road.",
+          "exampleType": "HISTORICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Summarize the main causes and solutions, and offer a brief final thought on the importance of coordinated action.",
+        "shouldAvoid": ["Introducing new problems or solutions not discussed in the body", "Being overly pessimistic without acknowledging solutions", "Using vague recommendations without specifics"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "congestion", "usage": "Traffic congestion costs cities billions in lost productivity.", "formality": "FORMAL" },
+      { "word": "urbanization", "usage": "Rapid urbanization has outpaced infrastructure development.", "formality": "FORMAL" },
+      { "word": "infrastructure", "usage": "Aging infrastructure cannot handle current traffic volumes.", "formality": "FORMAL" },
+      { "word": "public transport", "usage": "Investing in public transport can reduce reliance on private cars.", "formality": "NEUTRAL" },
+      { "word": "congestion charge", "usage": "London's congestion charge successfully reduced city-center traffic.", "formality": "FORMAL" },
+      { "word": "commute", "usage": "Many workers commute long distances due to high housing costs.", "formality": "NEUTRAL" },
+      { "word": "emissions", "usage": "Idling vehicles in traffic produce harmful emissions.", "formality": "FORMAL" },
+      { "word": "carpooling", "usage": "Encouraging carpooling can significantly reduce the number of vehicles on the road.", "formality": "NEUTRAL" },
+      { "word": "bottleneck", "usage": "Narrow bridges create bottlenecks that slow entire routes.", "formality": "NEUTRAL" },
+      { "word": "deterrent", "usage": "High parking fees act as a deterrent to driving into city centers.", "formality": "FORMAL" },
+      { "word": "viable alternative", "usage": "Cities must provide viable alternatives to driving.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 7,
+      "wordCount": 278,
+      "content": "Traffic congestion has become one of the most pressing challenges facing major cities around the world. This essay will examine the primary causes of this problem and propose several practical solutions.\n\nThe main cause of traffic congestion is the rapid pace of urbanization. As more people migrate to cities in search of employment and better living standards, the number of vehicles on the road has grown exponentially. Unfortunately, road infrastructure has not kept pace with this growth, resulting in severe bottlenecks, particularly during rush hours. A further contributing factor is the overreliance on private cars, which is often driven by inadequate or unreliable public transportation systems. In many cities, buses and trains are overcrowded, infrequent, or do not reach suburban areas, leaving residents with little choice but to drive.\n\nTo tackle this problem, governments must invest heavily in public transportation. Expanding metro networks, increasing bus frequency, and improving route coverage would make public transport a viable alternative to driving. Additionally, cities can implement congestion charges, as London and Singapore have done, to deter motorists from entering busy city centers during peak hours. Revenue from such charges can be reinvested into transport infrastructure. Furthermore, employers can play a role by encouraging remote work and flexible hours, which would reduce the number of commuters on the road simultaneously.\n\nIn conclusion, traffic congestion stems primarily from rapid urbanization and inadequate public transport. However, by investing in transit systems, introducing congestion charges, and promoting flexible work arrangements, cities can significantly alleviate this growing problem.",
+      "examinerComments": "The essay clearly identifies the causes and proposes relevant, well-linked solutions. The structure is logical, with causes and solutions separated into distinct paragraphs. Vocabulary is appropriate and varied, and grammar is generally accurate. However, some sentences are repetitive in structure, and the solutions could be developed with more specific examples.",
+      "strengths": [
+        "Clear identification of causes with logical explanation",
+        "Solutions directly correspond to the problems identified",
+        "Good range of topic-specific vocabulary such as 'bottlenecks' and 'congestion charges'"
+      ],
+      "areasForImprovement": [
+        "Sentence structures could be more varied to improve grammatical range",
+        "More specific examples of successful solutions would strengthen the argument"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Listing solutions without linking them to the causes identified.",
+        "correction": "Ensure each solution directly addresses a specific cause mentioned in the problem paragraph.",
+        "whyItMatters": "Disconnected solutions suggest a lack of coherent analysis, reducing both Task Response and Coherence scores."
+      },
+      {
+        "mistake": "Writing only about problems without offering solutions, or vice versa.",
+        "correction": "Balance the essay so that roughly half is devoted to causes and half to solutions.",
+        "whyItMatters": "The prompt requires both; omitting either part means the question is only partially answered."
+      },
+      {
+        "mistake": "Proposing unrealistic or overly simplistic solutions like 'ban all cars'.",
+        "correction": "Suggest practical, evidence-based solutions that governments could realistically implement.",
+        "whyItMatters": "Impractical solutions weaken credibility and lower the Task Response score."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "ADVANTAGES_DISADVANTAGES",
+    "questionText": "More and more people are working from home. Do the advantages of this trend outweigh the disadvantages?",
+    "prompt": {
+      "statement": "Advances in communication technology have made it possible for an increasing number of employees to work from home rather than commuting to a traditional office every day.",
+      "question": "Do the advantages of working from home outweigh the disadvantages?",
+      "context": "The shift toward remote work accelerated dramatically during the COVID-19 pandemic and has since become a permanent feature of many industries."
+    },
+    "topicCategory": "WORK",
+    "instructions": "Write at least 250 words. Discuss the advantages and disadvantages of working from home, and state clearly whether you believe the benefits outweigh the drawbacks. Support your position with relevant examples.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Paraphrase the trend of remote work, then state your position on whether advantages outweigh disadvantages.",
+        "shouldAddress": ["The growing trend of remote work", "A clear thesis indicating your position on the balance of advantages and disadvantages"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Discuss the main advantages of working from home.",
+          "suggestedContent": "Cover benefits such as eliminating commute time, improving work-life balance, reducing overhead costs for employers, and allowing access to a global talent pool.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Discuss the main disadvantages of working from home.",
+          "suggestedContent": "Address drawbacks such as social isolation, blurred boundaries between work and personal life, reduced team collaboration, and potential impact on career progression.",
+          "exampleType": "HYPOTHETICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Restate your overall position and briefly summarize why the advantages or disadvantages are greater.",
+        "shouldAvoid": ["Introducing new points not discussed in the body", "Failing to clearly state which side outweighs the other", "Contradicting your thesis statement"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "remote work", "usage": "Remote work has become common in many technology companies.", "formality": "NEUTRAL" },
+      { "word": "commute", "usage": "Working from home eliminates the need to commute daily.", "formality": "NEUTRAL" },
+      { "word": "work-life balance", "usage": "Flexible hours can improve work-life balance for employees.", "formality": "NEUTRAL" },
+      { "word": "social isolation", "usage": "Prolonged remote work may lead to feelings of social isolation.", "formality": "FORMAL" },
+      { "word": "collaboration", "usage": "Spontaneous collaboration is harder to achieve in virtual environments.", "formality": "FORMAL" },
+      { "word": "overhead costs", "usage": "Employers save on overhead costs such as office rent and utilities.", "formality": "FORMAL" },
+      { "word": "talent pool", "usage": "Remote hiring gives companies access to a global talent pool.", "formality": "FORMAL" },
+      { "word": "productivity", "usage": "Some studies show that productivity increases when employees work from home.", "formality": "FORMAL" },
+      { "word": "blurred boundaries", "usage": "Working from home can create blurred boundaries between professional and personal life.", "formality": "FORMAL" },
+      { "word": "flexibility", "usage": "The flexibility of remote work is a major advantage for many workers.", "formality": "NEUTRAL" },
+      { "word": "hybrid model", "usage": "Many companies have adopted a hybrid model combining home and office work.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 295,
+      "content": "In recent years, the practice of working from home has grown significantly, driven by advances in digital communication tools. While some argue that this trend has notable drawbacks, I believe that the advantages of remote work clearly outweigh the disadvantages.\n\nThe primary advantage of working from home is the elimination of the daily commute. This not only saves employees valuable time but also reduces stress and transportation costs. Furthermore, the flexibility of remote work allows individuals to achieve a better work-life balance, as they can manage household responsibilities alongside their professional duties. For employers, remote work reduces overhead costs associated with office space and utilities. Additionally, companies that embrace remote work can hire from a global talent pool, giving them access to skilled professionals regardless of geographic location. Studies have consistently shown that remote workers are often more productive due to fewer workplace interruptions.\n\nNevertheless, there are legitimate disadvantages. One significant concern is social isolation, as employees miss out on the informal interactions and camaraderie that an office environment provides. This can lead to feelings of loneliness and may negatively affect mental health. Another drawback is the blurring of boundaries between work and personal life; without a physical separation between the office and home, many workers struggle to disconnect, leading to longer working hours and potential burnout. Finally, spontaneous collaboration and creative brainstorming are more difficult in virtual settings.\n\nIn conclusion, while remote work does present challenges such as isolation and blurred boundaries, I believe these can be mitigated through hybrid models and clear communication policies. The benefits of saved time, reduced costs, and increased flexibility make remote work a net positive for both employees and employers.",
+      "examinerComments": "The essay presents a well-balanced analysis of both advantages and disadvantages, with a clear and consistent position that advantages outweigh disadvantages. Arguments are well developed and supported with relevant examples. Cohesion is strong, and the vocabulary is varied and precise. Grammatical range is good with mostly accurate complex sentences.",
+      "strengths": [
+        "Clear and consistent position maintained throughout the essay",
+        "Both advantages and disadvantages are discussed with specific, developed points",
+        "Excellent use of topic-specific vocabulary and varied sentence structures"
+      ],
+      "areasForImprovement": [
+        "The disadvantages paragraph could include a more concrete example to match the strength of the advantages paragraph",
+        "The transition between the two body paragraphs could be smoother"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Listing advantages and disadvantages without stating which side outweighs the other.",
+        "correction": "Explicitly state your position on whether advantages or disadvantages are greater, both in the introduction and conclusion.",
+        "whyItMatters": "The prompt asks whether advantages outweigh disadvantages; failing to answer this directly results in a low Task Response score."
+      },
+      {
+        "mistake": "Writing a one-sided essay that only discusses advantages or only disadvantages.",
+        "correction": "Dedicate at least one paragraph to each side before concluding which is more significant.",
+        "whyItMatters": "An unbalanced essay does not fully address the prompt and loses marks for Task Response."
+      },
+      {
+        "mistake": "Using bullet points or note form instead of full connected paragraphs.",
+        "correction": "Write in complete, flowing paragraphs with transitional phrases connecting ideas.",
+        "whyItMatters": "Bullet points violate the essay format expected in IELTS and severely reduce Coherence and Cohesion scores."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "DIRECT_QUESTION",
+    "questionText": "The arts are essential to a well-functioning society. Why are the arts important, and how should they be funded?",
+    "prompt": {
+      "statement": "Despite the undeniable contributions of the arts to cultural identity and social cohesion, funding for the arts remains a subject of ongoing political and public debate in many countries.",
+      "question": "Why are the arts important for society, and in your view, how should they be funded?",
+      "context": "Governments face competing budget priorities, and arts funding is often the first to face cuts during economic downturns."
+    },
+    "topicCategory": "CULTURE",
+    "instructions": "Write at least 250 words. Address both questions directly: explain why the arts are important and propose how they should be funded. Support your answers with relevant examples and maintain a formal academic tone throughout.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Acknowledge the debate around arts funding, then state that the essay will address the importance of the arts and propose a funding model.",
+        "shouldAddress": ["The role of the arts in society", "The ongoing debate about arts funding", "A thesis indicating both questions will be answered"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Explain why the arts are important to society.",
+          "suggestedContent": "Discuss how the arts preserve cultural heritage, foster empathy and critical thinking, provide a means of self-expression, and contribute to the creative economy.",
+          "exampleType": "HISTORICAL"
+        },
+        {
+          "purpose": "Propose and justify a model for funding the arts.",
+          "suggestedContent": "Argue for a mixed funding model combining government grants, private sponsorship, and community-based initiatives, explaining why relying on a single source is insufficient.",
+          "exampleType": "RESEARCH"
+        }
+      ],
+      "conclusion": {
+        "approach": "Summarize the importance of the arts and reaffirm the proposed funding model, ending with a forward-looking statement.",
+        "shouldAvoid": ["Introducing new reasons for the arts' importance not discussed earlier", "Proposing a completely new funding model not discussed in the body", "Being vague about funding mechanisms"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "cultural heritage", "usage": "The arts play a vital role in preserving a nation's cultural heritage.", "formality": "FORMAL" },
+      { "word": "social cohesion", "usage": "Shared artistic experiences promote social cohesion within diverse communities.", "formality": "FORMAL" },
+      { "word": "creative economy", "usage": "The creative economy generates significant revenue through film, music, and design.", "formality": "FORMAL" },
+      { "word": "patronage", "usage": "Historically, royal patronage sustained many great artists and composers.", "formality": "FORMAL" },
+      { "word": "self-expression", "usage": "Art provides a powerful outlet for individual self-expression.", "formality": "NEUTRAL" },
+      { "word": "empathy", "usage": "Literature and theatre cultivate empathy by exposing audiences to different perspectives.", "formality": "FORMAL" },
+      { "word": "subsidize", "usage": "Governments should subsidize community arts programs to ensure accessibility.", "formality": "FORMAL" },
+      { "word": "private sponsorship", "usage": "Private sponsorship can complement but not replace public funding.", "formality": "FORMAL" },
+      { "word": "intrinsic value", "usage": "The arts have intrinsic value beyond their economic contribution.", "formality": "FORMAL" },
+      { "word": "accountability", "usage": "Public arts funding requires transparency and accountability in allocation.", "formality": "FORMAL" },
+      { "word": "foster", "usage": "Arts education fosters creativity and critical thinking in young people.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 310,
+      "content": "The role of the arts in society has long been a subject of debate, particularly when it comes to the question of funding. While some view the arts as a luxury, I would argue that they are indispensable to a well-functioning society. This essay will explain the importance of the arts and propose a sustainable model for their funding.\n\nThe arts are essential for several reasons. Firstly, they serve as a repository of cultural heritage, preserving the traditions, stories, and values of a society for future generations. Museums, theatres, and literature provide a window into both our past and the experiences of other cultures, fostering empathy and mutual understanding. Secondly, the arts stimulate critical thinking and creativity, skills that are increasingly valuable in the modern knowledge economy. A population that engages with the arts is more likely to produce innovative thinkers. Finally, the creative economy itself is a significant contributor to GDP in many countries, generating employment in fields ranging from film production to graphic design.\n\nRegarding funding, I believe a mixed model is the most sustainable approach. Government subsidies should form the foundation, as they ensure that the arts remain accessible to all citizens regardless of income. However, public funds alone are often insufficient, particularly during economic downturns when arts budgets are frequently the first to be cut. Therefore, private sponsorship and philanthropic donations should be encouraged through tax incentives. Additionally, community-based initiatives such as local crowdfunding and arts cooperatives can empower grassroots creativity while reducing reliance on top-down funding.\n\nIn conclusion, the arts are far more than mere entertainment; they are a cornerstone of cultural identity, social cohesion, and economic vitality. A diverse funding strategy combining government support, private sponsorship, and community initiatives offers the most reliable path to sustaining the arts for future generations.",
+      "examinerComments": "The essay addresses both questions with depth and sophistication. The arguments for the importance of the arts are well developed and multi-faceted, and the funding proposal is practical and nuanced. Vocabulary is wide-ranging and precise, and grammatical structures are varied and largely accurate. The essay demonstrates excellent coherence through strong paragraphing and effective transitions.",
+      "strengths": [
+        "Both questions are answered thoroughly with well-developed, multi-layered arguments",
+        "Sophisticated vocabulary used accurately throughout, including terms like 'repository' and 'grassroots'",
+        "Excellent paragraph structure with clear topic sentences and logical flow"
+      ],
+      "areasForImprovement": [
+        "The essay could benefit from a specific real-world example of successful mixed funding models",
+        "Some sentences in the funding paragraph are quite long and could be split for clarity"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Answering only one of the two questions, typically the 'why' question but not the 'how' question.",
+        "correction": "Dedicate a full paragraph to each question and ensure both are addressed explicitly.",
+        "whyItMatters": "Direct question essays require all parts to be answered; omitting one results in a significant Task Response penalty."
+      },
+      {
+        "mistake": "Being too vague about funding, e.g., 'the government should pay for it' without explaining how.",
+        "correction": "Propose specific funding mechanisms such as grants, tax incentives, or mixed models, and justify your choice.",
+        "whyItMatters": "Vague answers fail to demonstrate analytical thinking and reduce the Task Response score."
+      },
+      {
+        "mistake": "Treating the arts dismissively as merely entertainment rather than engaging with their broader societal value.",
+        "correction": "Engage seriously with the question by considering cultural, educational, and economic dimensions of the arts.",
+        "whyItMatters": "A superficial treatment of the topic limits the depth of analysis and caps the achievable band score."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "HARD"
+  }
+]

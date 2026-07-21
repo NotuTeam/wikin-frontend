@@ -1,0 +1,799 @@
+[
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the library about choosing a research methodology for a senior thesis.",
+    "audioScript": "Situation: A sociology professor and a senior student discuss how to choose an appropriate research methodology for an undergraduate honors thesis on remote-work culture.\nProfessor Okafor: Come in, Dana. You emailed about feeling stuck on the methodology chapter of your thesis. Let's work through it. You told me last week you were torn between surveys and interviews.\nDana: Right. My topic is how remote work affects team cohesion. I read a bunch of studies and some use large surveys, others use in-depth interviews, and a few do mixed methods. I'm not sure which fits my question best.\nProfessor Okafor: Good. Start with the question, not the method. What exactly are you trying to find out?\nDana: I want to understand whether teams that meet synchronously every day feel more connected than teams that meet twice a week.\nProfessor Okafor: There are two parts there. 'Whether teams feel more connected' is measurable with a validated cohesion scale, so a survey could capture it across many teams. But 'how' they feel connected, the lived experience, is better suited to interviews. So a mixed-methods design actually fits your question well.\nDana: How would I sequence them?\nProfessor Okafor: The classic approach is explanatory sequential. First, run the survey with maybe one hundred fifty respondents to establish patterns. Then, use the survey results to pick about twelve people for follow-up interviews who represent interesting cases, like teams that scored high on cohesion despite meeting rarely. The interviews explain why the patterns appeared.\nDana: That sounds doable in one semester. Is there a risk the survey finds nothing significant?\nProfessor Okafor: There's always that risk, which is why you should power your survey properly. Use a validated instrument, the Group Environment Questionnaire is a good one, and calculate your sample size before collecting data. If you underpower, a real effect can look like noise.\nDana: My roommate mentioned something about reflexivity. Do I need that?\nProfessor Okafor: Only for the qualitative part. Reflexivity means documenting how your own assumptions, like the fact that you personally prefer frequent meetings, might shape how you interpret interview answers. You'd keep a reflexive journal throughout coding. It strengthens trustworthiness, which is the qualitative equivalent of reliability.\nDana: So my methodology chapter should justify mixed methods, describe the survey design, then the interview sampling, then the analysis plan for each.\nProfessor Okafor: Exactly. And be explicit about limitations at the end. Committees always look for whether you understand the trade-offs you made.",
+    "speakers": [
+      { "name": "Professor Okafor", "role": "sociology professor" },
+      { "name": "Dana", "role": "senior student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "How to write a literature review",
+          "Choosing an appropriate research methodology for Dana's thesis",
+          "Finding participants for a clinical trial",
+          "Applying for a research grant"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Dana choosing between surveys, interviews, and mixed methods for her thesis on remote work."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is Dana's thesis topic?",
+        "options": [
+          "How remote work affects team cohesion",
+          "The history of labor unions",
+          "Productivity in manufacturing plants",
+          "Employee compensation models"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Dana states her topic is how remote work affects team cohesion."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does Professor Okafor say should come first?",
+        "options": [
+          "Choosing the statistical software",
+          "The research question, not the method",
+          "Recruiting participants",
+          "Writing the abstract"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor tells Dana to start with the question, not the method."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Which research design does the professor recommend?",
+        "options": [
+          "Pure experimental design",
+          "Explanatory sequential mixed methods",
+          "Single-case study",
+          "Cross-sectional survey only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor recommends the explanatory sequential approach: survey first, then follow-up interviews."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many survey respondents does the professor suggest?",
+        "options": ["About 50", "About 100", "About 150", "About 500"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor suggests running the survey with maybe one hundred fifty respondents to establish patterns."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How many follow-up interviews does the professor suggest?",
+        "options": ["About 4", "About 8", "About 12", "About 30"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor says to pick about twelve people for follow-up interviews representing interesting cases."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Which validated instrument does the professor mention?",
+        "options": [
+          "The Maslach Burnout Inventory",
+          "The Group Environment Questionnaire",
+          "The Big Five Personality Test",
+          "The Job Satisfaction Scale"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor recommends the Group Environment Questionnaire as a validated instrument for measuring cohesion."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why is reflexivity important in the qualitative part?",
+        "options": [
+          "It increases the number of participants",
+          "It documents how the researcher's assumptions may shape interpretation",
+          "It replaces the need for coding",
+          "It guarantees statistical significance"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor explains reflexivity means documenting how personal assumptions might shape interpretation of interview answers."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is trustworthiness the qualitative equivalent of?",
+        "options": ["Validity", "Reliability", "Power", "Generalizability"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor says reflexivity strengthens trustworthiness, the qualitative equivalent of reliability."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does the professor say committees always look for at the end?",
+        "options": [
+          "A list of cited journals",
+          "Whether the student understands the trade-offs made",
+          "A funding source for future work",
+          "A co-author agreement"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor says committees always look for whether students understand the trade-offs they made, implied by being explicit about limitations."
+      }
+    ],
+    "keyVocabulary": ["research methodology", "mixed methods", "explanatory sequential", "cohesion scale", "validated instrument", "reflexivity", "trustworthiness", "sample size"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation at the campus data lab about managing research data for a psychology study.",
+    "audioScript": "Situation: A data librarian and a psychology graduate student discuss how to organize, store, and share research data according to best practices and funding agency requirements.\nMs. Tanaka: Hi, Ravi. You booked a consultation about data management for your EEG study. I've looked over the one-page summary you sent. Let's start with storage. Where are your raw files right now?\nRavi: Honestly, on an external hard drive in my desk drawer, and a copy on my laptop. I know that's not ideal.\nMs. Tanaka: It's common, but it's risky. A single drive failure could erase months of work. For raw EEG data, which is large and sensitive, I'd recommend the university's institutional repository. It gives you twenty terabytes per project, automated nightly backups, and access controls so only approved team members can view identifiable data.\nRavi: That sounds good. Do I need a formal data management plan?\nMs. Tanaka: If your study is funded by the National Science Foundation, yes, it's required at the proposal stage. Even if it isn't required, I strongly recommend writing one. It forces you to decide upfront what file formats you'll use, how you'll name files, who is responsible for backups, and what happens to the data when the project ends.\nRavi: What about file naming? I've just been using dates and participant numbers.\nMs. Tanaka: Dates and IDs are a fine start, but be consistent. I suggest a naming convention like project abbreviation, condition code, participant ID, session number, and date in ISO format. Avoid spaces and special characters. For example, EEG_CTRL_P014_S02_20250315. That way anyone on the team can sort and identify files without opening them.\nRavi: That makes sense. What about sharing data after publication?\nMs. Tanaka: Many journals now require data availability statements. You can deposit de-identified data in a public repository like the Open Science Framework. However, because EEG can sometimes be re-identified, you may need a controlled-access repository where users sign a data use agreement. I can help you choose.\nRavi: How long do I need to keep the data?\nMs. Tanaka: Most funding agencies require retention for at least three years after the project ends, but some, like NIH, expect ten years for clinical data. Check your specific award terms. And document everything in your plan so the next student can pick up where you left off.",
+    "speakers": [
+      { "name": "Ms. Tanaka", "role": "data librarian" },
+      { "name": "Ravi", "role": "psychology graduate student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the consultation?",
+        "options": [
+          "To analyze Ravi's EEG results",
+          "To discuss how to organize, store, and share research data",
+          "To apply for a new research grant",
+          "To recruit study participants"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Ms. Tanaka opens by saying Ravi booked a consultation about data management for his EEG study, covering storage, sharing, and best practices."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Where does Ravi currently store his raw files?",
+        "options": [
+          "The institutional repository",
+          "An external hard drive and his laptop",
+          "A public cloud account",
+          "Printed on paper"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ravi admits his raw files are on an external hard drive in his desk drawer with a copy on his laptop."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How much storage does the institutional repository provide per project?",
+        "options": ["5 terabytes", "10 terabytes", "20 terabytes", "50 terabytes"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Tanaka says the institutional repository gives twenty terabytes per project with automated nightly backups."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "When is a data management plan required for NSF funding?",
+        "options": [
+          "Only after publication",
+          "At the proposal stage",
+          "Five years after the project ends",
+          "Never, it is optional for all agencies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Tanaka states that for NSF-funded studies, a data management plan is required at the proposal stage."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Which date format does Ms. Tanaka recommend for file names?",
+        "options": ["Month-day-year", "Day-month-year", "ISO format", "Julian date"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Tanaka recommends the date in ISO format, as shown in the example file name ending in 20250315."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does Ms. Tanaka advise avoiding in file names?",
+        "options": [
+          "Numbers entirely",
+          "Spaces and special characters",
+          "Project abbreviations",
+          "Participant IDs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Tanaka says to avoid spaces and special characters in file names for consistency."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Which public repository does Ms. Tanaka mention for sharing data?",
+        "options": [
+          "GitHub",
+          "The Open Science Framework",
+          "PubMed Central",
+          "arXiv"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Tanaka mentions depositing de-identified data in a public repository like the Open Science Framework."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why might Ravi need a controlled-access repository instead of a public one?",
+        "options": [
+          "Public repositories are too expensive",
+          "EEG data can sometimes be re-identified",
+          "He doesn't want other researchers to see it",
+          "Public repositories don't accept large files"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Ms. Tanaka notes EEG can sometimes be re-identified, so a controlled-access repository with a data use agreement may be necessary."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How long does NIH expect clinical data to be retained?",
+        "options": ["1 year", "3 years", "5 years", "10 years"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Tanaka says NIH expects retention for ten years for clinical data."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about Ms. Tanaka's overall advice?",
+        "options": [
+          "Data management is optional and can be skipped",
+          "Planning and documentation upfront prevent problems later",
+          "Storage location does not matter as long as data exists",
+          "Sharing data is always required immediately"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Ms. Tanaka emphasizes writing a plan, naming conventions, retention rules, and documenting everything so the next student can continue, showing that upfront planning prevents later problems."
+      }
+    ],
+    "keyVocabulary": ["data management plan", "institutional repository", "file naming convention", "ISO format", "data availability statement", "de-identified data", "controlled-access repository", "retention", "data use agreement"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the student center about an interdisciplinary collaboration project.",
+    "audioScript": "Situation: A project coordinator and two graduate students from different departments discuss launching an interdisciplinary collaboration between computer science and public health.\nCoordinator Bell: Thanks for coming, both of you. The dean's office is funding a new seed grant for interdisciplinary teams, and your proposal combining machine learning with epidemiological surveillance was selected. I want to make sure we set up the collaboration well from day one.\nSara: Great. I'm from the computer science side. My adviser works on anomaly detection in streaming data. I was thinking we could build a model that flags unusual spikes in clinic visits.\nCoordinator Bell: That's a strong starting point. Marcus, from the public health side, what's your perspective?\nMarcus: The idea is promising, but epidemiologists care about different things than machine learning researchers. We need the model to be interpretable. If a health department acts on an alert, they have to explain why. A black-box neural network won't be trusted, even if it's accurate.\nSara: I understand, but interpretability often costs accuracy. We could use simpler models like logistic regression with explainable features.\nMarcus: That's a reasonable middle ground. We also need to discuss data. Public health data has strict privacy rules under HIPAA. We can't just pull raw patient records into a shared folder.\nSara: How do we handle that? My lab usually works with open datasets.\nCoordinator Bell: This is exactly why interdisciplinary projects need clear governance. I recommend three things. First, sign a data sharing agreement before any data moves. It defines who can access what, for what purpose, and how long. Second, hold a joint kickoff workshop where each side teaches the other its core vocabulary and constraints. Sara's team should learn what HIPAA means in practice, and Marcus's team should learn what a feature vector is. Third, meet weekly, not just when something breaks. The biggest reason these collaborations fail is silent misalignment, where each side assumes the other understands.\nMarcus: Who owns the resulting code and models?\nCoordinator Bell: Intellectual property in interdisciplinary projects is often contentious. The default university policy is that students own their thesis work, but code developed under a sponsored grant may belong to the university. I'll get a formal IP assignment letter from the tech transfer office. You should both have your advisers review it before signing.\nSara: What's the timeline for the seed grant?\nCoordinator Bell: Twelve months of funding, with a midpoint review at month six. At the review, you'll present preliminary results to a panel that includes both a CS faculty member and a public health faculty member. If the review is positive, you can apply for a larger follow-on grant of up to two hundred thousand dollars.",
+    "speakers": [
+      { "name": "Coordinator Bell", "role": "project coordinator" },
+      { "name": "Sara", "role": "computer science graduate student" },
+      { "name": "Marcus", "role": "public health graduate student" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Designing a new computer science curriculum",
+          "Launching an interdisciplinary collaboration between CS and public health",
+          "Hiring a new epidemiology professor",
+          "Protesting a university policy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation is about setting up an interdisciplinary collaboration combining machine learning with epidemiological surveillance, funded by a seed grant."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does Sara's adviser work on?",
+        "options": [
+          "Anomaly detection in streaming data",
+          "Vaccine distribution logistics",
+          "Genomic sequencing",
+          "Health economics modeling"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Sara says her adviser works on anomaly detection in streaming data, suggesting a model that flags unusual clinic visit spikes."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does Marcus emphasize interpretability?",
+        "options": [
+          "Interpretable models are always more accurate",
+          "Health departments must be able to explain why they act on an alert",
+          "Black-box models are illegal in research",
+          "Interpretability reduces computing cost"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus says if a health department acts on an alert, they have to explain why, so a black-box neural network won't be trusted even if accurate."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What simpler model does Sara suggest as a middle ground?",
+        "options": [
+          "Deep convolutional network",
+          "Logistic regression with explainable features",
+          "Random forest ensemble",
+          "Reinforcement learning agent"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sara suggests logistic regression with explainable features as a reasonable middle ground between interpretability and accuracy."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Which regulation governs the privacy of the public health data?",
+        "options": ["FERPA", "GDPR", "HIPAA", "COPPA"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Marcus notes public health data has strict privacy rules under HIPAA, so raw patient records cannot go in a shared folder."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the first of the three governance recommendations?",
+        "options": [
+          "Publish results immediately",
+          "Sign a data sharing agreement before any data moves",
+          "Hire an external auditor",
+          "File a patent application"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Bell's first recommendation is to sign a data sharing agreement before any data moves, defining access, purpose, and duration."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the purpose of the joint kickoff workshop?",
+        "options": [
+          "To celebrate the grant award",
+          "To have each side teach the other its core vocabulary and constraints",
+          "To select a project mascot",
+          "To finalize the publication venue"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Coordinator Bell says the kickoff workshop is where each side teaches the other its core vocabulary and constraints, like HIPAA and feature vectors."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Coordinator Bell say is the biggest reason these collaborations fail?",
+        "options": [
+          "Lack of funding",
+          "Silent misalignment, where each side assumes the other understands",
+          "Equipment failure",
+          "Government regulation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Bell states the biggest reason these collaborations fail is silent misalignment, where each side assumes the other understands."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Coordinator Bell say about intellectual property?",
+        "options": [
+          "Students always own all project code",
+          "Code under a sponsored grant may belong to the university, so a formal IP letter is needed",
+          "IP is not relevant to interdisciplinary work",
+          "The tech transfer office owns everything automatically"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Bell explains default policy lets students own thesis work, but sponsored grant code may belong to the university, so a formal IP assignment letter is needed."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What happens at the midpoint review in month six?",
+        "options": [
+          "The project is automatically canceled",
+          "The team presents preliminary results to a panel with CS and public health faculty",
+          "The grant money is doubled immediately",
+          "Students defend their dissertations"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Bell says at the month-six review, the team presents preliminary results to a panel including both CS and public health faculty, and a positive review allows applying for a larger follow-on grant."
+      }
+    ],
+    "keyVocabulary": ["interdisciplinary collaboration", "seed grant", "anomaly detection", "interpretability", "HIPAA", "data sharing agreement", "intellectual property", "silent misalignment", "tech transfer office"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the academic office about a university-industry partnership agreement.",
+    "audioScript": "Situation: A university research officer and an engineering professor meet with a corporate R&D director to negotiate the terms of a university-industry partnership on battery materials.\nDr. Adeyemi: Thank you for hosting us, Ms. Park. To recap, our company wants to fund a three-year research program in your materials lab focused on solid-state electrolytes. We'd contribute five hundred thousand dollars per year, plus in-kind access to our pilot manufacturing line.\nOfficer Whitfield: We're excited about the science. Before we sign, I want to walk through three areas the university cares about: publication rights, student involvement, and intellectual property. These are common sticking points.\nMs. Park: Understood. Let's take them in order.\nOfficer Whitfield: On publications, our faculty must be free to publish results in peer-reviewed venues. We can agree to a short delay, say sixty days, so your team can review for patentable inventions and remove confidential business information. But we cannot accept a blanket requirement to approve publications.\nMs. Park: Sixty days is acceptable. We actually prefer that because it lets us file patents too. What about students?\nOfficer Whitfield: Graduate students must be able to use the research in their dissertations. We also require that no proprietary company data be central to a student's thesis, otherwise the student couldn't defend openly. So if your team wants students to work with confidential datasets, we need a carve-out ensuring the thesis itself remains publishable.\nMs. Park: That's reasonable. We can provide synthetic or anonymized datasets for thesis-critical work and reserve sensitive data for side projects covered by NDAs.\nDr. Adeyemi: Now, intellectual property. Our standard position is that the company owns foreground IP generated under the contract, since we're funding it.\nOfficer Whitfield: I expected that, but we'd push back. University policy gives the university ownership of inventions made by its employees, with a non-exclusive license to the sponsor. We can offer your company an exclusive license in a defined field of use, say consumer electronics, for a negotiated royalty. That protects your commercial interests while letting the university license the same invention in other fields, like grid storage.\nMs. Park: That field-of-use approach could work. We'd want a matching right of first refusal if the university licenses to a direct competitor in our field.\nOfficer Whitfield: We can likely agree to a right of first refusal. I'll draft language for our legal counsel to review. One more item: the university requires annual reports summarizing progress and expenditures, and we ask that any use of the university's name in marketing be pre-approved.\nMs. Park: All of that is standard. I think we have a framework. Shall we aim to sign a memorandum of understanding within thirty days?",
+    "speakers": [
+      { "name": "Dr. Adeyemi", "role": "corporate R&D director" },
+      { "name": "Officer Whitfield", "role": "university research officer" },
+      { "name": "Ms. Park", "role": "corporate counsel" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the meeting?",
+        "options": [
+          "Negotiating the terms of a university-industry partnership on battery materials",
+          "Planning a campus career fair",
+          "Reviewing a student's thesis draft",
+          "Discussing tuition increases"
+        ],
+        "correctAnswer": 0,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The parties are negotiating publication rights, student involvement, and intellectual property for a funded research program on solid-state electrolytes."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the company's annual funding contribution?",
+        "options": [
+          "One hundred thousand dollars",
+          "Two hundred fifty thousand dollars",
+          "Five hundred thousand dollars",
+          "One million dollars"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Adeyemi states the company would contribute five hundred thousand dollars per year for the three-year program."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the focus of the research program?",
+        "options": [
+          "Solar panel coatings",
+          "Solid-state electrolytes",
+          "Wind turbine blades",
+          "Hydrogen fuel cells"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Adeyemi says the program focuses on solid-state electrolytes in the university's materials lab."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What publication delay does the university find acceptable?",
+        "options": ["15 days", "30 days", "60 days", "180 days"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Officer Whitfield proposes a sixty-day delay for the company to review for patentable inventions and confidential information, which Ms. Park accepts."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why does the university require that proprietary data not be central to a thesis?",
+        "options": [
+          "Proprietary data is always wrong",
+          "The student must be able to defend the thesis openly",
+          "Theses are not graded anymore",
+          "The company forbids any student involvement"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Whitfield explains that if proprietary company data were central to a thesis, the student couldn't defend openly."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does Ms. Park propose handling sensitive data for students?",
+        "options": [
+          "Students may never access any data",
+          "Provide synthetic or anonymized datasets for thesis-critical work",
+          "Pay students extra to keep secrets",
+          "Delay all student work until after the contract ends"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Park offers to provide synthetic or anonymized datasets for thesis-critical work and reserve sensitive data for NDA-covered side projects."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the company's standard position on foreground IP?",
+        "options": [
+          "The university owns all IP",
+          "The company owns foreground IP since it funds the work",
+          "IP is shared equally with no royalties",
+          "All IP becomes public domain"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Adeyemi states the company's standard position is that it owns foreground IP generated under the contract because it is funding the work."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What IP arrangement does Officer Whitfield propose instead?",
+        "options": [
+          "The company gets full ownership with no royalties",
+          "University owns inventions with an exclusive license to the company in a defined field of use",
+          "Students own all inventions personally",
+          "No patents may be filed at all"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Whitfield proposes the university own inventions with an exclusive license to the company in a defined field of use, like consumer electronics, for a negotiated royalty."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Ms. Park request regarding competitors?",
+        "options": [
+          "A right of first refusal if the university licenses to a direct competitor in their field",
+          "A guarantee that no other company will ever license the invention",
+          "A cash payment from competitors",
+          "Permission to hire the university's students"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Park asks for a matching right of first refusal if the university licenses the invention to a direct competitor in the company's field."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about Officer Whitfield's stance on marketing?",
+        "options": [
+          "The company may use the university name freely",
+          "Any use of the university's name in marketing must be pre-approved",
+          "Marketing is irrelevant to research partnerships",
+          "The university will handle all marketing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Officer Whitfield says the university requires that any use of its name in marketing be pre-approved, indicating a protective stance on institutional reputation."
+      }
+    ],
+    "keyVocabulary": ["university-industry partnership", "in-kind contribution", "publication rights", "foreground IP", "field of use", "exclusive license", "right of first refusal", "memorandum of understanding", "royalty", "non-exclusive license"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the campus center about building academic networking skills before a major conference.",
+    "audioScript": "Situation: A senior faculty mentor and two doctoral students discuss strategies for academic networking at an upcoming international conference.\nProfessor Vasquez: You both are attending the International Conference on Computational Linguistics next month, your first big conference. Networking there matters as much as the talks you attend, so let's prepare. Elena, what's your plan?\nElena: Honestly, I'm nervous. I've heard people say you should just walk up to senior researchers, but that sounds terrifying. I don't know what I'd say.\nProfessor Vasquez: That's a common fear. The trick is to do your homework before you arrive. Look at the program, identify five to seven researchers whose work relates to yours, and read at least one recent paper from each. Then you're not approaching a stranger cold, you're approaching someone whose work you genuinely know.\nDavid: Do you email them before the conference?\nProfessor Vasquez: Yes, a brief email a week before works well. Say you're a PhD student, mention the specific paper you read, ask one thoughtful question, and say you'd welcome a chance to chat at the conference if they have time. Keep it under one hundred fifty words. Senior researchers are busy, but most are flattered by genuine interest and will say yes to a ten-minute coffee.\nElena: What if they say no or don't reply?\nProfessor Vasquez: No response is normal, don't take it personally. Follow up once at the conference with a polite in-person reminder if you see them. The key is volume. If you reach out to seven people, expect two or three to actually meet.\nDavid: What about poster sessions? My poster is scheduled on day two.\nProfessor Vasquez: Poster sessions are the best networking venue because the format is inherently conversational. Stand near your poster, but don't hover rigidly. When someone lingers, offer a one-sentence summary, then ask about their work. Have business cards ready, yes, physical ones still matter, and a QR code linking to your papers and contact page.\nElena: Should I go to the evening receptions? They seem intimidating.\nProfessor Vasquez: Absolutely. The receptions are where relationships form because the atmosphere is relaxed. Aim to have three meaningful conversations rather than collecting twenty names. Quality over quantity. And the day after you meet someone, send a short follow-up email referencing what you discussed. That single email turns a fleeting encounter into a lasting contact. I still collaborate with people I met at receptions fifteen years ago.\nDavid: One last thing. How do I handle meeting someone whose paper I criticized in my own work?\nProfessor Vasquez: Be honest but generous. Acknowledge the disagreement directly, emphasize what you learned from their work, and frame your critique as building on their foundation. Most scholars welcome rigorous engagement far more than empty praise.",
+    "speakers": [
+      { "name": "Professor Vasquez", "role": "senior faculty mentor" },
+      { "name": "Elena", "role": "doctoral student" },
+      { "name": "David", "role": "doctoral student" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the discussion?",
+        "options": [
+          "To grade the students' thesis drafts",
+          "To prepare the students for academic networking at a conference",
+          "To cancel the conference trip",
+          "To plan a department retreat"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Professor Vasquez says networking matters as much as the talks, and the discussion covers strategies for networking at the upcoming conference."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which conference are the students attending?",
+        "options": [
+          "International Conference on Computational Linguistics",
+          "Neural Information Processing Systems",
+          "American Physical Society March Meeting",
+          "Modern Language Association Convention"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez states the students are attending the International Conference on Computational Linguistics next month."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many researchers does the professor suggest identifying beforehand?",
+        "options": ["Two or three", "Five to seven", "Ten to fifteen", "At least twenty"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez advises identifying five to seven researchers whose work relates to the students' and reading a recent paper from each."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "When should students send a pre-conference email?",
+        "options": [
+          "The day before the conference",
+          "A week before the conference",
+          "During the opening keynote",
+          "After the conference ends"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez recommends a brief email a week before the conference works well."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the maximum length the professor suggests for the email?",
+        "options": ["Under 50 words", "Under 100 words", "Under 150 words", "Under 300 words"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez says to keep the pre-conference email under one hundred fifty words."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Out of seven people contacted, how many does the professor expect to actually meet?",
+        "options": ["One", "Two or three", "Five", "All seven"],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Vasquez says if you reach out to seven people, expect two or three to actually meet, emphasizing volume and not taking non-response personally."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does the professor consider poster sessions the best networking venue?",
+        "options": [
+          "They have the most free food",
+          "The format is inherently conversational",
+          "Senior researchers never attend them",
+          "They require no preparation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez says poster sessions are the best networking venue because the format is inherently conversational."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the professor recommend bringing to poster sessions?",
+        "options": [
+          "Only a laptop",
+          "Business cards and a QR code linking to papers and contact page",
+          "Printed copies of every paper",
+          "A formal resume binder"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez advises having business cards ready, noting physical ones still matter, plus a QR code linking to papers and a contact page."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What approach does the professor suggest for evening receptions?",
+        "options": [
+          "Collect as many names as possible",
+          "Have three meaningful conversations rather than collecting twenty names",
+          "Avoid talking to anyone senior",
+          "Skip the receptions entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Vasquez says to aim for three meaningful conversations rather than collecting twenty names, emphasizing quality over quantity."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "How does the professor suggest handling a researcher whose work you criticized?",
+        "options": [
+          "Avoid them at the conference",
+          "Be honest but generous, framing critique as building on their foundation",
+          "Pretend you never wrote the critique",
+          "Demand they respond to your criticism publicly"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Professor Vasquez advises being honest but generous, acknowledging the disagreement, emphasizing what you learned, and framing critique as building on their foundation, reflecting an attitude of respectful scholarly engagement."
+      }
+    ],
+    "keyVocabulary": ["academic networking", "conference", "poster session", "business card", "QR code", "follow-up email", "reception", "rigorous engagement", "cold approach", "quality over quantity"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the library about improving research presentation skills for a thesis defense.",
+    "audioScript": "Situation: A communications specialist and a doctoral candidate rehearse and refine the candidate's upcoming thesis defense presentation on climate modeling.\nMs. Bauer: Okay, Omar, let's run through your defense slides one more time. You have forty-five minutes total: thirty minutes to present, fifteen for questions. Your current run-through took fifty-two minutes, so we need to cut aggressively. Let's start with your opening.\nOmar: I begin with the history of climate models, starting with Arrhenius in eighteen ninety-six. I think it's important context.\nMs. Bauer: Context is good, but four slides on history is too much for a defense. Your committee already knows the field. Cut it to one slide that frames the specific gap your research fills. The defense is about your contribution, not a literature review. Move the detailed history to your backup slides in case a question comes up.\nOmar: Fair enough. What about my methods section? It's currently eight slides.\nMs. Bauer: That's where most candidates over-explain. Your committee includes two modelers who understand the math. Summarize the novel parts of your method in three slides: the problem formulation, your proposed algorithm, and how you validated it. Anything they need in depth, you can explain in response to questions. The cardinal rule is, never read your slides. The slides are a visual aid, not a script.\nOmar: I do tend to read them. How do I stop?\nMs. Bauer: Use the bullet points as prompts, not paragraphs. Limit each slide to five bullets, each under ten words. Practice speaking to the slide's main idea in one sentence, then elaborate from memory. If you must include detailed equations, put them in an appendix and reference them only if asked.\nOmar: My results section has twelve figures. Is that too many?\nMs. Bauer: Yes. Pick the three figures that most directly support your central claim. Each figure should pass the three-second test: a viewer should grasp the key takeaway within three seconds of seeing it. Use clear titles that state the finding, not just the variable. For example, 'Figure 3: Coastal regions warm twice as fast under the new parameterization,' not 'Temperature change over time.'\nOmar: That's a habit I hadn't noticed. What about handling questions?\nMs. Bauer: Two techniques. First, repeat or paraphrase the question before answering. It buys you thinking time and ensures you understood. Second, if you don't know, say so honestly, then describe how you would find out. Committees respect intellectual honesty far more than bluster. Finally, end with a one-minute closing that states your contribution, its significance, and your next steps. Don't just trail off after the last results slide.\nOmar: That's a lot to revise in a week.\nMs. Bauer: It's doable. Prioritize the cuts first, then the figure titles, then practice out loud at least four times with a timer. Record yourself and watch for filler words and rushing. You know the science; our job now is making sure the committee sees that clearly.",
+    "speakers": [
+      { "name": "Ms. Bauer", "role": "communications specialist" },
+      { "name": "Omar", "role": "doctoral candidate" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Writing a thesis abstract",
+          "Improving Omar's research presentation skills for his thesis defense",
+          "Choosing a dissertation committee",
+          "Applying for a postdoctoral fellowship"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The discussion focuses on rehearsing and refining Omar's thesis defense presentation, covering timing, slide cuts, delivery, and question handling."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How much total time does Omar have for the defense?",
+        "options": ["30 minutes", "45 minutes", "60 minutes", "90 minutes"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer states Omar has forty-five minutes total: thirty minutes to present and fifteen for questions."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How long did Omar's current run-through take?",
+        "options": ["45 minutes", "50 minutes", "52 minutes", "60 minutes"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer notes Omar's current run-through took fifty-two minutes, exceeding the allotted time."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does Ms. Bauer advise about the history section?",
+        "options": [
+          "Expand it to six slides",
+          "Cut it to one slide and move details to backup slides",
+          "Remove all historical context entirely",
+          "Present it verbally without slides"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer advises cutting the history to one slide framing the research gap and moving detailed history to backup slides for potential questions."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many slides does Ms. Bauer recommend for the novel methods?",
+        "options": ["One slide", "Three slides", "Five slides", "Eight slides"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer suggests summarizing the novel parts of the method in three slides: problem formulation, proposed algorithm, and validation."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the cardinal rule Ms. Bauer states about slides?",
+        "options": [
+          "Always read slides word for word",
+          "Never read your slides; they are a visual aid, not a script",
+          "Use as many bullets as possible per slide",
+          "Slides should contain full paragraphs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer states the cardinal rule is never read your slides because slides are a visual aid, not a script."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the three-second test for figures?",
+        "options": [
+          "A figure must load in three seconds",
+          "A viewer should grasp the key takeaway within three seconds",
+          "Each figure should be shown for exactly three seconds",
+          "Figures should be revised every three seconds"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer says each figure should pass the three-second test, meaning a viewer grasps the key takeaway within three seconds of seeing it."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Ms. Bauer recommend about figure titles?",
+        "options": [
+          "Use only the variable name as the title",
+          "State the finding in the title, not just the variable",
+          "Omit titles entirely",
+          "Use long descriptive paragraphs as titles"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Bauer advises clear titles that state the finding, giving the example 'Coastal regions warm twice as fast,' not just 'Temperature change over time.'"
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Ms. Bauer suggest if Omar doesn't know an answer?",
+        "options": [
+          "Guess confidently to seem authoritative",
+          "Say so honestly, then describe how you would find out",
+          "Refuse to answer any unknown questions",
+          "Promise to email the answer without explaining anything"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Ms. Bauer says if you don't know, say so honestly, then describe how you would find out, because committees respect intellectual honesty more than bluster."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about Ms. Bauer's view of the closing?",
+        "options": [
+          "The closing is unimportant",
+          "A defense should end with a clear one-minute statement of contribution, significance, and next steps",
+          "The closing should summarize all literature reviewed",
+          "The closing is only for thanking the committee"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Ms. Bauer insists on ending with a one-minute closing stating contribution, significance, and next steps, implying a strong defense needs a deliberate, clear ending rather than trailing off."
+      }
+    ],
+    "keyVocabulary": ["research presentation skills", "thesis defense", "backup slide", "cardinal rule", "visual aid", "three-second test", "intellectual honesty", "filler words", "parameterization", "run-through"]
+  }
+]

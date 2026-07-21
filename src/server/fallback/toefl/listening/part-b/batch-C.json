@@ -1,0 +1,776 @@
+[
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation at the student center about signing up for a career workshop.",
+    "audioScript": "Situation: A student visits the career services desk at the student center to learn about and register for an upcoming career workshop.\nNora: Hi, I saw a flyer about a career workshop next week. Can you tell me more about it?\nCoordinator: Of course! It's our Career Readiness Workshop, and it runs next Wednesday from two to four PM in Room 210. The workshop covers resume writing, interview skills, and how to use LinkedIn effectively for job searching.\nNora: That sounds perfect. I'm a sophomore, so I haven't done many interviews yet. Is the workshop open to all students, or just seniors?\nCoordinator: It's open to everyone, but we especially encourage first and second year students to attend early. Building skills now makes a big difference when you apply for internships later.\nNora: Great. Do I need to register in advance, or can I just show up?\nCoordinator: Advance registration is required because we cap the session at thirty participants. You can sign up through the career services portal on our website. Just log in with your student ID and click 'Workshops.'\nNora: I'll do that today. Is there a fee?\nCoordinator: No, all career services workshops are free for enrolled students. You should bring a printed copy of your current resume, though, because there's a peer review activity at the end.\nNora: I don't have a resume yet. Will there be help to create one during the session?\nCoordinator: Yes, the first forty minutes focus on building a resume from scratch. You'll leave with a draft. After that, we move into interview practice. We even do mock interviews in small groups.\nNora: That's really helpful. What should I wear?\nCoordinator: Casual is fine. This is a learning environment, not an actual interview. Just be comfortable. Oh, and one more thing, if you attend the full two hours, you'll receive a certificate of completion that you can add to your co-curricular record.\nNora: A certificate sounds great. I'll register right now. Thank you!\nCoordinator: You're welcome. If you have trouble with the portal, feel free to come back and I can help you sign up in person.",
+    "speakers": [
+      { "name": "Nora", "role": "sophomore student" },
+      { "name": "Coordinator", "role": "career services staff" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When does the Career Readiness Workshop take place?",
+        "options": ["Next Monday from 10 to 12", "Next Wednesday from 2 to 4 PM", "Next Friday from 1 to 3", "Next Tuesday from 3 to 5"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator states the workshop runs next Wednesday from two to four PM in Room 210."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which of the following is NOT covered in the workshop?",
+        "options": ["Resume writing", "Interview skills", "LinkedIn for job searching", "Salary negotiation"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator lists resume writing, interview skills, and LinkedIn; salary negotiation is not mentioned."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who is especially encouraged to attend the workshop?",
+        "options": [
+          "Only graduating seniors",
+          "Only graduate students",
+          "First and second year students",
+          "Only international students"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says they especially encourage first and second year students to attend early."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why is advance registration required?",
+        "options": [
+          "Because there is an entrance exam",
+          "Because the session is capped at thirty participants",
+          "Because a fee must be paid first",
+          "Because faculty approval is needed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator explains registration is required because the session is capped at thirty participants."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How can Nora register for the workshop?",
+        "options": [
+          "By emailing her professor",
+          "By calling the front desk",
+          "Through the career services portal on the website",
+          "By mailing a paper form"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator tells Nora to sign up through the career services portal on the website using her student ID."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What must students bring to the workshop?",
+        "options": [
+          "A laptop and a portfolio",
+          "A printed copy of their current resume",
+          "A letter of recommendation",
+          "A photo ID and a transcript"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says students should bring a printed copy of their current resume for the peer review activity."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How long does the resume-building portion last?",
+        "options": ["Twenty minutes", "Thirty minutes", "Forty minutes", "One hour"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator states the first forty minutes focus on building a resume from scratch."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What do participants receive if they attend the full two hours?",
+        "options": [
+          "A gift card",
+          "A certificate of completion for their co-curricular record",
+          "A free LinkedIn premium subscription",
+          "Priority registration for next semester"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says full attendees receive a certificate of completion to add to their co-curricular record."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the coordinator's attitude toward Nora's lack of a resume?",
+        "options": [
+          "Dismissive and unhelpful",
+          "Reassuring, explaining help is provided during the session",
+          "Critical and discouraging",
+          "Indifferent and rushed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The coordinator reassures Nora that the first portion of the workshop focuses on building a resume from scratch, so she will leave with a draft."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To schedule a job interview",
+          "To learn about and register for a career workshop",
+          "To complain about a missing certificate",
+          "To apply for a student loan"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Nora approaches the career services desk to learn details about and sign up for the upcoming Career Readiness Workshop."
+      }
+    ],
+    "keyVocabulary": ["career workshop", "resume", "interview skills", "registration", "portal", "peer review", "mock interview", "certificate of completion", "co-curricular record"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation on campus about an alumni networking event.",
+    "audioScript": "Situation: A student and an alumni relations officer discuss an upcoming alumni networking reception and how the student can participate.\nMarco: Excuse me, I'm a junior studying finance. I heard there's an alumni networking event next month. Can you tell me how it works?\nOfficer Davis: Absolutely. It's our annual Alumni-Student Networking Reception. It will be held on Friday, November fifteenth, from six to eight PM in the Grand Hall. We expect about forty alumni from various industries, including finance, tech, healthcare, and nonprofit sectors.\nMarco: That's great. I'm hoping to connect with finance alumni. Do I need to prepare anything beforehand?\nOfficer Davis: Yes, I'd suggest researching the alumni who are attending. We post a list of registered alumni on our website one week before the event, including their graduation year, major, and current job title. That way you can identify who you want to speak with.\nMarco: Smart. Should I bring my resume?\nOfficer Davis: Definitely bring a few copies, but keep in mind this is a social event, not a job fair. The goal is relationship building. Many alumni prefer to chat informally first, so focus on asking good questions about their career path rather than handing out resumes right away.\nMarco: That makes sense. Is there a dress code?\nOfficer Davis: Business casual is recommended. No need for a full suit, but avoid jeans and sneakers. First impressions matter.\nMarco: Got it. Is there a cost to attend?\nOfficer Davis: The event is free for students, but you must RSVP through our online form by November eighth. We need a headcount for catering. Also, each student can request one-on-one introductions to up to three alumni using the form, and we'll try to arrange short meetings during the reception.\nMarco: That's a fantastic opportunity. I'll RSVP today. One last thing, can freshmen attend too, or is it just for upperclassmen?\nOfficer Davis: All students are welcome. In fact, freshmen who start networking early often secure internships sooner. The more you practice, the more comfortable you become.\nMarco: I'll definitely tell my freshman sister. Thanks for all the info.\nOfficer Davis: My pleasure. Don't hesitate to email me if you have questions after reviewing the alumni list.",
+    "speakers": [
+      { "name": "Marco", "role": "junior finance student" },
+      { "name": "Officer Davis", "role": "alumni relations officer" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When and where will the alumni networking reception take place?",
+        "options": [
+          "Friday, November 15 from 6 to 8 PM in the Grand Hall",
+          "Saturday, November 16 from 5 to 7 PM in the Library",
+          "Friday, November 8 from 6 to 8 PM in the Student Center",
+          "Sunday, November 17 from 2 to 4 PM in the Gym"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Officer Davis states the reception is on Friday, November fifteenth, from six to eight PM in the Grand Hall."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many alumni are expected to attend?",
+        "options": ["About twenty", "About thirty", "About forty", "About fifty"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Officer Davis says they expect about forty alumni from various industries."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Which industries are NOT mentioned as represented by alumni?",
+        "options": ["Finance", "Technology", "Healthcare", "Architecture"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "The officer lists finance, tech, healthcare, and nonprofit sectors; architecture is not mentioned."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "When is the alumni attendee list posted on the website?",
+        "options": [
+          "Two weeks before the event",
+          "One week before the event",
+          "The day before the event",
+          "Only at the event itself"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Davis says the list of registered alumni is posted one week before the event."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What information is included in the alumni list?",
+        "options": [
+          "Only their names",
+          "Graduation year, major, and current job title",
+          "Their salaries and contact numbers",
+          "Their home addresses"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The officer says the list includes graduation year, major, and current job title."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does Officer Davis say is the main goal of the event?",
+        "options": [
+          "To collect resumes for immediate hiring",
+          "Relationship building rather than handing out resumes right away",
+          "To raise funds for the alumni association",
+          "To sell tickets to students"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Officer Davis explains the goal is relationship building, and alumni prefer informal chatting before receiving resumes."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the recommended dress code?",
+        "options": ["Formal suit", "Business casual", "Casual with jeans", "Athletic wear"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Davis recommends business casual, noting a full suit is not needed but jeans and sneakers should be avoided."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "By what date must students RSVP?",
+        "options": ["November 1st", "November 8th", "November 15th", "November 20th"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Davis says students must RSVP through the online form by November eighth for catering headcount."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about freshmen attending the event?",
+        "options": [
+          "They are not allowed to attend",
+          "They are welcome and may secure internships sooner by networking early",
+          "They must pay a fee to attend",
+          "They can only speak with other freshmen"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Officer Davis says all students are welcome and freshmen who network early often secure internships sooner."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "How many one-on-one alumni introductions can a student request?",
+        "options": ["One", "Two", "Three", "Unlimited"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Officer Davis explains each student can request one-on-one introductions to up to three alumni using the RSVP form."
+      }
+    ],
+    "keyVocabulary": ["alumni networking", "reception", "RSVP", "business casual", "relationship building", "catering", "headcount", "internship", "one-on-one introduction"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the library about appealing overdue book fines.",
+    "audioScript": "Situation: A student speaks with a library circulation desk supervisor about appealing fines for overdue books.\nSofia: Hi, I have a hold on my account because of overdue fines, and I'd like to appeal them. The total is forty-two dollars, which seems too high.\nSupervisor: I can look into that. Can I see your student ID? Thank you. Let me pull up your record. I see three books were returned late: two were five days overdue, and one was nine days overdue. Our rate is two dollars per day per book.\nSofia: I understand the policy, but the reason they were late is that I was hospitalized unexpectedly for a week. I have a doctor's note I can show you.\nSupervisor: I'm sorry to hear that. Medical emergencies qualify for a fine appeal under our policy. You'll need to fill out the Fine Appeal Form, which you can get at the desk or download from the library website. Attach your documentation, like the doctor's note or hospital admission record.\nSofia: How long does the appeal process take?\nSupervisor: Once submitted, the appeals committee reviews requests within five business days. You'll get an email with the decision. If approved, the fines are waived entirely. If partially approved, you might pay a reduced amount.\nSofia: That's a relief. In the meantime, can I still borrow books while the appeal is pending?\nSupervisor: Unfortunately, no. The hold remains active until the appeal is resolved. However, you can still use the library's online resources, databases, and study rooms. The hold only affects borrowing privileges and interlibrary loan.\nSofia: I see. What if the appeal is denied? Can I appeal again?\nSupervisor: You can submit one appeal per incident. If it's denied, you'd need to pay the fine to lift the hold. However, denials are rare when there's clear medical documentation. I'd say your case looks strong.\nSofia: That's reassuring. One more question: the books themselves were returned in good condition. Will that be considered?\nSupervisor: Yes, the condition of returned materials is part of the review. Since the books are undamaged, that works in your favor. Damaged or lost items would be a separate charge regardless of the appeal outcome.\nSofia: Thank you. I'll fill out the form right now and attach my doctor's note.\nSupervisor: Sounds good. You can submit it here at the desk or upload it through the online portal. Either way works.",
+    "speakers": [
+      { "name": "Sofia", "role": "student" },
+      { "name": "Supervisor", "role": "library circulation supervisor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How much are Sofia's total overdue fines?",
+        "options": ["Twenty dollars", "Thirty-two dollars", "Forty-two dollars", "Fifty dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Sofia states the total is forty-two dollars, which she believes is too high."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many books were returned late, and what was the overdue rate?",
+        "options": [
+          "Two books at three dollars per day",
+          "Three books at two dollars per day per book",
+          "Four books at one dollar per day",
+          "Three books at five dollars per day per book"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The supervisor notes three books were late, two five days overdue and one nine days overdue, at two dollars per day per book."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does Sofia believe the fines should be waived?",
+        "options": [
+          "She never borrowed the books",
+          "She was hospitalized unexpectedly for a week",
+          "The library lost her records",
+          "The books were already on the shelf"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia explains she was hospitalized unexpectedly for a week and has a doctor's note as documentation."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What must Sofia submit to appeal the fines?",
+        "options": [
+          "A petition signed by fifty students",
+          "A Fine Appeal Form with documentation like a doctor's note",
+          "A personal essay of 500 words",
+          "A reference letter from a professor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The supervisor says Sofia must fill out the Fine Appeal Form and attach documentation such as a doctor's note or hospital admission record."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How long does the appeal review process take?",
+        "options": ["Two business days", "Five business days", "Ten business days", "Two weeks"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The supervisor states the appeals committee reviews requests within five business days."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What happens if the appeal is approved?",
+        "options": [
+          "The fines are reduced by half",
+          "The fines are waived entirely",
+          "Sofia must complete community service",
+          "The fines are converted to a loan"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The supervisor says if approved, the fines are waived entirely; if partially approved, she might pay a reduced amount."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Can Sofia borrow books while the appeal is pending?",
+        "options": [
+          "Yes, with no restrictions",
+          "No, the hold remains active, but online resources and study rooms are still accessible",
+          "Yes, but only for three days",
+          "No, and all library access is suspended"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The supervisor says borrowing is not allowed while the hold is active, but online resources, databases, and study rooms remain available."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about the supervisor's view of Sofia's case?",
+        "options": [
+          "She thinks it will be denied",
+          "She believes the case looks strong due to clear medical documentation",
+          "She is indifferent to the outcome",
+          "She thinks Sofia is lying"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The supervisor says denials are rare with clear medical documentation and tells Sofia her case looks strong."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How many appeals can Sofia submit per incident?",
+        "options": ["One", "Two", "Three", "As many as she wants"],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The supervisor explains a student can submit one appeal per incident."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Why does the condition of the returned books matter?",
+        "options": [
+          "It determines the appeal fee",
+          "Undamaged books work in Sofia's favor during the review",
+          "It is irrelevant to the appeal",
+          "Damaged books result in automatic approval"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The supervisor explains that the condition of returned materials is part of the review and undamaged books work in Sofia's favor."
+      }
+    ],
+    "keyVocabulary": ["overdue fines", "appeal", "hold", "circulation desk", "medical emergency", "documentation", "waived", "interlibrary loan", "appeals committee"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation at the student center about training to become a campus tour guide.",
+    "audioScript": "Situation: A student interested in becoming a campus tour guide speaks with the visitor services coordinator about the training program.\nTyler: Hi, I saw the posting for campus tour guide positions. I'd love to apply. Can you tell me what the training involves?\nCoordinator Park: Glad to hear it! Tour guides are a big part of how prospective students experience our campus. The training program runs over two weekends, Saturday and Sunday, for about four hours each day. You'll learn the standard tour route, key facts about campus history, and how to handle common questions from families.\nTyler: That sounds manageable. Is the training paid?\nCoordinator Park: The training itself is unpaid, but once you're certified and start leading tours, you'll be paid fifteen dollars per hour. Most guides lead two to three tours per week, and each tour lasts about ninety minutes.\nTyler: Okay. What happens during the training sessions? Is it mostly lectures?\nCoordinator Park: Not at all. The first weekend is classroom-based where you learn the route and facts. The second weekend is hands-on. You'll shadow an experienced guide on a real tour, then lead a mock tour yourself while we evaluate you. Don't worry, the mock tour is with a small group of staff, not real visitors.\nTyler: That's good to know. What if I don't pass the mock tour evaluation?\nCoordinator Park: If you don't pass on the first try, you get one retake the following week. We want you to succeed. The main things we look for are clear speaking, accurate information, and a friendly, welcoming demeanor. If you miss a few facts, that's fine as long as you know where to find the answer.\nTyler: I like that approach. Are there any requirements to apply?\nCoordinator Park: You need to have completed at least one full semester, have a GPA of 2.5 or above, and be available on weekends during the academic year, since that's when most prospective families visit.\nTyler: I'm a sophomore with a 3.2 GPA, so I meet those. When is the next training session?\nCoordinator Park: The next session starts in three weeks, on October fifth and sixth, then October twelfth and thirteenth. Applications are due by September twenty-fifth. You can apply online through the admissions office portal.\nTyler: I'll submit my application today. Thank you for the detailed explanation.\nCoordinator Park: You're welcome. Being a tour guide is also great for your resume because it builds public speaking and customer service skills.",
+    "speakers": [
+      { "name": "Tyler", "role": "sophomore student" },
+      { "name": "Coordinator Park", "role": "visitor services coordinator" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How long does the tour guide training program last?",
+        "options": [
+          "One weekend, eight hours total",
+          "Two weekends, about four hours each day",
+          "Three weekends, two hours each day",
+          "One full week, five hours each day"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park explains the training runs over two weekends, Saturday and Sunday, about four hours each day."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Is the training period paid?",
+        "options": [
+          "Yes, at fifteen dollars per hour",
+          "No, the training is unpaid but certified guides earn fifteen dollars per hour",
+          "Yes, at minimum wage",
+          "No, guides are entirely volunteer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park says the training is unpaid, but certified guides earn fifteen dollars per hour once leading tours."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How long does each campus tour last?",
+        "options": ["Sixty minutes", "Ninety minutes", "Two hours", "Forty-five minutes"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park states each tour lasts about ninety minutes, with most guides leading two to three per week."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What happens during the first weekend of training?",
+        "options": [
+          "Leading mock tours with real visitors",
+          "Classroom-based learning of the route and facts",
+          "A written exam on campus history",
+          "Shadowing a guide on a real tour"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park explains the first weekend is classroom-based, where trainees learn the route and facts."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What happens during the second weekend of training?",
+        "options": [
+          "More classroom lectures",
+          "Shadowing an experienced guide and leading a mock tour evaluated by staff",
+          "A final written test",
+          "Independent campus exploration"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park says the second weekend is hands-on: trainees shadow an experienced guide, then lead a mock tour evaluated by staff."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What happens if a trainee does not pass the mock tour evaluation?",
+        "options": [
+          "They are immediately disqualified",
+          "They get one retake the following week",
+          "They must wait a full year",
+          "They must pay a retake fee"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park says a trainee who doesn't pass gets one retake the following week, as the program wants them to succeed."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What are the main qualities evaluators look for in the mock tour?",
+        "options": [
+          "Perfect memorization of every fact",
+          "Clear speaking, accurate information, and a friendly demeanor",
+          "Speed of walking the route",
+          "Ability to sell merchandise"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park lists clear speaking, accurate information, and a friendly, welcoming demeanor as the main qualities evaluated."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What are the requirements to apply as a tour guide?",
+        "options": [
+          "Completed one full semester, GPA of 2.5 or above, weekend availability",
+          "Junior standing and a 3.5 GPA",
+          "Previous customer service experience",
+          "A driver's license and a car"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Park states applicants must have completed one full semester, have a GPA of 2.5 or above, and be available on weekends."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about why weekends are important for tour guides?",
+        "options": [
+          "Weekends are when training occurs",
+          "Most prospective families visit on weekends during the academic year",
+          "Weekends are the only paid hours",
+          "Guides prefer weekends for personal reasons"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Coordinator Park explains weekend availability is required because that is when most prospective families visit."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is Coordinator Park's attitude toward being a tour guide?",
+        "options": [
+          "She thinks it is a waste of time",
+          "She is encouraging, noting it builds public speaking and customer service skills",
+          "She is indifferent about the role",
+          "She discourages students from applying"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Coordinator Park is encouraging, telling Tyler that being a tour guide is great for a resume because it builds public speaking and customer service skills."
+      }
+    ],
+    "keyVocabulary": ["campus tour guide", "training program", "shadow", "mock tour", "evaluation", "certified", "GPA", "prospective students", "public speaking"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in an academic office about a student health insurance inquiry.",
+    "audioScript": "Situation: An international graduate student visits the international students office to ask questions about the university's health insurance requirement.\nAria: Hello, I'm an international graduate student starting my program this fall. I received an email saying I'm automatically enrolled in the university health insurance plan, but I have questions about coverage and cost.\nAdvisor Lin: Welcome, Aria. Yes, all international students are automatically enrolled in the Student Health Insurance Plan, or SHIP, each semester. The annual premium for graduate students is two thousand four hundred dollars, which is billed to your student account in two installments, one per semester.\nAria: That's a significant cost. What does the plan actually cover?\nAdvisor Lin: SHIP covers hospitalization, emergency room visits, specialist consultations, prescription medications, and mental health services. There's also a wellness benefit that covers one annual physical exam and routine vaccinations at no additional cost. The plan uses a network of providers, so staying in-network keeps your out-of-pocket costs low.\nAria: What if I already have insurance through my spouse's employer? Can I waive SHIP?\nAdvisor Lin: You can request a waiver, but your alternative plan must meet our coverage standards. It must cover pre-existing conditions without exclusion, include mental health benefits, provide at least one hundred thousand dollars in coverage per illness or injury, and include repatriation and medical evacuation benefits, which are especially important for international students.\nAria: My spouse's plan covers most of that, but I'm not sure about repatriation. What is that exactly?\nAdvisor Lin: Repatriation covers the cost of returning your remains to your home country in the unlikely event of death, and medical evacuation covers transportation to a hospital in your home country if you need specialized care. These benefits are mandatory for international students under university policy.\nAria: I see. What's the deadline to submit a waiver request?\nAdvisor Lin: The waiver deadline is September fifteenth for the fall semester. You submit an online application with a copy of your insurance policy and a completed coverage comparison form. The review takes about ten business days. If approved, the charge is removed from your account.\nAria: And if it's denied?\nAdvisor Lin: If denied, you'll receive an email explaining which requirement wasn't met. You can appeal once within five business days by providing additional documentation. If the appeal is also denied, you must remain enrolled in SHIP for the semester.\nAria: I'll check with my spouse's HR department about repatriation coverage. Thank you for the clear explanation.\nAdvisor Lin: Of course. I'd also recommend attending our insurance information session next Thursday at three PM in this office. We go over all the details and answer questions.",
+    "speakers": [
+      { "name": "Aria", "role": "international graduate student" },
+      { "name": "Advisor Lin", "role": "international student advisor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the annual premium for graduate students under SHIP?",
+        "options": ["One thousand two hundred dollars", "Two thousand dollars", "Two thousand four hundred dollars", "Three thousand dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin states the annual premium for graduate students is two thousand four hundred dollars, billed in two installments."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How is the SHIP premium billed?",
+        "options": [
+          "In one lump sum per year",
+          "In two installments, one per semester",
+          "Monthly over twelve months",
+          "Only at graduation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin explains the premium is billed to the student account in two installments, one per semester."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Which of the following is covered by SHIP at no additional cost?",
+        "options": [
+          "Cosmetic surgery",
+          "Dental braces",
+          "One annual physical exam and routine vaccinations",
+          "Vision correction surgery"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin mentions a wellness benefit covering one annual physical exam and routine vaccinations at no additional cost."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How can students keep out-of-pocket costs low under SHIP?",
+        "options": [
+          "By paying the premium early",
+          "By staying in-network providers",
+          "By using the campus gym",
+          "By waiving prescription coverage"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin says the plan uses a network of providers, so staying in-network keeps out-of-pocket costs low."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What must an alternative insurance plan include for a waiver to be approved?",
+        "options": [
+          "Only emergency coverage",
+          "Coverage of pre-existing conditions, mental health benefits, at least $100,000 per illness, and repatriation and medical evacuation",
+          "A lower premium than SHIP",
+          "Coverage only within the United States"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin lists several requirements including pre-existing conditions, mental health, at least one hundred thousand dollars per illness, and repatriation and medical evacuation."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does repatriation coverage refer to?",
+        "options": [
+          "Returning to campus after a leave",
+          "Covering the cost of returning remains to the home country in case of death",
+          "Repaying student loans early",
+          "Transferring credits between universities"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin explains repatriation covers the cost of returning remains to the home country in the unlikely event of death."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the deadline to submit a waiver request for the fall semester?",
+        "options": ["August 15th", "September 1st", "September 15th", "October 1st"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin states the waiver deadline is September fifteenth for the fall semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How long does the waiver review process take?",
+        "options": ["Five business days", "Ten business days", "Two weeks", "One month"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Lin says the review takes about ten business days, after which the charge is removed if approved."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about Aria's next steps?",
+        "options": [
+          "She will immediately cancel SHIP",
+          "She plans to check with her spouse's HR department about repatriation coverage",
+          "She will pay the full premium without question",
+          "She intends to leave the university"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Aria says she will check with her spouse's HR department about repatriation coverage, suggesting she is exploring a possible waiver."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Advisor Lin recommend Aria attend?",
+        "options": [
+          "A hospital tour",
+          "An insurance information session next Thursday at 3 PM",
+          "A mental health workshop",
+          "A freshman orientation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Advisor Lin recommends attending the insurance information session next Thursday at three PM in the office for full details."
+      }
+    ],
+    "keyVocabulary": ["health insurance", "premium", "SHIP", "coverage", "waiver", "repatriation", "medical evacuation", "in-network", "pre-existing conditions", "installment"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in an academic office about a student on academic probation.",
+    "audioScript": "Situation: A student who has been placed on academic probation meets with an academic success advisor to discuss a recovery plan.\nAdvisor Reed: Have a seat, Jordan. I asked you to come in because your GPA fell to 1.8 this past semester, which places you on academic probation. I want to talk about what happened and how we can get you back on track.\nJordan: I know. I struggled a lot last semester. I was working thirty hours a week at my job, and I fell behind in two of my classes. I didn't use the tutoring center, and honestly, I was too embarrassed to ask for help.\nAdvisor Reed: I appreciate your honesty. Academic probation isn't the end, it's a signal that we need to make changes. First, let's talk about your workload. Working thirty hours a week while taking a full course load is very demanding. Have you considered reducing your hours?\nJordan: I need the income for tuition. But maybe I could cut back to twenty hours and take out a small student loan to cover the difference.\nAdvisor Reed: That's a reasonable option. Now, regarding your academics, the university requires you to meet with me biweekly for the rest of this semester. We'll monitor your grades and attendance. You're also required to attend at least two tutoring sessions per week at the Academic Success Center.\nJordan: Two sessions a week. I can do that. What happens if my GPA doesn't improve this semester?\nAdvisor Reed: If your GPA remains below 2.0 for a second consecutive semester, you'll be placed on continued probation. A third consecutive semester below 2.0 can result in academic suspension, which means you'd have to leave the university for at least one semester.\nJordan: That sounds serious. I definitely don't want that to happen. What about my financial aid?\nAdvisor Reed: That's an important question. Probation itself doesn't immediately cancel your aid, but you must meet Satisfactory Academic Progress, or SAP, standards. That means maintaining a 2.0 cumulative GPA and completing at least 67 percent of your attempted credits. Falling short could affect your aid eligibility, so improving quickly is essential.\nJordan: I understand. I'll reduce my work hours, attend tutoring, and meet with you regularly. Is there anything else I should do?\nAdvisor Reed: Yes. I'd strongly recommend taking a study skills workshop offered by the Success Center. It covers time management, note-taking, and exam preparation strategies. The next one is next Tuesday at one PM. Also, communicate with your professors. Let them know you're working to improve and ask for feedback early.\nJordan: I'll sign up for the workshop today. Thank you for not giving up on me.\nAdvisor Reed: That's what we're here for. Your success is our priority, and I'm confident that with these changes, you can turn things around this semester.",
+    "speakers": [
+      { "name": "Jordan", "role": "student on academic probation" },
+      { "name": "Advisor Reed", "role": "academic success advisor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What was Jordan's GPA last semester?",
+        "options": ["1.5", "1.8", "2.0", "2.2"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Reed states Jordan's GPA fell to 1.8 this past semester, placing him on academic probation."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does Jordan identify as the main reasons for his academic struggles?",
+        "options": [
+          "Family problems and illness",
+          "Working thirty hours a week and not using the tutoring center",
+          "A difficult roommate and noisy dorm",
+          "Too many social activities"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jordan explains he was working thirty hours a week, fell behind in two classes, and didn't use the tutoring center due to embarrassment."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does Jordan propose to address his income concerns?",
+        "options": [
+          "Working forty hours a week",
+          "Cutting back to twenty hours and taking out a small student loan",
+          "Dropping all his courses",
+          "Applying for a second job"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jordan suggests cutting back to twenty hours of work and taking out a small student loan to cover the difference."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How often must Jordan meet with Advisor Reed during the current semester?",
+        "options": ["Weekly", "Biweekly", "Monthly", "Only once"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Reed states the university requires Jordan to meet biweekly for the rest of the semester to monitor grades and attendance."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many tutoring sessions per week is Jordan required to attend?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Reed requires Jordan to attend at least two tutoring sessions per week at the Academic Success Center."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What happens if Jordan's GPA remains below 2.0 for a third consecutive semester?",
+        "options": [
+          "Nothing happens",
+          "He is placed on the dean's list",
+          "He may face academic suspension for at least one semester",
+          "He automatically graduates"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Reed explains a third consecutive semester below 2.0 can result in academic suspension, requiring Jordan to leave for at least one semester."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does SAP require students to maintain?",
+        "options": [
+          "A 3.0 GPA and 100 percent credit completion",
+          "A 2.0 cumulative GPA and completion of at least 67 percent of attempted credits",
+          "A 2.5 GPA and 80 percent credit completion",
+          "A 1.5 GPA and 50 percent credit completion"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Reed explains SAP requires a 2.0 cumulative GPA and completion of at least 67 percent of attempted credits."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about the effect of probation on Jordan's financial aid?",
+        "options": [
+          "Aid is immediately canceled upon probation",
+          "Probation doesn't immediately cancel aid, but failing SAP standards could affect eligibility",
+          "Aid is increased to help struggling students",
+          "Aid is unaffected regardless of GPA"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Advisor Reed says probation itself doesn't immediately cancel aid, but falling short of SAP standards could affect aid eligibility."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Advisor Reed strongly recommend Jordan attend?",
+        "options": [
+          "A career fair",
+          "A study skills workshop at the Success Center next Tuesday at 1 PM",
+          "A sports event",
+          "A club recruitment event"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Advisor Reed strongly recommends the study skills workshop covering time management, note-taking, and exam prep, next Tuesday at one PM."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is Advisor Reed's overall attitude toward Jordan's situation?",
+        "options": [
+          "Dismissive and unconcerned",
+          "Supportive and optimistic that changes can turn things around",
+          "Angry and punitive",
+          "Indifferent and detached"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Advisor Reed is supportive, telling Jordan that probation is a signal to make changes and expressing confidence that with these changes Jordan can turn things around."
+      }
+    ],
+    "keyVocabulary": ["academic probation", "GPA", "tutoring", "academic suspension", "Satisfactory Academic Progress", "SAP", "financial aid", "study skills", "biweekly", "credit completion"]
+  }
+]

@@ -1,0 +1,871 @@
+[
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation between a graduate student and her thesis advisor about preparing for an upcoming thesis defense.",
+    "audioScript": "Situation: A doctoral student meets with her thesis committee chair to discuss preparation strategies for her upcoming thesis defense.\nDr. Okafor: Come in, Maria. Let's talk about your defense, which is now six weeks away. I've read through the latest draft of your dissertation, and I want to walk you through what to expect and how to prepare.\nMaria: Thank you, Dr. Okafor. I'm feeling a mix of excitement and anxiety. I've never defended before, so I'm not entirely sure how the process works.\nDr. Okafor: That's completely normal. Let me outline the structure. The defense lasts about ninety minutes. You'll begin with a twenty-minute presentation summarizing your research question, methodology, key findings, and contributions. After that, each committee member will question you for roughly fifteen minutes. Finally, there will be a general discussion period.\nMaria: Twenty minutes seems short for four years of work. Should I focus on the most important findings?\nDr. Okafor: Exactly. Don't try to cover everything. Focus on your central argument, the two or three strongest pieces of evidence, and the broader significance. I always tell my students to practice the presentation at least eight times aloud, timing themselves strictly. Going over twenty minutes is a common and costly mistake.\nMaria: I'll start timing myself this week. What about the questioning? How should I prepare for that?\nDr. Okafor: The best preparation is a mock defense. I'd like to schedule one for two weeks before your actual defense. Your full committee won't be there, but I'll invite two colleagues from the department to ask tough questions. Treat it as the real thing.\nMaria: That sounds intimidating but helpful. What if I don't know the answer to a question during the actual defense?\nDr. Okafor: Honest acknowledgment is far better than guessing. If you don't know, say something like, 'That's an excellent question. I haven't explored that angle, but it would be a productive direction for future research.' Committee members respect intellectual honesty. What they don't respect is someone who fabricates an answer.\nMaria: That's reassuring. I've also heard that committees sometimes ask you to defend your methodology choices aggressively.\nDr. Okafor: They do, and yours will too, because your qualitative approach is somewhat unconventional for this department. Be ready to justify why you chose interviews over surveys, and why twenty participants is sufficient for your research design. Review your methodology chapter thoroughly and have three or four strong rationales memorized.\nMaria: I'll prepare those. One last question. What happens after the questioning ends?\nDr. Okafor: You'll be asked to step out of the room while the committee deliberates. This usually takes about fifteen minutes. Then they'll invite you back and inform you of the outcome. Most students pass, sometimes with revisions. If revisions are required, I'll help you manage that timeline. Don't panic if they ask for changes. It's very common and part of the process.\nMaria: Thank you, Dr. Okafor. I feel much more prepared now. I'll start practicing the presentation tomorrow.",
+    "speakers": [
+      { "name": "Dr. Okafor", "role": "thesis committee chair" },
+      { "name": "Maria", "role": "doctoral student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How far away is Maria's thesis defense?",
+        "options": ["Two weeks", "Four weeks", "Six weeks", "Eight weeks"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor states at the beginning that the defense is now six weeks away."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long is the entire defense expected to last?",
+        "options": ["Sixty minutes", "Ninety minutes", "Two hours", "Three hours"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor says the defense lasts about ninety minutes in total."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How long is the student's opening presentation?",
+        "options": ["Ten minutes", "Fifteen minutes", "Twenty minutes", "Thirty minutes"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor explains that the presentation portion is twenty minutes long."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many times does Dr. Okafor recommend practicing the presentation aloud?",
+        "options": ["At least three times", "At least five times", "At least eight times", "At least ten times"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor tells Maria to practice the presentation at least eight times aloud while timing herself strictly."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "When is the mock defense scheduled to take place?",
+        "options": ["One week before the defense", "Two weeks before the defense", "Three weeks before the defense", "The day before the defense"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor proposes scheduling the mock defense for two weeks before the actual defense."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does Dr. Okafor advise Maria to do if she doesn't know an answer during the defense?",
+        "options": [
+          "Guess confidently to avoid silence",
+          "Acknowledge honestly and suggest it as a direction for future research",
+          "Ask the committee member to rephrase the question",
+          "Redirect to a topic she knows well"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor says honest acknowledgment is better than guessing and suggests saying it would be a productive direction for future research."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why will the committee question Maria's methodology aggressively?",
+        "options": [
+          "Her sample size is too large",
+          "Her qualitative approach is somewhat unconventional for the department",
+          "She used an outdated statistical model",
+          "She failed to get ethics approval"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Okafor notes that her qualitative approach is somewhat unconventional for this department, so the committee will press her on it."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How many participants did Maria use in her study?",
+        "options": ["Fifteen", "Twenty", "Twenty-five", "Thirty"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor mentions that Maria should be ready to justify why twenty participants is sufficient for her research design."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What happens after the questioning ends?",
+        "options": [
+          "The student leaves immediately with the result",
+          "The student steps out while the committee deliberates for about fifteen minutes",
+          "The committee votes publicly in front of the student",
+          "The defense is rescheduled for another day"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor explains that the student is asked to step out while the committee deliberates for about fifteen minutes before being called back for the outcome."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Revising a dissertation draft for publication",
+          "Preparing for a thesis defense, including structure, questioning, and outcomes",
+          "Choosing a new dissertation topic",
+          "Applying for a postdoctoral fellowship"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The entire conversation focuses on how to prepare for Maria's upcoming thesis defense, covering the structure, presentation, questioning, mock defense, and possible outcomes."
+      }
+    ],
+    "keyVocabulary": ["thesis defense", "dissertation", "methodology", "mock defense", "committee deliberation", "qualitative approach", "intellectual honesty", "revisions"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a workshop where a research grants officer explains the fundamentals of writing a competitive grant proposal.",
+    "audioScript": "Situation: A university research grants officer leads a workshop for junior faculty and postdoctoral researchers on how to write a competitive federal grant proposal.\nDr. Chen: Welcome, everyone. I'm Dr. Chen from the Office of Research Support. Today's workshop covers the essentials of writing a competitive grant proposal for the National Science Foundation. Whether you're applying for the first time or you've had a few rejections, the principles I'll share apply across federal funding agencies.\nDr. Chen: The single most common reason proposals get rejected is that the broader impacts section is treated as an afterthought. Reviewers want to see a genuine, feasible plan for how your research benefits society. It's not enough to say you'll mentor undergraduates. You need specifics: how many, from what backgrounds, and what outcomes you'll measure.\nPostdoc: How detailed should the budget be? I've heard conflicting advice.\nDr. Chen: Excellent question. The budget should be detailed enough to show you understand the real costs of your project, but not so granular that it looks like you're padding. A common mistake is underbudgeting for personnel. If you need a graduate student for two years, calculate the stipend, tuition remission, and fringe benefits. Many first-time applicants forget fringe benefits, which can add thirty percent to the personnel cost.\nPostdoc: What about the project summary? Is it really that important?\nDr. Chen: It's critically important. The project summary is the first thing every reviewer reads, and some reviewers form their initial impression entirely from it. You have two hundred and fifty words. Use them wisely. State the problem, your approach, and the expected outcomes clearly. Avoid jargon in the summary because not every reviewer will be in your exact subfield.\nPostdoc: How does the review process actually work?\nDr. Chen: Your proposal is typically assigned to three reviewers. Each writes an individual review, then they meet as a panel to discuss and rank proposals. The panel ranks proposals using three criteria: intellectual merit, broader impacts, and feasibility. A proposal can have strong intellectual merit but still be rejected if the feasibility section is weak. For example, if your timeline shows you completing data collection in six months but similar studies take two years, reviewers will flag that.\nPostdoc: Should I contact a program officer before submitting?\nDr. Chen: Absolutely, yes. I cannot stress this enough. A brief email to the program officer, describing your idea in two or three sentences, can save you weeks of wasted effort. They'll tell you if your project fits the current funding priorities. Some program officers will even read a one-page summary and give informal feedback. That feedback is invaluable.",
+    "speakers": [
+      { "name": "Dr. Chen", "role": "research grants officer" },
+      { "name": "Postdoc", "role": "postdoctoral researcher" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the most common reason grant proposals get rejected?",
+        "options": [
+          "The budget is too high",
+          "The broader impacts section is treated as an afterthought",
+          "The proposal is too short",
+          "The applicant lacks a PhD"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen states the single most common reason for rejection is that the broader impacts section is treated as an afterthought."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does Dr. Chen say about mentoring undergraduates in the broader impacts section?",
+        "options": [
+          "It is never sufficient",
+          "You need specifics like how many, from what backgrounds, and what outcomes you'll measure",
+          "It should be mentioned only briefly",
+          "It is the most important part of the proposal"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen says it's not enough to say you'll mentor undergraduates. You need specifics: how many, from what backgrounds, and what outcomes you'll measure."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is a common budgeting mistake for first-time applicants?",
+        "options": [
+          "Overbudgeting for equipment",
+          "Forgetting fringe benefits, which can add thirty percent to personnel cost",
+          "Requesting too much travel funding",
+          "Not including indirect costs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen explains that many first-time applicants forget fringe benefits, which can add thirty percent to the personnel cost."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many words are allowed in the project summary?",
+        "options": ["One hundred words", "Two hundred words", "Two hundred and fifty words", "Five hundred words"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen states the project summary has a limit of two hundred and fifty words."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why does Dr. Chen advise avoiding jargon in the project summary?",
+        "options": [
+          "Jargon is unprofessional",
+          "Not every reviewer will be in your exact subfield",
+          "The summary is read by the general public",
+          "Jargon increases the word count unnecessarily"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Chen says to avoid jargon because not every reviewer will be in your exact subfield, so clarity is essential."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How many reviewers are typically assigned to a proposal?",
+        "options": ["One", "Two", "Three", "Five"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen explains that a proposal is typically assigned to three reviewers."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What are the three criteria the panel uses to rank proposals?",
+        "options": [
+          "Originality, cost, and team size",
+          "Intellectual merit, broader impacts, and feasibility",
+          "Innovation, budget, and timeline",
+          "Publications, references, and institutional support"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen states the panel ranks proposals using three criteria: intellectual merit, broader impacts, and feasibility."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What example does Dr. Chen give of a weak feasibility section?",
+        "options": [
+          "Not citing enough prior literature",
+          "A timeline showing six months for data collection when similar studies take two years",
+          "Requesting too little funding",
+          "Having too many collaborators"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen gives the example of a timeline showing data collection in six months when similar studies take two years, which reviewers would flag."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Dr. Chen recommend doing before submitting a proposal?",
+        "options": [
+          "Hiring a professional grant writer",
+          "Contacting a program officer with a brief email describing your idea",
+          "Submitting a practice proposal first",
+          "Asking colleagues to vote on the topic"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Dr. Chen strongly recommends contacting the program officer with a brief email describing the idea to check if it fits current funding priorities."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the workshop?",
+        "options": [
+          "How to choose a research topic for a dissertation",
+          "How to write a competitive federal grant proposal",
+          "How to manage a research lab budget",
+          "How to publish in top journals"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The workshop covers essential elements of writing a competitive grant proposal, including broader impacts, budgets, project summaries, the review process, and contacting program officers."
+      }
+    ],
+    "keyVocabulary": ["grant proposal", "broader impacts", "fringe benefits", "project summary", "intellectual merit", "feasibility", "program officer", "funding priorities", "review panel"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation between a journal editor and a new peer reviewer about the publication peer review process.",
+    "audioScript": "Situation: A senior journal editor meets with a newly recruited peer reviewer to explain the expectations and process for reviewing academic manuscripts.\nDr. Wallace: Welcome, Dr. Patel. Thank you for agreeing to serve as a peer reviewer for the Journal of Applied Linguistics. I wanted to meet with you personally because this is your first review assignment, and I want to make sure you understand both the process and the standards we expect.\nDr. Patel: I'm honored to be invited. I've published in the journal twice, but I've never been on the reviewing side. I want to make sure I do a thorough job.\nDr. Wallace: That's exactly the right attitude. Let me walk you through the timeline. You'll have three weeks from today to complete your review. The manuscript is about eight thousand words. We ask that you provide both a brief recommendation and detailed comments. The recommendation is confidential, seen only by the editorial team. The detailed comments are shared with the author, but your identity remains anonymous.\nDr. Patel: What recommendation categories can I choose from?\nDr. Wallace: There are four: accept without revision, accept with minor revision, accept with major revision, or reject. I should tell you that 'accept without revision' is extremely rare. In my fifteen years as editor, fewer than two percent of manuscripts receive that rating. Most fall into minor or major revision.\nDr. Patel: How should I structure my detailed comments?\nDr. Wallace: I recommend organizing them into two sections. The first section should address major issues: methodology flaws, gaps in the literature review, unclear research questions, or unsupported conclusions. The second section covers minor issues: typos, formatting, citation errors. This structure helps authors prioritize their revisions.\nDr. Patel: What about tone? I've seen some reviews that are quite harsh.\nDr. Wallace: That's an important point. We expect reviews to be constructive and professional. Critique the work, not the person. A good rule is to frame every criticism as an opportunity for improvement. Instead of writing 'This analysis is wrong,' write 'The analysis would be strengthened by considering an alternative explanation.' The goal is to help the author produce the best possible version of their work.\nDr. Patel: That makes sense. What if I find a conflict of interest? I recognized one of the cited authors as a former collaborator.\nDr. Wallace: Thank you for mentioning that. If you have any conflict of interest, whether personal, financial, or professional, you must disclose it immediately. In this case, merely citing a former collaborator is not necessarily a conflict, but if you feel you cannot be objective, we'll reassign the manuscript. There's no penalty for declining a review.\nDr. Patel: I think I can be objective in this case. One more question: how long should my review be?\nDr. Wallace: There's no strict word count, but a thorough review is typically between eight hundred and fifteen hundred words. Quality matters more than quantity, but a one-paragraph review is not acceptable. If you have any questions during the process, don't hesitate to email me.",
+    "speakers": [
+      { "name": "Dr. Wallace", "role": "journal editor" },
+      { "name": "Dr. Patel", "role": "new peer reviewer" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How long does Dr. Patel have to complete the review?",
+        "options": ["One week", "Two weeks", "Three weeks", "Four weeks"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace states that Dr. Patel will have three weeks from the meeting date to complete the review."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Approximately how long is the manuscript being reviewed?",
+        "options": ["Five thousand words", "Six thousand words", "Eight thousand words", "Ten thousand words"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace mentions the manuscript is about eight thousand words long."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who sees the detailed comments Dr. Patel writes?",
+        "options": [
+          "Only the editorial team",
+          "The author, but the reviewer's identity remains anonymous",
+          "The entire academic community",
+          "Only the other reviewers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace explains that the detailed comments are shared with the author, but the reviewer's identity remains anonymous."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many recommendation categories are available?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace lists four categories: accept without revision, accept with minor revision, accept with major revision, or reject."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What percentage of manuscripts receive 'accept without revision'?",
+        "options": ["Fewer than one percent", "Fewer than two percent", "About five percent", "About ten percent"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace states that in his fifteen years as editor, fewer than two percent of manuscripts receive an 'accept without revision' rating."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does Dr. Wallace recommend structuring the detailed comments?",
+        "options": [
+          "A single paragraph summarizing overall impressions",
+          "Two sections: major issues first, then minor issues",
+          "Chronologically through the manuscript",
+          "By reviewer preference with no set structure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace recommends organizing comments into two sections: the first addressing major issues and the second covering minor issues, to help authors prioritize."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What example does Dr. Wallace give of constructive criticism?",
+        "options": [
+          "'This analysis is wrong'",
+          "'The analysis would be strengthened by considering an alternative explanation'",
+          "'The author clearly lacks expertise'",
+          "'This section should be deleted entirely'"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace suggests writing 'The analysis would be strengthened by considering an alternative explanation' instead of 'This analysis is wrong.'"
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What should Dr. Patel do if she discovers a conflict of interest?",
+        "options": [
+          "Continue reviewing but note it in the comments",
+          "Disclose it immediately, and there is no penalty for declining a review",
+          "Contact the author directly",
+          "Wait until the review is submitted to mention it"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Wallace says any conflict of interest must be disclosed immediately and that there is no penalty for declining a review if she cannot be objective."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the typical length of a thorough review?",
+        "options": ["Three hundred to six hundred words", "Five hundred to one thousand words", "Eight hundred to fifteen hundred words", "Two thousand to three thousand words"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Wallace states that a thorough review is typically between eight hundred and fifteen hundred words."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "How to submit a manuscript to a journal",
+          "The expectations and process for peer reviewing an academic manuscript",
+          "How to negotiate publication fees",
+          "How to respond to reviewer comments as an author"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers the peer review process from a reviewer's perspective, including timelines, recommendation categories, comment structure, tone, conflicts of interest, and review length."
+      }
+    ],
+    "keyVocabulary": ["peer review", "manuscript", "confidential", "anonymous", "minor revision", "major revision", "constructive criticism", "conflict of interest", "editorial team"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a training session where a lab manager instructs a new researcher on using the centrifuge and spectrophotometer safely.",
+    "audioScript": "Situation: A laboratory manager trains a newly hired research assistant on the safe operation of key lab equipment, including a centrifuge and a spectrophotometer.\nMr. Brooks: Good morning, Dana. Welcome to the lab. Before you begin any experiments, I need to walk you through the proper use of two instruments you'll be working with daily: the centrifuge and the spectrophotometer. Safety and accuracy come first.\nDana: Good morning, Mr. Brooks. I've used a centrifuge in my undergraduate classes, but it was a much smaller model. This one looks more complex.\nMr. Brooks: The principles are the same, but the stakes are higher with a high-speed centrifuge. The most important rule is balance. Before every run, you must balance your tubes by weight, not just by volume. Two tubes that look equal in volume can differ in weight if the liquid densities are different. An unbalanced rotor can vibrate violently and even break apart at high speeds.\nDana: That sounds dangerous. How do I balance them properly?\nMr. Brooks: Use the analytical balance next to the centrifuge. Place each tube on the balance and record the weight. If you have an odd number of tubes, fill a spare tube with water to match the weight of your sample tube, and place it directly opposite in the rotor. Always record the weight in the logbook.\nDana: Got it. What speed should I use?\nMr. Brooks: That depends on your protocol, but never exceed the maximum speed rating for the rotor, which is posted on the centrifuge lid. This rotor's maximum is fifteen thousand revolutions per minute. If you need higher speeds, come talk to me, and I'll help you switch to a different rotor.\nDana: Understood. What about the spectrophotometer?\nMr. Brooks: The spectrophotometer measures how much light a sample absorbs at a specific wavelength. Before taking any readings, you must calibrate it using a blank, which is a cuvette filled with just the solvent, no sample. Place the blank in the holder, close the lid, and press the zero button. This sets the baseline absorbance to zero.\nDana: What if I forget to calibrate?\nMr. Brooks: Your readings will be inaccurate because the machine will include the absorbance of the solvent itself. Always calibrate before each session and whenever you change the wavelength. Also, never touch the clear sides of the cuvette with your fingers, because fingerprints scatter light and affect the reading. Hold cuvettes by the frosted sides only.\nDana: That's a good tip. I wouldn't have thought about fingerprints. What do I do if I notice the centrifuge vibrating during a run?\nMr. Brooks: Stop it immediately. Press the stop button, wait for the rotor to come to a complete halt, and then check the balance. Never open the lid while the rotor is still spinning. If the vibration persists after rebalancing, label the machine as out of service and notify me right away. We have a backup centrifuge in room two-oh-four.\nDana: Thank you, Mr. Brooks. I'll make sure to follow all of these procedures carefully.",
+    "speakers": [
+      { "name": "Mr. Brooks", "role": "laboratory manager" },
+      { "name": "Dana", "role": "new research assistant" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What two instruments is Dana being trained on?",
+        "options": [
+          "A microscope and a pipette",
+          "A centrifuge and a spectrophotometer",
+          "An incubator and a centrifuge",
+          "A spectrophotometer and a microscope"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks states he will walk Dana through the proper use of a centrifuge and a spectrophotometer."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the most important rule when using the centrifuge?",
+        "options": [
+          "Always use the maximum speed",
+          "Balance the tubes by weight, not just by volume",
+          "Keep the lid open during operation",
+          "Fill tubes to the very top"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks emphasizes that the most important rule is to balance tubes by weight, not just by volume, because different liquid densities can cause weight differences."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why can two tubes with equal volume still be unbalanced?",
+        "options": [
+          "The centrifuge is old and unreliable",
+          "Liquid densities can differ, causing weight differences",
+          "The tubes are made of different materials",
+          "The rotor spins unevenly over time"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Mr. Brooks explains that two tubes with equal volume can differ in weight if the liquid densities are different."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What should Dana do if she has an odd number of tubes?",
+        "options": [
+          "Run the centrifuge with an unbalanced rotor",
+          "Fill a spare tube with water to match the weight and place it opposite",
+          "Remove one sample and run it separately later",
+          "Use a smaller centrifuge instead"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks instructs Dana to fill a spare tube with water to match the weight of the sample tube and place it directly opposite in the rotor."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the maximum speed rating for this centrifuge rotor?",
+        "options": ["Ten thousand RPM", "Twelve thousand RPM", "Fifteen thousand RPM", "Twenty thousand RPM"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks states that this rotor's maximum is fifteen thousand revolutions per minute, as posted on the centrifuge lid."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the purpose of the blank in spectrophotometer calibration?",
+        "options": [
+          "To measure the sample concentration",
+          "To set the baseline absorbance to zero using only the solvent",
+          "To clean the cuvette holder",
+          "To test the lamp brightness"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Mr. Brooks explains that the blank, a cuvette filled with just the solvent, is used to calibrate the machine by setting the baseline absorbance to zero."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What happens if Dana forgets to calibrate the spectrophotometer?",
+        "options": [
+          "The machine will shut down automatically",
+          "Readings will be inaccurate because the machine includes the solvent's absorbance",
+          "No effect, calibration is optional",
+          "The wavelength will change on its own"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks warns that without calibration, readings will be inaccurate because the machine will include the absorbance of the solvent itself."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why should Dana never touch the clear sides of the cuvette?",
+        "options": [
+          "The glass is fragile and may crack",
+          "Fingerprints scatter light and affect the reading",
+          "The cuvette is too hot to touch",
+          "It contaminates the sample chemically"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks explains that fingerprints scatter light and affect the reading, so Dana should hold cuvettes by the frosted sides only."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What should Dana do if the centrifuge vibrates during a run?",
+        "options": [
+          "Wait for the cycle to finish, then check",
+          "Stop it immediately, wait for the rotor to halt, and check the balance",
+          "Open the lid and adjust the tubes while spinning",
+          "Increase the speed to stabilize it"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brooks instructs Dana to press the stop button immediately, wait for the rotor to come to a complete halt, and then check the balance. She should never open the lid while the rotor is spinning."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the training session?",
+        "options": [
+          "Designing a new laboratory experiment",
+          "Safe and proper operation of a centrifuge and a spectrophotometer",
+          "Ordering laboratory supplies",
+          "Writing a lab safety report"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation is a training session covering the safe and accurate use of a centrifuge and a spectrophotometer, including balancing, calibration, and emergency procedures."
+      }
+    ],
+    "keyVocabulary": ["centrifuge", "spectrophotometer", "balance", "rotor", "calibrate", "blank", "absorbance", "cuvette", "revolutions per minute"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a fieldwork safety briefing where a geography professor prepares students for a field research trip.",
+    "audioScript": "Situation: A geography professor conducts a safety briefing for undergraduate students preparing for a weekend fieldwork trip to a coastal research site.\nProfessor Diaz: Alright, everyone, gather round. Our fieldwork trip to the Mendocino coastal site is this Saturday. Before we go, I need to cover essential safety procedures. This is mandatory, so listen carefully.\nProfessor Diaz: The coastal site has steep cliffs and tidal zones. The most significant hazard is the cliff edge. Every year, there are incidents nationally where students get too close to cliff edges for photos or measurements and the ground gives way. Our rule is simple: stay at least three meters from any cliff edge at all times. No exceptions, not even for a photograph.\nLeo: What about the tidal zones? I know we'll be collecting water samples there.\nProfessor Diaz: Good question. The tides at Mendocino change quickly. We've checked the tide tables, and low tide is at seven in the morning. We'll do our tidal sampling between seven and nine, when the water is retreating. By ten, the tide begins to come back in. Never turn your back on the ocean, and watch for what are called sneaker waves, which are unexpectedly large waves that can sweep you off rocks.\nLeo: I didn't know about sneaker waves. How common are they?\nProfessor Diaz: They're unpredictable, which is why we treat every wave as a potential hazard. The key is to stay on dry sand and rocks that have been dry for at least several minutes. If you see water reaching a spot where you're standing, move to higher ground immediately.\nMaya: What should we wear? I have rain boots, but I'm not sure if they're suitable.\nProfessor Diaz: Rain boots are not sufficient. You need closed-toe shoes with grip, ideally hiking boots or wading shoes with non-slip soles. The rocks in the tidal zone are covered in algae and are extremely slippery. In addition, bring layers. The coast can be foggy and cold in the morning, then sunny by noon. A windproof outer layer is essential.\nMaya: Should we bring anything for emergencies?\nProfessor Diaz: Each team will carry a basic first aid kit, which I'll distribute on Saturday morning. You should also bring at least two liters of water per person and sunscreen. There is no potable water at the site. Cell phone coverage is spotty, so you'll work in buddy pairs at all times. If your partner is injured, stay with them and send another team member to find me. I'll be stationed at the main trailhead with a satellite phone.\nLeo: What's the plan if the weather turns bad?\nProfessor Diaz: If there's heavy rain or a storm warning, we'll cancel the trip and reschedule. I'll make the call by six in the morning on Saturday and send a group text. Light rain is fine, but lightning or high winds are absolute deal-breakers. Safety always comes first, and no data is worth a preventable injury.",
+    "speakers": [
+      { "name": "Professor Diaz", "role": "geography professor" },
+      { "name": "Leo", "role": "student" },
+      { "name": "Maya", "role": "student" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When is the fieldwork trip scheduled?",
+        "options": ["This Friday", "This Saturday", "Next Monday", "Next weekend"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz states that the fieldwork trip to the Mendocino coastal site is this Saturday."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the minimum distance students must keep from any cliff edge?",
+        "options": ["One meter", "Two meters", "Three meters", "Five meters"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz states the rule is to stay at least three meters from any cliff edge at all times, with no exceptions."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What time is low tide at the Mendocino site?",
+        "options": ["Five in the morning", "Six in the morning", "Seven in the morning", "Nine in the morning"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz says the tide tables show low tide is at seven in the morning."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "During which time window will tidal sampling take place?",
+        "options": ["Six to eight in the morning", "Seven to nine in the morning", "Eight to ten in the morning", "Nine to eleven in the morning"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz says they'll do tidal sampling between seven and nine in the morning, when the water is retreating."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What are sneaker waves?",
+        "options": [
+          "Small waves that occur during low tide",
+          "Unexpectedly large waves that can sweep you off rocks",
+          "Waves caused by boat traffic",
+          "Waves that only appear in summer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz describes sneaker waves as unexpectedly large waves that can sweep you off rocks, which is why students should never turn their back on the ocean."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why are rain boots not sufficient for the fieldwork?",
+        "options": [
+          "They are too expensive",
+          "Students need closed-toe shoes with grip, as rocks are covered in slippery algae",
+          "Rain boots are not waterproof enough",
+          "They are prohibited by the university dress code"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Diaz explains that the rocks in the tidal zone are covered in algae and are extremely slippery, so students need closed-toe shoes with non-slip soles, ideally hiking boots."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Professor Diaz recommend for clothing?",
+        "options": [
+          "A single warm jacket",
+          "Layers including a windproof outer layer",
+          "Swimwear for tidal sampling",
+          "A raincoat only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz advises bringing layers because the coast can be foggy and cold in the morning then sunny by noon, and a windproof outer layer is essential."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How much water should each person bring?",
+        "options": ["One liter", "Two liters", "Three liters", "Four liters"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz instructs each person to bring at least two liters of water because there is no potable water at the site."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Where will Professor Diaz be stationed during the fieldwork?",
+        "options": [
+          "At the tidal zone with the students",
+          "At the main trailhead with a satellite phone",
+          "At the university campus",
+          "At the nearest hospital"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz says she'll be stationed at the main trailhead with a satellite phone, since cell phone coverage is spotty at the site."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the briefing?",
+        "options": [
+          "To assign research topics for the trip",
+          "To cover essential safety procedures for the coastal fieldwork trip",
+          "To collect permission slips from students",
+          "To teach students about coastal geology"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The briefing covers safety procedures for the coastal fieldwork trip, including cliff hazards, tides, sneaker waves, proper clothing, emergency protocols, and weather cancellation criteria."
+      }
+    ],
+    "keyVocabulary": ["fieldwork", "tidal zone", "sneaker waves", "cliff edge", "tide tables", "buddy pairs", "satellite phone", "potable water", "non-slip soles"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to an academic advising session where a student and her advisor discuss course selection for the upcoming semester.",
+    "audioScript": "Situation: An academic advisor meets with a sophomore student to discuss course selection, major requirements, and balancing workload for the upcoming fall semester.\nAdvisor Kim: Have a seat, Sophia. Let's look at your plan for the fall semester. You're currently a sophomore, and you've completed thirty-two credits so far. That puts you on track, but we need to make some strategic decisions about your course load.\nSophia: Thank you, Advisor Kim. I've been thinking about declaring a major in psychology, but I'm also interested in sociology. I'm not sure which direction to take.\nAdvisor Kim: That's a common dilemma. The good news is that psychology and sociology share some foundational courses. If you take Introduction to Psychology, Introduction to Sociology, and Statistics for Social Sciences this fall, all three count toward either major. That gives you flexibility to decide later without losing progress.\nSophia: That's a great idea. What about my general education requirements? I still need a natural science course and a humanities elective.\nAdvisor Kim: I'd suggest holding off on the natural science until the spring. You're already taking three core courses, and adding a lab science would make your workload very heavy. For the humanities elective, I'd recommend Philosophy One-Oh-One. It satisfies the requirement and pairs well with social science thinking.\nSophia: So that's four courses total. How many credits is that?\nAdvisor Kim: Intro to Psych is three credits, Intro to Sociology is three, Statistics is four because it includes a lab component, and Philosophy is three. That's thirteen credits. Most full-time students take between twelve and sixteen credits, so you're comfortably in range.\nSophia: My friend said the statistics course is really difficult. Should I be worried?\nAdvisor Kim: Statistics for Social Sciences is challenging, but it's designed for students without a strong math background. The professor, Dr. Nguyen, is known for being accessible during office hours. My advice is to attend every lecture, do the practice problems weekly, and go to office hours the moment you feel confused. Don't wait until the midterm.\nSophia: I'll definitely use office hours. What if I decide to major in psychology by the end of the semester? What would my next steps be?\nAdvisor Kim: You'd submit a major declaration form, which I can help you with. Once declared, you'd be assigned a faculty advisor in the psychology department who would guide your upper-level course selection. The psychology major requires thirty-six credits in the major, including a capstone seminar in your senior year.\nSophia: That sounds manageable. One more thing. I'm thinking about studying abroad next summer. Should I plan anything now?\nAdvisor Kim: It's smart to think ahead. If you study abroad in the summer, you can earn up to six transfer credits. Just make sure the courses are pre-approved before you go, so they count toward your major or general education. I'd recommend starting the application process in January, as summer programs fill up quickly.",
+    "speakers": [
+      { "name": "Advisor Kim", "role": "academic advisor" },
+      { "name": "Sophia", "role": "sophomore student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How many credits has Sophia completed so far?",
+        "options": ["Twenty-eight credits", "Thirty credits", "Thirty-two credits", "Thirty-six credits"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim states that Sophia has completed thirty-two credits so far, putting her on track as a sophomore."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which two majors is Sophia deciding between?",
+        "options": [
+          "Psychology and biology",
+          "Psychology and sociology",
+          "Sociology and economics",
+          "Psychology and philosophy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sophia mentions she's thinking about declaring a major in psychology but is also interested in sociology."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does Advisor Kim suggest taking three specific courses this fall?",
+        "options": [
+          "They are the easiest courses available",
+          "All three count toward either major, giving flexibility to decide later",
+          "They are required for graduation",
+          "They are only offered in the fall"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Advisor Kim explains that Introduction to Psychology, Introduction to Sociology, and Statistics for Social Sciences all count toward either major, giving Sophia flexibility to decide later without losing progress."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why does the advisor suggest holding off on the natural science course?",
+        "options": [
+          "Sophia has already completed it",
+          "Adding a lab science to three core courses would make the workload very heavy",
+          "No natural science courses are offered in the fall",
+          "The natural science requirement has been waived"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Advisor Kim says Sophia is already taking three core courses, and adding a lab science would make her workload very heavy, so she suggests waiting until spring."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Which humanities elective does Advisor Kim recommend?",
+        "options": ["Philosophy 101", "Art History 101", "English Literature 101", "Music Appreciation 101"],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim recommends Philosophy One-Oh-One because it satisfies the humanities requirement and pairs well with social science thinking."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How many total credits is Sophia's proposed fall course load?",
+        "options": ["Ten credits", "Twelve credits", "Thirteen credits", "Sixteen credits"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim calculates three credits for Intro to Psych, three for Intro to Sociology, four for Statistics with lab, and three for Philosophy, totaling thirteen credits."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does the statistics course carry four credits instead of three?",
+        "options": [
+          "It is a graduate-level course",
+          "It includes a lab component",
+          "It meets five days a week",
+          "It requires a textbook bundle"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim explains that Statistics is four credits because it includes a lab component."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What advice does Advisor Kim give about the statistics course?",
+        "options": [
+          "Drop it if it seems too hard after the first week",
+          "Attend every lecture, do practice problems weekly, and go to office hours immediately if confused",
+          "Take it online instead of in person",
+          "Wait until senior year to take it"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Advisor Kim advises attending every lecture, doing practice problems weekly, and going to office hours the moment Sophia feels confused, rather than waiting until the midterm."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How many credits does the psychology major require?",
+        "options": ["Twenty-four credits", "Thirty credits", "Thirty-six credits", "Forty credits"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim states that the psychology major requires thirty-six credits in the major, including a capstone seminar in the senior year."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the advising session?",
+        "options": [
+          "Discussing graduation requirements and commencement logistics",
+          "Planning Sophia's fall course schedule and discussing major declaration options",
+          "Reviewing Sophia's performance from the previous semester",
+          "Preparing Sophia for a study abroad application deadline"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The session focuses on Sophia's fall course selection, deciding between psychology and sociology majors, workload management, and future steps including major declaration and study abroad."
+      }
+    ],
+    "keyVocabulary": ["academic advising", "course selection", "major declaration", "credits", "general education requirements", "lab component", "office hours", "capstone seminar", "transfer credits"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation between a registrar's office staff member and a senior student about graduation requirements.",
+    "audioScript": "Situation: A registrar's office staff member reviews graduation requirements with a senior student who is planning to graduate at the end of the spring semester.\nMs. Thompson: Hi, Marcus. I've pulled up your degree audit. Let's go over your graduation requirements to make sure you're on track for May commencement. You're a senior with one hundred and fourteen credits completed, so you need six more to reach the university minimum of one hundred twenty.\nMarcus: That's a relief. I was worried I might be further behind. What specific courses do I still need?\nMs. Thompson: Let's break it down. You need two more courses to complete your history major. The first is History Four-Ten, the capstone seminar, which is offered every spring. The second is one upper-level elective, so you can choose from a list of approved courses. That's six credits total, which also satisfies your remaining credit requirement.\nMarcus: Perfect. The capstone is with Professor Graham, right? I've heard good things.\nMs. Thompson: That's correct. Now, let's check your general education requirements. You've completed all of them except the writing-intensive requirement. However, the capstone seminar is designated as writing-intensive, so taking History Four-Ten will fulfill that requirement automatically. You're in good shape there.\nMarcus: Great. What about the foreign language requirement? I took Spanish in high school.\nMs. Thompson: High school coursework doesn't satisfy the university foreign language requirement. You need either two semesters of a single language at the college level, or a passing score on the language placement exam. Have you taken the placement exam?\nMarcus: No, I haven't. When is it offered?\nMs. Thompson: The placement exam is offered once a month. The next one is in two weeks, on a Friday afternoon. If you pass, you're done. If not, you'd need to register for Spanish One-Oh-One and One-Oh-Two, which would be ten credits. That would push your graduation to the following December.\nMarcus: That would be a problem. I have a job offer starting in July. I really need to graduate in May.\nMs. Thompson: Then I strongly recommend registering for the placement exam right away. The exam tests reading, writing, and listening comprehension at an intermediate level. If your high school Spanish was solid, you have a good chance. I'd suggest reviewing for at least a few hours using the study guide on the language department website.\nMarcus: I'll register today. Is there anything else I need to do for graduation?\nMs. Thompson: Yes. You need to submit your graduation application by March first. The form is online through the student portal. There's also a one-hundred-dollar graduation fee that covers your diploma, cap and gown rental, and the commencement ceremony. Once your application is processed, you'll receive an email confirming your eligibility to graduate, usually within two weeks.\nMarcus: I'll submit the application this week. Thank you for walking me through all of this, Ms. Thompson.",
+    "speakers": [
+      { "name": "Ms. Thompson", "role": "registrar's office staff member" },
+      { "name": "Marcus", "role": "senior student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How many credits has Marcus completed so far?",
+        "options": ["One hundred eight", "One hundred ten", "One hundred fourteen", "One hundred twenty"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson states that Marcus is a senior with one hundred and fourteen credits completed."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many more credits does Marcus need to reach the university minimum?",
+        "options": ["Four credits", "Six credits", "Eight credits", "Ten credits"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson explains Marcus needs six more credits to reach the university minimum of one hundred twenty credits."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the capstone seminar course number?",
+        "options": ["History 400", "History 410", "History 420", "History 450"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson identifies the capstone seminar as History Four-Ten, which is offered every spring."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many courses does Marcus need to complete his history major?",
+        "options": ["One course", "Two courses", "Three courses", "Four courses"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson says Marcus needs two more courses: the capstone seminar and one upper-level elective, totaling six credits."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How does the capstone seminar help with general education requirements?",
+        "options": [
+          "It fulfills the natural science requirement",
+          "It is designated as writing-intensive, fulfilling that requirement automatically",
+          "It counts as a foreign language credit",
+          "It waives all remaining general education requirements"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson explains that the capstone seminar is designated as writing-intensive, so taking it will fulfill the writing-intensive requirement automatically."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why doesn't Marcus's high school Spanish satisfy the foreign language requirement?",
+        "options": [
+          "His grades were too low",
+          "High school coursework does not satisfy the university foreign language requirement",
+          "He took it too long ago",
+          "Spanish is not an accepted language"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson clearly states that high school coursework does not satisfy the university foreign language requirement."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What are the two ways to satisfy the foreign language requirement?",
+        "options": [
+          "Two semesters of a language at college level, or a passing score on the placement exam",
+          "One semester of language, or a study abroad trip",
+          "An online course, or a community service project",
+          "A language club membership, or a native speaker interview"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson explains that Marcus needs either two semesters of a single language at the college level or a passing score on the language placement exam."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What would happen if Marcus fails the placement exam?",
+        "options": [
+          "He can still graduate in May without fulfilling the requirement",
+          "He would need to take Spanish 101 and 102, pushing his graduation to December",
+          "He would be expelled from the university",
+          "He could substitute a different elective"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Ms. Thompson explains that if Marcus doesn't pass the placement exam, he would need to take Spanish One-Oh-One and One-Oh-Two, which is ten credits and would push his graduation to December."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "By what date must Marcus submit his graduation application?",
+        "options": ["February first", "March first", "April first", "May first"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Thompson tells Marcus he needs to submit his graduation application by March first through the online student portal."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Registering for next semester's classes",
+          "Reviewing graduation requirements and the steps needed to graduate in May",
+          "Appealing a denied graduation application",
+          "Transferring credits from another university"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation is a review of Marcus's graduation requirements, including credits, major courses, general education, the foreign language requirement, and the graduation application process."
+      }
+    ],
+    "keyVocabulary": ["graduation requirements", "degree audit", "capstone seminar", "writing-intensive", "foreign language requirement", "placement exam", "commencement", "graduation application", "credits"]
+  }
+]

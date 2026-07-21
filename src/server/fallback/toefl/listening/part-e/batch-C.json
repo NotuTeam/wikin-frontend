@@ -1,0 +1,866 @@
+[
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a geology course on the formation and classification of minerals.",
+    "academicField": "GEOLOGY",
+    "audioScript": "Situation: A professor delivers a lecture on how minerals form, how they are classified, and why mineral diversity matters for understanding Earth's history.\nProfessor Larsen: Good morning. Today we begin our study of mineralogy, the branch of geology that examines minerals, what they are, how they form, and what they tell us about the Earth. Let's start with a precise definition, because in geology the word mineral means something very specific.\nA mineral is a naturally occurring, inorganic, solid substance with a definite chemical composition and an ordered internal structure. Every part of that definition matters. Naturally occurring means we exclude synthetic crystals grown in a laboratory. Inorganic generally excludes materials produced by living organisms, though there are a few borderline cases like calcite formed by marine organisms. Solid excludes liquids and gases. Definite chemical composition means a mineral can be expressed as a chemical formula, such as quartz which is silicon dioxide. And ordered internal structure means the atoms are arranged in a repeating three-dimensional pattern, what we call a crystal lattice.\nThis crystal lattice is the key to understanding why minerals have the properties they do. The arrangement of atoms determines a mineral's hardness, cleavage, the way it breaks, and its crystal habit, the typical shape it grows into. For example, halite, common table salt, has a cubic lattice, so it breaks into perfect cubes and forms cubic crystals. Mica, by contrast, has a layered structure, so it splits into thin flat sheets.\nMinerals form through several processes. The most common is crystallization from a cooling magma. As hot molten rock cools, atoms bond together in predictable sequences determined by temperature and pressure. Bowen's reaction series describes this sequence: olivine and pyroxene crystallize first at high temperatures, followed by amphibole, biotite, and finally quartz at lower temperatures. This is why quartz is so abundant in continental crust, it is one of the last minerals to form and is therefore left behind after earlier-forming minerals have consumed available elements.\nA second major process is precipitation from water. When water becomes saturated with dissolved minerals, crystals begin to form. This is how evaporite deposits like gypsum and halite form when ancient seas dry up. A third process is metamorphism, where existing minerals are transformed under heat and pressure without melting. Limestone, made of calcite, becomes marble through metamorphism, with the calcite recrystallizing into a denser interlocking texture.\nGeologists classify minerals into several broad groups based on their chemistry. The silicates, built around the silicon-oxygen tetrahedron, make up roughly ninety percent of the Earth's crust. Other major groups include carbonates like calcite, oxides like hematite, sulfides like pyrite, and halides like halite. Each group has distinct properties and forms in different geological environments.\nWhy does this matter? Minerals are the building blocks of rocks, and rocks record Earth's history. The minerals present in a rock tell us the temperature, pressure, and chemical conditions under which the rock formed. A geologist who finds garnet in a metamorphic rock can estimate the depth at which metamorphism occurred, because garnet only forms at specific pressure ranges. In this way, minerals serve as nature's thermometers and barometers, preserving a record of conditions that existed millions or billions of years ago.",
+    "speakers": [
+      { "name": "Professor Larsen", "role": "geology professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of mining operations",
+          "The definition, formation, and classification of minerals",
+          "Methods for synthesizing crystals in a lab",
+          "The economic value of precious gemstones"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers the definition of minerals, how they form through various processes, and how they are classified into groups."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which of the following is NOT part of the geological definition of a mineral?",
+        "options": [
+          "Naturally occurring",
+          "Produced by living organisms",
+          "Solid with a definite chemical composition",
+          "Ordered internal structure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states minerals are inorganic, generally excluding materials produced by living organisms, so 'produced by living organisms' is not part of the definition."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the chemical formula of quartz?",
+        "options": [
+          "Sodium chloride",
+          "Calcium carbonate",
+          "Silicon dioxide",
+          "Iron oxide"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor identifies quartz as silicon dioxide when explaining definite chemical composition."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why does halite break into perfect cubes?",
+        "options": [
+          "Because it is extremely hard",
+          "Because it has a cubic crystal lattice",
+          "Because it forms from evaporating water",
+          "Because it is an organic compound"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that halite has a cubic lattice structure, which causes it to break into perfect cubes."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "According to Bowen's reaction series, which mineral crystallizes first at high temperatures?",
+        "options": [
+          "Quartz",
+          "Biotite",
+          "Olivine",
+          "Calcite"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states olivine and pyroxene crystallize first at high temperatures, followed by amphibole, biotite, and finally quartz."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why is quartz so abundant in continental crust?",
+        "options": [
+          "It is the lightest mineral",
+          "It is one of the last minerals to form, left behind after earlier minerals consume available elements",
+          "It forms only on the surface",
+          "It is produced by organisms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains quartz forms at lower temperatures and is left behind after earlier-forming minerals consume available elements, making it abundant."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How do evaporite deposits like gypsum form?",
+        "options": [
+          "Through metamorphism of limestone",
+          "Through crystallization from cooling magma",
+          "Through precipitation from water when ancient seas dry up",
+          "Through weathering of igneous rocks"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that evaporite deposits form when water becomes saturated and crystals precipitate, as when ancient seas dry up."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What happens to calcite during the metamorphism of limestone into marble?",
+        "options": [
+          "It melts completely",
+          "It recrystallizes into a denser interlocking texture",
+          "It transforms into quartz",
+          "It turns into an organic compound"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that during metamorphism, calcite in limestone recrystallizes into a denser interlocking texture, forming marble."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What percentage of the Earth's crust do silicate minerals make up?",
+        "options": [
+          "Roughly fifty percent",
+          "Roughly seventy percent",
+          "Roughly ninety percent",
+          "Roughly twenty-five percent"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that silicates, built around the silicon-oxygen tetrahedron, make up roughly ninety percent of the Earth's crust."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Why does the professor call minerals nature's thermometers and barometers?",
+        "options": [
+          "Because they can measure temperature in volcanoes",
+          "Because the minerals present in a rock reveal the temperature and pressure conditions under which it formed",
+          "Because minerals are used to build weather instruments",
+          "Because minerals change color with temperature"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor explains that minerals like garnet form at specific pressure ranges, so their presence records the temperature and pressure of formation, serving as nature's thermometers and barometers."
+      }
+    ],
+    "keyVocabulary": ["mineral", "crystal lattice", "crystallization", "Bowen's reaction series", "silicate", "evaporite", "metamorphism", "cleavage", "carbonate", "silicon-oxygen tetrahedron"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in an economics course on the theory and practice of international trade.",
+    "academicField": "ECONOMICS",
+    "audioScript": "Situation: An economics professor delivers a lecture on the principles of international trade, including comparative advantage, trade barriers, and modern trade agreements.\nProfessor Morales: Good afternoon. Today we turn to international trade, one of the most debated topics in economics. Why do nations trade with each other, and what are the consequences of restricting that trade? We'll begin with the foundational concept and work our way up to contemporary policy.\nThe intellectual cornerstone of trade theory is the principle of comparative advantage, first articulated by David Ricardo in eighteen-seventeen. The idea is elegant: even if one country is more productive than another at producing everything, both countries can still benefit from trade if each specializes in producing the goods for which it has the lowest opportunity cost. Opportunity cost is what you give up to produce one thing rather than another.\nLet me give you a concrete example. Suppose Country A can produce either one hundred units of wheat or fifty units of cloth with its resources. Country B can produce either forty units of wheat or forty units of cloth. Country A is better at producing both goods, so it has an absolute advantage in both. But look at the opportunity costs. For Country A, each unit of wheat costs half a unit of cloth. For Country B, each unit of wheat costs one full unit of cloth. So Country A has a comparative advantage in wheat, and Country B has a comparative advantage in cloth. If A specializes in wheat and B in cloth, and they trade, both can consume more of both goods than they could in isolation. That is the magic of comparative advantage.\nNow, while trade benefits nations as a whole, it does not benefit every individual within those nations. When a country opens to trade, industries in which it has a comparative disadvantage will contract. Workers in those industries lose jobs. This is why trade is politically contentious. The aggregate gains are real, but the concentrated losses are visible and painful. Economists call this the distributional effect of trade. The standard economic prescription is that the winners should compensate the losers through retraining programs and transitional support, but in practice this compensation is often incomplete.\nTrade barriers take several forms. Tariffs are taxes on imports, which raise the domestic price of foreign goods and make domestic products more competitive. Quotas limit the quantity of a good that can be imported. Non-tariff barriers include health and safety regulations that, while sometimes legitimate, can also serve as disguised protectionism. The effect of all these barriers is to reduce trade volume and raise prices for consumers.\nThe postwar era saw a sustained effort to reduce barriers through multilateral agreements. The General Agreement on Tariffs and Trade, established in nineteen-forty-seven, conducted successive rounds of negotiation that lowered tariff rates dramatically. This evolved into the World Trade Organization in nineteen-ninety-five, which provides a forum for dispute resolution and oversees trade rules among its member states. More recently, regional agreements like the European Union's single market and the North American free trade framework have deepened integration among neighboring economies.\nHowever, the current moment is one of tension. Rising protectionist sentiment in several major economies reflects frustration with trade's distributional effects and with perceived unfair practices such as intellectual property theft and currency manipulation. The challenge for policymakers is to preserve the broad benefits of open trade while addressing the legitimate grievances of those left behind. There is no simple formula, and the debate is as much political as it is economic.",
+    "speakers": [
+      { "name": "Professor Morales", "role": "economics professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of currency exchange rates",
+          "The principles of international trade, including comparative advantage and trade barriers",
+          "How to invest in foreign stock markets",
+          "The structure of multinational corporations"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers comparative advantage, trade barriers, distributional effects, and modern trade agreements, all central to international trade theory."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Who first articulated the principle of comparative advantage?",
+        "options": [
+          "Adam Smith",
+          "Karl Marx",
+          "David Ricardo",
+          "John Maynard Keynes"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the principle of comparative advantage was first articulated by David Ricardo in eighteen-seventeen."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is opportunity cost as described in the lecture?",
+        "options": [
+          "The financial price of importing goods",
+          "What you give up to produce one thing rather than another",
+          "The total cost of all trade barriers",
+          "The profit lost from tariffs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines opportunity cost as what you give up to produce one thing rather than another."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "In the example, what is Country A's opportunity cost for one unit of wheat?",
+        "options": [
+          "One full unit of cloth",
+          "Half a unit of cloth",
+          "Two units of cloth",
+          "Zero units of cloth"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor calculates that for Country A, producing one hundred units of wheat means giving up fifty units of cloth, so each unit of wheat costs half a unit of cloth."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Which country has a comparative advantage in cloth in the example?",
+        "options": [
+          "Country A",
+          "Country B",
+          "Both countries equally",
+          "Neither country"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Country B has a comparative advantage in cloth because its opportunity cost for cloth is lower than Country A's."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the professor mean by the distributional effect of trade?",
+        "options": [
+          "Trade increases wealth equally for everyone",
+          "While trade benefits nations as a whole, some individuals lose jobs in disadvantaged industries",
+          "Trade only benefits wealthy nations",
+          "Trade barriers distribute goods more evenly"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that trade creates aggregate gains but concentrated losses for workers in industries where the country has a comparative disadvantage."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the standard economic prescription for trade's distributional effects?",
+        "options": [
+          "To ban all imports permanently",
+          "That winners should compensate losers through retraining and transitional support",
+          "To raise tariffs on all goods",
+          "To eliminate all domestic industries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the standard prescription is that winners should compensate losers through retraining programs and transitional support, though it is often incomplete in practice."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the effect of tariffs according to the professor?",
+        "options": [
+          "They lower domestic prices for consumers",
+          "They raise the domestic price of foreign goods and make domestic products more competitive",
+          "They increase the volume of imports",
+          "They have no effect on trade"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains tariffs are taxes on imports that raise the domestic price of foreign goods, making domestic products more competitive."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What did the GATT evolve into in nineteen-ninety-five?",
+        "options": [
+          "The European Union",
+          "The World Trade Organization",
+          "The North American Free Trade Agreement",
+          "The International Monetary Fund"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the General Agreement on Tariffs and Trade evolved into the World Trade Organization in nineteen-ninety-five."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward current trade policy challenges?",
+        "options": [
+          "They are easily solved by eliminating all tariffs",
+          "They require balancing the benefits of open trade with addressing legitimate grievances of those left behind",
+          "They are purely economic with no political dimension",
+          "They should be ignored until they resolve themselves"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that the challenge is preserving broad benefits of open trade while addressing legitimate grievances, and that the debate is as much political as economic."
+      }
+    ],
+    "keyVocabulary": ["comparative advantage", "absolute advantage", "opportunity cost", "tariff", "quota", "non-tariff barrier", "distributional effect", "World Trade Organization", "protectionism", "currency manipulation"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a physics course on Einstein's theory of relativity.",
+    "academicField": "PHYSICS",
+    "audioScript": "Situation: A physics professor delivers a lecture on the special and general theories of relativity and their experimental confirmations.\nProfessor Chen: Today we tackle one of the most revolutionary ideas in the history of physics, Einstein's theory of relativity. Actually, it is two theories: special relativity, published in nineteen-oh-five, and general relativity, published in nineteen-fifteen. Together they overturned centuries of Newtonian assumptions about space, time, and gravity. Let's take them in turn.\nSpecial relativity rests on two postulates. The first is the principle of relativity: the laws of physics are the same in all inertial reference frames. An inertial frame is one moving at constant velocity, no acceleration. If you're in a smoothly moving train with no windows, no experiment you can perform inside will tell you whether you're moving or stationary. The second postulate is more startling: the speed of light in a vacuum is the same for all observers, regardless of their motion or the motion of the light source. This is not intuitive. It means that if you shine a flashlight forward while running, the light does not travel at the speed of light plus your running speed. It travels at exactly the speed of light, about three hundred thousand kilometers per second, for everyone.\nFrom these two postulates, strange consequences follow. Time dilation: a moving clock ticks slower than a stationary one. Length contraction: a moving object appears shorter along its direction of motion. And the famous mass-energy equivalence, E equals m c squared, which tells us that mass and energy are two forms of the same thing. These effects are negligible at everyday speeds but become dramatic as you approach the speed of light.\nNow, special relativity only deals with constant velocity motion. Einstein spent ten more years developing general relativity, which incorporates acceleration and gravity. His key insight was the equivalence principle: it is impossible to distinguish between a uniform gravitational field and uniform acceleration. If you're in a sealed elevator, you cannot tell whether you feel weight because gravity is pulling you down or because the elevator is accelerating upward.\nFrom this insight, Einstein reconceived gravity not as a force, as Newton had, but as a curvature of spacetime. Massive objects like stars and planets warp the fabric of spacetime, and what we experience as gravity is simply objects following the straightest possible paths, called geodesics, through this curved geometry. The classic analogy is a bowling ball on a rubber sheet, creating a depression that causes marbles to roll toward it, though the analogy is imperfect because spacetime is four-dimensional, not a two-dimensional sheet.\nThe experimental confirmations are remarkable. In nineteen-nineteen, astronomers observed starlight bending around the Sun during a total solar eclipse, exactly as general relativity predicted. This made Einstein an international celebrity. More recently, in twenty-fifteen, the LIGO observatory detected gravitational waves, ripples in spacetime produced by colliding black holes, confirming a prediction Einstein made a century earlier. And the GPS system in your phone relies on relativistic corrections, both special and general, because satellites orbit at speeds and altitudes where relativistic effects are significant. Without these corrections, GPS positions would drift by about ten kilometers per day. Relativity is not an abstract curiosity; it is engineering reality.\nProfessor Chen: Let me add one philosophical note before we close. Relativity does not say, as popular accounts sometimes claim, that everything is relative. The speed of light is absolute. The laws of physics are absolute. What is relative is the measurement of space and time between different observers. Einstein's theory is, paradoxically, a theory of invariants. It tells us what remains the same when everything else changes.",
+    "speakers": [
+      { "name": "Professor Chen", "role": "physics professor" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The life and biography of Albert Einstein",
+          "Einstein's special and general theories of relativity and their experimental confirmations",
+          "The history of Newtonian mechanics",
+          "How GPS satellites are manufactured"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers both special and general relativity, their postulates, consequences, and experimental confirmations."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "In what year was special relativity published?",
+        "options": [
+          "Nineteen-oh-five",
+          "Nineteen-fifteen",
+          "Nineteen-nineteen",
+          "Twenty-fifteen"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The professor states special relativity was published in nineteen-oh-five, and general relativity in nineteen-fifteen."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the first postulate of special relativity?",
+        "options": [
+          "The speed of light varies with the observer's motion",
+          "The laws of physics are the same in all inertial reference frames",
+          "Gravity is caused by spacetime curvature",
+          "Mass and energy are unrelated"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the first postulate is the principle of relativity: the laws of physics are the same in all inertial reference frames."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "According to the second postulate, what happens if you shine a flashlight forward while running?",
+        "options": [
+          "The light travels at the speed of light plus your running speed",
+          "The light travels at exactly the speed of light, the same for all observers",
+          "The light slows down due to your motion",
+          "The light stops completely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the speed of light is the same for all observers regardless of motion, so the light travels at exactly the speed of light."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is time dilation?",
+        "options": [
+          "Time speeds up for moving objects",
+          "A moving clock ticks slower than a stationary one",
+          "Time stops at the speed of light",
+          "Clocks run faster in space"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines time dilation as the effect where a moving clock ticks slower than a stationary one."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the equivalence principle described by the professor?",
+        "options": [
+          "All mass is equivalent to energy",
+          "It is impossible to distinguish between a uniform gravitational field and uniform acceleration",
+          "All reference frames are equivalent",
+          "Space and time are the same thing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the equivalence principle holds that a uniform gravitational field and uniform acceleration are indistinguishable, as illustrated by the sealed elevator example."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How does general relativity reconceive gravity?",
+        "options": [
+          "As a force transmitted instantaneously",
+          "As a curvature of spacetime caused by massive objects",
+          "As an electromagnetic phenomenon",
+          "As a type of quantum particle interaction"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Einstein reconceived gravity not as a force but as curvature of spacetime, where massive objects warp the fabric of spacetime."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What did the nineteen-nineteen solar eclipse observation confirm?",
+        "options": [
+          "That light is made of particles",
+          "That starlight bends around the Sun as general relativity predicted",
+          "That the speed of light is infinite",
+          "That black holes do not exist"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states astronomers observed starlight bending around the Sun during a total solar eclipse, confirming general relativity's prediction."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why does GPS require relativistic corrections?",
+        "options": [
+          "Because satellites use outdated atomic clocks",
+          "Because satellites orbit at speeds and altitudes where relativistic effects are significant",
+          "Because GPS was built before Einstein's theories were known",
+          "Because the Earth's magnetic field interferes with signals"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains GPS satellites orbit at speeds and altitudes where relativistic effects are significant, and without corrections, positions would drift about ten kilometers per day."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does the professor say about the popular claim that 'everything is relative'?",
+        "options": [
+          "It is completely accurate",
+          "It is misleading; the speed of light and laws of physics are absolute, only measurements of space and time are relative",
+          "It was Einstein's own conclusion",
+          "It applies only to quantum mechanics"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor clarifies that relativity is paradoxically a theory of invariants: the speed of light and laws of physics are absolute, and only measurements of space and time between observers are relative."
+      }
+    ],
+    "keyVocabulary": ["special relativity", "general relativity", "inertial reference frame", "speed of light", "time dilation", "length contraction", "mass-energy equivalence", "equivalence principle", "spacetime curvature", "geodesic", "gravitational waves"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a chemistry course on molecular bonds and chemical bonding theories.",
+    "academicField": "CHEMISTRY",
+    "audioScript": "Situation: A chemistry professor delivers a lecture on the nature of chemical bonds, including ionic, covalent, and metallic bonding, and the theories that explain them.\nProfessor Ibrahim: Good morning. Today we explore the heart of chemistry: the chemical bond. Everything around you, the chair you're sitting on, the air you breathe, the cells in your body, is held together by chemical bonds. Understanding bonds is understanding why matter behaves the way it does.\nLet's begin with the fundamental question: why do atoms bond at all? The answer is energy. Atoms bond because the bonded state is more stable, lower in energy, than the separated state. When atoms form bonds, they release energy. To break those bonds, you must supply energy. This energy landscape governs all chemical reactions.\nThere are three major bond types, though reality is often a continuum rather than neat categories. The first is the ionic bond. Ionic bonding occurs when one atom transfers electrons to another. This happens between atoms with very different electronegativities. Electronegativity is a measure of how strongly an atom attracts electrons. Sodium, a metal, has low electronegativity. Chlorine, a nonmetal, has high electronegativity. When they meet, sodium donates its outer electron to chlorine. Sodium becomes a positive ion, a cation, and chlorine becomes a negative ion, an anion. The opposite charges attract, forming an ionic bond. The result is sodium chloride, table salt, which forms a crystal lattice of alternating positive and negative ions. Ionic compounds typically have high melting points because breaking the lattice requires substantial energy, and they dissolve readily in water because water molecules can surround and separate the ions.\nThe second type is the covalent bond. Covalent bonding occurs when atoms share electrons rather than transferring them. This typically happens between atoms with similar electronegativities, such as two oxygen atoms forming O2. The sharing can be equal, producing a nonpolar covalent bond, or unequal, producing a polar covalent bond. In water, H2O, oxygen is more electronegative than hydrogen, so it pulls the shared electrons closer, creating a partial negative charge on the oxygen and partial positive charges on the hydrogens. This polarity is why water is such an excellent solvent and why it has a relatively high boiling point for such a small molecule.\nTo explain covalent bonding, chemists use two complementary theories. Valence bond theory describes bonds as the overlap of atomic orbitals, regions where electrons are likely to be found. When two orbitals overlap, the shared electrons spend time between both nuclei, holding the atoms together. Molecular orbital theory, by contrast, treats the entire molecule as a system. Atomic orbitals combine to form molecular orbitals that extend over the whole molecule. Some of these are bonding orbitals that stabilize the molecule, and some are antibonding orbitals that destabilize it. Molecular orbital theory is more powerful for explaining phenomena like the paramagnetism of oxygen, which valence bond theory cannot account for.\nThe third type is the metallic bond. In metals, the outer electrons are delocalized, forming what chemists call a sea of electrons that flows through a lattice of positive metal ions. This electron mobility explains why metals conduct electricity so well and why they are malleable, the ions can slide past each other while the electron sea holds them together.\nFinally, I want to mention intermolecular forces, which are weaker than chemical bonds but critically important. Hydrogen bonds, dipole-dipole interactions, and London dispersion forces determine properties like boiling points, surface tension, and the structure of DNA. Without hydrogen bonds between base pairs, the double helix would not hold its shape. Chemistry is not just about strong bonds; the weak ones matter enormously too.",
+    "speakers": [
+      { "name": "Professor Ibrahim", "role": "chemistry professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of the periodic table",
+          "The nature of chemical bonds, including ionic, covalent, and metallic bonding",
+          "How to balance chemical equations",
+          "The properties of noble gases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers ionic, covalent, and metallic bonds, the theories that explain them, and intermolecular forces."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Why do atoms bond, according to the professor?",
+        "options": [
+          "Because bonding increases their energy",
+          "Because the bonded state is more stable and lower in energy than the separated state",
+          "Because atoms are attracted by gravity",
+          "Because bonding is required by the periodic table"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains atoms bond because the bonded state is more stable, lower in energy, and atoms release energy when they bond."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is electronegativity?",
+        "options": [
+          "The number of electrons in an atom",
+          "A measure of how strongly an atom attracts electrons",
+          "The energy released when atoms bond",
+          "The charge on a metal ion"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines electronegativity as a measure of how strongly an atom attracts electrons."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What happens when sodium and chlorine form an ionic bond?",
+        "options": [
+          "They share electrons equally",
+          "Sodium donates its outer electron to chlorine, creating a cation and an anion",
+          "Both atoms become neutral",
+          "They form a metallic bond"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains sodium donates its outer electron to chlorine, becoming a positive cation while chlorine becomes a negative anion, and the opposite charges attract."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why do ionic compounds typically have high melting points?",
+        "options": [
+          "Because they are always metals",
+          "Because breaking the crystal lattice requires substantial energy",
+          "Because they contain no electrons",
+          "Because they form only at high temperatures"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states ionic compounds have high melting points because breaking the alternating ion lattice requires substantial energy."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What makes water a polar molecule?",
+        "options": [
+          "It has an equal sharing of electrons",
+          "Oxygen is more electronegative, pulling shared electrons closer and creating partial charges",
+          "It forms ionic bonds",
+          "It contains metal atoms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that in water, oxygen is more electronegative than hydrogen, pulling shared electrons closer and creating partial negative and positive charges."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How does molecular orbital theory differ from valence bond theory?",
+        "options": [
+          "It only applies to ionic compounds",
+          "It treats the entire molecule as a system, with orbitals extending over the whole molecule",
+          "It ignores electrons entirely",
+          "It cannot explain any bonding"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains molecular orbital theory treats the entire molecule as a system, with atomic orbitals combining into molecular orbitals extending over the whole molecule."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What phenomenon can molecular orbital theory explain that valence bond theory cannot?",
+        "options": [
+          "The high melting point of salt",
+          "The paramagnetism of oxygen",
+          "The conductivity of metals",
+          "The solubility of sugar in water"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states molecular orbital theory is more powerful for explaining the paramagnetism of oxygen, which valence bond theory cannot account for."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why are metals malleable according to the electron sea model?",
+        "options": [
+          "Because metal atoms share electrons in pairs",
+          "Because ions can slide past each other while the delocalized electron sea holds them together",
+          "Because metals form ionic bonds",
+          "Because metals have no electrons"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains metallic bonding involves delocalized electrons forming a sea, and ions can slide past each other while the electron sea maintains cohesion, making metals malleable."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What role do hydrogen bonds play in DNA, according to the professor?",
+        "options": [
+          "They form the backbone of the double helix",
+          "They hold the base pairs together, maintaining the double helix shape",
+          "They are irrelevant to DNA structure",
+          "They break the double helix apart"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor states that without hydrogen bonds between base pairs, the double helix would not hold its shape, illustrating the importance of intermolecular forces."
+      }
+    ],
+    "keyVocabulary": ["chemical bond", "ionic bond", "covalent bond", "electronegativity", "cation", "anion", "crystal lattice", "valence bond theory", "molecular orbital theory", "metallic bond", "intermolecular force", "hydrogen bond"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a sociology course on urban life and the dynamics of modern cities.",
+    "academicField": "SOCIOLOGY",
+    "audioScript": "Situation: A sociology professor delivers a lecture on urban sociology, examining how cities shape social relationships, inequality, and community.\nProfessor Kowalski: Good afternoon. Today we enter the domain of urban sociology, the study of how cities shape human behavior, social structures, and inequality. More than half the world's population now lives in urban areas, a figure projected to reach nearly seventy percent by twenty-fifty. Understanding urban life is, increasingly, understanding the human condition itself.\nThe systematic study of cities began with the Chicago School of sociology in the early twentieth century. Scholars like Robert Park and Ernest Burgess saw the city as a social laboratory. Burgess proposed the concentric zone model, which described the city as a series of rings radiating from a central business district. Inner rings housed industry and immigrant populations, while outer rings were wealthier residential areas. The model was simplistic, but it introduced a crucial idea: spatial organization reflects and reinforces social stratification. Where you live shapes who you interact with, what resources you access, and how others perceive you.\nA foundational concept from this era is Georg Simmel's notion of the blasé attitude. Simmel argued that the intensity of urban stimulation, the crowds, the noise, the constant interaction with strangers, forces city dwellers to develop a protective emotional detachment. This is not callousness; it is a coping mechanism. The rural villager who greets every passerby cannot function in a city of millions. The blasé attitude allows urbanites to navigate dense environments without being overwhelmed. However, it also contributes to what later sociologists called the loneliness of the crowd, the paradox of being surrounded by people yet feeling profoundly isolated.\nLet's turn to a more contemporary concern: segregation and urban inequality. Sociologists distinguish between residential segregation, the spatial separation of groups by race or income, and the concentration of poverty that results. Douglas Massey's work on residential segregation in American cities demonstrates how discriminatory practices like redlining, the refusal of banks to lend in minority neighborhoods, created patterns of segregation that persist decades after such practices were outlawed. Segregation is not just about who lives next to whom. It concentrates poverty, underfunds schools, limits access to healthy food and medical care, and reduces exposure to social networks that facilitate upward mobility. The effects are cumulative and intergenerational.\nAnother key theme is the transformation of public space. The sociologist Ray Oldenburg introduced the concept of third places: spaces that are neither home nor work, where people gather informally. Cafes, pubs, parks, and libraries serve as third places where community bonds form across differences. But third places are under threat. Gentrification raises rents, displacing long-standing community institutions. Privatization of public space means that shopping malls and gated communities replace genuinely public squares, with rules that exclude anyone deemed undesirable. The loss of third places erodes the civic fabric that makes cities more than mere aggregations of individuals.\nFinally, let me mention the digital dimension. Social media and smartphones have transformed urban interaction. On one hand, they enable new forms of community: neighborhood watch groups, mutual aid networks, activist organizing. On the other hand, they can deepen isolation, as people withdraw into online worlds even while physically surrounded by others. The sociologist Manuel Castells calls this the network society, a social structure where digital networks organize every dimension of life, from economy to intimacy. The challenge for urban sociology going forward is to understand how physical and digital urban spaces intertwine, and how that intertwining reshapes community, inequality, and belonging.",
+    "speakers": [
+      { "name": "Professor Kowalski", "role": "sociology professor" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The architecture of skyscrapers",
+          "How cities shape social relationships, inequality, and community",
+          "The economic growth of developing nations",
+          "Methods for reducing traffic congestion"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces urban sociology as the study of how cities shape human behavior, social structures, and inequality, and covers multiple dimensions of urban life."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which group began the systematic study of cities in the early twentieth century?",
+        "options": [
+          "The Frankfurt School",
+          "The Chicago School of sociology",
+          "The Vienna Circle",
+          "The Copenhagen School"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the systematic study of cities began with the Chicago School of sociology in the early twentieth century."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What did Burgess's concentric zone model describe?",
+        "options": [
+          "The city as a grid of equal-sized blocks",
+          "The city as a series of rings radiating from a central business district",
+          "The city as a random scattering of neighborhoods",
+          "The city as a single homogeneous zone"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Burgess proposed the concentric zone model, describing the city as a series of rings radiating from a central business district."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the blasé attitude as described by Simmel?",
+        "options": [
+          "A form of rudeness common in cities",
+          "A protective emotional detachment developed to cope with urban stimulation",
+          "A style of urban fashion",
+          "A political ideology of city dwellers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Simmel's blasé attitude is a protective emotional detachment that allows urbanites to cope with the intensity of city stimulation without being overwhelmed."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What paradox does the blasé attitude contribute to?",
+        "options": [
+          "The wealth of the suburbs",
+          "The loneliness of the crowd, being surrounded by people yet feeling isolated",
+          "The efficiency of public transport",
+          "The growth of online shopping"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor states the blasé attitude contributes to the loneliness of the crowd, the paradox of being surrounded by people yet feeling profoundly isolated."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What was redlining?",
+        "options": [
+          "A type of public transportation",
+          "The refusal of banks to lend in minority neighborhoods",
+          "A method for drawing city boundaries",
+          "A form of protest by urban residents"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines redlining as the discriminatory practice of banks refusing to lend in minority neighborhoods, which created persistent patterns of segregation."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "According to the professor, what are the consequences of residential segregation?",
+        "options": [
+          "It improves school funding and access to resources",
+          "It concentrates poverty, underfunds schools, and limits access to healthy food and medical care",
+          "It has no measurable effects on communities",
+          "It only affects rural areas"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains segregation concentrates poverty, underfunds schools, limits access to healthy food and medical care, and reduces exposure to social networks for upward mobility."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What are third places according to Ray Oldenburg?",
+        "options": [
+          "Industrial zones on the city outskirts",
+          "Spaces that are neither home nor work where people gather informally",
+          "The third floor of apartment buildings",
+          "Digital social media platforms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines third places, a concept from Ray Oldenburg, as spaces that are neither home nor work, such as cafes, pubs, parks, and libraries, where informal community bonds form."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why does the professor say third places are under threat?",
+        "options": [
+          "Because people no longer want to socialize",
+          "Because gentrification raises rents and privatization replaces public spaces with restricted ones",
+          "Because the government has banned public gatherings",
+          "Because all third places have moved online permanently"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains gentrification raises rents, displacing community institutions, and privatization replaces public squares with spaces that have exclusionary rules."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Manuel Castells mean by the network society?",
+        "options": [
+          "A society organized entirely around television broadcasting",
+          "A social structure where digital networks organize every dimension of life from economy to intimacy",
+          "A society with no digital technology at all",
+          "A society that has abandoned cities for rural areas"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Castells' network society is a social structure where digital networks organize every dimension of life, from economy to intimacy."
+      }
+    ],
+    "keyVocabulary": ["urban sociology", "concentric zone model", "blasé attitude", "residential segregation", "redlining", "concentration of poverty", "third places", "gentrification", "network society", "social stratification", "civic fabric"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a philosophy course on ethical theories and moral reasoning.",
+    "academicField": "PHILOSOPHY",
+    "audioScript": "Situation: A philosophy professor delivers a lecture on major ethical theories, including utilitarianism, deontology, and virtue ethics, and the dilemmas they address.\nProfessor Dimitriou: Good morning. Today we examine the three major ethical frameworks that have shaped Western moral philosophy: utilitarianism, deontology, and virtue ethics. Each offers a different answer to the fundamental question: what makes an action right or wrong? Understanding these frameworks will give you the tools to reason about moral dilemmas rather than relying on intuition alone.\nLet's begin with utilitarianism, most associated with the English philosophers Jeremy Bentham and John Stuart Mill in the eighteenth and nineteenth centuries. The core principle is simple to state but radical in its implications: the right action is the one that produces the greatest happiness for the greatest number. Bentham called this the principle of utility. He even proposed a felicific calculus, a method for measuring pleasure and pain across various dimensions like intensity, duration, and certainty. Mill refined this by distinguishing between higher and lower pleasures. He argued that intellectual and moral pleasures are qualitatively superior to mere physical pleasures, famously stating that it is better to be Socrates dissatisfied than a fool satisfied.\nUtilitarianism has enormous appeal. It provides a clear, practical decision procedure and it takes seriously the consequences of our actions. But it faces powerful objections. First, the measurement problem: how do we actually compare and aggregate happiness across different people? Second, the justice objection: utilitarianism can, in principle, justify sacrificing the rights of a minority if doing so increases overall happiness. Imagine a scenario where framing an innocent person prevents a riot that would kill dozens. A strict utilitarian might be forced to approve. This strikes many people as deeply wrong, and it motivates our second framework.\nDeontology, most powerfully articulated by Immanuel Kant, takes a fundamentally different approach. For Kant, morality is not about consequences but about duty. The centerpiece is the categorical imperative, which has several formulations. The first formulation says: act only according to a maxim that you could will to become a universal law. In other words, if everyone did what you're about to do, would the result be coherent? Lying cannot be universalized because if everyone lied, the very concept of communication would collapse, making lying impossible. The second formulation is even more powerful: treat humanity, whether in yourself or in others, always as an end and never merely as a means. This is the foundation of human dignity and human rights. You cannot use people as tools, even for good outcomes.\nDeontology's strength is that it protects individuals from being sacrificed for the greater good. Its weakness is rigidity. Kant famously argued that you should not lie even to a murderer asking where your friend is hiding. For many, this is a reductio ad absurdum, a demonstration that the theory has gone wrong. If a moral theory tells you to hand over your friend to a killer, something has gone awry.\nThe third framework is virtue ethics, which traces back to Aristotle and was revived in the twentieth century by philosophers like Elizabeth Anscombe. Virtue ethics shifts the question from 'what should I do?' to 'what kind of person should I be?' Instead of focusing on rules or consequences, it focuses on character. Aristotle argued that every virtue is a mean between two vices, a concept called the doctrine of the mean. Courage is the mean between cowardice and recklessness. Generosity is the mean between stinginess and profligacy. The virtuous person develops good habits through practice, much as a musician develops skill through rehearsal, until acting well becomes second nature.\nVirtue ethics captures something the other two frameworks miss: morality is not just about isolated actions but about a whole life lived well. However, it struggles with specific guidance. If you face a concrete moral dilemma, the doctrine of the mean may not tell you precisely what to do. It is less a decision procedure and more a description of the moral life.\nNo single framework is universally accepted, and most thoughtful people draw on all three. What I want you to take from this lecture is not a winner but a toolkit. When you face a moral question, ask three things: what are the consequences, what are my duties, and what would a virtuous person do? The answers may diverge, and wrestling with that divergence is what moral reasoning actually looks like.",
+    "speakers": [
+      { "name": "Professor Dimitriou", "role": "philosophy professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The biography of Immanuel Kant",
+          "Three major ethical theories, utilitarianism, deontology, and virtue ethics, and the dilemmas they address",
+          "The history of ancient Greek philosophy",
+          "How to write a philosophical essay"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces three major ethical frameworks, explains their principles, and discusses their strengths and weaknesses in addressing moral dilemmas."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the core principle of utilitarianism?",
+        "options": [
+          "The right action follows universal moral duties",
+          "The right action is the one that produces the greatest happiness for the greatest number",
+          "The right action is whatever a virtuous person would do",
+          "The right action is determined by religious authority"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the core principle of utilitarianism is that the right action produces the greatest happiness for the greatest number."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What distinction did John Stuart Mill introduce regarding pleasures?",
+        "options": [
+          "All pleasures are equal in value",
+          "He distinguished between higher intellectual pleasures and lower physical pleasures",
+          "He argued that only physical pleasures matter",
+          "He claimed pleasure cannot be measured at all"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Mill refined Bentham's theory by distinguishing higher and lower pleasures, arguing intellectual and moral pleasures are qualitatively superior."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the justice objection to utilitarianism?",
+        "options": [
+          "That it is too difficult to calculate",
+          "That it can justify sacrificing the rights of a minority to increase overall happiness",
+          "That it ignores pleasure entirely",
+          "That it relies too heavily on religious texts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor presents the justice objection: utilitarianism can justify sacrificing minority rights if doing so increases overall happiness, as illustrated by the framing-an-innocent-person example."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the first formulation of Kant's categorical imperative?",
+        "options": [
+          "Treat others as you wish to be treated",
+          "Act only according to a maxim that you could will to become a universal law",
+          "Maximize happiness for the greatest number",
+          "Always follow the customs of your society"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the first formulation is to act only according to a maxim that you could will to become a universal law."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the second formulation of the categorical imperative require?",
+        "options": [
+          "That you always maximize pleasure",
+          "That you treat humanity always as an end and never merely as a means",
+          "That you follow the laws of your country",
+          "That you seek the mean between extremes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the second formulation requires treating humanity, in yourself or others, always as an end and never merely as a means, forming the foundation of human dignity."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What example does the professor give to illustrate deontology's weakness?",
+        "options": [
+          "Bentham's felicific calculus",
+          "Kant's argument that you should not lie even to a murderer asking where your friend is hiding",
+          "Aristotle's doctrine of the mean",
+          "Mill's distinction between higher and lower pleasures"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor cites Kant's claim that you should not lie even to a murderer seeking your friend, which many see as a reductio ad absurdum showing the theory's rigidity."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is Aristotle's doctrine of the mean?",
+        "options": [
+          "That virtue is a mean between two vices",
+          "That all moral questions have a middle answer",
+          "That happiness is the average of pleasure and pain",
+          "That truth lies between opinion and knowledge"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Aristotle's doctrine of the mean holds that every virtue is a mean between two vices, such as courage between cowardice and recklessness."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the professor imply is a weakness of virtue ethics?",
+        "options": [
+          "It focuses too much on consequences",
+          "It struggles to provide specific guidance for concrete moral dilemmas",
+          "It ignores the importance of character",
+          "It was never practiced by any philosopher"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor notes virtue ethics is less a decision procedure and more a description of the moral life, struggling to tell you precisely what to do in a specific dilemma."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's overall attitude toward the three ethical frameworks?",
+        "options": [
+          "That utilitarianism is clearly the best",
+          "That no single framework is universally accepted and most thoughtful people draw on all three as a toolkit",
+          "That all three are obsolete and should be abandoned",
+          "That deontology alone provides correct answers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that no single framework is a winner, presents them as a toolkit, and encourages asking about consequences, duties, and virtue when facing moral questions."
+      }
+    ],
+    "keyVocabulary": ["utilitarianism", "deontology", "virtue ethics", "categorical imperative", "principle of utility", "doctrine of the mean", "universal law", "consequentialism", "felicific calculus", "reductio ad absurdum", "moral reasoning"]
+  }
+]

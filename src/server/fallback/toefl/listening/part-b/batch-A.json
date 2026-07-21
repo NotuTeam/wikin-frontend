@@ -1,0 +1,951 @@
+[
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the cafeteria between two students forming a study group.",
+    "audioScript": "Situation: Two students meet in the cafeteria to discuss forming a study group for their upcoming biology midterm.\nCarlos: Hey, Jasmine! Did you finish the chapter on cellular respiration? I'm totally lost and was wondering if you'd want to study together.\nJasmine: Actually, I was just thinking the same thing. I understand glycolysis pretty well, but the electron transport chain confuses me. A study group would be great.\nCarlos: Perfect. I was thinking we could ask a couple more people. Marcus sits next to me in lecture and he really gets the Krebs cycle. Maybe he could explain that part.\nJasmine: Good idea. Four people is a nice size. Too many and it gets distracting. Should we meet here in the cafeteria or somewhere quieter?\nCarlos: The cafeteria gets pretty loud around lunch. How about the second floor of the library? They have those group study rooms you can reserve online.\nJasmine: I tried booking one last week but they were all taken. You have to reserve at least three days in advance. The midterm is next Friday, so we're running short on time.\nCarlos: Hmm, what about the empty classroom in the science building? Room two-fourteen is usually open in the evenings after six.\nJasmine: That works. Let's plan to meet Tuesday and Thursday evenings this week. Two hours each session should be enough if we stay focused.\nCarlos: Sounds good. I'll make a shared document where we can each add practice questions. That way we come prepared and don't waste time.\nJasmine: Great idea. Let's divide the chapters so each person leads the review for two topics. I'll take photosynthesis and cellular respiration since those overlap.\nCarlos: I'll cover mitosis and meiosis. We can ask Marcus to do genetics since that's his strength. Let's text him now and set it all up.",
+    "speakers": [
+      { "name": "Carlos", "role": "biology student" },
+      { "name": "Jasmine", "role": "biology student" }
+    ],
+    "setting": "CAFETERIA",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To complain about a difficult professor",
+          "To form a study group for an upcoming biology midterm",
+          "To discuss grades on a recent quiz",
+          "To plan a trip to the science building"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Carlos and Jasmine discuss forming a study group to prepare together for the biology midterm next Friday."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which topic does Jasmine say confuses her?",
+        "options": [
+          "Glycolysis",
+          "Photosynthesis",
+          "The electron transport chain",
+          "Genetics"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Jasmine says she understands glycolysis pretty well, but the electron transport chain confuses her."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does Carlos suggest including Marcus in the group?",
+        "options": [
+          "Marcus has the textbook",
+          "Marcus understands the Krebs cycle well",
+          "Marcus is good at genetics",
+          "Marcus can reserve a study room"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Carlos says Marcus really gets the Krebs cycle and could explain that part of the material."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why is the cafeteria not ideal for studying?",
+        "options": [
+          "It is too far from their dorms",
+          "It gets loud around lunch time",
+          "It closes too early",
+          "It does not allow group meetings"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Carlos notes the cafeteria gets pretty loud around lunch, making it unsuitable for focused study."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why couldn't Jasmine book a library study room last week?",
+        "options": [
+          "She did not have her student ID",
+          "All rooms were already taken and rooms must be reserved three days in advance",
+          "The library was closed for renovation",
+          "Group rooms are only for graduate students"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jasmine says the rooms were all taken and you have to reserve at least three days in advance, which does not fit their timeline."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Where do they decide to meet instead?",
+        "options": [
+          "The cafeteria after hours",
+          "Room 214 in the science building, open after 6 PM",
+          "Marcus's apartment",
+          "The first floor of the library"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Carlos suggests room two-fourteen in the science building, which is usually open in the evenings after six."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How often do they plan to meet and for how long?",
+        "options": [
+          "Once a week for three hours",
+          "Tuesday and Thursday evenings for two hours each",
+          "Every day for one hour",
+          "Only on weekends for four hours"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jasmine proposes meeting Tuesday and Thursday evenings for two hours each session."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What will Carlos create to help the group prepare?",
+        "options": [
+          "A practice exam",
+          "A shared document for adding practice questions",
+          "A flashcard set",
+          "A summary video"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Carlos says he will make a shared document where each person can add practice questions so they come prepared."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Which topics will Jasmine lead the review for?",
+        "options": [
+          "Mitosis and meiosis",
+          "Genetics and the Krebs cycle",
+          "Photosynthesis and cellular respiration",
+          "The electron transport chain only"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Jasmine says she will take photosynthesis and cellular respiration since those two topics overlap."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about their approach to the study group?",
+        "options": [
+          "They plan to wing it without preparation",
+          "They are organized and intend to divide topics so each person leads a review",
+          "They plan to hire a tutor instead",
+          "They will skip the hardest chapters entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "They divide chapters so each person leads the review for two topics, showing an organized and prepared approach."
+      }
+    ],
+    "keyVocabulary": ["cellular respiration", "glycolysis", "electron transport chain", "Krebs cycle", "study group", "reserve", "mitosis", "meiosis", "photosynthesis"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the student center about resolving a dormitory conflict.",
+    "audioScript": "Situation: A student visits the resident advisor desk in the student center to report a conflict with a roommate over noise and study time.\nRA Tony: Hey, Sophie. You looked stressed when you walked in. What's going on?\nSophie: It's my roommate, Megan. She plays music with the door open every night until midnight, and I have early morning classes. I haven't slept properly in a week.\nRA Tony: I'm sorry to hear that. Have you tried talking to her about it directly?\nSophie: I did, twice. She said she'd use headphones, but she forgets or just doesn't bother. Last night her friends came over at eleven and they were laughing and watching videos. I asked them to keep it down and Megan rolled her eyes.\nRA Tony: Okay, that's not acceptable. Since a direct conversation hasn't worked, the next step is a mediated roommate meeting. I'll schedule it for this Wednesday evening. Both of you will sit down with me and we'll create a written roommate agreement.\nSophie: Will that actually be enforced? I'm worried she'll just ignore it like before.\nRA Tony: The agreement is signed by both of you and filed with the housing office. If she violates it after signing, there are consequences, starting with a warning and escalating to a possible room reassignment. Most students take it seriously once it's in writing.\nSophie: That's reassuring. What if she refuses to sign?\nRA Tony: If she refuses, I document it and refer the case to the housing director. They can require mediation or move one of you. But let's try the agreement first. It works in about eighty percent of cases.\nSophie: Okay. What should I bring to the meeting?\nRA Tony: Bring a list of the specific issues and times they happened. Avoid general complaints like 'she's always loud.' Concrete examples help us address each point. Also, think about what a fair compromise would look like for you.\nSophie: Like quiet hours after ten on weeknights, and guests only on weekends?\nRA Tony: Exactly. Those are reasonable terms. I'll email Megan the meeting invitation now. Try to stay calm and remember this is about fixing the situation, not blaming anyone.",
+    "speakers": [
+      { "name": "Sophie", "role": "student" },
+      { "name": "RA Tony", "role": "resident advisor" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main problem Sophie is having with her roommate?",
+        "options": [
+          "Megan refuses to pay her share of groceries",
+          "Megan plays music late and has guests over, disrupting Sophie's sleep",
+          "Megan leaves the room messy",
+          "Megan borrowed Sophie's clothes without asking"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Sophie explains Megan plays music until midnight and had friends over at eleven, ruining Sophie's sleep before early classes."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many times has Sophie already talked to Megan directly?",
+        "options": ["Once", "Twice", "Three times", "Never"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sophie says she has tried talking to Megan directly twice, but Megan ignored the request to use headphones."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does RA Tony propose as the next step?",
+        "options": [
+          "Moving Sophie to a new room immediately",
+          "A mediated roommate meeting to create a written roommate agreement",
+          "Filing a formal complaint with the dean",
+          "Calling Megan's parents"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Tony says the next step is a mediated roommate meeting on Wednesday to create a written roommate agreement."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "When is the mediated meeting scheduled?",
+        "options": ["Monday morning", "Tuesday afternoon", "Wednesday evening", "Friday night"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "RA Tony states he will schedule the mediated roommate meeting for this Wednesday evening."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What happens if Megan violates the signed agreement?",
+        "options": [
+          "Nothing, it is only symbolic",
+          "Consequences start with a warning and can escalate to room reassignment",
+          "She is fined immediately",
+          "She is expelled from housing with no warning"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Tony explains consequences begin with a warning and escalate to a possible room reassignment if the agreement is violated."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What happens if Megan refuses to sign the agreement?",
+        "options": [
+          "Sophie must move out instead",
+          "RA Tony documents it and refers the case to the housing director",
+          "The agreement is enforced anyway",
+          "Megan is automatically expelled"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Tony says if Megan refuses, he documents it and refers the case to the housing director, who can require mediation or move one of them."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "According to RA Tony, how often does the agreement work?",
+        "options": [
+          "About fifty percent of cases",
+          "About eighty percent of cases",
+          "Almost never",
+          "Always"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Tony says the written agreement works in about eighty percent of cases, so they should try it first."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does RA Tony advise Sophie to bring to the meeting?",
+        "options": [
+          "A list of specific issues and the times they happened",
+          "A recording of the noise",
+          "A petition from other residents",
+          "A letter from her professor"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "RA Tony tells Sophie to bring a list of the specific issues and times they happened, and to avoid vague general complaints."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What compromise does Sophie suggest?",
+        "options": [
+          "No guests ever allowed",
+          "Quiet hours after ten on weeknights and guests only on weekends",
+          "Megan must move to another dorm",
+          "Sophie gets the room to herself on test days"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sophie suggests quiet hours after ten on weeknights and guests only on weekends, which RA Tony calls reasonable."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is RA Tony's attitude toward the meeting?",
+        "options": [
+          "He thinks it is a waste of time",
+          "He wants it to fix the situation, not assign blame to anyone",
+          "He is already planning to punish Megan",
+          "He blames Sophie for being too sensitive"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "RA Tony tells Sophie to stay calm and remember the meeting is about fixing the situation, not blaming anyone."
+      }
+    ],
+    "keyVocabulary": ["roommate", "resident advisor", "mediation", "roommate agreement", "housing office", "room reassignment", "compromise", "quiet hours", "consequences"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the student center about a club requesting a budget increase.",
+    "audioScript": "Situation: The president of the photography club meets with the student activities coordinator to request additional funding for an upcoming exhibition.\nCoordinator: Welcome, Nadia. I reviewed your budget request. You're asking for five hundred dollars on top of your annual allocation of three hundred. That's a significant increase. Can you walk me through the justification?\nNadia: Thank you for considering it. Our annual three hundred dollars barely covers basic supplies like photo paper and chemicals for the darkroom. The exhibition we're planning for April will showcase forty student photographs, and we need the extra funds for printing, matting, and framing.\nCoordinator: I understand the exhibition is important. But the activities board has a fixed pool this semester. What makes your request a priority over other clubs?\nNadia: First, the exhibition is open to the entire campus and the local community, not just club members. We expect over two hundred visitors. Second, we've already secured a matching grant of two hundred fifty dollars from the local arts council, but it's conditional on us raising an equal amount. Without the five hundred from the board, we lose the grant entirely.\nCoordinator: That matching grant changes things. If we approve your request, you'd effectively have seven hundred fifty dollars for the exhibition. Is that correct?\nNadia: Exactly. Five hundred from the board plus two hundred fifty from the arts council. We've also cut costs by having members volunteer to mat and frame the prints themselves instead of hiring a professional framer.\nCoordinator: That shows initiative. Let me ask, what happens if we can only approve three hundred of the five hundred? Would the project still go forward?\nNadia: It would, but we'd have to reduce the number of featured photographs from forty to about twenty-five, and we couldn't afford frames for the largest prints. The quality of the show would drop noticeably.\nCoordinator: I'll recommend the full five hundred to the board. Your matching grant and volunteer effort make a strong case. You'll hear back by Friday. If approved, funds are released within ten business days.\nNadia: That's wonderful news. Thank you so much for your time, and we'll send the detailed expense breakdown by this afternoon.",
+    "speakers": [
+      { "name": "Nadia", "role": "photography club president" },
+      { "name": "Coordinator", "role": "student activities coordinator" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of Nadia's meeting with the coordinator?",
+        "options": [
+          "To cancel an upcoming exhibition",
+          "To request an additional five hundred dollars for a photography exhibition",
+          "To complain about the annual allocation being too small",
+          "To recruit new club members"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Nadia is meeting with the coordinator to request an additional five hundred dollars on top of the club's annual allocation for the April exhibition."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the photography club's current annual allocation?",
+        "options": ["One hundred dollars", "Three hundred dollars", "Five hundred dollars", "Seven hundred fifty dollars"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia states the club's annual allocation is three hundred dollars, which barely covers basic supplies."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many photographs will the exhibition showcase?",
+        "options": ["Twenty-five", "Thirty", "Forty", "Two hundred"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Nadia says the April exhibition will showcase forty student photographs."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does the matching grant from the local arts council amount to?",
+        "options": ["One hundred dollars", "Two hundred dollars", "Two hundred fifty dollars", "Five hundred dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Nadia explains they secured a matching grant of two hundred fifty dollars from the local arts council."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the condition attached to the arts council grant?",
+        "options": [
+          "The club must hire a professional framer",
+          "The club must raise an equal amount itself",
+          "The exhibition must be open only to students",
+          "The club must submit photos to a competition"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia says the grant is conditional on the club raising an equal amount, meaning they lose it without the board's funding."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "If the full five hundred is approved, what is the total exhibition budget?",
+        "options": ["Five hundred dollars", "Six hundred dollars", "Seven hundred fifty dollars", "One thousand dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator confirms five hundred from the board plus two hundred fifty from the arts council equals seven hundred fifty dollars total."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How have club members reduced costs?",
+        "options": [
+          "By canceling the darkroom sessions",
+          "By volunteering to mat and frame prints themselves instead of hiring a professional framer",
+          "By using smaller prints only",
+          "By charging admission to visitors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia explains members volunteer to mat and frame the prints themselves, cutting costs instead of hiring a professional framer."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What would happen if only three hundred of the five hundred were approved?",
+        "options": [
+          "The exhibition would be canceled entirely",
+          "The number of featured photos would drop from forty to about twenty-five, and large prints couldn't be framed",
+          "The club would lose the arts council grant completely",
+          "Nadia would resign as president"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Nadia says with only three hundred they'd reduce featured photos to about twenty-five and couldn't afford frames for the largest prints."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the coordinator's final decision regarding the request?",
+        "options": [
+          "He denies the request immediately",
+          "He recommends the full five hundred dollars to the board",
+          "He approves only half the amount",
+          "He asks Nadia to reapply next semester"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says he will recommend the full five hundred to the board based on the matching grant and volunteer effort."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "When will Nadia hear back, and how soon are funds released if approved?",
+        "options": [
+          "By Friday; funds released within ten business days",
+          "By Monday; funds released within three days",
+          "By next month; funds released immediately",
+          "By Wednesday; funds released within five days"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says Nadia will hear back by Friday and, if approved, funds are released within ten business days."
+      }
+    ],
+    "keyVocabulary": ["budget allocation", "matching grant", "exhibition", "matting", "framing", "conditional", "arts council", "expense breakdown", "activities board"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation on campus between two students planning a campus event.",
+    "audioScript": "Situation: Two members of the environmental club walk across campus discussing plans for an upcoming Earth Day recycling drive.\nElena: Omar, did you get a chance to look at the proposal for the Earth Day recycling drive? We need to finalize the plan before we present it to the sustainability office.\nOmar: I did. Overall it looks solid, but I think we're underestimating the number of volunteers. Last year we had only fifteen and we ran out of people to sort materials at the bins. I'd say we need at least twenty-five.\nElena: You're right. Let me update that. We can put out a sign-up sheet at the student union and post on the campus social media page. The marketing club offered to help design posters for free.\nOmar: That's great. What about the collection points? The proposal lists three locations, but I think we should add one near the south dorms since that area had the lowest participation last year.\nElena: Good catch. Four locations means we need more bins. The sustainability office provides bins free of charge, but we have to submit the request two weeks ahead. Earth Day is April twenty-second, so we're right at the deadline.\nOmar: I'll call the office this afternoon to make sure we get the extra bins. Have you thought about what to do with the collected materials?\nElena: Yes. Plastic and aluminum go to the city recycling center, and we're partnering with a local nonprofit to take the electronics. They refurbish old laptops and donate them to schools.\nOmar: That's a nice touch. We should highlight that in the promotional materials, it gives people an extra reason to participate. What time are we planning to run the drive?\nElena: Nine AM to three PM. We'll split volunteers into two shifts, morning and afternoon, so no one is stuck working all six hours.\nOmar: Smart. Let's also have a short training session the day before so everyone knows which materials go in which bin. Last year some volunteers mixed glass with plastic and it caused a headache.\nElena: Definitely. I'll add a thirty-minute training on April twenty-first. Once we finalize this, I'll send it to the sustainability office for approval and we can start recruiting volunteers.",
+    "speakers": [
+      { "name": "Elena", "role": "environmental club member" },
+      { "name": "Omar", "role": "environmental club member" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What event are Elena and Omar planning?",
+        "options": [
+          "A campus cleanup picnic",
+          "An Earth Day recycling drive",
+          "A tree planting ceremony",
+          "A sustainability lecture series"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Elena and Omar are discussing the proposal for an Earth Day recycling drive to present to the sustainability office."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many volunteers did they have last year, and how many does Omar want this year?",
+        "options": [
+          "Ten last year; twenty this year",
+          "Fifteen last year; at least twenty-five this year",
+          "Twenty last year; thirty this year",
+          "Five last year; fifteen this year"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Omar says last year they had fifteen volunteers and ran short, so this year they need at least twenty-five."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Which group offered to design posters for free?",
+        "options": [
+          "The art department",
+          "The marketing club",
+          "The sustainability office",
+          "The student union"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Elena mentions the marketing club offered to help design posters for the event at no cost."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why does Omar suggest adding a collection point near the south dorms?",
+        "options": [
+          "It is the closest to the recycling center",
+          "That area had the lowest participation last year",
+          "It has the most student residents",
+          "The sustainability office is located there"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Omar wants to add a collection point near the south dorms because that area had the lowest participation last year."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many collection locations will there be in total after Omar's suggestion?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The proposal originally listed three locations, and adding one near the south dorms makes four total."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Who provides the bins, and what is the requirement?",
+        "options": [
+          "The city provides them with no requirements",
+          "The sustainability office provides them free, but the request must be submitted two weeks ahead",
+          "The club must purchase bins from a vendor",
+          "The student union rents bins for a fee"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Elena says the sustainability office provides bins free of charge, but the request must be submitted two weeks ahead."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What happens to the collected electronics?",
+        "options": [
+          "They are thrown away",
+          "They are sold at a flea market",
+          "A local nonprofit refurbishes old laptops and donates them to schools",
+          "They are stored in the environmental club office"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Elena says they partner with a local nonprofit that refurbishes old laptops and donates them to schools."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How are the volunteer shifts organized?",
+        "options": [
+          "One shift covering all six hours",
+          "Two shifts, morning and afternoon, so no one works all six hours",
+          "Three shifts of one hour each",
+          "Volunteers choose any single hour"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Elena explains volunteers are split into two shifts, morning and afternoon, so no one works all six hours."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why does Elena plan a training session the day before?",
+        "options": [
+          "To teach volunteers which materials go in which bin, since mixing caused problems last year",
+          "To train volunteers on public speaking",
+          "To teach volunteers how to drive the collection trucks",
+          "To review the history of Earth Day"
+        ],
+        "correctAnswer": 0,
+        "questionType": "INFERENCE",
+        "explanation": "Omar notes last year volunteers mixed glass with plastic, so a thirty-minute training on April twenty-first will prevent that."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What will Elena do once the plan is finalized?",
+        "options": [
+          "Cancel the event",
+          "Send the plan to the sustainability office for approval and start recruiting volunteers",
+          "Ask the city for additional funding",
+          "Postpone the drive to May"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Elena says once finalized she will send it to the sustainability office for approval and they can start recruiting volunteers."
+      }
+    ],
+    "keyVocabulary": ["recycling drive", "volunteers", "collection points", "sustainability office", "bins", "refurbish", "nonprofit", "shifts", "training session"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the library about recruiting volunteers for a literacy program.",
+    "audioScript": "Situation: A student coordinator for a campus literacy outreach program speaks with a librarian about recruiting and training volunteer tutors.\nLibrarian: Good afternoon, Theo. You mentioned you needed help with the literacy outreach program. What's the situation?\nTheo: Hi, Ms. Alvarez. We currently have only eight volunteer tutors, but we've been approved to expand to three community centers, which means we need at least twenty tutors total. We're short by twelve.\nLibrarian: That's a big gap. Have you thought about where to find new volunteers? The library bulletin board is available, and I can include a blurb in our weekly newsletter that goes out to about six hundred students.\nTheo: That would be fantastic. The newsletter would reach a lot of people. We're also planning an information session next Thursday in the library conference room. Could we reserve that space from five to seven PM?\nLibrarian: Let me check the calendar. Yes, Thursday evening is open. I'll hold it for you. What will the session cover?\nTheo: It'll have two parts. First, a fifteen-minute overview of the program and the commitment required, which is two hours per week for one semester. Then a current tutor will share their experience. We've found that personal stories are the most effective recruiting tool.\nLibrarian: That's a smart approach. Will there be a training component as well?\nTheo: Yes. Volunteers who sign up attend a mandatory three-hour training workshop the following Saturday. It covers tutoring strategies, working with different age groups, and safety guidelines. The community center staff co-lead the training with me.\nLibrarian: Do volunteers need any special qualifications, like a teaching background?\nTheo: No teaching experience is required. We ask that they be patient, reliable, and comfortable reading aloud. We provide all the materials and lesson plans. The training equips them with everything else they need.\nLibrarian: That lowers the barrier nicely. One concern: do you track volunteer hours? Some students need verification for scholarship or service-learning requirements.\nTheo: We do. Each tutor logs their hours through an online portal, and at the end of the semester I sign a letter confirming the total. We've had several students use it for the president's service award.\nLibrarian: Perfect. I'll make sure the newsletter blurb mentions the information session date and the online RSVP link. Good luck with the recruitment, Theo.\nTheo: Thank you, Ms. Alvarez. I'm optimistic we'll hit our target with your help.",
+    "speakers": [
+      { "name": "Theo", "role": "literacy program coordinator" },
+      { "name": "Ms. Alvarez", "role": "librarian" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of Theo's conversation with Ms. Alvarez?",
+        "options": [
+          "To return overdue library books",
+          "To recruit volunteer tutors and arrange an information session for the literacy program",
+          "To apply for a librarian position",
+          "To complain about the community centers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Theo is seeking help recruiting volunteer tutors for the literacy outreach program and arranging an information session at the library."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many volunteer tutors does the program currently have?",
+        "options": ["Six", "Eight", "Twelve", "Twenty"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Theo states the program currently has only eight volunteer tutors."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many tutors are needed in total, and how many more must be recruited?",
+        "options": [
+          "Twelve total; four more needed",
+          "Twenty total; twelve more needed",
+          "Twenty total; eight more needed",
+          "Fifteen total; seven more needed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Theo says they need at least twenty tutors total and are short by twelve, since they currently have eight."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why is the expansion happening?",
+        "options": [
+          "They lost funding for the current centers",
+          "The program has been approved to expand to three community centers",
+          "The library asked them to grow",
+          "A grant requires more tutors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Theo explains they've been approved to expand to three community centers, which is why they need more tutors."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Ms. Alvarez offer to help with recruitment?",
+        "options": [
+          "Funding for new books",
+          "A blurb in the weekly newsletter reaching about six hundred students",
+          "A booth at the campus fair",
+          "Free pizza for the training"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ms. Alvarez offers to include a blurb in the library's weekly newsletter that reaches about six hundred students."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "When and where is the information session scheduled?",
+        "options": [
+          "Monday morning in the cafeteria",
+          "Next Thursday from five to seven PM in the library conference room",
+          "Saturday afternoon in the gym",
+          "Friday evening in the student union"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Theo requests the library conference room next Thursday from five to seven PM, and Ms. Alvarez confirms it is available."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the time commitment required of volunteer tutors?",
+        "options": [
+          "Five hours per week for one month",
+          "Two hours per week for one semester",
+          "Ten hours per week for two weeks",
+          "One hour per month for a year"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Theo states the commitment required is two hours per week for one semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the mandatory training workshop cover?",
+        "options": [
+          "Only administrative paperwork",
+          "Tutoring strategies, working with different age groups, and safety guidelines",
+          "Cooking and nutrition lessons",
+          "Web design and social media"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Theo explains the three-hour Saturday training covers tutoring strategies, working with different age groups, and safety guidelines."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What qualifications do volunteers need?",
+        "options": [
+          "A teaching credential",
+          "Prior tutoring experience",
+          "No teaching experience; they must be patient, reliable, and comfortable reading aloud",
+          "A background in child psychology"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Theo says no teaching experience is required; volunteers must be patient, reliable, and comfortable reading aloud."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about the volunteer hours tracking system?",
+        "options": [
+          "Hours are not tracked at all",
+          "Tutors log hours online and receive a signed confirmation letter usable for scholarships and service awards",
+          "Only paid staff track hours",
+          "Hours are tracked manually on paper only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Theo explains tutors log hours through an online portal and he signs a confirming letter, and several students have used it for the president's service award."
+      }
+    ],
+    "keyVocabulary": ["literacy outreach", "volunteer tutor", "community center", "information session", "training workshop", "service-learning", "online portal", "service award", "commitment"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the academic office between a new student and an orientation mentor.",
+    "audioScript": "Situation: A new transfer student meets with an orientation mentor in the academic office to review campus resources and registration procedures.\nMentor: Welcome, Priya! I'm Daniel, your orientation mentor. Today we'll go over campus resources, your first-semester registration, and answer any questions you have. How are you feeling about the transition?\nPriya: Honestly, a bit overwhelmed. I transferred from a small college, so this campus is much bigger. I'm worried about getting lost and not knowing where to find help.\nMentor: Totally normal. Let's start with the essentials. Every student is assigned a faculty advisor and a peer mentor. I'm your peer mentor for the first semester. Your faculty advisor is Professor Liu in the economics department. You should email her within the first week to set up an advising appointment.\nPriya: I'll do that today. What about registration? At my old school we just signed up online, but I heard it's different here.\nMentor: It's similar, but there's a pin hold. Your faculty advisor gives you a registration pin after your advising meeting. Without it, you can't register. Registration for transfers opens next Wednesday at seven AM, so schedule your advising meeting before then.\nPriya: That's tight. What if Professor Liu doesn't have an appointment before Wednesday?\nMentor: If that happens, come see me and I'll issue a temporary pin through the dean's office. It's a backup for transfers, but try the regular route first. Now, about resources: the tutoring center is on the second floor of the academic building, and it's free. They offer drop-in hours for writing, math, and economics.\nPriya: Free tutoring sounds great. Is there something similar for technology help, like if my laptop has issues?\nMentor: Yes, the IT help desk is in the library basement. They handle software, network access, and loaner laptops if yours is being repaired. Just bring your student ID. Also, the wellness center offers free counseling sessions, up to ten per semester. A lot of transfer students use them during the adjustment period.\nPriya: I appreciate you mentioning that. I didn't know about the wellness center. One more thing, how do I get involved in clubs?\nMentor: There's an involvement fair this Friday on the main quad. Over sixty clubs will have tables. You can sign up for as many as you want and they'll email you meeting details. I'd suggest picking two or three to start so you don't overcommit.\nPriya: That's helpful. I was thinking about the debate club and the investment club.\nMentor: Both are excellent choices. The debate club meets Tuesday evenings, and the investment club meets Thursday afternoons, so they won't conflict. I'll email you a summary of everything we discussed, including links and office locations.",
+    "speakers": [
+      { "name": "Priya", "role": "new transfer student" },
+      { "name": "Daniel", "role": "orientation mentor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of Priya's meeting with Daniel?",
+        "options": [
+          "To apply for a scholarship",
+          "To review campus resources and registration procedures as a new transfer student",
+          "To drop a course she doesn't like",
+          "To complain about her old college"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Daniel says they will go over campus resources, first-semester registration, and answer questions to help Priya transition."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How does Priya feel about the transition?",
+        "options": [
+          "Completely confident",
+          "A bit overwhelmed because the campus is much bigger than her old school",
+          "Angry about transferring",
+          "Indifferent and uninterested"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Priya says she feels a bit overwhelmed because she transferred from a small college and this campus is much bigger."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who is Priya's faculty advisor?",
+        "options": [
+          "Professor Walsh",
+          "Professor Liu in the economics department",
+          "Daniel",
+          "The dean"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel tells Priya her faculty advisor is Professor Liu in the economics department."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is required before Priya can register for courses?",
+        "options": [
+          "A health clearance form",
+          "A registration pin from her faculty advisor after an advising meeting",
+          "A library card",
+          "Permission from the registrar"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel explains there is a pin hold, and Professor Liu gives Priya a registration pin after their advising meeting."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "When does registration for transfer students open?",
+        "options": [
+          "Monday at noon",
+          "Next Wednesday at seven AM",
+          "Friday at five PM",
+          "Next month"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel says registration for transfers opens next Wednesday at seven AM, so Priya must meet her advisor before then."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What happens if Professor Liu doesn't have an appointment before Wednesday?",
+        "options": [
+          "Priya cannot register at all this semester",
+          "Daniel can issue a temporary pin through the dean's office as a backup",
+          "Priya must wait until next semester",
+          "Priya must call the registrar herself"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel says if Professor Liu is unavailable, he will issue a temporary pin through the dean's office, though the regular route should be tried first."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Where is the tutoring center located, and what does it offer?",
+        "options": [
+          "Library basement; technology help only",
+          "Second floor of the academic building; free drop-in hours for writing, math, and economics",
+          "Student union; paid tutoring only",
+          "Wellness center; counseling sessions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel says the tutoring center is on the second floor of the academic building and offers free drop-in hours for writing, math, and economics."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What services does the IT help desk provide?",
+        "options": [
+          "Free tutoring for all subjects",
+          "Software help, network access, and loaner laptops with a student ID",
+          "Career counseling and resume review",
+          "Meal plan management"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel explains the IT help desk in the library basement handles software, network access, and loaner laptops, requiring a student ID."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How many free counseling sessions does the wellness center offer per semester?",
+        "options": ["Five", "Ten", "Fifteen", "Unlimited"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel states the wellness center offers free counseling sessions, up to ten per semester, which many transfer students use."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about the involvement fair?",
+        "options": [
+          "It is mandatory for all students",
+          "Over sixty clubs attend, and Daniel suggests Priya pick two or three to avoid overcommitting",
+          "It only happens once a year in the spring",
+          "Students must pay to join any club"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Daniel says over sixty clubs will have tables at the Friday fair and suggests Priya pick two or three to start so she doesn't overcommit."
+      }
+    ],
+    "keyVocabulary": ["orientation mentor", "transfer student", "faculty advisor", "registration pin", "pin hold", "tutoring center", "IT help desk", "wellness center", "involvement fair"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the student center during a student government meeting about a campus policy proposal.",
+    "audioScript": "Situation: Three members of the student government executive board meet in the student center to debate a proposal to extend library hours during finals week.\nChairperson: Order, please. We're now on agenda item four, the proposal to extend library hours to twenty-four hours a day during finals week. Vice Chair Ruiz, you sponsored this. Please present your case.\nVice Chair Ruiz: Thank you. Currently the library closes at midnight during finals, but many students study past that. Last semester I surveyed three hundred students and seventy-eight percent said they'd use the library between midnight and six AM if it were open. Extending hours would give students a safe, quiet place to study instead of crowded dorm lounges.\nTreasurer Park: I understand the demand, but we need to look at cost. Keeping the library open overnight requires security staff, a circulation desk worker, and custodial support. The library director estimated the cost at about four thousand dollars for the two-week finals period. Where does that money come from?\nVice Chair Ruiz: I've spoken with the library director. She said if the student government allocates two thousand dollars from our reserve fund, the administration will match it dollar for dollar. So we only need to cover half.\nTreasurer Park: Two thousand from reserves. Our current reserve balance is about six thousand. That would leave us with four thousand, which is still above our minimum threshold of three thousand. Financially it's feasible, but I want to ensure we're not setting a precedent that drains reserves every semester.\nChairperson: Good point. What if we make this a pilot for one finals period and evaluate usage before committing long-term?\nVice Chair Ruiz: I'm comfortable with a pilot. We can track overnight entry counts and survey users at the end. If fewer than two hundred students use it per night on average, we reconsider. If it meets demand, we make it a permanent policy and seek a permanent funding line from the administration.\nTreasurer Park: That's reasonable. I'd also like to add a condition that the library confirm security staffing is in place before the pilot launches, so we don't have a safety gap.\nChairperson: Agreed. So the motion is: approve a one-semester pilot of twenty-four-hour library access during finals, funded by two thousand dollars from reserves with a two-thousand-dollar administrative match, contingent on confirmed security staffing and a post-pilot evaluation. All in favor?\nVice Chair Ruiz: Aye.\nTreasurer Park: Aye.\nChairperson: Motion carries. Ruiz, please draft the formal request to the library director by Friday. Park, prepare the budget transfer paperwork. We'll revisit the evaluation results at the first meeting next semester.",
+    "speakers": [
+      { "name": "Chairperson", "role": "student government chairperson" },
+      { "name": "Vice Chair Ruiz", "role": "student government vice chair" },
+      { "name": "Treasurer Park", "role": "student government treasurer" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the student government meeting?",
+        "options": [
+          "Increasing student activity fees",
+          "A proposal to extend library hours to twenty-four hours a day during finals week",
+          "Electing a new chairperson",
+          "Canceling finals week events"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The chairperson introduces agenda item four, the proposal to extend library hours to twenty-four hours a day during finals week."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What percentage of surveyed students said they would use the library overnight?",
+        "options": ["Fifty-two percent", "Sixty-five percent", "Seventy-eight percent", "Ninety percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Vice Chair Ruiz states seventy-eight percent of the three hundred surveyed students said they'd use the library between midnight and six AM."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many students were surveyed by Vice Chair Ruiz?",
+        "options": ["One hundred", "Two hundred", "Three hundred", "Five hundred"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Ruiz mentions she surveyed three hundred students last semester to gauge demand for extended hours."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the estimated total cost of keeping the library open overnight for the two-week finals period?",
+        "options": ["Two thousand dollars", "Three thousand dollars", "Four thousand dollars", "Six thousand dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Treasurer Park cites the library director's estimate of about four thousand dollars for the two-week finals period."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How is the cost split between student government and the administration?",
+        "options": [
+          "Student government pays all four thousand dollars",
+          "Student government pays two thousand from reserves and the administration matches it dollar for dollar",
+          "The administration pays the full amount",
+          "Students pay a per-night fee"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ruiz explains the administration will match dollar for dollar, so student government only needs to allocate two thousand from reserves."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the current reserve fund balance, and what is the minimum threshold?",
+        "options": [
+          "Four thousand balance; three thousand threshold",
+          "Six thousand balance; three thousand threshold",
+          "Six thousand balance; five thousand threshold",
+          "Ten thousand balance; eight thousand threshold"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Treasurer Park states the current reserve balance is about six thousand and the minimum threshold is three thousand, so spending two thousand is feasible."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What concern does Treasurer Park raise about approving the funding?",
+        "options": [
+          "That the library is not needed overnight",
+          "That it might set a precedent that drains reserves every semester",
+          "That students prefer studying in dorms",
+          "That the administration will refuse to match"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Park says financially it's feasible but wants to ensure they're not setting a precedent that drains reserves every semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What compromise does the chairperson suggest?",
+        "options": [
+          "Canceling the proposal entirely",
+          "Making it a pilot for one finals period and evaluating usage before committing long-term",
+          "Charging students an entry fee for overnight use",
+          "Asking the library to fund it entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The chairperson suggests making it a pilot for one finals period and evaluating usage before a long-term commitment."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What condition does Ruiz propose for reconsidering the policy?",
+        "options": [
+          "If fewer than one hundred students use it per night on average",
+          "If fewer than two hundred students use it per night on average, they reconsider",
+          "If any complaint is received",
+          "If the administration reduces its match"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ruiz says if fewer than two hundred students use the overnight hours per night on average, they will reconsider the policy."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What additional condition does Treasurer Park request before the pilot launches?",
+        "options": [
+          "That the library reduce its book budget",
+          "That the library confirm security staffing is in place to avoid a safety gap",
+          "That students sign liability waivers",
+          "That the pilot last only one week"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Park requests a condition that the library confirm security staffing is in place before the pilot launches, to avoid a safety gap."
+      }
+    ],
+    "keyVocabulary": ["student government", "finals week", "reserve fund", "pilot program", "security staffing", "administration match", "custodial support", "circulation desk", "minimum threshold"]
+  }
+]

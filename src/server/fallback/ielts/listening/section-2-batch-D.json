@@ -1,0 +1,870 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to an academic advisor explaining graduation requirements to second-year students.",
+    "audioScript": "Situation: An academic advisor addresses a group of second-year undergraduates at a graduation requirements information session.\nAdvisor: Good afternoon, everyone. I'm Dr. Helen Whittaker, your academic advisor. Today I'll walk you through the requirements you must meet to graduate from Crestfield University.\nAdvisor: First, every undergraduate must complete one hundred and twenty credits in total. Of these, forty-five must come from your major subjects, and thirty from general education modules.\nStudent: Excuse me, is there a minimum grade we need to pass a module?\nAdvisor: Yes. You must achieve at least a D, which is fifty percent, to earn credit for any module. Anything below that and you'll have to retake it.\nStudent: Do we need to do a final year project?\nAdvisor: Indeed. All students must complete a dissertation worth fifteen credits in their final year. You'll choose your topic in the first semester and submit it by the end of April.\nAdvisor: Additionally, there's a community engagement requirement. You must log at least twenty hours of approved volunteer work before graduation.\nStudent: What happens if we don't meet the volunteer hours?\nAdvisor: Without those hours, your degree will be withheld until the requirement is fulfilled, even if all your credits are complete.\nAdvisor: Lastly, all students must pass a quantitative reasoning exam, which is held each November. You have two attempts. If you fail both, you'll need to take a remedial course over the summer.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Dr. Helen Whittaker", "accent": "BRITISH", "gender": "FEMALE", "role": "academic advisor" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "second-year undergraduate" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is speaking to the students?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A careers counsellor", "Dr. Helen Whittaker, an academic advisor", "The university registrar", "A student ambassador"],
+        "keywords": ["Dr. Helen Whittaker", "academic advisor"],
+        "synonymsUsed": ["advisor", "speaker"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many total credits are required to graduate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ninety credits", "One hundred credits", "One hundred and twenty credits", "One hundred and fifty credits"],
+        "keywords": ["credits", "total", "one hundred and twenty"],
+        "synonymsUsed": ["complete", "required"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many credits must come from major subjects?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Forty-five credits", "Thirty credits", "Sixty credits", "Fifteen credits"],
+        "keywords": ["major", "credits", "forty-five"],
+        "synonymsUsed": ["core subjects", "specialism"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the minimum passing grade for a module?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A C, which is sixty percent", "A D, which is fifty percent", "An E, which is forty percent", "A B, which is seventy percent"],
+        "keywords": ["minimum", "grade", "D", "fifty percent"],
+        "synonymsUsed": ["pass mark", "lowest"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many credits is the final year dissertation worth?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Fifteen credits", "Ten credits", "Twenty credits", "Thirty credits"],
+        "keywords": ["dissertation", "credits", "fifteen"],
+        "synonymsUsed": ["final year project", "worth"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By when must the dissertation be submitted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The end of December", "The end of January", "The end of April", "The end of May"],
+        "keywords": ["dissertation", "submit", "April"],
+        "synonymsUsed": ["hand in", "deadline"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many volunteer hours must students log before graduation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten hours", "Twenty hours", "Fifty hours", "One hundred hours"],
+        "keywords": ["volunteer", "hours", "twenty"],
+        "synonymsUsed": ["community engagement", "service"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if a student does not complete the volunteer hours?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They must pay a fine", "They receive a lower classification", "Their degree is withheld until the requirement is met", "They are expelled immediately"],
+        "keywords": ["volunteer hours", "withheld", "degree"],
+        "synonymsUsed": ["not fulfilled", "held back"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the quantitative reasoning exam held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Each November", "Each January", "Each March", "Each May"],
+        "keywords": ["quantitative reasoning", "exam", "November"],
+        "synonymsUsed": ["test", "scheduled"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must a student do if they fail both attempts at the quantitative reasoning exam?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Withdraw from the university", "Take a remedial course over the summer", "Repeat the entire year", "Pay a re-sit fee and try again"],
+        "keywords": ["fail", "both attempts", "remedial course", "summer"],
+        "synonymsUsed": ["unsuccessful", "retake"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "credits", "pronunciationNote": "/ˈkrɛdɪts/", "meaning": "Units measuring academic progress toward a degree." },
+      { "word": "module", "meaning": "A self-contained unit of study within a degree programme." },
+      { "word": "dissertation", "pronunciationNote": "/ˌdɪsəˈteɪʃən/", "meaning": "A long research paper completed in the final year." },
+      { "word": "withheld", "meaning": "Kept back or not granted until a condition is met." },
+      { "word": "remedial", "meaning": "Intended to correct or improve deficient skills." },
+      { "word": "quantitative reasoning", "meaning": "The ability to work with numbers and interpret data." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a recreation coordinator describing campus recreation facilities to new students.",
+    "audioScript": "Situation: A campus recreation coordinator welcomes new students and explains the recreational facilities and programmes available at the university.\nCoordinator: Hi everyone, I'm Marcus, the campus recreation coordinator here at Lakeside University. Let me tell you about what's on offer for staying active and having fun.\nCoordinator: Our main sports complex, the Allen Centre, has a twenty-five-metre swimming pool, six badminton courts, and a fully equipped gym. It's open from six in the morning until eleven at night, seven days a week.\nStudent: Do we have to pay to use the gym?\nCoordinator: Good news, no. Gym access is included in your student fees, so just swipe your ID card at the entrance. However, fitness classes like yoga and spin cost three pounds per session.\nStudent: Can we book courts in advance?\nCoordinator: Absolutely. You can reserve badminton and squash courts online up to a week ahead. Each booking is limited to one hour so that everyone gets a fair turn.\nCoordinator: We also run intramural leagues in football, basketball, and netball. Sign-ups close at the end of the second week of term, and matches are played on Wednesday afternoons.\nStudent: Are there any outdoor facilities?\nCoordinator: Yes, we have three floodlit tennis courts and a running track behind the Allen Centre. The track is open round the clock, but the tennis courts close at nine in the evening to keep noise down for nearby residents.\nCoordinator: Finally, we organise weekend hiking trips once a month. Tickets are five pounds and include transport. They sell out fast, so book early at the recreation office.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Marcus", "accent": "AMERICAN", "gender": "MALE", "role": "campus recreation coordinator" },
+        { "name": "Student", "accent": "AMERICAN", "gender": "FEMALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Marcus?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The campus recreation coordinator", "The head of student services", "A swimming coach", "The sports complex manager"],
+        "keywords": ["Marcus", "recreation coordinator"],
+        "synonymsUsed": ["in charge", "organiser"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the swimming pool at the Allen Centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty metres", "Twenty-five metres", "Fifty metres", "Fifteen metres"],
+        "keywords": ["swimming pool", "twenty-five metres"],
+        "synonymsUsed": ["pool length", "size"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the Allen Centre open?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nine until five, weekdays only", "Six until nine, seven days a week", "Six in the morning until eleven at night, seven days a week", "Twenty-four hours a day"],
+        "keywords": ["Allen Centre", "open", "six", "eleven"],
+        "synonymsUsed": ["opening hours", "available"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much do fitness classes like yoga and spin cost per session?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three pounds", "Five pounds", "Free for students", "Ten pounds"],
+        "keywords": ["fitness classes", "yoga", "spin", "three pounds"],
+        "synonymsUsed": ["charge", "fee"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How far in advance can courts be booked?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three days ahead", "A week ahead", "Two weeks ahead", "Only on the day"],
+        "keywords": ["book courts", "advance", "week"],
+        "synonymsUsed": ["reserve", "ahead of time"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum duration of a court booking?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty minutes", "Forty-five minutes", "One hour", "Two hours"],
+        "keywords": ["booking", "limited", "one hour"],
+        "synonymsUsed": ["duration", "time slot"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When do intramural league sign-ups close?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The end of the second week of term", "The end of the first week of term", "The end of the first month", "Midway through the term"],
+        "keywords": ["intramural", "sign-ups", "close", "second week"],
+        "synonymsUsed": ["register", "deadline"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are intramural matches played?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tuesday evenings", "Wednesday afternoons", "Weekend mornings", "Thursday nights"],
+        "keywords": ["matches", "Wednesday afternoons"],
+        "synonymsUsed": ["games", "scheduled"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do the tennis courts close at nine in the evening?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["To keep noise down for nearby residents", "Because there is no lighting", "Due to staff shortages", "For maintenance work"],
+        "keywords": ["tennis courts", "close", "nine", "noise", "residents"],
+        "synonymsUsed": ["shut", "nearby homes"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is included in the five-pound ticket for weekend hiking trips?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Meals and equipment", "Transport", "Accommodation", "Insurance"],
+        "keywords": ["hiking trips", "five pounds", "transport"],
+        "synonymsUsed": ["included", "covered"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "complex", "meaning": "A group of buildings used for a particular purpose." },
+      { "word": "intramural", "pronunciationNote": "/ˌɪntrəˈmjʊərəl/", "meaning": "Competitions held within a single institution." },
+      { "word": "floodlit", "meaning": "Lit by powerful lamps for evening use." },
+      { "word": "round the clock", "meaning": "Available twenty-four hours a day." },
+      { "word": "swipe", "meaning": "To slide a card through a reader to gain access." },
+      { "word": "recreation", "meaning": "Activities done for enjoyment when not working." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a volunteer coordinator describing opportunities at a volunteer fair.",
+    "audioScript": "Situation: A volunteer coordinator from the student community office addresses students at a volunteer opportunities fair, outlining various placements available this semester.\nCoordinator: Welcome, everyone. I'm Sarah Cheng, the volunteer coordinator at Northgate University. Today I'll introduce four fantastic volunteer programmes you can join this semester.\nCoordinator: First is the Reading Partners scheme. You'll spend two hours each week helping primary school children with their reading. It takes place at Greenfield Primary, a short bus ride from campus, on Tuesday and Thursday afternoons.\nStudent: Do we need any experience for that?\nCoordinator: No prior experience is needed. You'll receive a one-hour training session before you start. And here's the reward: volunteers who complete a full term with Reading Partners earn both a certificate of achievement and a reference letter, which is brilliant for your CV.\nCoordinator: Second is the Elderly Companions programme. Volunteers visit seniors at the Sunnybank Care Home. You'll chat, play games, and sometimes help with light shopping. A background check is required, which the university covers at no cost to you.\nStudent: How long is the commitment for that one?\nCoordinator: We ask for a minimum of one semester, so about twelve weeks, to build meaningful relationships with the residents.\nCoordinator: Third is the Community Garden Group. It meets every Saturday morning from nine to noon at the campus allotment. You'll grow vegetables that are donated to the local food bank. Tools and seeds are provided, but you should bring your own gloves.\nCoordinator: Finally, the Beach Clean-Up Initiative takes place at Seaton Beach, about twenty minutes by coach. It runs once a month, usually on the last Sunday. The university provides gloves, bags, and transport. Last year, volunteers collected over three hundred kilograms of litter.\nCoordinator: All volunteers who log more than thirty hours across any combination of programmes also receive a special commendation from the vice-chancellor.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Sarah Cheng", "accent": "AMERICAN", "gender": "FEMALE", "role": "volunteer coordinator" },
+        { "name": "Student", "accent": "AMERICAN", "gender": "MALE", "role": "interested student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Sarah Cheng?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A primary school teacher", "The manager of a care home", "The volunteer coordinator at Northgate University", "A student ambassador"],
+        "keywords": ["Sarah Cheng", "volunteer coordinator"],
+        "synonymsUsed": ["in charge", "organiser"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many volunteer programmes are introduced at the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three", "Four", "Five", "Six"],
+        "keywords": ["programmes", "four", "introduce"],
+        "synonymsUsed": ["schemes", "options"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often do volunteers help in the Reading Partners scheme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Once a week", "Three times a week", "Two hours each week", "Every weekend"],
+        "keywords": ["Reading Partners", "two hours", "each week"],
+        "synonymsUsed": ["frequency", "weekly"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On which days does the Reading Partners scheme take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Tuesday and Thursday afternoons", "Monday and Wednesday mornings", "Saturday mornings", "Sunday afternoons"],
+        "keywords": ["Reading Partners", "Tuesday", "Thursday", "afternoons"],
+        "synonymsUsed": ["scheduled", "days"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is required for the Elderly Companions programme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A first aid certificate", "Previous care experience", "A background check", "A driving licence"],
+        "keywords": ["Elderly Companions", "background check", "required"],
+        "synonymsUsed": ["needed", "screening"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the minimum commitment for the Elderly Companions programme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One month, about four weeks", "One semester, about twelve weeks", "A full academic year", "Two semesters"],
+        "keywords": ["Elderly Companions", "minimum", "one semester", "twelve weeks"],
+        "synonymsUsed": ["commitment", "duration"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the Community Garden Group meet?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Every Saturday morning", "Every Sunday afternoon", "Every Wednesday evening", "Every Friday morning"],
+        "keywords": ["Community Garden", "Saturday morning", "meet"],
+        "synonymsUsed": ["gather", "schedule"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where does the Beach Clean-Up Initiative take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["On campus lawns", "At Seaton Beach", "At the city recycling centre", "Along the river"],
+        "keywords": ["Beach Clean-Up", "Seaton Beach"],
+        "synonymsUsed": ["location", "venue"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often is the Beach Clean-Up Initiative run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Once a month", "Twice a month", "Once a semester", "Every weekend"],
+        "keywords": ["Beach Clean-Up", "once a month", "frequency"],
+        "synonymsUsed": ["regularity", "monthly"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What can volunteers earn through the Reading Partners scheme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Academic credit", "A certificate and a reference letter", "A cash payment", "Free meals"],
+        "keywords": ["Reading Partners", "certificate", "reference letter", "earn"],
+        "synonymsUsed": ["reward", "receive"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "literacy", "pronunciationNote": "/ˈlɪtərəsi/", "meaning": "The ability to read and write." },
+      { "word": "companionship", "meaning": "A feeling of fellowship or friendly association." },
+      { "word": "background check", "meaning": "A review of a person's history, often for safety screening." },
+      { "word": "initiative", "meaning": "An act or strategy intended to resolve a difficulty or improve something." },
+      { "word": "commitment", "pronunciationNote": "/kəˈmɪtmənt/", "meaning": "A pledge or obligation to do something." },
+      { "word": "volunteer", "meaning": "A person who freely offers to take part in a task without pay." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a housing officer presenting student accommodation options to incoming students.",
+    "audioScript": "Situation: A university housing officer presents on-campus and off-campus housing options to a group of incoming students at an accommodation briefing.\nOfficer: Welcome, everyone. I'm Sarah, the student housing officer at Brookfield University. Today I'll outline your accommodation options so you can make an informed choice.\nOfficer: First, we have three on-campus residence halls. Maple Court is the most affordable at ninety pounds per week, but it's a shared twin room with a communal kitchen. Oak House offers single rooms with a shared bathroom at one hundred and twenty pounds per week.\nStudent: Are meals included in any of the halls?\nOfficer: Yes, in Cedar Lodge, our premium option, the weekly rent of one hundred and sixty pounds includes a half-board meal plan, meaning breakfast and dinner are provided on weekdays.\nStudent: What about private rented housing off campus?\nOfficer: Many second and third-year students rent flats in the nearby area. A typical one-bedroom flat costs around five hundred pounds per month, plus bills. The university keeps an approved landlord list on the housing portal to help you avoid problems.\nStudent: Is there a homestay option for international students?\nOfficer: Indeed. We partner with local families who host students for one hundred and fifty pounds per week, which includes a private room and all meals. It's a great way to improve your English.\nOfficer: Whichever option you choose, you must submit your housing application by the fifteenth of August. Late applications are placed on a waiting list and only considered if spaces open up.\nOfficer: A deposit of two hundred pounds is required to secure your place, and it's refundable at the end of your tenancy provided there's no damage.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Sarah", "accent": "BRITISH", "gender": "FEMALE", "role": "student housing officer" },
+        { "name": "Student", "accent": "AUSTRALIAN", "gender": "MALE", "role": "incoming student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Sarah?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A landlord", "The student housing officer", "A residence hall manager", "An international student advisor"],
+        "keywords": ["Sarah", "housing officer"],
+        "synonymsUsed": ["accommodation officer", "official"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many on-campus residence halls are there?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three", "Four", "Five", "Two"],
+        "keywords": ["on-campus", "residence halls", "three"],
+        "synonymsUsed": ["halls of residence", "number"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does Maple Court cost per week?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ninety pounds", "One hundred and twenty pounds", "One hundred and fifty pounds", "One hundred and sixty pounds"],
+        "keywords": ["Maple Court", "ninety pounds", "week"],
+        "synonymsUsed": ["rent", "weekly cost"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of room does Maple Court offer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A single room with a shared bathroom", "A shared twin room with a communal kitchen", "A studio apartment", "A single en-suite room"],
+        "keywords": ["Maple Court", "shared twin room", "communal kitchen"],
+        "synonymsUsed": ["room type", "shared"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is included in the Cedar Lodge weekly rent of one hundred and sixty pounds?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A half-board meal plan with breakfast and dinner on weekdays", "Full-board meals seven days a week", "Free laundry service", "A private garden"],
+        "keywords": ["Cedar Lodge", "half-board", "meal plan", "breakfast", "dinner"],
+        "synonymsUsed": ["meals included", "premium"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does a typical one-bedroom flat off campus cost per month?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three hundred pounds", "Four hundred pounds", "Five hundred pounds", "Six hundred pounds"],
+        "keywords": ["one-bedroom flat", "five hundred pounds", "month"],
+        "synonymsUsed": ["rent", "monthly cost"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the university help students avoid problems with private landlords?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By inspecting every flat personally", "By keeping an approved landlord list on the housing portal", "By providing a free legal service", "By capping rent prices"],
+        "keywords": ["approved landlord list", "housing portal"],
+        "synonymsUsed": ["vetted", "verified"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the homestay option cost per week?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ninety pounds", "One hundred and twenty pounds", "One hundred and fifty pounds", "One hundred and sixty pounds"],
+        "keywords": ["homestay", "one hundred and fifty pounds", "week"],
+        "synonymsUsed": ["host family", "cost"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By when must the housing application be submitted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The fifteenth of August", "The first of September", "The fifteenth of July", "The end of August"],
+        "keywords": ["housing application", "submit", "fifteenth of August"],
+        "synonymsUsed": ["deadline", "apply"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Under what condition is the two-hundred-pound deposit refundable?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["If the student gives one month's notice", "If the student finds a replacement tenant", "Provided there is no damage at the end of the tenancy", "Always, regardless of condition"],
+        "keywords": ["deposit", "refundable", "no damage", "tenancy"],
+        "synonymsUsed": ["returned", "condition"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "residence hall", "meaning": "A building providing living accommodation for students on campus." },
+      { "word": "communal", "pronunciationNote": "/ˈkɒmjʊnəl/", "meaning": "Shared by members of a community." },
+      { "word": "half-board", "meaning": "An arrangement including breakfast and dinner but not lunch." },
+      { "word": "homestay", "meaning": "Living with a local host family, often used by international students." },
+      { "word": "tenancy", "meaning": "The period or terms under which a tenant occupies a property." },
+      { "word": "deposit", "meaning": "A sum of money paid as a guarantee, refundable under agreed conditions." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a campus security supervisor briefing staff on patrol procedures.",
+    "audioScript": "Situation: A campus security supervisor briefs a team of new patrol officers on procedures and protocols at the start of their shift.\nSupervisor: Right, listen up. I'm Officer Daniels, your shift supervisor. This briefing covers our patrol procedures for the night shift, so pay close attention.\nSupervisor: Our patrol route covers three zones. Zone A is the academic block, Zone B is the residential halls, and Zone C is the sports and recreation area. Each zone must be patrolled at least once every hour.\nOfficer: What should we do if we find a door that should be locked but isn't?\nSupervisor: Good question. First, check whether anyone is inside. If the area is clear, secure the door and log the incident in the patrol report with the time and door number. If someone is inside, ask for their ID and verify they have authorisation.\nOfficer: And what's the protocol for dealing with suspicious individuals?\nSupervisor: Approach calmly, identify yourself as campus security, and ask if they need assistance. If they refuse to cooperate or cannot give a reason for being on campus, call the control room immediately and do not attempt to detain them yourself.\nSupervisor: For emergencies, use the code red over the radio. That triggers an immediate response from all nearby units. Code yellow means a non-urgent incident that still needs backup, like a reported theft.\nOfficer: What about medical emergencies?\nSupervisor: For any medical situation, call an ambulance first, then radio code blue so the nearest first-aid-trained officer responds. Never move a seriously injured person unless they're in immediate danger.\nSupervisor: Finally, all incidents must be written up in the logbook before the end of your shift. Reports submitted after seven in the morning are considered late and require a written explanation.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Officer Daniels", "accent": "AMERICAN", "gender": "MALE", "role": "shift supervisor" },
+        { "name": "Officer", "accent": "AMERICAN", "gender": "FEMALE", "role": "new patrol officer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Officer Daniels?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The shift supervisor", "The head of campus security", "A new patrol officer", "The control room operator"],
+        "keywords": ["Officer Daniels", "shift supervisor"],
+        "synonymsUsed": ["in charge", "leader"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many patrol zones does the route cover?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["patrol zones", "three"],
+        "synonymsUsed": ["areas", "sectors"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Zone B cover?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The academic block", "The residential halls", "The sports and recreation area", "The car park"],
+        "keywords": ["Zone B", "residential halls"],
+        "synonymsUsed": ["accommodation", "dormitories"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often must each zone be patrolled?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["At least once every hour", "At least once every two hours", "Twice per shift", "Every thirty minutes"],
+        "keywords": ["patrolled", "once every hour"],
+        "synonymsUsed": ["frequency", "regularly"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the first step when finding an unlocked door that should be locked?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Secure the door immediately", "Call the control room", "Check whether anyone is inside", "Radio for backup"],
+        "keywords": ["unlocked door", "first step", "check", "anyone inside"],
+        "synonymsUsed": ["initial action", "verify"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must be logged in the patrol report after securing an unlocked door?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The name of the person responsible", "The time and door number", "The weather conditions", "The previous patrol's name"],
+        "keywords": ["patrol report", "log", "time", "door number"],
+        "synonymsUsed": ["record", "document"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What should officers do if a suspicious individual refuses to cooperate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Call the control room and do not detain them", "Physically restrain them", "Issue a formal warning", "Escort them off campus"],
+        "keywords": ["suspicious", "refuses", "call control room", "do not detain"],
+        "synonymsUsed": ["uncooperative", "report"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the code red radio signal trigger?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A non-urgent response", "A medical team dispatch", "An immediate response from all nearby units", "A lockdown of all buildings"],
+        "keywords": ["code red", "immediate response", "nearby units"],
+        "synonymsUsed": ["trigger", "activate"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does code yellow indicate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A medical emergency", "A non-urgent incident needing backup, like a theft", "An immediate threat to life", "A fire alarm"],
+        "keywords": ["code yellow", "non-urgent", "backup", "theft"],
+        "synonymsUsed": ["signal", "indicates"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are incident reports considered late?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["After seven in the morning", "After midnight", "After the shift ends at six", "After twenty-four hours"],
+        "keywords": ["reports", "late", "seven in the morning"],
+        "synonymsUsed": ["overdue", "deadline"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "patrol", "pronunciationNote": "/pəˈtrəʊl/", "meaning": "To move around an area to monitor and ensure security." },
+      { "word": "protocol", "meaning": "A set of official procedures to be followed in a given situation." },
+      { "word": "authorisation", "meaning": "Official permission to do something or be somewhere." },
+      { "word": "detain", "meaning": "To keep someone from leaving, usually for questioning." },
+      { "word": "code red", "meaning": "An emergency radio signal triggering an immediate response." },
+      { "word": "logbook", "meaning": "An official record book where incidents are documented." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a sustainability officer leading a tour of the campus environmental initiatives.",
+    "audioScript": "Situation: A university sustainability officer leads a group of students on a tour showcasing the campus's environmental initiatives and green infrastructure.\nOfficer: Hello, and welcome to the Green Campus Tour. I'm Dr. Eleanor Hayes, the sustainability officer here at Westwood University. Over the next hour, I'll show you how our campus is reducing its environmental footprint.\nOfficer: We'll begin at the solar panel array on the roof of the science block. Installed in 2021, these panels generate fifteen per cent of the university's electricity, saving approximately two hundred tonnes of carbon emissions annually.\nStudent: That's impressive. Is there more renewable infrastructure?\nOfficer: Indeed. Next, we have the rainwater harvesting system beneath the engineering building. It collects runoff from rooftops and irrigates the campus lawns and gardens. In a typical year, the system saves around one million litres of mains water.\nStudent: Are there any green buildings on campus?\nOfficer: Yes, our new student centre, opened last spring, is a showcase. It's constructed almost entirely from locally sourced, recycled materials, including reclaimed timber and recycled steel. The design prioritises natural light and ventilation.\nOfficer: Over to your right, you'll notice the biodiversity garden. Its main purpose is to attract and protect native pollinators, such as bees and butterflies, by providing the right wildflowers and habitats. Student volunteers help maintain it.\nStudent: Is there a way to get around campus without a car?\nOfficer: Absolutely. We run a bicycle hire scheme. Students can register online for a free annual membership, which allows unlimited borrowing from bike stations across campus. It's proven very popular.\nOfficer: Our environmental policy, approved by the university senate, pledges to reduce waste sent to landfill by fifty per cent within five years. We're currently in year three and on track to meet that target.\nOfficer: Finally, all of this is documented in our campus sustainability report, which is published annually and available on the university website. It tracks our progress against every target I've mentioned today.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Dr. Eleanor Hayes", "accent": "BRITISH", "gender": "FEMALE", "role": "sustainability officer" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "tour participant" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is leading the Green Campus Tour?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Dr. Eleanor Hayes, the sustainability officer", "The head of the science department", "A student environmental volunteer", "The campus facilities manager"],
+        "keywords": ["Dr. Eleanor Hayes", "sustainability officer", "tour"],
+        "synonymsUsed": ["guide", "leader"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When were the solar panels on the science block installed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In 2019", "In 2021", "In 2023", "In 2015"],
+        "keywords": ["solar panels", "installed", "2021"],
+        "synonymsUsed": ["fitted", "set up"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of the university's electricity do the solar panels generate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten percent", "Twenty percent", "Fifteen percent", "Twenty-five percent"],
+        "keywords": ["solar panels", "electricity", "fifteen percent"],
+        "synonymsUsed": ["produce", "supply"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the campus rainwater system irrigate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The campus lawns and gardens", "The sports fields only", "The greenhouse vegetables", "The rooftop garden"],
+        "keywords": ["rainwater", "irrigate", "lawns", "gardens"],
+        "synonymsUsed": ["water", "supply"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much water does the rainwater system save per year?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five hundred thousand litres", "One million litres", "Two million litres", "Five million litres"],
+        "keywords": ["rainwater", "save", "one million litres"],
+        "synonymsUsed": ["conserve", "annually"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is unique about the construction of the new student centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is built entirely from glass", "It is constructed from locally sourced, recycled materials", "It is powered only by wind energy", "It has a rooftop solar farm"],
+        "keywords": ["student centre", "recycled materials", "locally sourced"],
+        "synonymsUsed": ["built", "sustainable"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main purpose of the biodiversity garden?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["To attract and protect native pollinators", "To grow organic food for the cafeteria", "To serve as a research site for botany students", "To provide a quiet study space"],
+        "keywords": ["biodiversity garden", "native pollinators", "protect"],
+        "synonymsUsed": ["purpose", "aim"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How can students participate in the bicycle hire scheme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By purchasing a bike for a one-time fee", "By registering online for a free annual membership", "By paying a weekly rental at the sports centre", "By joining the cycling club"],
+        "keywords": ["bicycle hire", "register", "online", "free annual membership"],
+        "synonymsUsed": ["join", "sign up"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the environmental policy pledge target?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eliminating plastic by next year", "Carbon neutrality by 2025", "Reducing waste sent to landfill by fifty percent within five years", "Planting ten thousand trees"],
+        "keywords": ["environmental policy", "pledge", "landfill", "fifty percent", "five years"],
+        "synonymsUsed": ["target", "goal"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often is the campus sustainability report published?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Annually", "Biannually", "Quarterly", "Every two years"],
+        "keywords": ["sustainability report", "published", "annually"],
+        "synonymsUsed": ["released", "frequency"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "sustainability", "pronunciationNote": "/səˌsteɪnəˈbɪləti/", "meaning": "The practice of using resources so they are not depleted or permanently damaged." },
+      { "word": "irrigate", "meaning": "To supply land with water artificially." },
+      { "word": "biodiversity", "meaning": "The variety of plant and animal life in a particular habitat." },
+      { "word": "pollinator", "meaning": "An insect or animal that carries pollen from one plant to another." },
+      { "word": "carbon neutrality", "meaning": "Achieving net zero carbon emissions by balancing emissions with removal." },
+      { "word": "recycled materials", "meaning": "Materials that have been processed from waste and reused." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a mentorship programme coordinator introducing the student mentorship scheme to first-year students.",
+    "audioScript": "Situation: A mentorship programme coordinator introduces the university's student mentorship scheme to an audience of first-year students at an induction event.\nCoordinator: Good morning, everyone. I'm Professor James Aldridge, and I coordinate the Bridges Mentorship Programme here at Thornfield University. Let me explain how it works.\nCoordinator: The programme pairs each first-year student with a trained mentor from the third or fourth year. Mentors provide academic guidance, social support, and help you navigate university life during your first two semesters.\nStudent: How do we get matched with a mentor?\nCoordinator: Great question. You'll complete an online questionnaire that asks about your course, interests, and any preferences, such as same-gender matching. Our algorithm then pairs you within forty-eight hours, and you'll receive your mentor's contact details by email.\nStudent: How often are we supposed to meet?\nCoordinator: We ask mentors and mentees to meet face-to-face at least twice a month, for about an hour each time. You can also contact your mentor by email or message between meetings, but mentors aren't expected to reply outside working hours.\nCoordinator: Mentors receive training in active listening, safeguarding, and signposting to university services. They are not counsellors, so if you're dealing with a serious issue, they'll refer you to the appropriate professional service.\nStudent: What if we don't get along with our mentor?\nCoordinator: That does happen occasionally. You can request a reassignment through the programme portal within the first six weeks, no questions asked. After six weeks, requests are reviewed case by case.\nCoordinator: At the end of the year, both mentors and mentees submit a short reflection report. Mentees who complete the programme receive a certificate that can be added to your higher education achievement report, which is useful for job applications.\nCoordinator: Registration opens today and closes on the twentieth of September. There's no cost, but places are limited to three hundred mentees, so I encourage you to sign up promptly.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Professor James Aldridge", "accent": "BRITISH", "gender": "MALE", "role": "mentorship programme coordinator" },
+        { "name": "Student", "accent": "BRITISH", "gender": "FEMALE", "role": "first-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Professor James Aldridge?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The head of student services", "The coordinator of the Bridges Mentorship Programme", "A third-year mentor", "The dean of students"],
+        "keywords": ["Professor James Aldridge", "coordinator", "Bridges Mentorship"],
+        "synonymsUsed": ["in charge", "programme lead"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which year are mentors drawn from?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Second year only", "Third year only", "Third or fourth year", "Postgraduate students"],
+        "keywords": ["mentors", "third or fourth year"],
+        "synonymsUsed": ["drawn from", "selected"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does the mentorship last for first-year students?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The first two semesters", "One semester only", "The entire first year including summer", "Two full years"],
+        "keywords": ["mentorship", "first two semesters", "duration"],
+        "synonymsUsed": ["lasts", "period"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How are students matched with a mentor?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By attending an in-person interview", "By completing an online questionnaire processed by an algorithm", "By random assignment", "By their personal tutor's recommendation"],
+        "keywords": ["matched", "online questionnaire", "algorithm"],
+        "synonymsUsed": ["paired", "allocated"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does it take to receive a mentor's contact details after completing the questionnaire?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Within forty-eight hours", "Within one week", "Within twenty-four hours", "Within three working days"],
+        "keywords": ["contact details", "forty-eight hours", "email"],
+        "synonymsUsed": ["receive", "notification"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often must mentors and mentees meet face-to-face?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Once a month", "At least twice a month", "Every week", "Three times a semester"],
+        "keywords": ["meet", "face-to-face", "twice a month"],
+        "synonymsUsed": ["frequency", "sessions"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What training do mentors receive?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Academic tutoring and CV writing", "Mental health counselling", "Active listening, safeguarding, and signposting", "Conflict resolution and mediation"],
+        "keywords": ["training", "active listening", "safeguarding", "signposting"],
+        "synonymsUsed": ["trained", "skills"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if a mentee doesn't get along with their mentor within the first six weeks?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They can request a reassignment, no questions asked", "They must attend mediation first", "They are removed from the programme", "They must wait until the end of the semester"],
+        "keywords": ["reassignment", "first six weeks", "no questions asked"],
+        "synonymsUsed": ["change", "rematch"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do mentees receive for completing the programme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Academic credit toward their degree", "A certificate added to their higher education achievement report", "A cash bursary", "Priority registration for next year"],
+        "keywords": ["certificate", "higher education achievement report"],
+        "synonymsUsed": ["awarded", "receive"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many mentee places are available in the programme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two hundred", "Two hundred and fifty", "Three hundred", "Five hundred"],
+        "keywords": ["places", "limited", "three hundred", "mentees"],
+        "synonymsUsed": ["capacity", "spots"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "mentorship", "pronunciationNote": "/ˈmɛntɔːʃɪp/", "meaning": "A relationship in which an experienced person guides a less experienced one." },
+      { "word": "algorithm", "meaning": "A set of rules used by a computer to solve a problem or make a match." },
+      { "word": "safeguarding", "meaning": "Measures taken to protect individuals, especially vulnerable people, from harm." },
+      { "word": "signposting", "meaning": "Directing someone to the appropriate service or source of help." },
+      { "word": "reassignment", "meaning": "The act of allocating someone or something to a different role or person." },
+      { "word": "reflection report", "meaning": "A written account of one's experiences and learning over a period." }
+    ],
+    "difficulty": "HARD"
+  }
+]

@@ -1,0 +1,1010 @@
+[
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a biology course on the ecology of coral reefs.",
+    "academicField": "BIOLOGY",
+    "audioScript": "Situation: A professor delivers a lecture on the biology of coral reefs, their ecological importance, and the threats they face.\nProfessor Alvarez: Good morning. Today we turn our attention to one of the most diverse and fragile ecosystems on the planet: the coral reef. Coral reefs cover less than one percent of the ocean floor, yet they support roughly twenty-five percent of all marine species. That is an extraordinary concentration of biodiversity, and it is why reefs are often called the rainforests of the sea.\nProfessor Alvarez: Let's begin with what a coral actually is. A coral is not a single organism but a colony of tiny animals called polyps. Each polyp is a soft-bodied creature related to jellyfish, and it secretes a hard calcium carbonate skeleton that forms the structure of the reef. But the polyp does not work alone. It lives in a symbiotic relationship with microscopic algae called zooxanthellae. These algae live inside the polyp's tissues and perform photosynthesis, providing the coral with up to ninety percent of its energy. In return, the coral gives the algae a protected environment and the compounds they need for photosynthesis.\nProfessor Alvarez: This partnership is also what gives coral its vibrant color. When the ocean gets too warm, the coral becomes stressed and expels the zooxanthellae. Without the algae, the coral turns white, a phenomenon called coral bleaching. Bleached coral is not dead, but it is deprived of its main food source and becomes highly vulnerable. If temperatures return to normal quickly, the coral can recover. If the stress persists, the coral will starve and eventually die.\nProfessor Alvarez: Reef-building corals, the kind that create massive structures like the Great Barrier Reef, thrive in warm, shallow, clear tropical waters. They need sunlight, because their algal partners need it for photosynthesis, and they need stable temperatures. This narrow tolerance is exactly why reefs are so sensitive to climate change. Even a sustained rise of one or two degrees Celsius above the normal summer maximum can trigger mass bleaching.\nProfessor Alvarez: Beyond biodiversity, reefs provide enormous economic value. They protect coastlines from storm damage by absorbing wave energy, they support fishing industries that feed hundreds of millions of people, and they generate billions in tourism revenue. The current trajectory is alarming. Scientists estimate that we have already lost about half of the world's coral reefs in the past thirty years. Ocean acidification, caused by the ocean absorbing excess carbon dioxide, further weakens coral skeletons and makes recovery even harder. Protecting reefs will require both local conservation efforts and global action on carbon emissions.",
+    "speakers": [
+      { "name": "Professor Alvarez", "role": "biology professor" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The chemistry of ocean water",
+          "The biology, importance, and threats facing coral reefs",
+          "The history of marine biology research",
+          "Methods for farming tropical fish"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor discusses what corals are, their symbiotic relationship, their ecological and economic value, and threats like bleaching."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What percentage of all marine species do coral reefs support?",
+        "options": [
+          "About ten percent",
+          "About twenty-five percent",
+          "About fifty percent",
+          "About ninety percent"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that reefs support roughly twenty-five percent of all marine species despite covering less than one percent of the ocean floor."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is a coral polyp?",
+        "options": [
+          "A type of marine plant",
+          "A tiny soft-bodied animal related to jellyfish that secretes a calcium carbonate skeleton",
+          "A microscopic alga that lives in ocean water",
+          "A predatory fish that lives on reefs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes a polyp as a tiny soft-bodied animal related to jellyfish that secretes a hard calcium carbonate skeleton."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What do the zooxanthellae provide to the coral polyp?",
+        "options": [
+          "Protection from predators",
+          "Up to ninety percent of the coral's energy through photosynthesis",
+          "Calcium carbonate for skeleton building",
+          "Immunity to diseases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that zooxanthellae perform photosynthesis and provide the coral with up to ninety percent of its energy."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is coral bleaching?",
+        "options": [
+          "A disease that kills coral instantly",
+          "When stressed coral expels its zooxanthellae, turning white and losing its main food source",
+          "A natural color change during winter",
+          "When coral grows too fast and becomes fragile"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines bleaching as the process where warm water causes coral to expel its algae, turning it white and depriving it of food."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why do reef-building corals need sunlight?",
+        "options": [
+          "Because corals are plants and need sunlight directly",
+          "Because their algal partners need sunlight for photosynthesis",
+          "Because sunlight keeps the water cold",
+          "Because sunlight helps build calcium carbonate"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that corals need sunlight because their zooxanthellae partners require it for photosynthesis."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How much temperature rise above normal summer maximum can trigger mass bleaching?",
+        "options": [
+          "Five to ten degrees Celsius",
+          "One or two degrees Celsius sustained",
+          "Only a fraction of a degree",
+          "Ten degrees or more"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that even a sustained rise of one or two degrees Celsius above the normal summer maximum can trigger mass bleaching."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How do reefs protect coastlines?",
+        "options": [
+          "By generating cold currents",
+          "By absorbing wave energy and reducing storm damage",
+          "By attracting fish that eat coastal vegetation",
+          "By blocking ocean currents entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor says reefs protect coastlines from storm damage by absorbing wave energy."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does ocean acidification do to coral?",
+        "options": [
+          "It helps coral grow faster",
+          "It weakens coral skeletons and makes recovery harder",
+          "It has no measurable effect",
+          "It increases the coral's color"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that ocean acidification, caused by excess carbon dioxide absorption, weakens coral skeletons and hampers recovery."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward the future of coral reefs?",
+        "options": [
+          "Optimistic that reefs will recover on their own",
+          "Alarmed, emphasizing the need for both local and global action",
+          "Indifferent, since reefs are not economically important",
+          "Confident that technology alone can save reefs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor describes the current trajectory as alarming and calls for both local conservation and global action on carbon emissions."
+      }
+    ],
+    "keyVocabulary": ["polyp", "zooxanthellae", "symbiotic relationship", "calcium carbonate", "coral bleaching", "biodiversity", "ocean acidification", "photosynthesis", "Great Barrier Reef", "carbon emissions", "reef-building coral"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a history course on the impact of the printing press.",
+    "academicField": "HISTORY",
+    "audioScript": "Situation: A professor delivers a lecture on how Gutenberg's printing press transformed European society, religion, and learning.\nProfessor Lindqvist: Today we examine one of the most consequential inventions in human history: the movable-type printing press, developed by Johannes Gutenberg in the German city of Mainz around fourteen-fifty. Before Gutenberg, books were copied by hand, typically by monks in scriptoria. A single book could take months to produce, making them extraordinarily expensive and accessible only to the wealthiest institutions and individuals.\nProfessor Lindqvist: Gutenberg's genius was not inventing printing itself, block printing had existed in East Asia for centuries, but combining several innovations into a single workable system. The key breakthrough was movable metal type. Instead of carving an entire page onto a single block, Gutenberg cast individual metal letters that could be rearranged to form any page, then reused for another. He paired this with an oil-based ink that adhered to metal type, and adapted a wine press mechanism to apply even pressure across the page. The result was a system that could produce books at a fraction of the previous cost and time.\nProfessor Lindqvist: The first major book printed was the Gutenberg Bible, completed around fourteen-fifty-five. About one hundred and eighty copies were produced, a staggering number by the standards of the day. But the true revolution was not in producing Bibles. It was in the rapid spread of printing presses across Europe. Within fifty years, presses had been established in over two hundred cities, and millions of books had been printed.\nProfessor Lindqvist: This had enormous consequences. First, it fueled the Protestant Reformation. When Martin Luther posted his Ninety-Five Theses in fifteen-seventeen, his ideas spread across Europe in weeks, not years. Luther himself noted that printing was God's highest act of grace. Without the press, the Reformation might have remained a local dispute.\nProfessor Lindqvist: Second, printing standardized knowledge. Hand-copied texts inevitably accumulated errors, each scribe introducing new mistakes. Printed editions, produced from a single typeset, were identical. This made it possible to reference specific pages and trust that another scholar across the continent had the same text. The scientific revolution depended on this reliability.\nProfessor Lindqvist: Third, printing promoted literacy. As books became cheaper, more people learned to read. This gradually shifted power away from the clergy and aristocracy, who had controlled access to knowledge. The long-term effect was the democratization of information, a process that continues to this day whenever a new technology, from the telegraph to the internet, makes information cheaper and faster to distribute.",
+    "speakers": [
+      { "name": "Professor Lindqvist", "role": "history professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The life of Johannes Gutenberg",
+          "How the movable-type printing press transformed European society, religion, and learning",
+          "The history of bookbinding techniques",
+          "Monastic manuscript traditions in the Middle Ages"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers Gutenberg's invention, the spread of printing, and its effects on the Reformation, science, and literacy."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How were books produced before the printing press?",
+        "options": [
+          "They were printed on wooden blocks in Europe",
+          "They were copied by hand, typically by monks in scriptoria",
+          "They were mass-produced in factories",
+          "They were distributed only orally"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that before Gutenberg, books were copied by hand, typically by monks in scriptoria, making them slow and expensive to produce."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What was Gutenberg's key breakthrough?",
+        "options": [
+          "Inventing block printing for the first time",
+          "Movable metal type that could be rearranged and reused",
+          "A new type of paper made from wood pulp",
+          "A faster method of hand-copying texts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor identifies the key breakthrough as movable metal type, where individual letters could be rearranged for any page and then reused."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What mechanism did Gutenberg adapt to apply pressure in printing?",
+        "options": [
+          "A windmill mechanism",
+          "A wine press mechanism",
+          "A water wheel",
+          "A blacksmith's hammer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Gutenberg adapted a wine press mechanism to apply even pressure across the page."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Approximately how many copies of the Gutenberg Bible were produced?",
+        "options": [
+          "About twenty copies",
+          "About one hundred and eighty copies",
+          "About one thousand copies",
+          "About ten thousand copies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor says about one hundred and eighty copies of the Gutenberg Bible were produced, a staggering number for the time."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does the professor connect printing to the Protestant Reformation?",
+        "options": [
+          "Gutenberg was himself a Protestant reformer",
+          "Luther's ideas spread across Europe in weeks because of the press, which Luther called God's highest act of grace",
+          "The press was used to suppress Protestant ideas",
+          "Printing had no connection to the Reformation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that printing allowed Luther's ideas to spread rapidly, and Luther himself called printing God's highest act of grace."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why did printed books help standardize knowledge?",
+        "options": [
+          "Printers corrected all errors before publication",
+          "Printed editions from a single typeset were identical, unlike hand-copied texts that accumulated errors",
+          "The Church reviewed every book for accuracy",
+          "Printed books used a universal language"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that hand-copied texts accumulated errors while printed editions from a single typeset were identical, enabling reliable cross-referencing."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How did printing promote literacy according to the professor?",
+        "options": [
+          "By making books required by law",
+          "As books became cheaper, more people learned to read, shifting power from clergy and aristocracy",
+          "By forcing schools to teach reading",
+          "By replacing oral tradition entirely overnight"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that cheaper books led more people to learn to read, gradually shifting power from those who had controlled access to knowledge."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the professor imply about the long-term significance of the printing press?",
+        "options": [
+          "It was important only in the fifteenth century",
+          "It began the democratization of information, a process that continues with technologies like the internet",
+          "It was less important than the telegraph",
+          "It primarily benefited the clergy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor connects the printing press to the ongoing democratization of information, comparing it to later technologies like the telegraph and internet."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's overall attitude toward Gutenberg's invention?",
+        "options": [
+          "Dismissive of its importance compared to Asian printing",
+          "Reverent, describing it as one of the most consequential inventions in human history",
+          "Critical of its role in spreading the Reformation",
+          "Neutral, focusing only on technical details"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor describes the printing press as one of the most consequential inventions in human history and details its broad societal impact with evident admiration."
+      }
+    ],
+    "keyVocabulary": ["movable type", "scriptoria", "Gutenberg Bible", "Protestant Reformation", "Ninety-Five Theses", "oil-based ink", "wine press", "scientific revolution", "literacy", "democratization of information", "block printing"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a literature course on the Romantic movement.",
+    "academicField": "LITERATURE",
+    "audioScript": "Situation: A professor delivers a lecture on the Romantic movement in literature, its origins, key themes, and lasting influence.\nProfessor Beaumont: Good afternoon. Today we explore Romanticism, one of the most transformative literary and artistic movements in Western history. Romanticism emerged in the late eighteenth century, primarily in Britain and Germany, as a reaction against the Enlightenment's emphasis on reason, order, and scientific rationality. The Romantics did not reject reason entirely, but they insisted that emotion, imagination, and individual experience were equally valid ways of understanding the world.\nProfessor Beaumont: To understand Romanticism, we must first understand what it was rebelling against. The Enlightenment, spanning roughly the seventeenth and eighteenth centuries, championed logic, empirical science, and universal principles. Literature of that era often followed strict neoclassical rules: structured forms, restrained language, and an emphasis on society over the individual. The Romantics found this worldview suffocating. They believed that the most profound truths could not be reached through formulas or categories alone.\nProfessor Beaumont: One of the central themes of Romanticism is the sublime, a concept referring to experiences of overwhelming grandeur or power, typically found in nature. Standing before a towering waterfall or a violent thunderstorm, a person might feel both terror and awe simultaneously. The Romantics saw these moments as spiritually transformative. William Wordsworth, one of the foundational English Romantic poets, described poetry as the spontaneous overflow of powerful feelings recollected in tranquility. His poem 'Tintern Abbey' is a meditation on how nature can restore the human spirit.\nProfessor Beaumont: Another hallmark is the celebration of the individual and the rebel. The Romantic hero is often an outcast who defies social convention in pursuit of personal truth. Lord Byron embodied this both in his writing and in his life. The Byronic hero, brooding, passionate, and morally complex, became one of the most influential literary archetypes, influencing characters from Heathcliff in 'Wuthering Heights' to modern antiheroes.\nProfessor Beaumont: Romanticism also elevated the role of the imagination. For the Romantics, imagination was not mere fantasy but a creative faculty that could access deeper realities than reason alone. Samuel Taylor Coleridge distinguished between fancy, which merely rearranges existing ideas, and the primary and secondary imagination, which actively creates and recreates the world. This philosophical framework gave artistic creation a near-sacred status.\nProfessor Beaumont: The movement's legacy is immense. It reshaped how we think about art, nature, and the self. The idea that art should express genuine personal emotion rather than follow prescribed rules is so embedded in modern culture that we hardly recognize it as a revolutionary proposition. Yet it was the Romantics who first insisted that a poem should be the honest outpouring of an individual soul.",
+    "speakers": [
+      { "name": "Professor Beaumont", "role": "literature professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of the Enlightenment period",
+          "The Romantic movement, its origins, key themes, and lasting influence",
+          "The technical rules of neoclassical poetry",
+          "The biography of Lord Byron"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers Romanticism's origins as a reaction to the Enlightenment, its key themes like the sublime and imagination, and its legacy."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was Romanticism primarily a reaction against?",
+        "options": [
+          "The Renaissance",
+          "The Enlightenment's emphasis on reason, order, and scientific rationality",
+          "The Industrial Revolution's pollution",
+          "Medieval scholasticism"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Romanticism emerged as a reaction against the Enlightenment's emphasis on reason, order, and scientific rationality."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does the concept of 'the sublime' refer to in Romanticism?",
+        "options": [
+          "A style of formal garden design",
+          "Experiences of overwhelming grandeur or power, typically found in nature, inspiring terror and awe",
+          "A type of mathematical proof",
+          "A genre of comic literature"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines the sublime as experiences of overwhelming grandeur or power in nature that produce both terror and awe."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How did Wordsworth define poetry?",
+        "options": [
+          "The imitation of classical models",
+          "The spontaneous overflow of powerful feelings recollected in tranquility",
+          "A strict arrangement of syllables and meters",
+          "A tool for political propaganda"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor quotes Wordsworth's definition of poetry as the spontaneous overflow of powerful feelings recollected in tranquility."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is a Byronic hero?",
+        "options": [
+          "A virtuous knight who follows a strict moral code",
+          "A brooding, passionate, and morally complex outcast who defies convention",
+          "A rational scientist who solves problems through logic",
+          "A comic character who provides relief in tragedies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes the Byronic hero as brooding, passionate, and morally complex, becoming one of the most influential literary archetypes."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What distinction did Coleridge make regarding imagination?",
+        "options": [
+          "He said imagination was identical to reason",
+          "He distinguished between fancy, which rearranges existing ideas, and primary and secondary imagination, which actively creates",
+          "He argued imagination was merely decorative",
+          "He believed imagination should be suppressed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Coleridge distinguished between fancy, which merely rearranges existing ideas, and primary and secondary imagination, which actively creates."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why did the Romantics find the Enlightenment worldview suffocating?",
+        "options": [
+          "Because the Enlightenment banned all literature",
+          "Because they believed the most profound truths could not be reached through formulas or categories alone",
+          "Because the Enlightenment promoted emotional excess",
+          "Because the Enlightenment rejected all science"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains the Romantics believed profound truths could not be reached through formulas alone, making the Enlightenment's emphasis on reason feel suffocating."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Which poem does the professor mention as a meditation on nature's restorative power?",
+        "options": [
+          "The Rime of the Ancient Mariner",
+          "Tintern Abbey",
+          "Paradise Lost",
+          "The Waste Land"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor cites Wordsworth's 'Tintern Abbey' as a meditation on how nature can restore the human spirit."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the Romantic view of artistic creation?",
+        "options": [
+          "It was seen as a mechanical process",
+          "It was given a near-sacred status as a creative faculty accessing deeper realities",
+          "It was considered inferior to scientific work",
+          "It was required to follow strict classical rules"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor states that Coleridge's philosophical framework gave artistic creation a near-sacred status, treating imagination as accessing deeper realities."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's view of Romanticism's legacy?",
+        "options": [
+          "It was a minor movement with little lasting influence",
+          "Its ideas are so embedded in modern culture that we hardly recognize them as revolutionary",
+          "It was entirely rejected by modern literature",
+          "It only influenced German philosophy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that Romanticism's idea of art as personal emotion is so embedded in modern culture that we barely recognize it as revolutionary."
+      }
+    ],
+    "keyVocabulary": ["Romanticism", "the sublime", "Enlightenment", "neoclassical", "spontaneous overflow", "Byronic hero", "imagination", "fancy", "primary imagination", "secondary imagination", "antihero"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in an anthropology course on the origins and nature of language.",
+    "academicField": "ANTHROPOLOGY",
+    "audioScript": "Situation: A professor delivers a lecture on what anthropology reveals about the origins, structure, and cultural significance of human language.\nProfessor Diallo: Good morning. Today we tackle one of the defining features of our species: language. Anthropologists have long debated when and how language emerged, and what it tells us about being human. Unlike animal communication systems, human language possesses a property called displacement, the ability to talk about things that are not present, about the past, the future, and even imaginary realms. This capacity transformed not just how we communicate but how we think and organize society.\nProfessor Diallo: Let's address the origins question first. The archaeological record offers indirect evidence. Many paleoanthropologists associate the emergence of language with the appearance of symbolic behavior, such as cave paintings, decorative beads, and ritual burials, which date to roughly one hundred thousand years ago. The reasoning is that symbolic art requires a mind capable of symbolic thought, and symbolic thought is most fully expressed through language. However, some scholars push the date earlier, pointing to the anatomy of the vocal tract. The hyoid bone, a small U-shaped bone in the neck that supports the tongue, appears in a modern form in Neanderthal fossils from about sixty thousand years ago, suggesting they may have had the physical capacity for speech.\nProfessor Diallo: Now, a crucial concept in linguistic anthropology is the work of Edward Sapir and Benjamin Lee Whorf, often called the Sapir-Whorf hypothesis. Their idea, in its strongest form, is that the language you speak shapes the way you perceive reality. For example, some languages do not have separate words for blue and green, using a single term that covers both. Speakers of such languages may categorize colors differently than English speakers. The strong version, linguistic determinism, claims language rigidly determines thought. This has been largely discredited. The weak version, linguistic relativity, holds that language influences thought in subtle but measurable ways, and this is supported by experimental evidence.\nProfessor Diallo: Another major theme is the relationship between language and culture. Language is not merely a tool for transmitting information; it encodes a community's worldview, values, and social structure. Kinship terms provide a striking example. English has a simple distinction between mother's and father's side, but many indigenous Australian languages have elaborate systems with separate terms for a mother's brother versus a father's brother, reflecting very different social obligations. When a language disappears, an entire system of categorizing human relationships and the natural world disappears with it.\nProfessor Diallo: This is why language preservation is a pressing concern. Of the roughly seven thousand languages spoken today, linguists estimate that nearly half could disappear by the end of this century. Each loss is not just a loss of words but a loss of cultural memory and ecological knowledge. Anthropologists work alongside communities to document endangered languages, not to freeze them in time, but to ensure that the knowledge they carry is not erased.",
+    "speakers": [
+      { "name": "Professor Diallo", "role": "anthropology professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The grammar of indigenous Australian languages",
+          "What anthropology reveals about the origins, structure, and cultural significance of language",
+          "How to preserve endangered languages",
+          "The anatomy of the human vocal tract"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers the origins of language, the Sapir-Whorf hypothesis, language and culture, and language preservation, all from an anthropological perspective."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the property of displacement in human language?",
+        "options": [
+          "The ability to speak very quickly",
+          "The ability to talk about things that are not present, including the past, future, and imaginary realms",
+          "The ability to communicate over long distances",
+          "The ability to translate between languages"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines displacement as the ability to talk about things not present, about the past, the future, and even imaginary realms."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What archaeological evidence do scholars associate with the emergence of language?",
+        "options": [
+          "Stone tools from two million years ago",
+          "Symbolic behavior such as cave paintings, decorative beads, and ritual burials dating to about one hundred thousand years ago",
+          "The invention of writing around five thousand years ago",
+          "Agricultural settlements from ten thousand years ago"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor associates language emergence with symbolic behavior like cave paintings, beads, and ritual burials dating to roughly one hundred thousand years ago."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does the hyoid bone suggest about Neanderthals?",
+        "options": [
+          "They had no capacity for communication at all",
+          "Its modern form in Neanderthal fossils suggests they may have had the physical capacity for speech",
+          "It proves Neanderthals had a written language",
+          "It shows Neanderthals could not produce any sounds"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that a modern-form hyoid bone in Neanderthal fossils from about sixty thousand years ago suggests the physical capacity for speech."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the Sapir-Whorf hypothesis in its strong form?",
+        "options": [
+          "That all languages share a universal grammar",
+          "Linguistic determinism, which claims language rigidly determines thought",
+          "That language evolved from animal calls",
+          "That writing systems determine civilization"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor identifies the strong form as linguistic determinism, which claims language rigidly determines thought, and notes it has been largely discredited."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the weak version of the Sapir-Whorf hypothesis claim?",
+        "options": [
+          "Language has no influence on thought whatsoever",
+          "Language influences thought in subtle but measurable ways, supported by experimental evidence",
+          "Language completely determines perception",
+          "Thought determines language entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the weak version, linguistic relativity, holds that language influences thought in subtle but measurable ways and is supported by evidence."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does the example of kinship terms in indigenous Australian languages illustrate?",
+        "options": [
+          "That all languages have the same social structure",
+          "That language encodes a community's worldview, values, and social structure, with elaborate systems reflecting different social obligations",
+          "That Australian languages are less complex than English",
+          "That kinship terms are identical across all cultures"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor uses the elaborate kinship terms to illustrate that language encodes a community's worldview and social structure, reflecting different social obligations."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How many of the roughly seven thousand languages today could disappear by the end of this century?",
+        "options": [
+          "About ten percent",
+          "Nearly half",
+          "Almost all of them",
+          "About one percent"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that linguists estimate nearly half of the roughly seven thousand languages could disappear by the end of this century."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about why language loss is significant?",
+        "options": [
+          "It only matters for linguists studying grammar",
+          "Each loss is a loss of cultural memory and ecological knowledge, not just words",
+          "It has no real consequences for communities",
+          "It mainly affects economic systems"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor emphasizes that when a language disappears, an entire system of categorizing human relationships and the natural world is lost, including cultural memory and ecological knowledge."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's stated purpose for anthropologists working on language preservation?",
+        "options": [
+          "To force communities to speak only their traditional language",
+          "To document endangered languages so their knowledge is not erased, not to freeze them in time",
+          "To translate all languages into English",
+          "To rank languages by complexity"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor states anthropologists document endangered languages alongside communities, not to freeze them in time but to ensure the knowledge they carry is not erased."
+      }
+    ],
+    "keyVocabulary": ["displacement", "symbolic behavior", "hyoid bone", "Sapir-Whorf hypothesis", "linguistic determinism", "linguistic relativity", "kinship terms", "language preservation", "cultural memory", "ecological knowledge", "paleoanthropology"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in an art history course on the development of photography.",
+    "academicField": "ART_HISTORY",
+    "audioScript": "Situation: A professor delivers a lecture on the history of photography, from its invention to its acceptance as a fine art form.\nProfessor Rossi: Today we trace the evolution of photography, from a technical curiosity to a recognized fine art. Photography was born in the nineteenth century from two converging streams of experimentation: the camera obscura, an ancient device that projected an image through a pinhole, and chemistry, the discovery that certain silver compounds darkened when exposed to light.\nProfessor Rossi: The first permanent photograph was created by Joseph Nicephore Niepce around eighteen twenty-six, using a pewter plate coated with bitumen. The exposure took about eight hours, and the result was a grainy view from his window. It was a remarkable achievement but impractical. The real breakthrough came from Louis Daguerre, who in eighteen thirty-nine announced the daguerreotype. This process used silver-plated copper treated with iodine vapor, producing a single, sharp, one-of-a-kind image. The French government purchased the patent and released it as a gift to the world.\nProfessor Rossi: The daguerreotype had a major limitation: each image was unique and could not be reproduced. That changed with William Henry Fox Talbot, an English scientist who invented the calotype process. Talbot used paper coated with silver iodide to create a negative image, from which unlimited positive prints could be made. This negative-positive system became the foundation of all analog photography for the next one hundred and fifty years.\nProfessor Rossi: Now, the cultural impact was immediate and profound. For the first time, ordinary people could have affordable portraits. Before photography, a painted portrait was a luxury reserved for the wealthy. Photography democratized the portrait, and by the eighteen-fifties, portrait studios had sprung up in every major city. Photography also transformed journalism and travel, allowing people to see distant places and events with unprecedented realism.\nProfessor Rossi: But photography's relationship with the art world was contentious. Many painters saw it as a threat. The French painter Paul Delaroche reportedly declared, 'From today, painting is dead.' This proved spectacularly wrong, but it reflected genuine anxiety. Critics argued that a machine could not produce art because it involved no creative judgment. Photographers fought for decades to be recognized as artists. Pictorialism, a movement in the late nineteenth century, used soft focus and darkroom manipulation to make photographs resemble paintings, partly to gain acceptance in galleries.\nProfessor Rossi: The eventual acceptance came in the twentieth century, led by figures like Alfred Stieglitz in America, who argued that photography should be judged on its own terms, not by painting's standards. Stieglitz championed straight photography, sharp, unmanipulated images that embraced the medium's unique qualities. By the mid-twentieth century, museums had established photography departments, and the medium was firmly accepted as fine art. The lesson here is that what counts as art is not fixed; it is negotiated through cultural debate.",
+    "speakers": [
+      { "name": "Professor Rossi", "role": "art history professor" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The chemistry of silver compounds",
+          "The history of photography, from invention to acceptance as fine art",
+          "The biography of Alfred Stieglitz",
+          "Techniques of nineteenth-century painting"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor traces photography from its invention through its cultural impact to its eventual acceptance as a fine art form."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What two streams of experimentation converged to create photography?",
+        "options": [
+          "Printing and sculpture",
+          "The camera obscura and the chemistry of light-sensitive silver compounds",
+          "Telescope optics and electricity",
+          "Painting and architecture"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains photography was born from the convergence of the camera obscura and chemistry involving silver compounds that darkened when exposed to light."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What was a limitation of Niepce's first permanent photograph?",
+        "options": [
+          "It could not be seen in daylight",
+          "The exposure took about eight hours, making it impractical",
+          "It required electricity to develop",
+          "It only worked in color"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor notes that Niepce's first photograph required an exposure of about eight hours and produced a grainy result, making it impractical."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What was the daguerreotype's key limitation?",
+        "options": [
+          "It required extremely long exposures",
+          "Each image was unique and could not be reproduced",
+          "It could only photograph landscapes",
+          "It produced blurry images"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that the daguerreotype produced a single, sharp, one-of-a-kind image that could not be reproduced, which was its major limitation."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What was the significance of Talbot's calotype process?",
+        "options": [
+          "It produced color photographs",
+          "It used a negative-positive system allowing unlimited positive prints, the foundation of analog photography",
+          "It was the first digital process",
+          "It was identical to the daguerreotype"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Talbot's calotype created a negative image from which unlimited positive prints could be made, founding the negative-positive system."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How did photography democratize the portrait?",
+        "options": [
+          "By making portraits free for everyone",
+          "By making portraits affordable for ordinary people, whereas painted portraits were a luxury for the wealthy",
+          "By eliminating the need for any likeness",
+          "By requiring everyone to have a portrait"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that before photography, painted portraits were a luxury, but photography made portraits affordable for ordinary people."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What was Paul Delaroche's reaction to photography?",
+        "options": [
+          "He immediately embraced it as art",
+          "He reportedly declared that from today, painting is dead, reflecting genuine anxiety",
+          "He invented a competing photographic process",
+          "He ignored photography entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor mentions that Delaroche reportedly declared 'From today, painting is dead,' which proved wrong but reflected anxiety among painters."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What was the Pictorialist approach to gaining acceptance for photography?",
+        "options": [
+          "They argued photography was superior to painting",
+          "They used soft focus and darkroom manipulation to make photographs resemble paintings",
+          "They photographed only industrial subjects",
+          "They refused to exhibit in galleries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Pictorialism used soft focus and darkroom manipulation to make photographs resemble paintings, partly to gain gallery acceptance."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What did Alfred Stieglitz argue about photography?",
+        "options": [
+          "That photography should imitate painting",
+          "That photography should be judged on its own terms, embracing its unique qualities through straight photography",
+          "That photography could never be fine art",
+          "That only color photographs qualified as art"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains Stieglitz argued photography should be judged on its own terms and championed straight photography, embracing the medium's unique qualities."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What broader lesson does the professor draw from photography's acceptance as art?",
+        "options": [
+          "That art is defined by technology alone",
+          "That what counts as art is not fixed but negotiated through cultural debate",
+          "That only paintings can be considered art",
+          "That machines can never produce art"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that the lesson is that what counts as art is not fixed but negotiated through cultural debate, as shown by photography's journey."
+      }
+    ],
+    "keyVocabulary": ["camera obscura", "daguerreotype", "calotype", "negative-positive system", "pictorialism", "straight photography", "silver compounds", "Alfred Stieglitz", "fine art", "darkroom manipulation", "democratization"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in an economics course on the causes and consequences of economic inequality.",
+    "academicField": "ECONOMICS",
+    "audioScript": "Situation: An economics professor delivers a lecture on the drivers, measurement, and consequences of economic inequality in modern societies.\nProfessor Chen: Good morning. Today we examine one of the most debated topics in economics: inequality. When economists discuss inequality, they typically distinguish between inequality of outcomes and inequality of opportunity. Inequality of outcomes refers to the unequal distribution of income and wealth across a population. Inequality of opportunity refers to the unequal access to the conditions, education, health care, and networks, that enable people to succeed. The two are related but not identical, and conflating them leads to confused policy debates.\nProfessor Chen: The most common tool for measuring income inequality is the Gini coefficient, developed by the Italian statistician Corrado Gini in nineteen-twelve. The Gini coefficient ranges from zero, representing perfect equality where everyone has the same income, to one, representing perfect inequality where one person has everything. In practice, no country reaches either extreme. The most egalitarian developed nations, such as Denmark and Norway, have Gini coefficients around point two seven, while the United States sits near point four one, one of the highest among wealthy nations.\nProfessor Chen: What drives inequality? Economists identify several structural factors. First is skill-biased technological change. As information technology advances, it disproportionately rewards highly educated workers while automating routine tasks performed by less educated workers. This widens the wage gap between skilled and unskilled labor. Second is globalization. While trade has lifted hundreds of millions out of poverty globally, it has also displaced workers in advanced economies who competed with lower-cost labor abroad.\nProfessor Chen: A third driver, often overlooked, is the decline of worker bargaining power. Union membership in the United States fell from about thirty-five percent of workers in nineteen-fifty-four to roughly ten percent today. Unions historically negotiated wage premiums that compressed wage distribution. Their decline has contributed to the stagnation of middle and lower incomes.\nProfessor Chen: The consequences of high inequality are not merely economic. Research by the economist Raj Chetty and colleagues has shown that in more unequal societies, children's future earnings are more tightly correlated with their parents' earnings. In other words, inequality of outcomes erodes equality of opportunity. High inequality is also associated with worse health outcomes, lower social trust, and political polarization. Some inequality is necessary to provide incentives for work and innovation, a point that most economists accept. But when inequality becomes so extreme that it entrenches advantage across generations, it undermines the very meritocratic principles that justify it. The challenge for policymakers is finding the threshold where inequality stops being motivating and starts being corrosive.",
+    "speakers": [
+      { "name": "Professor Chen", "role": "economics professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of labor unions in America",
+          "The measurement, drivers, and consequences of economic inequality",
+          "How to calculate GDP per capita",
+          "The biography of Corrado Gini"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers how inequality is measured, its structural drivers, and its economic and social consequences."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What distinction does the professor draw between two types of inequality?",
+        "options": [
+          "Income inequality and wealth inequality",
+          "Inequality of outcomes and inequality of opportunity",
+          "Rural inequality and urban inequality",
+          "Short-term and long-term inequality"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor distinguishes between inequality of outcomes, the distribution of income and wealth, and inequality of opportunity, access to conditions for success."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does a Gini coefficient of zero represent?",
+        "options": [
+          "Perfect inequality where one person has everything",
+          "Perfect equality where everyone has the same income",
+          "The average income of a country",
+          "Maximum economic growth"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that a Gini coefficient of zero represents perfect equality where everyone has the same income."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Approximately what is the Gini coefficient of the United States?",
+        "options": [
+          "Around point one five",
+          "Around point two seven",
+          "Around point four one",
+          "Around point six five"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the United States has a Gini coefficient near point four one, one of the highest among wealthy nations."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is skill-biased technological change?",
+        "options": [
+          "Technology that reduces all wages equally",
+          "Technology that disproportionately rewards highly educated workers while automating routine tasks of less educated workers",
+          "Technology that only benefits agricultural workers",
+          "Technology that eliminates all jobs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes skill-biased technological change as technology that disproportionately rewards educated workers while automating routine tasks, widening the wage gap."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How has union membership changed in the United States?",
+        "options": [
+          "It has risen from ten to thirty-five percent",
+          "It has fallen from about thirty-five percent in nineteen-fifty-four to roughly ten percent today",
+          "It has remained stable at about twenty percent",
+          "It has been abolished by law"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states union membership fell from about thirty-five percent of workers in nineteen-fifty-four to roughly ten percent today."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What did Raj Chetty's research reveal about more unequal societies?",
+        "options": [
+          "Children's earnings become less correlated with their parents'",
+          "Children's future earnings become more tightly correlated with their parents' earnings, eroding equality of opportunity",
+          "Inequality has no effect on intergenerational mobility",
+          "All children eventually earn the same income"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains Chetty's research shows that in more unequal societies, children's earnings are more tightly correlated with parents', meaning inequality of outcomes erodes equality of opportunity."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the professor say about the role of some inequality?",
+        "options": [
+          "All inequality is harmful and should be eliminated",
+          "Some inequality is necessary to provide incentives for work and innovation",
+          "Inequality has no effect on incentives",
+          "Only government can create fair incentives"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor notes that most economists accept some inequality is necessary to provide incentives for work and innovation."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about when inequality becomes problematic?",
+        "options": [
+          "It is always corrosive regardless of level",
+          "When it entrenches advantage across generations, it undermines the meritocratic principles that justify it",
+          "It is only problematic in developing countries",
+          "It becomes problematic only when the Gini coefficient is exactly zero"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor argues that when inequality entrenches advantage across generations, it undermines the meritocratic principles that justify it, becoming corrosive."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward the policy challenge of inequality?",
+        "options": [
+          "That inequality should be eliminated entirely",
+          "That policymakers must find the threshold where inequality stops being motivating and starts being corrosive",
+          "That nothing can be done about inequality",
+          "That inequality is a natural law that cannot be measured"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that the challenge for policymakers is finding the threshold where inequality stops being motivating and starts being corrosive."
+      }
+    ],
+    "keyVocabulary": ["Gini coefficient", "inequality of outcomes", "inequality of opportunity", "skill-biased technological change", "globalization", "bargaining power", "union membership", "intergenerational mobility", "meritocracy", "political polarization", "wage premium"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a physics course on the physics of semiconductors.",
+    "academicField": "PHYSICS",
+    "audioScript": "Situation: A physics professor delivers a lecture on how semiconductors work and why they are the foundation of modern electronics.\nProfessor Kim: Good morning. Today we explore the physics of semiconductors, the materials that make virtually all modern electronics possible. To understand semiconductors, we first need to understand the concept of a band gap. In solids, electrons can only occupy certain energy ranges called bands. The valence band holds the electrons that participate in bonding, while the conduction band holds electrons that are free to move and conduct electricity. Between these two bands lies the band gap, a range of energies where no electron states can exist.\nProfessor Kim: This band gap is what distinguishes conductors, insulators, and semiconductors. In a conductor like copper, the valence band and conduction band overlap, so electrons can move freely and the material conducts electricity easily. In an insulator like glass, the band gap is very large, so electrons cannot jump from the valence band to the conduction band, and the material does not conduct. A semiconductor sits in between. Its band gap is small enough that at room temperature, a small number of electrons gain enough thermal energy to jump the gap into the conduction band.\nProfessor Kim: The most important semiconductor is silicon. Pure silicon, however, is not very useful on its own because it has too few free electrons. This is where doping comes in. Doping is the deliberate introduction of impurity atoms into the silicon crystal to change its electrical properties. If we add atoms with five valence electrons, like phosphorus, we get an n-type semiconductor, where the extra electron is free to move and conduct. If we add atoms with three valence electrons, like boron, we create a p-type semiconductor, where the missing electron creates a hole that behaves like a positive charge carrier.\nProfessor Kim: The magic happens when we put p-type and n-type materials together. At the junction, electrons from the n-type side diffuse across to fill holes on the p-type side, creating what is called a depletion region. This region has no free charge carriers. The result is a diode, a device that allows current to flow in one direction but not the other. This is the fundamental building block of all semiconductor electronics.\nProfessor Kim: The next critical invention was the transistor, developed at Bell Labs in nineteen forty-seven by John Bardeen, Walter Brattain, and William Shockley. A transistor is essentially a switch with no moving parts, controlled by electrical signals. By arranging transistors in specific configurations, engineers can create logic gates, the basic units of computation. Modern microprocessors contain billions of transistors etched onto a single silicon chip. The ability to manufacture these at microscopic scales is what has driven the exponential growth in computing power described by Moore's Law, the observation that the number of transistors per chip roughly doubles every two years.\nProfessor Kim: Understanding semiconductors is not just about knowing how devices work. It is about understanding the physics that underpins the entire digital age. Every phone, every computer, every internet connection depends on the controlled movement of electrons across carefully engineered band gaps.",
+    "speakers": [
+      { "name": "Professor Kim", "role": "physics professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of Bell Labs",
+          "The physics of semiconductors and how they form the foundation of modern electronics",
+          "How to manufacture silicon wafers",
+          "The chemistry of glass insulators"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor covers band gaps, doping, p-n junctions, diodes, transistors, and how these underpin modern electronics."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is a band gap?",
+        "options": [
+          "A physical gap between two pieces of metal",
+          "A range of energies between the valence band and conduction band where no electron states can exist",
+          "A type of semiconductor material",
+          "The distance between atoms in a crystal"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines the band gap as a range of energies between the valence band and conduction band where no electron states can exist."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does copper conduct electricity easily?",
+        "options": [
+          "It has a very large band gap",
+          "Its valence band and conduction band overlap, so electrons move freely",
+          "It is a semiconductor at room temperature",
+          "It contains no electrons"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that in a conductor like copper, the valence band and conduction band overlap, allowing electrons to move freely."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How does a semiconductor differ from an insulator?",
+        "options": [
+          "Semiconductors have no band gap",
+          "A semiconductor's band gap is small enough that some electrons can jump it at room temperature",
+          "Semiconductors conduct as well as metals",
+          "Semiconductors have larger band gaps than insulators"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that a semiconductor's band gap is small enough that at room temperature, some electrons gain enough thermal energy to jump into the conduction band."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is doping in semiconductor manufacturing?",
+        "options": [
+          "Adding radioactive materials to silicon",
+          "Deliberately introducing impurity atoms to change the silicon's electrical properties",
+          "Cooling silicon to near absolute zero",
+          "Stretching silicon into thin wires"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines doping as the deliberate introduction of impurity atoms into the silicon crystal to change its electrical properties."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is created when boron is added to silicon?",
+        "options": [
+          "An n-type semiconductor with extra free electrons",
+          "A p-type semiconductor where the missing electron creates a hole behaving like a positive charge carrier",
+          "A conductor with no band gap",
+          "An insulator with a very large band gap"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains adding boron, with three valence electrons, creates a p-type semiconductor where the missing electron creates a hole acting as a positive charge carrier."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the depletion region in a p-n junction?",
+        "options": [
+          "An area with excess free electrons",
+          "A region at the junction with no free charge carriers, created when electrons diffuse to fill holes",
+          "The part of the semiconductor that generates heat",
+          "A layer of insulation around the diode"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the depletion region is created when electrons from the n-type side diffuse to fill holes on the p-type side, leaving no free charge carriers."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does a diode do?",
+        "options": [
+          "It amplifies electrical signals",
+          "It allows current to flow in one direction but not the other",
+          "It stores electrical energy",
+          "It converts AC to DC automatically"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes a diode as a device that allows current to flow in one direction but not the other, formed by the p-n junction."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the significance of the transistor's invention?",
+        "options": [
+          "It was a minor improvement over vacuum tubes",
+          "It enabled logic gates and microprocessors with billions of transistors, driving the digital age",
+          "It had no practical application until recently",
+          "It was only useful for analog devices"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that transistors, as switches with no moving parts, enabled logic gates and microprocessors, driving exponential computing growth."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Moore's Law describe?",
+        "options": [
+          "The speed of light limits computing power",
+          "The number of transistors per chip roughly doubles every two years",
+          "Semiconductor costs double every decade",
+          "Band gaps shrink as chips get smaller"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines Moore's Law as the observation that the number of transistors per chip roughly doubles every two years."
+      }
+    ],
+    "keyVocabulary": ["band gap", "valence band", "conduction band", "semiconductor", "doping", "n-type", "p-type", "depletion region", "diode", "transistor", "Moore's Law"]
+  }
+]

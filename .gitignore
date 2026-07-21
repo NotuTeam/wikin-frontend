@@ -100,3 +100,4 @@ src/components/i18n/scripts/build-json.js
 check-all-peers.js
 peer-deps-report.json
 prompt.md
+logs/

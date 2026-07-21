@@ -1,0 +1,1029 @@
+[
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a writing center coordinator.",
+    "audioScript": "Situation: A student visits the campus writing center to schedule an appointment for help with a research essay.\nCoordinator: Welcome to the Writing Center. How can I help you today?\nKevin: Hi, I'd like to make an appointment to get feedback on my research essay for my history class. It's due in two weeks.\nCoordinator: Sure. We offer both in-person and online sessions. Each session is forty-five minutes long. Which format do you prefer?\nKevin: I think in-person would be better. I have a hard copy with my professor's comments that I'd like the tutor to look at.\nCoordinator: That works well. Let me check our availability. We have openings this Thursday at two PM and Friday at ten AM. Which one works for you?\nKevin: Friday at ten sounds great. Will the tutor be able to help me with my thesis statement? That's the part I'm struggling with most.\nCoordinator: Absolutely. Our tutors are trained to help with thesis development, organization, citations, and grammar. Just bring your assignment prompt and any drafts you have.\nKevin: I'll bring everything. Do I need to prepare anything before the session?\nCoordinator: It helps if you read through your draft beforehand and jot down two or three specific questions. That way the tutor can focus on what you need most. Also, please arrive five minutes early to check in at the front desk.\nKevin: Got it. Is there a cancellation policy? Something might come up.\nCoordinator: Yes, we ask that you cancel at least twelve hours in advance. If you miss two appointments without cancelling, your account gets suspended for the rest of the semester.\nKevin: That's fair. I'll make sure to cancel ahead of time if anything changes. Thanks for your help!\nCoordinator: You're welcome. You'll get a confirmation email shortly. Good luck with your essay.",
+    "speakers": [
+      { "name": "Kevin", "role": "student" },
+      { "name": "Coordinator", "role": "writing center coordinator" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Kevin visit the Writing Center?",
+        "options": [
+          "To drop off a completed assignment",
+          "To schedule an appointment for feedback on his research essay",
+          "To apply for a tutoring job",
+          "To pick up a graded paper"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Kevin states he would like to make an appointment to get feedback on his research essay for his history class."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long is each writing center session?",
+        "options": ["Thirty minutes", "Forty-five minutes", "One hour", "Ninety minutes"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator explains that each session is forty-five minutes long."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Which session time does Kevin choose?",
+        "options": [
+          "Thursday at 2 PM",
+          "Friday at 10 AM",
+          "Wednesday at 3 PM",
+          "Saturday at 1 PM"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Kevin selects the Friday at ten AM appointment after the coordinator offers two options."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What part of the essay does Kevin need the most help with?",
+        "options": [
+          "The conclusion paragraph",
+          "The thesis statement",
+          "The bibliography formatting",
+          "The introduction hook"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Kevin explicitly says the thesis statement is the part he is struggling with most."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What should Kevin bring to the session?",
+        "options": [
+          "Only his laptop",
+          "His assignment prompt and any drafts he has",
+          "A letter from his professor",
+          "His graded midterm exam"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator instructs Kevin to bring his assignment prompt and any drafts he has."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the coordinator suggest Kevin do before the session?",
+        "options": [
+          "Rewrite the entire essay",
+          "Read through his draft and jot down two or three specific questions",
+          "Email the tutor his essay in advance",
+          "Meet with his professor first"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator suggests Kevin read through his draft beforehand and jot down two or three specific questions."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How early should Kevin arrive for his appointment?",
+        "options": ["One minute early", "Five minutes early", "Ten minutes early", "Fifteen minutes early"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator asks Kevin to arrive five minutes early to check in at the front desk."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the cancellation policy at the Writing Center?",
+        "options": [
+          "Cancel at least one hour in advance",
+          "Cancel at least twelve hours in advance",
+          "No cancellations are allowed",
+          "Cancel at least twenty-four hours in advance"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator states that students must cancel at least twelve hours in advance."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What happens if a student misses two appointments without cancelling?",
+        "options": [
+          "They are charged a fee",
+          "Their account gets suspended for the rest of the semester",
+          "They receive a warning email only",
+          "They must meet with the dean"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The coordinator explains that missing two appointments without cancelling results in account suspension for the rest of the semester."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Arguing about a late essay penalty",
+          "Scheduling and learning the policies of a writing center appointment",
+          "Discussing the requirements of a history research essay",
+          "Applying to become a writing center tutor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers scheduling a writing center appointment, session details, preparation tips, and cancellation policies."
+      }
+    ],
+    "keyVocabulary": ["appointment", "thesis statement", "session", "cancellation policy", "suspended", "assignment prompt", "check in"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a career counselor at career services.",
+    "audioScript": "Situation: A junior student visits the Career Services office to get help preparing for a summer internship search.\nCounselor: Good morning! I'm Ms. Patterson, one of the career counselors here. What brings you in today?\nJenny: Hi, I'm a junior majoring in marketing, and I want to apply for summer internships. I'm not sure where to start, and my resume feels outdated.\nCounselor: That's a great reason to come in. Let's start with your resume. Do you have a copy with you?\nJenny: Yes, I brought a printed copy. I last updated it during my freshman year, so it only has my part-time campus job and a couple of high school activities.\nCounselor: Okay. For a marketing internship, you'll want to highlight any relevant coursework, projects, and skills like social media management or data analysis. Have you done any class projects that involved market research or campaign design?\nJenny: Actually, yes. Last semester I did a group project where we created a full marketing campaign for a local coffee shop. We analyzed their target audience and designed social media content.\nCounselor: That's excellent experience. You should feature that prominently. I'd also recommend creating a LinkedIn profile if you don't have one yet. Many recruiters search for candidates there.\nJenny: I don't have one yet. Is there a workshop for that?\nCounselor: Yes, we're running a LinkedIn and personal branding workshop next Wednesday from three to four-thirty PM in room two-fifty. I can sign you up right now.\nJenny: That would be great. Also, is there a job board where I can find internship listings?\nCounselor: Absolutely. Our online portal, CareerConnect, has listings specifically from employers looking to hire our students. You can filter by major, industry, and location. I'll send you the login instructions after this meeting.\nJenny: Perfect. How soon should I start applying?\nCounselor: For summer internships, I recommend starting now. Many companies have deadlines in February and March. The earlier you apply, the better your chances.",
+    "speakers": [
+      { "name": "Jenny", "role": "student" },
+      { "name": "Counselor", "role": "career counselor" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Jenny visit Career Services?",
+        "options": [
+          "To change her major to marketing",
+          "To get help preparing for a summer internship search",
+          "To complain about a job rejection",
+          "To schedule a mock interview"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Jenny states she is a junior who wants to apply for summer internships and is not sure where to start."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is Jenny's major?",
+        "options": ["Finance", "Marketing", "Communications", "Business Administration"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jenny introduces herself as a junior majoring in marketing."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "When did Jenny last update her resume?",
+        "options": [
+          "Last month",
+          "During her freshman year",
+          "Last semester",
+          "She never made one"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jenny says she last updated her resume during her freshman year, so it only has her part-time campus job and high school activities."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What class project does Jenny describe?",
+        "options": [
+          "A financial analysis of a corporation",
+          "A marketing campaign for a local coffee shop",
+          "A website redesign for a nonprofit",
+          "A survey on student spending habits"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jenny describes a group project where they created a full marketing campaign for a local coffee shop, including audience analysis and social media content."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does the counselor recommend Jenny create?",
+        "options": [
+          "A personal website",
+          "A LinkedIn profile",
+          "A digital portfolio",
+          "A video resume"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor recommends creating a LinkedIn profile since many recruiters search for candidates there."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "When is the LinkedIn and personal branding workshop?",
+        "options": [
+          "Next Monday from 2 to 3:30 PM",
+          "Next Wednesday from 3 to 4:30 PM",
+          "Next Friday from 1 to 2:30 PM",
+          "Next Tuesday from 4 to 5:30 PM"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor says the workshop is next Wednesday from three to four-thirty PM in room two-fifty."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the name of the online job portal?",
+        "options": ["Handshake", "CareerConnect", "JobLink", "CampusCareers"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor mentions the online portal called CareerConnect, which has listings from employers looking to hire students."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How can students filter internship listings on the portal?",
+        "options": [
+          "By salary range only",
+          "By major, industry, and location",
+          "By company size only",
+          "By application deadline only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor explains students can filter listings by major, industry, and location on CareerConnect."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When does the counselor recommend Jenny start applying?",
+        "options": [
+          "Wait until after finals",
+          "Start now, as many deadlines are in February and March",
+          "Wait until the summer begins",
+          "Apply only after attending the workshop"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The counselor recommends starting now because many companies have deadlines in February and March, and applying earlier improves chances."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Negotiating a job offer salary",
+          "Getting career counseling help for a summer internship search",
+          "Switching from a marketing to a finance major",
+          "Preparing for a graduate school application"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Jenny getting help with her resume, LinkedIn profile, workshop signup, and internship search strategy for summer positions."
+      }
+    ],
+    "keyVocabulary": ["internship", "resume", "LinkedIn", "career counselor", "job board", "personal branding", "recruiter", "CareerConnect"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a nurse at the student health center.",
+    "audioScript": "Situation: A student visits the campus student health center complaining of a persistent sore throat and fever.\nNurse: Good morning. What seems to be the problem today?\nMarcus: Hi. I've had a sore throat for about four days now, and since yesterday I've been running a fever. I thought it would go away, but it's getting worse.\nNurse: I'm sorry to hear that. Let me take your temperature first. Okay, it reads one hundred and one point two degrees Fahrenheit. That's a mild fever. Any other symptoms?\nMarcus: Yeah, I've had a headache and some body aches. Also, it hurts when I swallow.\nNurse: I see. Have you noticed any white spots on the back of your throat or any swelling in your neck?\nMarcus: I'm not sure. I tried looking in the mirror but couldn't really tell. My neck does feel a little swollen on the sides though.\nNurse: Alright. Based on your symptoms, I'd like to do a quick strep test. It takes about ten minutes to get results. If it's positive, the doctor can prescribe antibiotics.\nMarcus: Okay. If it's not strep, what could it be?\nNurse: It could be a viral infection, in which case antibiotics won't help. You'd need to rest, drink plenty of fluids, and take over-the-counter pain relievers. We also recommend gargling with warm salt water for the throat pain.\nMarcus: I've been taking ibuprofen, but it only helps temporarily. Should I skip classes today?\nNurse: Given your fever, I'd recommend staying home and resting for at least twenty-four hours after the fever breaks. I can write you a note for your professors. Do you have any medication allergies?\nMarcus: I'm allergic to penicillin. I get a rash from it.\nNurse: I'll note that in your chart. If the strep test is positive, the doctor will prescribe an alternative antibiotic like azithromycin. Please have a seat in the waiting area and I'll call you in shortly.",
+    "speakers": [
+      { "name": "Marcus", "role": "student" },
+      { "name": "Nurse", "role": "nurse" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What are Marcus's main symptoms?",
+        "options": [
+          "A sore throat and fever",
+          "A cough and runny nose",
+          "An earache and dizziness",
+          "Stomach pain and nausea"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Marcus reports having a sore throat for four days and a fever since yesterday as his main symptoms."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many days has Marcus had the sore throat?",
+        "options": ["One day", "Two days", "Three days", "Four days"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "Marcus says he has had the sore throat for about four days."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is Marcus's temperature?",
+        "options": [
+          "99.5 degrees Fahrenheit",
+          "100.2 degrees Fahrenheit",
+          "101.2 degrees Fahrenheit",
+          "102.5 degrees Fahrenheit"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The nurse reads the thermometer at one hundred and one point two degrees Fahrenheit, which she describes as a mild fever."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What other symptoms does Marcus report?",
+        "options": [
+          "Nausea and vomiting",
+          "Headache and body aches",
+          "Shortness of breath",
+          "Rash and itching"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus reports having a headache and some body aches, in addition to pain when swallowing."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What test does the nurse want to perform?",
+        "options": [
+          "A blood test",
+          "A quick strep test",
+          "A chest X-ray",
+          "An allergy test"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The nurse says she would like to do a quick strep test that takes about ten minutes to get results."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How long does the strep test take to get results?",
+        "options": ["Five minutes", "Ten minutes", "Twenty minutes", "One hour"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The nurse states the strep test takes about ten minutes to get results."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does the nurse recommend if the infection is viral?",
+        "options": [
+          "Take antibiotics immediately",
+          "Rest, drink fluids, and take over-the-counter pain relievers",
+          "Go to the emergency room",
+          "Gargle with mouthwash"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The nurse explains that for a viral infection, antibiotics won't help and recommends rest, fluids, over-the-counter pain relievers, and gargling with warm salt water."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What medication is Marcus allergic to?",
+        "options": ["Ibuprofen", "Penicillin", "Azithromycin", "Acetaminophen"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states he is allergic to penicillin and gets a rash from it."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the nurse say about attending classes?",
+        "options": [
+          "Marcus should attend all classes as normal",
+          "Marcus should rest for at least twenty-four hours after the fever breaks",
+          "Marcus should only skip morning classes",
+          "Marcus should attend classes but wear a mask"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The nurse recommends staying home and resting for at least twenty-four hours after the fever breaks, and offers to write a note for professors."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Discussing a sports injury and physical therapy options",
+          "A student health visit for sore throat and fever symptoms",
+          "Getting a flu shot vaccination at the health center",
+          "Filing a medical insurance claim"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation is about Marcus visiting the student health center with a sore throat and fever, getting examined, and discussing treatment options."
+      }
+    ],
+    "keyVocabulary": ["sore throat", "fever", "strep test", "antibiotics", "viral infection", "penicillin", "azithromycin", "allergy"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a prospective student and a campus tour guide.",
+    "audioScript": "Situation: A prospective student and her father join a campus tour led by a student tour guide on a Saturday morning.\nTour Guide: Welcome, everyone! My name is Brian, and I'll be your tour guide today. I'm a senior studying environmental science. Before we start, does anyone have any questions?\nAisha: Hi Brian. I'm Aisha, and this is my dad. I'm thinking about applying for the environmental science program. Can you tell me what the labs are like?\nTour Guide: Great question, Aisha! Our environmental science labs are held in the Reynolds Science Building, which was renovated just two years ago. We have state-of-the-art equipment for water and soil analysis. Lab sections usually have about fifteen students, so you get a lot of hands-on time.\nAisha: That sounds amazing. What about research opportunities for undergraduates?\nTour Guide: There are plenty. Professor Liu runs an undergraduate research program every summer where students do fieldwork at the nearby lake. You can earn three credits and a small stipend. I participated last summer and it was a fantastic experience.\nAisha's Dad: How competitive is admission to the program?\nTour Guide: The overall university acceptance rate is about forty-five percent. For the environmental science major specifically, it's a bit more selective at around thirty percent. Strong grades in biology and chemistry help a lot.\nAisha: What about housing? Do freshmen have to live on campus?\nTour Guide: Yes, all freshmen are required to live on campus. There are four freshman dormitories, and you can request a roommate or be matched with one. Most rooms are doubles, meaning two students per room.\nAisha: Is there a meal plan requirement for freshmen?\nTour Guide: Yes, freshmen must have at least the fourteen-meal-per-week plan. You can upgrade to unlimited if you prefer. The main dining hall is right next to the freshman dorms, which is very convenient.\nAisha: That's really helpful. Thank you, Brian!\nTour Guide: You're welcome! Let's start walking toward the science building so you can see the labs firsthand.",
+    "speakers": [
+      { "name": "Aisha", "role": "prospective student" },
+      { "name": "Tour Guide", "role": "campus tour guide" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the tour guide's major?",
+        "options": ["Biology", "Environmental science", "Chemistry", "Geology"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian introduces himself as a senior studying environmental science."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Where are the environmental science labs held?",
+        "options": [
+          "The Reynolds Science Building",
+          "The Henderson Biology Building",
+          "The Main Science Hall",
+          "The Carter Environmental Center"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Brian states the environmental science labs are held in the Reynolds Science Building, renovated two years ago."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many students are typically in a lab section?",
+        "options": ["Ten students", "Fifteen students", "Twenty students", "Thirty students"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian explains that lab sections usually have about fifteen students for more hands-on time."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Who runs the undergraduate summer research program?",
+        "options": ["Professor Reynolds", "Professor Liu", "Professor Carter", "Professor Henderson"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian mentions that Professor Liu runs an undergraduate research program every summer with fieldwork at the nearby lake."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What do students earn from the summer research program?",
+        "options": [
+          "Only a stipend",
+          "Three credits and a small stipend",
+          "Six credits and free housing",
+          "A certificate and a letter of recommendation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian says students can earn three credits and a small stipend through the summer research program."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the overall university acceptance rate?",
+        "options": ["Thirty percent", "Forty-five percent", "Fifty percent", "Sixty percent"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian states the overall university acceptance rate is about forty-five percent."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the acceptance rate for the environmental science major specifically?",
+        "options": ["Twenty percent", "Thirty percent", "Forty percent", "Forty-five percent"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian says the environmental science major is more selective at around thirty percent acceptance rate."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the housing requirement for freshmen?",
+        "options": [
+          "Freshmen may live off campus if they choose",
+          "All freshmen are required to live on campus",
+          "Only students with scholarships must live on campus",
+          "Freshmen must live in single rooms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian explains that all freshmen are required to live on campus in one of four freshman dormitories."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What meal plan are freshmen required to have at minimum?",
+        "options": [
+          "The unlimited plan",
+          "At least the fourteen-meal-per-week plan",
+          "At least the ten-meal-per-week plan",
+          "No meal plan is required"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Brian states freshmen must have at least the fourteen-meal-per-week plan, with an option to upgrade to unlimited."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "A complaint about dormitory conditions",
+          "A campus tour discussion about academics, research, housing, and dining",
+          "Negotiating tuition fees with the admissions office",
+          "A transfer student orientation session"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers a campus tour where the guide discusses labs, research opportunities, admission rates, housing, and meal plans with a prospective student."
+      }
+    ],
+    "keyVocabulary": ["tour guide", "prospective student", "acceptance rate", "stipend", "fieldwork", "renovated", "dormitory", "meal plan"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a librarian about booking a study room.",
+    "audioScript": "Situation: A student approaches the library front desk to book a group study room for a project meeting.\nPriya: Excuse me, I'd like to book a group study room for this evening. Is that possible?\nLibrarian: Of course. Study rooms can be booked by any currently enrolled student. How many people will be in your group?\nPriya: There will be five of us. We're working on a group presentation for our economics class.\nLibrarian: In that case, you'll need one of our large rooms. We have rooms that seat six to eight people. The small rooms only seat four, so they won't work for your group.\nPriya: A large room sounds perfect. What times are available this evening?\nLibrarian: Let me check the system. For tonight, we have room two-twelve available from six to eight PM, and room three-oh-five available from seven to nine PM. Which would you prefer?\nPriya: I think six to eight works better. Can we book room two-twelve?\nLibrarian: Sure. I'll need your student ID to process the booking. The maximum booking length is two hours per group per day. Is this a one-time booking or will you need it regularly?\nPriya: We'll probably need it every Tuesday and Thursday for the next three weeks. Can we make recurring reservations?\nLibrarian: Yes, recurring reservations are allowed up to four weeks in advance. I can set that up for you now. Just keep in mind that if your group doesn't show up within fifteen minutes of your start time, the reservation is automatically cancelled.\nPriya: That's good to know. What happens if we need to cancel a session?\nLibrarian: You can cancel through the online booking portal or by calling us. There's no penalty for cancelling, but please do it at least two hours ahead so other groups can use the room.\nPriya: Understood. Can we eat in the study rooms?\nLibrarian: Covered drinks are allowed, but no food. If you need to eat, there's a cafe on the first floor. Also, please make sure to leave the room clean and push in the chairs when you're done.\nPriya: Will do. Thank you for all the information.",
+    "speakers": [
+      { "name": "Priya", "role": "student" },
+      { "name": "Librarian", "role": "library staff" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Priya approach the library desk?",
+        "options": [
+          "To return an overdue book",
+          "To book a group study room for a project meeting",
+          "To ask about library hours",
+          "To print a presentation handout"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Priya states she would like to book a group study room for this evening for a project meeting."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many people are in Priya's group?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Priya says there will be five of them working on a group presentation for economics class."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does Priya need a large study room?",
+        "options": [
+          "She wants more space for materials",
+          "Small rooms only seat four people, which is not enough for her group",
+          "Large rooms have whiteboards",
+          "Small rooms are all booked"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The librarian explains that small rooms only seat four people, so Priya's group of five needs a large room that seats six to eight."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Which room does Priya choose and for what time?",
+        "options": [
+          "Room 305 from 7 to 9 PM",
+          "Room 212 from 6 to 8 PM",
+          "Room 212 from 7 to 9 PM",
+          "Room 305 from 6 to 8 PM"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya chooses room two-twelve from six to eight PM because that time works better for her group."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the maximum booking length per group per day?",
+        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The librarian states the maximum booking length is two hours per group per day."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How often does Priya need the study room?",
+        "options": [
+          "Every Monday and Wednesday",
+          "Every Tuesday and Thursday for the next three weeks",
+          "Every day for a week",
+          "Only once for tonight"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya says they will probably need the room every Tuesday and Thursday for the next three weeks."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How far in advance can recurring reservations be made?",
+        "options": ["One week in advance", "Two weeks in advance", "Four weeks in advance", "Eight weeks in advance"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The librarian says recurring reservations are allowed up to four weeks in advance."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What happens if the group doesn't show up within fifteen minutes of the start time?",
+        "options": [
+          "They are charged a fee",
+          "The reservation is automatically cancelled",
+          "They get a warning email",
+          "Their booking is shortened by thirty minutes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The librarian explains that if the group doesn't show up within fifteen minutes, the reservation is automatically cancelled."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the policy on food and drinks in study rooms?",
+        "options": [
+          "Both food and drinks are allowed",
+          "Covered drinks are allowed but no food",
+          "Neither food nor drinks are allowed",
+          "Only snacks are allowed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The librarian states that covered drinks are allowed but no food, and points to the cafe on the first floor for eating."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Paying a library fine for a damaged book",
+          "Booking a group study room and learning library booking policies",
+          "Reserving equipment for an economics presentation",
+          "Applying for a library staff position"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers booking a group study room, including room sizes, booking limits, recurring reservations, cancellation policies, and food rules."
+      }
+    ],
+    "keyVocabulary": ["study room", "booking", "recurring reservation", "cancel", "covered drinks", "enrolled student", "automatically cancelled"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a dining hall manager about a complaint.",
+    "audioScript": "Situation: A student visits the dining services office to file a complaint about food quality and cleanliness issues at the main dining hall.\nDining Manager: Hello, I'm Mr. Thompson, the dining hall manager. How can I help you today?\nSofia: Hi, Mr. Thompson. I'm Sofia. I eat at the main dining hall almost every day, and over the past two weeks I've noticed the quality of the hot meals has really gone downhill. The vegetables are often overcooked and cold, and last Tuesday the chicken seemed undercooked.\nDining Manager: I'm very sorry to hear that. That's certainly not the standard we aim for. Can you tell me what time you usually visit the dining hall?\nSofia: I usually come around seven PM for dinner. I know it's close to closing time, but the food should still be fresh.\nDining Manager: You're absolutely right. Our dinner service runs until eight-thirty, so food at seven should still be at proper temperature. I'll speak with the kitchen staff about monitoring food temperatures more closely, especially during the last hour of service. Was there anything else?\nSofia: Yes, actually. Last Wednesday I noticed several tables hadn't been wiped down, and there was food left on the floor near the salad bar. It seemed like there weren't enough staff cleaning up.\nDining Manager: I appreciate you bringing this to my attention. We've had two student workers call in sick this week, which has put a strain on our cleaning schedule. I'm hiring three new student workers starting next Monday, which should help. In the meantime, I'll assign an additional staff member to monitor the dining area during peak hours.\nSofia: I understand staffing can be difficult. I also wanted to ask if it's possible to get more vegetarian hot options. Right now there's usually only one vegetarian entree, and it's often just pasta.\nDining Manager: That's a fair point. I'll bring it up with our nutrition committee at their next meeting on Friday. We've been planning to add a rotating vegetarian station with different cuisines. I'll make sure it gets prioritized.\nSofia: Thank you for taking my concerns seriously. I really appreciate it.\nDining Manager: Of course. I'll also send you a follow-up email next week to let you know what changes we've implemented. Your feedback helps us improve.",
+    "speakers": [
+      { "name": "Sofia", "role": "student" },
+      { "name": "Dining Manager", "role": "dining hall manager" }
+    ],
+    "setting": "CAFETERIA",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Sofia visit the dining services office?",
+        "options": [
+          "To apply for a student worker position",
+          "To file a complaint about food quality and cleanliness issues",
+          "To change her meal plan",
+          "To request a refund for a meal"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Sofia visits to complain that the quality of hot meals has gone downhill and to report cleanliness issues at the dining hall."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What specific problems does Sofia mention about the hot meals?",
+        "options": [
+          "The portions are too small",
+          "Vegetables are overcooked and cold, and chicken seemed undercooked",
+          "The food is too spicy",
+          "There are not enough menu options"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia says the vegetables are often overcooked and cold, and the chicken seemed undercooked last Tuesday."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What time does Sofia usually visit the dining hall?",
+        "options": ["Around 5 PM", "Around 6 PM", "Around 7 PM", "Around 8 PM"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Sofia states she usually comes around seven PM for dinner, close to closing time."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Until what time does dinner service run?",
+        "options": ["Until 7:30 PM", "Until 8:00 PM", "Until 8:30 PM", "Until 9:00 PM"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The dining manager says dinner service runs until eight-thirty, so food at seven should still be at proper temperature."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What cleanliness issue does Sofia report?",
+        "options": [
+          "The bathrooms were dirty",
+          "Tables hadn't been wiped down and there was food on the floor near the salad bar",
+          "The trays were not washed properly",
+          "The serving utensils were sticky"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia reports that several tables hadn't been wiped down and there was food left on the floor near the salad bar."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why has the cleaning schedule been strained?",
+        "options": [
+          "The cleaning equipment broke down",
+          "Two student workers called in sick this week",
+          "The dining hall expanded its seating area",
+          "A new health inspector visited"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The manager explains that two student workers called in sick this week, putting a strain on the cleaning schedule."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How many new student workers is the manager hiring?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The manager says he is hiring three new student workers starting next Monday to help with the staffing issue."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What additional request does Sofia make?",
+        "options": [
+          "Lower prices for meals",
+          "More vegetarian hot options beyond just pasta",
+          "Longer dining hall hours",
+          "A gluten-free section"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia asks if it's possible to get more vegetarian hot options, noting there's usually only one vegetarian entree which is often just pasta."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the dining manager's response to Sofia's complaint?",
+        "options": [
+          "He is dismissive and defensive",
+          "He takes her concerns seriously and plans concrete actions to address them",
+          "He blames the students for the issues",
+          "He refuses to make any changes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The manager apologizes, explains the situation, promises to speak with kitchen staff, hire new workers, assign additional staff, and bring vegetarian options to the nutrition committee."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Negotiating a meal plan refund",
+          "A student filing complaints about dining hall food quality and cleanliness",
+          "Planning a new dining hall menu",
+          "Recruiting student workers for the dining hall"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Sofia complaining about declining food quality, cleanliness issues, and requesting more vegetarian options, with the manager responding to each concern."
+      }
+    ],
+    "keyVocabulary": ["complaint", "food quality", "undercooked", "cleanliness", "staffing", "nutrition committee", "vegetarian", "follow-up"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a box office attendant about campus event tickets.",
+    "audioScript": "Situation: A student visits the campus box office to purchase tickets for the upcoming spring concert and asks about discount policies.\nBox Office Attendant: Welcome to the campus box office. How can I help you today?\nTyler: Hi, I'd like to buy tickets for the spring concert next Saturday. I heard there's a student discount.\nBox Office Attendant: Yes, there is. The spring concert features a local jazz band and a guest vocalist. General admission is twenty-five dollars, but students with a valid ID get a forty percent discount, bringing the price to fifteen dollars per ticket. How many tickets would you like?\nTyler: I'd like three tickets. Two for me and my roommate, and one for my sister who's visiting from out of town. She's not a student here, though.\nBox Office Attendant: That's fine. The student discount applies to anyone with a valid student ID from any accredited institution. Does your sister have a student ID from her own university?\nTyler: Actually, yes, she does. She goes to State College. Would that work?\nBox Office Attendant: It would, but she'll need to present her ID at the door on the night of the concert. For now, I can sell you all three at the student rate, but I'll note that one ID is pending verification.\nTyler: Perfect. Are there assigned seats or is it general admission?\nBox Office Attendant: The main floor is general admission, meaning first-come, first-served seating. The balcony has assigned seats, but those are thirty dollars at the student rate and they're almost sold out. Only balcony seats in rows S through V are still available.\nTyler: Hmm, the balcony seats might be too far back. We'll go with general admission on the main floor. Can we pick up the tickets at will-call on the day of the concert?\nBox Office Attendant: Absolutely. I can also print them now or email them to you as mobile tickets. Which do you prefer?\nTyler: Mobile tickets would be great. You can send them to my student email.\nBox Office Attendant: Done. I'll send all three tickets to your email. The doors open at six-thirty PM, and the concert starts at seven-thirty. I'd recommend arriving by six to get good seats on the main floor.\nTyler: Got it. Is there a refund policy in case we can't make it?\nBox Office Attendant: Refunds are available up to forty-eight hours before the event. After that, you can exchange your tickets for another campus event of equal value, but no cash refunds. Would you like me to note that on your receipt?\nTyler: Yes, please. And I'll pay with my student account.",
+    "speakers": [
+      { "name": "Tyler", "role": "student" },
+      { "name": "Box Office Attendant", "role": "box office staff" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Tyler visit the campus box office?",
+        "options": [
+          "To return unwanted tickets",
+          "To purchase tickets for the spring concert and ask about discounts",
+          "To audition for the jazz band",
+          "To reserve a table at the concert venue"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Tyler says he would like to buy tickets for the spring concert next Saturday and asks about a student discount."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the general admission price for the concert?",
+        "options": ["$15", "$20", "$25", "$30"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The attendant states general admission is twenty-five dollars, with a student discount bringing it to fifteen dollars."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the student discounted price for general admission?",
+        "options": ["$10", "$15", "$18", "$20"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant explains students with a valid ID get a forty percent discount, bringing the price to fifteen dollars per ticket."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many tickets does Tyler want to buy?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Tyler asks for three tickets: two for himself and his roommate, and one for his visiting sister."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Where does Tyler's sister go to school?",
+        "options": [
+          "She is not a student",
+          "State College",
+          "Community College",
+          "The same university as Tyler"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler says his sister goes to State College and has a student ID from her own university."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What must Tyler's sister do to get the student discount?",
+        "options": [
+          "Show a letter from her dean",
+          "Present her student ID at the door on the night of the concert",
+          "Pay an additional verification fee",
+          "Buy her ticket separately at the door"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant says Tyler's sister needs to present her ID at the door on the night of the concert for verification."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the difference between main floor and balcony seating?",
+        "options": [
+          "The main floor has assigned seats and the balcony is general admission",
+          "The main floor is general admission and the balcony has assigned seats",
+          "Both areas have assigned seats",
+          "Both areas are general admission"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant explains the main floor is general admission (first-come, first-served) while the balcony has assigned seats."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What time do the doors open for the concert?",
+        "options": ["6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant says doors open at six-thirty PM and the concert starts at seven-thirty, recommending arrival by six for good seats."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the refund policy for the concert tickets?",
+        "options": [
+          "Full refunds are available anytime",
+          "Refunds up to forty-eight hours before the event; after that, exchanges only",
+          "No refunds or exchanges under any circumstances",
+          "Refunds only with a doctor's note"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant explains refunds are available up to forty-eight hours before the event, and after that, tickets can be exchanged for another event of equal value but no cash refunds."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Canceling a concert reservation and getting a refund",
+          "Purchasing discounted student tickets for a campus spring concert",
+          "Auditioning to perform in the campus jazz band",
+          "Booking the concert venue for a private event"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Tyler buying discounted student tickets for the spring concert, discussing pricing, seating options, ticket delivery, and refund policies."
+      }
+    ],
+    "keyVocabulary": ["box office", "student discount", "general admission", "assigned seats", "will-call", "mobile tickets", "refund policy", "verification"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a staff member at the ID card office.",
+    "audioScript": "Situation: A student visits the campus ID card office to replace a malfunctioning student ID card that no longer scans properly.\nStaff Member: Good afternoon. Welcome to the ID Card Office. What can I do for you?\nGrace: Hi, my student ID card stopped working. The magnetic strip seems damaged because it won't scan at the dining hall or the library anymore. I've been having issues for about a week.\nStaff Member: I see. Let me take a look at it. Yes, the magnetic strip is significantly worn down. This happens over time with regular use. When did you first get this card?\nGrace: I got it at the beginning of my freshman year, so about two and a half years ago. I use it every day for meals, building access, and printing, so it gets a lot of wear.\nStaff Member: That explains it. We generally recommend replacing cards every two years if you use them heavily. Since this is normal wear and tear, not loss or intentional damage, there's no replacement fee.\nGrace: Oh, that's a relief. I was worried I'd have to pay. My friend had to pay fifteen dollars when she lost hers.\nStaff Member: That's correct. Lost or stolen cards have a fifteen-dollar fee, but malfunctioning cards from normal use are replaced free of charge. Now, I'll need to take a new photo for your replacement card. The system doesn't reuse old photos.\nGrace: Sure. Should I remove my glasses?\nStaff Member: Yes, please remove your glasses and look straight at the camera. Okay, got it. The new card will be ready in about fifteen minutes. I'll print it and encode it with your current access privileges, meal plan, and printing balance.\nGrace: While I wait, can I ask what happens to my old card? I still have it.\nStaff Member: I'll need to collect it and deactivate it in the system so there's no duplication. If you find any old cards in the future, please bring them in or shred them. We don't want inactive cards floating around.\nGrace: That makes sense. One more question. Is there a way to add a backup access method in case this happens again? Like a mobile ID?\nStaff Member: Actually, yes. We just launched a mobile ID program last month. You can download the campus app and add your digital ID to your phone. It works at all the same readers as the physical card. Would you like me to help you set that up while you wait?\nGrace: That would be fantastic. I'd feel much better having a backup.\nStaff Member: Great. Let me pull up the setup instructions. You'll need your student number and a verification code that I'll generate here.",
+    "speakers": [
+      { "name": "Grace", "role": "student" },
+      { "name": "Staff Member", "role": "ID card office staff" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Grace visit the ID Card Office?",
+        "options": [
+          "To report a lost student ID card",
+          "To replace a malfunctioning ID card with a damaged magnetic strip",
+          "To add money to her printing balance",
+          "To update her photo on file"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Grace explains her student ID card stopped working because the magnetic strip is damaged and no longer scans at the dining hall or library."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long has Grace had her current ID card?",
+        "options": [
+          "About one year",
+          "About two years",
+          "About two and a half years",
+          "About three and a half years"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Grace says she got the card at the beginning of her freshman year, about two and a half years ago."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How often does the staff member recommend replacing heavily used cards?",
+        "options": ["Every year", "Every two years", "Every three years", "Every five years"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The staff member says they generally recommend replacing cards every two years if they are used heavily."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why is there no replacement fee for Grace's card?",
+        "options": [
+          "Grace has a special scholarship",
+          "The malfunction is from normal wear and tear, not loss or damage",
+          "It is her first replacement",
+          "The fee was waived by a supervisor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The staff member explains that malfunctioning cards from normal use are replaced free of charge, while lost or stolen cards have a fifteen-dollar fee."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How much is the replacement fee for a lost or stolen card?",
+        "options": ["$5", "$10", "$15", "$25"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The staff member confirms that lost or stolen cards have a fifteen-dollar replacement fee."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the staff member need to do for the replacement card?",
+        "options": [
+          "Reuse Grace's old photo",
+          "Take a new photo since the system doesn't reuse old photos",
+          "Use Grace's driver's license photo",
+          "Use a photo from her student portal"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The staff member says a new photo is needed because the system doesn't reuse old photos, and asks Grace to remove her glasses."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How long will it take for the new card to be ready?",
+        "options": ["Five minutes", "Ten minutes", "Fifteen minutes", "Thirty minutes"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The staff member says the new card will be ready in about fifteen minutes after printing and encoding."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What will happen to Grace's old card?",
+        "options": [
+          "She can keep it as a backup",
+          "The staff member will collect it and deactivate it in the system",
+          "It will be mailed back to her later",
+          "She can give it to a friend"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The staff member says they need to collect the old card and deactivate it to prevent duplication."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What backup access method does the staff member offer to help set up?",
+        "options": [
+          "A temporary paper pass",
+          "A mobile ID through the campus app",
+          "A PIN code for building entry",
+          "A second physical card"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The staff member mentions the newly launched mobile ID program, where Grace can add a digital ID to her phone via the campus app."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Reporting a lost ID card and paying a replacement fee",
+          "Replacing a malfunctioning student ID card and setting up a mobile ID backup",
+          "Appealing a charge on a student account",
+          "Updating building access privileges for a new semester"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers replacing Grace's worn-out ID card free of charge, taking a new photo, deactivating the old card, and setting up a mobile ID as a backup."
+      }
+    ],
+    "keyVocabulary": ["magnetic strip", "malfunctioning", "wear and tear", "replacement fee", "deactivate", "mobile ID", "encoding", "verification code"]
+  }
+]

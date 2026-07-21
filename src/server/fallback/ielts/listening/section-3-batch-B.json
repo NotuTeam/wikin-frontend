@@ -1,0 +1,875 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two law students discussing a landmark contract law case study with their seminar tutor.",
+    "audioScript": "Situation: Two undergraduate law students discuss a landmark contract law case with their seminar tutor in a tutorial room.\nTutor: Right, today we're looking at Carlill v Carbolic Smoke Ball Company, the 1893 case. Have you both read the judgment?\nSophie: Yes, I have. The key issue is whether the advertisement constituted a binding offer or merely an invitation to treat.\nTutor: Spot on, Sophie. And what did the Court of Appeal decide?\nJames: They held it was a unilateral offer. By using the smoke ball as directed, Mrs Carlill accepted the offer through conduct.\nTutor: Correct. Now, what was the company's main defence?\nSophie: They argued the advert was too vague, and that there was no intention to create legal relations because it was mere puffery.\nTutor: Good. How did the court respond to the puffery argument?\nJames: The court said the deposit of one thousand pounds in the bank showed genuine intention. That removed any suggestion of mere puffery.\nTutor: Exactly. And what about consideration?\nSophie: Mrs Carlill provided consideration by purchasing the smoke ball and using it according to the instructions.\nTutor: Precisely. The court found consideration in her inconvenience and the purchase price. Now, for your essay, I want you to compare this case with a modern online contract scenario.\nJames: Should we focus on clickwrap agreements?\nTutor: Yes, that would be an excellent parallel. Have your drafts ready by next Wednesday, and use Oxford Standard for Citation of Legal Authorities.\nSophie: Is there a word limit?\nTutor: Two thousand words, plus or minus ten percent. Footnotes don't count toward the total.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "MALE", "role": "law seminar tutor" },
+        { "name": "Sophie", "accent": "BRITISH", "gender": "FEMALE", "role": "undergraduate law student" },
+        { "name": "James", "accent": "AUSTRALIAN", "gender": "MALE", "role": "undergraduate law student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which case are the students discussing in the tutorial?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Carlill v Carbolic Smoke Ball Company", "Donoghue v Stevenson", "Hadley v Baxendale", "Partridge v Crittenden"],
+        "keywords": ["Carlill", "Carbolic Smoke Ball", "1893"],
+        "synonymsUsed": ["landmark case", "contract law"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the case decided?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["1883", "1888", "1893", "1901"],
+        "keywords": ["year", "decided", "1893"],
+        "synonymsUsed": ["handed down", "judgment"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the key legal issue identified by Sophie?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Whether the contract was in writing", "Whether the advertisement was a binding offer or an invitation to treat", "Whether the defendant was a corporation", "Whether the claimant had legal capacity"],
+        "keywords": ["binding offer", "invitation to treat", "advertisement"],
+        "synonymsUsed": ["offer versus invitation", "advert"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did James describe the court's classification of the offer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A unilateral offer", "A bilateral offer", "An implied offer", "A counter-offer"],
+        "keywords": ["unilateral", "offer", "conduct"],
+        "synonymsUsed": ["one-sided", "acceptance by performance"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How was the offer accepted according to James?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["By sending a letter", "By signing a contract", "By paying a fee", "By using the smoke ball as directed, through conduct"],
+        "keywords": ["accepted", "conduct", "using the smoke ball"],
+        "synonymsUsed": ["acceptance by action", "performance"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the company's main defence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["That the claimant was negligent", "That the contract was illegal", "That the advert was too vague and mere puffery with no intention to create legal relations", "That the court lacked jurisdiction"],
+        "keywords": ["vague", "puffery", "intention", "legal relations"],
+        "synonymsUsed": ["defence argument", "mere sales talk"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What evidence did the court rely on to reject the puffery argument?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A signed witness statement", "The deposit of one thousand pounds in the bank", "A notarised affidavit", "A government certificate"],
+        "keywords": ["deposit", "one thousand pounds", "bank", "intention"],
+        "synonymsUsed": ["bank deposit", "genuine intention"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did Mrs Carlill provide consideration, according to Sophie?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["By signing a waiver", "By testifying in court", "By purchasing the smoke ball and using it as instructed", "By hiring a solicitor"],
+        "keywords": ["consideration", "purchasing", "using", "instructions"],
+        "synonymsUsed": ["purchase price", "inconvenience"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What modern scenario does the tutor want the students to compare the case with?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Clickwrap agreements", "Cryptocurrency contracts", "Employment contracts", "Insurance policies"],
+        "keywords": ["compare", "modern", "clickwrap", "online"],
+        "synonymsUsed": ["online contract", "digital agreement"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the word limit for the essay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One thousand five hundred words", "Two thousand words, plus or minus ten percent", "Two thousand five hundred words", "Three thousand words"],
+        "keywords": ["word limit", "two thousand", "ten percent"],
+        "synonymsUsed": ["length", "count"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "invitation to treat", "pronunciationNote": "/ˌɪnvɪˈteɪʃən tə triːt/", "meaning": "A sign that someone is willing to negotiate but not yet making a binding offer." },
+      { "word": "unilateral offer", "pronunciationNote": "/juːnɪˈlætrəl ˈɒfə/", "meaning": "An offer that can be accepted by performing a specified act rather than by a promise." },
+      { "word": "puffery", "pronunciationNote": "/ˈpʌfəri/", "meaning": "Exaggerated or promotional claims not intended to be legally binding." },
+      { "word": "consideration", "pronunciationNote": "/kənˌsɪdəˈreɪʃən/", "meaning": "Something of value exchanged by parties to form a binding contract." },
+      { "word": "clickwrap agreement", "pronunciationNote": "/ˈklɪkræp əˈɡriːmənt/", "meaning": "An online contract accepted by clicking a button or checking a box." },
+      { "word": "jurisdiction", "pronunciationNote": "/ˌdʒʊərɪsˈdɪkʃən/", "meaning": "The official power of a court to make legal decisions and judgements." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two environmental science students planning a field trip with their lecturer.",
+    "audioScript": "Situation: Two environmental science students meet their lecturer to plan a field trip to a coastal wetland reserve.\nLecturer: Morning, both. So you've chosen the Waddenmeer Coastal Reserve for your field trip. That's a strong choice. Let's sort out logistics.\nMia: Thanks, Dr Patel. We want to measure water salinity and sediment composition at three sites along the tidal gradient.\nLecturer: Good. Which equipment will you need?\nTom: A refractometer for salinity, core samplers for sediment, and data loggers for temperature and pH.\nLecturer: Fine. The lab can lend you all of that. You'll need to collect the gear the day before departure.\nMia: When are we scheduled to go?\nLecturer: The trip is set for the fourteenth of March. That's a Thursday. You'll leave campus at seven a.m. and return by six p.m.\nTom: How will we get there?\nLecturer: The department minibus. Tom, you have the licence to drive it, correct?\nTom: Yes, I completed the driver training last term.\nLecturer: Excellent. Now, safety. You must wear waders and life jackets near the water. Check the tide tables before entering the mudflats.\nMia: What's the tide situation on the fourteenth?\nLecturer: Low tide is at ten fifteen a.m., so that's your ideal sampling window. High tide returns around four thirty p.m.\nTom: Should we record bird populations too?\nLecturer: That would add value, but keep it secondary. Your core assessment is the water and sediment data.\nMia: How should we structure the final report?\nLecturer: A standard scientific format: abstract, introduction, methods, results, discussion. Submit it within two weeks of the trip.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Lecturer", "accent": "BRITISH", "gender": "MALE", "role": "environmental science lecturer" },
+        { "name": "Mia", "accent": "CANADIAN", "gender": "FEMALE", "role": "undergraduate student" },
+        { "name": "Tom", "accent": "AMERICAN", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where will the students conduct their field trip?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Waddenmeer Coastal Reserve", "Lake District National Park", "Brecon Beacons", "Norfolk Broads"],
+        "keywords": ["Waddenmeer", "Coastal Reserve", "field trip"],
+        "synonymsUsed": ["wetland reserve", "site"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What two variables do the students want to measure?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Air pressure and wind speed", "Soil pH and vegetation cover", "Water salinity and sediment composition", "Bird populations and rainfall"],
+        "keywords": ["salinity", "sediment", "composition", "tidal gradient"],
+        "synonymsUsed": ["salt content", "soil samples"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many sampling sites do the students plan to use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["three sites", "tidal gradient"],
+        "synonymsUsed": ["locations", "stations"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which instrument is used to measure salinity?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A refractometer", "A hygrometer", "A barometer", "A spectrophotometer"],
+        "keywords": ["refractometer", "salinity"],
+        "synonymsUsed": ["salinity meter", "instrument"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On what date is the field trip scheduled?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The fourth of March", "The fourteenth of March", "The twenty-fourth of March", "The fourth of April"],
+        "keywords": ["fourteenth", "March", "Thursday"],
+        "synonymsUsed": ["date", "scheduled"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time will the students leave campus?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Seven a.m.", "Eight a.m.", "Nine a.m.", "Six a.m."],
+        "keywords": ["leave", "campus", "seven a.m."],
+        "synonymsUsed": ["departure", "set off"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How will the students travel to the reserve?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By train", "The department minibus", "By carpool", "By coach"],
+        "keywords": ["minibus", "department", "drive"],
+        "synonymsUsed": ["vehicle", "transport"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is low tide at the reserve on the day of the trip?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight forty-five a.m.", "Nine thirty a.m.", "Ten fifteen a.m.", "Eleven a.m."],
+        "keywords": ["low tide", "ten fifteen", "sampling window"],
+        "synonymsUsed": ["ideal time", "tide schedule"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say about recording bird populations?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["It is mandatory for the report", "It should replace sediment sampling", "It must be the primary focus", "It would add value but should remain secondary"],
+        "keywords": ["bird", "secondary", "core assessment"],
+        "synonymsUsed": ["optional", "supplementary"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When must the students submit their final report?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Within two weeks of the trip", "Within one week of the trip", "Within three weeks of the trip", "Within one month of the trip"],
+        "keywords": ["submit", "two weeks", "report"],
+        "synonymsUsed": ["hand in", "deadline"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "salinity", "pronunciationNote": "/səˈlɪnɪti/", "meaning": "The concentration of dissolved salts in water." },
+      { "word": "refractometer", "pronunciationNote": "/ˌriːfrækˈtɒmɪtə/", "meaning": "An instrument that measures salinity by refracting light through a liquid." },
+      { "word": "sediment", "pronunciationNote": "/ˈsedɪmənt/", "meaning": "Solid material that settles at the bottom of a body of water." },
+      { "word": "tidal gradient", "pronunciationNote": "/ˈtaɪdəl ˈɡreɪdiənt/", "meaning": "The change in conditions across the zone between high and low tide." },
+      { "word": "mudflats", "pronunciationNote": "/ˈmʌdflæts/", "meaning": "Coastal wetland areas exposed at low tide, consisting of mud and silt." },
+      { "word": "core sampler", "pronunciationNote": "/kɔː ˈsɑːmplə/", "meaning": "A tool used to extract cylindrical samples of sediment or soil." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two art history students comparing two Renaissance paintings under their tutor's guidance.",
+    "audioScript": "Situation: Two postgraduate art history students compare two High Renaissance paintings with their tutor in a seminar room.\nTutor: Today we're comparing Leonardo da Vinci's Virgin of the Rocks, the London version, with Raphael's Madonna of the Meadow. Both date to around 1505 to 1506. What strikes you first?\nClara: The compositional structure. Leonardo uses a pyramidal arrangement, but the figures are set in a shadowy, mysterious grotto. Raphael places his Madonna in a luminous, open landscape.\nTutor: Good observation. The lighting is a key difference. What technique is Leonardo famous for here?\nDaniel: Sfumato, the smoky blending of tones, especially around the faces and hands. It creates soft transitions without hard outlines.\nTutor: Correct. And how does Raphael's approach differ?\nClara: Raphael uses clearer contours and more even lighting. His figures feel more monumental and classical, almost sculptural.\nTutor: Yes. Now, the Madonna's gesture in each painting. Clara, you mentioned it in your draft.\nClara: In Leonardo's version, the Virgin's hand hovers protectively above the Christ child. In Raphael's, she extends her leg to create a barrier, preventing John the Baptist from approaching too quickly.\nTutor: Precisely. Now, what about the botanical detail in Raphael's work?\nDaniel: The plants in the foreground are botanically accurate. Art historians have identified several species, including cinquefoil and plantain, which carry symbolic meanings.\nTutor: Well done. For your comparative essay, I want you to address three areas: composition, use of colour, and iconographic symbolism. What length are you aiming for?\nClara: About three thousand words.\nTutor: That's appropriate. Use footnotes in the Chicago style. And include high-resolution images with full captions.\nDaniel: Is there a preferred translation for the primary sources?\nTutor: Use the standard translation by Kemp. It's the most reliable for Leonardo's notebooks.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "FEMALE", "role": "art history tutor" },
+        { "name": "Clara", "accent": "AMERICAN", "gender": "FEMALE", "role": "postgraduate student" },
+        { "name": "Daniel", "accent": "CANADIAN", "gender": "MALE", "role": "postgraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which two paintings are the students comparing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Mona Lisa and The Last Supper", "The School of Athens and The Birth of Venus", "Leonardo's Virgin of the Rocks (London version) and Raphael's Madonna of the Meadow", "The Sistine Chapel ceiling and The Creation of Adam"],
+        "keywords": ["Virgin of the Rocks", "Madonna of the Meadow", "Leonardo", "Raphael"],
+        "synonymsUsed": ["Renaissance paintings", "comparison"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately when were both paintings created?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Around 1480 to 1485", "Around 1505 to 1506", "Around 1520 to 1525", "Around 1540 to 1545"],
+        "keywords": ["1505", "1506", "date"],
+        "synonymsUsed": ["created", "painted"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does Clara describe the compositional difference between the two paintings?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Leonardo places figures in a shadowy grotto while Raphael uses a luminous open landscape", "Leonardo uses a circular layout while Raphael uses a diagonal one", "Leonardo paints on wood while Raphael paints on canvas", "Leonardo uses one figure while Raphael uses five"],
+        "keywords": ["pyramidal", "grotto", "luminous", "landscape"],
+        "synonymsUsed": ["setting", "background"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which painting technique is Leonardo famous for in this work?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Chiaroscuro", "Sfumato, the smoky blending of tones", "Impasto", "Encaustic"],
+        "keywords": ["sfumato", "smoky", "blending"],
+        "synonymsUsed": ["soft transitions", "tonal blending"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does Clara characterise Raphael's figures?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Dark and foreboding", "Fragmented and abstract", "Monumental and classical, almost sculptural", "Delicate and miniature"],
+        "keywords": ["monumental", "classical", "sculptural", "contours"],
+        "synonymsUsed": ["solid", "classical style"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the Virgin's gesture differ in Leonardo's painting, according to Clara?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Her hand hovers protectively above the Christ child", "She points toward John the Baptist", "She turns away from the children", "She holds a book"],
+        "keywords": ["Virgin", "hand", "hovers", "protectively"],
+        "synonymsUsed": ["gesture", "protective"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the Virgin do in Raphael's painting to control John the Baptist?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["She raises her hand to bless him", "She extends her leg to create a barrier", "She looks away from him", "She hands him a scroll"],
+        "keywords": ["extends", "leg", "barrier", "John the Baptist"],
+        "synonymsUsed": ["gesture", "obstruct"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Daniel say about the plants in Raphael's painting?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["They are imaginary and decorative", "They are painted in monochrome", "They are based on classical mythology", "They are botanically accurate and carry symbolic meanings"],
+        "keywords": ["botanically accurate", "symbolic", "cinquefoil", "plantain"],
+        "synonymsUsed": ["realistic plants", "iconographic"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which three areas must the students address in their comparative essay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Composition, use of colour, and iconographic symbolism", "Provenance, medium, and patronage", "Date, dimensions, and restoration history", "Biography, influence, and critical reception"],
+        "keywords": ["composition", "colour", "iconographic symbolism"],
+        "synonymsUsed": ["essay topics", "areas"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which translation of Leonardo's notebooks does the tutor recommend?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The translation by Vasari", "The standard translation by Kemp", "The translation by Freud", "The translation by Clark"],
+        "keywords": ["Kemp", "translation", "notebooks", "reliable"],
+        "synonymsUsed": ["preferred edition", "source"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "sfumato", "pronunciationNote": "/sfuːˈmɑːtəʊ/", "meaning": "A painting technique using subtle tonal gradations to blend colours without sharp outlines." },
+      { "word": "pyramidal composition", "pronunciationNote": "/pɪˈræmɪdəl ˌkɒmpəˈzɪʃən/", "meaning": "An arrangement of figures in a triangular shape to create balance and stability." },
+      { "word": "iconography", "pronunciationNote": "/ˌaɪkəˈnɒɡrəfi/", "meaning": "The study and interpretation of visual symbols in art." },
+      { "word": "chiaroscuro", "pronunciationNote": "/kɪˌɑːrəˈskjʊərəʊ/", "meaning": "The treatment of light and shade in drawing and painting." },
+      { "word": "botanical", "pronunciationNote": "/bəˈtænɪkl/", "meaning": "Relating to the scientific study of plants." },
+      { "word": "grotto", "pronunciationNote": "/ˈɡrɒtəʊ/", "meaning": "A small cave or cavern, often used as a scenic backdrop in paintings." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a chemistry student presenting a research proposal to her supervisor for feedback.",
+    "audioScript": "Situation: A chemistry PhD student presents her research proposal on catalyst development to her supervisor in his office.\nSupervisor: Come in, Priya. I've read your proposal draft on developing a novel palladium catalyst for cross-coupling reactions. Let's discuss it.\nPriya: Thank you, Professor Liang. My central hypothesis is that a modified ligand structure can improve yield and reduce the required temperature compared to existing catalysts.\nSupervisor: I see. Which cross-coupling reaction are you focusing on?\nPriya: The Suzuki-Miyaura coupling. It's widely used in pharmaceutical synthesis to form carbon-carbon bonds.\nSupervisor: Good choice. What modification are you proposing to the ligand?\nPriya: I want to introduce bulky electron-donating phosphine groups. I believe they'll stabilise the active palladium species and accelerate the oxidative addition step.\nSupervisor: That's plausible. However, you'll need to control for steric hindrance. Too much bulk can slow the transmetalation step. How will you measure catalytic activity?\nPriya: I'll use gas chromatography to quantify the product yield, and NMR spectroscopy to confirm the structure of intermediates.\nSupervisor: Sound methodology. What temperature range do you plan to test?\nPriya: From forty degrees to eighty degrees Celsius, in ten-degree increments.\nSupervisor: Reasonable. I'd add a control at room temperature as a baseline. Now, what about reproducibility?\nPriya: Each reaction will be run in triplicate. I'll report the average yield and standard deviation.\nSupervisor: Good. For your literature review, make sure you cite the 2019 review by Anwar and colleagues. It's the most comprehensive survey of phosphine ligands.\nPriya: I'll add it. What's the timeline for the experimental phase?\nSupervisor: I'd say six months for synthesis and screening, then three months for optimisation and write-up. Submit your revised proposal by the end of next week.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Supervisor", "accent": "BRITISH", "gender": "MALE", "role": "chemistry PhD supervisor" },
+        { "name": "Priya", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "chemistry PhD student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the focus of Priya's research proposal?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Developing a novel palladium catalyst for cross-coupling reactions", "Synthesising a new antibiotic compound", "Studying polymer degradation", "Measuring reaction kinetics of enzymes"],
+        "keywords": ["palladium", "catalyst", "cross-coupling"],
+        "synonymsUsed": ["catalyst development", "research proposal"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Priya's central hypothesis?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["That lower pressure increases yield", "That the ligand has no effect on temperature", "That a modified ligand structure can improve yield and reduce required temperature", "That palladium is unsuitable for coupling reactions"],
+        "keywords": ["modified ligand", "improve yield", "reduce temperature"],
+        "synonymsUsed": ["hypothesis", "expected outcome"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which cross-coupling reaction is Priya focusing on?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Heck reaction", "The Suzuki-Miyaura coupling", "The Buchwald-Hartwig amination", "The Sonogashira coupling"],
+        "keywords": ["Suzuki-Miyaura", "coupling", "carbon-carbon bonds"],
+        "synonymsUsed": ["reaction type", "pharmaceutical synthesis"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What modification does Priya propose for the ligand?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Introducing bulky electron-donating phosphine groups", "Removing all phosphine groups", "Adding fluorine atoms", "Changing to a nitrogen-based ligand"],
+        "keywords": ["bulky", "electron-donating", "phosphine groups"],
+        "synonymsUsed": ["ligand modification", "structural change"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What concern does the supervisor raise about Priya's approach?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That the temperature is too high", "That excessive steric hindrance can slow the transmetalation step", "That palladium is too expensive", "That NMR is unreliable"],
+        "keywords": ["steric hindrance", "transmetalation", "bulk"],
+        "synonymsUsed": ["concern", "drawback"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which technique will Priya use to quantify product yield?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Gas chromatography", "Mass spectrometry", "UV-visible spectroscopy", "X-ray crystallography"],
+        "keywords": ["gas chromatography", "quantify", "yield"],
+        "synonymsUsed": ["GC", "measurement"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which technique will Priya use to confirm the structure of intermediates?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Infrared spectroscopy", "Atomic absorption spectroscopy", "NMR spectroscopy", "Raman spectroscopy"],
+        "keywords": ["NMR", "spectroscopy", "intermediates", "structure"],
+        "synonymsUsed": ["characterisation", "analysis"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What temperature range does Priya plan to test?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["From twenty to sixty degrees Celsius", "From forty to eighty degrees Celsius", "From fifty to one hundred degrees Celsius", "From zero to forty degrees Celsius"],
+        "keywords": ["forty", "eighty", "Celsius", "increments"],
+        "synonymsUsed": ["temperature range", "tested"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many times will each reaction be repeated for reproducibility?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three times, in triplicate", "Five times", "Twice", "Ten times"],
+        "keywords": ["triplicate", "reproducibility", "average"],
+        "synonymsUsed": ["repeated", "replicates"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the supervisor's recommended timeline for the experimental phase and write-up?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Three months for everything", "Twelve months for synthesis and three for write-up", "Nine months total with no separate write-up phase", "Six months for synthesis and screening, then three months for optimisation and write-up"],
+        "keywords": ["six months", "three months", "synthesis", "optimisation", "write-up"],
+        "synonymsUsed": ["timeline", "schedule"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "catalyst", "pronunciationNote": "/ˈkætəlɪst/", "meaning": "A substance that increases the rate of a chemical reaction without being consumed." },
+      { "word": "ligand", "pronunciationNote": "/ˈlɪɡənd/", "meaning": "A molecule that binds to a central metal atom, modifying its catalytic properties." },
+      { "word": "cross-coupling", "pronunciationNote": "/krɒs ˈkʌplɪŋ/", "meaning": "A reaction that forms carbon-carbon bonds between two organic fragments." },
+      { "word": "steric hindrance", "pronunciationNote": "/ˈsterɪk ˈhɪndrəns/", "meaning": "The slowing of a reaction due to the physical bulk of molecules blocking access." },
+      { "word": "oxidative addition", "pronunciationNote": "/ˈɒksɪdeɪtɪv əˈdɪʃən/", "meaning": "A reaction step where a metal inserts into a bond, increasing its oxidation state." },
+      { "word": "transmetalation", "pronunciationNote": "/ˌtrænsmetəˈleɪʃən/", "meaning": "A step in catalytic cycles where an organic group transfers from one metal to another." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two computer science students discussing the time complexity of sorting algorithms with their professor.",
+    "audioScript": "Situation: Two computer science undergraduate students discuss the efficiency of sorting algorithms with their professor during office hours.\nProfessor: So you've both been working on the algorithms assignment. Let's talk about the sorting algorithms you've implemented. Which ones did you compare?\nAiden: We compared Quicksort, Mergesort, and Heapsort across three input types: random, nearly sorted, and reverse sorted.\nProfessor: Good selection. What were the average-case time complexities you observed?\nAiden: All three showed O of n log n for random input. But Quicksort degraded to O of n squared on the reverse sorted data when we used the last element as the pivot.\nProfessor: That's expected. What's the standard fix for that?\nNadia: You switch to a median-of-three pivot selection, or use a randomised pivot. That avoids the worst case for already structured data.\nProfessor: Correct. And what about space complexity? How does Mergesort differ from Quicksort?\nAiden: Mergesort requires O of n additional space because of the temporary arrays during merging. Quicksort is in-place, using only O of log n stack space on average.\nProfessor: Precisely. Now, which algorithm is stable, and why does that matter?\nNadia: Mergesort is stable, meaning it preserves the relative order of equal elements. That matters when sorting records by one key after already sorting by another.\nProfessor: Excellent explanation. Is Heapsort stable?\nAiden: No, Heapsort is not stable. The heap operations can reorder equal elements.\nProfessor: Right. For your report, I want you to include empirical graphs showing runtime versus input size. Use input sizes from one thousand to one hundred thousand elements.\nNadia: Should we test with duplicate keys as well?\nProfessor: Yes, definitely. Duplicates affect the partition behaviour of Quicksort. Include a test case with fifty percent duplicate values.\nAiden: What format should the report take?\nProfessor: A conference-style paper: abstract, introduction, methodology, results, and conclusion. Submit it as a PDF by the twenty-eighth of this month.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Professor", "accent": "CANADIAN", "gender": "FEMALE", "role": "computer science professor" },
+        { "name": "Aiden", "accent": "AMERICAN", "gender": "MALE", "role": "undergraduate student" },
+        { "name": "Nadia", "accent": "BRITISH", "gender": "FEMALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which three sorting algorithms did the students compare?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Quicksort, Mergesort, and Heapsort", "Bubble sort, Insertion sort, and Selection sort", "Radix sort, Counting sort, and Bucket sort", "Timsort, Introsort, and Shell sort"],
+        "keywords": ["Quicksort", "Mergesort", "Heapsort"],
+        "synonymsUsed": ["sorting algorithms", "compared"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What three input types did the students use for testing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Integer, float, and string arrays", "Random, nearly sorted, and reverse sorted", "Small, medium, and large arrays", "Sparse, dense, and empty arrays"],
+        "keywords": ["random", "nearly sorted", "reverse sorted"],
+        "synonymsUsed": ["input types", "test cases"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What average-case time complexity did all three algorithms show for random input?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["O of n log n", "O of n squared", "O of n", "O of log n"],
+        "keywords": ["n log n", "average-case", "random"],
+        "synonymsUsed": ["time complexity", "performance"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happened to Quicksort on reverse sorted data?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It ran faster than Mergesort", "It crashed", "It degraded to O of n squared when using the last element as the pivot", "It became stable"],
+        "keywords": ["degraded", "n squared", "reverse sorted", "last element", "pivot"],
+        "synonymsUsed": ["worst case", "performance drop"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Nadia suggest as a fix for Quicksort's worst case?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Switching to Bubble sort", "Using median-of-three pivot selection or a randomised pivot", "Increasing the array size", "Sorting in reverse order first"],
+        "keywords": ["median-of-three", "randomised pivot"],
+        "synonymsUsed": ["fix", "solution"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does Mergesort's space complexity differ from Quicksort's?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Mergesort needs O of n extra space; Quicksort is in-place using O of log n stack space", "Both use O of n squared space", "Quicksort needs more space than Mergesort", "Both are in-place with zero extra space"],
+        "keywords": ["Mergesort", "O of n", "in-place", "log n", "stack"],
+        "synonymsUsed": ["space complexity", "memory"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does it mean for a sorting algorithm to be stable?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It always runs in linear time", "It never uses extra memory", "It preserves the relative order of equal elements", "It works only on integers"],
+        "keywords": ["stable", "relative order", "equal elements"],
+        "synonymsUsed": ["stability", "order preservation"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which algorithm is NOT stable, according to the discussion?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Mergesort", "Heapsort", "Insertion sort", "Bubble sort"],
+        "keywords": ["Heapsort", "not stable", "heap operations"],
+        "synonymsUsed": ["unstable", "reorder"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What input sizes does the professor want in the empirical graphs?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["From one thousand to one hundred thousand elements", "From ten to one thousand elements", "From one million to one billion elements", "From one hundred to ten thousand elements"],
+        "keywords": ["one thousand", "one hundred thousand", "input size"],
+        "synonymsUsed": ["range", "data size"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of duplicate values should the duplicate test case contain?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty percent", "Thirty percent", "Fifty percent", "Eighty percent"],
+        "keywords": ["duplicates", "fifty percent", "partition"],
+        "synonymsUsed": ["duplicate keys", "repeated values"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "time complexity", "pronunciationNote": "/taɪm kəmˈplɛksɪti/", "meaning": "A measure of how an algorithm's runtime grows with input size." },
+      { "word": "pivot", "pronunciationNote": "/ˈpɪvət/", "meaning": "An element chosen in Quicksort to partition the array around." },
+      { "word": "in-place", "pronunciationNote": "/ɪn ˈpleɪs/", "meaning": "An algorithm that uses a small, constant amount of extra memory." },
+      { "word": "stable sort", "pronunciationNote": "/ˈsteɪbəl sɔːt/", "meaning": "A sorting algorithm that preserves the relative order of equal elements." },
+      { "word": "median-of-three", "pronunciationNote": "/ˈmiːdiən əv θriː/", "meaning": "A pivot selection method using the median of the first, middle, and last elements." },
+      { "word": "empirical", "pronunciationNote": "/ɪmˈpɪrɪkl/", "meaning": "Based on observation and experiment rather than theory alone." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a sociology tutor guiding a student through refining the design of a survey on urban housing insecurity.",
+    "audioScript": "Situation: A sociology tutor helps a final-year student refine the design of a survey on urban housing insecurity in a supervision meeting.\nTutor: Right, Hassan, let's go through your survey on housing insecurity. Your draft has forty-two items. That's likely too many. Respondent fatigue will skew your data.\nHassan: I was trying to cover everything. What would you recommend cutting?\nTutor: Prioritise your core research questions. You have three: affordability, overcrowding, and eviction risk. Trim items that don't directly serve those.\nHassan: Could I move some of them to a follow-up interview instead?\nTutor: Exactly. A mixed-mode design is ideal here. Use the survey for breadth and interviews for depth.\nHassan: How many items should the final survey contain?\nTutor: Aim for around twenty-five, which should take respondents about ten minutes. Anything beyond twelve minutes and completion rates drop sharply.\nHassan: Should I use Likert scales or yes-no questions for the affordability items?\nTutor: Likert scales are better here. A five-point scale gives you variance for statistical analysis. Binary questions waste information.\nHassan: What about sampling? I planned to distribute through community centres.\nTutor: That's a convenience sample, which limits generalisability. I'd combine it with stratified random sampling across three boroughs. That improves representativeness.\nHassan: How many respondents do I need for adequate statistical power?\nTutor: For the inferential tests you're planning, a minimum of three hundred and eighty-four. That gives you a five percent margin of error at ninety-five percent confidence.\nHassan: That's more than I expected. How do I handle non-response bias?\nTutor: Send two reminder emails, and compare early versus late respondents on key variables. If there's no significant difference, non-response bias is likely minimal.\nHassan: Should I pilot the survey before full launch?\nTutor: Absolutely. Run a pilot with thirty to fifty participants. Check the Cronbach's alpha for your scales. It should be at least point seven. Revise any ambiguous items based on their feedback.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "FEMALE", "role": "sociology tutor" },
+        { "name": "Hassan", "accent": "AMERICAN", "gender": "MALE", "role": "final-year sociology student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the topic of Hassan's survey?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Urban housing insecurity", "Rural employment patterns", "Suburban commuting habits", "Urban air quality"],
+        "keywords": ["housing insecurity", "urban"],
+        "synonymsUsed": ["housing instability", "city"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many items does Hassan's draft survey currently contain?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Thirty-five", "Forty-two", "Fifty", "Twenty-eight"],
+        "keywords": ["forty-two", "items", "draft"],
+        "synonymsUsed": ["survey length", "questions"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the tutor say is the risk of too many survey items?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Higher cost", "Ethical concerns", "Respondent fatigue will skew the data", "Computational errors"],
+        "keywords": ["respondent fatigue", "skew", "data"],
+        "synonymsUsed": ["too long", "bias"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are Hassan's three core research questions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Affordability, overcrowding, and eviction risk", "Commute time, rent, and safety", "Income, education, and employment", "Location, size, and condition"],
+        "keywords": ["affordability", "overcrowding", "eviction risk"],
+        "synonymsUsed": ["core themes", "research areas"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the tutor suggest as the ideal target number of survey items?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Around twenty", "Around twenty-five", "Around thirty", "Around fifteen"],
+        "keywords": ["twenty-five", "items", "aim"],
+        "synonymsUsed": ["target length", "recommended"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum completion time before response rates drop sharply?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight minutes", "Ten minutes", "Twelve minutes", "Fifteen minutes"],
+        "keywords": ["twelve minutes", "completion rates", "drop"],
+        "synonymsUsed": ["threshold", "drop-off"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which response format does the tutor recommend for the affordability items?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A five-point Likert scale", "Yes-no binary questions", "Open-ended text fields", "Ranking questions"],
+        "keywords": ["Likert", "five-point", "variance"],
+        "synonymsUsed": ["scale", "response format"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What sampling approach does the tutor recommend combining with convenience sampling?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Snowball sampling", "Quota sampling", "Stratified random sampling across three boroughs", "Purposive sampling"],
+        "keywords": ["stratified random", "three boroughs", "representativeness"],
+        "synonymsUsed": ["sampling method", "representative"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the minimum number of respondents needed for adequate statistical power?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two hundred and fifty", "Three hundred and eighty-four", "Five hundred", "One thousand"],
+        "keywords": ["three hundred and eighty-four", "statistical power", "margin of error"],
+        "synonymsUsed": ["sample size", "minimum respondents"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What Cronbach's alpha value should Hassan's pilot scales achieve at minimum?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["At least point seven", "At least point five", "At least point eight", "At least point nine"],
+        "keywords": ["Cronbach's alpha", "point seven", "pilot"],
+        "synonymsUsed": ["reliability", "threshold"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "respondent fatigue", "pronunciationNote": "/rɪˈspɒndənt fəˈtiːɡ/", "meaning": "The decline in data quality when survey participants become tired from answering too many questions." },
+      { "word": "Likert scale", "pronunciationNote": "/ˈlɪkət skeɪl/", "meaning": "A psychometric scale using ordered response levels, typically five or seven points." },
+      { "word": "stratified random sampling", "pronunciationNote": "/ˈstrætɪfaɪd ˈrændəm ˈsɑːmplɪŋ/", "meaning": "A method that divides a population into subgroups and randomly samples from each." },
+      { "word": "non-response bias", "pronunciationNote": "/nɒn rɪˈspɒns ˈbaɪəs/", "meaning": "Bias caused when non-respondents differ systematically from respondents." },
+      { "word": "Cronbach's alpha", "pronunciationNote": "/ˈkrɒnbæks ˈælfə/", "meaning": "A measure of internal consistency reliability for a set of survey items." },
+      { "word": "inferential statistics", "pronunciationNote": "/ˌɪnfəˈrenʃəl stəˈtɪstɪks/", "meaning": "Methods that allow generalisations from a sample to a wider population." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two music students analysing the harmonic structure of a Chopin prelude with their lecturer.",
+    "audioScript": "Situation: Two music students analyse the harmonic structure of Chopin's Prelude in E minor, Opus 28 No. 4, with their lecturer in a seminar.\nLecturer: Today we're examining Chopin's Prelude in E minor, Opus 28 No. 4. Let's start with the overall key and form. Any thoughts?\nElena: It's in E minor, and the structure is essentially a harmonic progression over a repeating accompaniment figure. There's no traditional sonata form here.\nLecturer: Correct. It's more of a continuous phrase with a single harmonic trajectory. What is the opening harmonic gesture?\nMarco: The piece begins with a tonic chord, but Chopin immediately introduces a descending chromatic bass line that creates a sense of lament.\nLecturer: Yes. That descending tetrachord, from E down to B, is a hallmark of the lament bass. Where does the first significant modulation occur?\nElena: Around bar twelve, there's a move toward the relative major, G major. But it's fleeting and chromatic, not a clean modulation.\nLecturer: Good ear. Chopin uses secondary dominants and diminished seventh chords as chromatic passing harmonies. What happens at the climax?\nMarco: There's a augmented sixth chord, specifically the German sixth, resolving to the dominant. It intensifies the harmonic tension before the final cadence.\nLecturer: Precisely. And how does the piece end?\nElena: It ends with a Picardy third, a major tonic chord. The final E major chord provides a sense of resolution after the prolonged minor tension.\nLecturer: Yes. That Picardy third was common in Romantic-era minor-key pieces. Now, for your analysis portfolio, I want a chord-by-chord Roman numeral analysis with figured bass.\nMarco: Should we include a Schenkerian reduction?\nLecturer: Not for this one. Focus on the surface harmony and the lament bass structure. Submit the portfolio by the fifteenth, and include a recording reference at bar twenty-three.\nElena: Is there a preferred edition for the score?\nLecturer: Use the Paderewski edition. It's the scholarly standard for Chopin.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Lecturer", "accent": "BRITISH", "gender": "MALE", "role": "music theory lecturer" },
+        { "name": "Elena", "accent": "AMERICAN", "gender": "FEMALE", "role": "music student" },
+        { "name": "Marco", "accent": "CANADIAN", "gender": "MALE", "role": "music student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which piece are the students analysing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Chopin's Prelude in E minor, Opus 28 No. 4", "Chopin's Nocturne in C sharp minor", "Bach's Prelude in C major", "Debussy's Prelude to the Afternoon of a Faun"],
+        "keywords": ["Chopin", "Prelude", "E minor", "Opus 28"],
+        "synonymsUsed": ["piece", "composition"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does Elena describe the structure of the piece?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A strict sonata form with three movements", "A harmonic progression over a repeating accompaniment figure with no traditional sonata form", "A fugue with four voices", "A theme and variations"],
+        "keywords": ["harmonic progression", "repeating accompaniment", "no sonata form"],
+        "synonymsUsed": ["structure", "form"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Marco identify at the opening of the piece?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A descending chromatic bass line creating a lament", "An ascending arpeggio", "A pedal point on the dominant", "A fugue subject"],
+        "keywords": ["descending chromatic", "bass line", "lament"],
+        "synonymsUsed": ["opening gesture", "bass progression"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the descending tetrachord that forms the lament bass?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["From G down to D", "From C down to G", "From E down to B", "From A down to E"],
+        "keywords": ["descending tetrachord", "E", "B", "lament bass"],
+        "synonymsUsed": ["interval", "four notes"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Around which bar does the first significant modulation occur?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Bar twelve", "Bar eight", "Bar sixteen", "Bar twenty"],
+        "keywords": ["bar twelve", "modulation", "relative major"],
+        "synonymsUsed": ["modulation point", "key change"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Toward which key does the music briefly move around bar twelve?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["C major", "G major, the relative major", "D major", "A minor"],
+        "keywords": ["relative major", "G major", "chromatic"],
+        "synonymsUsed": ["key centre", "modulation"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which chords does the lecturer say Chopin uses as chromatic passing harmonies?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Only tonic and dominant chords", "Sus2 and sus4 chords", "Secondary dominants and diminished seventh chords", "Power chords"],
+        "keywords": ["secondary dominants", "diminished seventh", "chromatic passing"],
+        "synonymsUsed": ["passing harmonies", "chromatic chords"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of augmented sixth chord appears at the climax?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The German sixth", "The Italian sixth", "The French sixth", "The Swiss sixth"],
+        "keywords": ["augmented sixth", "German sixth", "climax"],
+        "synonymsUsed": ["climax harmony", "tension"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the piece end, according to Elena?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["With a deceptive cadence", "With a half cadence", "With a plagal cadence", "With a Picardy third, a major tonic chord"],
+        "keywords": ["Picardy third", "major tonic", "E major"],
+        "synonymsUsed": ["ending", "final chord"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which edition does the lecturer recommend for the Chopin score?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Henle edition", "The Paderewski edition", "The Barenreiter edition", "The Wiener Urtext edition"],
+        "keywords": ["Paderewski", "edition", "scholarly standard"],
+        "synonymsUsed": ["score edition", "reference"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "lament bass", "pronunciationNote": "/ləˈment beɪs/", "meaning": "A descending chromatic bass line, typically falling a fourth, associated with grief." },
+      { "word": "tetrachord", "pronunciationNote": "/ˈtɛtrəkɔːd/", "meaning": "A series of four notes, often spanning a perfect fourth." },
+      { "word": "Picardy third", "pronunciationNote": "/ˈpɪkədi θɜːd/", "meaning": "A major tonic chord at the end of a piece in a minor key." },
+      { "word": "German sixth", "pronunciationNote": "/ˈdʒɜːmən sɪksθ/", "meaning": "An augmented sixth chord used to heighten harmonic tension before resolution." },
+      { "word": "secondary dominant", "pronunciationNote": "/ˈsɛkəndəri ˈdɒmɪnənt/", "meaning": "A dominant chord that tonicises a chord other than the main tonic." },
+      { "word": "Roman numeral analysis", "pronunciationNote": "/ˈrəʊmən ˈnjuːmərəl əˈnæləsɪs/", "meaning": "A system of labelling chords with Roman numerals based on their scale degree." }
+    ],
+    "difficulty": "HARD"
+  }
+]

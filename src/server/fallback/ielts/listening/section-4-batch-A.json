@@ -1,0 +1,863 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an engineering lecture about renewable energy technologies and their future prospects.",
+    "audioScript": "Situation: An engineering professor delivers a lecture on renewable energy technologies, comparing solar, wind, and tidal power.\nProfessor Bennett: Good afternoon. Today we examine three leading renewable energy technologies and assess their strengths and limitations.\nProfessor Bennett: Let's begin with solar power. Photovoltaic panels convert sunlight directly into electricity. The cost of solar modules has fallen by roughly ninety percent since twenty-ten, making it the cheapest source of new electricity in many regions.\nProfessor Bennett: However, solar is intermittent. It generates nothing at night and little in cloudy weather, so large-scale batteries are essential for a stable supply.\nProfessor Bennett: Wind power is our second technology. Onshore turbines are well established, but offshore wind is growing fastest because sea winds are stronger and more consistent. A single modern offshore turbine can power around sixteen thousand homes.\nProfessor Bennett: Wind's drawback is visual and noise impact, which sometimes causes local opposition. Careful site selection and community consultation are vital.\nProfessor Bennett: Third, tidal power harnesses the gravitational pull of the moon. Unlike solar and wind, tides are entirely predictable centuries in advance. The Swansea Bay project in Wales was a flagship proposal, though its high construction cost led to its cancellation.\nProfessor Bennett: In conclusion, no single technology can decarbonise our grid alone. A balanced mix of solar, wind, and tidal, backed by storage, offers the most resilient path forward.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Bennett", "accent": "BRITISH", "gender": "MALE", "role": "engineering professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many renewable energy technologies does the professor examine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["technologies", "examine", "three"],
+        "synonymsUsed": ["assess", "leading"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By approximately how much has the cost of solar modules fallen since 2010?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifty percent", "Seventy percent", "Ninety percent", "One hundred percent"],
+        "keywords": ["cost", "solar modules", "fallen", "ninety percent"],
+        "synonymsUsed": ["decreased", "reduced"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main drawback of solar power mentioned?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It is intermittent, generating nothing at night", "It is too expensive to install", "It produces toxic waste", "It requires rare minerals from conflict zones"],
+        "keywords": ["intermittent", "night", "cloudy"],
+        "synonymsUsed": ["drawback", "unreliable"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is offshore wind growing faster than onshore wind?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Offshore turbines are cheaper to build", "Sea winds are stronger and more consistent", "Onshore land is protected by law", "Offshore turbines last twice as long"],
+        "keywords": ["offshore", "sea winds", "stronger", "consistent"],
+        "synonymsUsed": ["reliable", "steady"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how many homes can a single modern offshore turbine power?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Six thousand", "Eleven thousand", "Sixteen thousand", "Twenty-six thousand"],
+        "keywords": ["offshore turbine", "homes", "sixteen thousand"],
+        "synonymsUsed": ["households", "supply"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What causes local opposition to wind power?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Visual and noise impact", "Fear of bird collisions alone", "Concerns about radiation", "Worries about falling property prices alone"],
+        "keywords": ["visual", "noise", "opposition"],
+        "synonymsUsed": ["objection", "resistance"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What makes tidal power different from solar and wind?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is cheaper to install", "Tides are entirely predictable centuries in advance", "It works only in tropical waters", "It produces no electricity at night"],
+        "keywords": ["tidal", "predictable", "centuries"],
+        "synonymsUsed": ["foreseeable", "reliable"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What gravitational force does tidal power harness?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Sun's heat", "The Earth's rotation", "The gravitational pull of the moon", "Ocean current friction"],
+        "keywords": ["gravitational", "moon", "pull"],
+        "synonymsUsed": ["harness", "capture"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why was the Swansea Bay project cancelled?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It lacked government permits", "Its high construction cost", "Local environmental protests", "Insufficient tidal range"],
+        "keywords": ["Swansea Bay", "cancelled", "high construction cost"],
+        "synonymsUsed": ["abandoned", "expense"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor conclude about decarbonising the grid?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Solar alone is sufficient", "Offshore wind alone is sufficient", "A balanced mix backed by storage is best", "Tidal power should be prioritised above all"],
+        "keywords": ["balanced mix", "storage", "resilient"],
+        "synonymsUsed": ["combination", "stable"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "photovoltaic", "pronunciationNote": "/ˌfəʊtəʊvɒlˈteɪɪk/", "meaning": "Relating to the conversion of light into electricity using semiconductor materials." },
+      { "word": "intermittent", "meaning": "Occurring at irregular intervals; not continuous." },
+      { "word": "offshore", "meaning": "Situated in the sea, away from the coast." },
+      { "word": "decarbonise", "meaning": "To reduce the amount of carbon dioxide emissions from an energy system." },
+      { "word": "predictable", "meaning": "Able to be known in advance; following a regular pattern." },
+      { "word": "flagship", "meaning": "The most important or prestigious item in a group." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a philosophy lecture introducing ancient Greek philosophical schools.",
+    "audioScript": "Situation: A philosophy professor delivers an introductory lecture on the major schools of ancient Greek philosophy.\nDr. Harrison: Good morning. Today we survey the three most influential schools of ancient Greek philosophy: the Platonic, the Aristotelian, and the Stoic.\nDr. Harrison: Plato, a student of Socrates, founded the Academy in Athens around three hundred and eighty-seven BC. His theory of Forms argues that the physical world is merely a shadow of perfect, eternal ideals.\nDr. Harrison: Plato's most famous work, The Republic, envisions a just society governed by philosopher-kings, whom he considered uniquely wise and selfless.\nDr. Harrison: Aristotle, Plato's most brilliant pupil, rejected the separate world of Forms. Instead, he argued that the essence of a thing lies within it, not in some abstract realm. He founded his own school, the Lyceum, in three thirty-five BC.\nDr. Harrison: Aristotle's influence was enormous. He systematised logic, biology, and ethics, and his works shaped European thought for nearly two thousand years.\nDr. Harrison: The third school, Stoicism, was founded by Zeno of Citium around three hundred BC. Stoics taught that virtue, defined as living in accordance with reason, is the only true good. External events, whether wealth or poverty, are neither good nor bad.\nDr. Harrison: A student asks: Did Stoics believe in suppressing emotions? Not exactly. They believed in understanding emotions so that reason governs one's responses, not in simply hiding feelings.\nDr. Harrison: In summary, these three schools laid the foundations of Western philosophy, each offering a distinct vision of truth and the good life.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr. Harrison", "accent": "AMERICAN", "gender": "FEMALE", "role": "philosophy professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many major schools does the lecture survey?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two", "Four", "Three", "Five"],
+        "keywords": ["schools", "survey", "three"],
+        "synonymsUsed": ["examine", "influential"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who was Plato's teacher?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Socrates", "Aristotle", "Zeno", "Homer"],
+        "keywords": ["Plato", "student", "Socrates"],
+        "synonymsUsed": ["pupil", "taught by"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Around when did Plato found the Academy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five hundred BC", "Three hundred and eighty-seven BC", "Three hundred BC", "Three thirty-five BC"],
+        "keywords": ["Academy", "founded", "three hundred and eighty-seven"],
+        "synonymsUsed": ["established", "created"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Plato's theory of Forms argue?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["That the physical world is all that exists", "That knowledge comes only from the senses", "That the physical world is a shadow of perfect eternal ideals", "That forms are created by humans"],
+        "keywords": ["Forms", "physical world", "shadow", "eternal ideals"],
+        "synonymsUsed": ["reflection", "abstract"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In The Republic, who should govern a just society?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Elected citizens", "Philosopher-kings", "Military generals", "Wealthy merchants"],
+        "keywords": ["Republic", "philosopher-kings", "govern"],
+        "synonymsUsed": ["rule", "lead"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did Aristotle differ from Plato regarding Forms?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["He argued the essence of a thing lies within it, not in an abstract realm", "He agreed that Forms exist in a separate world", "He denied that Forms exist at all", "He believed Forms were created by the gods"],
+        "keywords": ["Aristotle", "essence", "within", "rejected"],
+        "synonymsUsed": ["differed", "disagreed"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What school did Aristotle found?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Academy", "The Stoic school", "The Lyceum", "The Agora"],
+        "keywords": ["Aristotle", "founded", "Lyceum"],
+        "synonymsUsed": ["established", "created"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who founded Stoicism?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Zeno of Citium", "Epictetus", "Marcus Aurelius", "Socrates"],
+        "keywords": ["Stoicism", "founded", "Zeno"],
+        "synonymsUsed": ["established", "originated"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the lecture, what did Stoics actually believe about emotions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That all emotions should be suppressed entirely", "That one should understand emotions so reason governs responses", "That emotions are the only true good", "That emotions come from the gods"],
+        "keywords": ["Stoics", "emotions", "reason", "governs"],
+        "synonymsUsed": ["feelings", "control"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to Stoicism, what is the only true good?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Wealth", "Health", "Virtue", "Knowledge"],
+        "keywords": ["virtue", "only true good", "Stoicism"],
+        "synonymsUsed": ["goodness", "moral excellence"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "Forms", "meaning": "In Plato's philosophy, the perfect, eternal, abstract ideals of which physical objects are imperfect copies." },
+      { "word": "philosopher-kings", "meaning": "In Plato's Republic, the wise rulers who govern a just society." },
+      { "word": "essence", "meaning": "The fundamental nature or most important quality of something." },
+      { "word": "Stoicism", "pronunciationNote": "/ˈstəʊɪsɪzəm/", "meaning": "An ancient Greek philosophy teaching that virtue, guided by reason, is the only true good." },
+      { "word": "virtue", "meaning": "Behaviour showing high moral standards." },
+      { "word": "systematise", "meaning": "To arrange according to an organised system or method." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a computer science lecture introducing the basics of quantum computing.",
+    "audioScript": "Situation: A computer science professor delivers an introductory lecture on the fundamental principles of quantum computing.\nProfessor Clarke: Welcome. Today we explore how quantum computing differs from classical computing, and why it matters.\nProfessor Clarke: A classical bit is either zero or one. A quantum bit, or qubit, can exist in a state called superposition, where it is effectively zero and one simultaneously until measured.\nProfessor Clarke: This allows quantum computers to explore many possibilities at once. With just fifty qubits, a system could in principle represent over a quadrillion states simultaneously.\nProfessor Clarke: The second key principle is entanglement. When two qubits are entangled, measuring one instantly determines the state of the other, regardless of distance. Einstein famously called this 'spooky action at a distance'.\nProfessor Clarke: Together, superposition and entanglement enable quantum algorithms to solve certain problems far faster than classical machines. Shor's algorithm, for instance, can factor large numbers exponentially faster than the best classical methods.\nProfessor Clarke: This has serious implications for cryptography. Much of today's encryption relies on the difficulty of factoring large numbers. A sufficiently powerful quantum computer could break it.\nProfessor Clarke: However, qubits are extremely fragile. A phenomenon called decoherence, caused by tiny environmental disturbances like heat or vibration, destroys quantum states in fractions of a second.\nProfessor Clarke: A student asks: So when will we have useful quantum computers? The honest answer is we do not know. Experts estimate it may take another ten to twenty years, though progress is accelerating.\nProfessor Clarke: To conclude, quantum computing promises revolutionary power for specific problems, but immense engineering challenges remain before it becomes practical.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Clarke", "accent": "AMERICAN", "gender": "MALE", "role": "computer science professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main topic of the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The history of classical computing", "The fundamental principles of quantum computing", "The future of artificial intelligence", "The ethics of data encryption"],
+        "keywords": ["quantum computing", "fundamental principles", "differs"],
+        "synonymsUsed": ["basic concepts", "compared"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What can a qubit do that a classical bit cannot?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Store more than one byte of data", "Operate without electricity", "Exist in superposition, being zero and one simultaneously", "Process data at the speed of light"],
+        "keywords": ["qubit", "superposition", "zero and one"],
+        "synonymsUsed": ["quantum bit", "simultaneously"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many states could a fifty-qubit system represent simultaneously?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Over a million", "Over a billion", "Over a quadrillion", "Over a quintillion"],
+        "keywords": ["fifty qubits", "quadrillion", "states"],
+        "synonymsUsed": ["represent", "simultaneously"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens when two entangled qubits are measured?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Both qubits are destroyed", "Measuring one instantly determines the state of the other", "They become classical bits", "They separate and lose connection"],
+        "keywords": ["entanglement", "measuring", "instantly determines"],
+        "synonymsUsed": ["observe", "immediately"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Einstein call entanglement?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Spooky action at a distance", "Quantum nonsense", "The uncertainty principle", "Divine interference"],
+        "keywords": ["Einstein", "spooky action", "distance"],
+        "synonymsUsed": ["described", "termed"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Shor's algorithm do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It sorts data faster than classical methods", "It factors large numbers exponentially faster than classical methods", "It encrypts data more securely", "It simulates chemical reactions"],
+        "keywords": ["Shor's algorithm", "factor", "large numbers", "exponentially"],
+        "synonymsUsed": ["break down", "rapidly"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is quantum computing a threat to current cryptography?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Much encryption relies on the difficulty of factoring large numbers", "Quantum computers can guess any password instantly", "They can intercept all internet traffic", "They make encryption keys publicly visible"],
+        "keywords": ["cryptography", "encryption", "factoring", "large numbers"],
+        "synonymsUsed": ["code-breaking", "security"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What phenomenon destroys quantum states?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Superposition collapse", "Decoherence", "Entanglement decay", "Thermal fusion"],
+        "keywords": ["decoherence", "destroys", "quantum states"],
+        "synonymsUsed": ["breaks down", "fragile"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What causes decoherence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Electrical surges", "Software errors", "Tiny environmental disturbances like heat or vibration", "Magnetic field reversals"],
+        "keywords": ["decoherence", "environmental disturbances", "heat", "vibration"],
+        "synonymsUsed": ["interference", "disruption"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the professor, when will useful quantum computers arrive?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Within two years", "Possibly in another ten to twenty years, though uncertain", "They already exist", "Never, according to most experts"],
+        "keywords": ["ten to twenty years", "estimate", "uncertain"],
+        "synonymsUsed": ["predict", "approximate"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "qubit", "meaning": "The basic unit of quantum information, analogous to a classical bit but capable of superposition." },
+      { "word": "superposition", "pronunciationNote": "/ˌsuːpəpəˈzɪʃən/", "meaning": "A quantum state in which a particle exists in multiple states simultaneously until measured." },
+      { "word": "entanglement", "meaning": "A quantum phenomenon where two particles are linked so that measuring one instantly affects the other." },
+      { "word": "decoherence", "meaning": "The loss of quantum state due to interaction with the environment." },
+      { "word": "cryptography", "meaning": "The practice of securing information through codes and encryption." },
+      { "word": "exponentially", "meaning": "At an increasingly rapid rate as the quantity grows." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a biology lecture on behavioural ecology and animal decision-making.",
+    "audioScript": "Situation: A biology professor delivers a lecture on behavioural ecology, focusing on how animals make foraging and mating decisions.\nProfessor Webb: Good morning. Behavioural ecology asks a deceptively simple question: why do animals behave the way they do, and how does behaviour maximise evolutionary fitness?\nProfessor Webb: Let's start with foraging. According to optimal foraging theory, animals should maximise energy intake while minimising costs such as time and predation risk.\nProfessor Webb: Consider the blue tit, a small songbird. Experiments show it will abandon a food source when the energy gained per second drops below a certain threshold, even if food remains available. This is called the marginal value theorem.\nProfessor Webb: Now, mating behaviour. In many species, females are choosier than males because they invest more in each offspring. This is known as Bateman's principle.\nProfessor Webb: Female peacocks, for example, prefer males with more eyespots on their tail feathers. Researchers found that males with fewer than one hundred and fifty eyespots rarely mate.\nProfessor Webb: But behaviour is not purely instinctive. Learning plays a crucial role. The European cuckoo, a brood parasite, lays its eggs in other birds' nests. Remarkably, cuckoo chicks learn the host species' begging calls, allowing them to outcompete the host's own offspring.\nProfessor Webb: A student asks: Is behaviour always adaptive? Not necessarily. Sometimes behaviours are evolutionary leftovers, or they are constrained by an animal's physiology. Not every behaviour improves fitness.\nProfessor Webb: To conclude, behavioural ecology reveals that animal decisions, while not conscious in the human sense, are remarkably shaped by natural selection to balance costs and benefits.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Webb", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "biology professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the central question of behavioural ecology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["How do animals communicate with humans?", "Why do animals behave the way they do, and how does behaviour maximise evolutionary fitness?", "How do ecosystems recover from pollution?", "What is the origin of consciousness?"],
+        "keywords": ["behavioural ecology", "why", "maximise", "fitness"],
+        "synonymsUsed": ["central question", "evolutionary"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to optimal foraging theory, what should animals maximise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Energy intake while minimising costs", "The number of food sources visited", "The size of their territory", "The speed of digestion"],
+        "keywords": ["optimal foraging", "energy intake", "minimising costs"],
+        "synonymsUsed": ["maximise", "reduce"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the marginal value theorem describe?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["How animals choose mates", "How birds learn songs", "How animals abandon a food source when energy per second drops below a threshold", "How predators hunt in packs"],
+        "keywords": ["marginal value theorem", "threshold", "abandon"],
+        "synonymsUsed": ["leave", "drop below"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which species is used as the foraging example?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The European cuckoo", "The blue tit", "The peacock", "The honeybee"],
+        "keywords": ["blue tit", "songbird", "foraging"],
+        "synonymsUsed": ["example", "species"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to Bateman's principle, why are females choosier than males?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Because females are physically smaller", "Because females invest more in each offspring", "Because males are more aggressive", "Because females live longer"],
+        "keywords": ["Bateman's principle", "females", "invest", "offspring"],
+        "synonymsUsed": ["selective", "parental investment"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do female peacocks prefer in males?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Males with more eyespots on their tail feathers", "Males with louder calls", "Males with brighter blue necks", "Males with larger body size"],
+        "keywords": ["peacock", "eyespots", "tail feathers"],
+        "synonymsUsed": ["prefer", "attracted to"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Males with fewer than how many eyespots rarely mate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fewer than one hundred", "Fewer than one hundred and fifty", "Fewer than two hundred", "Fewer than fifty"],
+        "keywords": ["eyespots", "rarely mate", "one hundred and fifty"],
+        "synonymsUsed": ["seldom", "reproduce"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the European cuckoo described as?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A solitary hunter", "A migratory songbird", "A brood parasite", "A ground-nesting bird"],
+        "keywords": ["cuckoo", "brood parasite"],
+        "synonymsUsed": ["described", "category"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What remarkable ability do cuckoo chicks have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They learn the host species' begging calls", "They mimic the host's appearance", "They fly within hours of hatching", "They produce their own food"],
+        "keywords": ["cuckoo chicks", "learn", "begging calls"],
+        "synonymsUsed": ["imitate", "acquire"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Is all animal behaviour adaptive, according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Yes, every behaviour improves fitness", "No, some behaviours are evolutionary leftovers or constrained by physiology", "Yes, but only in mammals", "No, behaviour is entirely random"],
+        "keywords": ["adaptive", "evolutionary leftovers", "constrained"],
+        "synonymsUsed": ["not necessarily", "limited"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "evolutionary fitness", "meaning": "An organism's ability to survive and reproduce, passing on its genes to the next generation." },
+      { "word": "optimal foraging theory", "meaning": "A model predicting that animals forage in a way that maximises energy intake per unit of time." },
+      { "word": "marginal value theorem", "meaning": "A principle describing when an animal should leave a depleting food patch to seek a new one." },
+      { "word": "brood parasite", "meaning": "A bird that lays its eggs in the nests of other species, leaving them to raise its young." },
+      { "word": "adaptive", "meaning": "Beneficial for survival and reproduction in a given environment." },
+      { "word": "physiology", "pronunciationNote": "/ˌfɪziˈɒlədʒi/", "meaning": "The study of how living organisms function, including their internal processes." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an engineering history lecture on Roman engineering achievements.",
+    "audioScript": "Situation: An engineering history professor delivers a lecture on Roman engineering, focusing on aqueducts, concrete, and roads.\nProfessor Russo: Good afternoon. Roman engineering was remarkably advanced for its time, and three innovations stand out: aqueducts, concrete, and roads.\nProfessor Russo: First, aqueducts. The Romans built over eleven aqueducts supplying Rome alone, delivering roughly one million cubic metres of water per day at the empire's peak.\nProfessor Russo: Gravity did all the work. Water flowed through covered channels with a gradient of about one in two hundred, keeping it moving without pumps. Arcades, those famous stone arches, carried channels across valleys.\nProfessor Russo: Second, Roman concrete, called opus caementicium, was revolutionary. Unlike modern concrete, it used volcanic ash called pozzolana, which allowed it to set even underwater.\nProfessor Russo: Remarkably, Roman concrete grows stronger with age. Seawater filtering through it causes mineral crystals to grow, filling cracks. Modern concrete, by contrast, typically weakens after about fifty years.\nProfessor Russo: Third, Roman roads. The empire constructed around eighty thousand kilometres of paved roads. Engineers layered sand, gravel, and stone, creating a durable, cambered surface that drained rainwater.\nProfessor Russo: A student asks: Were all Roman roads straight? Not entirely. Surveyors preferred straight routes for efficiency, but they adapted to terrain when necessary, especially in mountains.\nProfessor Russo: These three innovations, aqueducts, concrete, and roads, enabled Rome to sustain cities, armies, and trade across a vast empire for centuries. Many structures still stand today, a testament to their ingenuity.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Russo", "accent": "CANADIAN", "gender": "MALE", "role": "engineering history professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which three Roman engineering innovations does the lecture focus on?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Bridges, tunnels, and harbours", "Domes, columns, and amphitheatres", "Aqueducts, concrete, and roads", "Irrigation, mining, and siege engines"],
+        "keywords": ["aqueducts", "concrete", "roads"],
+        "synonymsUsed": ["innovations", "achievements"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many aqueducts supplied Rome alone?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Over eleven", "Over twenty", "Over fifty", "Over one hundred"],
+        "keywords": ["aqueducts", "Rome", "eleven"],
+        "synonymsUsed": ["supplied", "provided"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much water did Rome's aqueducts deliver per day at the empire's peak?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Roughly one hundred thousand cubic metres", "Roughly one million cubic metres", "Roughly ten million cubic metres", "Roughly one billion cubic metres"],
+        "keywords": ["water", "million cubic metres", "per day"],
+        "synonymsUsed": ["delivered", "peak"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What gradient did aqueduct channels typically have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One in fifty", "One in two hundred", "One in a thousand", "Completely flat"],
+        "keywords": ["gradient", "one in two hundred"],
+        "synonymsUsed": ["slope", "incline"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What allowed Roman concrete to set even underwater?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Volcanic ash called pozzolana", "A special type of limestone", "Sea salt mixed into the cement", "Animal blood used as a binder"],
+        "keywords": ["concrete", "underwater", "pozzolana", "volcanic ash"],
+        "synonymsUsed": ["set", "harden"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does Roman concrete differ from modern concrete over time?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It weakens faster than modern concrete", "It remains equally strong", "It grows stronger as seawater causes mineral crystals to fill cracks", "It turns to dust within a century"],
+        "keywords": ["stronger", "age", "mineral crystals", "seawater"],
+        "synonymsUsed": ["differs", "over time"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "After roughly how long does modern concrete typically weaken?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About twenty years", "About fifty years", "About one hundred years", "About five hundred years"],
+        "keywords": ["modern concrete", "weakens", "fifty years"],
+        "synonymsUsed": ["deteriorates", "lifespan"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how many kilometres of paved roads did Rome construct?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight thousand", "Forty thousand", "Eighty thousand", "Eight hundred thousand"],
+        "keywords": ["roads", "kilometres", "eighty thousand"],
+        "synonymsUsed": ["constructed", "built"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What feature of Roman roads helped drain rainwater?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A cambered surface", "Underground pipes", "Deep side ditches alone", "Perforated stone slabs"],
+        "keywords": ["cambered", "surface", "drain", "rainwater"],
+        "synonymsUsed": ["curved", "runoff"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Were all Roman roads straight, according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Yes, without exception", "Not entirely; surveyors adapted to terrain when necessary", "Only in cities", "Only military roads were straight"],
+        "keywords": ["straight", "terrain", "mountains"],
+        "synonymsUsed": ["adapted", "adjusted"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "aqueduct", "meaning": "An artificial channel built to transport water over long distances, often supported by arches." },
+      { "word": "opus caementicium", "meaning": "The Roman form of concrete, made with volcanic ash, lime, and rubble." },
+      { "word": "pozzolana", "pronunciationNote": "/ˌpɒtsəˈlɑːnə/", "meaning": "A type of volcanic ash used in Roman concrete that allows it to set underwater." },
+      { "word": "cambered", "meaning": "Slightly arched or curved to allow water to drain off a surface." },
+      { "word": "arcade", "meaning": "A series of arches supported by columns, used to carry aqueduct channels across valleys." },
+      { "word": "gradient", "meaning": "The degree of slope or incline of a surface." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an environmental science lecture on the impacts of climate change on ecosystems and human societies.",
+    "audioScript": "Situation: An environmental science professor delivers a lecture examining the wide-ranging impacts of climate change on ecosystems and human societies.\nProfessor Nguyen: Today we examine how climate change is reshaping both natural ecosystems and human societies, drawing on the latest assessment reports.\nProfessor Nguyen: Let's begin with oceans. Since the pre-industrial era, the oceans have absorbed about ninety percent of the excess heat trapped by greenhouse gases. This warming causes coral bleaching, where corals expel the algae they depend on, often leading to mass die-offs.\nProfessor Nguyen: Additionally, oceans absorb roughly a quarter of human carbon dioxide emissions, causing acidification. The pH of surface waters has dropped by about zero point one units since seventeen fifty, which may sound small but represents a thirty percent increase in acidity.\nProfessor Nguyen: On land, shifting climate zones are forcing species to migrate. A study of over four thousand species found that, on average, organisms are moving poleward at about seventeen kilometres per decade.\nProfessor Nguyen: For human societies, sea-level rise is among the most urgent threats. Current projections suggest a global rise of between thirty and one hundred and ten centimetres by twenty-one hundred, which could displace hundreds of millions in low-lying regions like Bangladesh and the Pacific islands.\nProfessor Nguyen: Agriculture is also affected. While higher carbon dioxide can temporarily boost yields in some crops, heat stress and changing rainfall patterns are expected to reduce global cereal production by up to two percent per decade for the rest of this century.\nProfessor Nguyen: A student asks: Can't we just adapt? Adaptation is essential, but it has limits. If warming exceeds two degrees above pre-industrial levels, some impacts, such as the collapse of the Greenland ice sheet, become effectively irreversible.\nProfessor Nguyen: In summary, climate change is not a single threat but a cascade of interconnected impacts. Mitigation and adaptation must proceed together, and the window for limiting the most severe consequences is narrowing rapidly.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Nguyen", "accent": "AMERICAN", "gender": "FEMALE", "role": "environmental science professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of excess heat have oceans absorbed since the pre-industrial era?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["About fifty percent", "About seventy percent", "About ninety percent", "About one hundred percent"],
+        "keywords": ["oceans", "absorbed", "excess heat", "ninety percent"],
+        "synonymsUsed": ["trapped", "greenhouse gases"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What causes coral bleaching?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Excess sunlight damaging coral tissue", "Warming causes corals to expel the algae they depend on", "Acidic water dissolving coral skeletons", "Pollution from coastal factories"],
+        "keywords": ["coral bleaching", "warming", "expel", "algae"],
+        "synonymsUsed": ["eject", "dependent on"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What fraction of human CO2 emissions do oceans absorb?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About a tenth", "About a quarter", "About a half", "About three quarters"],
+        "keywords": ["oceans", "absorb", "quarter", "carbon dioxide"],
+        "synonymsUsed": ["take up", "emissions"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does a pH drop of 0.1 units represent in terms of acidity?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A three percent increase in acidity", "A ten percent increase in acidity", "A thirty percent increase in acidity", "A one hundred percent increase in acidity"],
+        "keywords": ["pH", "zero point one", "thirty percent", "acidity"],
+        "synonymsUsed": ["represents", "increase"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On average, how fast are species moving poleward?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About seven kilometres per decade", "About seventeen kilometres per decade", "About seventy kilometres per decade", "About one hundred kilometres per decade"],
+        "keywords": ["species", "poleward", "seventeen kilometres", "per decade"],
+        "synonymsUsed": ["migrate", "moving"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the projected range of sea-level rise by 2100?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Between thirty and one hundred and ten centimetres", "Between ten and fifty centimetres", "Between one and three metres", "Between five and ten metres"],
+        "keywords": ["sea-level rise", "thirty", "one hundred and ten centimetres", "twenty-one hundred"],
+        "synonymsUsed": ["projected", "estimate"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which regions are specifically mentioned as threatened by sea-level rise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Netherlands and Florida", "Bangladesh and the Pacific islands", "Japan and the Caribbean", "Egypt and the Mediterranean coast"],
+        "keywords": ["Bangladesh", "Pacific islands", "low-lying"],
+        "synonymsUsed": ["threatened", "displaced"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the projected effect on global cereal production per decade?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A reduction of up to two percent", "An increase of up to two percent", "A reduction of up to ten percent", "No significant change"],
+        "keywords": ["cereal production", "two percent", "per decade"],
+        "synonymsUsed": ["reduce", "decline"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What becomes effectively irreversible if warming exceeds two degrees?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Coral bleaching events", "Species migration patterns", "The collapse of the Greenland ice sheet", "Ocean acidification levels"],
+        "keywords": ["irreversible", "two degrees", "Greenland ice sheet"],
+        "synonymsUsed": ["exceeds", "collapse"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor conclude about mitigation and adaptation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Adaptation alone is sufficient", "They must proceed together, and the window is narrowing", "Mitigation alone is sufficient", "Neither is effective at this stage"],
+        "keywords": ["mitigation", "adaptation", "together", "narrowing"],
+        "synonymsUsed": ["proceed", "combined"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "coral bleaching", "meaning": "A phenomenon where warming water causes corals to expel symbiotic algae, often leading to coral death." },
+      { "word": "acidification", "meaning": "The process by which oceans become more acidic as they absorb carbon dioxide." },
+      { "word": "poleward", "meaning": "In the direction of the Earth's poles; towards higher latitudes." },
+      { "word": "irreversible", "meaning": "Impossible to reverse or undo once it has occurred." },
+      { "word": "mitigation", "pronunciationNote": "/ˌmɪtɪˈɡeɪʃən/", "meaning": "Actions taken to reduce the severity of climate change, mainly by reducing emissions." },
+      { "word": "cascade", "meaning": "A sequence of events where one triggers another in a chain reaction." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an art history lecture on the techniques and themes of Renaissance art.",
+    "audioScript": "Situation: An art history professor delivers a lecture on the defining techniques and themes of Renaissance art, from the early fifteenth to the late sixteenth century.\nProfessor Alessi: Good morning. The Renaissance, spanning roughly fourteen hundred to sixteen hundred, transformed European art through three key innovations: linear perspective, anatomical realism, and classical themes.\nProfessor Alessi: First, linear perspective. Filippo Brunelleschi demonstrated the mathematical principles of perspective around fourteen twenty-five. By defining a single vanishing point, artists could create the convincing illusion of three-dimensional depth on a flat surface.\nProfessor Alessi: A student asks: Was Brunelleschi a painter? Actually, he was an architect, famous for the dome of Florence Cathedral. His perspective experiment was a geometric demonstration, not a painting.\nProfessor Alessi: Second, anatomical realism. Artists like Leonardo da Vinci dissected human corpses to understand muscle and bone. This scientific study produced far more lifelike figures than the stiff, flat figures of medieval art.\nProfessor Alessi: Leonardo's Vitruvian Man, drawn around fourteen ninety, illustrates the ideal human proportions described by the ancient Roman architect Vitruvius, reflecting the Renaissance belief that humanity is the measure of all things.\nProfessor Alessi: Third, classical themes. Renaissance artists revived Greek and Roman mythology and philosophy. Botticelli's The Birth of Venus, painted in approximately fourteen eighty-six, depicts the goddess Venus emerging from the sea, a subject drawn directly from classical literature.\nProfessor Alessi: The Renaissance also elevated the status of the artist. No longer mere craftsmen, artists were increasingly seen as intellectuals and creative geniuses. This shift was crucial to the emergence of what we now call fine art.\nProfessor Alessi: In conclusion, these innovations, perspective, anatomy, and classicism, did not merely change how art looked. They reshaped the very conception of what art could be, laying foundations that endured for centuries.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Alessi", "accent": "BRITISH", "gender": "MALE", "role": "art history professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time span does the professor assign to the Renaissance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Roughly thirteen hundred to fifteen hundred", "Roughly fourteen hundred to sixteen hundred", "Roughly fifteen hundred to seventeen hundred", "Roughly twelve hundred to fourteen hundred"],
+        "keywords": ["Renaissance", "fourteen hundred", "sixteen hundred"],
+        "synonymsUsed": ["spanning", "time span"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the three key innovations of Renaissance art?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Oil paint, canvas, and the printing press", "Sfumato, chiaroscuro, and fresco", "Linear perspective, anatomical realism, and classical themes", "Gothic arches, stained glass, and illuminated manuscripts"],
+        "keywords": ["linear perspective", "anatomical realism", "classical themes"],
+        "synonymsUsed": ["innovations", "advances"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Around what year did Brunelleschi demonstrate linear perspective?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Around fourteen-ten", "Around fourteen-fifteen", "Around fourteen twenty-five", "Around fourteen-fifty"],
+        "keywords": ["Brunelleschi", "perspective", "fourteen twenty-five"],
+        "synonymsUsed": ["demonstrate", "show"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does linear perspective require to create the illusion of depth?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A single vanishing point", "Multiple light sources", "A curved canvas", "A specific type of oil paint"],
+        "keywords": ["vanishing point", "depth", "illusion"],
+        "synonymsUsed": ["single point", "three-dimensional"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was Brunelleschi's primary profession?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Painter", "Architect", "Sculptor", "Mathematician"],
+        "keywords": ["Brunelleschi", "architect", "Florence Cathedral"],
+        "synonymsUsed": ["profession", "career"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why did artists like Leonardo da Vinci dissect human corpses?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["To understand muscle and bone for more lifelike figures", "To study disease and plague", "To prove religious doctrines", "To create medical textbooks"],
+        "keywords": ["dissect", "corpses", "muscle", "bone"],
+        "synonymsUsed": ["anatomical study", "examine"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Around when was Leonardo's Vitruvian Man drawn?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Around fourteen-seventy", "Around fourteen ninety", "Around fifteen-ten", "Around fifteen-thirty"],
+        "keywords": ["Vitruvian Man", "fourteen ninety"],
+        "synonymsUsed": ["drawn", "created"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Whose proportions did Vitruvius describe?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Greek gods", "The ideal human", "Roman emperors", "Divine angels"],
+        "keywords": ["Vitruvius", "ideal", "human proportions"],
+        "synonymsUsed": ["described", "measure"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the subject of Botticelli's The Birth of Venus?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The goddess Venus emerging from the sea", "The birth of Jesus Christ", "A Roman military triumph", "The creation of the world"],
+        "keywords": ["Botticelli", "Venus", "sea", "classical"],
+        "synonymsUsed": ["depicts", "subject"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did the Renaissance change the status of the artist?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Artists became government officials", "Artists were increasingly seen as intellectuals and creative geniuses", "Artists were restricted to religious orders", "Artists lost social standing compared to the medieval period"],
+        "keywords": ["status", "intellectuals", "creative geniuses"],
+        "synonymsUsed": ["elevated", "perception"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "linear perspective", "meaning": "A mathematical system for representing three-dimensional space on a flat surface using a vanishing point." },
+      { "word": "anatomical realism", "meaning": "The accurate depiction of the human body based on the study of anatomy." },
+      { "word": "vanishing point", "meaning": "The point at which parallel lines appear to converge in a perspective drawing." },
+      { "word": "classical themes", "meaning": "Subjects drawn from ancient Greek and Roman mythology, literature, and philosophy." },
+      { "word": "proportions", "meaning": "The relative size and scale of the various elements of a body or composition." },
+      { "word": "fine art", "meaning": "Creative art, especially visual art, whose products are valued primarily for their aesthetic or intellectual content." }
+    ],
+    "difficulty": "HARD"
+  }
+]

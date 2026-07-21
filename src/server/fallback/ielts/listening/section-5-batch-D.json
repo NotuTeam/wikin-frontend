@@ -1,0 +1,863 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced environmental science lecture on geoengineering approaches to climate intervention.",
+    "audioScript": "Situation: An atmospheric scientist delivers an advanced lecture on geoengineering strategies proposed to counteract global warming.\nDr. Albright: Today we examine geoengineering, the deliberate large-scale intervention in Earth's climate system, and its two principal categories.\nDr. Albright: The first category is solar radiation management, or SRM. The most discussed method is stratospheric aerosol injection, in which sulphate particles are dispersed into the upper atmosphere to reflect sunlight back into space.\nDr. Albright: Studies suggest that a sustained programme could lower global temperatures by roughly one degree Celsius within a few years, at a fraction of the cost of emission cuts. However, the cooling is uneven and could disrupt monsoon patterns vital to South Asian agriculture.\nDr. Albright: The second category is carbon dioxide removal, or CDR. Techniques include direct air capture, where chemical sorbents bind CO2 from ambient air, and enhanced weathering, which accelerates natural rock reactions that lock carbon into stable minerals.\nDr. Albright: CDR addresses the root cause rather than the symptom, but it is slow. Scaling direct air capture to remove one billion tonnes of CO2 annually would require enormous energy, roughly equivalent to the output of several hundred nuclear power plants.\nDr. Albright: A critical concern shared by both categories is governance. Who controls the thermostat? If a single nation deploys SRM unilaterally, the geopolitical consequences could be severe. Furthermore, if aerosol injection were suddenly halted, temperatures would rebound rapidly within years, a phenomenon known as termination shock.\nDr. Albright: Therefore, most experts view geoengineering as a complement to emission reduction, not a substitute. It may buy time, but it cannot replace the fundamental task of decarbonising the global economy.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Albright", "accent": "AMERICAN", "gender": "FEMALE", "role": "atmospheric scientist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the primary definition of geoengineering given in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The deliberate large-scale intervention in Earth's climate system", "The accidental warming caused by industrial activity", "The natural cooling of the Earth over millennia", "The study of ancient climate patterns"],
+        "keywords": ["deliberate", "large-scale intervention", "climate system"],
+        "synonymsUsed": ["intentional", "climate manipulation"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does stratospheric aerosol injection use to reflect sunlight?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Salt crystals", "Sulphate particles", "Aluminium dust", "Ice crystals"],
+        "keywords": ["stratospheric aerosol injection", "sulphate particles", "reflect sunlight"],
+        "synonymsUsed": ["dispersed", "upper atmosphere"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What temperature reduction could a sustained SRM programme achieve, according to studies?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Roughly one degree Celsius within a few years", "Five degrees Celsius within a decade", "Half a degree over fifty years", "Ten degrees within a century"],
+        "keywords": ["one degree", "lower temperatures", "few years"],
+        "synonymsUsed": ["reduce", "short timescale"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What risk does the lecturer associate with uneven cooling from SRM?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Permanent ice age onset", "Excessive rainfall in deserts", "Disruption of monsoon patterns vital to South Asian agriculture", "Total loss of the ozone layer"],
+        "keywords": ["uneven cooling", "monsoon patterns", "South Asian agriculture"],
+        "synonymsUsed": ["disrupt", "rainfall cycles"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does direct air capture use to bind CO2 from ambient air?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Liquid nitrogen", "Chemical sorbents", "Magnetic fields", "Bacterial enzymes"],
+        "keywords": ["direct air capture", "chemical sorbents", "ambient air"],
+        "synonymsUsed": ["bind", "absorb"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does enhanced weathering accelerate to lock carbon into stable minerals?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ocean currents", "Forest growth cycles", "Natural rock reactions", "Volcanic eruptions"],
+        "keywords": ["enhanced weathering", "rock reactions", "stable minerals"],
+        "synonymsUsed": ["accelerate", "natural processes"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is CDR distinguished from SRM in terms of the cause of warming?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["CDR addresses the root cause rather than the symptom", "CDR only masks symptoms like SRM", "CDR has no effect on CO2 levels", "CDR increases greenhouse gases"],
+        "keywords": ["root cause", "symptom", "CDR"],
+        "synonymsUsed": ["fundamental", "superficial"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What energy demand is needed to scale direct air capture to remove one billion tonnes of CO2 annually?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Equivalent to one wind farm", "Equivalent to a solar panel array", "Equivalent to a small hydroelectric dam", "Several hundred nuclear power plants' output"],
+        "keywords": ["one billion tonnes", "energy", "nuclear power plants"],
+        "synonymsUsed": ["enormous", "equivalent"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What phenomenon occurs if stratospheric aerosol injection is suddenly halted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Gradual cooling continues for decades", "Termination shock, where temperatures rebound rapidly within years", "No measurable effect", "A permanent drop in temperature"],
+        "keywords": ["halted", "termination shock", "rebound"],
+        "synonymsUsed": ["stopped", "rapid rise"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do most experts view geoengineering in relation to emission reduction?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["As a complete replacement for emission cuts", "As entirely unnecessary", "As a complement, not a substitute, that may buy time", "As a permanent solution on its own"],
+        "keywords": ["complement", "not a substitute", "buy time"],
+        "synonymsUsed": ["supplement", "temporary measure"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "geoengineering", "pronunciationNote": "/ˌdʒiːoʊˌɛndʒɪˈnɪərɪŋ/", "meaning": "The deliberate large-scale intervention in Earth's climate system to counteract warming." },
+      { "word": "stratospheric aerosol injection", "meaning": "A solar radiation management technique dispersing sulphate particles into the upper atmosphere to reflect sunlight." },
+      { "word": "sorbent", "pronunciationNote": "/ˈsɔːrbənt/", "meaning": "A material that binds or absorbs another substance, used in direct air capture." },
+      { "word": "enhanced weathering", "meaning": "Accelerating natural rock reactions that lock carbon into stable minerals." },
+      { "word": "termination shock", "meaning": "The rapid temperature rebound that occurs if solar radiation management is abruptly halted." },
+      { "word": "decarbonise", "meaning": "To reduce or eliminate carbon dioxide emissions from an economy or process." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced philosophy and neuroscience lecture on current theories of consciousness.",
+    "audioScript": "Situation: A cognitive neuroscientist delivers an advanced lecture on competing scientific theories of consciousness and their explanatory scope.\nDr. Mehta: This afternoon we survey the leading scientific theories of consciousness, a field once reserved for philosophy but now firmly within empirical neuroscience.\nDr. Mehta: We begin with the Global Workspace Theory, proposed by Bernard Baars in the late nineteen eighties. It compares the mind to a theatre: information becomes conscious when it enters a global workspace, a central stage illuminated by attention, and is then broadcast across the brain.\nDr. Mehta: An influential rival is Integrated Information Theory, developed by Giulio Tononi. It posits that consciousness corresponds to phi, a mathematical measure of how much a system is both integrated and differentiated. A system with high phi, like the cerebral cortex, is conscious; a system with low phi, such as a simple feed-forward circuit, is not.\nDr. Mehta: The two theories diverge sharply on predictions. Global Workspace predicts that complex but non-integrated systems could be unconscious, while Integrated Information predicts that even some simple but highly integrated systems could possess a degree of experience.\nDr. Mehta: A practical application is the assessment of patients in vegetative states. Using electroencephalography, researchers can perturb the brain with a magnetic pulse and measure how the signal propagates. A compressed, simplified pattern suggests minimal consciousness, aiding clinical decisions about prognosis.\nDr. Mehta: A persistent challenge is the so-called hard problem, formulated by David Chalmers: why does any physical process give rise to subjective experience at all? Current theories address the neural correlates of consciousness but do not yet fully solve why experience exists.\nDr. Mehta: Critics of Integrated Information Theory argue that phi is computationally intractable for complex brains, making the theory difficult to test rigorously. Meanwhile, proponents of Global Workspace acknowledge that the neural substrate of the workspace remains debated.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Mehta", "accent": "BRITISH", "gender": "FEMALE", "role": "cognitive neuroscientist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the lecture, where did the study of consciousness traditionally belong?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Clinical medicine", "Computer science", "Philosophy", "Linguistics"],
+        "keywords": ["philosophy", "reserved", "now empirical"],
+        "synonymsUsed": ["traditionally", "field"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who proposed the Global Workspace Theory, and in which decade?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Giulio Tononi in the 1990s", "Bernard Baars in the late 1980s", "David Chalmers in the 2000s", "Francis Crick in the 1970s"],
+        "keywords": ["Global Workspace", "Bernard Baars", "late 1980s"],
+        "synonymsUsed": ["proposed", "decade"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What metaphor does Global Workspace Theory use to describe the mind?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A theatre", "A computer", "A river", "A library"],
+        "keywords": ["theatre", "central stage", "illuminated"],
+        "synonymsUsed": ["metaphor", "compares"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What mathematical measure does Integrated Information Theory use to quantify consciousness?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Delta", "Phi", "Sigma", "Theta"],
+        "keywords": ["phi", "integrated", "differentiated"],
+        "synonymsUsed": ["measure", "quantify"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to Integrated Information Theory, which system would have low phi and minimal consciousness?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The cerebral cortex", "A parallel distributed network", "A simple feed-forward circuit", "The entire brain"],
+        "keywords": ["low phi", "simple feed-forward circuit", "not conscious"],
+        "synonymsUsed": ["minimal", "degree of experience"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do the two theories diverge on complex but non-integrated systems?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Global Workspace predicts they could be unconscious", "Both predict they are always highly conscious", "Integrated Information predicts they are unconscious", "Neither theory makes any prediction"],
+        "keywords": ["complex", "non-integrated", "unconscious"],
+        "synonymsUsed": ["diverge", "predictions"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What technique do researchers use to perturb the brain when assessing vegetative-state patients?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Functional MRI scanning", "A magnetic pulse via EEG", "Direct electrical implants", "Blood oxygen measurement"],
+        "keywords": ["magnetic pulse", "EEG", "propagates"],
+        "synonymsUsed": ["perturb", "stimulate"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does a compressed, simplified signal pattern suggest about a vegetative-state patient?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Full recovery is imminent", "The brain is entirely inactive", "Minimal consciousness, aiding prognosis decisions", "The patient is in deep sleep"],
+        "keywords": ["compressed", "minimal consciousness", "prognosis"],
+        "synonymsUsed": ["simplified", "clinical decision"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the hard problem of consciousness, as formulated by David Chalmers?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Why any physical process gives rise to subjective experience at all", "How to measure brain waves accurately", "Which drugs enhance awareness", "How memory is stored chemically"],
+        "keywords": ["hard problem", "subjective experience", "physical process"],
+        "synonymsUsed": ["formulated", "qualia"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What criticism do opponents raise against Integrated Information Theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It ignores the cortex entirely", "Phi is computationally intractable for complex brains", "It was disproven by Baars", "It predicts all machines are conscious"],
+        "keywords": ["computationally intractable", "complex brains", "test"],
+        "synonymsUsed": ["critics", "difficult to test"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "Global Workspace Theory", "meaning": "A theory comparing the mind to a theatre where information becomes conscious when broadcast across the brain." },
+      { "word": "Integrated Information Theory", "pronunciationNote": "/ɪnˈtɛɡreɪtɪd ˌɪnfərˈmeɪʃən/", "meaning": "A theory that consciousness corresponds to phi, a measure of a system's integration and differentiation." },
+      { "word": "phi", "pronunciationNote": "/faɪ/", "meaning": "A mathematical measure of how integrated and differentiated a system is, used to quantify consciousness." },
+      { "word": "electroencephalography", "pronunciationNote": "/ɪˈlɛktroʊɛnˌsɛfəˈlɒɡrəfi/", "meaning": "A method of recording electrical activity of the brain using scalp electrodes." },
+      { "word": "hard problem", "meaning": "The question of why any physical process gives rise to subjective experience at all." },
+      { "word": "neural correlates", "meaning": "The brain mechanisms or events that directly correspond to a specific conscious experience." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced biomedical lecture on epigenetic therapy and its clinical applications.",
+    "audioScript": "Situation: A molecular biologist delivers an advanced lecture on epigenetic therapy, explaining how drugs that modify gene expression are transforming cancer treatment.\nDr. Okafor: This morning we explore epigenetic therapy, a class of treatments that does not alter the DNA sequence itself but changes how genes are switched on or off.\nDr. Okafor: Recall that DNA methylation, the addition of a methyl group to cytosine bases, typically silences gene expression. In many cancers, tumour suppressor genes become abnormally hypermethylated, switching them off and allowing uncontrolled growth.\nDr. Okafor: The first approved epigenetic drugs were azacitidine and decitabine, both DNA methyltransferase inhibitors. They work by trapping the enzymes that add methyl groups, leading to their degradation and the reactivation of silenced tumour suppressors.\nDr. Okafor: A second class targets histone modification. Histones are proteins around which DNA is wound, and their chemical tags determine how tightly DNA is packaged. Histone deacetylase inhibitors, such as vorinostat, loosen this packaging, allowing transcription machinery to access genes that had been silenced.\nDr. Okafor: A landmark success is in myelodysplastic syndrome, a pre-leukaemic condition. Azacitidine transformed the treatment landscape, improving median survival from roughly fifteen months with standard care to over twenty-four months.\nDr. Okafor: However, challenges remain. Epigenetic drugs are inherently non-specific; they can reactivate beneficial genes but also oncogenes, potentially fuelling the very cancer they aim to treat. Selectivity remains a major research frontier.\nDr. Okafor: Emerging approaches combine epigenetic therapy with immunotherapy. Because aberrant methylation silences not only tumour suppressors but also antigens, demethylating agents can re-express cancer antigens, making tumours more visible to the immune system and more responsive to checkpoint inhibitors.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Okafor", "accent": "BRITISH", "gender": "MALE", "role": "molecular biologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does epigenetic therapy differ from treatments that alter the DNA sequence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It permanently deletes genes", "It changes how genes are switched on or off without altering the sequence", "It replaces the entire genome", "It only affects RNA, not DNA"],
+        "keywords": ["does not alter", "switched on or off", "sequence"],
+        "synonymsUsed": ["modify", "expression"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What chemical modification to cytosine bases typically silences gene expression?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["DNA methylation", "Phosphorylation", "Ubiquitination", "Acetylation"],
+        "keywords": ["methylation", "cytosine", "silences"],
+        "synonymsUsed": ["methyl group", "repress"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to tumour suppressor genes in many cancers?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They become hypomethylated and overactive", "They mutate into oncogenes", "They become abnormally hypermethylated and switch off", "They are deleted entirely"],
+        "keywords": ["hypermethylated", "tumour suppressor", "switching off"],
+        "synonymsUsed": ["abnormally", "silenced"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do azacitidine and decitabine work as epigenetic drugs?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They add methyl groups to DNA", "They trap and degrade DNA methyltransferase enzymes", "They cut DNA at specific sites", "They block histone formation"],
+        "keywords": ["azacitidine", "decitabine", "trap", "degradation"],
+        "synonymsUsed": ["inhibit", "enzymes"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the role of histones in relation to DNA?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Proteins around which DNA is wound, affecting packaging", "Enzymes that replicate DNA", "Molecules that transport oxygen", "Signals that trigger cell division"],
+        "keywords": ["histones", "proteins", "wound", "packaging"],
+        "synonymsUsed": ["spool", "compaction"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What effect do histone deacetylase inhibitors like vorinostat have on DNA packaging?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They tighten packaging further", "They have no effect on packaging", "They loosen packaging, allowing access to silenced genes", "They destroy the histones"],
+        "keywords": ["deacetylase inhibitors", "loosen", "access"],
+        "synonymsUsed": ["relax", "transcription"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In myelodysplastic syndrome, what survival improvement did azacitidine achieve?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["From 5 months to 10 months", "From 8 months to 12 months", "From 20 months to 30 months", "From roughly 15 months to over 24 months"],
+        "keywords": ["myelodysplastic", "fifteen months", "twenty-four months"],
+        "synonymsUsed": ["median survival", "improved"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a key drawback of epigenetic drugs mentioned by the lecturer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They are non-specific and can also reactivate oncogenes", "They are too expensive to manufacture", "They only work on skin cancers", "They require surgery to administer"],
+        "keywords": ["non-specific", "oncogenes", "selectivity"],
+        "synonymsUsed": ["drawback", "fuelling cancer"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why can demethylating agents improve responsiveness to checkpoint inhibitors?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They directly kill tumour cells", "They re-express cancer antigens, making tumours more visible to the immune system", "They boost red blood cell production", "They block all immune responses"],
+        "keywords": ["cancer antigens", "visible", "immune system", "checkpoint"],
+        "synonymsUsed": ["re-express", "responsive"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer identify as a major research frontier in epigenetic therapy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Reducing drug cost", "Speeding up FDA approval", "Improving selectivity of epigenetic drugs", "Finding alternative natural remedies"],
+        "keywords": ["selectivity", "research frontier"],
+        "synonymsUsed": ["frontier", "specificity"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "DNA methylation", "meaning": "The addition of a methyl group to cytosine bases, typically silencing gene expression." },
+      { "word": "methyltransferase", "pronunciationNote": "/ˌmɛθɪlˈtrænsfəreɪs/", "meaning": "An enzyme that adds methyl groups to DNA molecules." },
+      { "word": "histone", "pronunciationNote": "/ˈhɪstoʊn/", "meaning": "A protein around which DNA is wound, determining how tightly DNA is packaged." },
+      { "word": "tumour suppressor gene", "meaning": "A gene that normally restrains cell growth; its silencing can contribute to cancer." },
+      { "word": "myelodysplastic syndrome", "pronunciationNote": "/ˌmaɪəloʊdɪsˈplæstɪk/", "meaning": "A pre-leukaemic blood disorder affecting bone marrow function." },
+      { "word": "checkpoint inhibitor", "meaning": "An immunotherapy drug that releases brakes on immune cells, enabling them to attack tumours." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced mathematics lecture on topological invariants and their applications.",
+    "audioScript": "Situation: A mathematician delivers an advanced lecture on topological invariants, explaining how properties preserved under continuous deformation unify diverse areas of mathematics.\nDr. Larsson: Today we venture into topology, the branch of mathematics concerned with properties of spaces that survive continuous deformation, what is sometimes informally called rubber-sheet geometry.\nDr. Larsson: The central notion is a topological invariant, a property that does not change when a space is stretched, twisted, or bent, but not torn or glued. The classic example is the Euler characteristic, denoted chi, which for a closed polyhedron equals vertices minus edges plus faces.\nDr. Larsson: For any surface homeomorphic to a sphere, the Euler characteristic is always two. A torus, however, has Euler characteristic zero, and a double torus minus two. This invariant cleanly distinguishes surfaces that cannot be deformed into one another.\nDr. Larsson: A deeper invariant is the fundamental group, introduced by Henri Poincaré. It captures the distinct loops that can be drawn on a surface up to continuous shrinkage. On a sphere, every loop shrinks to a point, so the fundamental group is trivial. On a torus, loops encircling the hole cannot shrink, giving a richer, non-trivial structure.\nDr. Larsson: These ideas reached far beyond pure mathematics. In twenty sixteen, the Nobel Prize in Physics was awarded for work on topological phases of matter, where invariants explain the quantum Hall effect, the observation that electrical conductance in thin films is quantised in precise integer steps.\nDr. Larsson: More recently, topological data analysis has emerged as a tool for studying high-dimensional datasets. By constructing simplicial complexes from data points and tracking how holes persist across scales, researchers can detect structure invisible to conventional statistics.\nDr. Larsson: The unifying power of topology lies in its robustness. Because invariants ignore metric details, they survive noise and deformation, making them invaluable whenever one seeks qualitative rather than quantitative understanding of shape and connectivity.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Larsson", "accent": "BRITISH", "gender": "MALE", "role": "mathematician" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What informal name is sometimes given to topology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Number theory", "Chaos mathematics", "Rubber-sheet geometry", "Fractal geometry"],
+        "keywords": ["rubber-sheet geometry", "continuous deformation"],
+        "synonymsUsed": ["informal", "called"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a topological invariant?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A property that changes with any small perturbation", "A property unchanged by stretching, twisting, or bending without tearing or gluing", "A type of geometric angle measurement", "A numerical approximation method"],
+        "keywords": ["invariant", "does not change", "continuous deformation"],
+        "synonymsUsed": ["preserved", "robust"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is the Euler characteristic computed for a closed polyhedron?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Vertices minus edges plus faces", "Faces minus vertices plus edges", "Edges plus faces minus vertices", "Vertices plus edges plus faces"],
+        "keywords": ["Euler characteristic", "vertices", "edges", "faces"],
+        "synonymsUsed": ["computed", "formula"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the Euler characteristic of a surface homeomorphic to a sphere?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Zero", "Two", "Minus two", "One"],
+        "keywords": ["sphere", "Euler characteristic", "two"],
+        "synonymsUsed": ["homeomorphic", "value"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the Euler characteristic of a double torus?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Zero", "Two", "Minus two", "Four"],
+        "keywords": ["double torus", "minus two", "Euler characteristic"],
+        "synonymsUsed": ["value", "surface"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who introduced the concept of the fundamental group?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Leonhard Euler", "Henri Poincaré", "Carl Gauss", "David Hilbert"],
+        "keywords": ["fundamental group", "Henri Poincaré", "introduced"],
+        "synonymsUsed": ["introduced", "developed"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the fundamental group capture on a surface?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Distinct loops up to continuous shrinkage", "The total number of vertices", "The surface area of the shape", "The curvature at each point"],
+        "keywords": ["fundamental group", "loops", "shrinkage"],
+        "synonymsUsed": ["captures", "deformation"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the fundamental group of a sphere?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Non-trivial with many generators", "Trivial, since every loop shrinks to a point", "Infinite and uncountable", "The same as a torus"],
+        "keywords": ["sphere", "trivial", "loop shrinks"],
+        "synonymsUsed": ["point", "simple"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What physical phenomenon do topological invariants help explain in the quantum Hall effect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Random fluctuations in voltage", "Superconductivity at room temperature", "Electrical conductance quantised in precise integer steps", "The speed of light in a vacuum"],
+        "keywords": ["quantum Hall effect", "conductance", "quantised", "integer steps"],
+        "synonymsUsed": ["explain", "invariants"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does topological data analysis do to detect structure in datasets?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fits linear regression models to points", "Constructs simplicial complexes and tracks how holes persist across scales", "Computes the mean and standard deviation of variables", "Reduces dimensions using principal component analysis only"],
+        "keywords": ["simplicial complexes", "holes", "persist", "scales"],
+        "synonymsUsed": ["construct", "track"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "topological invariant", "meaning": "A property of a space that is preserved under continuous deformation such as stretching or bending." },
+      { "word": "Euler characteristic", "pronunciationNote": "/ˈɔɪlər/", "meaning": "A number computed as vertices minus edges plus faces, used to classify surfaces." },
+      { "word": "homeomorphic", "pronunciationNote": "/ˌhoʊmiəˈmɔːrfɪk/", "meaning": "Describing two spaces that can be continuously deformed into one another without tearing." },
+      { "word": "fundamental group", "meaning": "An algebraic structure capturing the distinct loops on a surface up to continuous shrinkage." },
+      { "word": "simplicial complex", "pronunciationNote": "/sɪmˈplɪʃəl/", "meaning": "A collection of points, edges, and higher-dimensional faces used to approximate shapes in data." },
+      { "word": "quantised", "meaning": "Restricted to discrete, integer-valued steps rather than a continuous range." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced astrophysics lecture on the study of exoplanet atmospheres.",
+    "audioScript": "Situation: An astrophysicist delivers an advanced lecture on how scientists characterise the atmospheres of planets orbiting distant stars.\nDr. Vasquez: This afternoon we examine exoplanet atmospheres, the gaseous envelopes of worlds beyond our solar system, and the spectroscopic techniques used to analyse them.\nDr. Vasquez: The primary method is transmission spectroscopy. When a planet transits, passing in front of its host star, starlight filters through the atmosphere. Different molecules absorb light at characteristic wavelengths, leaving fingerprints that reveal the atmosphere's composition.\nDr. Vasquez: A landmark result came from the Hubble Space Telescope, which detected water vapour in the atmosphere of HD 209458 b, a hot Jupiter roughly one hundred and fifty light-years away. Later observations with the Spitzer Space Telescope found methane and carbon dioxide in other hot Jupiters.\nDr. Vasquez: The James Webb Space Telescope, launched in twenty twenty-one, has transformed the field. Its infrared sensitivity allows detection of molecules in smaller, rocky planets, not just gas giants. In twenty twenty-three, JWST reported signs of dimethyl sulphide on K2-18 b, a potential biosignature, though this remains debated.\nDr. Vasquez: A key concept is the habitable zone, the orbital region where liquid water can exist. However, atmospheric composition matters as much as distance. A thick greenhouse atmosphere could render a planet in the habitable zone uninhabitably hot, like a runaway Venus.\nDr. Vasquez: Researchers also use secondary eclipse measurements. When the planet passes behind the star, the total brightness drops slightly; comparing in-transit and out-of-transit spectra reveals the planet's own thermal emission and reflected light.\nDr. Vasquez: Looking ahead, missions like the Extremely Large Telescope, due to begin operations this decade, will use direct imaging to separate planetary light from stellar glare, enabling atmospheric study of Earth-like worlds around nearby stars.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Vasquez", "accent": "AMERICAN", "gender": "MALE", "role": "astrophysicist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the primary method for analysing exoplanet atmospheres described in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Transmission spectroscopy", "Radio interferometry", "Direct photographic imaging", "Gravitational lensing"],
+        "keywords": ["transmission spectroscopy", "primary method"],
+        "synonymsUsed": ["technique", "analyse"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does transmission spectroscopy collect data about a planet's atmosphere?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["When the planet is at its farthest from the star", "When the planet transits, passing in front of its host star", "Only during a solar eclipse", "When the planet is behind the star"],
+        "keywords": ["transits", "passing in front", "host star"],
+        "synonymsUsed": ["collect", "filters"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the Hubble Space Telescope detect in the atmosphere of HD 209458 b?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Methane", "Carbon dioxide", "Water vapour", "Oxygen"],
+        "keywords": ["Hubble", "water vapour", "HD 209458 b"],
+        "synonymsUsed": ["detected", "found"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Roughly how far away is HD 209458 b?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifty light-years", "One hundred and fifty light-years", "Five hundred light-years", "One thousand light-years"],
+        "keywords": ["one hundred and fifty", "light-years", "away"],
+        "synonymsUsed": ["distance", "distant"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What capability of the James Webb Space Telescope has transformed the field?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Infrared sensitivity allowing detection of molecules in smaller, rocky planets", "Visible-light photography of planet surfaces", "Radio wave detection of alien signals", "X-ray imaging of star cores"],
+        "keywords": ["infrared sensitivity", "rocky planets", "smaller"],
+        "synonymsUsed": ["capability", "transformed"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What potential biosignature did JWST report on K2-18 b in 2023?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Free oxygen", "Chlorophyll signatures", "Dimethyl sulphide", "Nitrogen gas"],
+        "keywords": ["K2-18 b", "dimethyl sulphide", "biosignature"],
+        "synonymsUsed": ["potential", "reported"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say about the habitable zone?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It guarantees the presence of life", "Atmospheric composition matters as much as distance; a thick greenhouse atmosphere could make a planet uninhabitably hot", "It is the same for every star type", "It only applies to gas giants"],
+        "keywords": ["habitable zone", "atmospheric composition", "greenhouse"],
+        "synonymsUsed": ["matters", "distance"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does a secondary eclipse measurement reveal about a planet?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The planet's exact mass", "The planet's own thermal emission and reflected light", "The composition of the host star", "The age of the galaxy"],
+        "keywords": ["secondary eclipse", "thermal emission", "reflected light"],
+        "synonymsUsed": ["reveal", "behind the star"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to total brightness during a secondary eclipse?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It drops slightly when the planet passes behind the star", "It increases dramatically", "It remains completely constant", "It fluctuates randomly"],
+        "keywords": ["secondary eclipse", "brightness drops", "behind the star"],
+        "synonymsUsed": ["decrease", "slight"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What capability will the Extremely Large Telescope bring to exoplanet atmospheric studies?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Radio detection of distant pulsars", "Underground seismic monitoring of planets", "Direct imaging to separate planetary light from stellar glare", "Spectroscopy of the host star's core only"],
+        "keywords": ["Extremely Large Telescope", "direct imaging", "stellar glare"],
+        "synonymsUsed": ["separate", "nearby stars"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "transmission spectroscopy", "meaning": "A technique analysing starlight filtered through a planet's atmosphere during transit to determine its composition." },
+      { "word": "hot Jupiter", "meaning": "A class of large gas giant exoplanets orbiting very close to their host star, resulting in high temperatures." },
+      { "word": "biosignature", "pronunciationNote": "/ˈbaɪoʊˌsɪɡnətʃər/", "meaning": "A chemical or physical indicator suggesting the presence of biological activity on a planet." },
+      { "word": "habitable zone", "meaning": "The orbital region around a star where conditions allow liquid water to exist on a planet's surface." },
+      { "word": "secondary eclipse", "meaning": "The moment when a planet passes behind its host star, allowing measurement of the planet's own emission." },
+      { "word": "direct imaging", "meaning": "A technique that captures light directly from a planet by blocking out the host star's glare." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced cognitive science lecture on cognitive architecture and information processing.",
+    "audioScript": "Situation: A cognitive scientist delivers an advanced lecture on cognitive architecture, the theoretical frameworks describing how the human mind processes information.\nDr. Bertelli: Today we examine cognitive architecture, the blueprint of the mind, which specifies the structures and processes underlying perception, reasoning, and action.\nDr. Bertelli: The most influential classical model is ACT-R, developed by John Anderson. It proposes that cognition operates through modules, including a declarative memory storing facts as chunks, and a procedural memory holding production rules that fire when their conditions are met.\nDr. Bertelli: A core claim of ACT-R is that every cognitive step takes roughly fifty milliseconds, a constraint derived from neural timing. This yields precise, testable predictions about reaction times in problem-solving tasks.\nDr. Bertelli: A contrasting approach is connectionism, which models cognition as emergent from networks of simple units rather than explicit rules. However, classical architectures counter that connectionist models struggle to explain systematicity, the fact that humans who understand 'John loves Mary' also understand 'Mary loves John'.\nDr. Bertelli: A major modern synthesis is the global-cognitive-architecture debate around predictive processing. The brain is theorised as a prediction engine, constantly generating top-down expectations and updating them with bottom-up sensory error signals. This unifies perception, action, and learning under a single principle: minimise prediction error.\nDr. Bertelli: Predictive processing naturally explains illusions. For instance, the brain overwrites retinal input with strong priors, causing phenomena such as the hollow-face illusion, where a concave face is perceived as convex.\nDr. Bertelli: Applications extend to artificial intelligence. Cognitive architectures have inspired hybrid systems that combine neural networks for perception with symbolic engines for reasoning, mirroring the proposed division between connectionist and rule-based components of human thought.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Bertelli", "accent": "BRITISH", "gender": "FEMALE", "role": "cognitive scientist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does a cognitive architecture specify, according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The structures and processes underlying perception, reasoning, and action", "The chemical composition of neurons", "The evolutionary history of the brain", "The genetics of intelligence"],
+        "keywords": ["structures", "processes", "perception", "reasoning"],
+        "synonymsUsed": ["blueprint", "underlying"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who developed the ACT-R model?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["David Marr", "John Anderson", "Allen Newell", "Noam Chomsky"],
+        "keywords": ["ACT-R", "John Anderson", "developed"],
+        "synonymsUsed": ["proposed", "classical model"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does ACT-R store facts, and in what unit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["As neural weights", "As images", "As chunks in declarative memory", "As audio recordings"],
+        "keywords": ["declarative memory", "chunks", "facts"],
+        "synonymsUsed": ["store", "unit"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does ACT-R's procedural memory contain?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Production rules that fire when conditions are met", "Visual images of past events", "Raw sensory data", "Genetic instructions"],
+        "keywords": ["procedural memory", "production rules", "fire"],
+        "synonymsUsed": ["conditions", "trigger"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the approximate duration of every cognitive step in ACT-R?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten milliseconds", "Fifty milliseconds", "One hundred milliseconds", "Five hundred milliseconds"],
+        "keywords": ["fifty milliseconds", "cognitive step", "neural timing"],
+        "synonymsUsed": ["duration", "constraint"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do classical architectures argue connectionist models struggle to explain?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Reaction times", "Systematicity in language comprehension", "Colour vision", "Motor coordination"],
+        "keywords": ["systematicity", "John loves Mary", "connectionist"],
+        "synonymsUsed": ["struggle", "explain"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the predictive processing theory propose the brain does?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Passively receives sensory input", "Stores all memories permanently", "Constantly generates top-down expectations and updates them with bottom-up error signals", "Operates purely by instinct"],
+        "keywords": ["prediction engine", "top-down expectations", "error signals"],
+        "synonymsUsed": ["generates", "update"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What single principle unifies perception, action, and learning in predictive processing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Minimise prediction error", "Maximise memory capacity", "Reduce oxygen consumption", "Increase reaction speed"],
+        "keywords": ["minimise prediction error", "single principle"],
+        "synonymsUsed": ["unifies", "principle"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which illusion does the lecturer cite as evidence of strong priors overriding retinal input?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Müller-Lyer illusion", "The Ponzo illusion", "The hollow-face illusion", "The Hermann grid illusion"],
+        "keywords": ["hollow-face illusion", "concave", "convex", "priors"],
+        "synonymsUsed": ["overwrites", "perceived"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How have cognitive architectures influenced artificial intelligence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They have had no influence on AI", "By inspiring hybrid systems combining neural networks for perception with symbolic engines for reasoning", "By proving that AI cannot replicate human thought", "By replacing all neural networks with rule-based systems"],
+        "keywords": ["hybrid systems", "neural networks", "symbolic engines"],
+        "synonymsUsed": ["inspired", "combine"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "cognitive architecture", "meaning": "A theoretical framework specifying the structures and processes underlying mental functions." },
+      { "word": "ACT-R", "meaning": "A classical cognitive architecture modelling the mind through declarative and procedural memory modules." },
+      { "word": "production rule", "meaning": "An if-then rule in procedural memory that fires when its conditions are satisfied." },
+      { "word": "systematicity", "meaning": "The capacity to understand and produce related cognitive structures, such as reversible sentences." },
+      { "word": "predictive processing", "meaning": "A theory that the brain generates expectations and updates them with sensory error signals to minimise prediction error." },
+      { "word": "prior", "meaning": "A pre-existing expectation in the brain that influences how incoming sensory information is interpreted." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced engineering lecture on next-generation renewable energy systems beyond conventional wind and solar.",
+    "audioScript": "Situation: A renewable energy engineer delivers an advanced lecture on emerging renewable energy technologies and their integration challenges.\nDr. Nakamura: This morning we move beyond conventional wind and solar to examine advanced renewable energy systems poised to reshape the global energy landscape.\nDr. Nakamura: First, floating offshore wind. Traditional fixed-bottom turbines are limited to waters shallower than about sixty metres. Floating platforms, anchored by mooring lines, unlock deep-water sites where winds are stronger and more consistent, potentially doubling the harvestable resource in regions like the North Atlantic.\nDr. Nakamura: Second, perovskite solar cells. Unlike silicon, perovskite crystals can be deposited from solution, enabling low-cost, flexible panels. Laboratory efficiencies have surged from under four per cent in two thousand nine to over twenty-six per cent today, rivalling silicon.\nDr. Nakamura: A key innovation is the tandem cell, layering perovskite atop silicon to capture different wavelengths. Tandems have surpassed thirty-three per cent efficiency, the theoretical single-junction limit being about thirty-three per cent under the Shockley-Queisser bound, so tandems break that ceiling.\nDr. Nakamura: Third, green hydrogen. Produced by electrolysis powered by renewables, green hydrogen can decarbonise sectors resistant to electrification, such as steelmaking and shipping. However, electrolysis is currently only about seventy per cent efficient, and the resulting hydrogen has low energy density by volume, demanding high-pressure storage.\nDr. Nakamura: The central integration challenge is intermittency. Because wind and solar output fluctuate, advanced systems require long-duration energy storage. Flow batteries, which store energy in liquid electrolytes held in external tanks, offer scalable capacity for up to ten hours, far beyond lithium-ion's economical limit of about four hours.\nDr. Nakamura: Looking forward, grid-forming inverters will be essential. Unlike traditional inverters that merely follow the grid's frequency, grid-forming inverters can establish frequency and voltage independently, enabling networks powered entirely by renewables without fossil-fuel plants providing inertia.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Nakamura", "accent": "AMERICAN", "gender": "FEMALE", "role": "renewable energy engineer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What depth limitation do traditional fixed-bottom wind turbines face?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Shallower than 20 metres", "Shallower than about 60 metres", "Shallower than 100 metres", "Shallower than 200 metres"],
+        "keywords": ["fixed-bottom", "sixty metres", "shallower"],
+        "synonymsUsed": ["limited", "depth"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What advantage do floating offshore wind platforms offer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They unlock deep-water sites with stronger, more consistent winds", "They are cheaper than onshore wind", "They require no maintenance", "They can operate without any wind"],
+        "keywords": ["floating", "deep-water", "stronger winds"],
+        "synonymsUsed": ["unlock", "consistent"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What enables perovskite solar cells to be low-cost and flexible?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They use pure gold conductors", "They can be deposited from solution", "They require extreme high-temperature processing", "They are grown from single crystals only"],
+        "keywords": ["perovskite", "deposited from solution", "flexible"],
+        "synonymsUsed": ["low-cost", "panels"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the laboratory efficiency of perovskite solar cells in 2009?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Over twenty-six per cent", "About fifteen per cent", "Under four per cent", "Exactly ten per cent"],
+        "keywords": ["2009", "under four per cent", "efficiency"],
+        "synonymsUsed": ["laboratory", "surged"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does a tandem solar cell surpass the single-junction efficiency limit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["By layering perovskite atop silicon to capture different wavelengths", "By using larger panels", "By increasing the temperature of the cell", "By adding mirrors around the cell"],
+        "keywords": ["tandem", "perovskite atop silicon", "different wavelengths"],
+        "synonymsUsed": ["layering", "surpass"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What efficiency have tandem solar cells achieved, according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Over twenty-six per cent", "Over thirty-three per cent", "Over fifty per cent", "Over seventy per cent"],
+        "keywords": ["tandem", "thirty-three per cent", "efficiency"],
+        "synonymsUsed": ["achieved", "surpassed"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which industrial sectors does the lecturer say green hydrogen can decarbonise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Computing and data centres", "Retail and services", "Steelmaking and shipping", "Agriculture and fishing"],
+        "keywords": ["green hydrogen", "steelmaking", "shipping", "resistant to electrification"],
+        "synonymsUsed": ["decarbonise", "sectors"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the approximate efficiency of current electrolysis for green hydrogen?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About fifty per cent", "About seventy per cent", "About ninety per cent", "About thirty per cent"],
+        "keywords": ["electrolysis", "seventy per cent", "efficient"],
+        "synonymsUsed": ["approximate", "currently"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What storage duration advantage do flow batteries offer over lithium-ion?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Up to one hour versus four hours", "Up to two hours versus one hour", "Up to ten hours versus about four hours", "Up to one hundred hours versus ten hours"],
+        "keywords": ["flow batteries", "ten hours", "lithium-ion", "four hours"],
+        "synonymsUsed": ["scalable", "economical limit"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What distinguishes grid-forming inverters from traditional inverters?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They can establish frequency and voltage independently", "They only work with fossil-fuel plants", "They cannot connect to any grid", "They are identical to traditional inverters"],
+        "keywords": ["grid-forming", "establish frequency", "voltage independently"],
+        "synonymsUsed": ["distinguish", "unlike"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "floating offshore wind", "meaning": "Wind turbines mounted on floating platforms anchored by mooring lines, enabling deployment in deep waters." },
+      { "word": "perovskite", "pronunciationNote": "/pəˈrɒvskaɪt/", "meaning": "A class of crystal material used in solar cells that can be deposited from solution for low-cost, flexible panels." },
+      { "word": "tandem cell", "meaning": "A solar cell layering different materials to capture multiple wavelengths, surpassing single-junction efficiency limits." },
+      { "word": "green hydrogen", "meaning": "Hydrogen produced by electrolysis powered by renewable energy, used to decarbonise hard-to-electrify sectors." },
+      { "word": "flow battery", "meaning": "A rechargeable battery storing energy in liquid electrolytes held in external tanks, offering long-duration storage." },
+      { "word": "grid-forming inverter", "meaning": "An inverter that can independently establish grid frequency and voltage, enabling fully renewable-powered networks." }
+    ],
+    "difficulty": "HARD"
+  }
+]

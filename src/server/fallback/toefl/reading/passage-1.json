@@ -1,0 +1,415 @@
+[
+  {
+    "passage": {
+      "title": "The Hidden Networks of Forest Fungi",
+      "author": "Dr. Eleanor Marsh",
+      "source": "Journal of Ecology Annual Review",
+      "wordCount": 620,
+      "content": "Beneath the forest floor lies one of the most complex and overlooked ecosystems on Earth. A vast network of fungal threads, known as mycelium, connects the roots of trees in what scientists have come to call the Wood Wide Web. This underground infrastructure allows trees to share nutrients, send warning signals, and even support their neighbors during times of stress, challenging the long-held view of forests as collections of solitary organisms competing only for light and water.\n\nThe fungi involved in these networks are called mycorrhizal fungi, a term that literally means fungus-root. Unlike the mushrooms we see above ground, which are merely the fruiting bodies, the mycelium itself consists of impossibly thin white threads that can stretch for kilometers through a single handful of soil. These threads attach themselves to tree roots, forming a symbiotic partnership. The fungus receives sugars produced by the tree through photosynthesis, and in return, the fungus dramatically expands the tree's ability to absorb water and minerals, particularly phosphorus and nitrogen, from the surrounding soil.\n\nWhat astonished researchers, however, was the discovery that these fungal networks link multiple trees together. Through the mycelium, resources can flow from one tree to another. In landmark studies conducted in old-growth forests of the Pacific Northwest, scientists traced radioactive carbon isotopes from a mature Douglas fir to nearby younger saplings growing in deep shade. The saplings, which received too little sunlight to photosynthesize efficiently, were being subsidized by their larger neighbor. This finding fundamentally altered the understanding of forest dynamics, suggesting that some trees act as hubs or mother trees, nurturing their offspring and even unrelated species.\n\nThe network also serves as a communication channel. When a tree is attacked by insects or disease, it can trigger the production of defensive chemicals. Research has shown that trees connected to the fungal network can receive chemical warning signals from damaged neighbors, prompting them to ramp up their own defenses before the threat arrives. It is not language in the human sense, but it is a form of information transfer that confers a clear survival advantage.\n\nNot all interactions through the network are cooperative. Some plants, known as mycoheterotrophs, exploit the system entirely. These plants, such as certain orchids, do not photosynthesize at all. Instead, they tap into the fungal network and siphon carbon from nearby trees, essentially stealing resources without contributing anything in return. Other trees may use the network to release toxic chemicals that suppress the growth of competing species, a phenomenon botanists call allelopathy.\n\nThe implications of these findings extend beyond academic curiosity. Forest managers are reconsidering logging practices that remove the largest, oldest trees, since these individuals appear to serve as critical hubs in the underground network. When mother trees are cut down, the entire communication and resource-sharing infrastructure is disrupted, leaving younger trees more vulnerable to drought, disease, and competition. Some ecologists now advocate for selective harvesting methods that preserve key individuals to maintain the integrity of the subterranean web.\n\nClimate change poses another threat. Rising temperatures and shifting rainfall patterns alter the composition of fungal communities, potentially destabilizing networks that have taken centuries to establish. As droughts intensify, the fungi themselves may retreat, severing the connections that trees rely on during the very crises when they need support most.",
+      "topicCategory": "NATURAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "mycelium", "paragraph": 1, "context": "A vast network of fungal threads, known as mycelium, connects the roots of trees", "meaningInContext": "the mass of branching fungal threads that form the underground network" },
+      { "word": "symbiotic", "paragraph": 2, "context": "These threads attach themselves to tree roots, forming a symbiotic partnership.", "meaningInContext": "a mutually beneficial relationship between two different organisms" },
+      { "word": "subsidized", "paragraph": 3, "context": "The saplings were being subsidized by their larger neighbor.", "meaningInContext": "supported or supplied with resources from another source" },
+      { "word": "allelopathy", "paragraph": 5, "context": "Other trees may use the network to release toxic chemicals that suppress the growth of competing species, a phenomenon botanists call allelopathy.", "meaningInContext": "the process where a plant releases chemicals to inhibit competitors" },
+      { "word": "integrity", "paragraph": 6, "context": "Some ecologists now advocate for selective harvesting methods that preserve key individuals to maintain the integrity of the subterranean web.", "meaningInContext": "the state of being whole and undamaged" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Forests are collections of solitary organisms competing for resources",
+          "An underground fungal network connects trees and enables resource sharing and communication",
+          "Mushrooms are the most important part of the forest ecosystem",
+          "Climate change has no effect on forest ecosystems"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage describes the Wood Wide Web, a fungal network connecting trees for nutrient sharing, communication, and support."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to paragraph 2, what does the fungus receive from the tree?",
+        "options": ["Water and minerals", "Sugars produced through photosynthesis", "Phosphorus and nitrogen", "Chemical warning signals"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "The fungus receives sugars produced by the tree through photosynthesis."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "The word 'subsidized' in paragraph 3 is closest in meaning to:",
+        "options": ["harmed", "supported", "ignored", "measured"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, 'subsidized' means the saplings were being supported with resources from the larger tree."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What did the radioactive carbon isotope studies demonstrate?",
+        "options": [
+          "Trees do not share nutrients",
+          "Mature trees can transfer resources to younger saplings through fungal networks",
+          "Mycorrhizal fungi harm trees",
+          "Radioactive carbon is naturally present in forests"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "The studies traced carbon from mature Douglas firs to shaded saplings, demonstrating resource transfer."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What can be inferred about 'mother trees'?",
+        "options": [
+          "They are always the youngest trees in the forest",
+          "They serve as critical hubs, nurturing offspring and maintaining the network",
+          "They do not participate in the fungal network",
+          "They produce the most mushrooms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 3,
+        "explanation": "The passage states some trees act as hubs or mother trees, nurturing offspring and even unrelated species."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "According to paragraph 4, what happens when a tree receives a chemical warning signal?",
+        "options": [
+          "It immediately dies",
+          "It ramps up its own defenses before the threat arrives",
+          "It stops photosynthesizing",
+          "It releases more sugars to the fungus"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Trees receiving warning signals ramp up their own defenses before the threat arrives."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does the author mention mycoheterotrophs in paragraph 5?",
+        "options": [
+          "To show that all fungal network interactions are cooperative",
+          "To illustrate that some plants exploit the network without contributing",
+          "To prove that orchids are the most common forest plant",
+          "To describe a type of beneficial fungus"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 5,
+        "explanation": "The author mentions mycoheterotrophs to show not all interactions are cooperative, as these plants siphon resources without contributing."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "The word 'allelopathy' in paragraph 5 refers to:",
+        "options": [
+          "the process of nutrient sharing between trees",
+          "the release of toxic chemicals by trees to suppress competitors",
+          "the symbiotic relationship between fungi and roots",
+          "the fruiting bodies of underground fungi"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 5,
+        "explanation": "The passage defines allelopathy as trees releasing toxic chemicals that suppress competing species."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What do some ecologists now advocate regarding logging?",
+        "options": [
+          "Complete removal of all old trees",
+          "Selective harvesting that preserves key hub trees",
+          "Banning all logging permanently",
+          "Planting more mycoheterotrophs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Ecologists advocate selective harvesting that preserves key individuals to maintain network integrity."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about the relationship between climate change and fungal networks?",
+        "options": [
+          "Climate change strengthens fungal networks",
+          "Rising temperatures and droughts may destabilize centuries-old networks",
+          "Fungi benefit directly from increased carbon dioxide",
+          "Climate change has no measurable effect"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 7,
+        "explanation": "The final paragraph states rising temperatures and droughts alter fungal communities and may sever connections trees rely on."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "Which of the following best summarizes the passage?",
+        "options": [
+          "Fungal networks only benefit trees in tropical forests",
+          "Underground fungal networks enable trees to share resources, communicate, and sometimes exploit each other",
+          "Mushrooms are the primary food source for forest animals",
+          "Forest management should focus entirely on above-ground biodiversity"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the cooperative and exploitative dynamics of the fungal network described throughout."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "The author mentions the Pacific Northwest studies in order to:",
+        "options": [
+          "prove that Douglas firs are the strongest trees",
+          "provide concrete evidence of resource transfer between trees",
+          "argue that old-growth forests should be logged",
+          "show that radioactive carbon is dangerous"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The studies are cited as concrete evidence that resources flow from mature trees to saplings."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "According to the passage, what is the role of the mycelium?",
+        "options": [
+          "It is the fruiting body visible above ground",
+          "It forms the network of threads that connects tree roots underground",
+          "It produces defensive chemicals",
+          "It replaces damaged tree roots"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "The mycelium consists of thin white threads stretching through soil, connecting tree roots underground."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "What does the passage suggest about the traditional view of forests?",
+        "options": [
+          "It accurately describes forest dynamics",
+          "It viewed forests as collections of solitary organisms competing only for light and water",
+          "It emphasized the importance of fungal networks",
+          "It was based on radioactive isotope studies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "The passage says the fungal network challenges the long-held view of forests as solitary organisms competing."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Look at the word 'confers' in paragraph 4. It most nearly means:",
+        "options": ["removes", "grants or provides", "prevents", "measures"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 4,
+        "explanation": "In context, 'confers' means grants or provides a survival advantage."
+      }
+    ]
+  },
+  {
+    "passage": {
+      "title": "The Architecture of Sleep: Circadian Rhythms and Modern Life",
+      "author": "Dr. Rachel Okonkwo",
+      "source": "Annual Review of Chronobiology",
+      "wordCount": 640,
+      "content": "Every living organism on Earth, from the simplest bacteria to the most complex mammals, operates on an internal twenty-four-hour clock. This biological timekeeper, known as the circadian rhythm, governs not only sleep and wakefulness but also hormone release, body temperature, metabolism, and even cognitive performance. The word circadian comes from the Latin circa, meaning approximately, and diem, meaning day, reflecting the fact that this internal cycle runs close to but not exactly twenty-four hours.\n\nAt the molecular level, the circadian clock is a marvel of biological engineering. In humans, a tiny cluster of about twenty thousand neurons called the suprachiasmatic nucleus, located in the hypothalamus, serves as the master clock. This cluster receives direct input from the eyes, allowing it to synchronize with external light and dark cycles. When light hits specialized cells in the retina, they send signals along the retinohypothalamic tract, informing the master clock whether it is day or night. The master clock then orchestrates a cascade of molecular events throughout the body, regulating the release of melatonin, the hormone that induces sleepiness.\n\nThe discovery of circadian rhythms earned the Nobel Prize in Physiology or Medicine in twenty-seventeen. Jeffrey Hall, Michael Rosbash, and Michael Young were honored for uncovering the mechanism by which a feedback loop of genes and proteins controls the daily cycle. They identified a gene called period, which produces a protein called PER. During the night, PER accumulates in cells; during the day, it degrades. The rise and fall of PER levels creates a molecular oscillation that drives the entire circadian system.\n\nDespite this elegant biological mechanism, modern life has created a profound mismatch between our internal clocks and our social environments. The invention of artificial lighting, the proliferation of digital screens, and the demands of shift work have all disrupted circadian alignment. The phenomenon known as social jetlag occurs when people maintain different sleep schedules on weekdays versus weekends, forcing their bodies to repeatedly shift between time zones without ever traveling.\n\nThe health consequences of circadian disruption are significant and well-documented. Chronic misalignment between internal clocks and external schedules has been linked to increased risk of obesity, type two diabetes, cardiovascular disease, and certain cancers. Shift workers, who frequently rotate between day and night schedules, are particularly vulnerable. Studies have shown that nurses working night shifts have elevated rates of breast cancer, a finding significant enough that the World Health Organization classified shift work as a probable carcinogen.\n\nCognitive performance is also deeply affected. Research consistently demonstrates that alertness, reaction time, and decision-making follow a circadian curve. Most people experience a natural dip in alertness between two and four PM, and a more dangerous dip in the early morning hours between two and four AM. This explains why traffic accidents, industrial disasters, and medical errors spike during these time windows.\n\nEmerging research suggests that chronotherapy, the strategic timing of medical treatments to align with circadian rhythms, may improve drug efficacy and reduce side effects. For example, certain chemotherapy drugs are more effective and less toxic when administered at specific times of day. Similarly, blood pressure medications may work better when taken before bed rather than in the morning for some patients. The field of chronomedicine represents a paradigm shift from a one-size-fits-all approach to a more personalized model of treatment.",
+      "topicCategory": "NATURAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "circadian", "paragraph": 1, "context": "This biological timekeeper, known as the circadian rhythm, governs not only sleep and wakefulness", "meaningInContext": "relating to a roughly twenty-four-hour biological cycle" },
+      { "word": "orchestrates", "paragraph": 2, "context": "The master clock then orchestrates a cascade of molecular events throughout the body", "meaningInContext": "coordinates and directs a complex series of events" },
+      { "word": "misalignment", "paragraph": 4, "context": "modern life has created a profound mismatch between our internal clocks and our social environments", "meaningInContext": "a lack of proper alignment or coordination between two systems" },
+      { "word": "carcinogen", "paragraph": 5, "context": "the World Health Organization classified shift work as a probable carcinogen", "meaningInContext": "a substance or condition that can cause cancer" },
+      { "word": "paradigm", "paragraph": 7, "context": "The field of chronomedicine represents a paradigm shift from a one-size-fits-all approach", "meaningInContext": "a typical example, model, or pattern of thinking" }
+    ],
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What does the circadian rhythm govern according to paragraph 1?",
+        "options": [
+          "Only sleep and wakefulness",
+          "Sleep, wakefulness, hormone release, body temperature, metabolism, and cognitive performance",
+          "Only body temperature",
+          "Only eating habits"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "Paragraph 1 states the circadian rhythm governs sleep, wakefulness, hormone release, body temperature, metabolism, and cognitive performance."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Where is the master clock located?",
+        "options": ["In the cerebral cortex", "In the suprachiasmatic nucleus within the hypothalamus", "In the cerebellum", "In the brainstem"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 identifies the master clock as the suprachiasmatic nucleus, a cluster of neurons in the hypothalamus."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many neurons make up the suprachiasmatic nucleus?",
+        "options": ["About 10,000", "About 20,000", "About 50,000", "About 100,000"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 describes the suprachiasmatic nucleus as a cluster of about twenty thousand neurons."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What did the 2017 Nobel Prize in Physiology or Medicine recognize?",
+        "options": [
+          "The invention of melatonin supplements",
+          "The discovery of the mechanism by which genes and proteins control the daily cycle",
+          "The cure for insomnia",
+          "The mapping of the human genome"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 states Hall, Rosbash, and Young won for uncovering the feedback loop of genes and proteins controlling the circadian cycle."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How does the PER protein behave during the daily cycle?",
+        "options": [
+          "It stays constant throughout the day",
+          "It accumulates at night and degrades during the day",
+          "It only exists in plants",
+          "It is produced only during exercise"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 explains PER accumulates in cells during the night and degrades during the day, creating molecular oscillation."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is 'social jetlag'?",
+        "options": [
+          "A fear of flying",
+          "The effect of maintaining different sleep schedules on weekdays versus weekends",
+          "A medical condition from frequent business travel",
+          "A sleep disorder caused by caffeine"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 defines social jetlag as the effect of maintaining different sleep schedules on weekdays versus weekends."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "The word 'misalignment' in paragraph 4 is closest in meaning to:",
+        "options": ["agreement", "lack of proper coordination", "improvement", "measurement"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 4,
+        "explanation": "In context, 'misalignment' refers to the mismatch or lack of proper coordination between internal clocks and external schedules."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What did the WHO classify shift work as?",
+        "options": ["A healthy lifestyle choice", "A probable carcinogen", "A mental health benefit", "An immune system booster"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 states the WHO classified shift work as a probable carcinogen due to elevated cancer rates in night-shift workers."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "During which time windows do most people experience dangerous dips in alertness?",
+        "options": [
+          "6-8 AM and 6-8 PM",
+          "2-4 PM and 2-4 AM",
+          "10 AM-noon and 10 PM-midnight",
+          "Noon-1 PM and midnight-1 AM"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 describes a natural dip between two and four PM and a more dangerous dip between two and four AM."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about chronotherapy?",
+        "options": [
+          "It is already the standard treatment for all diseases",
+          "Timing medical treatments to align with circadian rhythms may improve efficacy and reduce side effects",
+          "It only works for sleep disorders",
+          "It involves prescribing higher doses of medication"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 7,
+        "explanation": "Paragraph 7 discusses chronotherapy as strategic timing of treatments to align with circadian rhythms, potentially improving efficacy and reducing toxicity."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Sleep is unimportant for human health",
+          "Circadian rhythms govern biological processes, and their disruption by modern life has significant health consequences",
+          "Artificial lighting has no effect on human biology",
+          "Chronomedicine should replace all traditional treatments immediately"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The passage discusses circadian rhythms, their molecular mechanisms, the disruption caused by modern life, health consequences, and emerging chronomedicine approaches."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "The word 'paradigm' in paragraph 7 most nearly means:",
+        "options": ["a contradiction", "a typical model or pattern", "a disease", "a mistake"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 7,
+        "explanation": "In context, 'paradigm shift' refers to a fundamental change in the typical model or pattern of thinking about medical treatment."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "Why does the author mention traffic accidents and medical errors in paragraph 6?",
+        "options": [
+          "To argue that driving should be banned at night",
+          "To illustrate the real-world consequences of circadian dips in alertness",
+          "To suggest hospitals should close at night",
+          "To prove that caffeine is ineffective"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 6,
+        "explanation": "The author cites accidents and errors to show how circadian-driven dips in alertness have measurable, dangerous consequences."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "What hormone does the master clock regulate for sleep induction?",
+        "options": ["Insulin", "Melatonin", "Adrenaline", "Cortisol"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states the master clock regulates the release of melatonin, the hormone that induces sleepiness."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Which statement best summarizes the passage?",
+        "options": [
+          "Circadian rhythms only affect sleep patterns",
+          "The circadian clock governs vital biological functions, and modern disruptions to it carry serious health and cognitive risks",
+          "Artificial light is beneficial for circadian alignment",
+          "Shift work has no health consequences"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the key themes: biological importance of circadian rhythms and the health consequences of modern disruption."
+      }
+    ]
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "type": "WRITING_TASK_1",
+    "taskType": "LINE_GRAPH",
+    "questionText": "The line graph below shows the percentage of the population using the internet in five countries between 2010 and 2020.",
+    "visualData": {
+      "chartType": "line",
+      "title": "Internet users as a percentage of population (2010-2020)",
+      "xAxisLabel": "Year",
+      "yAxisLabel": "Percentage of population",
+      "categories": ["2010", "2012", "2014", "2016", "2018", "2020"],
+      "series": [
+        {
+          "name": "Country A",
+          "data": [45, 55, 68, 78, 85, 92]
+        },
+        {
+          "name": "Country B",
+          "data": [30, 40, 52, 65, 74, 83]
+        },
+        {
+          "name": "Country C",
+          "data": [20, 28, 38, 50, 60, 72]
+        },
+        {
+          "name": "Country D",
+          "data": [15, 20, 30, 42, 55, 68]
+        },
+        {
+          "name": "Country E",
+          "data": [10, 15, 22, 33, 45, 58]
+        }
+      ],
+      "units": "%",
+      "keyFeatures": [
+        "All five countries experienced a steady upward trend in internet usage over the decade.",
+        "Country A consistently maintained the highest internet penetration, reaching 92% by 2020.",
+        "Country E started lowest but showed the steepest relative growth, nearly sixfold from 10% to 58%.",
+        "The gap between the highest and lowest countries narrowed from 35 percentage points in 2010 to 34 in 2020."
+      ]
+    },
+    "instructions": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "rubricFocus": [
+      "TASK_ACHIEVEMENT",
+      "COHERENCE_COHESION",
+      "LEXICAL_RESOURCE",
+      "GRAMMATICAL_RANGE"
+    ],
+    "suggestedApproach": {
+      "introduction": "Paraphrase the prompt by stating that the line graph illustrates internet usage rates across five nations over a ten-year period from 2010 to 2020.",
+      "overview": "Provide a general statement noting that all countries saw continuous growth in internet adoption, with Country A leading throughout and Country E expanding most rapidly in relative terms.",
+      "bodyParagraphs": [
+        "Describe the leading group (Countries A and B), giving specific figures for the start and end years and noting the consistent gap between them.",
+        "Describe the lower group (Countries C, D, and E), highlighting that Country E had the most dramatic relative increase despite starting from the lowest base."
+      ],
+      "keyLanguage": [
+        "steady upward trend",
+        "internet penetration",
+        "consistently maintained the highest",
+        "steepest relative growth",
+        "percentage points",
+        "narrowed the gap",
+        "sixfold increase"
+      ]
+    },
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 172,
+      "content": "The line graph illustrates the proportion of the population using the internet in five countries between 2010 and 2020.\n\nOverall, all five nations experienced a steady upward trend in internet usage over the decade. Country A consistently maintained the highest penetration rate throughout the period, while Country E, despite starting from the lowest base, showed the most dramatic relative growth.\n\nCountry A began at 45% in 2010 and rose steadily to 92% by 2020. Country B followed a similar trajectory, climbing from 30% to 83%, though it remained roughly 9 to 10 percentage points behind Country A for most of the period.\n\nThe remaining three countries started lower but grew rapidly. Country C doubled its usage from 20% to 72%, and Country D more than quadrupled from 15% to 68%. Country E recorded the steepest relative increase, surging nearly sixfold from 10% to 58%. Although the absolute gap between the highest and lowest nations stayed wide, Country E clearly closed the distance in proportional terms by the end of the period.",
+      "examinerComments": "A clear overview is given and all key features are highlighted with accurate data. Cohesion is strong with good use of referencing, and vocabulary is varied and precise. Grammatical range includes complex sentences and comparatives throughout."
+    },
+    "timeLimit": 20,
+    "wordRequirement": 150,
+    "difficulty": "EASY"
+  },
+  {
+    "type": "WRITING_TASK_1",
+    "taskType": "BAR_CHART",
+    "questionText": "The bar chart below shows the recycling rates of five different materials in four countries in 2022.",
+    "visualData": {
+      "chartType": "bar",
+      "title": "Recycling rates of selected materials by country in 2022",
+      "xAxisLabel": "Country",
+      "yAxisLabel": "Recycling rate",
+      "categories": ["Germany", "Sweden", "Japan", "USA"],
+      "series": [
+        {
+          "name": "Paper",
+          "data": [88, 85, 78, 65]
+        },
+        {
+          "name": "Glass",
+          "data": [76, 80, 70, 33]
+        },
+        {
+          "name": "Plastic",
+          "data": [52, 48, 60, 28]
+        },
+        {
+          "name": "Metal",
+          "data": [70, 65, 82, 55]
+        },
+        {
+          "name": "Organic waste",
+          "data": [68, 75, 45, 40]
+        }
+      ],
+      "units": "%",
+      "keyFeatures": [
+        "Germany achieved the highest recycling rate for paper at 88% and organic waste at 68%.",
+        "Japan led in metal recycling at 82% but had the lowest organic waste recycling among the four countries.",
+        "The USA consistently recorded the lowest recycling rates across all five material categories.",
+        "Paper was the most recycled material overall, while plastic had the lowest rates in three of the four countries."
+      ]
+    },
+    "instructions": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. You should write at least 150 words.",
+    "rubricFocus": [
+      "TASK_ACHIEVEMENT",
+      "COHERENCE_COHESION",
+      "LEXICAL_RESOURCE",
+      "GRAMMATICAL_RANGE"
+    ],
+    "suggestedApproach": {
+      "introduction": "Paraphrase the prompt, noting that the bar chart compares the recycling rates of five materials across four nations in the year 2022.",
+      "overview": "State that Germany and Sweden generally recycled the most, the USA the least, and that paper was the most widely recycled material while plastic lagged behind.",
+      "bodyParagraphs": [
+        "Group the high-performing countries (Germany and Sweden), citing specific figures for paper, glass, and organic waste to show their dominance.",
+        "Contrast Japan and the USA, noting Japan's strength in metal versus the USA's uniformly low rates, and highlight plastic as the weakest category overall."
+      ],
+      "keyLanguage": [
+        "recycling rates",
+        "consistently recorded the lowest",
+        "led in metal recycling",
+        "most widely recycled material",
+        "lagged behind",
+        "dominance",
+        "uniformly low"
+      ]
+    },
+    "sampleAnswer": {
+      "bandScore": 7,
+      "wordCount": 168,
+      "content": "The bar chart illustrates the recycling rates of five different materials in four countries in 2022.\n\nOverall, Germany and Sweden achieved the highest recycling rates across most materials, while the USA consistently recorded the lowest figures. Paper was the most widely recycled material, whereas plastic had comparatively low rates in three of the four countries.\n\nGermany led in paper recycling at 88% and organic waste at 68%. Sweden performed similarly, reaching 85% for paper and 80% for glass, making it the strongest performer for the latter category. Both nations maintained rates above 48% for every material.\n\nJapan showed a different pattern, leading in metal recycling at 82% but recording only 45% for organic waste, the lowest among the four countries for that category. The USA uniformly underperformed, with its highest rate being 65% for paper and its lowest just 28% for plastic. Plastic recycling was notably weak in both the USA and Germany, while paper remained the strongest category overall across all nations.",
+      "examinerComments": "The answer covers all key features with a clear overview and relevant comparisons. Data is generally accurate and well-organised into logical paragraphs. Vocabulary is appropriate, though some repetition of rates and recycling occurs."
+    },
+    "timeLimit": 20,
+    "wordRequirement": 150,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_1",
+    "taskType": "PIE_CHART",
+    "questionText": "The pie charts below show the sources of energy production in a particular country in 2005 and 2025.",
+    "visualData": {
+      "chartType": "pie",
+      "title": "Energy production sources in a particular country, 2005 and 2025",
+      "categories": ["2005", "2025"],
+      "series": [
+        {
+          "name": "Coal",
+          "data": [42, 18]
+        },
+        {
+          "name": "Natural gas",
+          "data": [25, 22]
+        },
+        {
+          "name": "Nuclear",
+          "data": [15, 12]
+        },
+        {
+          "name": "Hydroelectric",
+          "data": [10, 14]
+        },
+        {
+          "name": "Wind & solar",
+          "data": [8, 34]
+        }
+      ],
+      "units": "%",
+      "keyFeatures": [
+        "Coal was the dominant energy source in 2005 at 42% but fell sharply to 18% by 2025.",
+        "Wind and solar energy saw the most dramatic increase, rising from 8% to 34% and becoming the largest source by 2025.",
+        "Natural gas and nuclear both saw moderate declines over the twenty-year period.",
+        "Hydroelectric was the only traditional source to grow, increasing from 10% to 14%."
+      ]
+    },
+    "instructions": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. You should write at least 150 words.",
+    "rubricFocus": [
+      "TASK_ACHIEVEMENT",
+      "COHERENCE_COHESION",
+      "LEXICAL_RESOURCE",
+      "GRAMMATICAL_RANGE"
+    ],
+    "suggestedApproach": {
+      "introduction": "Paraphrase the prompt to state that the two pie charts compare the proportional breakdown of energy sources in a single country in 2005 and 2025.",
+      "overview": "Highlight the major shift from fossil fuels to renewable energy, with coal declining sharply and wind and solar becoming the largest contributor by 2025.",
+      "bodyParagraphs": [
+        "Describe the 2005 chart, noting coal's dominance alongside natural gas, and the relatively small renewable share.",
+        "Describe the 2025 chart, emphasising the surge in wind and solar, the contraction of coal, and the relative stability of natural gas and nuclear."
+      ],
+      "keyLanguage": [
+        "proportional breakdown",
+        "dominant energy source",
+        "fell sharply",
+        "most dramatic increase",
+        "largest contributor",
+        "shift from fossil fuels",
+        "renewable share"
+      ]
+    },
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 175,
+      "content": "The pie charts compare the proportional breakdown of energy production sources in a particular country in 2005 and 2025.\n\nOverall, the charts reveal a significant shift from fossil fuels towards renewable energy over the two decades. Coal, the dominant source in 2005, was overtaken by wind and solar, which became the largest contributor by 2025.\n\nIn 2005, coal accounted for 42% of energy production, making it the single largest source, followed by natural gas at 25% and nuclear at 15%. Renewable sources were comparatively minor, with hydroelectric at 10% and wind and solar combined at just 8%.\n\nBy 2025, the picture had changed dramatically. Wind and solar surged to 34%, becoming the leading energy source. Coal fell sharply to 18%, less than half its 2005 share. Natural gas declined modestly to 22%, while nuclear dropped slightly to 12%. Hydroelectric was the only traditional source to grow, rising to 14%. The data clearly illustrates the country's transition toward cleaner energy over the period.",
+      "examinerComments": "A clear and well-structured response with a strong overview that captures the main shift. Data is reported accurately and comparisons are effective. Lexical resource is varied and grammatical control is strong throughout."
+    },
+    "timeLimit": 20,
+    "wordRequirement": 150,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_1",
+    "taskType": "TABLE",
+    "questionText": "The table below shows the number of students enrolled in four different faculties at a university between 2015 and 2019.",
+    "visualData": {
+      "chartType": "table",
+      "title": "University student enrollment by faculty, 2015-2019",
+      "xAxisLabel": "Faculty",
+      "yAxisLabel": "Number of students",
+      "categories": ["2015", "2016", "2017", "2018", "2019"],
+      "series": [
+        {
+          "name": "Engineering",
+          "data": [1200, 1350, 1500, 1680, 1850]
+        },
+        {
+          "name": "Business",
+          "data": [1800, 1900, 1950, 2000, 2050]
+        },
+        {
+          "name": "Arts & Humanities",
+          "data": [950, 900, 870, 830, 780]
+        },
+        {
+          "name": "Sciences",
+          "data": [1100, 1180, 1250, 1320, 1400]
+        }
+      ],
+      "units": "students",
+      "keyFeatures": [
+        "Business had the highest enrollment every year, growing steadily from 1,800 to 2,050 students.",
+        "Engineering experienced the largest absolute increase, rising by 650 students over the period.",
+        "Arts and Humanities was the only faculty to see a continuous decline, dropping from 950 to 780.",
+        "Sciences grew consistently but at a slower rate than Engineering, adding 300 students in total."
+      ]
+    },
+    "instructions": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. You should write at least 150 words.",
+    "rubricFocus": [
+      "TASK_ACHIEVEMENT",
+      "COHERENCE_COHESION",
+      "LEXICAL_RESOURCE",
+      "GRAMMATICAL_RANGE"
+    ],
+    "suggestedApproach": {
+      "introduction": "Paraphrase the prompt, noting that the table presents student enrollment figures across four university faculties over a five-year period from 2015 to 2019.",
+      "overview": "State that Business and Engineering saw steady growth while Arts and Humanities declined continuously, making it the only faculty with a downward trend.",
+      "bodyParagraphs": [
+        "Detail the growth in Business and Engineering, providing start and end figures and noting that Engineering had the largest absolute increase.",
+        "Contrast the Sciences, which grew moderately, with Arts and Humanities, which fell every year, and conclude with a comparison of final figures."
+      ],
+      "keyLanguage": [
+        "enrollment figures",
+        "highest enrollment",
+        "largest absolute increase",
+        "continuous decline",
+        "steady growth",
+        "downward trend",
+        "grew consistently"
+      ]
+    },
+    "sampleAnswer": {
+      "bandScore": 7,
+      "wordCount": 164,
+      "content": "The table presents the number of students enrolled in four faculties at a university between 2015 and 2019.\n\nOverall, Business and Engineering experienced steady growth in enrollment, while Arts and Humanities was the only faculty to see a continuous decline. Sciences grew consistently but at a more moderate pace.\n\nBusiness had the highest enrollment throughout the period, rising from 1,800 students in 2015 to 2,050 in 2019. Engineering showed the largest absolute increase, climbing by 650 students from 1,200 to 1,850. Sciences followed a similar upward trend but added only 300 students, reaching 1,400 by the end of the period.\n\nIn contrast, Arts and Humanities enrollment fell every year, dropping from 950 to 780, a decrease of 170 students. By 2019, the gap between the most and least popular faculties had widened considerably, with Business enrolling more than two and a half times as many students as Arts and Humanities.",
+      "examinerComments": "The response is well-organised with a clear overview and accurate data selection. Paragraphing is logical and comparisons are relevant. Vocabulary is appropriate with some variety, though grammatical range could be slightly wider for a higher band."
+    },
+    "timeLimit": 20,
+    "wordRequirement": 150,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_1",
+    "taskType": "PROCESS",
+    "questionText": "The diagram below shows the stages and equipment used in the process of water purification for public supply.",
+    "visualData": {
+      "chartType": "process",
+      "title": "The water purification process for public water supply",
+      "xAxisLabel": "Stage",
+      "categories": [
+        "Raw water intake",
+        "Coagulation & flocculation",
+        "Sedimentation",
+        "Filtration",
+        "Disinfection",
+        "Storage & distribution"
+      ],
+      "series": [
+        {
+          "name": "Flow sequence",
+          "data": [1, 2, 3, 4, 5, 6]
+        }
+      ],
+      "units": "stage",
+      "keyFeatures": [
+        "The process consists of six sequential stages from raw water intake to distribution.",
+        "Chemicals are added during coagulation to clump impurities together into floc.",
+        "Sedimentation allows heavy particles to settle before filtration removes finer solids.",
+        "Disinfection, typically with chlorine or UV, ensures the water is safe before storage and distribution."
+      ]
+    },
+    "instructions": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. You should write at least 150 words.",
+    "rubricFocus": [
+      "TASK_ACHIEVEMENT",
+      "COHERENCE_COHESION",
+      "LEXICAL_RESOURCE",
+      "GRAMMATICAL_RANGE"
+    ],
+    "suggestedApproach": {
+      "introduction": "Paraphrase the prompt, stating that the diagram illustrates the six-stage process by which raw water is purified and made safe for public consumption.",
+      "overview": "Note that the process is linear and sequential, beginning with the intake of untreated water and ending with storage and distribution, with chemical and physical treatment occurring in between.",
+      "bodyParagraphs": [
+        "Describe the first three stages (intake, coagulation and flocculation, sedimentation), explaining how chemicals cause particles to clump and settle.",
+        "Describe the final three stages (filtration, disinfection, storage and distribution), highlighting how remaining solids are removed and the water is sterilised before reaching consumers."
+      ],
+      "keyLanguage": [
+        "sequential stages",
+        "raw water intake",
+        "coagulation and flocculation",
+        "impurities settle",
+        "finer solids",
+        "disinfection",
+        "safe for public consumption"
+      ]
+    },
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 178,
+      "content": "The diagram illustrates the six-stage process by which raw water is purified and made safe for public consumption.\n\nOverall, the process is linear and sequential, beginning with the intake of untreated water and concluding with storage and distribution. It combines physical and chemical methods to remove impurities at each stage.\n\nThe process begins with raw water intake, where untreated water is drawn from a river or reservoir into the treatment facility. In the second stage, coagulation and flocculation, chemicals are added to the water to cause small particles to clump together into larger masses known as floc. These heavier particles then settle to the bottom during the sedimentation stage, separating from the cleaner water above.\n\nIn the fourth stage, the water passes through filters, typically sand and gravel, which remove any remaining finer solids. Next, disinfection takes place, usually involving chlorine or ultraviolet treatment, to eliminate harmful bacteria and viruses. Finally, the purified water is stored in tanks before being distributed through pipes to households and businesses.",
+      "examinerComments": "A thorough and well-structured description of the entire process with a clear overview. Stages are described in logical order using appropriate process language. Vocabulary is precise and varied, and complex sentence structures are used effectively."
+    },
+    "timeLimit": 20,
+    "wordRequirement": 150,
+    "difficulty": "HARD"
+  }
+]

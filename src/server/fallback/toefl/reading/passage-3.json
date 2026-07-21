@@ -1,0 +1,481 @@
+[
+  {
+    "passage": {
+      "title": "The Printing Press and the Democratization of Knowledge",
+      "author": "Helena Voss",
+      "source": "Renaissance Studies Journal",
+      "wordCount": 680,
+      "content": "Before the middle of the fifteenth century, books in Europe were objects of extraordinary expense and rarity. Each volume was copied by hand, typically by monks in monasteries or professional scribes working at painstaking speed. A single Bible could take a scribe over a year to complete, and the cost placed such works far beyond the reach of ordinary people. Knowledge, in a very literal sense, was a privilege reserved for the wealthy, the clergy, and the universities they endowed. The invention of the mechanical movable-type printing press by Johannes Gutenberg around fourteen forty dismantled this monopoly with a force that contemporaries could scarcely have anticipated.\n\nGutenberg's genius was not the idea of printing itself, for woodblock printing had existed in East Asia for centuries. Rather, it was the combination of three innovations into a single workable system: durable metal type that could be rearranged and reused, an oil-based ink that adhered properly to metal, and a modified wine press mechanism that applied even pressure across a page. This integration made it possible to produce identical copies of a text at a fraction of the previous cost and time. The Gutenberg Bible, completed around fourteen fifty-five, demonstrated the technology's potential by producing approximately one hundred and eighty copies, a number that would have been inconceivable through hand copying.\n\nThe immediate effect of the printing press was economic. Book prices plummeted. Within fifty years, presses operated in more than two hundred cities across Europe, and the total number of books produced exceeded several million, a figure that surpassed the cumulative output of all European scribes over the preceding thousand years. Scholars could now acquire texts that had once required arduous travel to distant libraries. Students could possess their own copies of required readings. The circulation of ideas accelerated dramatically.\n\nYet the cultural consequences ran far deeper than mere affordability. The press undermined the Catholic Church's ability to control religious interpretation. When Martin Luther posted his Ninety-Five Theses in fifteen seventeen, the text was reproduced and distributed across Germany within weeks and reached much of Europe within months. Without the printing press, the Protestant Reformation might have remained a local dispute rather than a continent-transforming movement. Luther himself recognized the technology's power, calling printing God's highest act of grace, an observation that acknowledged how decisively the press had shifted the balance between institutional authority and individual access to scripture.\n\nThe press also transformed the nature of scholarship itself. The Renaissance revival of classical texts had depended on a small number of handwritten manuscripts, each containing inevitable copying errors that compounded over centuries. Printers, motivated by commercial competition, began to employ scholars to compare manuscripts, identify errors, and produce corrected editions. This practice laid the groundwork for modern textual criticism and editorial standards. Furthermore, the standardization of typefaces and pagination made it possible to cite specific pages, enabling scholars in distant cities to refer to precisely the same passage, a capability that revolutionized collaborative intellectual work.\n\nA less celebrated but equally significant consequence was the standardization of vernacular languages. Before printing, regional dialects varied enormously, sometimes to the point of mutual incomprehensibility. Printers, seeking the widest possible market, selected specific dialects for their publications, generally those of major commercial and political centers. Over time, the repeated appearance of these dialects in printed materials elevated them to the status of national standards. The consolidation of what we now recognize as modern German, French, and English was thus intimately tied to the commercial decisions of early printers.\n\nThe printing press did not create the intellectual movements of the Renaissance, the Reformation, or the Scientific Revolution. Those movements arose from complex social, economic, and intellectual forces. What the press did was amplify them, giving ideas a reach, a permanence, and a cross-pollinating power they had never possessed before. It transformed knowledge from a guarded treasure into a circulating currency, and in doing so, it reshaped the trajectory of Western civilization.",
+      "topicCategory": "HISTORY",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "monopoly", "paragraph": 1, "context": "dismantled this monopoly with a force that contemporaries could scarcely have anticipated", "meaningInContext": "exclusive control over something, here the control of knowledge" },
+      { "word": "inconceivable", "paragraph": 2, "context": "a number that would have been inconceivable through hand copying", "meaningInContext": "impossible to imagine or believe" },
+      { "word": "arduous", "paragraph": 3, "context": "texts that had once required arduous travel to distant libraries", "meaningInContext": "involving great effort and difficulty" },
+      { "word": "vernacular", "paragraph": 6, "context": "The standardization of vernacular languages", "meaningInContext": "the everyday native language of ordinary people, as opposed to Latin" },
+      { "word": "cross-pollinating", "paragraph": 7, "context": "a cross-pollinating power they had never possessed before", "meaningInContext": "enabling ideas from different fields and regions to mix and enrich each other" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Books were always cheap in Europe",
+          "Gutenberg's printing press transformed knowledge access, religion, scholarship, and language",
+          "Monks opposed all forms of writing",
+          "The Reformation had no connection to technology"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage traces how the printing press dismantled the knowledge monopoly and reshaped religion, scholarship, and language."
+      },
+      {
+        "questionNumber": 32,
+        "questionText": "How long could it take a scribe to copy a single Bible before the printing press?",
+        "options": ["A few days", "A few weeks", "Over a year", "Over a decade"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "The passage states a single Bible could take a scribe over a year to complete."
+      },
+      {
+        "questionNumber": 33,
+        "questionText": "What were Gutenberg's three key innovations?",
+        "options": [
+          "Paper, ink, and binding",
+          "Reusable metal type, oil-based ink, and a modified wine press mechanism",
+          "Woodblocks, water mills, and quills",
+          "Glass plates, steam power, and lead-free ink"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "The three innovations were durable reusable metal type, oil-based ink, and a modified wine press for even pressure."
+      },
+      {
+        "questionNumber": 34,
+        "questionText": "Approximately how many copies of the Gutenberg Bible were produced?",
+        "options": ["About twenty", "About one hundred eighty", "About one thousand", "About ten thousand"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "The passage states approximately one hundred and eighty copies were produced."
+      },
+      {
+        "questionNumber": 35,
+        "questionText": "The word 'arduous' in paragraph 3 is closest in meaning to:",
+        "options": ["pleasant", "difficult and demanding great effort", "unnecessary", "brief"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, 'arduous' describes travel that was difficult and required great effort."
+      },
+      {
+        "questionNumber": 36,
+        "questionText": "What economic effect did the printing press have within fifty years?",
+        "options": [
+          "Book prices increased dramatically",
+          "Presses operated in over two hundred cities and millions of books were produced",
+          "All scribes became wealthy",
+          "Book production decreased"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "The passage states presses operated in more than two hundred cities and book output exceeded several million."
+      },
+      {
+        "questionNumber": 37,
+        "questionText": "What role did the printing press play in the Protestant Reformation?",
+        "options": [
+          "It had no role whatsoever",
+          "It allowed Luther's theses to spread rapidly across Europe within months",
+          "It was used only to print Bibles for monasteries",
+          "It was invented by Luther himself"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Luther's Ninety-Five Theses were reproduced and distributed across Germany within weeks, reaching Europe within months."
+      },
+      {
+        "questionNumber": 38,
+        "questionText": "What did Luther call printing?",
+        "options": [
+          "A tool of the devil",
+          "God's highest act of grace",
+          "A waste of resources",
+          "An insignificant invention"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Luther called printing 'God's highest act of grace,' recognizing its power to shift authority."
+      },
+      {
+        "questionNumber": 39,
+        "questionText": "How did printers contribute to modern textual criticism?",
+        "options": [
+          "They refused to compare manuscripts",
+          "They employed scholars to compare manuscripts and correct errors to gain competitive advantage",
+          "They intentionally introduced errors",
+          "They only printed classical texts unchanged"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Printers employed scholars to compare manuscripts, identify errors, and produce corrected editions, laying the groundwork for textual criticism."
+      },
+      {
+        "questionNumber": 40,
+        "questionText": "What capability did standardized pagination enable?",
+        "options": [
+          "Faster hand-copying",
+          "Scholars in distant cities could cite precisely the same passage",
+          "Lower ink costs",
+          "Monks to write faster"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Standardized typefaces and pagination let scholars refer to the same passage, revolutionizing collaboration."
+      },
+      {
+        "questionNumber": 41,
+        "questionText": "What was the effect of printing on regional dialects?",
+        "options": [
+          "All dialects disappeared immediately",
+          "Selected dialects of major centers became national standards through repeated printing",
+          "Latin became the only printed language",
+          "Printing had no effect on language"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Printers selected dialects of major centers, and repeated printing elevated them to national standards."
+      },
+      {
+        "questionNumber": 42,
+        "questionText": "The word 'vernacular' in paragraph 6 refers to:",
+        "options": [
+          "formal academic Latin",
+          "the native everyday language of ordinary people",
+          "a type of printing press",
+          "a style of illustration"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 6,
+        "explanation": "'Vernacular' refers to the everyday native language of ordinary people, as opposed to Latin."
+      },
+      {
+        "questionNumber": 43,
+        "questionText": "What does the author argue in the final paragraph?",
+        "options": [
+          "The printing press alone created the Renaissance and Reformation",
+          "The press amplified existing intellectual movements, giving them unprecedented reach and permanence",
+          "The press had minimal cultural impact",
+          "The Scientific Revolution preceded the printing press"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 7,
+        "explanation": "The author argues the press did not create the movements but amplified them, giving ideas reach and permanence."
+      },
+      {
+        "questionNumber": 44,
+        "questionText": "Why does the author compare book output after fifty years to the previous thousand years?",
+        "options": [
+          "To show that monks were lazy",
+          "To emphasize the unprecedented scale and speed of printed book production",
+          "To argue that scribes were unskilled",
+          "To prove that books were always abundant"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The comparison emphasizes that fifty years of printing surpassed a millennium of hand-copying output."
+      },
+      {
+        "questionNumber": 45,
+        "questionText": "Which sentence best summarizes the passage?",
+        "options": [
+          "Woodblock printing originated in Europe",
+          "The printing press transformed knowledge from a guarded privilege into a circulating force that reshaped Western civilization",
+          "Gutenberg was a monk who opposed literacy",
+          "The Reformation would have succeeded without the printing press"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the central thesis that the press democratized knowledge and reshaped civilization."
+      },
+      {
+        "questionNumber": 46,
+        "questionText": "The word 'inconceivable' in paragraph 2 most nearly means:",
+        "options": ["expected", "impossible to imagine", "easily achieved", "well-documented"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 2,
+        "explanation": "'Inconceivable' means impossible to imagine, emphasizing how remarkable the production scale was."
+      },
+      {
+        "questionNumber": 47,
+        "questionText": "What can be inferred about knowledge before the printing press?",
+        "options": [
+          "It was freely available to everyone",
+          "It was a privilege reserved for the wealthy, clergy, and universities",
+          "It was printed in all major languages",
+          "It was standardized across Europe"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 1,
+        "explanation": "The passage explicitly states knowledge was a privilege for the wealthy, clergy, and the universities they endowed."
+      },
+      {
+        "questionNumber": 48,
+        "questionText": "According to paragraph 5, what motivated printers to hire scholars?",
+        "options": [
+          "Government regulation",
+          "Commercial competition drove them to produce corrected, superior editions",
+          "Religious obligation",
+          "Monastic tradition"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Printers were motivated by commercial competition to produce corrected editions, hiring scholars for the task."
+      },
+      {
+        "questionNumber": 49,
+        "questionText": "What modern languages were shaped by early printing decisions?",
+        "options": [
+          "Only Latin and Greek",
+          "Modern German, French, and English",
+          "Only Italian",
+          "No languages were affected"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "The passage states the consolidation of modern German, French, and English was tied to early printers' decisions."
+      },
+      {
+        "questionNumber": 50,
+        "questionText": "The author's overall attitude toward the printing press is:",
+        "options": [
+          "Dismissive of its importance",
+          "Recognizing it as a transformative force that amplified intellectual movements",
+          "Critical of its economic effects",
+          "Neutral with no stated opinion"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 7,
+        "explanation": "The author concludes the press reshaped the trajectory of Western civilization, treating it as a transformative force."
+      }
+    ]
+  },
+  {
+    "passage": {
+      "title": "The Science and Ethics of CRISPR Gene Editing",
+      "author": "Dr. Amelia Voss",
+      "source": "Journal of Bioethics and Biotechnology",
+      "wordCount": 660,
+      "content": "In the span of a single decade, a technology has emerged that allows scientists to rewrite the genetic code of living organisms with unprecedented precision. CRISPR-Cas9, often described as molecular scissors, was adapted from a natural defense mechanism found in bacteria. Its development has revolutionized genetics, earned a Nobel Prize, and ignited one of the most consequential ethical debates of the twenty-first century.\n\nThe name CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats. These are segments of DNA found in bacteria that contain snippets of viral DNA from previous infections. When a virus attacks again, the bacterium uses these snippets as a template to produce a guide RNA molecule. This guide RNA leads an enzyme called Cas9 to the matching viral DNA, which the enzyme then cuts, disabling the virus. Scientists Jennifer Doudna and Emmanuelle Charpentier realized this bacterial immune system could be reprogrammed to target any gene in any organism.\n\nThe process is elegant in its simplicity. Researchers design a guide RNA that matches a specific DNA sequence they want to modify. The guide RNA is paired with the Cas9 enzyme and introduced into target cells. The guide RNA seeks out its matching DNA sequence, and Cas9 makes a precise cut at that location. The cell's natural repair machinery then kicks in, and scientists can exploit this repair process to either disable a gene or insert a new one.\n\nThe medical potential is staggering. CRISPR is already being used in clinical trials to treat sickle cell disease, a painful genetic blood disorder. In these treatments, doctors edit the patient's own blood stem cells to produce healthy hemoglobin, then return the modified cells to the body. Early results have been remarkable, with some patients effectively cured. Similar approaches are being developed for cystic fibrosis, muscular dystrophy, and certain inherited forms of blindness.\n\nHowever, CRISPR also raises profound ethical concerns, particularly regarding germline editing. Somatic editing changes only the cells in the treated individual and is widely considered ethically acceptable. Germline editing, by contrast, modifies sperm, eggs, or embryos, meaning the changes are heritable and will be passed to all future generations. In twenty-eighteen, Chinese scientist He Jiankui shocked the world by announcing he had used CRISPR to edit the genomes of human embryos, resulting in the birth of twin girls. The international scientific community condemned the experiment as premature and irresponsible.\n\nCritics of germline editing raise several objections. First, the long-term effects of genetic modifications are unknown; a change that seems beneficial could have unforeseen consequences generations later. Second, there is the slippery slope from treating disease to enhancing traits: height, intelligence, athletic ability. If only wealthy individuals can afford genetic enhancements, the result could be a permanent biological divide between the rich and the poor. Third, editing embryos raises questions about consent: the person who results from the edit cannot agree to the modifications made to their genome.\n\nDespite these concerns, many scientists believe that carefully regulated germline editing may one day be justified to eliminate devastating inherited diseases. The challenge is developing international consensus on where to draw the line. Organizations like the World Health Organization and the National Academies of Sciences have published guidelines, but enforcement remains difficult in a world where regulations vary widely by country. The CRISPR revolution is not just about scientific capability; it is about what kind of future we collectively choose to build.",
+      "topicCategory": "TECHNOLOGY",
+      "complexity": "TECHNICAL"
+    },
+    "vocabularyInContext": [
+      { "word": "unprecedented", "paragraph": 1, "context": "allows scientists to rewrite the genetic code of living organisms with unprecedented precision", "meaningInContext": "never done or known before; without previous example" },
+      { "word": "heritable", "paragraph": 5, "context": "meaning the changes are heritable and will be passed to all future generations", "meaningInContext": "capable of being inherited or passed on to offspring" },
+      { "word": "premature", "paragraph": 5, "context": "The international scientific community condemned the experiment as premature and irresponsible", "meaningInContext": "done too early, before sufficient understanding or safety was established" },
+      { "word": "consensus", "paragraph": 7, "context": "The challenge is developing international consensus on where to draw the line", "meaningInContext": "general agreement reached by a group" },
+      { "word": "exploit", "paragraph": 3, "context": "scientists can exploit this repair process to either disable a gene or insert a new one", "meaningInContext": "to make use of a natural process for a specific purpose" }
+    ],
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What does CRISPR stand for?",
+        "options": [
+          "Clustered Regularly Interspaced Short Palindromic Repeats",
+          "Cellular Reprogramming via Insertion of Synthetic Proteins",
+          "Conditional Regulation of Intracellular Sequencing Primers",
+          "Crispr Randomly Integrated Short Palindromic Regions"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 explicitly defines CRISPR as Clustered Regularly Interspaced Short Palindromic Repeats."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Where does the CRISPR system originally come from?",
+        "options": ["From viruses", "From a bacterial defense mechanism", "From plants", "From human immune cells"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 explains CRISPR was adapted from a natural defense mechanism found in bacteria that store viral DNA snippets."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who realized the CRISPR system could be reprogrammed for gene editing?",
+        "options": ["He Jiankui and Francis Collins", "Jennifer Doudna and Emmanuelle Charpentier", "James Watson and Francis Crick", "Craig Venter and Sydney Brenner"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 credits Jennifer Doudna and Emmanuelle Charpentier with realizing the bacterial system could target any gene in any organism."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What enzyme makes the cut in the DNA?",
+        "options": ["Guide RNA", "Cas9", "Hemoglobin", "Polymerase"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 explains the Cas9 enzyme makes a precise cut at the location identified by the guide RNA."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What disease is already being treated with CRISPR in clinical trials?",
+        "options": ["Common cold", "Sickle cell disease", "Type 1 diabetes", "Alzheimer's disease"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 describes clinical trials editing blood stem cells to treat sickle cell disease with remarkable early results."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the key difference between somatic and germline editing?",
+        "options": [
+          "Somatic editing is always illegal",
+          "Germline changes are heritable and passed to future generations; somatic changes affect only the treated individual",
+          "Somatic editing uses different enzymes",
+          "Germline editing is cheaper"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 explains somatic editing changes only the individual, while germline editing creates heritable changes in sperm, eggs, or embryos."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What did He Jiankui do in 2018?",
+        "options": [
+          "Discovered the CRISPR mechanism",
+          "Used CRISPR to edit human embryos, resulting in twin girls",
+          "Won the Nobel Prize for CRISPR",
+          "Banned germline editing in China"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 states He Jiankui used CRISPR to edit human embryos, resulting in the birth of twin girls, shocking the world."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What concern does the passage raise about genetic enhancements?",
+        "options": [
+          "They are impossible to achieve",
+          "If only wealthy individuals can afford them, it could create a permanent biological divide",
+          "They would cure all diseases",
+          "They would have no effect on society"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 warns of a slippery slope from disease treatment to trait enhancement, potentially creating a biological divide between rich and poor."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "The word 'heritable' in paragraph 5 most nearly means:",
+        "options": ["temporary", "capable of being passed to offspring", "harmful", "invisible"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 5,
+        "explanation": "In context, 'heritable' means the genetic changes can be inherited and passed to all future generations."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Why does the passage mention consent as an ethical concern?",
+        "options": [
+          "Because adults cannot consent to treatment",
+          "Because the person resulting from embryo editing cannot agree to modifications made to their genome",
+          "Because CRISPR requires legal contracts",
+          "Because only parents understand genetics"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 raises the point that edited individuals cannot consent to modifications made to their genome before birth."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "What does the author conclude about the CRISPR revolution?",
+        "options": [
+          "It should be banned entirely",
+          "It is about what kind of future we collectively choose to build",
+          "It will solve all medical problems",
+          "It poses no ethical challenges"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The final sentence frames the CRISPR revolution as being about what kind of future we collectively choose to build."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "The word 'consensus' in paragraph 7 is closest in meaning to:",
+        "options": ["disagreement", "general agreement", "confusion", "regulation"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 7,
+        "explanation": "In context, 'consensus' means general agreement reached by the international community on regulating germline editing."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "Why does the author mention the WHO and National Academies of Sciences?",
+        "options": [
+          "To argue that regulations are unnecessary",
+          "To illustrate the institutional effort to develop guidelines for gene editing",
+          "To promote germline editing",
+          "To describe how CRISPR works"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 7,
+        "explanation": "Paragraph 7 mentions these organizations to show institutional efforts to publish guidelines, while noting enforcement challenges remain."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "What can be inferred about international regulation of gene editing?",
+        "options": [
+          "All countries have identical laws",
+          "Regulations vary widely by country, making enforcement difficult",
+          "No country has any regulations",
+          "Only the US regulates gene editing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 7,
+        "explanation": "Paragraph 7 notes regulations vary widely by country and enforcement remains difficult despite published guidelines."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "What is the function of the guide RNA in the CRISPR process?",
+        "options": [
+          "It cuts the DNA",
+          "It leads the Cas9 enzyme to the matching DNA sequence",
+          "It repairs the DNA",
+          "It produces hemoglobin"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 explains the guide RNA seeks out its matching DNA sequence, leading Cas9 to the target location for cutting."
+      }
+    ]
+  }
+]

@@ -1,0 +1,861 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced astrophysics lecture on the methods used to detect dark matter and the challenges involved.",
+    "audioScript": "Situation: An astrophysicist delivers an advanced lecture on the methods used to detect dark matter and the challenges involved.\nProfessor: Dark matter constitutes roughly eighty-five per cent of the matter in the universe, yet it neither emits nor absorbs light, making it extraordinarily difficult to detect.\nProfessor: We rely on three complementary strategies: direct detection, indirect detection, and collider production.\nProfessor: Direct detection experiments look for rare recoils when a dark matter particle, such as a WIMP, scatters off a nucleus in a detector. The leading experiments use liquefied noble gases, particularly xenon, housed deep underground to shield against cosmic rays.\nProfessor: The XENON1T experiment, located in the Gran Sasso laboratory in Italy, operated one of the largest liquid xenon detectors. It set stringent upper limits but found no conclusive signal.\nProfessor: Indirect detection searches for the products of dark matter annihilation or decay, such as gamma rays or positrons, in astrophysical observations. The Fermi Large Area Telescope scans the sky for excess gamma rays from dwarf galaxies.\nProfessor: The third approach attempts to create dark matter particles in collider experiments, such as the Large Hadron Collider at CERN. Physicists look for missing energy in collision events, indicating an unseen particle escaping the detector.\nProfessor: A persistent challenge is the so-called neutrino floor. At sufficiently low recoil energies, neutrinos produced by the Sun produce signals indistinguishable from dark matter, setting a fundamental sensitivity limit.\nProfessor: Despite decades of effort, no experiment has produced a confirmed, reproducible detection. Complementary theoretical work on alternatives, such as axions and sterile neutrinos, continues to broaden the search space.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Professor Aldridge", "accent": "BRITISH", "gender": "MALE", "role": "astrophysicist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What fraction of the universe's matter does dark matter constitute?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifty per cent", "Seventy per cent", "Roughly eighty-five per cent", "Ninety-five per cent"],
+        "keywords": ["eighty-five per cent", "matter", "universe"],
+        "synonymsUsed": ["fraction", "proportion"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is dark matter extraordinarily difficult to detect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It neither emits nor absorbs light", "It moves faster than light", "It exists only in other galaxies", "It decays instantly"],
+        "keywords": ["emits", "absorbs", "light"],
+        "synonymsUsed": ["difficult", "challenging"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many complementary detection strategies does the lecturer describe?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["complementary", "strategies", "three"],
+        "synonymsUsed": ["approaches", "methods"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do direct detection experiments look for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Rare recoils when a WIMP scatters off a nucleus", "Flashes of visible light from dark matter", "Gravitational waves from dark matter collisions", "Changes in the cosmic microwave background"],
+        "keywords": ["direct detection", "rare recoils", "WIMP", "nucleus"],
+        "synonymsUsed": ["scattering", "collision"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which material is most commonly used in leading direct detection experiments?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Liquid helium", "Liquid xenon", "Solid silicon", "Gaseous argon"],
+        "keywords": ["liquid xenon", "noble gas"],
+        "synonymsUsed": ["material", "substance"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the XENON1T experiment located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The CERN laboratory in Switzerland", "The SNOLAB in Canada", "The Gran Sasso laboratory in Italy", "The Kamioka observatory in Japan"],
+        "keywords": ["XENON1T", "Gran Sasso", "Italy"],
+        "synonymsUsed": ["located", "situated"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does indirect detection search for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Direct collisions in particle accelerators", "Products of dark matter annihilation or decay, such as gamma rays", "Gravitational lensing distortions", "Radioactive decay in underground rocks"],
+        "keywords": ["indirect detection", "annihilation", "decay", "gamma rays"],
+        "synonymsUsed": ["products", "by-products"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which telescope scans the sky for excess gamma rays from dwarf galaxies?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The Fermi Large Area Telescope", "The Hubble Space Telescope", "The James Webb Space Telescope", "The Keck Observatory"],
+        "keywords": ["Fermi", "Large Area Telescope", "gamma rays"],
+        "synonymsUsed": ["scans", "observes"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What indicates a dark matter particle in collider experiments?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A bright flash of light", "A sudden temperature drop", "Missing energy in collision events", "An increase in collision frequency"],
+        "keywords": ["collider", "missing energy", "collision events"],
+        "synonymsUsed": ["indicates", "signals"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What creates the fundamental sensitivity limit known as the neutrino floor?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Cosmic ray interference in surface detectors", "Solar neutrinos producing signals indistinguishable from dark matter", "Electronic noise in the detector circuitry", "Background radiation from radioactive minerals"],
+        "keywords": ["neutrino floor", "solar neutrinos", "indistinguishable"],
+        "synonymsUsed": ["limit", "threshold"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "WIMP", "pronunciationNote": "/wɪmp/", "meaning": "Weakly Interacting Massive Particle, a leading candidate for dark matter." },
+      { "word": "annihilation", "pronunciationNote": "/əˌnaɪəˈleɪʃən/", "meaning": "The process by which a particle and its antiparticle collide and convert into other particles." },
+      { "word": "recoil", "pronunciationNote": "/ˈriːkɔɪl/", "meaning": "The backward movement of a nucleus when struck by a particle." },
+      { "word": "neutrino floor", "meaning": "A fundamental sensitivity limit where solar neutrino signals become indistinguishable from dark matter." },
+      { "word": "axion", "pronunciationNote": "/ˈæksiɒn/", "meaning": "A hypothetical elementary particle proposed as an alternative dark matter candidate." },
+      { "word": "sterile neutrino", "meaning": "A hypothetical neutrino that interacts only via gravity, proposed as a dark matter candidate." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced molecular biology lecture on epigenetic inheritance and how traits can be passed without changes to the DNA sequence.",
+    "audioScript": "Situation: A molecular biologist delivers an advanced lecture on epigenetic inheritance and how traits can be passed without changes to the DNA sequence.\nProfessor: Epigenetics refers to heritable changes in gene expression that do not involve alterations to the underlying DNA sequence.\nProfessor: The two principal mechanisms are DNA methylation and histone modification. DNA methylation typically occurs at cytosine bases, often silencing gene expression when it occurs near gene promoters.\nProfessor: Histones are proteins around which DNA is wound. Chemical modifications, such as acetylation and methylation of histone tails, alter how tightly DNA is packaged, thereby regulating access for transcription.\nProfessor: A landmark case study is the Dutch Hunger Winter of nineteen forty-four to forty-five. Children of mothers who experienced famine during early pregnancy showed higher rates of metabolic disease decades later, linked to altered methylation patterns.\nProfessor: This demonstrates that environmental exposures can leave lasting molecular marks that persist across generations, a phenomenon termed transgenerational epigenetic inheritance.\nProfessor: However, most epigenetic marks are erased and reset during gametogenesis and early embryonic development, a process called reprogramming. This makes robust evidence for multi-generational inheritance in humans still limited.\nProfessor: Animal models provide stronger evidence. In mice, fear conditioning in males has been shown to alter behaviour in offspring, mediated by changes in sperm microRNA.\nProfessor: Understanding epigenetic inheritance challenges the traditional view that only DNA sequence determines inheritance, with implications for evolutionary biology and public health.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Reinhart", "accent": "AMERICAN", "gender": "FEMALE", "role": "molecular biologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does epigenetics refer to?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Heritable changes in gene expression without alterations to the DNA sequence", "Mutations in the coding regions of genes", "Random changes in chromosome number", "The study of protein folding errors"],
+        "keywords": ["epigenetics", "heritable", "gene expression", "DNA sequence"],
+        "synonymsUsed": ["refers to", "means"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the two principal mechanisms of epigenetic regulation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["RNA interference and alternative splicing", "DNA methylation and histone modification", "Gene duplication and transposition", "Telomere shortening and centromere restructuring"],
+        "keywords": ["DNA methylation", "histone modification"],
+        "synonymsUsed": ["mechanisms", "processes"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "At which base does DNA methylation typically occur?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Adenine", "Guanine", "Cytosine", "Thymine"],
+        "keywords": ["methylation", "cytosine"],
+        "synonymsUsed": ["occurs at", "found at"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the typical effect of methylation near gene promoters?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It enhances gene expression", "It silences gene expression", "It has no effect on expression", "It causes DNA replication errors"],
+        "keywords": ["methylation", "promoters", "silencing"],
+        "synonymsUsed": ["effect", "result"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do histone modifications such as acetylation regulate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["How tightly DNA is packaged, regulating transcription access", "The speed of DNA replication", "The accuracy of RNA splicing", "The stability of the cell membrane"],
+        "keywords": ["histone", "acetylation", "packaged", "transcription"],
+        "synonymsUsed": ["regulate", "control"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which historical event serves as a landmark case study?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Irish Potato Famine", "The Dutch Hunger Winter of 1944-45", "The Great Depression", "The Chernobyl nuclear disaster"],
+        "keywords": ["Dutch Hunger Winter", "famine", "case study"],
+        "synonymsUsed": ["landmark", "example"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the phenomenon of environmental exposures leaving lasting marks across generations called?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Genetic drift", "Natural selection", "Transgenerational epigenetic inheritance", "Somatic mutation"],
+        "keywords": ["transgenerational", "epigenetic inheritance", "environmental"],
+        "synonymsUsed": ["phenomenon", "termed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to most epigenetic marks during gametogenesis and early embryonic development?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They are erased and reset, a process called reprogramming", "They are permanently locked in place", "They are doubled in intensity", "They are converted into DNA mutations"],
+        "keywords": ["erased", "reset", "reprogramming", "gametogenesis"],
+        "synonymsUsed": ["process", "reset"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In mice, what mediates the behavioural changes observed in offspring of fear-conditioned males?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Changes in mitochondrial DNA", "Alterations in neurotransmitter levels", "Changes in sperm microRNA", "Modifications to the blood-brain barrier"],
+        "keywords": ["mice", "sperm", "microRNA", "fear conditioning"],
+        "synonymsUsed": ["mediated", "caused"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What traditional view does epigenetic inheritance challenge?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That acquired traits can never be inherited", "That only DNA sequence determines inheritance", "That mutations are always random", "That evolution occurs only through natural selection"],
+        "keywords": ["traditional view", "DNA sequence", "inheritance"],
+        "synonymsUsed": ["challenges", "questions"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "methylation", "pronunciationNote": "/ˌmɛθɪˈleɪʃən/", "meaning": "The addition of a methyl group to DNA, often silencing gene expression." },
+      { "word": "histone", "pronunciationNote": "/ˈhɪstəʊn/", "meaning": "A protein around which DNA is wound, forming the structural core of chromatin." },
+      { "word": "acetylation", "pronunciationNote": "/əˌsɛtɪˈleɪʃən/", "meaning": "The addition of an acetyl group to histone tails, altering DNA packaging." },
+      { "word": "gametogenesis", "pronunciationNote": "/ˌɡæmɪtəʊˈdʒɛnɪsɪs/", "meaning": "The process by which gametes (sperm and egg cells) are formed." },
+      { "word": "reprogramming", "meaning": "The erasing and resetting of epigenetic marks during early development." },
+      { "word": "transgenerational", "meaning": "Extending across multiple generations, as in inherited epigenetic traits." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced computer science lecture on the ethical challenges posed by machine learning systems.",
+    "audioScript": "Situation: A computer scientist delivers an advanced lecture on the ethical challenges posed by machine learning systems.\nProfessor: Machine learning has become pervasive, but its deployment raises serious ethical concerns that engineers must address.\nProfessor: The first major concern is algorithmic bias. Training data often reflects historical inequalities, and models can amplify rather than correct them. A famous example is a hiring tool that downgraded female applicants because it learned from past hiring decisions.\nProfessor: The second concern is transparency. Deep learning models are often described as black boxes, because their internal decision-making is opaque even to their creators. This is problematic in high-stakes domains such as healthcare and criminal justice.\nProfessor: The third concern is accountability. When a machine learning system causes harm, assigning responsibility is difficult. Is it the developer, the deploying organisation, or the algorithm itself?\nProfessor: The fourth concern is privacy. Machine learning requires large datasets, often containing personal information. Techniques such as differential privacy aim to protect individuals while preserving statistical usefulness.\nProfessor: Finally, there is the question of fairness. There are over twenty mathematical definitions of fairness, and many are mutually incompatible. Choosing one involves value judgements, not merely technical optimisation.\nProfessor: Regulation is catching up. The European Union's AI Act, proposed in twenty twenty-one, classifies AI systems by risk level, imposing stricter requirements on high-risk applications.\nProfessor: Ethical machine learning is not an add-on but a foundational requirement that must be integrated throughout the design and deployment lifecycle.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Osei", "accent": "CANADIAN", "gender": "MALE", "role": "computer scientist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the first major ethical concern the lecturer describes?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Algorithmic bias", "Data storage costs", "Software compatibility", "Hardware obsolescence"],
+        "keywords": ["algorithmic bias", "first concern"],
+        "synonymsUsed": ["concern", "issue"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why did the hiring tool downgrade female applicants?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It was explicitly programmed to reject women", "It learned from past hiring decisions", "It had a software bug in the scoring module", "It confused gender with job experience"],
+        "keywords": ["hiring tool", "female applicants", "past hiring decisions"],
+        "synonymsUsed": ["downgraded", "learned"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How are deep learning models often described?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Open books", "Glass houses", "Black boxes", "White noise"],
+        "keywords": ["deep learning", "black boxes"],
+        "synonymsUsed": ["described as", "called"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which high-stakes domains is model opacity particularly problematic?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Entertainment and gaming", "Healthcare and criminal justice", "Agriculture and mining", "Retail and fashion"],
+        "keywords": ["high-stakes", "healthcare", "criminal justice"],
+        "synonymsUsed": ["problematic", "concerning"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the third major ethical concern?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Accountability", "Transparency", "Efficiency", "Scalability"],
+        "keywords": ["third concern", "accountability"],
+        "synonymsUsed": ["concern", "issue"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which technique aims to protect individual privacy while preserving statistical usefulness?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Data anonymisation alone", "Encryption at rest", "Differential privacy", "Cloud-based firewalls"],
+        "keywords": ["differential privacy", "protect individuals"],
+        "synonymsUsed": ["technique", "method"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many mathematical definitions of fairness does the lecturer mention?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Exactly ten", "Over twenty", "Fewer than five", "Exactly three"],
+        "keywords": ["fairness", "definitions", "twenty"],
+        "synonymsUsed": ["mentions", "states"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer note about these fairness definitions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Many are mutually incompatible", "They all converge on a single standard", "They are all equivalent mathematically", "They have been resolved by recent research"],
+        "keywords": ["fairness", "mutually incompatible"],
+        "synonymsUsed": ["notes", "observes"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which regulation classifies AI systems by risk level?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The California Consumer Privacy Act", "The General Data Protection Regulation", "The European Union's AI Act", "The Geneva Convention on AI"],
+        "keywords": ["EU AI Act", "risk level", "regulation"],
+        "synonymsUsed": ["regulation", "law"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer conclude about ethical machine learning?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is a secondary priority after performance", "It is a foundational requirement integrated throughout the lifecycle", "It is only relevant for government applications", "It can be addressed after deployment"],
+        "keywords": ["foundational requirement", "lifecycle", "integrated"],
+        "synonymsUsed": ["concludes", "final point"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "algorithmic bias", "pronunciationNote": "/ˌælɡəˈrɪðmɪk ˈbaɪəs/", "meaning": "Systematic errors in machine learning that disadvantage certain groups." },
+      { "word": "black box", "meaning": "A system whose internal workings are opaque and not easily interpretable." },
+      { "word": "accountability", "pronunciationNote": "/əˌkaʊntəˈbɪlɪti/", "meaning": "The obligation to take responsibility for the outcomes of a system." },
+      { "word": "differential privacy", "meaning": "A technique that adds noise to datasets to protect individual privacy while preserving aggregate statistics." },
+      { "word": "mutually incompatible", "meaning": "Cannot be satisfied simultaneously; conflicting requirements." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced biomedical engineering lecture on the applications of nanotechnology in modern medicine.",
+    "audioScript": "Situation: A biomedical engineer delivers an advanced lecture on the applications of nanotechnology in modern medicine.\nProfessor: Nanomedicine exploits materials at the nanoscale, typically between one and one hundred nanometres, where physical and chemical properties differ from bulk materials.\nProfessor: The most mature application is targeted drug delivery. Lipid nanoparticles, or liposomes, can encapsulate drugs and release them at specific sites, reducing systemic toxicity. This principle underpins the mRNA vaccines deployed during the COVID-19 pandemic.\nProfessor: Gold nanoparticles are another versatile platform. Their surface can be functionalised with antibodies to bind cancer cells, and when irradiated with near-infrared light, they generate heat that destroys tumours selectively, a technique called photothermal therapy.\nProfessor: Diagnostic applications are equally important. Iron oxide nanoparticles serve as contrast agents in magnetic resonance imaging, improving tumour detection. Quantum dots, though raising toxicity concerns due to heavy metal content, offer bright and tunable fluorescence for cellular imaging.\nProfessor: A persistent challenge is clearance and toxicity. The body's immune system may recognise nanoparticles as foreign, triggering inflammatory responses. Surface modification with polyethylene glycol, called PEGylation, helps evade immune detection.\nProfessor: Regulatory pathways remain complex because nanomaterials do not fit neatly into existing categories. Long-term studies on accumulation and chronic effects are still limited.\nProfessor: Looking ahead, theranostics, the combination of therapy and diagnostics in a single nanoparticle, represents a promising frontier for personalised medicine.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Vasquez", "accent": "AMERICAN", "gender": "FEMALE", "role": "biomedical engineer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "At what scale do materials typically exhibit properties useful for nanomedicine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Between 0.1 and 1 nanometres", "Between 1 and 100 nanometres", "Between 100 and 1000 nanometres", "Between 1 and 10 micrometres"],
+        "keywords": ["nanoscale", "1 to 100 nanometres"],
+        "synonymsUsed": ["scale", "range"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the most mature application of nanomedicine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Targeted drug delivery", "Cosmetic skin treatments", "Food preservation", "Water purification"],
+        "keywords": ["most mature", "targeted drug delivery"],
+        "synonymsUsed": ["application", "use"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What can lipid nanoparticles (liposomes) do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Repair DNA damage directly", "Generate electricity in cells", "Encapsulate drugs and release them at specific sites", "Replace damaged organelles"],
+        "keywords": ["lipid nanoparticles", "encapsulate", "release", "specific sites"],
+        "synonymsUsed": ["can do", "function"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which technology exemplifies the drug delivery principle in COVID-19 vaccines?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Viral vector vaccines", "mRNA vaccines", "Protein subunit vaccines", "Inactivated virus vaccines"],
+        "keywords": ["mRNA vaccines", "COVID-19", "principle"],
+        "synonymsUsed": ["exemplifies", "illustrates"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What technique uses gold nanoparticles and near-infrared light to destroy tumours?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Chemotherapy", "Photothermal therapy", "Radiation therapy", "Immunotherapy"],
+        "keywords": ["gold nanoparticles", "near-infrared", "photothermal therapy"],
+        "synonymsUsed": ["technique", "method"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do iron oxide nanoparticles serve as in magnetic resonance imaging?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Contrast agents", "Anaesthetics", "Antibiotics", "Fixatives"],
+        "keywords": ["iron oxide", "contrast agents", "MRI"],
+        "synonymsUsed": ["serve as", "function as"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do quantum dots raise toxicity concerns?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They are radioactive", "They degrade too quickly to be useful", "Due to heavy metal content", "They interfere with MRI signals"],
+        "keywords": ["quantum dots", "toxicity", "heavy metal"],
+        "synonymsUsed": ["concerns", "issues"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does PEGylation help nanoparticles do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Bind more tightly to tumour cells", "Evade immune detection", "Cross the blood-brain barrier", "Dissolve more rapidly in water"],
+        "keywords": ["PEGylation", "evade immune detection"],
+        "synonymsUsed": ["helps", "enables"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why are regulatory pathways complex for nanomaterials?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They do not fit neatly into existing categories", "They are too small to be regulated", "They are classified as biological agents", "No country has any nanotechnology laws"],
+        "keywords": ["regulatory", "do not fit", "existing categories"],
+        "synonymsUsed": ["complex", "difficult"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does theranostics combine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Surgery and rehabilitation", "Genetics and pharmacology", "Therapy and diagnostics in a single nanoparticle", "Imaging and surgery planning"],
+        "keywords": ["theranostics", "therapy", "diagnostics", "single nanoparticle"],
+        "synonymsUsed": ["combines", "merges"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "liposome", "pronunciationNote": "/ˈlɪpəˌsəʊm/", "meaning": "A tiny spherical sac of lipid molecules used to deliver drugs." },
+      { "word": "photothermal therapy", "meaning": "A treatment using light-absorbing nanoparticles to generate heat and destroy tumours." },
+      { "word": "contrast agent", "meaning": "A substance used to enhance the visibility of internal structures in medical imaging." },
+      { "word": "PEGylation", "pronunciationNote": "/ˌpɛɡɪˈleɪʃən/", "meaning": "The attachment of polyethylene glycol to nanoparticles to evade immune detection." },
+      { "word": "theranostics", "meaning": "The combination of therapeutic and diagnostic capabilities in a single platform." },
+      { "word": "quantum dot", "meaning": "A nanoscale semiconductor particle with tunable fluorescent properties used in imaging." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced political geography lecture on classical geopolitical theory and its enduring influence.",
+    "audioScript": "Situation: A political geographer delivers an advanced lecture on classical geopolitical theory and its enduring influence on strategy.\nProfessor: Geopolitics examines how geography shapes political power and international relations. The classical theories emerged in the late nineteenth and early twentieth centuries.\nProfessor: Halford Mackinder, a British geographer, proposed the Heartland Theory in nineteen hundred and four. He argued that whoever controls the Heartland, the resource-rich interior of Eurasia, commands the World Island, and thereby the world.\nProfessor: Mackinder's famous formulation reads: who rules East Europe commands the Heartland; who rules the Heartland commands the World Island; who rules the World Island commands the world.\nProfessor: This theory influenced twentieth-century strategy, particularly the containment policy during the Cold War, as Western powers sought to prevent any single power from dominating Eurasia.\nProfessor: A counterpoint came from Nicholas Spykman, who proposed the Rimland Theory. He argued that the coastal margins of Eurasia, the Rimland, were more critical than the interior, because they contained the majority of population and industry.\nProfessor: Spykman's insight, that control of the Rimland prevents Heartland domination, underpinned American strategy in the Pacific and Atlantic.\nProfessor: Alfred Mahan, an American naval officer, offered a sea power theory. He argued that control of the seas through a strong navy was the key to global influence, influencing the expansion of the United States Navy.\nProfessor: These theories remain debated. Critics argue they oversimplify, ignoring economics, ideology, and technology, yet they continue to inform strategic thinking in the twenty-first century.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Professor Whitfield", "accent": "BRITISH", "gender": "MALE", "role": "political geographer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does geopolitics examine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["How geography shapes political power and international relations", "How climate affects economic development", "How populations migrate across borders", "How technology drives military innovation"],
+        "keywords": ["geopolitics", "geography", "political power"],
+        "synonymsUsed": ["examines", "studies"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who proposed the Heartland Theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Nicholas Spykman", "Halford Mackinder", "Alfred Mahan", "Karl Haushofer"],
+        "keywords": ["Heartland Theory", "Mackinder"],
+        "synonymsUsed": ["proposed", "developed"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was the Heartland Theory proposed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen hundred and four", "Nineteen hundred and fourteen", "Nineteen twenty-four", "Eighteen ninety-eight"],
+        "keywords": ["Heartland Theory", "nineteen hundred and four", "1904"],
+        "synonymsUsed": ["proposed", "year"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the Heartland refer to?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The coastal regions of North America", "The islands of the Pacific", "The resource-rich interior of Eurasia", "The Sahara desert region"],
+        "keywords": ["Heartland", "interior", "Eurasia"],
+        "synonymsUsed": ["refers to", "means"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to Mackinder, what controls the Heartland?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Whoever rules the oceans", "Whoever rules East Europe", "Whoever controls the Suez Canal", "Whoever dominates the Pacific"],
+        "keywords": ["Mackinder", "East Europe", "Heartland"],
+        "synonymsUsed": ["controls", "commands"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which Cold War policy did the Heartland Theory influence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The containment policy", "The Marshall Plan only", "The détente strategy", "The disarmament treaties"],
+        "keywords": ["Cold War", "containment policy", "Heartland"],
+        "synonymsUsed": ["influenced", "shaped"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who proposed the Rimland Theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Halford Mackinder", "Alfred Mahan", "Nicholas Spykman", "Friedrich Ratzel"],
+        "keywords": ["Rimland Theory", "Spykman"],
+        "synonymsUsed": ["proposed", "developed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to Spykman, what is more critical than the interior?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The deep ocean", "The coastal margins, or Rimland", "The polar regions", "The island chains"],
+        "keywords": ["Spykman", "Rimland", "coastal margins", "critical"],
+        "synonymsUsed": ["critical", "important"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Alfred Mahan argue was key to global influence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Control of mountain passes", "A large standing army", "Control of the seas through a strong navy", "Nuclear weapons superiority"],
+        "keywords": ["Mahan", "sea power", "strong navy", "global influence"],
+        "synonymsUsed": ["argued", "claimed"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do critics argue about these classical theories?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They perfectly explain modern conflicts", "They oversimplify, ignoring economics, ideology, and technology", "They are entirely irrelevant today", "They have been proven wrong by recent events"],
+        "keywords": ["critics", "oversimplify", "economics", "ideology", "technology"],
+        "synonymsUsed": ["argue", "claim"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "Heartland", "pronunciationNote": "/ˈhɑːtlənd/", "meaning": "The resource-rich interior of Eurasia, central to Mackinder's geopolitical theory." },
+      { "word": "Rimland", "meaning": "The coastal margins of Eurasia, identified by Spykman as more strategically critical than the interior." },
+      { "word": "containment", "pronunciationNote": "/kənˈteɪnmənt/", "meaning": "A Cold War policy aimed at preventing the expansion of a rival power across Eurasia." },
+      { "word": "sea power", "meaning": "Mahan's theory that control of the seas through a strong navy is key to global influence." },
+      { "word": "World Island", "meaning": "Mackinder's term for the combined landmass of Europe, Asia, and Africa." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced quantum physics lecture on quantum entanglement and its implications for fundamental physics and technology.",
+    "audioScript": "Situation: A quantum physicist delivers an advanced lecture on quantum entanglement and its implications for fundamental physics and technology.\nProfessor: Quantum entanglement is a phenomenon in which two or more particles become correlated such that the state of each cannot be described independently of the others, even when separated by large distances.\nProfessor: Einstein famously called this spooky action at a distance, and in nineteen thirty-five, together with Podolsky and Rosen, he published the EPR paradox, arguing that quantum mechanics must be incomplete.\nProfessor: The resolution came in nineteen sixty-four, when John Bell formulated a theorem showing that no local hidden variable theory can reproduce all predictions of quantum mechanics. Bell's inequality provides a testable bound.\nProfessor: Experiments, beginning with Alain Aspect in nineteen eighty-two and culminating in the work of Hensen and colleagues in twenty fifteen, have consistently violated Bell's inequality, confirming quantum nonlocality.\nProfessor: Entanglement is not merely a philosophical curiosity. It is the foundational resource of quantum computing, where entangled qubits enable parallelism that classical computers cannot match.\nProfessor: Quantum cryptography exploits entanglement for secure communication. The BB84 protocol, though not entanglement-based, was extended by the Ekert protocol, which uses entangled photon pairs to guarantee security through the no-cloning theorem.\nProfessor: However, maintaining entanglement is extraordinarily difficult. Decoherence, the loss of quantum coherence through interaction with the environment, is the central obstacle to building practical quantum computers.\nProfessor: Recent milestones include Google's demonstration of quantum supremacy in twenty nineteen, though this remains contested in terms of practical utility.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Lindqvist", "accent": "AMERICAN", "gender": "FEMALE", "role": "quantum physicist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How are entangled particles described in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They move at the speed of light", "They share the same electric charge", "They are correlated such that one cannot be described independently of the others", "They always spin in opposite directions"],
+        "keywords": ["entangled", "correlated", "independently"],
+        "synonymsUsed": ["described", "characterised"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Einstein famously call entanglement?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Quantum weirdness", "Spooky action at a distance", "The uncertainty principle", "The wave function collapse"],
+        "keywords": ["Einstein", "spooky action", "distance"],
+        "synonymsUsed": ["called", "termed"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was the EPR paradox published?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen thirty-five", "Nineteen twenty-five", "Nineteen forty-five", "Nineteen fifty-five"],
+        "keywords": ["EPR paradox", "nineteen thirty-five"],
+        "synonymsUsed": ["published", "year"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the EPR paper argue?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That quantum mechanics was fully complete", "That quantum mechanics must be incomplete", "That entanglement was impossible", "That Bell's theorem was correct"],
+        "keywords": ["EPR", "incomplete", "quantum mechanics"],
+        "synonymsUsed": ["argued", "claimed"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year did John Bell formulate his theorem?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen fifty-four", "Nineteen fifty-nine", "Nineteen sixty-four", "Nineteen sixty-nine"],
+        "keywords": ["Bell", "theorem", "nineteen sixty-four"],
+        "synonymsUsed": ["formulated", "year"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Bell's theorem show?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That Einstein was correct about hidden variables", "That no local hidden variable theory can reproduce all quantum predictions", "That quantum mechanics is wrong", "That entanglement does not exist"],
+        "keywords": ["Bell's theorem", "local hidden variable", "predictions"],
+        "synonymsUsed": ["shows", "demonstrates"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Whose nineteen eighty-two experiments consistently violated Bell's inequality?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Alain Aspect", "John Bell", "Albert Einstein", "David Bohm"],
+        "keywords": ["Aspect", "nineteen eighty-two", "Bell's inequality"],
+        "synonymsUsed": ["experiments", "tests"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Of what is entanglement the foundational resource?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Classical computing", "Nuclear fission", "Quantum computing", "Solar energy"],
+        "keywords": ["foundational resource", "quantum computing"],
+        "synonymsUsed": ["resource", "basis"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which protocol uses entangled photon pairs for secure communication?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The BB84 protocol", "The Ekert protocol", "The RSA protocol", "The Diffie-Hellman protocol"],
+        "keywords": ["Ekert protocol", "entangled photon pairs", "secure communication"],
+        "synonymsUsed": ["uses", "employs"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the central obstacle to building practical quantum computers?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Decoherence", "Lack of funding", "Insufficient electricity", "The speed of light limit"],
+        "keywords": ["decoherence", "obstacle", "quantum computers"],
+        "synonymsUsed": ["central obstacle", "main challenge"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "entanglement", "pronunciationNote": "/ɪnˈtæŋɡəlmənt/", "meaning": "A quantum phenomenon where particles become correlated so their states are interdependent." },
+      { "word": "EPR paradox", "meaning": "A thought experiment by Einstein, Podolsky, and Rosen challenging the completeness of quantum mechanics." },
+      { "word": "Bell's inequality", "meaning": "A mathematical bound that, if violated, proves no local hidden variable theory can explain quantum mechanics." },
+      { "word": "decoherence", "pronunciationNote": "/ˌdiːkəʊˈhɪərəns/", "meaning": "The loss of quantum coherence through interaction with the environment, a major obstacle to quantum computing." },
+      { "word": "no-cloning theorem", "meaning": "A quantum principle stating that it is impossible to create an identical copy of an arbitrary unknown quantum state." },
+      { "word": "quantum supremacy", "meaning": "The demonstration that a quantum computer can solve a problem no classical computer can in feasible time." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced conservation biology lecture on strategies for biodiversity conservation in the face of accelerating extinction.",
+    "audioScript": "Situation: A conservation biologist delivers an advanced lecture on strategies for biodiversity conservation in the face of accelerating extinction.\nProfessor: Biodiversity is declining at rates unprecedented in human history, driven primarily by habitat loss, climate change, overexploitation, pollution, and invasive species.\nProfessor: The foundational strategy is protected areas. The international target, known as Thirty by Thirty, calls for thirty per cent of land and sea to be protected by twenty thirty.\nProfessor: However, protected areas alone are insufficient if they become isolated fragments. Wildlife corridors connect habitats, allowing gene flow and species migration, which is especially critical as climate change shifts species ranges.\nProfessor: Rewilding goes further by actively restoring ecosystems. The reintroduction of grey wolves to Yellowstone National Park in nineteen ninety-five is a celebrated example, as the wolves triggered a trophic cascade that restored vegetation and river systems.\nProfessor: Ex-situ conservation protects species outside their natural habitats. Botanic gardens, seed banks such as the Svalbard Global Seed Vault, and captive breeding programmes all serve as insurance against extinction.\nProfessor: Community-based conservation recognises that local communities must benefit from conservation. When indigenous peoples have land rights, deforestation rates tend to be lower.\nProfessor: Finally, economic instruments such as payments for ecosystem services and biodiversity credits create financial incentives for conservation, though critics warn against commodifying nature.\nProfessor: No single strategy suffices. Effective conservation requires an integrated landscape approach combining protected areas, corridors, community engagement, and sustainable finance.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Mwangi", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "conservation biologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer identify as the primary driver of biodiversity decline?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Habitat loss", "Space debris", "Volcanic eruptions", "Solar flares"],
+        "keywords": ["habitat loss", "primary driver", "biodiversity"],
+        "synonymsUsed": ["driver", "cause"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the international target for protected areas commonly called?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifty by Fifty", "Thirty by Thirty", "Twenty by Twenty", "Ten by Ten"],
+        "keywords": ["Thirty by Thirty", "international target", "protected areas"],
+        "synonymsUsed": ["called", "known as"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of land and sea does the target call for by twenty thirty?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten per cent", "Twenty per cent", "Thirty per cent", "Fifty per cent"],
+        "keywords": ["thirty per cent", "land and sea", "twenty thirty"],
+        "synonymsUsed": ["percentage", "proportion"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why are wildlife corridors important?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They connect habitats, allowing gene flow and species migration", "They provide tourism revenue for parks", "They prevent all forest fires", "They reduce carbon dioxide emissions directly"],
+        "keywords": ["wildlife corridors", "connect habitats", "gene flow", "migration"],
+        "synonymsUsed": ["important", "critical"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which species was reintroduced to Yellowstone National Park in nineteen ninety-five?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Bison", "Grey wolves", "Beavers", "Grizzly bears"],
+        "keywords": ["Yellowstone", "grey wolves", "nineteen ninety-five"],
+        "synonymsUsed": ["reintroduced", "restored"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the wolf reintroduction trigger in Yellowstone?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A decline in vegetation", "An increase in erosion", "A trophic cascade that restored vegetation and river systems", "The extinction of several bird species"],
+        "keywords": ["trophic cascade", "vegetation", "river systems"],
+        "synonymsUsed": ["triggered", "caused"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is ex-situ conservation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Protecting species outside their natural habitats", "Protecting species only within national parks", "Breeding species only in laboratories", "Conserving genetic material digitally"],
+        "keywords": ["ex-situ", "outside", "natural habitats"],
+        "synonymsUsed": ["defined as", "means"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which seed bank is mentioned as an example of ex-situ conservation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Millennium Seed Bank in London", "The Svalbard Global Seed Vault", "The National Seed Storage Laboratory", "The Kew Gardens seed collection"],
+        "keywords": ["Svalbard", "Global Seed Vault", "seed bank"],
+        "synonymsUsed": ["mentioned", "cited"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens when indigenous peoples have land rights, according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Deforestation rates increase", "There is no measurable effect", "Deforestation rates tend to be lower", "Biodiversity remains unchanged"],
+        "keywords": ["indigenous", "land rights", "deforestation", "lower"],
+        "synonymsUsed": ["happens", "results"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do critics warn about economic instruments for conservation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That they are too expensive to implement", "Against commodifying nature", "That they reduce biodiversity", "That they are illegal under international law"],
+        "keywords": ["critics", "commodifying nature", "economic instruments"],
+        "synonymsUsed": ["warn", "caution"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "trophic cascade", "pronunciationNote": "/ˈtrəʊfɪk kæˈskeɪd/", "meaning": "An ecological phenomenon where changes at one trophic level trigger effects throughout the food web." },
+      { "word": "ex-situ conservation", "meaning": "The protection of species outside their natural habitats, such as in seed banks and botanic gardens." },
+      { "word": "rewilding", "pronunciationNote": "/ˌriːˈwaɪldɪŋ/", "meaning": "The active restoration of ecosystems, often through reintroducing key species." },
+      { "word": "wildlife corridor", "meaning": "A connecting strip of habitat that allows species to move between isolated fragments." },
+      { "word": "ecosystem services", "meaning": "The benefits that humans derive from ecosystems, such as pollination and water purification." },
+      { "word": "biodiversity credits", "meaning": "Financial instruments that create tradable units representing biodiversity gains." }
+    ],
+    "difficulty": "MEDIUM"
+  }
+]

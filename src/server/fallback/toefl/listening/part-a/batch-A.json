@@ -1,0 +1,1203 @@
+[
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a bookstore clerk about returning a textbook.",
+    "audioScript": "Situation: A student visits the campus bookstore to return a textbook that was purchased with an access code already scratched off.\nBookstore Clerk: Hi there, how can I help you today?\nGrace: Hi, I'd like to return this chemistry textbook. I bought it on Monday, but I just found out my professor switched the required edition, so I don't need it anymore.\nBookstore Clerk: I see. Do you have your receipt?\nGrace: Yes, here it is. I paid sixty-eight dollars with my debit card.\nBookstore Clerk: Thank you. Let me check the book's condition. Hmm, I notice the shrink-wrap is torn and the access code seal has been scratched off. Unfortunately, we can't accept returns on books with used access codes. It's bookstore policy.\nGrace: Oh no. I didn't scratch it myself. When I opened the package, the seal was already partially peeled. I assumed it was just packaging.\nBookstore Clerk: I understand, but once the seal is broken, the publisher considers the code used and won't take it back. However, I can offer you store credit for fifty percent of the purchase price, which would be thirty-four dollars. You could use it toward the new edition.\nGrace: That's better than nothing. Do you have the new edition in stock?\nBookstore Clerk: Let me check. Yes, we have the twelfth edition in stock. It's seventy-two dollars. With your store credit, you'd pay thirty-eight dollars out of pocket.\nGrace: Okay, I'll take the store credit and buy the new edition. Can I use the remaining credit later?\nBookstore Clerk: Absolutely. Store credit doesn't expire, and you can use it anytime within the next two years. Just present your student ID at checkout.\nGrace: Great. Thank you for explaining everything.\nBookstore Clerk: No problem. I'll process the return and ring up the new edition now.",
+    "speakers": [
+      { "name": "Grace", "role": "student" },
+      { "name": "Bookstore Clerk", "role": "bookstore staff" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Grace want to return the textbook?",
+        "options": [
+          "She dropped the chemistry course",
+          "Her professor switched to a different required edition",
+          "The book was damaged when she bought it",
+          "She found a cheaper copy online"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Grace explains she wants to return the book because her professor switched the required edition, so she no longer needs it."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How much did Grace pay for the original textbook?",
+        "options": ["$58", "$68", "$72", "$34"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Grace states she paid sixty-eight dollars for the textbook with her debit card."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why can't the bookstore accept a full return?",
+        "options": [
+          "Grace lost the receipt",
+          "The access code seal has been scratched off",
+          "The return period has expired",
+          "Grace paid with cash"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk points out the access code seal has been scratched off, which means the publisher considers the code used and won't take it back."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does Grace say about the access code seal?",
+        "options": [
+          "She scratched it off intentionally",
+          "The seal was already partially peeled when she opened the package",
+          "She never opened the package",
+          "Her roommate scratched it off"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Grace explains she didn't scratch it herself and that the seal was already partially peeled when she opened the package."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does the clerk offer Grace instead of a full refund?",
+        "options": [
+          "A full cash refund",
+          "Store credit for fifty percent of the purchase price",
+          "A replacement book for free",
+          "A discount coupon for next semester"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk offers store credit for fifty percent of the purchase price, which is thirty-four dollars."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How much store credit does Grace receive?",
+        "options": ["$24", "$30", "$34", "$38"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The clerk states the store credit is fifty percent of sixty-eight dollars, which equals thirty-four dollars."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How much does the new twelfth edition cost?",
+        "options": ["$68", "$72", "$34", "$38"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk says the new edition is seventy-two dollars."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How much will Grace pay out of pocket for the new edition?",
+        "options": ["$30", "$34", "$38", "$72"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The clerk calculates that with thirty-four dollars store credit, Grace would pay thirty-eight dollars out of pocket for the seventy-two dollar book."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the store credit policy?",
+        "options": [
+          "Store credit expires in one month",
+          "Store credit does not expire and can be used anytime within two years",
+          "Store credit can only be used on textbooks",
+          "Store credit must be used the same day"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The clerk states store credit doesn't expire and can be used anytime within the next two years, making it a flexible option."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Complaining about high textbook prices",
+          "Returning a textbook with a used access code and getting store credit for a new edition",
+          "Applying for a job at the campus bookstore",
+          "Reserving a textbook for next semester"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Grace returning a textbook with a scratched access code, receiving partial store credit, and purchasing the new required edition."
+      }
+    ],
+    "keyVocabulary": ["shrink-wrap", "access code", "store credit", "edition", "out of pocket", "receipt"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a resident advisor about a dorm roommate issue.",
+    "audioScript": "Situation: A student visits the resident advisor's office to discuss a recurring conflict with their roommate over noise and study habits.\nRA Jordan: Come in, Tyler. You mentioned in your message that you wanted to talk about an issue with your roommate. What's going on?\nTyler: Thanks, Jordan. It's about my roommate, Brian. We've been sharing room two-fourteen since September, and things were fine at first. But over the last three weeks, he's been playing video games with his headset on until two or three in the morning. The clicking keeps me awake, and I have an eight AM class three days a week.\nRA Jordan: I understand how frustrating that can be. Have you tried talking to Brian directly about it?\nTyler: I have, twice. The first time he said he'd stop by midnight. He did for two nights, then went back to the same routine. The second time he got defensive and said I should use earplugs.\nRA Jordan: Okay. Since you've already attempted to resolve it one-on-one, the next step is a facilitated mediation. I'll schedule a meeting with both of you in this office. During mediation, we'll draft a roommate agreement that outlines specific quiet hours and expectations.\nTyler: That sounds good. What if he doesn't follow the agreement after we sign it?\nRA Jordan: If the agreement is violated, I document it and escalate to the Hall Director. Repeated violations can result in a formal conduct review, and in serious cases, one roommate may be reassigned to a different room. But that's a last resort. Most issues get resolved at the mediation stage.\nTyler: I hope so. I don't want to get him in trouble, but I'm falling behind in my coursework because I'm exhausted.\nRA Jordan: I hear you. Let me also suggest using the study lounge on the first floor as a backup quiet space. It's open twenty-four hours and has individual desks. When can you both meet? I have openings Thursday at seven PM or Friday at four PM.\nTyler: Friday at four works better for me. I'll ask Brian tonight and confirm by tomorrow.\nRA Jordan: Perfect. I'll send you both a confirmation email with the mediation guidelines attached. Please read them before the meeting.",
+    "speakers": [
+      { "name": "Tyler", "role": "student" },
+      { "name": "RA Jordan", "role": "resident advisor" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Tyler visit RA Jordan?",
+        "options": [
+          "To request a room change",
+          "To discuss a recurring noise conflict with his roommate Brian",
+          "To report a maintenance problem in his room",
+          "To sign up for a dorm event"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Tyler visits RA Jordan to discuss his roommate Brian playing video games late at night, which is disrupting his sleep."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What room do Tyler and Brian share?",
+        "options": ["Room 114", "Room 214", "Room 240", "Room 314"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler states they have been sharing room two-fourteen since September."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does Brian do late at night that bothers Tyler?",
+        "options": [
+          "Plays loud music",
+          "Plays video games with a headset until two or three AM",
+          "Hosts friends in the room",
+          "Watches movies without headphones"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler explains Brian plays video games with his headset on until two or three in the morning, and the clicking keeps him awake."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many times has Tyler already talked to Brian about the issue?",
+        "options": ["Once", "Twice", "Three times", "Never"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler says he has tried talking to Brian directly twice, with limited and temporary success."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What was Brian's response the second time Tyler confronted him?",
+        "options": [
+          "He apologized and stopped completely",
+          "He got defensive and said Tyler should use earplugs",
+          "He agreed to move out",
+          "He filed a complaint against Tyler"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler reports that the second time, Brian got defensive and suggested Tyler should use earplugs."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the next step RA Jordan proposes?",
+        "options": [
+          "Immediately reassign Tyler to a new room",
+          "Schedule a facilitated mediation to draft a roommate agreement",
+          "File a conduct report right away",
+          "Talk to Brian without Tyler present"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Jordan proposes scheduling a facilitated mediation meeting where they will draft a roommate agreement outlining quiet hours and expectations."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What happens if the roommate agreement is violated?",
+        "options": [
+          "Nothing, the agreement is non-binding",
+          "RA Jordan documents it and escalates to the Hall Director",
+          "Both students are immediately evicted",
+          "Tyler gets reassigned automatically"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Jordan explains that if the agreement is violated, he documents it and escalates to the Hall Director, with possible conduct review or reassignment as a last resort."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What backup option does RA Jordan suggest for Tyler?",
+        "options": [
+          "Sleeping in the library",
+          "Using the study lounge on the first floor as a quiet space",
+          "Moving to an off-campus apartment",
+          "Studying in the dining hall"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "RA Jordan suggests using the study lounge on the first floor, which is open twenty-four hours and has individual desks."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about RA Jordan's approach to the conflict?",
+        "options": [
+          "He wants to punish Brian immediately",
+          "He follows a progressive resolution process, starting with mediation before escalation",
+          "He thinks Tyler is overreacting",
+          "He plans to ignore the complaint"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "RA Jordan first confirms Tyler tried resolving it directly, then proposes mediation, and only mentions escalation as a last resort, showing a progressive resolution approach."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Planning a dorm social event",
+          "Resolving a roommate noise conflict through mediation and a roommate agreement",
+          "Applying for a resident advisor position",
+          "Discussing dormitory renovation plans"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Tyler's roommate noise issue and RA Jordan's plan to resolve it through facilitated mediation and a written roommate agreement."
+      }
+    ],
+    "keyVocabulary": ["resident advisor", "roommate agreement", "mediation", "quiet hours", "conduct review", "escalate", "reassigned"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a financial aid counselor.",
+    "audioScript": "Situation: A student visits the financial aid office to appeal a reduced scholarship award and ask about work-study options.\nFinancial Aid Counselor: Good morning. How can I assist you today?\nNadia: Hi, I'm Nadia Rahman. I received my financial aid package for next year, and my merit scholarship was reduced from eight thousand dollars to five thousand. I wanted to understand why and see if I can appeal.\nFinancial Aid Counselor: Let me pull up your file. Okay, I see it here. Your merit scholarship was reduced because your GPA dropped from three point seven to three point three this past semester. The scholarship requires maintaining a three point five cumulative GPA.\nNadia: I understand that, but the drop was due to a medical situation. I was hospitalized for two weeks in October and missed several midterms. I have documentation from the hospital and my doctor. I was hoping to file an appeal based on extenuating circumstances.\nFinancial Aid Counselor: I'm sorry to hear about your health issues. Yes, you can file a financial aid appeal. You'll need to submit the appeal form along with your medical documentation and a personal statement explaining the situation. The appeals committee meets once a month, and the next meeting is in two weeks. If approved, your scholarship could be reinstated to the full eight thousand dollars retroactively.\nNadia: That's reassuring. In the meantime, is there anything else I can do to cover the gap? Three thousand dollars is a lot.\nFinancial Aid Counselor: You have a couple of options. First, you're eligible for the federal work-study program, which would allow you to earn up to two thousand dollars per semester through an on-campus job. The library and the tutoring center currently have openings. Second, you could apply for an emergency short-term loan of up to fifteen hundred dollars, which is interest-free if repaid within ninety days.\nNadia: The work-study sounds ideal. How many hours per week would I need to work?\nFinancial Aid Counselor: Most work-study jobs require ten to fifteen hours per week. The pay rate is typically fifteen dollars per hour, so you'd earn around six hundred to nine hundred dollars per month depending on your schedule.\nNadia: I think I can manage twelve hours a week. Where do I apply?\nFinancial Aid Counselor: You can browse and apply for work-study positions through the student employment portal. I'll also email you the appeal form and the loan application today. Make sure to submit the appeal before next Friday to be included in the upcoming committee meeting.",
+    "speakers": [
+      { "name": "Nadia", "role": "student" },
+      { "name": "Financial Aid Counselor", "role": "financial aid staff" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Nadia visit the financial aid office?",
+        "options": [
+          "To apply for a student loan",
+          "To appeal a reduced scholarship award and ask about work-study options",
+          "To pay off an outstanding tuition balance",
+          "To update her banking information"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Nadia visits to understand why her merit scholarship was reduced and to appeal the decision, as well as to ask about work-study options."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How much was Nadia's merit scholarship reduced from?",
+        "options": [
+          "From $5,000 to $3,000",
+          "From $8,000 to $5,000",
+          "From $10,000 to $7,000",
+          "From $8,000 to $3,000"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia states her merit scholarship was reduced from eight thousand dollars to five thousand dollars."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the minimum cumulative GPA required for the merit scholarship?",
+        "options": ["3.0", "3.3", "3.5", "3.7"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The counselor explains the scholarship requires maintaining a three point five cumulative GPA."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What caused Nadia's GPA to drop?",
+        "options": [
+          "She skipped too many classes",
+          "She was hospitalized for two weeks in October and missed midterms",
+          "She transferred from another school",
+          "She took too many difficult courses"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia explains her GPA dropped because she was hospitalized for two weeks in October and missed several midterms, with medical documentation available."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Nadia need to submit for her appeal?",
+        "options": [
+          "Only her transcript",
+          "The appeal form, medical documentation, and a personal statement",
+          "A letter from her professors",
+          "Her high school records"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor states Nadia needs to submit the appeal form along with medical documentation and a personal statement explaining the situation."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "When is the next appeals committee meeting?",
+        "options": [
+          "Next week",
+          "In two weeks",
+          "In one month",
+          "At the end of the semester"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor says the appeals committee meets once a month, and the next meeting is in two weeks."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How much can Nadia earn through the federal work-study program per semester?",
+        "options": [
+          "Up to $1,000",
+          "Up to $1,500",
+          "Up to $2,000",
+          "Up to $3,000"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The counselor states the work-study program would allow Nadia to earn up to two thousand dollars per semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the interest-free emergency short-term loan limit?",
+        "options": [
+          "Up to $1,000, repaid within 60 days",
+          "Up to $1,500, repaid within 90 days",
+          "Up to $2,000, repaid within 120 days",
+          "Up to $3,000, repaid within 30 days"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The counselor mentions an emergency short-term loan of up to fifteen hundred dollars that is interest-free if repaid within ninety days."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the work-study pay rate and hours?",
+        "options": [
+          "The pay rate is $10 per hour for 20 hours per week",
+          "The pay rate is $15 per hour for 10 to 15 hours per week",
+          "The pay rate is $12 per hour for 8 hours per week",
+          "The pay rate is $20 per hour for 5 hours per week"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The counselor states the pay rate is typically fifteen dollars per hour and most jobs require ten to fifteen hours per week."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Paying off an outstanding student loan",
+          "Appealing a reduced scholarship due to medical circumstances and exploring work-study and loan options",
+          "Applying for a new merit scholarship",
+          "Negotiating a tuition discount with the bursar"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers Nadia appealing her reduced scholarship due to a medical situation and learning about work-study and emergency loan options to cover the financial gap."
+      }
+    ],
+    "keyVocabulary": ["merit scholarship", "financial aid appeal", "extenuating circumstances", "work-study", "cumulative GPA", "short-term loan", "retroactively", "student employment portal"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a registrar's office clerk about a grade inquiry.",
+    "audioScript": "Situation: A student visits the registrar's office to question a missing grade on their transcript.\nRegistrar Clerk: Hello, how can I help you today?\nEthan: Hi, I'm Ethan Park, student ID four-four-one-two-eight-seven. I was checking my transcript online and noticed that my grade for History 220 from last semester is showing as incomplete. I definitely submitted the final paper and took the exam.\nRegistrar Clerk: Let me look into that for you. Okay, I can see History 220 in your record. The registrar's system shows the instructor, Professor Walsh, submitted an incomplete grade. This usually means the instructor hasn't submitted the final grade yet or marked it as pending.\nEthan: But the semester ended three weeks ago. All my other professors submitted grades on time. Should I contact Professor Walsh directly?\nRegistrar Clerk: Yes, that's the recommended first step. Sometimes instructors need additional documentation or there was an administrative hold. I can give you Professor Walsh's email and office extension. However, if you don't hear back within five business days, you can file a formal grade inquiry form with our office. We'll then contact the department chair on your behalf.\nEthan: That makes sense. Is there a deadline for filing the grade inquiry?\nRegistrar Clerk: Yes, grade inquiries must be filed within thirty days of the grade posting date. Since grades were posted two weeks ago, you have about two more weeks remaining. If the issue isn't resolved within that window, it becomes much harder to change the grade.\nEthan: Understood. Will the incomplete grade affect my financial aid or enrollment status?\nRegistrar Clerk: An incomplete grade does not immediately affect your financial aid, but if it converts to a failing grade after sixty days, it could impact your GPA and potentially your aid eligibility. I recommend resolving this as quickly as possible.\nEthan: I'll email Professor Walsh today. Can I also get a copy of the grade inquiry form just in case?\nRegistrar Clerk: Absolutely. I'll print one for you now. You can also download it from the registrar's website under the student forms section. Fill it out and bring it back if you don't get a response from Professor Walsh.\nEthan: Thank you. One more thing, will the updated grade appear immediately once it's submitted?\nRegistrar Clerk: Once the professor submits the grade change, it takes about three to five business days to process and appear on your official transcript.",
+    "speakers": [
+      { "name": "Ethan", "role": "student" },
+      { "name": "Registrar Clerk", "role": "registrar's office staff" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Ethan visit the registrar's office?",
+        "options": [
+          "To request a transcript copy",
+          "To question a missing grade showing as incomplete on his transcript",
+          "To register for next semester's courses",
+          "To change his major"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Ethan noticed his History 220 grade is showing as incomplete and wants to understand why and resolve it."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What course is showing an incomplete grade?",
+        "options": ["History 110", "History 220", "History 320", "English 220"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ethan states the grade for History 220 from last semester is showing as incomplete on his transcript."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who is the instructor for the course in question?",
+        "options": ["Professor Chen", "Professor Walsh", "Professor Kim", "Professor Reed"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The registrar clerk identifies the instructor as Professor Walsh, who submitted an incomplete grade."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does the clerk recommend as the first step?",
+        "options": [
+          "File a formal grade inquiry immediately",
+          "Contact Professor Walsh directly",
+          "Wait another week before doing anything",
+          "Contact the department chair"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk recommends contacting Professor Walsh directly as the first step, and provides his email and office extension."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "If Ethan doesn't hear back from the professor, what can he do?",
+        "options": [
+          "Drop the course retroactively",
+          "File a formal grade inquiry form with the registrar's office",
+          "File a lawsuit against the university",
+          "Request a different instructor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk says if Ethan doesn't hear back within five business days, he can file a formal grade inquiry form, and the registrar will contact the department chair."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the deadline for filing a grade inquiry?",
+        "options": [
+          "Within 15 days of the grade posting date",
+          "Within 30 days of the grade posting date",
+          "Within 60 days of the grade posting date",
+          "There is no deadline"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk states grade inquiries must be filed within thirty days of the grade posting date."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How much time does Ethan have left to file the inquiry?",
+        "options": [
+          "About one week",
+          "About two weeks",
+          "About three weeks",
+          "About one month"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk notes grades were posted two weeks ago, so Ethan has about two more weeks remaining within the thirty-day window."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What happens if the incomplete grade converts to a failing grade?",
+        "options": [
+          "Nothing changes",
+          "It could impact his GPA and potentially his financial aid eligibility after sixty days",
+          "He is automatically expelled",
+          "He loses all course credits"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk explains an incomplete does not immediately affect financial aid, but if it converts to a failing grade after sixty days, it could impact GPA and aid eligibility."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How long does it take for a grade change to appear on the transcript?",
+        "options": [
+          "Immediately",
+          "One to two business days",
+          "Three to five business days",
+          "Up to two weeks"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The clerk states that once the professor submits the grade change, it takes about three to five business days to process and appear on the official transcript."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Registering for courses for the next semester",
+          "Inquiring about an incomplete grade and learning the resolution process and deadlines",
+          "Appealing a failing grade from a previous semester",
+          "Requesting an official transcript for graduate school"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Ethan's incomplete grade in History 220, the steps to resolve it, the deadline for filing a grade inquiry, and the potential consequences of an unresolved incomplete."
+      }
+    ],
+    "keyVocabulary": ["transcript", "incomplete grade", "grade inquiry", "department chair", "administrative hold", "grade posting date", "financial aid eligibility"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a mailroom clerk about a package issue.",
+    "audioScript": "Situation: A student visits the campus mailroom to inquire about a package that shows as delivered but was never picked up.\nMailroom Clerk: Hi, what can I do for you?\nSofia: Hi, I'm Sofia Alvarez, room three-twelve in North Hall. I got a notification that a package was delivered to the mailroom for me on Monday, but I never received a pickup slip in my mailbox. It's now Thursday and I'm worried it's lost.\nMailroom Clerk: Let me check the system. Can I see your student ID?\nSofia: Sure, here it is.\nMailroom Clerk: Okay, I see a package logged on Monday under your name. It was scanned in from Amazon, tracking number ending in four-seven-two-nine. But it looks like the pickup slip was generated but possibly misfiled. Let me check the overflow shelf. Ah, here it is. It was placed on the overflow shelf because the standard package bins were full that day.\nSofia: Oh, thank goodness. What was the hold-up? Why wasn't I notified properly?\nMailroom Clerk: When package volume is high, especially during the first two weeks of the semester, slips sometimes get delayed. The system sent you an email notification on Monday, but the physical slip wasn't placed in your mailbox. I apologize for the inconvenience.\nSofia: I did check my email, but the notification went to my spam folder. Is there a way to get text notifications instead?\nMailroom Clerk: Yes, you can update your notification preferences on the mailroom portal. Log in with your student ID and select text message alerts. You'll receive an SMS the moment a package is scanned in. Also, packages are held for fourteen days. After that, they're returned to the sender.\nSofia: Fourteen days? That's good to know. I'll update my preferences right away. Can I pick up the package now?\nMailroom Clerk: Of course. I just need you to sign this electronic log confirming you received it. The package is a medium box, about five pounds. Please check that the seal is intact before you leave.\nSofia: The seal looks fine. Thank you for finding it so quickly.\nMailroom Clerk: No problem. And going forward, you can also track packages through the portal using your tracking number, so you'll always know the status.",
+    "speakers": [
+      { "name": "Sofia", "role": "student" },
+      { "name": "Mailroom Clerk", "role": "mailroom staff" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Sofia visit the campus mailroom?",
+        "options": [
+          "To mail a package to her family",
+          "To inquire about a package that shows as delivered but was never picked up",
+          "To complain about mailroom hours",
+          "To rent a mailbox"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Sofia explains she received a delivery notification on Monday but never got a pickup slip, and it's now Thursday, so she's worried the package is lost."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Where does Sofia live on campus?",
+        "options": [
+          "Room 212 in South Hall",
+          "Room 312 in North Hall",
+          "Room 412 in East Hall",
+          "Room 112 in West Hall"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia identifies herself as room three-twelve in North Hall."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Where was Sofia's package found?",
+        "options": [
+          "In her dorm mailbox",
+          "On the overflow shelf",
+          "At the Amazon warehouse",
+          "In the lost and found"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk finds the package on the overflow shelf, explaining it was placed there because the standard package bins were full that day."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What was the last four digits of the tracking number?",
+        "options": ["4729", "4792", "4927", "4297"],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The clerk reads the Amazon tracking number ending in four-seven-two-nine."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why wasn't Sofia's pickup slip placed in her mailbox?",
+        "options": [
+          "The mailroom was closed",
+          "Package volume was high and slips sometimes get delayed during busy periods",
+          "Sofia's mailbox was broken",
+          "The clerk forgot to print it"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk explains that during high package volume, especially in the first two weeks of the semester, slips sometimes get delayed."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why did Sofia miss the email notification?",
+        "options": [
+          "She never checks email",
+          "The notification went to her spam folder",
+          "The email was never sent",
+          "Her email account was hacked"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia admits she checked her email but the notification had gone to her spam folder."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How can Sofia get text message notifications?",
+        "options": [
+          "By calling the mailroom",
+          "By updating her notification preferences on the mailroom portal",
+          "By filling out a paper form",
+          "Text notifications are not available"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk tells Sofia to log in to the mailroom portal with her student ID and select text message alerts to receive SMS notifications."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How long are packages held before being returned to the sender?",
+        "options": ["7 days", "10 days", "14 days", "30 days"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The clerk states packages are held for fourteen days, after which they are returned to the sender."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the clerk ask Sofia to do before picking up the package?",
+        "options": [
+          "Pay a storage fee",
+          "Sign an electronic log confirming receipt and check the seal",
+          "Show two forms of ID",
+          "Open the package in front of the clerk"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk asks Sofia to sign an electronic log confirming receipt and to check that the seal is intact before leaving."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Mailing an international package",
+          "Locating a missing package and learning about mailroom notification and tracking systems",
+          "Complaining about delayed mail delivery",
+          "Renting a larger campus mailbox"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Sofia's missing package, the mailroom's explanation for the delay, and how to set up better notifications and tracking through the portal."
+      }
+    ],
+    "keyVocabulary": ["pickup slip", "overflow shelf", "tracking number", "notification preferences", "mailroom portal", "spam folder", "electronic log", "returned to sender"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a campus lost and found attendant.",
+    "audioScript": "Situation: A student visits the campus lost and found desk to report and search for a lost laptop bag.\nLost and Found Attendant: Hello, how can I help you?\nLiam: Hi, I think I left my laptop bag somewhere on campus yesterday afternoon. It's a black backpack with a green stripe, and it has my laptop, a notebook, and my graphing calculator inside. I've checked the library and the cafeteria, but nobody turned it in.\nLost and Found Attendant: I'm sorry to hear that. Let me check our log. We've had several items turned in yesterday. Can you describe the bag more specifically? Any stickers or keychains?\nLiam: Yes, there's a small enamel pin of a rocket ship on the front pocket, and the zipper pull has a blue lanyard attached.\nLost and Found Attendant: Hmm, I don't see anything matching that description in today's log. But items sometimes take twenty-four to forty-eight hours to reach us from the building where they were found. Where were you yesterday afternoon?\nLiam: I was in the engineering building for a lab from one to three PM. Then I went to the student center for about an hour, and after that I walked to the bus stop near the gym.\nLost and Found Attendant: Okay. I'd recommend checking with the engineering building's main office directly. Each building has its own lost and found before items get sent here centrally. The student center desk might also have it. Let me give you a lost item report form to fill out. We'll log your bag in the system and contact you if it arrives.\nLiam: That would be great. Is there a way to check online?\nLost and Found Attendant: Yes, we have an online database updated daily. You can search by item type and description at the campus safety website. Also, if your laptop has tracking software enabled, like Find My Device, I'd strongly recommend checking its location right now.\nLiam: Good idea. I just checked, and it shows the laptop is still in the engineering building. I'll head there right after this.\nLost and Found Attendant: Perfect. I'll keep your report on file. If someone turns it in here, we'll email and call you. Items are held for thirty days before being donated.\nLiam: Thank you so much for your help.",
+    "speakers": [
+      { "name": "Liam", "role": "student" },
+      { "name": "Lost and Found Attendant", "role": "campus staff" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Liam visit the lost and found desk?",
+        "options": [
+          "To turn in a found wallet",
+          "To report and search for his lost laptop bag",
+          "To claim a previously lost phone",
+          "To ask about lost and found hours"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Liam explains he thinks he left his laptop bag somewhere on campus and is trying to locate it."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does Liam's laptop bag look like?",
+        "options": [
+          "A blue backpack with red stripes",
+          "A black backpack with a green stripe and a rocket ship enamel pin",
+          "A gray messenger bag with a leather strap",
+          "A green duffel bag with white stars"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Liam describes it as a black backpack with a green stripe, with a small enamel pin of a rocket ship on the front pocket and a blue lanyard on the zipper pull."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What was inside the bag?",
+        "options": [
+          "Only textbooks",
+          "A laptop, a notebook, and a graphing calculator",
+          "A laptop and gym clothes",
+          "A laptop, a phone, and headphones"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Liam states the bag contains his laptop, a notebook, and his graphing calculator."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Where had Liam already checked before coming to lost and found?",
+        "options": [
+          "The gym and the bus stop",
+          "The library and the cafeteria",
+          "The engineering building and dorm",
+          "The bookstore and student center"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Liam says he already checked the library and the cafeteria, but nobody turned the bag in."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Where was Liam yesterday afternoon?",
+        "options": [
+          "At the library all afternoon",
+          "In the engineering building, then the student center, then the bus stop near the gym",
+          "At the cafeteria and dorm",
+          "At the bookstore and gym"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Liam states he was in the engineering building from one to three PM, then went to the student center for about an hour, and then walked to the bus stop near the gym."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the attendant recommend Liam check first?",
+        "options": [
+          "The campus police station",
+          "The engineering building's main office, since each building has its own lost and found",
+          "The city's lost and found",
+          "The local pawn shop"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant recommends checking with the engineering building's main office directly, explaining each building has its own lost and found before items are sent centrally."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How long does it take for items to reach the central lost and found?",
+        "options": [
+          "Immediately",
+          "Twenty-four to forty-eight hours",
+          "One week",
+          "Two weeks"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant explains items sometimes take twenty-four to forty-eight hours to reach the central lost and found from the building where they were found."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the tracking software show about the laptop's location?",
+        "options": [
+          "It is at the bus stop",
+          "It is still in the engineering building",
+          "It has been moved off campus",
+          "The tracking is disabled"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Liam checks his tracking software and it shows the laptop is still in the engineering building."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How long are items held at lost and found before being donated?",
+        "options": ["14 days", "30 days", "60 days", "90 days"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant states items are held for thirty days before being donated."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Reporting a stolen laptop to campus police",
+          "Searching for a lost laptop bag and learning about the lost and found process",
+          "Buying a replacement laptop on campus",
+          "Registering a new device with campus security"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Liam reporting his lost laptop bag, the attendant's advice on where to search, and the lost and found process including online tracking and holding periods."
+      }
+    ],
+    "keyVocabulary": ["lost and found", "tracking software", "enamel pin", "lanyard", "graphing calculator", "online database", "lost item report", "donated"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a campus recreation desk attendant about a gym membership.",
+    "audioScript": "Situation: A student visits the campus recreation center desk to sign up for a gym membership and ask about fitness classes.\nDesk Attendant: Welcome to the campus recreation center! How can I help you today?\nAisha: Hi, I'd like to sign up for a gym membership. I'm a first-year student and I haven't used the facility yet.\nDesk Attendant: Great! As a full-time student, your basic membership is already included in your tuition. That gives you access to the weight room, the cardio area, the indoor track, and the swimming pool during open hours. You just need to activate it by filling out this one-page form and swiping your student ID.\nAisha: That's great, it's already included. What about fitness classes? I saw a schedule for yoga and spin classes on the website.\nDesk Attendant: Fitness classes require a separate class pass. The basic pass costs forty dollars per semester and gives you unlimited access to all group classes. Alternatively, you can pay a five-dollar drop-in fee per class if you only want to try a few.\nAisha: I think I'll start with the drop-in option to see which classes I like. Do I need to sign up in advance for specific classes?\nDesk Attendant: For most classes, you can just show up ten minutes early. However, spin classes and the high-intensity interval training classes have limited equipment, so those require advance online registration. Spots open forty-eight hours before each session.\nAisha: Got it. I also have a knee injury from running. Is there someone who can help me with a safe workout plan?\nDesk Attendant: Absolutely. We have two certified personal trainers on staff. A single one-hour session costs thirty dollars, but we also offer a package of three sessions for seventy-five dollars. They can assess your injury and design a program that avoids aggravating your knee.\nAisha: The three-session package sounds good. Can I book the first session today?\nDesk Attendant: Sure. Let me check availability. Our trainer, Marcus, has an opening this Thursday at five PM or Friday at ten AM. Which works for you?\nAisha: Thursday at five PM works perfectly. Let me book that.\nDesk Attendant: Done. I'll email you a confirmation and a health questionnaire to fill out before your first session.",
+    "speakers": [
+      { "name": "Aisha", "role": "student" },
+      { "name": "Desk Attendant", "role": "recreation center staff" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Aisha visit the campus recreation center?",
+        "options": [
+          "To apply for a gym job",
+          "To sign up for a gym membership and ask about fitness classes",
+          "To complain about gym equipment",
+          "To borrow sports equipment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Aisha states she wants to sign up for a gym membership as a first-year student and asks about fitness classes."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does the basic membership include?",
+        "options": [
+          "Only the swimming pool",
+          "Access to the weight room, cardio area, indoor track, and swimming pool",
+          "Unlimited fitness classes",
+          "Personal training sessions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant explains the basic membership gives access to the weight room, cardio area, indoor track, and swimming pool during open hours."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How is the basic membership funded?",
+        "options": [
+          "It costs fifty dollars per semester",
+          "It is already included in tuition for full-time students",
+          "It requires a separate annual fee",
+          "It is free only for athletes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant tells Aisha that as a full-time student, her basic membership is already included in her tuition."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How much does the unlimited class pass cost per semester?",
+        "options": ["$30", "$40", "$50", "$75"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant states the basic class pass costs forty dollars per semester for unlimited access to all group classes."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Aisha decide to do about fitness classes initially?",
+        "options": [
+          "Buy the unlimited pass immediately",
+          "Start with the five-dollar drop-in option to try different classes",
+          "Skip classes entirely",
+          "Register only for spin classes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha decides to start with the drop-in option at five dollars per class to see which classes she likes before committing."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Which classes require advance online registration?",
+        "options": [
+          "Yoga and Pilates",
+          "Spin classes and high-intensity interval training classes",
+          "All classes require registration",
+          "No classes require registration"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The attendant explains spin classes and HIIT classes have limited equipment and require advance online registration, with spots opening forty-eight hours before each session."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does Aisha ask about a safe workout plan?",
+        "options": [
+          "She is a beginner",
+          "She has a knee injury from running",
+          "She wants to lose weight quickly",
+          "She has high blood pressure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha mentions she has a knee injury from running and asks if someone can help her with a safe workout plan."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How much does the three-session personal training package cost?",
+        "options": ["$30", "$60", "$75", "$90"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The attendant states the package of three personal training sessions costs seventy-five dollars, compared to thirty dollars for a single session."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When is Aisha's first personal training session scheduled?",
+        "options": [
+          "Wednesday at 3 PM",
+          "Thursday at 5 PM",
+          "Friday at 10 AM",
+          "Saturday at 8 AM"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha chooses the Thursday at five PM opening with trainer Marcus."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Complaining about overcrowded gym facilities",
+          "Activating a gym membership, learning about class options, and booking a personal training session",
+          "Applying for a position as a fitness instructor",
+          "Registering for an intramural sports team"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers Aisha activating her basic gym membership, learning about fitness class passes and drop-in fees, and booking a personal training session for a knee injury."
+      }
+    ],
+    "keyVocabulary": ["membership", "tuition", "drop-in fee", "class pass", "personal trainer", "high-intensity interval training", "advance registration", "health questionnaire"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a campus shuttle dispatcher.",
+    "audioScript": "Situation: A student calls the campus transportation office to ask about the campus shuttle schedule and a lost item on a shuttle bus.\nDispatcher: Campus Transportation, this is Rachel speaking. How can I help you?\nDiego: Hi, I have two questions. First, I take the Blue Route shuttle from the east parking lot to the science building every morning. I got to the stop at eight-fifteen today and waited twenty minutes, but no shuttle came. Is the schedule different this week?\nDispatcher: Let me check. Yes, you're right. The Blue Route is on a modified schedule this week due to road construction on Campus Drive. Shuttles are running every twenty-five minutes instead of every fifteen. The first bus leaves the east lot at seven forty-five, then eight-ten, eight-thirty-five, and nine AM.\nDiego: Oh, I see. So the eight-thirty-five would have been the next one after I arrived. I must have just missed the eight-ten. Will the construction last long?\nDispatcher: The road work is expected to finish by next Monday, and then the regular fifteen-minute schedule resumes. In the meantime, I'd recommend arriving at least five minutes early, since the modified times can vary slightly with traffic.\nDiego: Got it. My second question is about a lost item. I think I left my water bottle on the Blue Route shuttle yesterday afternoon. It's a gray insulated bottle with stickers on it. Is there a way to check?\nDispatcher: Yes. Drivers check the buses at the end of each shift and turn in found items to our office. Let me check the log for yesterday. I see a gray insulated bottle with stickers was turned in from the three PM Blue Route bus. Does it have a sticker that says 'Adventure Awaits'?\nDiego: Yes, that's exactly it! Can I pick it up today?\nDispatcher: Absolutely. Our office is in the transportation building, room one-oh-one. We're open until six PM today. Just bring your student ID. Found items are held here for two weeks before being donated to the campus thrift store.\nDiego: Perfect, I'll come by around four. Thank you so much for your help, Rachel.\nDispatcher: You're welcome. And check our website or download the shuttle tracker app for real-time updates during the construction week.",
+    "speakers": [
+      { "name": "Diego", "role": "student" },
+      { "name": "Rachel", "role": "campus shuttle dispatcher" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Diego contact the campus transportation office?",
+        "options": [
+          "To complain about a rude driver",
+          "To ask about the shuttle schedule and a lost water bottle",
+          "To apply for a shuttle driver job",
+          "To report an accident"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Diego says he has two questions: one about the Blue Route shuttle schedule and another about a lost water bottle on the shuttle."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which shuttle route does Diego usually take?",
+        "options": ["The Red Route", "The Blue Route", "The Green Route", "The Yellow Route"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Diego states he takes the Blue Route shuttle from the east parking lot to the science building every morning."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why is the shuttle on a modified schedule?",
+        "options": [
+          "There is a driver shortage",
+          "There is road construction on Campus Drive",
+          "The shuttle broke down",
+          "It is a holiday week"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The dispatcher explains the Blue Route is on a modified schedule due to road construction on Campus Drive."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How often is the Blue Route shuttle running during the construction?",
+        "options": [
+          "Every 10 minutes",
+          "Every 15 minutes",
+          "Every 25 minutes",
+          "Every 30 minutes"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The dispatcher states shuttles are running every twenty-five minutes instead of every fifteen during the construction."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What time does the first Blue Route bus leave the east lot?",
+        "options": ["7:30 AM", "7:45 AM", "8:00 AM", "8:10 AM"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The dispatcher lists the first bus leaving the east lot at seven forty-five AM."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "When is the road construction expected to finish?",
+        "options": [
+          "By this Wednesday",
+          "By next Monday",
+          "In two weeks",
+          "By the end of the month"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The dispatcher says the road work is expected to finish by next Monday, after which the regular schedule resumes."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What did Diego leave on the shuttle?",
+        "options": [
+          "A gray insulated water bottle with stickers",
+          "A black umbrella",
+          "A blue backpack",
+          "A phone charger"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Diego describes his lost item as a gray insulated bottle with stickers on it, which the dispatcher confirms was found."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What sticker is on Diego's water bottle?",
+        "options": [
+          "One that says 'Stay Hydrated'",
+          "One that says 'Adventure Awaits'",
+          "One that says 'Explore More'",
+          "One that says 'Good Vibes'"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The dispatcher asks if the bottle has a sticker that says 'Adventure Awaits,' and Diego confirms it does."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How long are found items held at the transportation office?",
+        "options": ["One week", "Two weeks", "Thirty days", "Sixty days"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The dispatcher states found items are held for two weeks before being donated to the campus thrift store."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Filing a complaint about shuttle delays",
+          "Inquiring about a modified shuttle schedule and recovering a lost water bottle",
+          "Applying for a campus parking permit",
+          "Reporting a traffic accident on Campus Drive"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers Diego's two questions: the modified Blue Route shuttle schedule due to construction and the recovery of his lost water bottle from the shuttle."
+      }
+    ],
+    "keyVocabulary": ["shuttle", "modified schedule", "road construction", "dispatcher", "insulated bottle", "shuttle tracker app", "found items", "thrift store"]
+  },
+  {
+    "type": "LISTENING_PART_A",
+    "questionText": "Listen to a conversation between a student and a lab assistant in the campus computer lab.",
+    "audioScript": "Situation: A student visits the campus computer lab to get help with a software installation issue and printing problems.\nLab Assistant: Hi, welcome to the computer lab. Do you need help finding a workstation?\nMia: Hi, actually I need help with two things. First, I'm trying to install SPSS for my statistics class on one of the lab computers, but I keep getting an error message saying 'license server not found.' Second, I tried to print a twenty-page document, but the printer over there isn't responding.\nLab Assistant: Let's tackle the SPSS issue first. The lab computers use a network license, so SPSS needs to connect to the university's license server. The error usually means the computer isn't connected to the campus VPN. Are you logged into the campus network?\nMia: I thought I was. I connected to the campus Wi-Fi when I sat down.\nLab Assistant: The campus Wi-Fi gives you internet access, but the SPSS license server requires the VPN. You need to open the Cisco AnyConnect app on the desktop, log in with your student credentials, and then relaunch SPSS. Let me show you.\nMia: Oh, I see. Okay, it's connecting now. That was the issue. Thank you. Now what about the printer?\nLab Assistant: Let me check the printer queue. It looks like your print job is stuck because the printer ran out of paper. I've refilled the tray, so your document should start printing in a moment. Also, each student gets a printing allowance of five hundred pages per semester. You've used one hundred twenty so far, so you have plenty remaining.\nMia: That's a relief. Is there a way to check my balance online?\nLab Assistant: Yes, you can check your printing balance on the student IT portal under the printing services tab. If you run out, you can purchase additional pages at five cents per page, or you can use the color printer in the library, which has a separate allowance of fifty color pages per semester.\nMia: Good to know. One more thing, can I save my work directly to the lab computer?\nLab Assistant: I'd strongly recommend against that. Lab computers are wiped and reset every night, so any files saved locally are deleted. Always save to your cloud storage or a USB drive. Each student gets fifty gigabytes of cloud storage through the university's OneDrive.\nMia: Thanks for the warning. I'll save everything to my OneDrive from now on.",
+    "speakers": [
+      { "name": "Mia", "role": "student" },
+      { "name": "Lab Assistant", "role": "computer lab staff" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Mia visit the computer lab?",
+        "options": [
+          "To buy a new laptop",
+          "To get help with an SPSS installation issue and a printing problem",
+          "To attend a software training workshop",
+          "To report a broken computer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Mia states she needs help with two things: installing SPSS which gives a license error, and a printer that isn't responding."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What error message does Mia get when trying to install SPSS?",
+        "options": [
+          "Insufficient disk space",
+          "License server not found",
+          "Invalid product key",
+          "Operating system not supported"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mia says she keeps getting an error message saying 'license server not found' when trying to install SPSS."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does the lab assistant say is causing the SPSS error?",
+        "options": [
+          "The computer has a virus",
+          "The computer isn't connected to the campus VPN",
+          "SPSS is not installed on the computer",
+          "Mia's student account is expired"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The lab assistant explains the SPSS license server requires the VPN, and the error means the computer isn't connected to it."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What application does Mia need to use to connect to the VPN?",
+        "options": [
+          "Microsoft Edge",
+          "Cisco AnyConnect",
+          "Adobe Creative Cloud",
+          "Google Chrome"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The lab assistant tells Mia to open the Cisco AnyConnect app on the desktop and log in with her student credentials."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why was Mia's print job stuck?",
+        "options": [
+          "The printer was turned off",
+          "The printer ran out of paper",
+          "Mia didn't have enough printing allowance",
+          "The document was too large"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The lab assistant checks the printer queue and finds the print job is stuck because the printer ran out of paper."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How many pages is each student's printing allowance per semester?",
+        "options": ["200 pages", "300 pages", "500 pages", "1000 pages"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The lab assistant states each student gets a printing allowance of five hundred pages per semester."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How many pages has Mia used so far?",
+        "options": ["80 pages", "100 pages", "120 pages", "150 pages"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The lab assistant tells Mia she has used one hundred twenty pages so far, leaving plenty remaining."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What happens if a student runs out of printing pages?",
+        "options": [
+          "Printing is no longer available",
+          "Additional pages can be purchased at five cents per page",
+          "The student must wait until next semester",
+          "The student can only use the library printer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The lab assistant explains additional pages can be purchased at five cents per page, or students can use the library color printer with its own allowance."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the lab assistant warn about saving files on lab computers?",
+        "options": [
+          "Files are encrypted automatically",
+          "Lab computers are wiped and reset every night, deleting all local files",
+          "Files are shared with other students",
+          "Files are backed up to the cloud automatically"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The lab assistant strongly warns against saving locally because lab computers are wiped and reset every night, deleting any files saved on them."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Registering for a statistics course",
+          "Resolving an SPSS VPN licensing issue and a printer problem while learning lab policies",
+          "Repairing a broken lab computer",
+          "Setting up a new student email account"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers Mia's SPSS installation issue resolved via VPN, a printer paper issue, and the lab assistant's guidance on printing allowances and file storage policies."
+      }
+    ],
+    "keyVocabulary": ["VPN", "license server", "Cisco AnyConnect", "printing allowance", "cloud storage", "OneDrive", "wiped and reset", "print job"]
+  }
+]

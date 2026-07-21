@@ -10,12 +10,12 @@ export const BaseQuestionSchema = z.object({
 
 export const IELTSListeningSectionSchema = BaseQuestionSchema.extend({
   type: z.literal('LISTENING'),
-  section: z.enum(['SECTION_1', 'SECTION_2', 'SECTION_3', 'SECTION_4']),
+  section: z.enum(['SECTION_1', 'SECTION_2', 'SECTION_3', 'SECTION_4', 'SECTION_5']),
   audioScript: z.string().min(100),
   context: z.object({
     setting: z.enum([
       'SOCIAL_SURVIVAL', 'EDUCATIONAL_SURVIVAL',
-      'ACADEMIC_DISCUSSION', 'ACADEMIC_LECTURE'
+      'ACADEMIC_DISCUSSION', 'ACADEMIC_LECTURE', 'ACADEMIC_LECTURE_ADVANCED'
     ]),
     speakers: z.array(z.object({
       name: z.string().optional(),

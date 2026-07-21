@@ -142,7 +142,8 @@ export function calcIeltsScore(sections: SimulationSection[], answers: Record<st
   const listeningRaw = countCorrect(listeningSection, answers);
   const readingRaw = countCorrect(readingSection, answers);
 
-  const listeningBand = lookupBand(listeningRaw, IELTS_LISTENING_BANDS);
+  const normalizedListeningRaw = Math.round((Math.max(0, listeningRaw) / 50) * 40);
+  const listeningBand = lookupBand(normalizedListeningRaw, IELTS_LISTENING_BANDS);
   const readingBand = lookupBand(readingRaw, IELTS_READING_ACADEMIC_BANDS);
 
   const writingBands = (writingSection?.questions || [])

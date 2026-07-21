@@ -1,0 +1,831 @@
+[
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a professor and two students about an environmental science project on water quality.",
+    "audioScript": "Situation: An environmental science professor meets with two students to discuss their upcoming water quality monitoring project along the campus river.\nDr. Harmon: Thanks for stopping by, both of you. For your environmental science capstone project, you'll be monitoring water quality along the Maple River that runs through the south edge of campus. Let's go over your sampling plan.\nJenna: We've identified five sampling sites from upstream to downstream, starting near the old textile mill and ending where the river exits campus property. At each site we plan to measure pH, dissolved oxygen, turbidity, and nitrate levels.\nDr. Harmon: Good start. Why did you choose those particular parameters?\nTom: Dissolved oxygen tells us about aquatic health. Nitrate levels can indicate agricultural runoff from the farms upstream. Turbidity reflects suspended sediment. And pH can reveal industrial contamination.\nDr. Harmon: Spot on. Now, how often will you collect samples?\nJenna: We plan to sample weekly for six weeks. We think that captures enough variation after rainfall events, which is when runoff is most significant.\nDr. Harmon: Weekly sampling is reasonable, but I want you to also add an event-based component. Within twenty-four hours of any major storm, meaning more than one inch of rainfall, take an additional sample at all five sites. Storm runoff carries the highest pollutant loads, so that data is critical.\nTom: That's a great suggestion. We'll set up a rain gauge near site three and subscribe to the National Weather Service alerts so we don't miss a storm window.\nDr. Harmon: Excellent. For the lab analysis, you'll use the spectrophotometer for nitrates and the multiparameter probe for the field measurements. Have you been trained on both?\nJenna: We were trained on the probe last semester in Environmental Methods. We haven't used the spectrophotometer yet, but the lab coordinator said she'd walk us through the nitrate colorimetric assay next Tuesday.\nDr. Harmon: Perfect. One more thing. Your final report should include a spatial analysis map showing how each parameter changes from upstream to downstream. I recommend using QGIS, which is available on all the library workstations. The geospatial lab also offers a short tutorial every Friday if you need a refresher.\nTom: We'll attend the Friday session. Should we also research the historical water quality data for the river?\nDr. Harmon: Absolutely. The state environmental agency has a public database going back fifteen years. Comparing your results to historical trends will strengthen your discussion section significantly. Any other questions? No? Then I look forward to seeing your preliminary data in two weeks.",
+    "speakers": [
+      { "name": "Dr. Harmon", "role": "environmental science professor" },
+      { "name": "Jenna", "role": "student" },
+      { "name": "Tom", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Planning a campus recycling program",
+          "Designing a water quality monitoring project along the Maple River",
+          "Comparing two rivers for a biology lab",
+          "Reviewing the history of the textile mill"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The entire conversation centers on the students' capstone project monitoring water quality along the Maple River."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many sampling sites have the students identified?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Jenna states they identified five sampling sites from upstream to downstream."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What parameter is most associated with agricultural runoff?",
+        "options": ["pH", "Dissolved oxygen", "Turbidity", "Nitrate levels"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "Tom explains that nitrate levels can indicate agricultural runoff from upstream farms."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What additional sampling does Dr. Harmon request?",
+        "options": [
+          "Daily samples for a month",
+          "Event-based samples within twenty-four hours of a major storm",
+          "Samples only during winter months",
+          "Samples at night only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Harmon asks for additional samples within twenty-four hours of any storm producing more than one inch of rainfall."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why does Dr. Harmon consider storm runoff data critical?",
+        "options": [
+          "It is easier to collect than regular samples",
+          "Storm runoff carries the highest pollutant loads",
+          "It helps calibrate the spectrophotometer",
+          "The river freezes after storms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Harmon states that storm runoff carries the highest pollutant loads, making that data critical."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What instrument will the students use for nitrate analysis?",
+        "options": [
+          "A multiparameter probe",
+          "A spectrophotometer",
+          "A rain gauge",
+          "A digital microscope"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Harmon says the spectrophotometer will be used for nitrates, while the multiparameter probe is for field measurements."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "When will the lab coordinator train the students on the nitrate assay?",
+        "options": ["Monday", "Tuesday", "Friday", "Next month"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jenna says the lab coordinator will walk them through the nitrate colorimetric assay next Tuesday."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Dr. Harmon recommend for the spatial analysis map?",
+        "options": [
+          "Hand-drawing the map for accuracy",
+          "Using QGIS available on library workstations",
+          "Hiring a cartographer",
+          "Using a commercial satellite imaging service"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Harmon recommends using QGIS, which is available on all the library workstations, for the spatial analysis map."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the state environmental agency database?",
+        "options": [
+          "It is only available to university researchers",
+          "It is public and contains fifteen years of historical data",
+          "It requires a paid subscription to access",
+          "It was recently shut down due to budget cuts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Harmon mentions the state environmental agency has a public database going back fifteen years, implying free public access."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is Dr. Harmon's attitude toward the students' sampling plan?",
+        "options": [
+          "Dismissive and critical",
+          "Generally approving with suggestions for improvement",
+          "Completely dissatisfied",
+          "Indifferent and uninvolved"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Dr. Harmon calls their plan a good start and says their reasoning is spot on, then offers constructive additions like event-based sampling."
+      }
+    ],
+    "keyVocabulary": ["water quality monitoring", "dissolved oxygen", "turbidity", "nitrate levels", "spectrophotometer", "colorimetric assay", "spatial analysis", "storm runoff", "QGIS", "historical trends"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a conversation between a geology professor and a student preparing for a field study trip.",
+    "audioScript": "Situation: A geology professor meets with a student to prepare for an upcoming field study trip to examine sedimentary rock formations in a nearby canyon.\nDr. Reyes: Come in, Sam. Let's go over the plan for Saturday's field study at Redstone Canyon. This trip is a core part of our sedimentology unit, so I want to make sure you're well prepared.\nSam: Thanks, Professor. I've read the assigned chapters on sedimentary structures and depositional environments. What should I focus on during the trip?\nDr. Reyes: Good question. Our primary objective is to identify and document three distinct rock formations: the Navajo Sandstone, the Carmel Formation, and the Entrada Sandstone. Each represents a different ancient depositional environment. You'll be sketching stratigraphic columns at two outcrops.\nSam: I've practiced drawing stratigraphic columns in lab, but I'm still a bit unsure about distinguishing cross-bedding from ripple marks in the field. Can we go over that?\nDr. Reyes: Of course. Cross-bedding consists of angled layers within a rock bed, formed by migrating dunes in a river or desert environment. Ripple marks, by contrast, are small, regular undulations on a bedding surface, typically formed by gentle water currents in shallow marine or river settings. In the field, look at the scale. Cross-beds are usually tens of centimeters thick, while ripple marks are only a few centimeters.\nSam: That helps a lot. What tools should I bring?\nDr. Reyes: You'll need a rock hammer, a hand lens with ten-power magnification, a field notebook with waterproof pages, a Brunton compass for measuring strike and dip, and colored pencils for your stratigraphic sketches. Sturdy boots and at least two liters of water are mandatory since we'll be hiking about four kilometers in warm conditions.\nSam: I have everything except the Brunton compass. Can I borrow one from the department?\nDr. Reyes: Yes, I'll bring two extra compasses from the equipment room. Just remember to calibrate it for the local magnetic declination, which is about eleven degrees east here. Otherwise your orientation measurements will be systematically off.\nSam: I'll make sure to do that. Will we be collecting rock samples?\nDr. Reyes: We'll collect small hand samples from permitted zones only. The canyon is partially within a protected area, so collecting is restricted. I'll point out the zones where sampling is allowed. Each sample should be labeled with location, formation name, and a brief description of texture and composition.\nSam: Understood. After the trip, what should the field report include?\nDr. Reyes: Your report should contain the two stratigraphic columns, photographs of key sedimentary structures with scale bars, and a one-page interpretation of the depositional environments represented. Connect your observations to the broader geologic history of the region. The report is due one week after the trip, and I expect professional-quality work.",
+    "speakers": [
+      { "name": "Dr. Reyes", "role": "geology professor" },
+      { "name": "Sam", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the field study trip?",
+        "options": [
+          "To collect mineral specimens for a museum",
+          "To identify and document three distinct sedimentary rock formations",
+          "To map underground water sources",
+          "To measure earthquake activity"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Dr. Reyes states the primary objective is to identify and document three rock formations at Redstone Canyon."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which of the following is NOT one of the three formations the students will study?",
+        "options": [
+          "Navajo Sandstone",
+          "Carmel Formation",
+          "Entrada Sandstone",
+          "Morrison Formation"
+        ],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "The three formations mentioned are Navajo Sandstone, Carmel Formation, and Entrada Sandstone. Morrison Formation is not listed."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How does Dr. Reyes distinguish cross-bedding from ripple marks?",
+        "options": [
+          "Cross-bedding is found only in igneous rocks",
+          "Cross-bedding has angled layers and is thicker, while ripple marks are small undulations only a few centimeters",
+          "Ripple marks are always larger than cross-beds",
+          "There is no observable difference in the field"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes explains cross-bedding consists of angled layers tens of centimeters thick, while ripple marks are small undulations only a few centimeters."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the magnification power of the hand lens students should bring?",
+        "options": ["Five power", "Ten power", "Twenty power", "Fifty power"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes specifies a hand lens with ten-power magnification in the equipment list."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the local magnetic declination that requires compass calibration?",
+        "options": [
+          "About five degrees west",
+          "About eleven degrees east",
+          "About twenty degrees west",
+          "About thirty degrees east"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes tells Sam to calibrate the Brunton compass for the local magnetic declination of about eleven degrees east."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why is rock collecting restricted in part of the canyon?",
+        "options": [
+          "The rocks are too hard to break",
+          "Part of the canyon is within a protected area",
+          "Students lack proper collecting permits",
+          "The area is privately owned"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes explains the canyon is partially within a protected area, so collecting is restricted to permitted zones."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What information should be labeled on each rock sample?",
+        "options": [
+          "Only the student's name",
+          "Location, formation name, and a brief description of texture and composition",
+          "The weight and color only",
+          "The date and weather conditions only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes says each sample should be labeled with location, formation name, and a brief description of texture and composition."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Dr. Reyes mean when he says orientation measurements will be systematically off without calibration?",
+        "options": [
+          "The compass will stop working entirely",
+          "Measurements will be consistently skewed by the declination angle",
+          "The compass needle will point south",
+          "Measurements will randomly fluctuate"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Without calibrating for magnetic declination, all strike and dip measurements would be consistently shifted by the declination angle, making them systematically inaccurate."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When is the field report due?",
+        "options": [
+          "The day after the trip",
+          "Three days after the trip",
+          "One week after the trip",
+          "Two weeks after the trip"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes states the report is due one week after the trip and expects professional-quality work."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What should the field report's interpretation page connect observations to?",
+        "options": [
+          "The student's personal opinion about rocks",
+          "The broader geologic history of the region",
+          "The history of the Brunton compass company",
+          "Weather patterns during the trip"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Reyes instructs Sam to connect observations to the broader geologic history of the region in the one-page interpretation."
+      }
+    ],
+    "keyVocabulary": ["sedimentary rock formations", "stratigraphic columns", "cross-bedding", "ripple marks", "depositional environment", "Brunton compass", "magnetic declination", "strike and dip", "outcrop", "hand lens"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between an astronomy professor and two students planning a night observation session.",
+    "audioScript": "Situation: An astronomy professor meets with two students in the campus observatory to plan a night observation session focused on deep-sky objects.\nDr. Okafor: Welcome to the observatory, both of you. Tonight we're going to conduct a structured observation session using the fourteen-inch Schmidt-Cassegrain telescope. Our targets are three deep-sky objects: the Orion Nebula, the Pleiades star cluster, and the Andromeda Galaxy. Let me walk you through the plan.\nLisa: I'm really excited. I've never used a telescope this large before. What's the first step?\nDr. Okafor: First, we need to polar-align the telescope mount. This ensures the telescope tracks the sky's rotation accurately. I'll show you how to use the polar scope to align the right ascension axis with the celestial pole. It takes about fifteen minutes, but it's essential for long-exposure astrophotography.\nMarco: Professor, I read that light pollution can affect observations. How bad is it here on campus?\nDr. Okafor: Good question. The campus has moderate light pollution, with a Bortle scale rating of about six. That means we can see the brighter deep-sky objects but fainter ones are washed out. For the Andromeda Galaxy, you'll see the bright core clearly, but the spiral arms will be difficult. If we drove thirty kilometers to the dark sky park, the Bortle rating drops to three, and Andromeda would be spectacular.\nLisa: Should we plan a trip to the dark sky park later in the semester?\nDr. Okafor: Absolutely. I'm scheduling a field session there in November when the Milky Way's galactic core is still visible. For tonight, though, let's focus on what we can achieve from here.\nMarco: What magnification should we use for each object?\nDr. Okafor: It depends on the target. For the Orion Nebula, use a low-power eyepiece, around forty-power, to capture the full extent of the nebula's wispy clouds. For the Pleiades, also use low power because the cluster spans more than a degree of sky. High magnification would only show you a few stars. For Andromeda, start at low power to locate it, then switch to about one hundred power for the core detail.\nLisa: How do we know we're looking at the right object? The sky is so full of stars.\nDr. Okafor: We use a technique called star hopping. You start from a bright, easily recognizable star and move the telescope in small increments toward your target, using a star chart as a guide. For the Orion Nebula, start from the belt stars of Orion and move south. For the Pleiades, they're visible to the naked eye in the constellation Taurus. Andromeda is trickier; start from the star Mirach and follow two stars to the northwest.\nMarco: Will we be taking astrophotographs tonight?\nDr. Okafor: Yes. We'll attach a DSLR camera to the telescope using a T-ring adapter. Each object needs a series of short exposures, about thirty seconds each, which we'll stack later in software to reduce noise. I'll show you the stacking process next session. Any questions before we begin polar alignment?",
+    "speakers": [
+      { "name": "Dr. Okafor", "role": "astronomy professor" },
+      { "name": "Lisa", "role": "student" },
+      { "name": "Marco", "role": "student" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Building a new telescope from scratch",
+          "Planning a night observation session of deep-sky objects",
+          "Analyzing data from a space probe",
+          "Discussing the history of constellation names"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation is about planning a structured night observation session using the campus telescope to observe three deep-sky objects."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What type of telescope will the students use tonight?",
+        "options": [
+          "A six-inch refractor",
+          "A fourteen-inch Schmidt-Cassegrain telescope",
+          "A radio telescope",
+          "A twenty-inch Dobsonian"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor states they will use the fourteen-inch Schmidt-Cassegrain telescope at the campus observatory."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Which of the following is NOT one of tonight's observation targets?",
+        "options": [
+          "The Orion Nebula",
+          "The Pleiades star cluster",
+          "The Andromeda Galaxy",
+          "The Ring Nebula"
+        ],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "The three targets are the Orion Nebula, the Pleiades, and the Andromeda Galaxy. The Ring Nebula is not mentioned."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why is polar alignment of the telescope mount important?",
+        "options": [
+          "It protects the telescope from wind damage",
+          "It ensures the telescope tracks the sky's rotation accurately for long-exposure astrophotography",
+          "It balances the telescope optics",
+          "It connects the telescope to the internet"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Dr. Okafor explains that polar alignment ensures the telescope tracks the sky's rotation accurately, which is essential for long-exposure astrophotography."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the Bortle scale rating on campus?",
+        "options": ["About two", "About three", "About six", "About nine"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor says the campus has moderate light pollution with a Bortle scale rating of about six."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why will the spiral arms of the Andromeda Galaxy be difficult to see from campus?",
+        "options": [
+          "The telescope is not powerful enough",
+          "Light pollution washes out fainter details",
+          "Andromeda is below the horizon tonight",
+          "The telescope mirror is dirty"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor explains that due to the campus light pollution, the bright core will be visible but the fainter spiral arms will be washed out."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What magnification does Dr. Okafor recommend for the Orion Nebula?",
+        "options": [
+          "High power, around two hundred",
+          "Low power, around forty-power",
+          "Medium power, around one hundred",
+          "No magnification, use naked eye only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor recommends a low-power eyepiece at around forty-power for the Orion Nebula to capture the full extent of the nebula's clouds."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the star hopping technique used for?",
+        "options": [
+          "Measuring the distance between stars",
+          "Locating faint objects by starting from bright recognizable stars and moving in small increments",
+          "Counting the number of stars in a cluster",
+          "Aligning the telescope mount"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Dr. Okafor describes star hopping as starting from a bright recognizable star and moving the telescope in small increments toward the target using a star chart."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the dark sky park compared to campus?",
+        "options": [
+          "It has more light pollution than campus",
+          "It has significantly less light pollution, enabling better observation of faint objects",
+          "It is located inside a city",
+          "It has no telescope available"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Okafor says the dark sky park has a Bortle rating of three compared to six on campus, and Andromeda would be spectacular there, implying much less light pollution."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "How will the students process the astrophotographs after the session?",
+        "options": [
+          "Print them immediately in the observatory",
+          "Stack short exposures in software to reduce noise",
+          "Submit them unprocessed to a journal",
+          "Hand-color them with pencils"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor explains they will take a series of thirty-second exposures and stack them later in software to reduce noise."
+      }
+    ],
+    "keyVocabulary": ["Schmidt-Cassegrain telescope", "polar alignment", "deep-sky objects", "Bortle scale", "light pollution", "star hopping", "magnification", "astrophotography", "exposure stacking", "celestial pole"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a computer science professor and a student about debugging a program in the computer lab.",
+    "audioScript": "Situation: A computer science professor helps a student debug a persistent error in their data structures programming assignment in the campus computer lab.\nDr. Chen: Hi, Marcus. You mentioned in your email that you've been stuck on a segmentation fault for two days. Let's take a look together. Walk me through what your program is supposed to do.\nMarcus: It's a hash table implementation for my data structures class. I'm using open addressing with linear probing to handle collisions. The program compiles fine, but when I run it with a large dataset of fifty thousand entries, it crashes with a segmentation fault after inserting about twelve thousand records.\nDr. Chen: Okay, a segmentation fault usually means your program is accessing memory it shouldn't be. Have you tried running it under a debugger?\nMarcus: I tried using GDB, but honestly I wasn't sure what I was looking for. The backtrace just showed the crash happening inside my insert function, but I couldn't figure out why.\nDr. Chen: Let's open GDB together. First, compile your program with the dash g flag so the debugger has symbol information. Now run it under GDB. When it crashes, type backtrace. There, you see the crash is in the insert function at line forty-seven. Let's look at that line.\nMarcus: Line forty-seven is where I compute the hash index. I take the key modulo the table size to get the array index.\nDr. Chen: Right. Now, what is your table size? Let me check. It's set to one thousand twenty-four. But look at your probing loop. When a collision occurs, you increment the index by one and try again. What happens if the table is completely full?\nMarcus: The loop would keep going past the end of the array. Oh no, that's the bug. If the load factor gets too high, linear probing can wrap around forever and eventually access memory outside the array bounds.\nDr. Chen: Exactly. Your insert function doesn't check whether the table has exceeded a safe load factor. The standard approach is to resize and rehash when the load factor exceeds about zero point seven. Let me show you. You need a resize function that doubles the table capacity, allocates a new array, and reinserts all existing elements using the new hash function.\nMarcus: I see. So I should track the number of elements, compute the load factor after each insert, and trigger a resize when it crosses the threshold.\nDr. Chen: Precisely. Also, add a bounds check in your probing loop as a safety net. Even with resizing, defensive programming is good practice. Use assertions or explicit checks to make sure your index never exceeds the array size.\nMarcus: That makes a lot of sense. I should also add unit tests with edge cases like inserting exactly the table size number of elements.\nDr. Chen: Excellent instinct. Writing tests for boundary conditions is a hallmark of solid software engineering. I'd also recommend using Valgrind, a memory analysis tool, to check for any other memory leaks or invalid accesses you might have missed. It runs your program and reports every invalid memory operation. It's slower than GDB but catches issues GDB might not surface.\nMarcus: I'll install Valgrind tonight and run it on my revised code. One more question: is there a performance difference between linear probing and quadratic probing for collision resolution?\nDr. Chen: Good question. Quadratic probing reduces clustering compared to linear probing, which can suffer from primary clustering where large contiguous blocks of occupied slots form. However, quadratic probing can fail to find an empty slot even when one exists unless the table size is a prime number. For your assignment, linear probing is fine as long as you implement resizing correctly. We'll cover alternative collision strategies next week.",
+    "speakers": [
+      { "name": "Dr. Chen", "role": "computer science professor" },
+      { "name": "Marcus", "role": "student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Designing a new programming language",
+          "Debugging a segmentation fault in a hash table implementation",
+          "Comparing different sorting algorithms",
+          "Setting up a database server"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation is about debugging a segmentation fault in Marcus's hash table implementation that crashes with large datasets."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What collision resolution strategy is Marcus using?",
+        "options": [
+          "Separate chaining with linked lists",
+          "Open addressing with linear probing",
+          "Cuckoo hashing",
+          "Robin Hood hashing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states he is using open addressing with linear probing to handle collisions in his hash table."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "After how many inserted records does the program crash?",
+        "options": [
+          "About one thousand",
+          "About five thousand",
+          "About twelve thousand",
+          "About fifty thousand"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Marcus says the program crashes with a segmentation fault after inserting about twelve thousand records."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the root cause of the segmentation fault?",
+        "options": [
+          "A syntax error in the source code",
+          "The probing loop accesses memory outside the array bounds when the load factor gets too high",
+          "The compiler is outdated",
+          "The dataset contains invalid characters"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen identifies that the insert function doesn't check load factor, so linear probing can wrap around and access memory outside the array bounds."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What load factor threshold does Dr. Chen recommend for triggering a resize?",
+        "options": ["About 0.5", "About 0.7", "About 0.9", "Exactly 1.0"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen says the standard approach is to resize and rehash when the load factor exceeds about zero point seven."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the resize function need to do?",
+        "options": [
+          "Delete the hash table and start over",
+          "Double the table capacity, allocate a new array, and reinsert all existing elements",
+          "Reduce the table size by half",
+          "Sort all elements alphabetically"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen explains the resize function should double the table capacity, allocate a new array, and reinsert all existing elements using the new hash function."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does Dr. Chen suggest adding a bounds check in the probing loop?",
+        "options": [
+          "To make the code run faster",
+          "As a safety net for defensive programming, even with resizing implemented",
+          "To reduce the number of collisions",
+          "To eliminate the need for a hash function"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Dr. Chen recommends adding a bounds check as a safety net because defensive programming is good practice, even when resizing is implemented."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Marcus suggest adding to test boundary conditions?",
+        "options": [
+          "A faster compiler",
+          "Unit tests with edge cases like inserting exactly the table size number of elements",
+          "A graphical user interface",
+          "More comments in the code"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus suggests adding unit tests with edge cases like inserting exactly the table size number of elements."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about Valgrind compared to GDB?",
+        "options": [
+          "Valgrind is faster and replaces GDB entirely",
+          "Valgrind is slower but catches memory issues like leaks and invalid accesses that GDB might not surface",
+          "Valgrind only works on Windows",
+          "Valgrind cannot detect memory leaks"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Chen describes Valgrind as slower than GDB but capable of catching memory leaks and invalid accesses that GDB might not surface."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What disadvantage of quadratic probing does Dr. Chen mention?",
+        "options": [
+          "It always causes segmentation faults",
+          "It can fail to find an empty slot unless the table size is a prime number",
+          "It is slower than linear probing in all cases",
+          "It requires more memory than separate chaining"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen notes that quadratic probing can fail to find an empty slot even when one exists unless the table size is a prime number."
+      }
+    ],
+    "keyVocabulary": ["segmentation fault", "hash table", "open addressing", "linear probing", "load factor", "resize and rehash", "GDB debugger", "Valgrind", "unit tests", "defensive programming", "quadratic probing"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a seminar discussion between a sociology professor and three students about social networks and community formation.",
+    "audioScript": "Situation: A sociology professor leads a graduate seminar with three students discussing the role of social networks in community formation and social capital.\nDr. Nakamura: Today's seminar focuses on how social networks shape community formation and generate what sociologists call social capital. Let's start with a foundational question. Priya, how would you define social capital in the context of our readings?\nPriya: Based on Putnam's framework, social capital refers to the networks, norms, and trust that enable participants to act together more effectively to pursue shared objectives. It comes in two forms: bonding social capital, which strengthens ties within a homogeneous group, and bridging social capital, which connects across diverse groups.\nDr. Nakamura: Well stated. James, can you give an example of each form in an urban context?\nJames: Sure. Bonding social capital would be a close-knit immigrant community where neighbors share resources, language, and cultural traditions. Bridging social capital would be a neighborhood association that brings together residents from different ethnic and economic backgrounds to advocate for better public services.\nDr. Nakamura: Good. Now, a critical question. Some scholars argue that online social networks have transformed how communities form. Fatima, what does the research suggest?\nFatima: It's mixed. Wellman's research on networked individualism suggests that online networks have shifted communities from being place-based to person-based. People now maintain geographically dispersed networks. However, studies also show that online interactions often reinforce existing offline ties rather than creating genuinely new ones, a phenomenon called the amplification effect.\nDr. Nakamura: That's an important nuance. The amplification effect challenges the early utopian view that the internet would democratize social connections. But we should also consider negative outcomes. What are the risks of networked communities?\nPriya: One major risk is echo chambers. When people curate their networks to include only like-minded individuals, they're exposed to less diverse information. Sunstein's work shows this can polarize opinions and reduce the capacity for deliberative democracy. Bonding social capital increases within the group, but bridging social capital across groups decreases.\nJames: There's also the issue of digital inequality. Not everyone has equal access to online networks. The digital divide means that lower-income populations may be excluded from the benefits of networked communities, potentially widening existing social inequalities rather than closing them.\nDr. Nakamura: Excellent points, both of you. This connects to what Bourdieu called the reproduction of inequality. Social capital isn't distributed equally; those who already have resources can leverage networks to gain more, while those without resources remain disadvantaged. Fatima, how might policymakers address this?\nFatima: One approach is investing in community institutions like libraries and public spaces that foster bridging social capital across diverse groups. Another is digital literacy programs that help marginalized populations build and navigate online networks effectively. Research from the Pew Center shows that structured community programs can significantly increase cross-group interaction.\nDr. Nakamura: Good. For next week, I want each of you to design a small-scale study proposal examining social capital in a specific community of your choice. Your proposal should include a research question, a methodology section with both quantitative network analysis and qualitative interviews, and a discussion of potential ethical considerations. We'll workshop the proposals in class.",
+    "speakers": [
+      { "name": "Dr. Nakamura", "role": "sociology professor" },
+      { "name": "Priya", "role": "graduate student" },
+      { "name": "James", "role": "graduate student" },
+      { "name": "Fatima", "role": "graduate student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the seminar discussion?",
+        "options": [
+          "The history of urban architecture",
+          "How social networks shape community formation and generate social capital",
+          "Statistical methods in demographic research",
+          "Economic growth in developing countries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Dr. Nakamura states the seminar focuses on how social networks shape community formation and generate social capital."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to Priya, whose framework defines social capital?",
+        "options": ["Bourdieu", "Putnam", "Wellman", "Sunstein"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya defines social capital based on Putnam's framework, which describes networks, norms, and trust enabling collective action."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the difference between bonding and bridging social capital?",
+        "options": [
+          "Bonding is online and bridging is offline",
+          "Bonding strengthens ties within a homogeneous group, while bridging connects across diverse groups",
+          "Bonding is modern and bridging is traditional",
+          "There is no meaningful difference"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya explains bonding social capital strengthens ties within a homogeneous group, while bridging social capital connects across diverse groups."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What example does James give for bridging social capital?",
+        "options": [
+          "A close-knit immigrant community sharing resources",
+          "A neighborhood association bringing together residents from different backgrounds",
+          "A family sharing holiday meals",
+          "A sports team practicing together"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "James describes a neighborhood association that brings together residents from different ethnic and economic backgrounds as an example of bridging social capital."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the amplification effect described by Fatima?",
+        "options": [
+          "Online networks amplify political activism",
+          "Online interactions often reinforce existing offline ties rather than creating genuinely new ones",
+          "Online communities amplify economic growth",
+          "Social media amplifies advertising revenue"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Fatima explains that the amplification effect is when online interactions reinforce existing offline ties rather than creating genuinely new ones."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What concept from Wellman's research does Fatima describe?",
+        "options": [
+          "Networked individualism, shifting communities from place-based to person-based",
+          "Digital dictatorship",
+          "The strength of weak ties",
+          "The end of geography"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Fatima references Wellman's concept of networked individualism, which suggests online networks shifted communities from being place-based to person-based."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What risk of echo chambers does Priya describe?",
+        "options": [
+          "They increase bridging social capital",
+          "They reduce exposure to diverse information and can polarize opinions, reducing deliberative democracy",
+          "They improve economic productivity",
+          "They have no measurable effect on society"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya explains that echo chambers expose people to less diverse information, citing Sunstein's work showing this can polarize opinions and reduce deliberative democracy."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How does Dr. Nakamura connect the discussion to Bourdieu?",
+        "options": [
+          "Bourdieu argued that social capital is distributed equally",
+          "Dr. Nakamura references Bourdieu's concept of the reproduction of inequality, where those with resources gain more through networks",
+          "Bourdieu invented the term echo chamber",
+          "Bourdieu studied only online communities"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Nakamura connects the discussion to Bourdieu's concept of the reproduction of inequality, noting that social capital is not distributed equally and those with resources can leverage networks to gain more."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What two approaches does Fatima suggest for policymakers?",
+        "options": [
+          "Banning social media and closing public spaces",
+          "Investing in community institutions and implementing digital literacy programs",
+          "Mandating online social network accounts for all citizens",
+          "Privatizing all community spaces"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Fatima suggests investing in community institutions like libraries that foster bridging social capital, and implementing digital literacy programs for marginalized populations."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What must the students' study proposals include?",
+        "options": [
+          "Only a literature review",
+          "A research question, methodology with quantitative network analysis and qualitative interviews, and a discussion of ethical considerations",
+          "A purely theoretical essay with no methodology",
+          "Only statistical data tables"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Nakamura requires the proposals to include a research question, a methodology section with both quantitative network analysis and qualitative interviews, and a discussion of ethical considerations."
+      }
+    ],
+    "keyVocabulary": ["social capital", "bonding social capital", "bridging social capital", "networked individualism", "amplification effect", "echo chambers", "digital divide", "reproduction of inequality", "deliberative democracy", "network analysis"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between an education professor and two students about constructivist learning theory in classroom practice.",
+    "audioScript": "Situation: An education professor meets with two student teachers to discuss how to apply constructivist learning theory in their upcoming classroom teaching practicum.\nDr. Whitfield: Welcome, both of you. Next week you begin your teaching practicum at Lincoln Middle School. Today I want to discuss how you'll apply constructivist learning theory in your lesson planning. Let's start with the basics. Olivia, what is the core principle of constructivism?\nOlivia: The core principle is that learners actively construct their own understanding rather than passively receiving information from a teacher. Knowledge is built through experiences and reflection on those experiences. Piaget called this assimilation and accommodation, where learners either fit new information into existing schemas or modify their schemas to accommodate new information.\nDr. Whitfield: Excellent. Daniel, how does Vygotsky's perspective differ from Piaget's?\nDaniel: Vygotsky emphasized the social dimension of learning. He argued that cognitive development happens first on a social level through interaction with others, and then individually. His key concept is the zone of proximal development, which is the gap between what a learner can do independently and what they can achieve with guidance from a more knowledgeable other, like a teacher or peer.\nDr. Whitfield: Precisely. Vygotsky's zone of proximal development, or ZPD, is central to scaffolded instruction. As the teacher, you provide support that's gradually removed as the learner becomes more competent. This is what Bruner later called instructional scaffolding. Now, let's get practical. Olivia, how would you apply this in a middle school science lesson on photosynthesis?\nOlivia: Instead of just lecturing on the steps of photosynthesis, I'd start with a discrepant event, maybe showing students that a plant grows toward light even in a closed box with a small hole. This creates cognitive conflict, which Piaget said motivates learning. Then I'd have students work in small groups to design an experiment testing how light intensity affects plant growth, with me circulating to ask probing questions rather than giving answers directly.\nDr. Whitfield: That's a strong constructivist approach. The discrepant event creates disequilibrium, and the inquiry-based group work encourages social construction of knowledge. Daniel, what about assessment? Traditional multiple-choice tests don't always capture constructivist learning.\nDaniel: I'd use a combination of formative assessment methods: observation notes during group work, student reflections in learning journals, and a final concept map where students draw connections between photosynthesis, energy transfer, and the carbon cycle. The concept map reveals their mental schemas in a way a multiple-choice test cannot.\nDr. Whitfield: Concept maps are a powerful tool for making thinking visible. However, I want to caution you about a common misconception. Constructivism doesn't mean abandoning direct instruction entirely. Research by Kirschner, Sweller, and Clark argues that for novice learners with limited prior knowledge, minimally guided discovery learning can overload working memory and hinder learning. The key is knowing when to provide explicit instruction and when to step back for inquiry.\nOlivia: That's a good point. So I should assess students' prior knowledge first and adjust my level of guidance accordingly.\nDr. Whitfield: Exactly. This is what's called adaptive teaching. For your practicum, I want you to design a lesson sequence of three connected lessons on any science topic. Include at least one inquiry-based activity, one formative assessment strategy, and a rationale explaining how your instructional choices reflect constructivist principles while acknowledging the limitations. We'll review your plans together before you begin teaching.",
+    "speakers": [
+      { "name": "Dr. Whitfield", "role": "education professor" },
+      { "name": "Olivia", "role": "student teacher" },
+      { "name": "Daniel", "role": "student teacher" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "The history of standardized testing",
+          "Applying constructivist learning theory in classroom teaching practice",
+          "Classroom management techniques",
+          "Designing school budget plans"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Dr. Whitfield states the purpose is to discuss how the student teachers will apply constructivist learning theory in their lesson planning for the practicum."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the core principle of constructivism according to Olivia?",
+        "options": [
+          "Learners passively receive information from teachers",
+          "Learners actively construct their own understanding through experiences and reflection",
+          "Learning is purely biological and instinctive",
+          "Knowledge exists independently of the learner"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia states the core principle is that learners actively construct their own understanding rather than passively receiving information, building knowledge through experiences and reflection."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does Piaget call the process of fitting new information into existing schemas?",
+        "options": ["Accommodation", "Assimilation", "Equilibration", "Scaffolding"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia explains that Piaget called fitting new information into existing schemas assimilation, while modifying schemas is accommodation."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How does Vygotsky's perspective differ from Piaget's according to Daniel?",
+        "options": [
+          "Vygotsky emphasized the social dimension of learning through interaction with others",
+          "Vygotsky believed learning is purely individual",
+          "Vygotsky rejected the idea of schemas",
+          "There is no difference between the two"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Daniel explains that Vygotsky emphasized the social dimension of learning, where cognitive development happens first socially through interaction and then individually."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the zone of proximal development?",
+        "options": [
+          "The physical space between desks in a classroom",
+          "The gap between what a learner can do independently and what they can achieve with guidance",
+          "The time allotted for a lesson",
+          "The age range of students in a class"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel defines the ZPD as the gap between what a learner can do independently and what they can achieve with guidance from a more knowledgeable other."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the purpose of Olivia's discrepant event in the photosynthesis lesson?",
+        "options": [
+          "To entertain students before the lecture",
+          "To create cognitive conflict that motivates learning, as Piaget described",
+          "To test whether students can follow instructions",
+          "To save time in the lesson plan"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Olivia uses a discrepant event to create cognitive conflict, which Piaget said motivates learning by creating disequilibrium in the learner's schemas."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does Daniel prefer concept maps over multiple-choice tests?",
+        "options": [
+          "They are faster to grade",
+          "They reveal students' mental schemas in a way multiple-choice tests cannot",
+          "They require no preparation",
+          "They are required by state law"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel explains that concept maps reveal students' mental schemas in a way multiple-choice tests cannot, making thinking visible."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What caution does Dr. Whitfield raise about minimally guided discovery learning?",
+        "options": [
+          "It is too expensive for most schools",
+          "Research shows it can overload working memory and hinder learning for novice learners with limited prior knowledge",
+          "It violates education law",
+          "It only works with advanced students"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Whitfield cites research by Kirschner, Sweller, and Clark showing that minimally guided discovery learning can overload working memory and hinder learning for novice learners."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about adaptive teaching based on the discussion?",
+        "options": [
+          "It requires using only one teaching method for all students",
+          "It involves assessing prior knowledge and adjusting the level of guidance accordingly, balancing explicit instruction with inquiry",
+          "It means never giving direct instruction",
+          "It is only used in science classrooms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Whitfield defines adaptive teaching as assessing students' prior knowledge first and adjusting the level of guidance, knowing when to provide explicit instruction and when to step back for inquiry."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What must the student teachers' lesson sequence include?",
+        "options": [
+          "Only lectures and quizzes",
+          "At least one inquiry-based activity, one formative assessment strategy, and a rationale reflecting constructivist principles with limitations",
+          "A standardized final exam",
+          "Exactly five lessons on different topics"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Whitfield requires a three-lesson sequence that includes at least one inquiry-based activity, one formative assessment strategy, and a rationale reflecting constructivist principles while acknowledging limitations."
+      }
+    ],
+    "keyVocabulary": ["constructivist learning theory", "assimilation and accommodation", "zone of proximal development", "instructional scaffolding", "discrepant event", "cognitive conflict", "formative assessment", "concept map", "adaptive teaching", "working memory", "inquiry-based learning"]
+  }
+]

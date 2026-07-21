@@ -1,0 +1,870 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a financial aid officer briefing students on scholarship and loan options.",
+    "audioScript": "Situation: A financial aid officer addresses a group of new and returning students in a lecture hall to explain available funding options and application deadlines.\nOfficer: Good afternoon, everyone. I'm Karen, the senior financial aid officer here at Northgate University. Today I'll walk you through the main types of financial support available.\nOfficer: First, merit-based scholarships. These are awarded to students with a grade point average of three point five or above. The application window opens on the first of March and closes on the fifteenth of April.\nStudent: Excuse me, is there a separate form for need-based grants?\nOfficer: Yes, indeed. Need-based grants require a separate application, and you must submit your family income statement. Grants range from five hundred to three thousand pounds per year.\nOfficer: We also offer work-study programmes. Students can work up to fifteen hours per week on campus and earn around nine pounds per hour. Positions are limited and assigned on a first-come, first-served basis.\nStudent: What about student loans?\nOfficer: Government loans are available to eligible students. Repayment begins six months after graduation, and the interest rate is currently two point five percent.\nOfficer: Finally, emergency bursaries are available for students facing unexpected financial hardship. You can apply at any time during the academic year by contacting the financial aid office directly.\nStudent: Where do we submit the applications?\nOfficer: All applications must be submitted online through the student portal. Paper applications are no longer accepted.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Karen", "accent": "BRITISH", "gender": "FEMALE", "role": "senior financial aid officer" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is giving the financial aid briefing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A professor of economics", "The senior financial aid officer named Karen", "The university registrar", "A student representative"],
+        "keywords": ["Karen", "senior financial aid officer"],
+        "synonymsUsed": ["officer", "presenter"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What grade point average is required for merit-based scholarships?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three point zero", "Three point two", "Three point five", "Four point zero"],
+        "keywords": ["merit-based", "grade point average", "three point five"],
+        "synonymsUsed": ["GPA", "academic threshold"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the merit scholarship application window close?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The first of March", "The thirtieth of March", "The fifteenth of April", "The first of May"],
+        "keywords": ["application", "close", "fifteenth of April"],
+        "synonymsUsed": ["deadline", "window"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must students submit to apply for need-based grants?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A reference letter", "A family income statement", "A personal essay", "A bank statement"],
+        "keywords": ["need-based grants", "family income statement"],
+        "synonymsUsed": ["financial proof", "household earnings"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum annual grant for need-based awards?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Five hundred pounds", "One thousand pounds", "Two thousand pounds", "Three thousand pounds"],
+        "keywords": ["grants", "range", "three thousand"],
+        "synonymsUsed": ["maximum award", "upper limit"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many hours per week can students work under the work-study programme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten hours", "Twelve hours", "Fifteen hours", "Twenty hours"],
+        "keywords": ["work-study", "hours", "week"],
+        "synonymsUsed": ["working hours", "per week"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much do work-study students earn per hour?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nine pounds", "Twelve pounds", "Seven pounds", "Fifteen pounds"],
+        "keywords": ["earn", "nine pounds", "per hour"],
+        "synonymsUsed": ["wage", "hourly rate"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does repayment of government student loans begin?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Immediately after graduation", "Six months after graduation", "One year after graduation", "Only when earning above thirty thousand pounds"],
+        "keywords": ["loans", "repayment", "six months"],
+        "synonymsUsed": ["payback", "after graduation"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the current interest rate on government student loans?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One point five percent", "Two percent", "Two point five percent", "Three percent"],
+        "keywords": ["interest rate", "two point five percent"],
+        "synonymsUsed": ["rate", "charge"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How must students submit their financial aid applications?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Online through the student portal", "By post to the financial aid office", "In person at the registry", "By email attachment"],
+        "keywords": ["applications", "online", "student portal"],
+        "synonymsUsed": ["submit", "electronically"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "merit-based", "pronunciationNote": "/ˈmerɪt beɪst/", "meaning": "Awarded on the basis of academic or other achievement." },
+      { "word": "need-based grant", "meaning": "Financial aid given according to a student's financial circumstances." },
+      { "word": "bursary", "pronunciationNote": "/ˈbɜːsəri/", "meaning": "A monetary award to help students with the cost of study." },
+      { "word": "work-study", "meaning": "A programme allowing students to work part-time to fund their studies." },
+      { "word": "repayment", "meaning": "The act of paying back borrowed money over time." },
+      { "word": "emergency bursary", "meaning": "Funds available for students facing sudden financial hardship." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a careers advisor giving an overview of the upcoming internship fair.",
+    "audioScript": "Situation: A careers advisor briefs a group of second-year students about the annual internship fair, including logistics, preparation tips, and participating employers.\nAdvisor: Welcome, everyone. I'm Daniel, one of the careers advisors at Maple University. The annual internship fair is coming up next Friday in the Grand Hall.\nAdvisor: Over forty employers will attend, ranging from technology firms to non-profit organisations. The fair runs from ten in the morning until four in the afternoon.\nStudent: Do we need to register in advance?\nAdvisor: Yes, registration is compulsory. You must sign up through the careers portal by Wednesday at the latest. Walk-ins will not be admitted.\nStudent: What should we bring with us?\nAdvisor: Bring at least ten copies of your updated CV. There is also a CV clinic running on Tuesday afternoon in the careers centre if you need help polishing it.\nAdvisor: Dress code is smart business attire. Jeans and trainers are not permitted. First impressions matter.\nStudent: Are there any specific employers we should target?\nAdvisor: That depends on your field. For engineering students, I'd highlight Hartwell Engineering and BlueSky Robotics. For business students, Meridian Bank and Crestwood Consulting are actively recruiting.\nStudent: Will there be on-the-spot interviews?\nAdvisor: Some employers conduct brief screening interviews lasting about ten minutes. Prepare a short pitch about yourself and be ready to discuss your skills and experience.\nAdvisor: After the fair, follow up with a thank-you email to any recruiters you spoke with. This is a small but effective step.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Daniel", "accent": "AMERICAN", "gender": "MALE", "role": "careers advisor" },
+        { "name": "Student", "accent": "AMERICAN", "gender": "FEMALE", "role": "second-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the internship fair take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Next Monday", "Next Wednesday", "Next Friday", "Next Saturday"],
+        "keywords": ["internship fair", "next Friday"],
+        "synonymsUsed": ["event date", "scheduled"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where will the internship fair be held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The sports hall", "The Grand Hall", "The lecture theatre", "The students' union"],
+        "keywords": ["Grand Hall", "venue"],
+        "synonymsUsed": ["location", "held"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many employers will attend the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty employers", "Thirty-five employers", "Over forty employers", "Fifty employers"],
+        "keywords": ["employers", "forty", "attend"],
+        "synonymsUsed": ["companies", "participating"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By what day must students register for the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Monday", "Wednesday", "Thursday", "Friday"],
+        "keywords": ["register", "Wednesday", "latest"],
+        "synonymsUsed": ["sign up", "deadline"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many copies of the CV should students bring?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five copies", "Eight copies", "At least ten copies", "Fifteen copies"],
+        "keywords": ["CV", "copies", "ten"],
+        "synonymsUsed": ["resume", "copies"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the CV clinic held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Tuesday afternoon", "Wednesday morning", "Thursday evening", "Monday afternoon"],
+        "keywords": ["CV clinic", "Tuesday afternoon"],
+        "synonymsUsed": ["clinic", "help session"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the dress code for the internship fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Casual clothing", "Smart business attire", "Formal evening wear", "University hoodie"],
+        "keywords": ["dress code", "smart business attire"],
+        "synonymsUsed": ["attire", "outfit"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which company is recommended for engineering students?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Hartwell Engineering", "Meridian Bank", "Crestwood Consulting", "BlueSky Robotics"],
+        "keywords": ["engineering", "Hartwell Engineering"],
+        "synonymsUsed": ["target", "recommended"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long do the on-the-spot screening interviews last?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five minutes", "Seven minutes", "About ten minutes", "Fifteen minutes"],
+        "keywords": ["interviews", "ten minutes", "screening"],
+        "synonymsUsed": ["brief", "duration"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the advisor recommend doing after the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Send a thank-you email to recruiters", "Wait for employers to contact you", "Apply online within two weeks", "Visit the careers centre for feedback"],
+        "keywords": ["follow up", "thank-you email", "recruiters"],
+        "synonymsUsed": ["post-event", "gesture"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "internship", "pronunciationNote": "/ˈɪntɜːnʃɪp/", "meaning": "A temporary position offering work experience in a profession." },
+      { "word": "fair", "meaning": "An event where employers and potential employees meet." },
+      { "word": "screening interview", "meaning": "A brief preliminary interview to filter candidates." },
+      { "word": "smart business attire", "meaning": "Professional, formal clothing suitable for a workplace setting." },
+      { "word": "recruiter", "pronunciationNote": "/rɪˈkruːtə/", "meaning": "A person who identifies and engages potential employees." },
+      { "word": "CV clinic", "meaning": "A help session where advisors review and improve students' CVs." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to an officer introducing the student union and its services.",
+    "audioScript": "Situation: A student union officer addresses a group of first-year students to introduce the union's structure, services, and how to get involved.\nOfficer: Hello, everyone, and welcome to Greenfield University. I'm Olivia, the vice president of the student union. I'm here to give you a quick introduction to who we are and what we do.\nOfficer: The student union is an independent body run by elected student officers. We represent your interests to the university and provide a range of services.\nStudent: How is the union structured?\nOfficer: We have a president, a vice president, and five part-time officers, each responsible for a specific area such as welfare, education, and sports. Elections are held every spring.\nStudent: What services does the union provide?\nOfficer: We run the advice centre, which offers free and confidential support on housing, academic appeals, and welfare issues. It's open Monday to Friday, ten to four.\nOfficer: We also manage over sixty student societies, from debate to drama to photography. The society sign-up fair takes place during freshers' week on the main lawn.\nStudent: How can we join the union?\nOfficer: All registered students are automatically members, free of charge. To get involved in running things, you can attend our weekly general meetings on Wednesdays at six in the union building.\nOfficer: We also publish a monthly newsletter called The Student Voice. You can subscribe on our website to stay updated on events and campaigns.\nStudent: Can we suggest new initiatives?\nOfficer: Absolutely. You can submit proposals through our online portal. If they gather enough support, they'll be discussed at the next general meeting.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Olivia", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "student union vice president" },
+        { "name": "Student", "accent": "AUSTRALIAN", "gender": "MALE", "role": "first-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Olivia's role in the student union?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The president", "The vice president", "A part-time officer", "The welfare coordinator"],
+        "keywords": ["Olivia", "vice president"],
+        "synonymsUsed": ["role", "position"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is the student union described?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["An independent body run by elected student officers", "A department of the university administration", "A government-funded charity", "A private student club"],
+        "keywords": ["independent body", "elected", "officers"],
+        "synonymsUsed": ["autonomous", "self-governed"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many part-time officers does the union have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three", "Four", "Five", "Six"],
+        "keywords": ["part-time officers", "five"],
+        "synonymsUsed": ["officers", "number"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are the union officer elections held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Every autumn", "Every spring", "Every summer", "Every winter"],
+        "keywords": ["elections", "spring"],
+        "synonymsUsed": ["voting", "annual"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What issues does the advice centre help with?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Visa and immigration only", "Career planning and CV writing", "Housing, academic appeals, and welfare issues", "Sports club management"],
+        "keywords": ["advice centre", "housing", "academic appeals", "welfare"],
+        "synonymsUsed": ["support", "guidance"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the opening hours of the advice centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Nine to five", "Ten to six", "Nine to four", "Ten to four"],
+        "keywords": ["advice centre", "ten to four"],
+        "synonymsUsed": ["hours", "open"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many student societies does the union manage?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Over forty", "Over sixty", "Over eighty", "Over one hundred"],
+        "keywords": ["societies", "sixty"],
+        "synonymsUsed": ["clubs", "managed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where does the society sign-up fair take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["In the union building", "In the sports hall", "On the main lawn", "In the lecture theatre"],
+        "keywords": ["sign-up fair", "main lawn"],
+        "synonymsUsed": ["registration", "outdoors"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are the weekly general meetings held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Wednesdays at six", "Thursdays at five", "Tuesdays at seven", "Mondays at six"],
+        "keywords": ["general meetings", "Wednesdays", "six"],
+        "synonymsUsed": ["gatherings", "scheduled"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How can students submit proposals for new initiatives?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By attending a general meeting in person", "Through the online portal", "By emailing the president directly", "By posting to the union office"],
+        "keywords": ["proposals", "online portal"],
+        "synonymsUsed": ["submit", "suggest"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "independent body", "meaning": "An organisation that operates autonomously, not controlled by another entity." },
+      { "word": "elected", "pronunciationNote": "/ɪˈlektɪd/", "meaning": "Chosen by vote to hold a position." },
+      { "word": "confidential", "meaning": "Intended to be kept private and not shared with others." },
+      { "word": "society", "meaning": "A student club organised around a shared interest." },
+      { "word": "initiative", "pronunciationNote": "/ɪˈnɪʃətɪv/", "meaning": "A new plan or proposal to address something." },
+      { "word": "welfare", "meaning": "The health, happiness, and fortunes of a person or group." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to an IT services manager giving a tour of the campus technology facilities.",
+    "audioScript": "Situation: An IT services manager guides a group of new students through the campus technology centre, explaining available computing resources and support.\nManager: Welcome to the Whitfield Technology Centre. I'm Marcus, the IT services manager. I'll be showing you around our main computing facilities today.\nManager: This building houses four computer labs, each with forty workstations. Labs A and B are on the ground floor and are open twenty-four hours a day. Labs C and D are upstairs and close at ten p.m.\nStudent: Do we need a special account to log in?\nManager: You use your standard university username and password. Your account gives you access to all campus software, including specialist packages like statistical analysis tools and design software.\nStudent: Is there wireless internet across campus?\nManager: Yes, Wi-Fi is available in all buildings. The network is called CampusNet. You connect once using your university credentials, and it will remember your device automatically.\nManager: For printing, we use a follow-me system. You send your document to any printer, then tap your student card at the device to release it. Colour printing costs fifteen pence per page.\nStudent: What if we have technical problems?\nManager: The IT help desk is on the ground floor, open from eight a.m. until eight p.m. on weekdays. You can also submit tickets online at any time, and we aim to respond within four working hours.\nManager: Finally, all students get one terabyte of cloud storage through the university system. You can sync files across your devices and access them anywhere.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Marcus", "accent": "CANADIAN", "gender": "MALE", "role": "IT services manager" },
+        { "name": "Student", "accent": "CANADIAN", "gender": "FEMALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many computer labs are in the Whitfield Technology Centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["computer labs", "four"],
+        "synonymsUsed": ["labs", "number"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many workstations does each lab have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Thirty", "Forty", "Fifty", "Sixty"],
+        "keywords": ["workstations", "forty"],
+        "synonymsUsed": ["computers", "per lab"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which labs are open twenty-four hours a day?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Labs A and B", "Labs C and D", "All four labs", "Only Lab A"],
+        "keywords": ["Labs A and B", "twenty-four hours"],
+        "synonymsUsed": ["open round the clock", "always available"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time do Labs C and D close?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight p.m.", "Nine p.m.", "Ten p.m.", "Eleven p.m."],
+        "keywords": ["Labs C and D", "close", "ten p.m."],
+        "synonymsUsed": ["shut", "closing time"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the name of the campus Wi-Fi network?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["UniNet", "CampusNet", "StudentNet", "WhitfieldNet"],
+        "keywords": ["Wi-Fi", "CampusNet", "network"],
+        "synonymsUsed": ["wireless", "network name"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the follow-me printing system work?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Documents print automatically at the nearest printer", "You must select a specific printer before sending", "You send the document and tap your card at any printer to release it", "You collect prints from the IT help desk"],
+        "keywords": ["follow-me", "tap", "student card", "release"],
+        "synonymsUsed": ["release", "card system"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does colour printing cost per page?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Fifteen pence", "Ten pence", "Twenty pence", "Five pence"],
+        "keywords": ["colour printing", "fifteen pence"],
+        "synonymsUsed": ["cost", "per page"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the weekday opening hours of the IT help desk?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Nine a.m. to six p.m.", "Eight a.m. to eight p.m.", "Seven a.m. to nine p.m.", "Eight a.m. to six p.m."],
+        "keywords": ["IT help desk", "eight a.m.", "eight p.m."],
+        "synonymsUsed": ["support desk", "hours"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How quickly does the IT team aim to respond to online tickets?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Within one hour", "Within two hours", "Within four working hours", "Within twenty-four hours"],
+        "keywords": ["tickets", "respond", "four working hours"],
+        "synonymsUsed": ["reply", "response time"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much cloud storage do students receive?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Five hundred gigabytes", "Two terabytes", "Five hundred megabytes", "One terabyte"],
+        "keywords": ["cloud storage", "one terabyte"],
+        "synonymsUsed": ["online storage", "capacity"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "workstation", "pronunciationNote": "/ˈwɜːksteɪʃən/", "meaning": "A desktop computer set up for use by one person." },
+      { "word": "credentials", "meaning": "Login details such as username and password." },
+      { "word": "follow-me printing", "meaning": "A system where print jobs are released at any printer using a card." },
+      { "word": "ticket", "meaning": "A submitted request for technical support, tracked online." },
+      { "word": "cloud storage", "meaning": "Online file storage accessible from any internet-connected device." },
+      { "word": "sync", "pronunciationNote": "/sɪŋk/", "meaning": "To keep files consistent and up to date across multiple devices." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a coordinator explaining the disability services available at the university.",
+    "audioScript": "Situation: A disability services coordinator addresses a group of students and staff to outline the support available for students with disabilities and the process for requesting accommodations.\nCoordinator: Good afternoon. I'm Dr. Fiona Hughes, the disability services coordinator at Ashworth University. I'd like to explain what we offer and how to access support.\nCoordinator: Our office supports students with a wide range of conditions, including physical disabilities, sensory impairments, learning difficulties such as dyslexia, and long-term health conditions.\nStudent: How do we register with the service?\nCoordinator: You begin by completing an online registration form on our portal. You'll also need to provide evidence of your condition, such as a medical letter or an educational psychologist's report.\nStudent: What kind of accommodations are available?\nCoordinator: Common accommodations include extra time in exams, usually twenty-five percent additional time, note-taking support, and accessible seating in lecture halls. We can also arrange sign language interpreters upon request.\nCoordinator: For students with visual impairments, we provide materials in alternative formats, including large print and braille. Audio recordings of lectures can also be arranged with the lecturer's permission.\nStudent: Is there dedicated study space?\nCoordinator: Yes, we have two assistive technology rooms on the second floor of the library. Each is equipped with screen-reading software, ergonomic chairs, and adjustable desks. They can be booked up to a week in advance.\nCoordinator: Our office is located in the Student Services Building, room one-oh-seven. We operate on an appointment basis, available Monday through Friday, nine to five.\nStudent: Is there a deadline to request exam accommodations?\nCoordinator: Yes, exam accommodation requests must be submitted at least four weeks before the exam date. Late requests may not be processed in time.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Fiona", "accent": "BRITISH", "gender": "FEMALE", "role": "disability services coordinator" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Dr. Fiona Hughes?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A university lecturer", "The disability services coordinator", "The head librarian", "A medical doctor"],
+        "keywords": ["Fiona Hughes", "disability services coordinator"],
+        "synonymsUsed": ["coordinator", "in charge"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which of the following is NOT mentioned as a condition the service supports?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Physical disabilities", "Sensory impairments", "Dyslexia", "Short-term illnesses such as a cold"],
+        "keywords": ["conditions", "physical", "sensory", "dyslexia"],
+        "synonymsUsed": ["supports", "covers"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must students provide when registering with the service?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A passport photograph", "Evidence of the condition, such as a medical letter", "A reference from a teacher", "A previous exam result"],
+        "keywords": ["evidence", "medical letter", "registering"],
+        "synonymsUsed": ["proof", "documentation"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much extra time is typically given in exams?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten percent", "Fifteen percent", "Twenty-five percent", "Fifty percent"],
+        "keywords": ["extra time", "exams", "twenty-five percent"],
+        "synonymsUsed": ["additional time", "allowance"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What alternative formats are provided for visually impaired students?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Audio only", "Large print and braille", "Electronic tablets only", "Translated versions"],
+        "keywords": ["alternative formats", "large print", "braille"],
+        "synonymsUsed": ["formats", "accessible"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where are the assistive technology rooms located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["On the second floor of the library", "In the Student Services Building", "On the ground floor of the library", "In the lecture hall"],
+        "keywords": ["assistive technology rooms", "second floor", "library"],
+        "synonymsUsed": ["location", "situated"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How far in advance can the assistive technology rooms be booked?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three days", "Five days", "Up to a week", "Two weeks"],
+        "keywords": ["booked", "week in advance"],
+        "synonymsUsed": ["reserve", "ahead"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is equipped in the assistive technology rooms?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Video conferencing tools and whiteboards", "3D printers and scanners", "Screen-reading software, ergonomic chairs, and adjustable desks", "Specialist lab equipment"],
+        "keywords": ["screen-reading", "ergonomic chairs", "adjustable desks"],
+        "synonymsUsed": ["equipped", "fitted"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the disability services office located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Student Services Building, room one-oh-seven", "The library, second floor", "The registry building", "The students' union"],
+        "keywords": ["office", "Student Services Building", "room one-oh-seven"],
+        "synonymsUsed": ["located", "based"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When must exam accommodation requests be submitted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At least two weeks before the exam", "At least four weeks before the exam date", "At least one week before the exam", "At the start of the academic year"],
+        "keywords": ["exam accommodation", "four weeks", "deadline"],
+        "synonymsUsed": ["submit", "deadline"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "accommodation", "pronunciationNote": "/əˌkɒməˈdeɪʃən/", "meaning": "An adjustment or support provided to help a student access learning." },
+      { "word": "dyslexia", "meaning": "A learning difficulty affecting reading and spelling." },
+      { "word": "sensory impairment", "meaning": "A condition affecting one or more of the senses, such as sight or hearing." },
+      { "word": "braille", "pronunciationNote": "/breɪl/", "meaning": "A system of raised dots that can be read by touch." },
+      { "word": "ergonomic", "meaning": "Designed to be comfortable and efficient for the user." },
+      { "word": "screen-reading software", "meaning": "A program that reads on-screen text aloud for visually impaired users." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a counsellor introducing the university's counselling services to new students.",
+    "audioScript": "Situation: A senior counsellor speaks to a group of new students during orientation week to introduce the university's mental health and wellbeing services, including how to book appointments and what to expect.\nCounsellor: Welcome, everyone. I'm Dr. James Whitfield, a senior counsellor at the Wellbeing Centre. I want to tell you about the counselling services available to all registered students at this university.\nCounsellor: The Wellbeing Centre offers free and confidential counselling to every enrolled student. There is no charge, and nothing is shared with your academic department without your explicit consent.\nStudent: What types of issues can we bring to counselling?\nCounsellor: Students come to us for a wide range of reasons, including anxiety, depression, homesickness, relationship difficulties, and stress related to academic pressure. No concern is too small.\nStudent: How do we book an appointment?\nCounsellor: You can self-refer through our online portal. After submitting the form, you'll be offered an initial assessment within five working days. This first session is a conversation to understand your needs and recommend the right support.\nCounsellor: Following the assessment, you may be offered short-term counselling, typically six to eight weekly sessions of fifty minutes each. If longer-term support is needed, we can refer you to external services.\nStudent: Do you offer any group sessions?\nCounsellor: Yes. We run workshops on managing exam stress, building resilience, and mindfulness. These are held every Thursday afternoon in the seminar room and no registration is required.\nStudent: What should I do in a crisis outside of office hours?\nCounsellor: If you experience a mental health crisis when the centre is closed, you should call the twenty-four-hour crisis line. The number is on the back of your student card. Alternatively, you can go directly to the nearest hospital emergency department.\nCounsellor: Our centre is located in the East Wing of the Health Building. We're open Monday to Friday, nine a.m. to six p.m. Please don't hesitate to reach out, even if you're unsure whether counselling is right for you.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "James", "accent": "BRITISH", "gender": "MALE", "role": "senior counsellor" },
+        { "name": "Student", "accent": "BRITISH", "gender": "FEMALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the speaker say about the counselling service's cost and confidentiality?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It is free and confidential for all enrolled students", "It costs a small fee and is shared with tutors", "It is free but recorded on the student's academic file", "It is confidential but only for postgraduates"],
+        "keywords": ["free", "confidential", "enrolled students"],
+        "synonymsUsed": ["no charge", "private"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Under what condition would information be shared with a student's academic department?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["If the student misses two appointments", "If the counsellor believes the student is at risk of failing", "Only with the student's explicit consent", "Automatically, after each session"],
+        "keywords": ["explicit consent", "shared", "academic department"],
+        "synonymsUsed": ["permission", "disclosed"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How can students book an initial appointment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By visiting the centre in person only", "By self-referring through the online portal", "By asking their personal tutor to refer them", "By calling the crisis line"],
+        "keywords": ["self-refer", "online portal"],
+        "synonymsUsed": ["book", "self-referral"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How quickly is the initial assessment offered after submitting the form?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Within two working days", "Within three working days", "Within five working days", "Within seven working days"],
+        "keywords": ["initial assessment", "five working days"],
+        "synonymsUsed": ["offered", "turnaround"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many sessions are typically offered in short-term counselling?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Four to five sessions", "Six to eight sessions", "Ten to twelve sessions", "Up to twenty sessions"],
+        "keywords": ["short-term counselling", "six to eight", "sessions"],
+        "synonymsUsed": ["typically", "number"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does each counselling session last?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty minutes", "Forty minutes", "Fifty minutes", "One hour"],
+        "keywords": ["session", "fifty minutes"],
+        "synonymsUsed": ["duration", "length"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if a student requires longer-term support?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They are placed on a waiting list for the next term", "They can be referred to external services", "They must reapply for counselling from the beginning", "They are offered unlimited sessions at the centre"],
+        "keywords": ["longer-term", "external services", "referred"],
+        "synonymsUsed": ["extended", "outside referral"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are the group workshops held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Every Thursday afternoon", "Every Tuesday morning", "Every Wednesday evening", "Every Friday afternoon"],
+        "keywords": ["workshops", "Thursday afternoon"],
+        "synonymsUsed": ["group sessions", "scheduled"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What should students do during a mental health crisis outside office hours?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Email the counselling team and wait for a response", "Call the twenty-four-hour crisis line or go to the hospital emergency department", "Contact their personal tutor immediately", "Wait until the centre reopens the next day"],
+        "keywords": ["crisis", "twenty-four-hour crisis line", "emergency department"],
+        "synonymsUsed": ["out of hours", "urgent"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the Wellbeing Centre located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The East Wing of the Health Building", "The Student Services Building", "The library, third floor", "The students' union building"],
+        "keywords": ["Wellbeing Centre", "East Wing", "Health Building"],
+        "synonymsUsed": ["located", "based"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "confidential", "pronunciationNote": "/ˌkɒnfɪˈdenʃəl/", "meaning": "Kept private and not disclosed to others without permission." },
+      { "word": "self-refer", "meaning": "To refer oneself for a service without needing a third party to do so." },
+      { "word": "initial assessment", "meaning": "The first session used to evaluate a person's needs." },
+      { "word": "resilience", "pronunciationNote": "/rɪˈzɪliəns/", "meaning": "The ability to recover from difficulties or setbacks." },
+      { "word": "mindfulness", "meaning": "A practice of focusing awareness on the present moment." },
+      { "word": "crisis line", "meaning": "A telephone service available around the clock for emergencies." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to an academic officer briefing students on the university's academic integrity policies.",
+    "audioScript": "Situation: An academic integrity officer addresses a group of first-year postgraduate students to explain plagiarism, collusion, the penalties for academic misconduct, and how to avoid violations.\nOfficer: Good morning. I'm Professor Eleanor Bryant, the academic integrity officer at Kingsford University. This session is compulsory for all new postgraduate students, so please listen carefully.\nOfficer: Academic integrity means honesty and responsibility in all academic work. The three most common breaches are plagiarism, collusion, and contract cheating.\nStudent: Could you explain the difference between plagiarism and collusion?\nOfficer: Certainly. Plagiarism is presenting someone else's words or ideas as your own without proper acknowledgment. Collusion is when two or more students work together on an assignment that is meant to be completed individually.\nOfficer: Contract cheating is the most serious offence. This involves paying a third party, such as an essay mill, to produce work on your behalf. The minimum penalty for contract cheating is immediate expulsion from the university.\nStudent: What are the penalties for plagiarism?\nOfficer: Penalties depend on severity. For a first offence of minor plagiarism, the typical penalty is a mark of zero for the assignment and a mandatory training module. For repeat or serious offences, penalties can include failing the entire module or suspension.\nStudent: How can we avoid plagiarism?\nOfficer: Always cite your sources using the required referencing style. We use the Harvard system across most departments. Quotation marks must be used for direct quotes, and paraphrased ideas still require a citation.\nOfficer: All written submissions are checked through Turnitin, a similarity detection software. You will see a similarity score, but there is no fixed percentage that automatically triggers a penalty. Each case is reviewed individually by a panel.\nStudent: Can we work with classmates on homework?\nOfficer: Group discussion is encouraged, but unless your tutor explicitly permits collaborative submission, each student must write up their own answers independently. When in doubt, ask your tutor for clarification.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Eleanor", "accent": "BRITISH", "gender": "FEMALE", "role": "academic integrity officer" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "first-year postgraduate" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Professor Eleanor Bryant?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A law professor", "The academic integrity officer", "The head of postgraduate admissions", "The student union president"],
+        "keywords": ["Eleanor Bryant", "academic integrity officer"],
+        "synonymsUsed": ["officer", "in charge"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which of the following is NOT one of the three most common breaches mentioned?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Plagiarism", "Collusion", "Contract cheating", "Skipping lectures"],
+        "keywords": ["breaches", "plagiarism", "collusion", "contract cheating"],
+        "synonymsUsed": ["violations", "offences"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is collusion defined in the briefing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Copying from the internet without citation", "Paying someone to write an essay", "Students working together on an assignment meant to be completed individually", "Submitting the same essay twice"],
+        "keywords": ["collusion", "work together", "individually"],
+        "synonymsUsed": ["unauthorised collaboration", "joint work"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the minimum penalty for contract cheating?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["A written warning", "A failing mark for the assignment", "A fine of five hundred pounds", "Immediate expulsion from the university"],
+        "keywords": ["contract cheating", "minimum penalty", "expulsion"],
+        "synonymsUsed": ["consequence", "dismissal"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the typical penalty for a first offence of minor plagiarism?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Suspension for one term", "A mark of zero for the assignment and a mandatory training module", "Failing the entire module", "A formal warning only"],
+        "keywords": ["minor plagiarism", "first offence", "mark of zero", "training module"],
+        "synonymsUsed": ["penalty", "first time"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What can happen for repeat or serious plagiarism offences?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A small deduction in marks", "A verbal warning from the tutor", "Failing the entire module or suspension", "A fine and community service"],
+        "keywords": ["repeat", "serious", "failing module", "suspension"],
+        "synonymsUsed": ["escalated", "consequences"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which referencing system is used across most departments?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The Harvard system", "The APA system", "The MLA system", "The Chicago system"],
+        "keywords": ["referencing style", "Harvard system"],
+        "synonymsUsed": ["citation format", "system"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the speaker say about paraphrased ideas?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Paraphrased ideas do not need citations", "Paraphrased ideas still require a citation", "Paraphrasing is considered collusion", "Paraphrasing is only allowed in exams"],
+        "keywords": ["paraphrased", "citation", "still require"],
+        "synonymsUsed": ["reworded", "acknowledgment"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the speaker say about the Turnitin similarity score?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A score above ten percent automatically triggers expulsion", "Students must keep their score below five percent", "There is no fixed percentage that automatically triggers a penalty", "The score is not shown to students"],
+        "keywords": ["Turnitin", "similarity score", "no fixed percentage"],
+        "synonymsUsed": ["threshold", "automatic"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is collaborative submission acceptable?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Whenever students agree among themselves", "Only when the tutor explicitly permits it", "For all homework assignments", "Only for group projects worth more than thirty percent"],
+        "keywords": ["collaborative submission", "tutor", "explicitly permits"],
+        "synonymsUsed": ["joint work", "allowed"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "plagiarism", "pronunciationNote": "/ˈpleɪdʒərɪzəm/", "meaning": "Presenting someone else's work or ideas as your own without acknowledgment." },
+      { "word": "collusion", "meaning": "Secret cooperation on work that should be done independently." },
+      { "word": "contract cheating", "meaning": "Paying a third party to produce academic work on your behalf." },
+      { "word": "expulsion", "pronunciationNote": "/ɪkˈspʌlʃən/", "meaning": "Permanent removal from the university." },
+      { "word": "paraphrase", "meaning": "To express the meaning of something using different words." },
+      { "word": "similarity detection", "meaning": "Software that compares submitted text against existing sources to find matches." }
+    ],
+    "difficulty": "HARD"
+  }
+]

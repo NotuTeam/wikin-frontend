@@ -1,0 +1,863 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a biology lecture on the principles of evolutionary biology and natural selection.",
+    "audioScript": "Situation: A university lecturer delivers an evolutionary biology lecture introducing the core principles of natural selection and adaptation.\nDr. Whitfield: Good morning. Today we turn to evolutionary biology, the science of how species change over time. The central mechanism, as Charles Darwin proposed in eighteen fifty-nine, is natural selection.\nDr. Whitfield: Natural selection rests on three observations. First, organisms produce more offspring than can survive. Second, individuals vary in their traits. Third, some of these traits are heritable, meaning they pass from parent to offspring.\nDr. Whitfield: Those individuals with traits suited to their environment survive and reproduce more successfully. Over generations, advantageous traits become more common in the population. The classic example is the peppered moth in nineteenth-century England.\nDr. Whitfield: Before the Industrial Revolution, light-coloured moths dominated because they camouflaged against pale tree bark. As pollution blackened the trees, dark moths became harder for birds to spot, and their numbers rose sharply. When clean air laws reduced pollution, the balance shifted back.\nDr. Whitfield: It is important to distinguish evolution from individual change. A single giraffe does not stretch its neck during its lifetime and pass on a longer neck. Rather, giraffes born with slightly longer necks had a feeding advantage and left more offspring.\nDr. Whitfield: Speciation occurs when populations become reproductively isolated, often through geographic separation. Over time, genetic differences accumulate until they can no longer interbreed. The Galapagos finches, separated on different islands, evolved distinct beak shapes suited to different food sources.\nDr. Whitfield: Modern genetics, unknown to Darwin, has confirmed and enriched his theory. DNA provides the hereditary mechanism he could only infer. Today, evolutionary biology underpins medicine, agriculture, and conservation, showing that all life on Earth shares a common ancestry.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr. Whitfield", "accent": "BRITISH", "gender": "FEMALE", "role": "evolutionary biology lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the central mechanism of evolution described by Darwin?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Artificial selection", "Natural selection", "Genetic drift", "Lamarckian inheritance"],
+        "keywords": ["natural selection", "Darwin", "mechanism"],
+        "synonymsUsed": ["central process", "main driver"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year did Darwin propose natural selection?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eighteen forty-nine", "Eighteen fifty-five", "Eighteen fifty-nine", "Eighteen seventy-one"],
+        "keywords": ["Darwin", "year", "proposed"],
+        "synonymsUsed": ["published", "introduced"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which is NOT one of the three observations underlying natural selection?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Organisms compete for mates through ritual displays", "Organisms produce more offspring than can survive", "Individuals vary in their traits", "Some traits are heritable"],
+        "keywords": ["observations", "offspring", "traits", "heritable"],
+        "synonymsUsed": ["principles", "foundations"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What caused the rise of dark-coloured peppered moths?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A warming climate", "Pollution blackening the trees", "A new predator arriving", "A decrease in bird populations"],
+        "keywords": ["peppered moth", "dark", "pollution"],
+        "synonymsUsed": ["industrial soot", "darkened bark"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What reversed the balance back toward light moths?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A cooling climate", "The extinction of birds", "Clean air laws reducing pollution", "The arrival of a new tree species"],
+        "keywords": ["reversed", "clean air laws", "pollution"],
+        "synonymsUsed": ["shifted back", "legislation"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say about the giraffe example?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Giraffes stretch their necks during their lifetime", "Longer necks are caused by diet alone", "Giraffes born with longer necks had a feeding advantage and left more offspring", "All giraffes had identical neck lengths"],
+        "keywords": ["giraffe", "neck", "feeding advantage"],
+        "synonymsUsed": ["birth trait", "reproductive success"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What often causes populations to become reproductively isolated?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Geographic separation", "Climate change alone", "A sudden mutation", "Human intervention"],
+        "keywords": ["speciation", "reproductively isolated", "geographic"],
+        "synonymsUsed": ["physical separation", "barrier"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the Galapagos finches evolve?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Different feather colours", "Distinct beak shapes suited to different food sources", "Larger body sizes on every island", "The ability to swim long distances"],
+        "keywords": ["Galapagos finches", "beak", "food sources"],
+        "synonymsUsed": ["evolved", "adapted"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does DNA provide that Darwin could only infer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The hereditary mechanism", "The age of the Earth", "The cause of mutations", "The structure of proteins"],
+        "keywords": ["DNA", "hereditary mechanism", "Darwin"],
+        "synonymsUsed": ["genetic basis", "inheritance"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer conclude about all life on Earth?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It originated independently on different continents", "It shares a common ancestry", "It was created in a single event", "It cannot be studied scientifically"],
+        "keywords": ["common ancestry", "all life", "conclusion"],
+        "synonymsUsed": ["shared origins", "related"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "natural selection", "meaning": "The process whereby organisms better adapted to their environment survive and reproduce more successfully." },
+      { "word": "heritable", "pronunciationNote": "/ˈhɛrɪtəbəl/", "meaning": "Capable of being passed from parent to offspring through genes." },
+      { "word": "camouflage", "meaning": "Coloration or pattern that helps an organism blend into its surroundings." },
+      { "word": "speciation", "pronunciationNote": "/ˌspiːʃiˈeɪʃən/", "meaning": "The formation of new and distinct species through reproductive isolation." },
+      { "word": "reproductively isolated", "meaning": "Unable to interbreed with other populations due to genetic or physical barriers." },
+      { "word": "hereditary", "meaning": "Transmitted or capable of being transmitted genetically from parent to offspring." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a history lecture on the structure and decline of feudalism in medieval Europe.",
+    "audioScript": "Situation: A medieval history professor delivers a lecture on the feudal system in Europe, explaining its structure and eventual decline.\nProfessor Lindqvist: Good afternoon. Today we examine feudalism, the social and economic system that dominated medieval Europe from roughly the ninth to the fifteenth century.\nProfessor Lindqvist: At its core, feudalism was a hierarchy of obligations. A king granted land, called a fief, to nobles in exchange for military service. The nobles, in turn, granted portions to knights, and the land was worked by peasants and serfs bound to the manor.\nProfessor Lindqvist: Serfdom is crucial to understand. A serf was not a slave, because they could not be sold away from the land. However, they were not free either. They owed labour and a share of their crops to the lord and could not leave the manor without permission.\nProfessor Lindqvist: The Church played a central role. Bishops and abbots held vast lands and political power. The Pope could excommunicate a king, effectively releasing his subjects from obedience, a weapon used against several monarchs.\nProfessor Lindqvist: Several factors eroded feudalism. The Black Death of thirteen forty-eight killed an estimated third of Europe's population. With fewer workers, surviving peasants could demand wages, weakening the manorial system.\nProfessor Lindqvist: The growth of towns and trade offered alternatives. A serf who reached a town and lived there for a year and a day became free, according to an old legal principle. Cities like Venice and Bruges grew wealthy through commerce, not land.\nProfessor Lindqvist: Standing armies and gunpowder further undermined the knight's military dominance. A trained longbowman or early cannon could defeat an armoured noble, making feudal levies obsolete.\nProfessor Lindqvist: By the fifteenth century, centralised monarchies in England and France had consolidated power, bypassing the feudal nobility. Feudalism faded not in a single event but through a gradual transformation into the early modern state.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Lindqvist", "accent": "BRITISH", "gender": "MALE", "role": "medieval history professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Roughly when did feudalism dominate medieval Europe?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The fifth to the ninth century", "The ninth to the fifteenth century", "The third to the eighth century", "The eleventh to the seventeenth century"],
+        "keywords": ["feudalism", "ninth", "fifteenth", "century"],
+        "synonymsUsed": ["dominated", "period"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did a king grant to nobles in exchange for military service?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A fief", "A title alone", "A tax exemption", "A religious office"],
+        "keywords": ["king", "grant", "fief", "military service"],
+        "synonymsUsed": ["land", "gave"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the professor describe a serf's status?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Completely free to move anywhere", "A slave who could be sold away from the land", "Not a slave, but not free, and bound to the manor", "An equal partner to the lord"],
+        "keywords": ["serf", "not a slave", "not free", "manor"],
+        "synonymsUsed": ["status", "bound to land"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What could the Pope do to a king?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tax him directly", "Excommunicate him, releasing subjects from obedience", "Force him to abdicate immediately", "Confiscate his lands"],
+        "keywords": ["Pope", "excommunicate", "obedience"],
+        "synonymsUsed": ["religious penalty", "authority"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What fraction of Europe's population did the Black Death kill?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A quarter", "A third", "Half", "A tenth"],
+        "keywords": ["Black Death", "population", "third"],
+        "synonymsUsed": ["plague", "proportion"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year did the Black Death strike?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Thirteen forty-eight", "Twelve sixty-five", "Fourteen twelve", "Fifteen oh-six"],
+        "keywords": ["Black Death", "year", "thirteen forty-eight"],
+        "synonymsUsed": ["date", "struck"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How could a serf become free according to an old legal principle?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["By paying the lord a fixed sum", "By joining the Church", "By reaching a town and living there for a year and a day", "By serving in the army for five years"],
+        "keywords": ["serf", "free", "town", "year and a day"],
+        "synonymsUsed": ["liberty", "legal rule"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which cities grew wealthy through commerce?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Venice and Bruges", "Paris and London", "Rome and Constantinople", "Madrid and Lisbon"],
+        "keywords": ["cities", "commerce", "Venice", "Bruges"],
+        "synonymsUsed": ["trade", "wealthy"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What undermined the knight's military dominance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The decline of the Church", "The longbow and early cannon", "The abolition of serfdom", "The rise of the merchant class"],
+        "keywords": ["knight", "longbow", "cannon", "military"],
+        "synonymsUsed": ["weakened", "defeated"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the professor describe the end of feudalism?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A sudden revolution in fourteen hundred", "A papal decree abolishing it", "A gradual transformation into the early modern state", "A single treaty among European kings"],
+        "keywords": ["end", "feudalism", "gradual", "early modern state"],
+        "synonymsUsed": ["decline", "transformation"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "fief", "pronunciationNote": "/fiːf/", "meaning": "An estate of land granted by a lord to a vassal in exchange for service." },
+      { "word": "serf", "meaning": "A peasant legally bound to live and work on a lord's land." },
+      { "word": "manor", "meaning": "The land and estate managed by a feudal lord, worked by serfs." },
+      { "word": "excommunicate", "pronunciationNote": "/ˌɛkskəˈmjuːnɪkeɪt/", "meaning": "To formally exclude someone from membership of the Catholic Church." },
+      { "word": "Black Death", "meaning": "The devastating bubonic plague pandemic that struck Europe in the fourteenth century." },
+      { "word": "centralised monarchy", "meaning": "A system where royal authority is concentrated in a single sovereign, bypassing regional nobles." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an architecture lecture on the principles and pioneers of modern architecture.",
+    "audioScript": "Situation: An architecture professor delivers a lecture on the modern architecture movement, its guiding principles, and key figures.\nProfessor Tanaka: Welcome. Today we explore modern architecture, the movement that reshaped cities worldwide in the twentieth century. Its motto, coined by Louis Sullivan in eighteen ninety-six, was 'form follows function.'\nProfessor Tanaka: Modern architects rejected the heavy ornamentation of Victorian and neoclassical styles. They believed a building's purpose should determine its appearance, leading to clean lines, open floor plans, and the honest expression of materials.\nProfessor Tanaka: New materials drove the revolution. Steel frame construction, perfected in late nineteenth-century Chicago, allowed buildings to rise far higher than stone walls permitted. Reinforced concrete, developed by Joseph Monier, could be moulded into bold curves and cantilevers.\nProfessor Tanaka: The Bauhaus school, founded by Walter Gropius in nineteen nineteen in Weimar, Germany, became the movement's intellectual hub. It united art and craft, training students to design for mass production rather than luxury.\nProfessor Tanaka: Le Corbusier, a Swiss-French architect, famously called the house 'a machine for living in.' His Villa Savoye, completed in nineteen thirty-one, raised the building on pillars, freeing the ground for gardens and circulation.\nProfessor Tanaka: The International Style, named at a nineteen thirty-two exhibition at MoMA in New York, spread these ideas globally. Characterised by rectilinear forms, flat roofs, and extensive glass, it produced landmark skyscrapers like the Seagram Building by Mies van der Rohe.\nProfessor Tanaka: Critics argue modernism could be cold and impersonal, producing sterile concrete housing estates. By the nineteen seventies, postmodernism responded with playful ornament and historical reference.\nProfessor Tanaka: Yet modernism's emphasis on function, affordable materials, and social housing left a lasting legacy. Today's sustainable architecture, with its focus on efficiency and honest materials, owes a direct debt to these early pioneers.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Tanaka", "accent": "AMERICAN", "gender": "FEMALE", "role": "architecture professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who coined the motto 'form follows function' and when?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Louis Sullivan in eighteen ninety-six", "Le Corbusier in nineteen thirty-one", "Walter Gropius in nineteen nineteen", "Mies van der Rohe in nineteen fifty-eight"],
+        "keywords": ["form follows function", "Louis Sullivan", "eighteen ninety-six"],
+        "synonymsUsed": ["motto", "principle"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did modern architects reject?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The use of glass", "The heavy ornamentation of Victorian and neoclassical styles", "The concept of open floor plans", "Steel frame construction"],
+        "keywords": ["rejected", "ornamentation", "Victorian", "neoclassical"],
+        "synonymsUsed": ["abandoned", "decoration"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where was steel frame construction perfected?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["In Berlin", "In London", "In Chicago", "In Tokyo"],
+        "keywords": ["steel frame", "Chicago", "perfected"],
+        "synonymsUsed": ["developed", "refined"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who developed reinforced concrete?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Joseph Monier", "Louis Sullivan", "Walter Gropius", "Le Corbusier"],
+        "keywords": ["reinforced concrete", "Joseph Monier", "developed"],
+        "synonymsUsed": ["invented", "created"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When and where was the Bauhaus school founded?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Nineteen oh-nine in Paris", "Nineteen nineteen in Weimar, Germany", "Nineteen twenty-five in Chicago", "Nineteen thirty-two in New York"],
+        "keywords": ["Bauhaus", "founded", "Weimar", "nineteen nineteen"],
+        "synonymsUsed": ["established", "school"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Le Corbusier famously call the house?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A machine for living in", "A temple of ornament", "A shelter from nature", "A monument to the past"],
+        "keywords": ["Le Corbusier", "machine for living in", "house"],
+        "synonymsUsed": ["dwelling", "famous phrase"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What feature of the Villa Savoye is highlighted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Its neoclassical columns", "Its thatched roof", "It raised the building on pillars, freeing the ground for gardens", "Its brick facade"],
+        "keywords": ["Villa Savoye", "pillars", "gardens", "ground"],
+        "synonymsUsed": ["columns", "elevated"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where was the International Style named?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At the Bauhaus in Weimar", "At a nineteen thirty-two exhibition at MoMA in New York", "At the Paris World's Fair", "At the Royal Academy in London"],
+        "keywords": ["International Style", "MoMA", "New York", "nineteen thirty-two"],
+        "synonymsUsed": ["named", "exhibition"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who designed the Seagram Building?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Mies van der Rohe", "Le Corbusier", "Walter Gropius", "Louis Sullivan"],
+        "keywords": ["Seagram Building", "Mies van der Rohe"],
+        "synonymsUsed": ["designed", "architect"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say modernism's legacy includes today?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A revival of Victorian ornament", "Sustainable architecture's focus on efficiency and honest materials", "The abandonment of glass in buildings", "A return to purely neoclassical design"],
+        "keywords": ["legacy", "sustainable architecture", "efficiency", "materials"],
+        "synonymsUsed": ["debt", "influence"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "ornamentation", "meaning": "Decorative details added to a building's surface or structure." },
+      { "word": "steel frame", "meaning": "A skeletal structure of steel beams that supports a building, allowing great height." },
+      { "word": "reinforced concrete", "meaning": "Concrete strengthened with embedded steel bars, allowing it to span and curve." },
+      { "word": "cantilever", "pronunciationNote": "/ˈkæntɪliːvə/", "meaning": "A beam anchored at only one end, projecting outward to support a structure." },
+      { "word": "rectilinear", "meaning": "Characterised by straight lines and right angles." },
+      { "word": "postmodernism", "meaning": "An architectural movement that reacted against modernism with playful ornament and historical reference." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a physics and astronomy lecture on the history and challenges of space exploration.",
+    "audioScript": "Situation: A physics professor delivers a lecture on space exploration, covering key milestones and the engineering challenges of leaving Earth.\nDr. Okonkwo: Good morning. Today we trace space exploration from its theoretical origins to the modern era of international cooperation and private enterprise.\nDr. Okonkwo: The foundations were laid in the early twentieth century. Konstantin Tsiolkovsky, a Russian schoolteacher, derived the rocket equation in nineteen-oh-three, proving that rockets could work in the vacuum of space by expelling mass at high speed.\nDr. Okonkwo: The practical breakthrough came with the V-two rocket, developed by Wernher von Braun's team during the Second World War. Although a weapon, it was the first object to cross the boundary of space, reaching an altitude of over eighty kilometres.\nDr. Okonkwo: The Space Race followed. In nineteen fifty-seven, the Soviet Union launched Sputnik, the first artificial satellite, shocking the world. Four years later, Yuri Gagarin became the first human in orbit.\nDr. Okonkwo: The United States responded with the Apollo programme. On July the twentieth, nineteen sixty-nine, Neil Armstrong stepped onto the Moon. The Saturn Five rocket that carried him generated thirty-four million newtons of thrust at liftoff, the most powerful ever flown.\nDr. Okonkwo: The engineering challenges remain immense. Escaping Earth's gravity requires reaching escape velocity, about eleven kilometres per second. Every kilogram launched into orbit costs thousands of dollars, which is why the reusable Falcon Nine rocket, landing its first stage in twenty-fifteen, was revolutionary.\nDr. Okonkwo: Radiation is a persistent hazard. Beyond Earth's protective magnetic field, astronauts face cosmic rays and solar flares. A mission to Mars would expose crew to radiation levels far exceeding limits on Earth, requiring new shielding materials.\nDr. Okonkwo: Today, the International Space Station, orbiting at four hundred kilometres since two thousand, represents continuous human presence in space. Meanwhile, robotic probes like Voyager One, launched in nineteen seventy-seven, have left the solar system entirely, carrying a golden record of Earth's sounds for any future discoverer.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr. Okonkwo", "accent": "BRITISH", "gender": "MALE", "role": "physics and astronomy lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Tsiolkovsky derive in nineteen-oh-three?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The rocket equation", "The theory of relativity", "The laws of planetary motion", "The Doppler effect"],
+        "keywords": ["Tsiolkovsky", "rocket equation", "nineteen-oh-three"],
+        "synonymsUsed": ["derived", "formulated"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do rockets work in the vacuum of space?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By pushing against the air", "By expelling mass at high speed", "By using solar sails alone", "By attracting gravity from planets"],
+        "keywords": ["rockets", "vacuum", "expelling mass"],
+        "synonymsUsed": ["work", "propel"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was significant about the V-two rocket?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It was the first to reach the Moon", "It carried the first satellite", "It was the first object to cross the boundary of space", "It was the first reusable rocket"],
+        "keywords": ["V-two", "boundary of space", "first object"],
+        "synonymsUsed": ["crossed", "altitude"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was Sputnik launched?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen fifty-seven", "Nineteen sixty-one", "Nineteen sixty-nine", "Nineteen seventy-seven"],
+        "keywords": ["Sputnik", "launched", "nineteen fifty-seven"],
+        "synonymsUsed": ["sent up", "date"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who became the first human in orbit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Neil Armstrong", "Yuri Gagarin", "Wernher von Braun", "Konstantin Tsiolkovsky"],
+        "keywords": ["first human", "orbit", "Yuri Gagarin"],
+        "synonymsUsed": ["first person", "spaceflight"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much thrust did the Saturn Five generate at liftoff?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eleven million newtons", "Twenty million newtons", "Thirty-four million newtons", "Fifty million newtons"],
+        "keywords": ["Saturn Five", "thrust", "thirty-four million newtons"],
+        "synonymsUsed": ["liftoff", "power"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Earth's escape velocity?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About eleven kilometres per second", "About seven kilometres per second", "About twenty kilometres per second", "About one kilometre per second"],
+        "keywords": ["escape velocity", "eleven kilometres per second"],
+        "synonymsUsed": ["speed", "leave gravity"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why was the reusable Falcon Nine revolutionary?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It was the first to reach Mars", "It landed its first stage, reducing launch costs", "It used nuclear power", "It carried the first satellite"],
+        "keywords": ["Falcon Nine", "reusable", "landed first stage"],
+        "synonymsUsed": ["revolutionary", "cost"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What radiation hazard do astronauts face beyond Earth's magnetic field?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Cosmic rays and solar flares", "Microwave background radiation alone", "Ultraviolet light from the Sun alone", "Infrared radiation from distant stars"],
+        "keywords": ["radiation", "cosmic rays", "solar flares", "hazard"],
+        "synonymsUsed": ["danger", "beyond magnetic field"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Voyager One carry for any future discoverer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A nuclear power source", "A golden record of Earth's sounds", "A sample of lunar soil", "A message from the United Nations"],
+        "keywords": ["Voyager One", "golden record", "Earth's sounds"],
+        "synonymsUsed": ["carries", "future"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "rocket equation", "meaning": "A mathematical formula relating a rocket's mass, exhaust velocity, and change in speed." },
+      { "word": "escape velocity", "meaning": "The minimum speed needed for an object to break free from a body's gravitational pull." },
+      { "word": "thrust", "pronunciationNote": "/θrʌst/", "meaning": "The force produced by a rocket engine expelling exhaust gases." },
+      { "word": "cosmic rays", "meaning": "High-energy radiation originating from outside the solar system." },
+      { "word": "solar flares", "meaning": "Sudden bursts of energy and radiation from the Sun's surface." },
+      { "word": "reusable", "meaning": "Designed to be used more than once, reducing the cost of launches." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a neuroscience lecture on how the brain makes decisions under uncertainty.",
+    "audioScript": "Situation: A neuroscience professor delivers a lecture on the neuroscience of decision making, focusing on how the brain evaluates options under uncertainty.\nProfessor Marquez: Good morning. Today we examine one of the most active areas in neuroscience: how the brain makes decisions, especially when outcomes are uncertain.\nProfessor Marquez: The prefrontal cortex, located behind the forehead, plays a central role. It is responsible for planning, weighing consequences, and inhibiting impulsive responses. Patients with damage to this region, such as the famous case of Phineas Gage in eighteen forty-eight, show dramatic personality changes and poor judgement.\nProfessor Marquez: Decisions rely on two systems. The first is fast, automatic, and emotional, driven by the amygdala. The second is slow, deliberate, and analytical, drawing on the prefrontal cortex. This dual-process model was popularised by Daniel Kahneman, who won the Nobel Prize in two thousand and two.\nProfessor Marquez: Under uncertainty, the brain estimates probabilities rather than certainties. It uses the striatum to calculate expected reward, balancing potential gain against risk. Dopamine, a neurotransmitter, signals the difference between expected and actual reward, a quantity called the reward prediction error.\nProfessor Marquez: Intriguingly, the brain does not always choose rationally. In the framing effect, people prefer a treatment described as having a ninety per cent survival rate over one with a ten per cent mortality rate, even though the statistics are identical. The amygdala activates when choices are framed as losses.\nProfessor Marquez: Sleep deprivation impairs decision making significantly. Studies show that after twenty-four hours without sleep, the prefrontal cortex's activity drops, and the amygdala becomes up to sixty per cent more reactive, leading to riskier choices.\nProfessor Marquez: Understanding these mechanisms has practical applications. In finance, it explains market bubbles. In medicine, it helps design better patient communication. And in policy, it underpins 'nudge' strategies that guide choices without restricting freedom.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Marquez", "accent": "AMERICAN", "gender": "FEMALE", "role": "neuroscience professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which brain region plays a central role in decision making?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The cerebellum", "The hippocampus", "The prefrontal cortex", "The occipital lobe"],
+        "keywords": ["prefrontal cortex", "decision making", "central role"],
+        "synonymsUsed": ["key region", "brain area"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happened to Phineas Gage in eighteen forty-eight?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["He suffered brain damage and showed dramatic personality changes", "He discovered the structure of DNA", "He won the Nobel Prize", "He mapped the motor cortex"],
+        "keywords": ["Phineas Gage", "eighteen forty-eight", "personality changes"],
+        "synonymsUsed": ["brain injury", "case study"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which system is described as fast, automatic, and emotional?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The second system driven by the prefrontal cortex", "The first system driven by the amygdala", "The striatum system", "The dopamine system"],
+        "keywords": ["fast", "automatic", "emotional", "amygdala"],
+        "synonymsUsed": ["quick", "instinctive"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who won the Nobel Prize in two thousand and two for the dual-process model?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Daniel Kahneman", "Phineas Gage", "Joseph LeDoux", "Eric Kandel"],
+        "keywords": ["Nobel Prize", "two thousand and two", "Kahneman"],
+        "synonymsUsed": ["awarded", "dual-process"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the striatum calculate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The speed of nerve impulses", "Expected reward, balancing gain against risk", "The volume of neurotransmitters", "The temperature of the brain"],
+        "keywords": ["striatum", "expected reward", "risk"],
+        "synonymsUsed": ["calculates", "balances"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the reward prediction error?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The difference between expected and actual reward, signalled by dopamine", "The error in predicting brain temperature", "A fault in the prefrontal cortex", "A mistake in memory recall"],
+        "keywords": ["reward prediction error", "dopamine", "expected", "actual"],
+        "synonymsUsed": ["difference", "signal"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the framing effect demonstrate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That people always choose rationally", "That identical statistics framed differently lead to different preferences", "That the striatum is unnecessary", "That sleep has no effect on decisions"],
+        "keywords": ["framing effect", "statistics", "preferences"],
+        "synonymsUsed": ["identical", "framed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to the amygdala after twenty-four hours without sleep?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It shuts down completely", "It becomes less reactive", "It becomes up to sixty per cent more reactive", "It stops releasing dopamine"],
+        "keywords": ["sleep deprivation", "amygdala", "sixty per cent", "reactive"],
+        "synonymsUsed": ["without sleep", "responsive"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the neuroscience of decision making explain in finance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Market bubbles", "Currency exchange rates", "Tax policy", "Inflation targets"],
+        "keywords": ["finance", "market bubbles", "decision making"],
+        "synonymsUsed": ["explains", "applications"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do 'nudge' strategies do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Restrict freedom of choice completely", "Guide choices without restricting freedom", "Eliminate the prefrontal cortex's role", "Replace analytical thinking with emotion"],
+        "keywords": ["nudge", "guide choices", "freedom"],
+        "synonymsUsed": ["steer", "without restricting"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "prefrontal cortex", "meaning": "The front part of the brain responsible for planning, judgement, and impulse control." },
+      { "word": "amygdala", "pronunciationNote": "/əˈmɪɡdələ/", "meaning": "A brain structure involved in emotional processing, especially fear." },
+      { "word": "dual-process model", "meaning": "A theory that decision making involves a fast emotional system and a slow analytical system." },
+      { "word": "reward prediction error", "meaning": "The difference between expected and actual reward, signalled by dopamine neurons." },
+      { "word": "framing effect", "meaning": "A bias where identical information presented differently leads to different decisions." },
+      { "word": "neurotransmitter", "meaning": "A chemical that transmits signals between neurons in the brain." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an environmental policy lecture on the design and effectiveness of carbon pricing.",
+    "audioScript": "Situation: An environmental policy lecturer delivers a lecture on carbon pricing, comparing carbon taxes and emissions trading systems.\nDr. Svensson: Good afternoon. Today we examine carbon pricing, widely regarded by economists as the most efficient tool to reduce greenhouse gas emissions.\nDr. Svensson: The logic is simple. When pollution is free, the market produces too much of it. By putting a price on carbon, governments make polluters pay for the damage they cause, encouraging them to reduce emissions or switch to cleaner alternatives.\nDr. Svensson: There are two main approaches. The first is a carbon tax, a fixed fee per tonne of carbon dioxide emitted. British Columbia introduced one in two thousand and eight at ten Canadian dollars per tonne, gradually rising. Its simplicity and predictability are strengths.\nDr. Svensson: The second is an emissions trading system, or cap-and-trade. The government sets a cap on total emissions and distributes or auctions allowances. Companies that reduce emissions can sell surplus allowances to those that exceed the cap. The European Union launched the world's first major system in two thousand and five.\nDr. Svensson: Each has trade-offs. A tax provides price certainty but no guarantee on total emissions. Cap-and-trade guarantees a total emissions limit but the price fluctuates with the market. In the EU system, prices initially collapsed to under five euros because too many allowances were issued.\nDr. Svensson: Revenue use matters. British Columbia used carbon tax revenue to cut income taxes, making the policy revenue-neutral and more politically acceptable. Without such recycling, taxes face strong public opposition, as France saw with the yellow vest protests in twenty-eighteen.\nDr. Svensson: Effectiveness depends on the price level. The World Bank estimated that a carbon price of at least forty to eighty dollars per tonne by twenty-twenty is needed to meet the Paris Agreement goals. Yet, as of twenty-twenty, fewer than twenty per cent of global emissions were covered by a price above this range.\nDr. Svensson: In conclusion, carbon pricing is necessary but not sufficient. It works best alongside regulations, subsidies for clean technology, and international cooperation to prevent carbon leakage, where industries relocate to countries without a carbon price.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr. Svensson", "accent": "BRITISH", "gender": "MALE", "role": "environmental policy lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do economists widely regard as the most efficient tool to reduce emissions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Carbon pricing", "Banning all fossil fuels", "Voluntary corporate pledges", "Planting trees alone"],
+        "keywords": ["carbon pricing", "efficient", "reduce emissions"],
+        "synonymsUsed": ["most effective", "tool"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the basic logic of carbon pricing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["That pollution is always harmless", "That making polluters pay reduces over-production of pollution", "That taxes always reduce economic growth", "That markets cannot respond to prices"],
+        "keywords": ["pollution free", "price on carbon", "polluters pay"],
+        "synonymsUsed": ["logic", "rationale"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did British Columbia introduce its carbon tax?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two thousand and eight", "Two thousand and five", "Twenty-eighteen", "Two thousand and ten"],
+        "keywords": ["British Columbia", "carbon tax", "two thousand and eight"],
+        "synonymsUsed": ["introduced", "launched"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the initial price of British Columbia's carbon tax?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five Canadian dollars per tonne", "Twenty Canadian dollars per tonne", "Ten Canadian dollars per tonne", "Forty Canadian dollars per tonne"],
+        "keywords": ["British Columbia", "ten Canadian dollars", "per tonne"],
+        "synonymsUsed": ["initial price", "rate"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does cap-and-trade guarantee that a carbon tax does not?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A fixed price", "A total emissions limit", "Revenue neutrality", "Political popularity"],
+        "keywords": ["cap-and-trade", "guarantee", "total emissions limit"],
+        "synonymsUsed": ["ensures", "cap"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did the EU launch its emissions trading system?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two thousand and five", "Two thousand and eight", "Nineteen ninety-seven", "Twenty-twelve"],
+        "keywords": ["EU", "emissions trading", "two thousand and five"],
+        "synonymsUsed": ["launched", "started"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why did EU carbon prices initially collapse?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Because the tax was too high", "Because of a global recession alone", "Because too many allowances were issued", "Because companies refused to participate"],
+        "keywords": ["EU", "prices collapsed", "too many allowances"],
+        "synonymsUsed": ["crashed", "issued"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did British Columbia use its carbon tax revenue?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["To cut income taxes, making the policy revenue-neutral", "To fund military spending", "To subsidise oil companies", "To build new highways"],
+        "keywords": ["British Columbia", "revenue", "income taxes", "revenue-neutral"],
+        "synonymsUsed": ["used", "recycling"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What carbon price does the World Bank say is needed by twenty-twenty?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten to twenty dollars per tonne", "Forty to eighty dollars per tonne", "One hundred to two hundred dollars per tonne", "Five to ten dollars per tonne"],
+        "keywords": ["World Bank", "forty to eighty dollars", "Paris Agreement"],
+        "synonymsUsed": ["estimated", "needed"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is carbon leakage?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Industries relocating to countries without a carbon price", "Carbon escaping from storage underground", "Emissions falling naturally over time", "A measurement error in carbon accounting"],
+        "keywords": ["carbon leakage", "relocating", "countries without carbon price"],
+        "synonymsUsed": ["moving", "without a price"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "carbon pricing", "meaning": "A policy that assigns a cost to greenhouse gas emissions to encourage reduction." },
+      { "word": "cap-and-trade", "meaning": "A system that sets a total emissions cap and allows trading of allowances." },
+      { "word": "allowance", "meaning": "A permit giving the holder the right to emit a certain amount of carbon dioxide." },
+      { "word": "revenue-neutral", "meaning": "A policy where tax revenue is offset by reductions elsewhere, producing no net increase." },
+      { "word": "carbon leakage", "meaning": "The relocation of emissions-intensive industries to countries without carbon pricing." },
+      { "word": "greenhouse gas", "meaning": "Gases such as carbon dioxide that trap heat in the atmosphere, causing warming." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a bioinformatics lecture on how computational tools analyse biological data.",
+    "audioScript": "Situation: A bioinformatics professor delivers a lecture introducing the field of bioinformatics and its role in modern biology.\nProfessor Nair: Good morning. Today we explore bioinformatics, the discipline that combines biology, computer science, and statistics to make sense of vast biological data.\nProfessor Nair: The field was born from necessity. The Human Genome Project, launched in nineteen ninety and completed in two thousand and three, sequenced all three billion base pairs of human DNA. No human could read that volume manually, so computational tools became essential.\nProfessor Nair: At the heart of bioinformatics is sequence alignment. Researchers compare a new DNA sequence against databases of known genes to identify function. The BLAST algorithm, developed in nineteen ninety, performs this search in seconds by finding regions of local similarity.\nProfessor Nair: Protein structure prediction is another frontier. A protein's function depends on its three-dimensional shape, which is determined by its amino acid sequence. For decades, predicting shape from sequence was unsolved, until DeepMind's AlphaFold, which in twenty-twenty demonstrated near-experimental accuracy for most proteins.\nProfessor Nair: Bioinformatics also enables personalised medicine. By analysing a patient's genome, doctors can identify mutations that influence drug response. For example, the gene CYP2D6 affects how individuals metabolise nearly a quarter of common prescription drugs, allowing dosages to be tailored.\nProfessor Nair: The field faces challenges. Biological data doubles roughly every six months, far outpacing Moore's Law for computing power. Storage, standardisation, and data sharing across institutions remain significant hurdles.\nProfessor Nair: Ethical questions arise too. Genomic databases can reveal sensitive information about individuals and their relatives. Informed consent and equitable access, ensuring developing countries benefit from these tools, are ongoing concerns.\nProfessor Nair: In summary, bioinformatics has transformed biology from an experimental science into a data-driven one. From agriculture to drug discovery, its tools now underpin nearly every area of the life sciences.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Nair", "accent": "AMERICAN", "gender": "MALE", "role": "bioinformatics professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which three disciplines does bioinformatics combine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Biology, computer science, and statistics", "Chemistry, physics, and mathematics", "Medicine, engineering, and ethics", "Genetics, linguistics, and economics"],
+        "keywords": ["bioinformatics", "biology", "computer science", "statistics"],
+        "synonymsUsed": ["combines", "fields"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the Human Genome Project completed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen ninety", "Two thousand", "Two thousand and three", "Twenty-twenty"],
+        "keywords": ["Human Genome Project", "completed", "two thousand and three"],
+        "synonymsUsed": ["finished", "date"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many base pairs of human DNA were sequenced?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three million", "Three billion", "Three hundred million", "Thirty billion"],
+        "keywords": ["base pairs", "three billion", "human DNA"],
+        "synonymsUsed": ["sequenced", "pairs"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the BLAST algorithm do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Finds regions of local similarity by searching databases of known genes", "Predicts protein structures from sequences", "Sequences new DNA samples", "Stores biological data in the cloud"],
+        "keywords": ["BLAST", "local similarity", "databases", "known genes"],
+        "synonymsUsed": ["search", "compares"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the BLAST algorithm developed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen ninety", "Nineteen eighty-five", "Two thousand and three", "Twenty-twenty"],
+        "keywords": ["BLAST", "developed", "nineteen ninety"],
+        "synonymsUsed": ["created", "year"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What determines a protein's three-dimensional shape?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The temperature of the cell", "Its amino acid sequence", "The size of the genome", "The presence of water"],
+        "keywords": ["protein", "three-dimensional shape", "amino acid sequence"],
+        "synonymsUsed": ["structure", "determined by"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did AlphaFold achieve in twenty-twenty?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It sequenced the first human genome", "Near-experimental accuracy in predicting protein structures for most proteins", "It discovered a new antibiotic", "It proved BLAST was obsolete"],
+        "keywords": ["AlphaFold", "twenty-twenty", "near-experimental accuracy", "protein structures"],
+        "synonymsUsed": ["achieved", "predicted"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What fraction of common prescription drugs does the CYP2D6 gene affect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Half", "A tenth", "Nearly a quarter", "Almost all"],
+        "keywords": ["CYP2D6", "quarter", "prescription drugs"],
+        "synonymsUsed": ["fraction", "affects"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How fast does biological data double?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Roughly every six months", "Roughly every two years", "Roughly every decade", "It is not growing"],
+        "keywords": ["biological data", "doubles", "six months"],
+        "synonymsUsed": ["growth rate", "doubles"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What ethical concern about genomic databases does the lecturer raise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They can reveal sensitive information about individuals and their relatives", "They are too expensive to maintain", "They contain too little data to be useful", "They are illegal in most countries"],
+        "keywords": ["genomic databases", "sensitive information", "relatives"],
+        "synonymsUsed": ["ethical", "privacy"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "sequence alignment", "meaning": "The process of arranging DNA or protein sequences to identify regions of similarity." },
+      { "word": "base pair", "meaning": "Two nitrogenous bases paired in the DNA double helix, the fundamental unit of genetic information." },
+      { "word": "algorithm", "pronunciationNote": "/ˈælɡərɪðəm/", "meaning": "A step-by-step computational procedure for solving a problem or performing a task." },
+      { "word": "personalised medicine", "meaning": "Medical treatment tailored to an individual's genetic profile." },
+      { "word": "Moore's Law", "meaning": "The observation that computing power roughly doubles every two years." },
+      { "word": "informed consent", "meaning": "A process ensuring participants understand and agree to how their data will be used." }
+    ],
+    "difficulty": "EASY"
+  }
+]

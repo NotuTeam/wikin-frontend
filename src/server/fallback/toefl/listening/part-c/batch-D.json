@@ -1,0 +1,838 @@
+[
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a business professor and students analyzing a case study on a startup's pricing strategy.",
+    "audioScript": "Situation: A business professor leads a case study discussion with three students about a software startup's transition from a subscription model to a freemium pricing strategy.\nProfessor Reynolds: Alright, let's dive into the Meridian Software case. As you read, Meridian launched its project management tool three years ago with a flat subscription of twenty dollars per user per month. After eighteen months, growth stalled. They switched to a freemium model, offering a basic version for free and charging twelve dollars per month for premium features. Today we'll evaluate whether that decision was sound. Priya, what was the core problem with the original subscription model?\nPriya: The main issue was customer acquisition cost. Under the subscription-only model, Meridian had to spend heavily on digital advertising and sales calls to convert each new user. Their customer acquisition cost was around ninety dollars per user, but the average user only stayed for about four months, generating roughly eighty dollars in revenue. They were losing money on every acquisition.\nProfessor Reynolds: Exactly. The unit economics were negative. Tom, what changed when they introduced the freemium model?\nTom: The free tier attracted a much larger pool of users, around forty thousand signups in the first six months, compared to only three thousand paying subscribers before. Of those free users, about five percent upgraded to premium. That conversion rate sounds low, but because the acquisition cost dropped to nearly zero, the overall profit per premium user actually improved.\nProfessor Reynolds: Good. Karen, what's the risk that Meridian now faces with the freemium approach?\nKaren: The biggest risk is server and support costs for the free users. Meridian spends about fifty thousand dollars per month just hosting and supporting the non-paying base. If the conversion rate dips below three percent, those costs could exceed the revenue from premium subscribers. Also, the free tier could cannibalize premium signups if the basic features are too generous.\nProfessor Reynolds: Precisely. This is the classic freemium tension. You need the free version compelling enough to attract users but limited enough to drive upgrades. Priya, what metrics should Meridian monitor going forward?\nPriya: They should track conversion rate, churn rate of premium users, and the ratio of free-to-premium support costs. If the churn rate of premium users rises above eight percent, that signals satisfaction problems with the paid features.\nProfessor Reynolds: Excellent. For next class, I want each of you to propose one specific feature Meridian could move from the free tier to premium to boost conversion without alienating users.",
+    "speakers": [
+      { "name": "Professor Reynolds", "role": "business professor" },
+      { "name": "Priya", "role": "student" },
+      { "name": "Tom", "role": "student" },
+      { "name": "Karen", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What was Meridian's original pricing model?",
+        "options": [
+          "A freemium model with a free basic tier",
+          "A flat subscription of twenty dollars per user per month",
+          "A pay-per-use model charging per project",
+          "A one-time purchase of two hundred dollars"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Meridian launched with a flat subscription of twenty dollars per user per month."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was the core problem with the original subscription model according to Priya?",
+        "options": [
+          "The software had too many bugs",
+          "Customer acquisition cost exceeded revenue per user, creating negative unit economics",
+          "The subscription price was too high for the market",
+          "The company lacked enough sales staff"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya explains the customer acquisition cost was around ninety dollars while average revenue per user was only eighty dollars, meaning they lost money on each acquisition."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How much did Meridian charge for the premium tier under the freemium model?",
+        "options": ["Eight dollars per month", "Twelve dollars per month", "Twenty dollars per month", "Fifty dollars per month"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the premium features cost twelve dollars per month under the new freemium model."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many free-tier signups did Meridian get in the first six months of the freemium model?",
+        "options": ["Three thousand", "Ten thousand", "Forty thousand", "One hundred thousand"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Tom states the free tier attracted around forty thousand signups in the first six months, compared to only three thousand paying subscribers before."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What percentage of free users upgraded to premium?",
+        "options": ["About two percent", "About five percent", "About ten percent", "About twenty percent"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tom reports that about five percent of free users upgraded to premium."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why did profit per premium user improve despite a low conversion rate?",
+        "options": [
+          "Premium users paid a higher monthly fee",
+          "Acquisition cost dropped to nearly zero under the freemium model",
+          "The company reduced its development team",
+          "Premium features cost nothing to maintain"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Tom explains that because acquisition cost dropped to nearly zero with the free tier, the overall profit per premium user improved."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the biggest risk Karen identifies with the freemium model?",
+        "options": [
+          "Losing brand reputation in the market",
+          "Server and support costs for free users could exceed premium revenue if conversion dips below three percent",
+          "Competitors copying the free features",
+          "Investors pulling funding due to lower revenue"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Karen states the biggest risk is that hosting and support costs for the non-paying base, about fifty thousand dollars per month, could exceed premium revenue if conversion dips below three percent."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Karen mean by the free tier cannibalizing premium signups?",
+        "options": [
+          "Free users are spreading negative reviews about premium",
+          "If basic features are too generous, users have no reason to upgrade to premium",
+          "Free users are hacking the system to get premium features",
+          "The free tier is attracting the wrong demographic of users"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Karen explains that if the free tier's basic features are too generous, users will not feel the need to upgrade, cannibalizing potential premium revenue."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What churn rate would signal satisfaction problems with premium features according to Priya?",
+        "options": ["Above three percent", "Above five percent", "Above eight percent", "Above fifteen percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Priya states that if the churn rate of premium users rises above eight percent, it signals satisfaction problems with the paid features."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of this case study discussion?",
+        "options": [
+          "How to design a marketing campaign for software",
+          "Evaluating a software startup's transition from a subscription model to a freemium pricing strategy",
+          "Comparing project management tools in the market",
+          "The history of subscription-based software pricing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The entire discussion centers on analyzing Meridian Software's transition from a flat subscription to a freemium model and evaluating its financial implications."
+      }
+    ],
+    "keyVocabulary": ["freemium model", "customer acquisition cost", "unit economics", "conversion rate", "churn rate", "cannibalize", "premium tier", "subscription model", "free tier"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a law professor and students preparing for a moot court competition.",
+    "audioScript": "Situation: A law professor coaches two students preparing for an upcoming moot court competition, reviewing their oral arguments on a Fourth Amendment search case.\nProfessor Hahn: Let's run through your oral arguments for next week's moot court. The hypothetical involves a defendant, Mr. Reyes, whose vehicle was searched without a warrant after a traffic stop for a broken taillight. The officer found evidence of a separate crime in the trunk. James, you're representing the petitioner, Mr. Reyes. Start with your opening.\nJames: Thank you, Professor. Your Honor, the search of Mr. Reyes's vehicle violated the Fourth Amendment's protection against unreasonable searches and seizures. The traffic stop for a broken taillight was a pretext for investigation, not a legitimate traffic safety concern. Under the exclusionary rule, evidence obtained from an unconstitutional search must be suppressed.\nProfessor Hahn: Good structure, but you need to address the automobile exception immediately. The respondent will argue that vehicles are inherently mobile, and courts have long held that probable cause alone can justify a warrantless vehicle search. How do you counter that?\nJames: I would argue that the automobile exception requires probable cause specific to the vehicle, not just a pretextual stop. Here, the officer had no reason to believe the trunk contained evidence of any crime before the search. The broken taillight provided no nexus to criminal activity.\nProfessor Hahn: Stronger. Now, Sarah, you're respondent for the state. Your rebuttal?\nSarah: Your Honor, the officer observed a clear traffic violation, justifying the initial stop under Whren v. United States. The Supreme Court has held that an officer's subjective motivation is irrelevant if probable cause for the traffic violation exists. Once at the vehicle, the officer detected the odor of controlled substances, establishing probable cause for the search under the automobile exception.\nProfessor Hahn: Excellent use of precedent. But James, here's your chance to distinguish the facts. The odor of drugs is new information Sarah just introduced. How do you respond?\nJames: I would point out that the record is ambiguous about when the officer claimed to smell the odor. If the odor was detected only after the trunk was opened, then the search itself created the probable cause, which is circular reasoning. The state must show probable cause existed before the search began.\nProfessor Hahn: That's a powerful argument. Sarah, how would the state respond to the timing issue?\nSarah: We would rely on the officer's testimony that the odor was detectable from outside the vehicle, near the driver's window, before the trunk was opened. We would also argue that the good faith exception applies, since the officer reasonably believed the search was constitutional.\nProfessor Hahn: Good. One critical tip for both of you: anticipate questions from the bench. Moot court judges will interrupt constantly. Never read a scripted argument. Make eye contact and respond directly. James, if a judge asks whether Whren controls this case entirely, what is your one-sentence answer?\nJames: Whren addresses the legitimacy of the initial stop, Your Honor, but it does not extend to the separate question of whether the warrantless search of the trunk was justified by probable cause.\nProfessor Hahn: Perfect. Keep refining those distinctions, and practice your timing. You each have ten minutes for argument and two minutes for rebuttal.",
+    "speakers": [
+      { "name": "Professor Hahn", "role": "law professor" },
+      { "name": "James", "role": "student" },
+      { "name": "Sarah", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the central legal issue in the moot court hypothetical?",
+        "options": [
+          "Whether the defendant's right to a speedy trial was violated",
+          "Whether a warrantless vehicle search after a traffic stop violated the Fourth Amendment",
+          "Whether the traffic stop itself was legal under state law",
+          "Whether the defendant was properly read their Miranda rights"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The hypothetical involves a vehicle searched without a warrant after a traffic stop for a broken taillight, raising a Fourth Amendment question."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was the stated reason for the initial traffic stop?",
+        "options": [
+          "Speeding in a school zone",
+          "A broken taillight",
+          "A expired registration sticker",
+          "Reckless driving on the highway"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states the vehicle was searched after a traffic stop for a broken taillight."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What legal rule does James invoke to argue the evidence should be suppressed?",
+        "options": [
+          "The Miranda rule",
+          "The exclusionary rule",
+          "The good faith exception",
+          "The plain view doctrine"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "James argues that under the exclusionary rule, evidence obtained from an unconstitutional search must be suppressed."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the automobile exception that the respondent will argue?",
+        "options": [
+          "Vehicles can be searched without any justification whatsoever",
+          "Vehicles are inherently mobile, so probable cause alone can justify a warrantless search",
+          "Traffic stops do not require any level of suspicion",
+          "Officers can search any vehicle parked on a public street"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Hahn explains that the respondent will argue vehicles are inherently mobile and courts have held probable cause alone can justify a warrantless vehicle search."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How does James counter the automobile exception?",
+        "options": [
+          "By arguing the automobile exception is unconstitutional",
+          "By arguing the exception requires probable cause specific to the vehicle, and the broken taillight provided no nexus to criminal activity",
+          "By arguing the defendant consented to the search under duress",
+          "By arguing the officer lacked proper training"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "James argues the automobile exception requires probable cause specific to the vehicle, and the broken taillight provided no nexus to criminal activity."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What precedent does Sarah cite to justify the initial stop?",
+        "options": [
+          "Miranda v. Arizona",
+          "Whren v. United States",
+          "Mapp v. Ohio",
+          "Terry v. Ohio"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sarah cites Whren v. United States, which holds that an officer's subjective motivation is irrelevant if probable cause for the traffic violation exists."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What new fact does Sarah introduce to establish probable cause for the search?",
+        "options": [
+          "The defendant had a prior criminal record",
+          "The officer detected the odor of controlled substances",
+          "The defendant appeared nervous and evasive",
+          "A witness reported seeing drugs in the car"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sarah argues the officer detected the odor of controlled substances, establishing probable cause for the search under the automobile exception."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How does James challenge the timing of the drug odor detection?",
+        "options": [
+          "He argues the odor was from a legal substance",
+          "He argues that if the odor was detected only after the trunk was opened, the search itself created the probable cause, which is circular reasoning",
+          "He argues the officer has no sense of smell",
+          "He argues the odor was planted by a second officer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "James argues the record is ambiguous about when the odor was detected, and if it was only after the trunk was opened, the search created its own probable cause, which is circular."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Sarah argue in response to the timing challenge?",
+        "options": [
+          "That the odor was detectable from outside the vehicle before the trunk was opened and the good faith exception applies",
+          "That the timing is irrelevant under any circumstance",
+          "That the officer had a warrant but forgot to bring it",
+          "That the defendant verbally consented to the trunk search"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Sarah relies on testimony that the odor was detectable from near the driver's window before the trunk was opened, and argues the good faith exception applies."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What advice does Professor Hahn give about moot court judge interactions?",
+        "options": [
+          "Always read from a fully scripted argument",
+          "Anticipate bench questions, never read scripted arguments, make eye contact, and respond directly to interruptions",
+          "Speak as quickly as possible to fit all points in",
+          "Avoid making eye contact with the judges to show respect"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Professor Hahn advises that judges will interrupt constantly, so students should anticipate questions, never read a scripted argument, make eye contact, and respond directly."
+      }
+    ],
+    "keyVocabulary": ["Fourth Amendment", "exclusionary rule", "automobile exception", "probable cause", "pretextual stop", "good faith exception", "warrantless search", "suppression of evidence", "moot court", "oral argument"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a lab discussion between a chemistry professor and students planning a multi-step organic synthesis project.",
+    "audioScript": "Situation: A chemistry professor meets with two undergraduate students to plan a multi-step organic synthesis of a target compound for their advanced lab project.\nDr. Okafor: So, for your final project, your goal is to synthesize para-aminoacetophenone from benzene in no more than four steps. Let's work through your proposed route. Yuki, walk me through your first step.\nYuki: We start with a Friedel-Crafts acylation of benzene using acetyl chloride and aluminum chloride as the catalyst. This gives us acetophenone. The acyl group is a meta director, but since we already have it on the ring, we need to think carefully about where to introduce the nitro group next.\nDr. Okafor: Good. The acyl group is indeed a meta director. But your target is para-aminoacetophenone. How do you get a para-substituted product when the existing group directs meta?\nCarlos: We realized the acyl group can be converted to a different functional group that is an ortho-para director, or we can use the nitro group's directing effects. Our plan is to do nitration first, before the acylation. We nitrated benzene to get nitrobenzene, then reduced the nitro group to an amino group. Aniline is a strong ortho-para director, so then we do the Friedel-Crafts acylation and get para-aminoacetophenone.\nDr. Okafor: Hold on. There's a serious problem with that route. Can either of you see it?\nYuki: Oh. The amino group on aniline is a strong activator, which makes the ring very reactive. But Friedel-Crafts reactions don't work well with strongly activating groups like amino groups. The Lewis acid catalyst, aluminum chloride, can coordinate with the lone pair on nitrogen, which deactivates the ring and can cause the reaction to fail entirely.\nDr. Okafor: Exactly right. The amino group complexes with the Lewis acid and poisons the catalyst. So what is the standard workaround?\nCarlos: We protect the amino group as an acetamide first. We react aniline with acetic anhydride to form acetanilide. The acetamido group is still an ortho-para director, but it's a moderate activator, not a strong one. Then we do the Friedel-Crafts acylation. The para position is less hindered than the ortho, so we get predominantly para-acetamidoacetophenone. Finally, we hydrolyze the acetamide back to the free amine to get para-aminoacetophenone.\nDr. Okafor: That's the classic approach. However, you need to check your step count. Starting from benzene, how many steps is that?\nYuki: Nitration, reduction, acetylation, Friedel-Crafts acylation, hydrolysis. That's five steps. The limit is four.\nDr. Okafor: Correct. So you need to find a way to combine or eliminate a step. Think about whether the reduction and acetylation can be merged, or whether you can start from a different commercially available starting material instead of benzene. I'll leave that with you. Also, for your report, I want you to calculate the overall percent yield assuming each step has an average yield of seventy percent, and compare it to a theoretical maximum.",
+    "speakers": [
+      { "name": "Dr. Okafor", "role": "chemistry professor" },
+      { "name": "Yuki", "role": "student" },
+      { "name": "Carlos", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the target compound the students need to synthesize?",
+        "options": [
+          "Meta-nitroacetophenone",
+          "Para-aminoacetophenone",
+          "Ortho-bromoaniline",
+          "Para-hydroxybenzaldehyde"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor states the goal is to synthesize para-aminoacetophenone from benzene in no more than four steps."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the maximum number of synthetic steps allowed?",
+        "options": ["Three steps", "Four steps", "Five steps", "Six steps"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor specifies the synthesis must be completed in no more than four steps."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What reaction does Yuki propose for the first step in the initial route?",
+        "options": [
+          "Nitration of benzene with nitric acid",
+          "Friedel-Crafts acylation of benzene using acetyl chloride and aluminum chloride",
+          "Bromination of benzene with bromine and iron",
+          "Sulfonation of benzene with fuming sulfuric acid"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Yuki proposes a Friedel-Crafts acylation of benzene using acetyl chloride and aluminum chloride to produce acetophenone."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why is the acyl group on acetophenone a problem for getting a para-substituted product?",
+        "options": [
+          "The acyl group is an ortho-para director, so it gives the wrong isomer",
+          "The acyl group is a meta director, but the target requires para substitution",
+          "The acyl group makes the ring too reactive",
+          "The acyl group prevents any further reactions on the ring"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor points out the acyl group is a meta director, but the target compound requires para substitution, creating a directing conflict."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why does the Friedel-Crafts acylation fail with aniline as the starting material?",
+        "options": [
+          "Aniline is too unreactive for any electrophilic substitution",
+          "The amino group complexes with the Lewis acid catalyst, aluminum chloride, poisoning it",
+          "Aniline undergoes oxidation instead of acylation",
+          "The reaction requires a platinum catalyst that is too expensive"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Yuki explains that the amino group on aniline coordinates with the Lewis acid catalyst, deactivating the ring and causing the Friedel-Crafts reaction to fail."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the standard workaround for the amino group problem?",
+        "options": [
+          "Use a different metal catalyst like iron",
+          "Protect the amino group as an acetamide by reacting aniline with acetic anhydride to form acetanilide",
+          "Perform the reaction at a much higher temperature",
+          "Add a large excess of aluminum chloride"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Carlos explains the standard workaround is to protect the amino group as an acetamide by reacting aniline with acetic anhydride, forming acetanilide."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does the acetamido group allow the Friedel-Crafts reaction to succeed?",
+        "options": [
+          "It is a meta director, giving the desired product",
+          "It is a moderate activator and ortho-para director, unlike the strong activator amino group, so it does not poison the catalyst",
+          "It completely blocks the ortho position",
+          "It reacts with the acyl chloride directly"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Carlos explains the acetamido group is still an ortho-para director but a moderate activator rather than a strong one, so it does not complex with and poison the Lewis acid catalyst."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why is the para product favored over the ortho product in the acylation of acetanilide?",
+        "options": [
+          "The para position is less sterically hindered than the ortho position",
+          "The para position is electronically more activated",
+          "The ortho position is blocked by the catalyst",
+          "The reaction temperature only allows para substitution"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Carlos states the para position is less hindered than the ortho position, so predominantly para-acetamidoacetophenone is obtained."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How many steps does the students' proposed route actually require?",
+        "options": ["Three steps", "Four steps", "Five steps", "Six steps"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Yuki counts the steps as nitration, reduction, acetylation, Friedel-Crafts acylation, and hydrolysis, totaling five steps, which exceeds the four-step limit."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Dr. Okafor ask the students to include in their report regarding yield?",
+        "options": [
+          "Only the yield of the final step",
+          "Calculate the overall percent yield assuming each step averages seventy percent and compare it to a theoretical maximum",
+          "Calculate the cost of all reagents used",
+          "Compare their yield to industrial-scale production"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Dr. Okafor asks the students to calculate the overall percent yield assuming each step averages seventy percent and compare it to a theoretical maximum."
+      }
+    ],
+    "keyVocabulary": ["Friedel-Crafts acylation", "meta director", "ortho-para director", "Friedel-Crafts reaction", "Lewis acid catalyst", "acetamide", "protecting group", "acetanilide", "percent yield", "electrophilic substitution"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a biology professor and students about a genetics experiment on fruit flies.",
+    "audioScript": "Situation: A biology professor meets with two students to discuss their genetics experiment involving eye color inheritance in Drosophila melanogaster, commonly known as fruit flies.\nDr. Chen: Let's go over your Drosophila experiment. You crossed red-eyed wild-type females with white-eyed males. Your F1 generation was all red-eyed, both males and females. Then you crossed F1 males and females, and in the F2 generation you got two hundred thirty-one red-eyed females, zero white-eyed females, one hundred nineteen red-eyed males, and one hundred twenty-two white-eyed males. Maria, what do these results tell you?\nMaria: The F1 being all red-eyed tells us that the red-eye allele is dominant. The F2 results are the key. We got no white-eyed females at all, but about half the males were white-eyed. That pattern is consistent with an X-linked recessive trait. White-eyed males get their only X chromosome from their mother, and since the F1 females were heterozygous, half their sons got the white allele.\nDr. Chen: Exactly right. If the gene were autosomal, we would expect white-eyed females in the F2 generation. The absence of white-eyed females is the signature of X-linked inheritance. David, what was your chi-square analysis result?\nDavid: We expected a one-to-one-to-one-to-one ratio for the four phenotypic classes: red female, white female, red male, white male. But since white females should be zero under the X-linked model, we actually expected a two-to-zero-to-one-to-one ratio. We calculated a chi-square value of about one point four, and with two degrees of freedom, the p-value is approximately zero point five. So we fail to reject the null hypothesis. The data fits the X-linked model well.\nDr. Chen: Good. But I want to push you further. Maria, what would you expect if you performed a reciprocal cross, meaning white-eyed females crossed with red-eyed males?\nMaria: In the reciprocal cross, all F1 females would be red-eyed because they get a wild-type X from the father, and all F1 males would be white-eyed because they get the white allele on their X from the mother. This is exactly the pattern Thomas Hunt Morgan observed in his original nineteen ten experiments.\nDr. Chen: That's right. Morgan's work was groundbreaking because it provided the first physical evidence that genes reside on chromosomes. David, what is a potential source of error in your experiment?\nDavid: One issue is that some flies could have escaped or been misclassified under the microscope, especially if the eye color difference was subtle due to aging. Also, if any virgin female collection was incomplete and a female mated with an unintended male, the crosses could be contaminated.\nDr. Chen: Exactly. Virgin female collection is critical in Drosophila genetics because females can store sperm for days. If you accidentally use a non-virgin female, the paternity of the offspring is uncertain. For your lab report, I want you to include a Punnett square showing the reciprocal cross and discuss why the results differ from the original cross.",
+    "speakers": [
+      { "name": "Dr. Chen", "role": "biology professor" },
+      { "name": "Maria", "role": "student" },
+      { "name": "David", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What organism is used in the students' genetics experiment?",
+        "options": [
+          "Drosophila melanogaster, the fruit fly",
+          "Caenorhabditis elegans, a nematode",
+          "Mus musculus, the house mouse",
+          "Danio rerio, the zebrafish"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen states the experiment involves Drosophila melanogaster, commonly known as fruit flies, studying eye color inheritance."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was the result in the F1 generation of the original cross?",
+        "options": [
+          "All white-eyed flies",
+          "All red-eyed flies, both males and females",
+          "Half red-eyed and half white-eyed",
+          "All males red-eyed and all females white-eyed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The F1 generation was all red-eyed, both males and females, indicating the red-eye allele is dominant."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many white-eyed females appeared in the F2 generation?",
+        "options": ["Zero", "Fifty-eight", "One hundred nineteen", "Two hundred thirty-one"],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The F2 generation produced zero white-eyed females, which is the signature pattern of X-linked recessive inheritance."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why does the absence of white-eyed females indicate X-linked inheritance?",
+        "options": [
+          "Because females cannot inherit recessive alleles",
+          "Because if the gene were autosomal, white-eyed females would be expected in the F2 generation",
+          "Because females always express dominant traits",
+          "Because white eyes are lethal in females"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Chen explains that if the gene were autosomal, white-eyed females would appear in the F2 generation. Their absence is the signature of X-linked inheritance."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why do white-eyed males appear in the F2 generation?",
+        "options": [
+          "They inherit two X chromosomes with the white allele",
+          "They get their only X chromosome from the heterozygous F1 mother, and half receive the white allele",
+          "They inherit the white allele from their father",
+          "They develop white eyes due to environmental factors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Maria explains that males get their only X chromosome from their mother, and since F1 females are heterozygous, half their sons receive the white allele."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What ratio did the students expect under the X-linked model in the F2 generation?",
+        "options": [
+          "One-to-one-to-one-to-one for all four classes",
+          "Two-to-zero-to-one-to-one for red female, white female, red male, white male",
+          "Three-to-one red to white overall",
+          "Nine-to-three-to-three-to-one"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "David explains that under the X-linked model, the expected ratio is two red females, zero white females, one red male, one white male."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What was the chi-square p-value, and what does it indicate?",
+        "options": [
+          "Approximately 0.01, so the data does not fit the model",
+          "Approximately 0.05, so the data marginally fits the model",
+          "Approximately 0.50, so the data fits the X-linked model well and the null hypothesis is not rejected",
+          "Approximately 0.95, so the model is definitely correct"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "David reports a chi-square value of about 1.4 with two degrees of freedom, giving a p-value of approximately 0.50, so they fail to reject the null hypothesis."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What would the F1 generation look like in a reciprocal cross of white-eyed females with red-eyed males?",
+        "options": [
+          "All red-eyed flies",
+          "All white-eyed flies",
+          "All F1 females red-eyed and all F1 males white-eyed",
+          "All F1 females white-eyed and all F1 males red-eyed"
+        ],
+        "correctAnswer": 2,
+        "questionType": "INFERENCE",
+        "explanation": "Maria explains that in the reciprocal cross, all F1 females would be red-eyed because they get a wild-type X from the father, and all F1 males would be white-eyed because they get the white allele from the mother."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why is virgin female collection critical in Drosophila genetics experiments?",
+        "options": [
+          "Virgin females produce larger offspring",
+          "Females can store sperm for days, so non-virgin females make paternity of offspring uncertain",
+          "Virgin females are easier to anesthetize",
+          "Non-virgin females refuse to mate with the intended males"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Chen explains that females can store sperm for days, so if a non-virgin female is used, the paternity of offspring is uncertain and crosses could be contaminated."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of this discussion?",
+        "options": [
+          "How to culture fruit flies in the laboratory",
+          "Analyzing eye color inheritance in Drosophila to demonstrate X-linked recessive genetics",
+          "Comparing Drosophila genetics to human genetics",
+          "The history of genetics from Mendel to Morgan"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The discussion centers on analyzing a Drosophila eye color inheritance experiment and interpreting the results as evidence of X-linked recessive inheritance."
+      }
+    ],
+    "keyVocabulary": ["Drosophila melanogaster", "X-linked recessive", "chi-square analysis", "reciprocal cross", "heterozygous", "wild-type", "Punnett square", "virgin female collection", "degrees of freedom", "phenotypic class"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a physics professor and students about a quantum mechanics experiment involving the double-slit setup.",
+    "audioScript": "Situation: A physics professor meets with two students to review their understanding of a double-slit experiment demonstrating wave-particle duality with single electrons.\nDr. Volkov: Today let's talk about your lab module on the double-slit experiment with single electrons. This is one of the most profound demonstrations in quantum mechanics. Alex, can you summarize what you observed when electrons were sent through the apparatus one at a time?\nAlex: Sure. We fired electrons through two narrow slits toward a detector screen, one electron at a time. Individually, each electron arrived as a single dot on the screen, which shows particle-like behavior. But over time, as thousands of dots accumulated, they formed an interference pattern of bright and dark bands. That's a wave phenomenon. So each electron somehow behaved as a wave while passing through the slits, even though it was detected as a particle.\nDr. Volkov: Exactly. And this is the heart of wave-particle duality. The key question is: which slit did each electron go through? Nina, what happens when you place a detector at one slit to observe which path the electron takes?\nNina: When we try to measure which slit the electron passes through, the interference pattern disappears. The electrons behave as classical particles, and we just get two bands on the screen, one behind each slit. The act of observation collapses the superposition, so the electron is forced into one definite path.\nDr. Volkov: That's correct. This is called the measurement problem, and it's central to the Copenhagen interpretation. The electron exists in a superposition of passing through both slits simultaneously until a measurement forces it into one state. Now, Nina mentioned collapsing the superposition. Alex, is there another interpretation that avoids collapse?\nAlex: Yes, the many-worlds interpretation proposed by Hugh Everett in nineteen fifty-seven. It says the wave function never collapses. Instead, every possible outcome actually occurs, but in separate, non-communicating branches of reality. So in one branch the electron goes through the left slit, and in another it goes through the right, but the branches cannot interact.\nDr. Volkov: Good. Both interpretations make the same experimental predictions, so they cannot be distinguished by observation. They differ only in their philosophical assumptions about reality. Now, let's get quantitative. Nina, what determines the spacing of the interference fringes on the screen?\nNina: The fringe spacing depends on the wavelength of the electron, the distance between the two slits, and the distance from the slits to the screen. The formula is lambda times L divided by d, where lambda is the de Broglie wavelength, L is the distance to the screen, and d is the slit separation. A smaller slit separation produces wider fringes.\nDr. Volkov: Correct. And the de Broglie wavelength of the electron is h divided by p, where h is Planck's constant and p is the electron's momentum. For your lab report, I want you to calculate the expected fringe spacing for electrons accelerated through a potential difference of five thousand volts, and compare it to your measured spacing. Also discuss whether the Copenhagen or many-worlds interpretation better fits your experimental results, and explain why neither can be experimentally distinguished.",
+    "speakers": [
+      { "name": "Dr. Volkov", "role": "physics professor" },
+      { "name": "Alex", "role": "student" },
+      { "name": "Nina", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What does each individual electron appear as on the detector screen?",
+        "options": [
+          "A wave-like ripple pattern",
+          "A single dot, showing particle-like behavior",
+          "A bright band of light",
+          "A streak across the screen"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Alex explains that each electron arrives as a single dot on the screen, demonstrating particle-like behavior."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What pattern emerges as thousands of electron dots accumulate on the screen?",
+        "options": [
+          "Two simple bands behind each slit",
+          "A random scatter with no discernible pattern",
+          "An interference pattern of bright and dark bands",
+          "A single bright spot in the center"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Alex describes that over time, the accumulated dots form an interference pattern of bright and dark bands, which is a wave phenomenon."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What happens when a detector is placed at one slit to observe the electron's path?",
+        "options": [
+          "The interference pattern becomes stronger",
+          "The interference pattern disappears and electrons behave as classical particles, producing two bands",
+          "The electrons stop reaching the screen entirely",
+          "The screen shows only one band instead of two"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nina explains that when a detector measures which slit the electron passes through, the interference pattern disappears and only two bands appear, showing classical particle behavior."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does Nina mean by saying the act of observation collapses the superposition?",
+        "options": [
+          "The electron physically shrinks in size",
+          "The electron, which existed in a superposition of both paths, is forced into one definite path by measurement",
+          "The detector destroys the electron",
+          "The screen stops registering any electrons"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Nina explains that the act of observation collapses the superposition, forcing the electron into one definite path instead of existing in both states simultaneously."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the central concept Dr. Volkov identifies with the measurement problem?",
+        "options": [
+          "The Heisenberg uncertainty principle",
+          "The Copenhagen interpretation, where the electron exists in superposition until measurement forces it into one state",
+          "The Pauli exclusion principle",
+          "The theory of special relativity"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Volkov states the measurement problem is central to the Copenhagen interpretation, where the electron exists in a superposition until a measurement forces it into one state."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the many-worlds interpretation propose?",
+        "options": [
+          "The wave function collapses into one outcome chosen at random",
+          "Every possible outcome occurs in separate, non-communicating branches of reality, so the wave function never collapses",
+          "Electrons are actually classical particles at all times",
+          "Measurement has no effect on quantum systems"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Alex explains that the many-worlds interpretation, proposed by Hugh Everett, says the wave function never collapses and every outcome occurs in separate branches of reality."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why can the Copenhagen and many-worlds interpretations not be experimentally distinguished?",
+        "options": [
+          "Because no one has built a sufficiently powerful microscope",
+          "Because both interpretations make the same experimental predictions",
+          "Because quantum mechanics is too imprecise to test",
+          "Because the many-worlds interpretation has been disproven"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Volkov states that both interpretations make the same experimental predictions, so they cannot be distinguished by observation and differ only in philosophical assumptions."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What formula does Nina give for the fringe spacing on the screen?",
+        "options": [
+          "Lambda times d divided by L",
+          "Lambda times L divided by d",
+          "h divided by p",
+          "L squared divided by lambda"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nina states the fringe spacing is lambda times L divided by d, where lambda is the de Broglie wavelength, L is the distance to the screen, and d is the slit separation."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the de Broglie wavelength of the electron?",
+        "options": [
+          "h divided by p, where h is Planck's constant and p is momentum",
+          "h times p, the product of Planck's constant and momentum",
+          "p divided by h, momentum divided by Planck's constant",
+          "h divided by the speed of light"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Volkov states the de Broglie wavelength is h divided by p, where h is Planck's constant and p is the electron's momentum."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of this discussion?",
+        "options": [
+          "The history of quantum mechanics research",
+          "Understanding the double-slit experiment with single electrons and the interpretations of wave-particle duality",
+          "Calculating the speed of electrons in a vacuum tube",
+          "Comparing classical and quantum approaches to optics"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The discussion centers on the double-slit experiment with single electrons, wave-particle duality, and the Copenhagen versus many-worlds interpretations of quantum mechanics."
+      }
+    ],
+    "keyVocabulary": ["wave-particle duality", "double-slit experiment", "interference pattern", "superposition", "measurement problem", "Copenhagen interpretation", "many-worlds interpretation", "de Broglie wavelength", "Planck's constant", "fringe spacing"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between an archivist and students about working with primary source documents in a university archive.",
+    "audioScript": "Situation: A university archivist meets with two history students to instruct them on handling and analyzing primary source documents for their research on nineteenth-century immigration records.\nMr. Brennan: Welcome to the special collections reading room. Before I pull the immigration documents you requested, let's go over our handling protocols. These materials are irreplaceable, some dating back to the eighteen forties. Emma, what's the first rule when you sit down with a document?\nEmma: We wash our hands before handling anything, we use only pencils, never pens, and we keep all food and drinks outside the reading room. We also use the foam book cradles for bound volumes to avoid stressing the spines.\nMr. Brennan: Good. Additionally, you'll notice cotton gloves at your workstation. However, for paper documents, we actually prefer clean, dry hands over gloves. Gloves reduce tactile sensitivity, which can lead to accidental tearing. We reserve gloves for photographs and metal objects. Now, Daniel, you requested immigration correspondence from the eighteen eighties. What's your research question?\nDaniel: I'm investigating how immigrant aid societies assisted newly arrived families at the port. I found references to the Friendly Aid Society in the secondary literature, but I haven't been able to find their original records. I'm hoping the correspondence files might contain letters from the society to port officials.\nMr. Brennan: I have good news. Collection MS-three-twenty-one contains three boxes of correspondence between port officials and various aid organizations, including the Friendly Aid Society, from eighteen eighty to eighteen ninety-five. The letters are arranged chronologically by year and then alphabetically by organization name within each year. Emma, why does the arrangement matter for your research?\nEmma: It matters because if Daniel is looking for the Friendly Aid Society, he should go to each year's folder and look under F for Friendly. But if the letters were arranged by subject instead, he'd need to look under a topic like immigration assistance. Knowing the arrangement system saves hours of searching.\nMr. Brennan: Exactly. Always check the finding aid first. It describes the collection's scope, arrangement, and provenance. Provenance, meaning the origin and chain of custody, tells you where the documents came from and how they were compiled. Daniel, what do you do if you find a letter that's difficult to read?\nDaniel: I've practiced reading nineteenth-century handwriting, but some letters are still tricky. I would try comparing unfamiliar letter forms with a handwriting guide, and if it's still unclear, I could ask you for help. I also know not to write on or mark the original in any way.\nMr. Brennan: Good approach. I also recommend taking high-resolution photographs with your phone, which is permitted here, and transcribing the text later. That way you're not rushing in the reading room. Emma, what is a key consideration when evaluating the reliability of these letters as historical evidence?\nEmma: We need to consider the author's perspective and potential bias. A port official writing to his supervisor might emphasize order and efficiency, while an aid society worker might emphasize the desperation of the families. Cross-referencing accounts from different authors helps build a more complete picture.\nMr. Brennan: Excellent. That's the historian's craft in action. I'll bring out the boxes now. You each have four hours reserved today, and you can request additional time next week.",
+    "speakers": [
+      { "name": "Mr. Brennan", "role": "university archivist" },
+      { "name": "Emma", "role": "student" },
+      { "name": "Daniel", "role": "student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the first rule students must follow when sitting down with a document?",
+        "options": [
+          "Wear cotton gloves at all times",
+          "Wash hands, use only pencils, and keep food and drinks outside",
+          "Sign a waiver before touching any document",
+          "Photograph every document before reading it"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Emma lists the rules: wash hands, use only pencils never pens, keep food and drinks outside, and use foam book cradles for bound volumes."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Why does Mr. Brennan prefer clean hands over cotton gloves for paper documents?",
+        "options": [
+          "Gloves are too expensive to provide",
+          "Gloves reduce tactile sensitivity, which can lead to accidental tearing",
+          "Gloves leave residue on the paper",
+          "Gloves are only for faculty members"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brennan explains that gloves reduce tactile sensitivity, leading to accidental tearing, so clean dry hands are preferred for paper documents."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "For what types of materials are cotton gloves reserved?",
+        "options": [
+          "Paper documents and books",
+          "Photographs and metal objects",
+          "Maps and blueprints only",
+          "All materials in the archive"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brennan states that gloves are reserved for photographs and metal objects, not for paper documents."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is Daniel's research question?",
+        "options": [
+          "How port officials regulated trade in the 1880s",
+          "How immigrant aid societies assisted newly arrived families at the port",
+          "Why immigration rates declined in the 1890s",
+          "How the government processed deportation cases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel explains he is investigating how immigrant aid societies assisted newly arrived families at the port, specifically the Friendly Aid Society."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What collection contains the correspondence Daniel needs?",
+        "options": [
+          "Collection MS-101",
+          "Collection MS-321",
+          "Collection MS-500",
+          "Collection MS-808"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brennan identifies Collection MS-three-twenty-one (MS-321) as containing three boxes of correspondence between port officials and aid organizations from 1880 to 1895."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How are the letters in Collection MS-321 arranged?",
+        "options": [
+          "By subject topic only",
+          "Chronologically by year, then alphabetically by organization name within each year",
+          "Alphabetically by recipient name only",
+          "Randomly as they were received by the archive"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Mr. Brennan explains the letters are arranged chronologically by year and then alphabetically by organization name within each year."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does Emma say the arrangement system matters?",
+        "options": [
+          "It determines which documents are available online",
+          "Knowing the arrangement system saves hours of searching by telling you where to look within each folder",
+          "It affects the physical condition of the documents",
+          "It determines the cost of accessing the collection"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Emma explains that knowing whether documents are arranged by organization name or by subject tells you where to look, saving hours of searching."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Mr. Brennan recommend for dealing with difficult-to-read handwriting?",
+        "options": [
+          "Use a magnifying glass and guess the words",
+          "Compare unfamiliar letter forms with a handwriting guide, ask for help, take photos, and transcribe later",
+          "Skip the illegible portions entirely",
+          "Request a typed transcript from the archive staff"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Daniel suggests comparing letter forms with a handwriting guide and asking for help. Mr. Brennan adds that taking high-resolution photos and transcribing later is also recommended."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Emma identify as a key consideration when evaluating the letters' reliability?",
+        "options": [
+          "The age of the paper used",
+          "The author's perspective and potential bias, cross-referenced with accounts from different authors",
+          "The length of the letter",
+          "Whether the letter was ever published"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Emma states that historians must consider the author's perspective and potential bias, and cross-referencing accounts from different authors helps build a more complete picture."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of this discussion?",
+        "options": [
+          "The history of immigration in the nineteenth century",
+          "Instructing students on handling and analyzing primary source documents in a university archive",
+          "How to write a history research paper",
+          "The role of port officials in immigration policy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The discussion is about instructing students on handling protocols, using finding aids, reading difficult handwriting, and evaluating the reliability of primary source documents in an archive."
+      }
+    ],
+    "keyVocabulary": ["primary source", "finding aid", "provenance", "chain of custody", "handwriting guide", "foam book cradle", "cross-referencing", "archival arrangement", "immigration correspondence", "special collections"]
+  }
+]

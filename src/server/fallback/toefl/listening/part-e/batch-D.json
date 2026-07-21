@@ -1,0 +1,856 @@
+[
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in an art history course on the Italian Renaissance and its artistic innovations.",
+    "academicField": "ART_HISTORY",
+    "audioScript": "Situation: An art history professor delivers a lecture on the major artistic innovations of the Italian Renaissance, focusing on linear perspective, humanism, and the rise of the individual artist.\nProfessor Marchetti: Good morning. Today we turn to one of the most transformative periods in Western art, the Italian Renaissance, spanning roughly from the late fourteenth century to the end of the sixteenth century. We'll focus on three interlocking innovations that define Renaissance art: linear perspective, humanism, and the elevation of the artist from craftsman to intellectual.\nProfessor Marchetti: Let's begin with linear perspective. Before the Renaissance, medieval art was largely hierarchical in scale. The most important religious figures were painted largest, regardless of their position in space. Around fourteen twenty, the architect Filippo Brunelleschi demonstrated a mathematical system for representing three-dimensional space on a flat surface. His contemporary, the painter Masaccio, applied this system in the fresco The Holy Trinity in Santa Maria Novella in Florence. For the first time, figures occupied a convincing, measurable space. The vanishing point drew the viewer's eye upward toward the coffered barrel vault, creating an illusion so convincing that contemporaries described it as a window onto another world.\nProfessor Marchetti: The second innovation is humanism. Humanism was an intellectual movement that rediscovered classical antiquity and placed the human being at the center of inquiry. In art, this meant a shift from exclusively divine subjects to a deep interest in the human body, emotion, and individual identity. Portraiture flourished. Artists like Sandro Botticelli painted mythological scenes, such as The Birth of Venus, that celebrated classical beauty alongside Christian themes. The human figure was no longer a stiff symbol but a living, breathing presence with weight and psychological depth.\nProfessor Marchetti: The third innovation is the changing status of the artist. In the medieval workshop, painters were treated as manual laborers, organized in guilds alongside carpenters and blacksmiths. The Renaissance changed this. Leon Battista Alberti argued in his treatise On Painting that the artist must be educated in mathematics, poetry, and philosophy. By the High Renaissance, figures like Leonardo da Vinci and Michelangelo were celebrated as geniuses whose creative power was seen as a reflection of divine creativity. This idea, that the artist possesses an innate, almost supernatural gift, is what we call the concept of genius, and it originates here.\nProfessor Marchetti: So when you look at a Renaissance painting, you are not just looking at a pretty image. You are looking at the convergence of mathematical precision, classical revival, and a new faith in human potential. That convergence is what makes the Renaissance a rebirth, not just of ancient forms, but of the idea that human beings can understand and reshape the world through reason and art.",
+    "speakers": [
+      { "name": "Professor Marchetti", "role": "art history professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The decline of medieval guild systems",
+          "Three artistic innovations of the Italian Renaissance",
+          "The biography of Leonardo da Vinci",
+          "Techniques of fresco restoration"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces three interlocking innovations that define Renaissance art: linear perspective, humanism, and the elevation of the artist."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How did medieval art determine the scale of figures?",
+        "options": [
+          "By the physical size of the figures in reality",
+          "By hierarchical importance, with the most important religious figures painted largest",
+          "By the date of the commission",
+          "By the cost of the pigments used"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that medieval art was hierarchical in scale, painting the most important religious figures largest regardless of spatial position."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who demonstrated the mathematical system of linear perspective around fourteen twenty?",
+        "options": [
+          "Leonardo da Vinci",
+          "Filippo Brunelleschi",
+          "Michelangelo Buonarroti",
+          "Raphael Sanzio"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor credits the architect Filippo Brunelleschi with demonstrating a mathematical system for representing three-dimensional space around fourteen twenty."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Which painting did Masaccio use to apply linear perspective?",
+        "options": [
+          "The Birth of Venus",
+          "The Holy Trinity in Santa Maria Novella",
+          "The Last Supper",
+          "The School of Athens"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Masaccio applied the perspective system in the fresco The Holy Trinity in Santa Maria Novella in Florence."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What was humanism's central contribution to Renaissance art?",
+        "options": [
+          "It rejected all classical references",
+          "It placed the human being at the center of inquiry and shifted art toward the human body, emotion, and individual identity",
+          "It mandated that all art be purely religious",
+          "It focused exclusively on landscape painting"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes humanism as a movement that placed the human being at the center of inquiry, leading to interest in the body, emotion, and identity."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does The Birth of Venus by Botticelli illustrate?",
+        "options": [
+          "A purely Christian devotional scene",
+          "A mythological scene celebrating classical beauty alongside Christian themes",
+          "A medieval hierarchical composition",
+          "A mathematical diagram of perspective"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor cites The Birth of Venus as a mythological scene that celebrated classical beauty alongside Christian themes, reflecting humanism."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How were medieval painters treated in the workshop system?",
+        "options": [
+          "As intellectual elites",
+          "As manual laborers organized in guilds alongside carpenters and blacksmiths",
+          "As independent freelance artists",
+          "As university professors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that in the medieval workshop, painters were treated as manual laborers organized in guilds alongside carpenters and blacksmiths."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What did Alberti argue in his treatise On Painting?",
+        "options": [
+          "That artists should avoid mathematics",
+          "That the artist must be educated in mathematics, poetry, and philosophy",
+          "That painting was inferior to sculpture",
+          "That perspective was unnecessary"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Alberti argued in On Painting that the artist must be educated in mathematics, poetry, and philosophy, elevating the artist's status."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the concept of genius, as described in the lecture, imply?",
+        "options": [
+          "That anyone can become an artist through training alone",
+          "That the artist possesses an innate, almost supernatural gift reflecting divine creativity",
+          "That artists should work only for the church",
+          "That genius is measured by the number of commissions completed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that by the High Renaissance, artists were celebrated as geniuses whose creative power was seen as a reflection of divine creativity."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's overall attitude toward the Renaissance?",
+        "options": [
+          "It was merely a revival of ancient forms with no new ideas",
+          "It was a rebirth of both ancient forms and the idea that humans can reshape the world through reason and art",
+          "It was a period of artistic decline",
+          "It was important only for its religious contributions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that the Renaissance was a rebirth not just of ancient forms but of the idea that human beings can understand and reshape the world through reason and art."
+      }
+    ],
+    "keyVocabulary": ["linear perspective", "humanism", "vanishing point", "fresco", "classical antiquity", "portraiture", "guild", "treatise", "concept of genius", "High Renaissance", "coffered barrel vault"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a biology course on the principles of ecology and ecosystem interactions.",
+    "academicField": "BIOLOGY",
+    "audioScript": "Situation: A biology professor delivers a lecture on the foundational principles of ecology, focusing on energy flow, trophic levels, and symbiotic relationships within ecosystems.\nProfessor Alvarez: Good morning. Today we begin our ecology unit by examining how energy moves through ecosystems and how organisms interact within them. Ecology is the study of the relationships between organisms and their environment, and to understand it, we need to grasp three core ideas: energy flow, trophic structure, and symbiosis.\nProfessor Alvarez: Let's start with energy flow. Every ecosystem runs on energy, and almost all of it originates from the sun. Through photosynthesis, plants, algae, and certain bacteria capture solar energy and convert it into chemical energy stored in sugars. These organisms are called primary producers, and they form the foundation of every major ecosystem. Without them, there would be no energy available for the rest of the food web.\nProfessor Alvarez: That energy then moves through what we call trophic levels. The first trophic level is the producers. The second level is the primary consumers, the herbivores that eat plants. The third level is the secondary consumers, the carnivores that eat herbivores. And some ecosystems have a fourth level, tertiary consumers, the top predators. Here is the critical point: energy transfer between levels is inefficient. On average, only about ten percent of the energy at one level is passed on to the next. The rest is lost as heat through cellular respiration. This is why ecosystems typically have no more than four or five trophic levels. There simply isn't enough energy to sustain another level on top.\nProfessor Alvarez: This ten percent rule also explains why top predators are rare. A single lion requires a vast territory with enough herbivores, which in turn require enormous plant biomass. You can think of an energy pyramid: the base is wide, supporting a very narrow peak. This is also why top predators are so vulnerable to disruption. If the base shrinks, the peak collapses first.\nProfessor Alvarez: Now let's turn to symbiosis, which means living together. There are three main types. In mutualism, both species benefit. A classic example is the relationship between flowering plants and their pollinators. The plant gets its pollen transferred, and the pollinator gets nectar. In commensalism, one species benefits and the other is unaffected. Barnacles attaching to a whale get a free ride to nutrient-rich waters, while the whale is neither helped nor harmed. In parasitism, one species benefits at the expense of the other. Ticks feeding on a deer benefit, while the deer suffers. These symbiotic relationships are not footnotes. They are the glue that holds ecosystems together, and when they break down, entire communities can unravel.",
+    "speakers": [
+      { "name": "Professor Alvarez", "role": "biology professor" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The anatomy of flowering plants",
+          "The core principles of ecology: energy flow, trophic structure, and symbiosis",
+          "Methods for classifying animal species",
+          "The history of ecological research"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces three core ideas of ecology: energy flow, trophic structure, and symbiosis, which structure the entire lecture."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Where does almost all energy in ecosystems originate?",
+        "options": [
+          "From geothermal vents",
+          "From the sun",
+          "From chemical reactions in the soil",
+          "From the Earth's core"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that almost all energy in ecosystems originates from the sun, captured by producers through photosynthesis."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What are primary producers?",
+        "options": [
+          "Carnivores at the top of the food chain",
+          "Plants, algae, and certain bacteria that capture solar energy through photosynthesis",
+          "Decomposers that break down dead matter",
+          "Herbivores that consume plants"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines primary producers as plants, algae, and certain bacteria that capture solar energy and convert it to chemical energy."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the approximate percentage of energy transferred between trophic levels?",
+        "options": ["About one percent", "About ten percent", "About fifty percent", "About ninety percent"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that on average only about ten percent of energy at one trophic level is passed to the next, with the rest lost as heat."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why do ecosystems typically have no more than four or five trophic levels?",
+        "options": [
+          "Because predators are too large",
+          "Because there is not enough energy to sustain another level on top",
+          "Because plants stop growing at a certain height",
+          "Because ecosystems are geographically limited"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that inefficient energy transfer means there simply isn't enough energy to sustain more than four or five trophic levels."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why are top predators especially vulnerable to disruption?",
+        "options": [
+          "Because they reproduce too quickly",
+          "Because if the base of the energy pyramid shrinks, the peak collapses first",
+          "Because they eat only plants",
+          "Because they live underground"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that the energy pyramid has a wide base and narrow peak, so top predators collapse first when the base shrinks."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "In mutualism, what is the relationship between the two species?",
+        "options": [
+          "One benefits and the other is harmed",
+          "Both species benefit",
+          "One benefits and the other is unaffected",
+          "Neither species benefits"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines mutualism as a symbiotic relationship in which both species benefit, such as flowering plants and pollinators."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Which example does the professor give for commensalism?",
+        "options": [
+          "Ticks feeding on a deer",
+          "Barnacles attaching to a whale",
+          "Bees pollinating flowers",
+          "Lions hunting herbivores"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes barnacles attaching to a whale as commensalism: the barnacles benefit while the whale is neither helped nor harmed."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the purpose of discussing the energy pyramid in this lecture?",
+        "options": [
+          "To explain why plants are unnecessary",
+          "To illustrate why top predators are rare and why ecosystems have limited trophic levels",
+          "To prove that all animals are herbivores",
+          "To argue that solar energy is irrelevant"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor uses the energy pyramid to explain the ten percent rule, why top predators are rare, and why ecosystems have limited trophic levels."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward symbiotic relationships?",
+        "options": [
+          "They are minor footnotes in ecology",
+          "They are the glue that holds ecosystems together, and their breakdown can unravel entire communities",
+          "They are always harmful to ecosystems",
+          "They are irrelevant to energy flow"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor emphasizes that symbiotic relationships are not footnotes but the glue holding ecosystems together, and their breakdown can unravel communities."
+      }
+    ],
+    "keyVocabulary": ["energy flow", "primary producers", "photosynthesis", "trophic levels", "primary consumers", "secondary consumers", "ten percent rule", "energy pyramid", "mutualism", "commensalism", "parasitism", "symbiosis"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a history course on European colonialism and its global consequences.",
+    "academicField": "HISTORY",
+    "audioScript": "Situation: A history professor delivers a lecture on the causes, mechanisms, and lasting consequences of European colonialism from the fifteenth to the twentieth century.\nProfessor Yilmaz: Today we examine one of the most consequential forces in modern world history: European colonialism. Between the fifteenth and twentieth centuries, European powers established political and economic control over vast territories in the Americas, Africa, and Asia. We'll analyze why it happened, how it was maintained, and what legacies it left behind.\nProfessor Yilmaz: Let's start with the causes. The initial impulse came from trade. In the fifteenth century, European powers, particularly Portugal and Spain, sought direct access to the spice markets of Asia. The overland routes were controlled by Ottoman and Venetian intermediaries who added hefty markups. Sailing around Africa, and later across the Atlantic, was an attempt to bypass these middlemen. But trade quickly expanded into conquest. The discovery of the Americas in fourteen ninety-two opened territories rich in silver, gold, and land, and the technological imbalance of weapons and disease made conquest rapid and devastating.\nProfessor Yilmaz: The mechanisms of colonial control evolved over centuries. In the early period, the Spanish and Portuguese used the encomienda system, which granted colonists the right to extract labor from indigenous peoples in exchange for religious instruction. In the nineteenth century, the British and French pioneered what we call indirect rule. Rather than administering every territory directly, they co-opted local elites, installing them as intermediaries who collected taxes and enforced colonial policy. This was cheaper and more efficient, but it also distorted local power structures, empowering collaborators and marginalizing those who resisted.\nProfessor Yilmaz: The economic engine of colonialism was the extraction of raw materials and the creation of captive markets. Colonies were forced to export commodities like cotton, rubber, and sugar to the metropole, and to import manufactured goods from the colonizing country. This arrangement stunted industrial development in the colonies, locking them into a dependency that persisted long after formal independence. The economist Raúl Prebisch later described this as the center-periphery model, in which the wealthy industrial core profits from, and actively impoverishes, the commodity-producing periphery.\nProfessor Yilmaz: The legacies of colonialism are still visible today. Arbitrary borders drawn by European powers in Africa and the Middle East grouped together rival ethnic groups and split apart cohesive communities, sowing conflicts that persist into the present. The drain of wealth, the distortion of economies, and the psychological impact of being told your culture is inferior have left deep scars. Decolonization in the mid-twentieth century granted political independence, but as many scholars note, political independence did not automatically bring economic independence. Understanding colonialism is essential, not to assign blame to present generations, but to understand the structural roots of global inequality that still shape our world.",
+    "speakers": [
+      { "name": "Professor Yilmaz", "role": "history professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The biography of Christopher Columbus",
+          "The causes, mechanisms, and lasting consequences of European colonialism",
+          "The history of the spice trade in Asia",
+          "The industrial revolution in Europe"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces the lecture as an analysis of why colonialism happened, how it was maintained, and what legacies it left behind."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was the initial impulse behind European colonial expansion?",
+        "options": [
+          "Religious conversion of indigenous peoples",
+          "The desire for direct access to Asian spice markets, bypassing intermediaries",
+          "The need for new agricultural land in Europe",
+          "Competition with Chinese naval powers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that the initial impulse came from trade, as European powers sought direct access to spice markets, bypassing Ottoman and Venetian intermediaries."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why did European powers want to bypass Ottoman and Venetian intermediaries?",
+        "options": [
+          "Because the intermediaries were militarily hostile",
+          "Because they added hefty markups to the price of goods",
+          "Because the routes were too slow",
+          "Because the intermediaries refused to trade"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that the overland routes were controlled by intermediaries who added hefty markups, motivating the search for sea routes."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What was the encomienda system?",
+        "options": [
+          "A system of indirect rule through local elites",
+          "A system granting colonists the right to extract indigenous labor in exchange for religious instruction",
+          "A trade agreement between European powers",
+          "A method for dividing colonial territories"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes the encomienda system as one where colonists could extract labor from indigenous peoples in exchange for religious instruction."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How did indirect rule work in the nineteenth century?",
+        "options": [
+          "European powers administered every territory directly with their own officials",
+          "European powers co-opted local elites as intermediaries to collect taxes and enforce policy",
+          "Colonies were governed by democratic elections",
+          "Colonies were abandoned and left to self-rule"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that indirect rule involved co-opting local elites as intermediaries who collected taxes and enforced colonial policy."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What was the economic effect of colonial captive markets on the colonies?",
+        "options": [
+          "It stimulated rapid industrial development",
+          "It stunted industrial development and locked colonies into dependency",
+          "It had no long-term economic effect",
+          "It made colonies wealthier than the colonizing countries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that being forced to export raw materials and import manufactured goods stunted industrial development and created lasting dependency."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Raúl Prebisch's center-periphery model describe?",
+        "options": [
+          "A model of urban planning in colonial cities",
+          "A model where the wealthy industrial core profits from and impoverishes the commodity-producing periphery",
+          "A model of religious conversion strategies",
+          "A model of military strategy in colonial wars"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes Prebisch's center-periphery model as one in which the industrial core profits from and actively impoverishes the commodity-producing periphery."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why do arbitrary colonial borders still cause conflicts today?",
+        "options": [
+          "Because they were drawn too precisely",
+          "Because they grouped together rival ethnic groups and split apart cohesive communities",
+          "Because they followed natural geographic features too closely",
+          "Because they were redrawn too frequently"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that arbitrary borders drawn by European powers grouped rival ethnic groups together and split cohesive communities apart, sowing persistent conflicts."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about decolonization from the lecture?",
+        "options": [
+          "It completely resolved all colonial legacies",
+          "It granted political independence but did not automatically bring economic independence",
+          "It had no effect on global inequality",
+          "It was driven entirely by European initiative"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor notes that political independence did not automatically bring economic independence, meaning colonial economic structures persisted."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's stated purpose for studying colonialism?",
+        "options": [
+          "To assign blame to present generations",
+          "To understand the structural roots of global inequality that still shape the world",
+          "To argue that colonialism was beneficial",
+          "To promote the restoration of colonial borders"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor explicitly states the purpose is not to assign blame but to understand the structural roots of global inequality that persist today."
+      }
+    ],
+    "keyVocabulary": ["colonialism", "encomienda system", "indirect rule", "captive markets", "raw materials", "center-periphery model", "decolonization", "arbitrary borders", "dependency", "metropole", "intermediaries"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a literature course on postcolonial literature and its major themes.",
+    "academicField": "LITERATURE",
+    "audioScript": "Situation: A literature professor delivers a lecture on postcolonial literature, exploring how writers from formerly colonized nations respond to and reclaim their cultural narratives.\nProfessor Adesanya: Good morning. Today we enter the field of postcolonial literature, a body of writing produced by authors from nations that were formerly colonized. The term postcolonial can be misleading. It does not simply mean after colonialism ended. It refers to literature that engages with the cultural, psychological, and political legacy of colonial rule, a legacy that in many ways continues today. We'll examine three major themes: reclaiming voice, hybridity, and the critique of the colonial language.\nProfessor Adesanya: The first theme is reclaiming voice. Colonialism did not only take land and resources. It took narrative authority. For centuries, the colonized were spoken about, spoken for, but rarely allowed to speak for themselves. The colonial novel, the travelogue, and the anthropological study all portrayed the colonized as exotic, primitive, or in need of civilization. Postcolonial writers push back against this. Chinua Achebe's novel Things Fall Apart, published in nineteen fifty-eight, is a landmark example. Achebe wrote it explicitly as a response to Joseph Conrad's Heart of Darkness and other European texts that depicted Africa as a dark, voiceless void. Achebe gave his Igbo characters complexity, dignity, and their own rich cultural framework, forcing readers to see them not as objects of study but as subjects with agency.\nProfessor Adesanya: The second theme is hybridity, a concept most fully developed by the theorist Homi Bhabha. Hybridity describes the way colonized peoples create new cultural forms by blending elements of the colonizer's culture with their own. This is not simple mixing. Bhabha argues that hybridity destabilizes the colonizer's authority, because it shows that colonial culture is not pure or fixed but is itself transformed by the encounter. The Trinidadian writer V. S. Naipaul, the Nigerian novelist Chimamanda Ngozi Adichie, and many others write from this in-between space, where identity is not either-or but both-and, constantly negotiated.\nProfessor Adesanya: The third theme is the critique of the colonial language itself. Many postcolonial writers write in English, French, or Portuguese, the languages of the colonizer. This creates a profound tension. On one hand, the colonial language provides access to a global audience and a shared medium among diverse populations within a former colony. On the other, it is the language of domination. The Kenyan novelist Ngugi wa Thiong'o took the radical step of abandoning English entirely and writing in his native Gikuyu, arguing that language carries culture and that writing in English meant carrying the colonizer's worldview. Others, like the Caribbean poet Derek Walcott, chose to reshape English, infusing it with Creole rhythms and indigenous imagery until it became something new, a weapon turned back against the empire.\nProfessor Adesanya: What unites all three themes is a refusal to accept the colonial story as the final word. Postcolonial literature is not merely about grievance. It is about the creative, ongoing act of self-definition, of insisting that the formerly colonized are not remnants of a broken past but authors of their own future. That, ultimately, is what makes this literature not just historically important but profoundly alive.",
+    "speakers": [
+      { "name": "Professor Adesanya", "role": "literature professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of the British Empire",
+          "Three major themes in postcolonial literature: reclaiming voice, hybridity, and the critique of the colonial language",
+          "The biography of Chinua Achebe",
+          "Techniques of literary translation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces three major themes of postcolonial literature: reclaiming voice, hybridity, and the critique of the colonial language."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does the term postcolonial refer to, according to the professor?",
+        "options": [
+          "Literature written only after the year two thousand",
+          "Literature that engages with the cultural, psychological, and political legacy of colonial rule",
+          "Literature written exclusively in European languages",
+          "Literature produced only in Europe"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor clarifies that postcolonial does not simply mean after colonialism but refers to literature engaging with colonialism's ongoing legacy."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does reclaiming voice mean in the context of postcolonial literature?",
+        "options": [
+          "Learning to speak louder in public",
+          "Pushing back against colonial narrative authority so the colonized speak for themselves",
+          "Restoring lost manuscripts",
+          "Translating European texts into local languages"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that colonialism took narrative authority, and postcolonial writers push back by allowing the colonized to speak for themselves."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why did Achebe write Things Fall Apart?",
+        "options": [
+          "To celebrate the British Empire",
+          "As a response to Conrad's Heart of Darkness and European texts that depicted Africa as a voiceless void",
+          "To document the geography of Nigeria",
+          "To promote the use of the English language"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Achebe wrote Things Fall Apart explicitly as a response to Heart of Darkness and other texts depicting Africa as a dark, voiceless void."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What concept did Homi Bhabha develop?",
+        "options": [
+          "The encomienda system",
+          "Hybridity, the blending of colonizer and colonized cultures that destabilizes colonial authority",
+          "The center-periphery economic model",
+          "The theory of linear perspective"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor credits Homi Bhabha with developing the concept of hybridity, which describes how colonized peoples blend cultures to destabilize colonial authority."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "According to Bhabha, why does hybridity destabilize colonial authority?",
+        "options": [
+          "Because it proves colonized peoples are inferior",
+          "Because it shows colonial culture is not pure or fixed but is transformed by the encounter",
+          "Because it eliminates all cultural differences",
+          "Because it forces colonizers to leave immediately"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains Bhabha's argument that hybridity shows colonial culture is not pure or fixed but is itself transformed, destabilizing its authority."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What radical step did Ngugi wa Thiong'o take?",
+        "options": [
+          "He began writing only in Latin",
+          "He abandoned English entirely and began writing in his native Gikuyu",
+          "He moved to London permanently",
+          "He stopped publishing altogether"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states Ngugi wa Thiong'o abandoned English entirely and began writing in Gikuyu, arguing that language carries culture and worldview."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why does Ngugi argue that writing in English is problematic?",
+        "options": [
+          "Because English is too difficult to learn",
+          "Because language carries culture, and writing in English means carrying the colonizer's worldview",
+          "Because English has too few words",
+          "Because English readers are uninterested in African stories"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Ngugi's argument that language carries culture, so writing in English means carrying the colonizer's worldview."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What approach did Derek Walcott take toward the colonial language?",
+        "options": [
+          "He abandoned English completely",
+          "He reshaped English by infusing it with Creole rhythms and indigenous imagery",
+          "He wrote only in French",
+          "He refused to publish in any language"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes how Derek Walcott chose to reshape English, infusing it with Creole rhythms and indigenous imagery, turning it into something new."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward postcolonial literature?",
+        "options": [
+          "It is merely a literature of grievance and complaint",
+          "It is a creative, ongoing act of self-definition that makes it profoundly alive",
+          "It is historically important but artistically inferior",
+          "It is irrelevant to contemporary readers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that postcolonial literature is not merely about grievance but about creative self-definition, making it profoundly alive."
+      }
+    ],
+    "keyVocabulary": ["postcolonial literature", "narrative authority", "reclaiming voice", "hybridity", "colonial language", "agency", "Creole", "self-definition", "cultural legacy", "center-periphery", "decolonization"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a psychology course on social behavior and conformity.",
+    "academicField": "PSYCHOLOGY",
+    "audioScript": "Situation: A psychology professor delivers a lecture on social behavior, focusing on conformity, obedience, and the situational factors that shape human action in groups.\nProfessor Bergstrom: Good morning. Today we turn to social psychology and one of its central questions: why do people behave differently in groups than they do alone? We'll examine three landmark lines of research: Solomon Asch's conformity experiments, Stanley Milgram's obedience studies, and the concept of the bystander effect. Together, these reveal that social context can overpower individual judgment in ways most of us find deeply uncomfortable.\nProfessor Bergstrom: Let's begin with conformity. In the nineteen fifties, Solomon Asch designed a deceptively simple experiment. Participants were seated in a room with several confederates, actors who were secretly working with the experimenter. The group was shown a line on one card and asked to match it to one of three lines on another card. The correct answer was always obvious. But the confederates had been instructed to unanimously give the same wrong answer on critical trials. About seventy-five percent of real participants conformed to the majority at least once, even though the answer was clearly incorrect. Asch showed that people will deny the evidence of their own eyes to avoid standing out. However, he also found that if even one confederate broke rank and gave the correct answer, conformity plummeted. A single ally was enough to restore independent judgment.\nProfessor Bergstrom: Now, Milgram's obedience experiments, conducted in the early nineteen sixties at Yale, pushed this further. Volunteers were told they were participating in a study of learning and memory. They were instructed to deliver electric shocks of increasing intensity to another participant, who was actually a confederate, each time a wrong answer was given. No real shocks were delivered, but the participants did not know this. The astonishing finding was that roughly sixty-five percent of participants administered what they believed were lethal shocks, simply because an authority figure in a lab coat told them the experiment must continue. Milgram demonstrated that ordinary people, under the pressure of authority, can be led to inflict harm, a finding with deeply disturbing implications.\nProfessor Bergstrom: The third phenomenon is the bystander effect, most famously documented after the murder of Kitty Genovese in nineteen sixty-four. Researchers Bibb Latane and John Darley found that the more bystanders present at an emergency, the less likely any individual is to help. This is not because people in groups are crueler. It is because of what they called diffusion of responsibility. Each person assumes someone else will act, so no one does. However, later research has refined this picture. The original story of thirty-eight witnesses who did nothing was exaggerated by the press. And recent studies show that when bystanders know each other, or when the situation is clearly unambiguous, helping behavior increases. The bystander effect is real, but it is not the whole story.\nProfessor Bergstrom: The unifying lesson across all three is that we should be cautious about attributing behavior solely to character. Social context, authority, and group dynamics exert powerful pressures that can override what we imagine are our fixed moral compasses. Understanding these forces is the first step toward resisting them.",
+    "speakers": [
+      { "name": "Professor Bergstrom", "role": "psychology professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of clinical psychology",
+          "Three landmark lines of research on how social context shapes behavior: conformity, obedience, and the bystander effect",
+          "Methods for treating social anxiety",
+          "The biology of individual decision-making"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces three landmark lines of research: Asch's conformity experiments, Milgram's obedience studies, and the bystander effect."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was the setup of Asch's conformity experiment?",
+        "options": [
+          "Participants were asked to solve math problems alone",
+          "Participants matched lines while confederates unanimously gave wrong answers",
+          "Participants delivered electric shocks to learners",
+          "Participants were observed helping a stranger"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes Asch's experiment where participants matched lines while confederates unanimously gave the same wrong answer on critical trials."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What percentage of real participants conformed at least once in Asch's experiment?",
+        "options": ["About twenty-five percent", "About fifty percent", "About seventy-five percent", "About ninety-five percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that about seventy-five percent of real participants conformed to the majority at least once, despite the answer being clearly wrong."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What did Asch find would cause conformity to plummet?",
+        "options": [
+          "Increasing the number of confederates",
+          "If even one confederate broke rank and gave the correct answer",
+          "Making the task more difficult",
+          "Paying participants more money"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that if even one confederate broke rank and gave the correct answer, conformity plummeted, as a single ally restored independent judgment."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What was the key finding of Milgram's obedience experiments?",
+        "options": [
+          "No participants delivered any shocks",
+          "Roughly sixty-five percent of participants administered what they believed were lethal shocks under authority pressure",
+          "All participants refused to continue beyond mild shocks",
+          "Only psychopaths delivered high-voltage shocks"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that roughly sixty-five percent of participants administered what they believed were lethal shocks, simply because an authority figure told them to continue."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why were Milgram's findings considered deeply disturbing?",
+        "options": [
+          "Because they proved all humans are psychopaths",
+          "Because they showed ordinary people can be led to inflict harm under authority pressure",
+          "Because the shocks were actually real",
+          "Because the experiment was conducted illegally"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that Milgram demonstrated ordinary people, under the pressure of authority, can be led to inflict harm, which has disturbing implications."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is diffusion of responsibility?",
+        "options": [
+          "The tendency to take on too much personal responsibility",
+          "The tendency where each bystander assumes someone else will act, so no one helps",
+          "A legal principle for distributing blame",
+          "A method for assigning group projects"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines diffusion of responsibility as each person assuming someone else will act in an emergency, resulting in no one helping."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What did later research reveal about the Kitty Genovese story?",
+        "options": [
+          "It was completely accurate in every detail",
+          "The story of thirty-eight witnesses who did nothing was exaggerated by the press",
+          "There were actually no witnesses at all",
+          "The bystander effect does not exist"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor notes that the original story of thirty-eight witnesses who did nothing was exaggerated by the press, and later research has refined the picture."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the purpose of the professor's concluding statement about character?",
+        "options": [
+          "To argue that character is the only determinant of behavior",
+          "To caution against attributing behavior solely to character, since social context exerts powerful pressures",
+          "To prove that moral compasses are fixed and unchangeable",
+          "To dismiss the value of social psychology"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor's conclusion cautions against attributing behavior solely to character, emphasizing that social context, authority, and group dynamics can override moral judgment."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's overall attitude toward the lessons of social psychology?",
+        "options": [
+          "These forces cannot be resisted, so there is no point trying",
+          "Understanding these forces is the first step toward resisting them",
+          "Social psychology has no practical applications",
+          "Individual character always prevails over social context"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that understanding these social forces is the first step toward resisting them, showing a constructive attitude toward the research."
+      }
+    ],
+    "keyVocabulary": ["conformity", "confederate", "obedience", "authority figure", "bystander effect", "diffusion of responsibility", "social context", "group dynamics", "moral compass", "independent judgment", "unanimous"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in an economics course on development economics and growth strategies.",
+    "academicField": "ECONOMICS",
+    "audioScript": "Situation: An economics professor delivers a lecture on development economics, examining why some nations grow wealthy while others remain poor, and the competing strategies for achieving economic development.\nProfessor Rao: Good morning. Today we tackle one of the most important questions in all of economics: why are some countries rich and others poor, and what can be done about it? This is the domain of development economics. We'll examine three competing perspectives: the classical growth model, the structuralist critique, and the role of institutions.\nProfessor Rao: Let's begin with the classical growth model, rooted in the work of Robert Solow in the nineteen fifties. Solow argued that economic growth comes from three inputs: labor, capital, and technology. The critical insight was that capital accumulation alone cannot sustain long-term growth, because of diminishing returns. Each additional factory or machine adds less output than the one before. What drives sustained growth, Solow showed, is technological progress, the residual that remains after accounting for labor and capital. The policy implication seemed clear: invest in technology and education, and growth will follow. For a time, this model dominated development thinking, and institutions like the World Bank promoted it worldwide.\nProfessor Rao: But the classical model had a problem. It couldn't explain why some countries, despite massive capital investment, failed to grow. This led to the structuralist critique, associated with economists like Raúl Prebisch and Hans Singer. They argued that the global economy is structured to the disadvantage of developing nations. Their argument rests on the declining terms of trade: primary commodities, which poor countries export, lose value relative to manufactured goods, which rich countries export. Over time, a developing nation must export more and more coffee or copper just to buy the same amount of machinery. Prebisch and Singer recommended import substitution industrialization, or ISI, a strategy where developing nations build domestic industries behind protective tariffs to reduce dependence on imports. Latin American countries adopted this widely in the mid-twentieth century, with mixed results. Some industries flourished, but many became inefficient monopolies sheltered from competition, and the strategy eventually led to debt crises.\nProfessor Rao: The third perspective, and the one that dominates current thinking, focuses on institutions. The economists Daron Acemoglu and James Robinson, in their influential book Why Nations Fail, argued that the decisive factor is whether a country has inclusive institutions or extractive ones. Inclusive institutions, like secure property rights, rule of law, and broad access to economic opportunity, create incentives for innovation and investment. Extractive institutions, where a small elite monopolizes power and wealth, discourage effort and stifle growth. They draw a vivid contrast: North Korea and South Korea share the same language, culture, and geography, yet their economic outcomes are radically different. The difference is institutional. South Korea built inclusive institutions and prospered; North Korea maintained extractive ones and stagnated.\nProfessor Rao: No single theory is complete. Solow's model highlights the role of technology, the structuralists expose the unfairness of global trade, and the institutional view emphasizes the political foundations of prosperity. Real development requires all three: technological investment, fair trade structures, and inclusive institutions. The hardest part, as Acemoglu and Robinson note, is that building inclusive institutions is a political challenge, not just a technical one. You cannot simply engineer growth. You must build the conditions under which millions of people choose to invest in their own future.",
+    "speakers": [
+      { "name": "Professor Rao", "role": "economics professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of the World Bank",
+          "Three competing perspectives in development economics on why nations grow wealthy or remain poor",
+          "The biography of Robert Solow",
+          "Methods for measuring gross domestic product"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces three competing perspectives in development economics: the classical growth model, the structuralist critique, and the role of institutions."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What are the three inputs of economic growth in Solow's model?",
+        "options": [
+          "Land, labor, and capital",
+          "Labor, capital, and technology",
+          "Natural resources, population, and trade",
+          "Education, health, and infrastructure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that Solow's model identifies three inputs: labor, capital, and technology, with technological progress as the key driver of sustained growth."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why can't capital accumulation alone sustain long-term growth?",
+        "options": [
+          "Because capital depreciates instantly",
+          "Because of diminishing returns, each additional unit of capital adds less output",
+          "Because there is a global shortage of capital",
+          "Because governments always confiscate capital"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that diminishing returns mean each additional factory or machine adds less output than the one before, so capital alone cannot sustain growth."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What did Solow identify as the true driver of sustained growth?",
+        "options": [
+          "Labor force expansion",
+          "Technological progress, the residual after accounting for labor and capital",
+          "Increased savings rates",
+          "Population growth"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that Solow showed technological progress, the residual remaining after accounting for labor and capital, drives sustained growth."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the declining terms of trade argument?",
+        "options": [
+          "That manufactured goods lose value relative to commodities",
+          "That primary commodities lose value relative to manufactured goods over time",
+          "That all trade is inherently unfair",
+          "That trade barriers always benefit developing nations"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the declining terms of trade: primary commodities exported by poor countries lose value relative to manufactured goods exported by rich countries."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is import substitution industrialization (ISI)?",
+        "options": [
+          "A strategy of exporting only agricultural goods",
+          "A strategy where developing nations build domestic industries behind protective tariffs to reduce dependence on imports",
+          "A strategy of removing all trade barriers",
+          "A strategy of importing technology from wealthy nations exclusively"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines ISI as a strategy where developing nations build domestic industries behind protective tariffs to reduce dependence on imports."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What were the mixed results of ISI in Latin America?",
+        "options": [
+          "All industries flourished and growth was sustained indefinitely",
+          "Some industries flourished, but many became inefficient monopolies sheltered from competition, leading to debt crises",
+          "The strategy had no effect whatsoever",
+          "It caused immediate economic collapse in every country"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor notes that while some ISI industries flourished, many became inefficient monopolies sheltered from competition, and the strategy eventually led to debt crises."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "According to Acemoglu and Robinson, what is the decisive factor in a nation's prosperity?",
+        "options": [
+          "Geographic location and climate",
+          "Whether a country has inclusive or extractive institutions",
+          "The size of its military",
+          "Its population density"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Acemoglu and Robinson's argument that the decisive factor is whether a country has inclusive institutions or extractive ones."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the North Korea and South Korea contrast demonstrate?",
+        "options": [
+          "That geography determines economic success",
+          "That shared language and culture matter less than institutional design for economic outcomes",
+          "That military power is the key to prosperity",
+          "That natural resources are essential for growth"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor uses the Korea contrast to show that despite shared language, culture, and geography, institutional differences produce radically different economic outcomes."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's conclusion about achieving real development?",
+        "options": [
+          "That any single theory is sufficient on its own",
+          "That real development requires technological investment, fair trade structures, and inclusive institutions, and that building institutions is a political challenge",
+          "That growth can be engineered purely through technical solutions",
+          "That developing nations should ignore global trade entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor concludes that real development requires all three perspectives combined, and that building inclusive institutions is a political challenge, not just a technical one."
+      }
+    ],
+    "keyVocabulary": ["development economics", "classical growth model", "capital accumulation", "diminishing returns", "technological progress", "terms of trade", "import substitution industrialization", "inclusive institutions", "extractive institutions", "property rights", "rule of law", "debt crisis"]
+  }
+]

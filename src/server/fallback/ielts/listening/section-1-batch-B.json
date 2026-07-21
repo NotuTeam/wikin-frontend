@@ -1,0 +1,986 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a visitor purchasing an annual membership at a city museum front desk.",
+    "audioScript": "Situation: A man visits the City Heritage Museum to buy an annual membership and asks about the associated benefits.\nAssistant: Good morning, City Heritage Museum, welcome. How can I help you today?\nVisitor: Hello, I'd like to buy an annual membership. I came last week and really enjoyed the exhibits.\nAssistant: That's lovely to hear. An annual membership is forty-eight pounds for an adult, and it gives you unlimited entry to all permanent and temporary exhibitions.\nVisitor: That sounds reasonable. Does it include the special photography exhibition next month?\nAssistant: Yes, members get free entry to all temporary exhibitions, plus a ten percent discount in the museum shop and café. You'll also receive our quarterly newsletter by email.\nVisitor: Excellent. I'd also like to bring my nephew occasionally. Is that covered?\nAssistant: Family membership is eighty-two pounds and covers two adults and up to three children under sixteen. A single adult guest pass costs six pounds per visit on top of your individual membership.\nVisitor: I'll go with the individual adult membership for now. Can I pay by card?\nAssistant: Of course. We accept Visa and Mastercard but not cash, I'm afraid. The system is card-only since last month.\nVisitor: No problem. Here's my card.\nAssistant: Thank you. Could you fill in this short form with your name, address, and email? Your membership card will be ready in about five minutes, and it's valid from today for a full twelve months.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Assistant", "accent": "BRITISH", "gender": "FEMALE", "role": "museum front desk assistant" },
+        { "name": "Visitor", "accent": "AMERICAN", "gender": "MALE", "role": "museum visitor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why does the visitor want a membership?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["He enjoyed the exhibits on a previous visit", "It is required for entry", "His friend recommended it", "He received a voucher"],
+        "keywords": ["enjoyed", "exhibits", "last week"],
+        "synonymsUsed": ["previous visit", "liked"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the adult annual membership?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Forty-six pounds", "Forty-eight pounds", "Fifty pounds", "Eighty-two pounds"],
+        "keywords": ["forty-eight pounds", "adult"],
+        "synonymsUsed": ["annual fee", "price"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the membership include regarding exhibitions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Permanent exhibitions only", "Unlimited entry to permanent and temporary exhibitions", "Temporary exhibitions only", "One temporary exhibition per year"],
+        "keywords": ["unlimited entry", "permanent", "temporary"],
+        "synonymsUsed": ["all exhibitions", "free access"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What discount do members get in the shop and café?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five percent", "Fifteen percent", "Ten percent", "Twenty percent"],
+        "keywords": ["ten percent", "discount", "shop", "café"],
+        "synonymsUsed": ["reduction", "member benefit"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is the quarterly newsletter delivered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By post", "By email", "In person at the desk", "By phone"],
+        "keywords": ["quarterly newsletter", "email"],
+        "synonymsUsed": ["electronic", "delivered online"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the family membership?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Eighty-two pounds", "Forty-eight pounds", "Ninety pounds", "Sixty pounds"],
+        "keywords": ["family membership", "eighty-two"],
+        "synonymsUsed": ["family plan", "family rate"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many children does the family membership cover?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two children", "Four children", "Up to three children under sixteen", "Unlimited children"],
+        "keywords": ["three children", "under sixteen"],
+        "synonymsUsed": ["kids", "minors"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is a single adult guest pass per visit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Six pounds", "Five pounds", "Eight pounds", "Ten pounds"],
+        "keywords": ["guest pass", "six pounds"],
+        "synonymsUsed": ["visitor ticket", "per visit"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which payment method is NOT accepted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Visa card", "Cash", "Mastercard", "Contactless card"],
+        "keywords": ["not cash", "card-only"],
+        "synonymsUsed": ["no notes and coins", "electronic only"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the membership valid from today?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twelve months", "Six months", "Twenty-four months", "Three months"],
+        "keywords": ["twelve months", "valid"],
+        "synonymsUsed": ["one year", "duration"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "membership", "pronunciationNote": "/ˈmembəʃɪp/", "meaning": "The state of being a registered member of an organisation with associated benefits." },
+      { "word": "exhibition", "meaning": "A public display of objects of interest, such as artworks or historical items." },
+      { "word": "permanent", "meaning": "Lasting or intended to remain unchanged indefinitely." },
+      { "word": "guest pass", "meaning": "A temporary ticket allowing a visitor to enter on a single occasion." },
+      { "word": "quarterly", "meaning": "Occurring once every three months." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a parent booking swimming lessons for her child at a leisure centre.",
+    "audioScript": "Situation: A woman phones a leisure centre to book beginner swimming lessons for her seven-year-old son.\nReceptionist: Good afternoon, Oakfield Leisure Centre, this is Priya speaking. How can I help?\nCaller: Hi, I'd like to book swimming lessons for my son. He's seven and a complete beginner.\nReceptionist: Certainly. We run group lessons on weekday evenings and Saturday mornings. The beginner stage is called Stage One, and each lesson is thirty minutes long.\nCaller: Saturday morning would be best for us. What time?\nReceptionist: The Saturday Stage One class runs from nine fifteen to nine forty-five. There's also one at ten thirty, but that's currently full.\nCaller: Nine fifteen works. How many children are in a group?\nReceptionist: We cap each group at eight children with one qualified instructor and a poolside assistant. The course runs for ten weeks.\nCaller: Good. How much does the ten-week course cost?\nReceptionist: It's sixty-five pounds for the full course, payable upfront, or you can spread it at seven pounds per week, which works out a little more. We also offer a sibling discount of ten percent if you book for more than one child.\nCaller: Just the one for now. Does he need any special equipment?\nReceptionist: Just swimwear and a towel. We provide arm bands and floats. All children must wear a swimming cap, which you can buy here for three pounds if you don't have one.\nCaller: Great. Can I book the nine fifteen Saturday slot now?\nReceptionist: Absolutely. The first lesson starts this coming Saturday the seventh. Please arrive fifteen minutes early to complete a registration form and safety briefing.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Receptionist", "accent": "BRITISH", "gender": "FEMALE", "role": "leisure centre receptionist" },
+        { "name": "Caller", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "parent" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How old is the caller's son?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Seven years old", "Five years old", "Nine years old", "Eleven years old"],
+        "keywords": ["seven", "son"],
+        "synonymsUsed": ["child's age", "boy"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What ability level is the child?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Intermediate", "A complete beginner", "Advanced", "Can swim a little"],
+        "keywords": ["complete beginner"],
+        "synonymsUsed": ["no experience", "starter"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the caller prefer lessons?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Weekday evenings", "Saturday morning", "Sunday afternoon", "Friday evening"],
+        "keywords": ["Saturday morning", "prefer"],
+        "synonymsUsed": ["weekend", "am slot"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time is the available Saturday Stage One class?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nine fifteen to nine forty-five", "Ten thirty to eleven", "Nine to nine thirty", "Eight forty-five to nine fifteen"],
+        "keywords": ["nine fifteen", "nine forty-five"],
+        "synonymsUsed": ["quarter past nine", "slot time"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is the ten thirty class not an option?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is too late", "It is currently full", "It is for advanced swimmers only", "It has been cancelled"],
+        "keywords": ["ten thirty", "full"],
+        "synonymsUsed": ["no spaces", "fully booked"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum number of children in a group?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Six", "Ten", "Eight", "Twelve"],
+        "keywords": ["eight children", "cap"],
+        "synonymsUsed": ["maximum", "group size"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is each lesson?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Forty-five minutes", "Thirty minutes", "One hour", "Twenty minutes"],
+        "keywords": ["thirty minutes", "lesson"],
+        "synonymsUsed": ["duration", "half an hour"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the ten-week course paid upfront?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Seventy pounds", "Sixty-five pounds", "Fifty-five pounds", "Eighty pounds"],
+        "keywords": ["sixty-five pounds", "upfront"],
+        "synonymsUsed": ["full course fee", "lump sum"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What discount is offered for booking more than one child?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen percent", "Twenty percent", "Ten percent", "Five percent"],
+        "keywords": ["sibling discount", "ten percent"],
+        "synonymsUsed": ["family reduction", "multiple children"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the first lesson start?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Saturday the seventh", "Saturday the first", "Sunday the seventh", "Saturday the fourteenth"],
+        "keywords": ["Saturday", "seventh", "first lesson"],
+        "synonymsUsed": ["initial session", "start date"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "beginner", "meaning": "A person just starting to learn a skill." },
+      { "word": "instructor", "pronunciationNote": "/ɪnˈstrʌktə/", "meaning": "A person who teaches a practical skill, such as swimming." },
+      { "word": "cap", "meaning": "A maximum limit on the number of participants." },
+      { "word": "sibling discount", "meaning": "A price reduction offered when more than one child from the same family enrols." },
+      { "word": "swimming cap", "meaning": "A tight-fitting head covering worn in the pool to keep hair dry and maintain hygiene." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a patient calling an optician to book an eye test appointment.",
+    "audioScript": "Situation: A man phones an optician's practice to book a routine eye test and ask about the cost and what to bring.\nReceptionist: Good morning, ClearVision Opticians, this is Hannah. How can I help?\nCaller: Hello, I'd like to book an eye test, please. I think my prescription might have changed.\nReceptionist: Of course. When did you last have your eyes tested?\nCaller: About two years ago, at a different practice. I've moved to this area recently.\nReceptionist: No problem. A standard eye test takes around twenty-five minutes and costs thirty pounds. However, if you're over sixty or on certain benefits, it may be free. Are either of those applicable?\nCaller: No, I'm forty-three and not on benefits, so I'll pay.\nReceptionist: Fine. We have availability on Wednesday at two fifteen, or Thursday at four forty-five. Which would you prefer?\nCaller: Thursday at four forty-five, please. It's after work.\nReceptionist: Booked. Could I have your full name and a contact number?\nCaller: It's Marcus Lindqvist, and my number is oh-seven-eight-nine-two, four-four-one, six-three-zero.\nReceptionist: Thank you, Mr. Lindqvist. Please bring your current glasses if you have them, and any previous prescription details. If you wear contact lenses, remove them at least two hours before the test for an accurate result.\nCaller: I do wear contacts. I'll make sure to take them out beforehand.\nReceptionist: Also, if you'd like to be seen by a specific optometrist, Dr. Lewis is available on Thursdays. Otherwise it will be Dr. Carter.\nCaller: Dr. Lewis is fine, thank you.\nReceptionist: Excellent. We'll send a text reminder the day before. See you Thursday at four forty-five.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Receptionist", "accent": "BRITISH", "gender": "FEMALE", "role": "optician receptionist" },
+        { "name": "Caller", "accent": "CANADIAN", "gender": "MALE", "role": "patient" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why does the caller want an eye test?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["He thinks his prescription has changed", "He lost his glasses", "His eyes are sore", "He needs contact lenses for the first time"],
+        "keywords": ["prescription", "changed"],
+        "synonymsUsed": ["vision altered", "glasses strength"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the caller's last eye test?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One year ago", "About two years ago", "Six months ago", "Five years ago"],
+        "keywords": ["two years ago", "last"],
+        "synonymsUsed": ["previous test", "most recent"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does a standard eye test take?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Around twenty-five minutes", "Fifteen minutes", "Forty minutes", "One hour"],
+        "keywords": ["twenty-five minutes", "standard"],
+        "synonymsUsed": ["duration", "approximate time"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the eye test cost the caller?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Free", "Twenty pounds", "Thirty pounds", "Forty pounds"],
+        "keywords": ["thirty pounds", "cost"],
+        "synonymsUsed": ["fee", "charge"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Under what condition might the test be free?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["If it's the first visit", "If the patient is over sixty or on certain benefits", "If the patient is a student", "If the patient has private insurance"],
+        "keywords": ["over sixty", "benefits", "free"],
+        "synonymsUsed": ["no charge", "exempt"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which appointment does the caller choose?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Wednesday at two fifteen", "Thursday at four forty-five", "Wednesday at four forty-five", "Thursday at two fifteen"],
+        "keywords": ["Thursday", "four forty-five"],
+        "synonymsUsed": ["slot", "after work"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the caller's contact number?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["07892 441630", "07892 441360", "07829 441630", "07892 414630"],
+        "keywords": ["oh-seven-eight-nine-two", "four-four-one", "six-three-zero"],
+        "synonymsUsed": ["phone", "mobile"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What should the caller bring to the appointment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Only his ID", "A referral letter from a doctor", "Current glasses and any previous prescription details", "Nothing at all"],
+        "keywords": ["current glasses", "previous prescription"],
+        "synonymsUsed": ["existing spectacles", "old details"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must contact lens wearers do before the test?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Wear them throughout the test", "Remove them at least two hours before", "Bring a spare pair", "Clean them thoroughly"],
+        "keywords": ["remove", "two hours", "contact lenses"],
+        "synonymsUsed": ["take out", "beforehand"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which optometrist will see the caller?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Dr. Lewis", "Dr. Carter", "Dr. Hannah", "Dr. Patel"],
+        "keywords": ["Dr. Lewis", "Thursday"],
+        "synonymsUsed": ["eye doctor", "optometrist"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "prescription", "pronunciationNote": "/prɪˈskrɪpʃn/", "meaning": "A written specification for corrective lenses, including strength and measurements." },
+      { "word": "optometrist", "meaning": "A healthcare professional who examines eyes and prescribes corrective lenses." },
+      { "word": "contact lenses", "meaning": "Thin lenses placed directly on the eye to correct vision." },
+      { "word": "benefits", "meaning": "Government financial support payments for eligible individuals." },
+      { "word": "reminder", "meaning": "A message prompting someone about an upcoming appointment or task." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a homeowner calling a pest control company about a mouse problem.",
+    "audioScript": "Situation: A woman phones a pest control company to report mice in her kitchen and book a treatment visit.\nAgent: Good morning, SafeGuard Pest Control, this is Tom speaking. How can I help?\nCaller: Hi, I've been hearing scratching in the walls and I found droppings in my kitchen cupboard this morning. I think I have mice.\nAgent: I'm sorry to hear that. I can help. First, a few questions. How long have you noticed the signs?\nCaller: About three or four days, but the droppings only appeared this morning.\nAgent: Understood. We offer a standard residential treatment for mice. The initial visit is seventy-five pounds, which includes a full inspection, placement of bait stations, and advice on proofing. A follow-up visit after two weeks is included in that price.\nCaller: That's reasonable. When is the earliest you can come?\nAgent: We have a slot tomorrow afternoon between two and four, or Thursday morning between nine and eleven.\nCaller: Tomorrow afternoon, please. I work from home so I'm flexible within that window.\nAgent: Booked. Could I have your address?\nCaller: It's twenty-three Beechwood Avenue, postcode M14 sevenKL.\nAgent: Thank you. The technician assigned is called Ravi. He'll need access to the kitchen, loft, and any outbuildings. If you have pets, please keep them out of treated areas for at least twenty-four hours.\nCaller: I have a cat. I'll keep her upstairs during the visit and afterwards.\nAgent: Perfect. One last thing: if the infestation isn't resolved after the follow-up, a third visit is charged at a reduced rate of forty pounds. Most cases, however, are resolved within two visits.\nCaller: Good to know. I'll see Ravi tomorrow between two and four.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "MALE", "role": "pest control agent" },
+        { "name": "Caller", "accent": "AMERICAN", "gender": "FEMALE", "role": "homeowner" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What signs of pests has the caller noticed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Scratching in the walls and droppings in the kitchen", "Bite marks on furniture", "A foul smell in the bathroom", "Visible insects in the bedroom"],
+        "keywords": ["scratching", "droppings", "kitchen"],
+        "synonymsUsed": ["noises", "excrement"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of pest does the caller suspect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Rats", "Mice", "Cockroaches", "Ants"],
+        "keywords": ["mice"],
+        "synonymsUsed": ["rodents", "small pests"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long has the caller noticed the scratching?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Since this morning", "About a week", "About three or four days", "Over a month"],
+        "keywords": ["three or four days", "scratching"],
+        "synonymsUsed": ["several days", "recently"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the initial treatment visit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Seventy-five pounds", "Fifty pounds", "One hundred pounds", "Forty pounds"],
+        "keywords": ["seventy-five pounds", "initial visit"],
+        "synonymsUsed": ["first appointment", "fee"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is included in the initial visit price?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Only the inspection", "Inspection, bait stations, proofing advice, and a follow-up after two weeks", "Three visits and a warranty", "Inspection and a one-year guarantee"],
+        "keywords": ["inspection", "bait stations", "follow-up"],
+        "synonymsUsed": ["full service", "included"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which appointment slot does the caller choose?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Tomorrow afternoon between two and four", "Thursday morning between nine and eleven", "Tomorrow morning between nine and eleven", "Friday afternoon between two and four"],
+        "keywords": ["tomorrow afternoon", "two and four"],
+        "synonymsUsed": ["next day pm", "window"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the caller's address?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty-three Beechwood Avenue, M14 7KL", "Thirty-two Beechwood Avenue, M14 7LK", "Twenty-three Beechwood Road, M41 7KL", "Twenty-three Birchwood Avenue, M14 7KL"],
+        "keywords": ["twenty-three", "Beechwood Avenue", "M14 sevenKL"],
+        "synonymsUsed": ["property address", "location"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which areas must the technician access?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Kitchen and bathroom only", "Loft and garden", "Kitchen, loft, and any outbuildings", "All bedrooms"],
+        "keywords": ["kitchen", "loft", "outbuildings"],
+        "synonymsUsed": ["areas to inspect", "rooms"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must the caller do with her cat?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Remove the cat from the house entirely", "Keep the cat upstairs and out of treated areas for at least twenty-four hours", "Take the cat to the vet", "Nothing, cats are unaffected"],
+        "keywords": ["cat", "upstairs", "twenty-four hours"],
+        "synonymsUsed": ["pet", "away from treated areas"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is a third visit if needed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Thirty pounds", "Forty pounds", "Fifty pounds", "Sixty pounds"],
+        "keywords": ["third visit", "forty pounds", "reduced rate"],
+        "synonymsUsed": ["additional appointment", "discounted fee"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "droppings", "meaning": "The excrement of animals, often used as evidence of pest presence." },
+      { "word": "bait station", "meaning": "A secure container holding poisoned bait to eliminate rodents." },
+      { "word": "proofing", "pronunciationNote": "/ˈpruːfɪŋ/", "meaning": "Sealing entry points to prevent pests from entering a building." },
+      { "word": "infestation", "meaning": "The presence of pests in large numbers in a property." },
+      { "word": "follow-up", "meaning": "A subsequent visit to check progress after an initial treatment." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a customer collecting dry cleaning and asking about a stain removal service.",
+    "audioScript": "Situation: A man visits a dry cleaner to collect some items and asks about an additional stain removal service for a jacket.\nAssistant: Good afternoon, FreshPress Dry Cleaners, how can I help?\nCustomer: Hi, I'm here to collect a dry cleaning order under the name Whitfield. It should be ready today.\nAssistant: Let me check. Yes, two shirts and one suit, ready for collection. That'll be twenty-four pounds altogether.\nCustomer: Great. I also have a wool jacket with a red wine stain on the sleeve. Can you treat that?\nAssistant: We can certainly try. Red wine on wool is tricky, but our specialist stain removal process has a good success rate. The charge is eight pounds per item, and we'd need it for three working days.\nCustomer: That's fine. The jacket is quite expensive, so I want it done properly. Is there a guarantee?\nAssistant: We can't guarantee complete removal because the stain has set, but if we can't improve it at all, you won't be charged for the stain treatment. You'd still pay the standard dry cleaning fee of twelve pounds for the jacket.\nCustomer: That seems fair. So the jacket would be twelve plus eight, twenty pounds total?\nAssistant: That's right. I'll tag it now. Could you fill in your name and phone number on this slip? We'll text you when it's ready for collection.\nCustomer: Sure. What are your opening hours? I sometimes work late.\nAssistant: We're open Monday to Friday from eight a.m. to seven p.m., and Saturdays from nine to two. We're closed on Sundays and public holidays.\nCustomer: Perfect, I can pop in after work on a weekday.\nAssistant: Your suit and shirts are here in this garment bag. Here's your receipt. The jacket will be ready by Friday.\nCustomer: Excellent, thank you.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Assistant", "accent": "BRITISH", "gender": "FEMALE", "role": "dry cleaner assistant" },
+        { "name": "Customer", "accent": "AMERICAN", "gender": "MALE", "role": "customer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the collection order name?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Whitfield", "Whitefield", "Whitford", "Wheatfield"],
+        "keywords": ["Whitfield", "collect"],
+        "synonymsUsed": ["order name", "under the name"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What items are ready for collection?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three shirts and a suit", "Two shirts and one suit", "One shirt and two suits", "Two shirts and a jacket"],
+        "keywords": ["two shirts", "one suit"],
+        "synonymsUsed": ["garments", "ready items"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the collection order cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty pounds", "Eighteen pounds", "Twenty-four pounds", "Thirty pounds"],
+        "keywords": ["twenty-four pounds", "altogether"],
+        "synonymsUsed": ["total", "amount due"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What stain is on the wool jacket?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Red wine", "Coffee", "Ink", "Oil"],
+        "keywords": ["red wine", "stain", "sleeve"],
+        "synonymsUsed": ["wine spill", "mark"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the specialist stain removal per item?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Six pounds", "Eight pounds", "Ten pounds", "Twelve pounds"],
+        "keywords": ["eight pounds", "stain removal"],
+        "synonymsUsed": ["specialist treatment", "charge"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does the stain treatment take?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One working day", "Two working days", "Three working days", "A week"],
+        "keywords": ["three working days"],
+        "synonymsUsed": ["turnaround", "processing time"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if the stain cannot be improved at all?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A full refund of all charges", "The stain treatment charge is waived, but the standard dry cleaning fee still applies", "The customer pays nothing", "The jacket is replaced"],
+        "keywords": ["won't be charged", "stain treatment", "standard fee"],
+        "synonymsUsed": ["no charge for treatment", "still pay cleaning"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total cost for the jacket?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty pounds", "Eight pounds", "Twelve pounds", "Twenty-four pounds"],
+        "keywords": ["twelve plus eight", "twenty pounds"],
+        "synonymsUsed": ["combined cost", "total for jacket"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How will the customer be notified the jacket is ready?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By email", "By text message", "By phone call", "By post"],
+        "keywords": ["text", "ready"],
+        "synonymsUsed": ["SMS", "notification"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the Saturday opening hours?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight a.m. to seven p.m.", "Nine a.m. to five p.m.", "Nine to two", "Closed on Saturdays"],
+        "keywords": ["Saturdays", "nine to two"],
+        "synonymsUsed": ["weekend hours", "Saturday opening"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "dry cleaning", "meaning": "A method of cleaning clothes using chemical solvents instead of water." },
+      { "word": "stain removal", "meaning": "A specialist process to eliminate marks or discolouration from fabric." },
+      { "word": "garment bag", "meaning": "A protective bag used to transport cleaned clothing." },
+      { "word": "working day", "meaning": "A weekday on which businesses operate, excluding weekends and holidays." },
+      { "word": "guarantee", "pronunciationNote": "/ˌɡærənˈtiː/", "meaning": "A formal assurance that a service will meet a certain standard." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a customer calling a courier depot to inquire about a delayed parcel delivery.",
+    "audioScript": "Situation: A man phones a courier company's depot to chase a parcel that has not arrived and is now overdue by several days.\nAgent: Thank you for calling SwiftParcel customer services, this is James. How can I help?\nCaller: Hello, I'm calling about a parcel that was dispatched last Monday and still hasn't arrived. The tracking says it's been at your local depot since Wednesday.\nAgent: I'm sorry about the delay. Could I have your tracking number, please?\nCaller: Yes, it's S-P-four-seven-Q-R-nine-two-M.\nAgent: Thank you. Let me pull that up. I can see the parcel arrived at our Northgate depot on Wednesday at three forty p.m. but wasn't scanned out for delivery. That appears to be an internal processing error.\nCaller: That's frustrating. It's a birthday gift for my mother and her birthday is this Saturday, so I really need it by then.\nAgent: I completely understand. I've flagged it for priority delivery tomorrow. It will be out on the van by eight a.m. and should reach you between nine and one.\nCaller: Thank you. The parcel contains a glass vase. Is it insured?\nAgent: Yes, standard cover includes up to fifty pounds. If the contents are worth more, additional compensation can be claimed, but I can see the sender declared a value of seventy-five pounds and purchased extra cover, so you're fully protected up to that amount.\nCaller: Good. What happens if it arrives damaged?\nAgent: You must report any damage within forty-eight hours of delivery, with photographs of both the item and the packaging. We'll then process a claim within ten working days.\nCaller: Understood. Can I change the delivery address to my workplace? I won't be home tomorrow morning.\nAgent: I can redirect it to an alternative address, but there's a four pound fifty surcharge for redirection, and it would delay delivery by one more day. Alternatively, you can collect it from the depot today between five and seven p.m. at no extra cost.\nCaller: I'll collect it from the depot today. Where exactly are you located?\nAgent: We're at Unit twelve, Orbital Industrial Park, Navigator Way. Bring photo ID and the tracking number.\nCaller: I'll be there before seven. Thank you for your help.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "MALE", "role": "courier customer service agent" },
+        { "name": "Caller", "accent": "AUSTRALIAN", "gender": "MALE", "role": "parcel recipient" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the parcel dispatched?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Last Monday", "Last Tuesday", "Last Wednesday", "Last Friday"],
+        "keywords": ["dispatched", "last Monday"],
+        "synonymsUsed": ["sent", "shipped"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the tracking show?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The parcel is in transit", "The parcel has been at the local depot since Wednesday", "The parcel was delivered to the wrong address", "The parcel is lost"],
+        "keywords": ["depot", "since Wednesday", "tracking"],
+        "synonymsUsed": ["stuck at depot", "not scanned out"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the tracking number?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["SP47QR92N", "SP47QR92M", "SP47QR92M", "SP74QR92M"],
+        "keywords": ["S-P-four-seven-Q-R-nine-two-M"],
+        "synonymsUsed": ["reference", "consignment number"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the cause of the delay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Bad weather", "An internal processing error", "A vehicle breakdown", "An incorrect address"],
+        "keywords": ["internal processing error"],
+        "synonymsUsed": ["system mistake", "processing failure"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is the caller anxious about the parcel?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It contains important documents", "It's a birthday gift for his mother and her birthday is this Saturday", "It's a work deadline", "It contains medicine"],
+        "keywords": ["birthday gift", "mother", "Saturday"],
+        "synonymsUsed": ["present", "deadline"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the parcel scanned into the depot?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Wednesday at three forty p.m.", "Wednesday at four thirty p.m.", "Tuesday at three forty p.m.", "Thursday at three forty p.m."],
+        "keywords": ["Wednesday", "three forty p.m."],
+        "synonymsUsed": ["arrival time", "scanned in"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the standard insurance cover?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Up to fifty pounds", "Up to seventy-five pounds", "Up to one hundred pounds", "Up to twenty pounds"],
+        "keywords": ["standard cover", "fifty pounds"],
+        "synonymsUsed": ["basic insurance", "default protection"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much extra cover did the sender purchase?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Up to fifty pounds", "Up to seventy-five pounds", "Up to one hundred pounds", "Up to one hundred and fifty pounds"],
+        "keywords": ["seventy-five pounds", "extra cover", "declared"],
+        "synonymsUsed": ["additional insurance", "top-up cover"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the surcharge for redirecting to an alternative address?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three pounds fifty", "Four pounds fifty", "Five pounds", "Two pounds"],
+        "keywords": ["four pound fifty", "surcharge", "redirection"],
+        "synonymsUsed": ["redirect fee", "additional charge"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must the caller bring to collect from the depot?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A utility bill and a reference letter", "A passport and a proof of address", "Photo ID and the tracking number", "Nothing, just the collection code"],
+        "keywords": ["photo ID", "tracking number", "collect"],
+        "synonymsUsed": ["identification", "reference"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "depot", "pronunciationNote": "/ˈdepəʊ/", "meaning": "A hub where parcels are sorted and stored before final delivery." },
+      { "word": "tracking number", "meaning": "A unique code used to follow a parcel's journey through the delivery network." },
+      { "word": "processing error", "meaning": "A mistake in the internal handling or scanning of a parcel." },
+      { "word": "surcharge", "meaning": "An additional fee for an extra or non-standard service." },
+      { "word": "redirection", "meaning": "Changing the delivery address of a parcel after it has been dispatched." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a commuter buying a monthly bus pass at a transport ticket office.",
+    "audioScript": "Situation: A woman visits a bus station ticket office to buy a monthly bus pass and asks about zones and top-up options.\nClerk: Good morning, CityBus Travel Centre. How can I help?\nCustomer: Hi, I'd like to buy a monthly bus pass. I've just started a new job and I'll be commuting every day.\nClerk: Congratulations on the new job. We offer monthly passes for three zones. Zone One covers the city centre, Zone Two adds the inner suburbs, and Zone Three covers the whole network including outer villages.\nCustomer: I'll be travelling from Greenfield to the city centre. Which zone do I need?\nClerk: Greenfield is in Zone Two, so a Zone One-to-Two pass is what you need. That's fifty-eight pounds per month.\nCustomer: Does the pass work on all buses or just certain routes?\nClerk: It's valid on all CityBus services within your selected zones, including night buses, but not on express coach services.\nCustomer: That's fine. Can I load it onto a smartcard?\nClerk: Yes. A smartcard costs three pounds as a one-off fee, and then we load the pass onto it. If you already have one, I can just top it up.\nCustomer: I don't have one yet, so I'll take a new card. Can I set up automatic monthly renewal?\nClerk: Absolutely. We can set up a direct debit so the pass renews automatically on the first of each month. You'll never have to queue again. Alternatively, you can top up online or at any ticket machine.\nCustomer: I'll set up the direct debit. What happens if I lose the card?\nClerk: Just call us and we'll block the old card and transfer the pass to a replacement. The first replacement is free, but subsequent ones cost three pounds each. You'll need to verify your identity with your name and address.\nCustomer: Great. I'll take the smartcard with the Zone One-to-Two pass and set up the direct debit, please.\nClerk: Could you fill in this form? I'll have your card ready in a few minutes.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Clerk", "accent": "BRITISH", "gender": "MALE", "role": "bus ticket clerk" },
+        { "name": "Customer", "accent": "CANADIAN", "gender": "FEMALE", "role": "commuter" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why does the customer need a monthly pass?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["She lost her old pass", "She just started a new job and will commute daily", "She is visiting the city for a month", "Her car broke down"],
+        "keywords": ["new job", "commuting", "every day"],
+        "synonymsUsed": ["started work", "daily travel"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many zones does the bus network have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two", "Four", "Three", "Five"],
+        "keywords": ["three zones"],
+        "synonymsUsed": ["zone system", "coverage areas"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which zone is Greenfield in?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Zone One", "Zone Two", "Zone Three", "Zone Four"],
+        "keywords": ["Greenfield", "Zone Two"],
+        "synonymsUsed": ["located in", "classified as"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the Zone One-to-Two monthly pass?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Fifty-eight pounds", "Forty-five pounds", "Sixty-five pounds", "Seventy pounds"],
+        "keywords": ["fifty-eight pounds", "Zone One-to-Two"],
+        "synonymsUsed": ["monthly fare", "pass price"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which services are NOT covered by the pass?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Night buses", "Express coach services", "City centre buses", "Weekend services"],
+        "keywords": ["not", "express coach services"],
+        "synonymsUsed": ["excluded", "not valid on"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the one-off smartcard fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three pounds", "Five pounds", "Two pounds", "Ten pounds"],
+        "keywords": ["smartcard", "three pounds", "one-off"],
+        "synonymsUsed": ["card fee", "initial charge"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the direct debit renew the pass?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["On the first of each month", "On the fifteenth of each month", "On the last day of each month", "Every two weeks"],
+        "keywords": ["first of each month", "direct debit"],
+        "synonymsUsed": ["renewal date", "automatic payment"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if the customer loses her card?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The pass is lost permanently", "The old card is blocked and the pass is transferred to a replacement", "A full refund is issued", "She must buy a new pass from scratch"],
+        "keywords": ["block", "replacement", "transfer"],
+        "synonymsUsed": ["cancelled", "new card issued"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much do subsequent replacement cards cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Free", "Three pounds each", "Five pounds each", "Ten pounds each"],
+        "keywords": ["subsequent", "three pounds"],
+        "synonymsUsed": ["later replacements", "additional cards"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the customer need to verify when replacing a card?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A passport only", "A phone number and email", "Her name and address", "A utility bill and photo ID"],
+        "keywords": ["name and address", "verify", "identity"],
+        "synonymsUsed": ["confirm details", "identification"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "commuter", "pronunciationNote": "/kəˈmjuːtə/", "meaning": "A person who travels regularly between home and work." },
+      { "word": "zone", "meaning": "A defined geographic area used to calculate transport fares." },
+      { "word": "smartcard", "meaning": "A plastic card with an embedded chip used to store travel credit or passes." },
+      { "word": "direct debit", "meaning": "An automatic payment arrangement that takes money from a bank account on a set date." },
+      { "word": "top up", "meaning": "To add credit or a new pass to an existing smartcard." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a homeowner calling a gardening service to book a one-off garden clearance.",
+    "audioScript": "Situation: A man phones a local gardening company to arrange a one-off garden clearance and lawn treatment after moving into a property with an overgrown garden.\nAgent: Good morning, GreenThumb Garden Services, this is Olivia. How can I help?\nCaller: Hello, I've just moved into a house and the garden is quite overgrown. I'd like to book a one-off clearance and possibly a lawn treatment.\nAgent: Of course. Could you tell me roughly how large the garden is?\nCaller: It's a medium-sized back garden, maybe about forty square metres, and there's a small front lawn as well, around ten square metres.\nAgent: That's helpful. For a one-off clearance, we charge based on size and condition. A medium garden in poor condition would be around one hundred and twenty pounds. That includes cutting back overgrown shrubs, weeding, removing green waste, and tidying borders.\nCaller: That sounds reasonable. What about the lawn?\nAgent: We offer a lawn treatment package consisting of scarification, aeration, and fertiliser application. For a combined area of about fifty square metres, that's an additional forty-five pounds. We also reseed bare patches at no extra cost as part of the package.\nCaller: I'll take both. How soon can you come?\nAgent: Our next available slot is next Tuesday, the eleventh. We'd arrive between eight and ten in the morning and the work typically takes about four hours with a team of two.\nCaller: Tuesday works. Do I need to be at home?\nAgent: Not necessarily, as long as we have access to the garden. If you have a side gate, please leave it unlocked. We also need access to an outside tap for cleaning tools, if possible.\nCaller: The side gate has a padlock. I'll leave it unlocked for you. Do you take the green waste away?\nAgent: Yes, all green waste is taken to a licensed recycling facility and the disposal is included in the clearance price. However, any non-green waste, like old bricks or broken furniture, is charged separately at fifteen pounds per load.\nCaller: There is an old rusty chair in the back. Would that count?\nAgent: Yes, that would be classed as non-green waste, so there'd be a fifteen pound charge for one load. Shall I add that?\nCaller: Yes, please. So the total would be one hundred and twenty plus forty-five plus fifteen.\nAgent: That's correct, one hundred and eighty pounds in total. We take payment on the day by card or bank transfer. I'll email a confirmation with the date and a checklist of what to prepare.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "FEMALE", "role": "gardening service agent" },
+        { "name": "Caller", "accent": "CANADIAN", "gender": "MALE", "role": "new homeowner" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why does the caller need a garden clearance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["He has just moved into a house with an overgrown garden", "He is selling the property", "His landlord demanded it", "A storm damaged the plants"],
+        "keywords": ["moved", "overgrown", "garden"],
+        "synonymsUsed": ["new home", "untamed"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the approximate size of the back garden?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty square metres", "About forty square metres", "Fifty square metres", "Ten square metres"],
+        "keywords": ["forty square metres", "back garden"],
+        "synonymsUsed": ["area", "roughly"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the one-off clearance for a medium garden in poor condition?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One hundred pounds", "Ninety pounds", "Around one hundred and twenty pounds", "One hundred and fifty pounds"],
+        "keywords": ["one hundred and twenty pounds", "clearance"],
+        "synonymsUsed": ["fee", "price"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the clearance include?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Lawn mowing and hedge planting", "Cutting back shrubs, weeding, removing green waste, and tidying borders", "Tree felling and stump removal", "Patio cleaning and fence painting"],
+        "keywords": ["shrubs", "weeding", "green waste", "borders"],
+        "synonymsUsed": ["services included", "covered"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lawn treatment package consist of?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Scarification, aeration, and fertiliser application", "Mowing, edging, and watering", "Weed killing and reseeding only", "Aeration and top dressing"],
+        "keywords": ["scarification", "aeration", "fertiliser"],
+        "synonymsUsed": ["lawn care steps", "treatment process"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the lawn treatment for approximately fifty square metres?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifty pounds", "Forty-five pounds", "Thirty-five pounds", "Sixty pounds"],
+        "keywords": ["forty-five pounds", "lawn treatment"],
+        "synonymsUsed": ["additional charge", "package price"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is provided at no extra cost in the lawn package?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["New turf rolls", "A free follow-up visit", "Reseeding bare patches", "A watering schedule"],
+        "keywords": ["reseed", "bare patches", "no extra cost"],
+        "synonymsUsed": ["included free", "complimentary"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the next available appointment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Next Tuesday, the eleventh, between eight and ten a.m.", "Next Wednesday, the twelfth, between ten and noon", "This Friday, between eight and ten a.m.", "Next Monday, the tenth, between noon and two"],
+        "keywords": ["Tuesday", "eleventh", "eight and ten"],
+        "synonymsUsed": ["slot", "booking window"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is non-green waste charged?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Included in the clearance price", "Fifteen pounds per load", "Ten pounds per item", "Twenty pounds per load"],
+        "keywords": ["non-green waste", "fifteen pounds", "per load"],
+        "synonymsUsed": ["rubbish", "separate charge"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total cost of all the services booked?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["One hundred and eighty pounds", "One hundred and sixty-five pounds", "Two hundred pounds", "One hundred and fifty pounds"],
+        "keywords": ["one hundred and eighty pounds", "total"],
+        "synonymsUsed": ["grand total", "combined price"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "overgrown", "pronunciationNote": "/ˌəʊvəˈɡrəʊn/", "meaning": "Covered with plants that have grown too large or wild." },
+      { "word": "scarification", "meaning": "The process of removing dead moss and thatch from a lawn to encourage healthy growth." },
+      { "word": "aeration", "pronunciationNote": "/eəˈreɪʃn/", "meaning": "Piercing the soil with small holes to allow air, water, and nutrients to reach the roots." },
+      { "word": "green waste", "meaning": "Biodegradable garden material such as grass cuttings, leaves, and branches." },
+      { "word": "clearance", "meaning": "A thorough clearing and tidying of an overgrown or neglected area." }
+    ],
+    "difficulty": "HARD"
+  }
+]

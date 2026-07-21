@@ -7,13 +7,28 @@ import {
   getSimulationSession,
   updateSimulationSession,
 } from "@/server/session/store";
+import {
+  isFallbackMode,
+  loadIeltsListeningSection,
+  loadIeltsReadingPassage,
+  loadIeltsReadingPassageUnit,
+  loadToeflListeningPartA,
+  loadToeflListeningPartB,
+  loadToeflListeningPartC,
+  loadToeflListeningPartD,
+  loadToeflListeningPartE,
+  loadToeflReading,
+  loadToeflReadingPassageUnit,
+  loadToeflStructure,
+} from "@/server/fallback/loader";
 
 export type Difficulty = "EASY" | "MEDIUM" | "HARD";
 export type ListeningSection =
   | "SECTION_1"
   | "SECTION_2"
   | "SECTION_3"
-  | "SECTION_4";
+  | "SECTION_4"
+  | "SECTION_5";
 
 export async function generateByEndpoint(
   endpoint: string,
@@ -27,50 +42,97 @@ export async function generateByEndpoint(
   try {
     let result;
 
+    const useFallback = isFallbackMode();
+
+    if (useFallback) {
+      console.log("[question-gen][dispatch] fallback mode active (AI_GENERATE=false)", {
+        endpoint,
+        difficulty,
+        section,
+        passageIndex,
+      });
+    }
+
     switch (endpoint) {
       case "/toefl/listening/part-a":
-        result = await toeflEngine.generateListeningPartA(difficulty);
+        result = useFallback
+          ? loadToeflListeningPartA(difficulty)
+          : await toeflEngine.generateListeningPartA(difficulty);
         break;
       case "/toefl/listening/part-b":
-        result = await toeflEngine.generateListeningPartB(difficulty);
+        result = useFallback
+          ? loadToeflListeningPartB(difficulty)
+          : await toeflEngine.generateListeningPartB(difficulty);
         break;
       case "/toefl/listening/part-c":
-        result = await toeflEngine.generateListeningPartC(difficulty);
+        result = useFallback
+          ? loadToeflListeningPartC(difficulty)
+          : await toeflEngine.generateListeningPartC(difficulty);
         break;
       case "/toefl/listening/part-d":
-        result = await toeflEngine.generateListeningPartD(difficulty);
+        result = useFallback
+          ? loadToeflListeningPartD(difficulty)
+          : await toeflEngine.generateListeningPartD(difficulty);
         break;
       case "/toefl/listening/part-e":
-        result = await toeflEngine.generateListeningPartE(difficulty);
+        result = useFallback
+          ? loadToeflListeningPartE(difficulty)
+          : await toeflEngine.generateListeningPartE(difficulty);
         break;
       case "/toefl/reading":
-        result = await toeflEngine.generateReading(difficulty);
+        result = useFallback
+          ? loadToeflReading(difficulty)
+          : await toeflEngine.generateReading(difficulty);
         break;
       case "/toefl/reading/passage":
-        result = await toeflEngine.generateReadingPassageUnit(passageIndex, difficulty);
+        result = useFallback
+          ? loadToeflReadingPassageUnit(passageIndex, difficulty)
+          : await toeflEngine.generateReadingPassageUnit(passageIndex, difficulty);
         break;
       case "/toefl/structure":
-        result = await toeflEngine.generateStructure(difficulty);
+        result = useFallback
+          ? loadToeflStructure(difficulty)
+          : await toeflEngine.generateStructure(difficulty);
         break;
       case "/ielts/listening":
-        result = await ieltsEngine.generateListeningSection(section, difficulty);
+        result = useFallback
+          ? loadIeltsListeningSection(section, difficulty)
+          : await ieltsEngine.generateListeningSection(section, difficulty);
         break;
       case "/ielts/reading":
-        result = await ieltsEngine.generateReadingPassage(difficulty);
+        result = useFallback
+          ? loadIeltsReadingPassage(difficulty)
+          : await ieltsEngine.generateReadingPassage(difficulty);
         break;
       case "/ielts/reading/passage":
-        result = await ieltsEngine.generateReadingPassageUnit(passageIndex, difficulty);
+        result = useFallback
+          ? loadIeltsReadingPassageUnit(passageIndex, difficulty)
+          : await ieltsEngine.generateReadingPassageUnit(passageIndex, difficulty);
         break;
       case "/ielts/writing/task-1":
+        // Writing tasks have no static fallback; AI generation only.
         result = await ieltsEngine.generateWritingTask1(difficulty);
         break;
       case "/ielts/writing/task-2":
+        // Writing tasks have no static fallback; AI generation only.
         result = await ieltsEngine.generateWritingTask2(difficulty);
         break;
       case "/ielts/complete-listening":
-        result = await ieltsEngine.generateCompleteListeningTest(difficulty);
+        if (useFallback) {
+          const sections = (["SECTION_1", "SECTION_2", "SECTION_3", "SECTION_4", "SECTION_5"] as const).map(
+            (s) => loadIeltsListeningSection(s, difficulty),
+          );
+          result = {
+            sections,
+            totalQuestions: sections.reduce((sum, s) => sum + s.questions.length, 0),
+            duration: 30,
+          };
+        } else {
+          result = await ieltsEngine.generateCompleteListeningTest(difficulty);
+        }
         break;
       case "/ielts/complete-writing":
+        // Writing tasks have no static fallback; AI generation only.
         result = await ieltsEngine.generateCompleteWritingTest(difficulty);
         break;
       default:

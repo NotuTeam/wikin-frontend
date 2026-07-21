@@ -1,0 +1,864 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced astrophysics lecture on the formation and properties of black holes.",
+    "audioScript": "Situation: An astrophysicist delivers an advanced lecture on the astrophysics of black holes, their formation, and relativistic properties.\nProfessor Adeyemi: Good afternoon. Today we turn to black holes, regions of spacetime where gravity is so intense that nothing, not even light, can escape once it crosses the event horizon.\nProfessor Adeyemi: Stellar black holes form when massive stars, at least twenty solar masses, exhaust their nuclear fuel. Without outward radiation pressure, the core collapses under its own gravity. If the remnant exceeds roughly three solar masses, no known force can halt the collapse, and a singularity forms.\nProfessor Adeyemi: The event horizon is not a physical surface but a mathematical boundary. Its radius, the Schwarzschild radius, is proportional to mass. For a non-rotating black hole it equals two G M over c squared.\nProfessor Adeyemi: In nineteen seventy-four, Stephen Hawking demonstrated that black holes are not entirely black. Quantum fluctuations near the event horizon produce pairs of virtual particles; one falls in, one escapes as radiation. This Hawking radiation causes black holes to slowly lose mass and eventually evaporate, though for stellar-mass holes this takes far longer than the current age of the universe.\nProfessor Adeyemi: Supermassive black holes, millions to billions of solar masses, reside at the centres of most galaxies, including our own Milky Way, where Sagittarius A* weighs about four million solar masses. Their growth likely involves accretion of gas and mergers with smaller holes.\nProfessor Adeyemi: Observational evidence now includes gravitational waves, first detected in twenty fifteen by LIGO from a merger of two black holes roughly one point three billion light-years away, and the twenty nineteen image of the shadow around M87's black hole captured by the Event Horizon Telescope.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Professor Adeyemi", "accent": "BRITISH", "gender": "MALE", "role": "astrophysicist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the lecture, what defines a black hole?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A region of spacetime where gravity is so intense that nothing, not even light, can escape", "A dense star that emits no visible radiation", "A collapsed nebula with weak gravity", "A dark cloud of dust blocking starlight"],
+        "keywords": ["gravity", "intense", "light", "escape"],
+        "synonymsUsed": ["defines", "characterises"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the minimum mass of a star that can form a stellar black hole?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At least ten solar masses", "At least twenty solar masses", "At least fifty solar masses", "At least one hundred solar masses"],
+        "keywords": ["massive stars", "twenty solar masses"],
+        "synonymsUsed": ["minimum", "least"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens when the stellar remnant exceeds roughly three solar masses?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It forms a neutron star", "It stabilises as a white dwarf", "No known force can halt the collapse and a singularity forms", "It explodes as a supernova again"],
+        "keywords": ["three solar masses", "singularity", "collapse"],
+        "synonymsUsed": ["remnant", "exceeds"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the lecturer describe the event horizon?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A solid physical shell around the hole", "A mathematical boundary rather than a physical surface", "A cloud of plasma", "A region of intense magnetism"],
+        "keywords": ["event horizon", "mathematical boundary", "not a physical surface"],
+        "synonymsUsed": ["describes", "explains"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The Schwarzschild radius is proportional to which property of the black hole?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Mass", "Temperature", "Spin rate", "Magnetic field"],
+        "keywords": ["Schwarzschild radius", "proportional", "mass"],
+        "synonymsUsed": ["property", "characteristic"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year did Stephen Hawking demonstrate that black holes emit radiation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen sixty-four", "Nineteen sixty-nine", "Nineteen seventy-four", "Nineteen eighty-four"],
+        "keywords": ["Hawking", "nineteen seventy-four", "radiation"],
+        "synonymsUsed": ["demonstrated", "showed"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What causes black holes to slowly lose mass according to Hawking's theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Magnetic field decay", "Hawking radiation from quantum fluctuations near the event horizon", "Collision with other black holes", "Absorption of dark matter"],
+        "keywords": ["Hawking radiation", "quantum fluctuations", "lose mass"],
+        "synonymsUsed": ["causes", "results in"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how massive is Sagittarius A* at the centre of the Milky Way?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About four million solar masses", "About four thousand solar masses", "About four billion solar masses", "About forty million solar masses"],
+        "keywords": ["Sagittarius A*", "four million", "solar masses"],
+        "synonymsUsed": ["massive", "weighs"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year were gravitational waves first detected by LIGO?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two thousand five", "Two thousand ten", "Twenty fifteen", "Twenty nineteen"],
+        "keywords": ["gravitational waves", "LIGO", "twenty fifteen"],
+        "synonymsUsed": ["detected", "observed"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the Event Horizon Telescope capture in twenty nineteen?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A gravitational wave signal", "The shadow around M87's black hole", "The first image of Sagittarius A*", "A supernova explosion"],
+        "keywords": ["Event Horizon Telescope", "M87", "shadow"],
+        "synonymsUsed": ["captured", "image"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "event horizon", "pronunciationNote": "/ɪˈvɛnt həˈraɪzn/", "meaning": "The boundary around a black hole beyond which nothing can escape." },
+      { "word": "singularity", "pronunciationNote": "/ˌsɪŋɡjʊˈlærɪti/", "meaning": "A point of infinite density where the known laws of physics break down." },
+      { "word": "Schwarzschild radius", "meaning": "The radius of the event horizon for a non-rotating black hole, proportional to its mass." },
+      { "word": "Hawking radiation", "meaning": "Thermal radiation predicted to be emitted by black holes due to quantum effects near the event horizon." },
+      { "word": "accretion", "pronunciationNote": "/əˈkriːʃən/", "meaning": "The gradual accumulation of matter by a massive body under gravity." },
+      { "word": "gravitational waves", "meaning": "Ripples in spacetime produced by accelerating massive objects, such as merging black holes." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced engineering lecture on biomimicry and nature-inspired design.",
+    "audioScript": "Situation: A bioengineer delivers an advanced lecture on biomimicry engineering and how natural designs inspire technological innovation.\nDr. Patel: Today we explore biomimicry, the practice of emulating nature's time-tested designs to solve human engineering challenges.\nDr. Patel: One of the most famous examples is the lotus effect. Lotus leaves remain remarkably clean because their surface is covered with microscopic bumps that reduce contact area, causing water droplets to roll off and carry dirt with them. This principle has been applied to self-cleaning paints and water-repellent textiles.\nDr. Patel: A second case is the Shinkansen bullet train. The original design produced a loud sonic boom when exiting tunnels. Engineer Eiji Nakatsu, a birdwatcher, modelled the train's nose on the beak of the kingfisher, a bird that dives into water with minimal splash. The redesign reduced noise, increased speed by about ten per cent, and cut electricity consumption by fifteen per cent.\nDr. Patel: Structural colour is another rich source. The brilliant blue of the morpho butterfly does not come from pigment but from microscopic ridges on its scales that reflect light through interference. Engineers have copied this to create vivid, fade-resistant displays that consume no power for colour generation.\nDr. Patel: Geckos can climb smooth surfaces because their toes bear millions of tiny hairs called spatulae, which exploit weak intermolecular forces called van der Waals forces. Synthetic gecko tape can support remarkable weights and works without adhesive chemicals.\nDr. Patel: The overarching lesson of biomimicry is that nature, after roughly three point eight billion years of evolution, has already solved many problems we face. Our task as engineers is to observe carefully and translate those solutions into scalable technology, while respecting the ecosystems that produced them.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Patel", "accent": "BRITISH", "gender": "FEMALE", "role": "bioengineer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is biomimicry as defined in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The study of biological tissues in laboratories", "The use of bacteria to manufacture chemicals", "The practice of emulating nature's time-tested designs to solve human engineering challenges", "The breeding of plants for agriculture"],
+        "keywords": ["biomimicry", "emulating nature", "engineering challenges"],
+        "synonymsUsed": ["defined", "described"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do lotus leaves stay clean according to the lotus effect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Microscopic bumps reduce contact area, so water droplets roll off carrying dirt", "They secrete a natural cleaning oil", "Their pigments repel dust chemically", "They grow in clean water only"],
+        "keywords": ["lotus effect", "microscopic bumps", "water droplets", "dirt"],
+        "synonymsUsed": ["stay clean", "remain clean"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which bird inspired the redesigned nose of the Shinkansen bullet train?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The hummingbird", "The kingfisher", "The falcon", "The owl"],
+        "keywords": ["Shinkansen", "kingfisher", "beak"],
+        "synonymsUsed": ["inspired", "modelled on"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What improvements did the kingfisher-inspired redesign bring to the train?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It reduced noise only", "It increased speed only", "It reduced noise, increased speed by about ten per cent, and cut electricity use by fifteen per cent", "It eliminated the need for tunnels"],
+        "keywords": ["redesign", "noise", "speed", "ten per cent", "fifteen per cent"],
+        "synonymsUsed": ["improvements", "benefits"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What gives the morpho butterfly its brilliant blue colour?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A blue pigment in its wings", "Microscopic ridges on its scales that reflect light through interference", "A chemical reaction with sunlight", "Diet of blue flowers"],
+        "keywords": ["morpho butterfly", "structural colour", "ridges", "interference"],
+        "synonymsUsed": ["brilliant blue", "colour"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What advantage do biomimetic displays inspired by the morpho butterfly have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They are cheaper to manufacture", "They can change colour instantly", "They are vivid and fade-resistant and consume no power for colour generation", "They are biodegradable"],
+        "keywords": ["displays", "fade-resistant", "no power", "colour"],
+        "synonymsUsed": ["advantage", "benefit"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What allows geckos to climb smooth surfaces?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Millions of tiny hairs called spatulae exploiting van der Waals forces", "Suction cups on their toes", "A sticky chemical secretion", "Microscopic claws"],
+        "keywords": ["gecko", "spatulae", "van der Waals"],
+        "synonymsUsed": ["allows", "enables"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a key advantage of synthetic gecko tape?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is invisible to the eye", "It works without adhesive chemicals and supports remarkable weights", "It dissolves after use", "It generates electricity"],
+        "keywords": ["gecko tape", "without adhesive", "weights"],
+        "synonymsUsed": ["advantage", "feature"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Roughly how long has nature been evolving solutions, according to the lecturer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About three hundred million years", "About three point eight billion years", "About four hundred thousand years", "About ten billion years"],
+        "keywords": ["evolution", "three point eight billion"],
+        "synonymsUsed": ["evolving", "time"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say is the engineer's task in biomimicry?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["To replace natural ecosystems entirely", "To patent every natural process", "To observe carefully and translate natural solutions into scalable technology while respecting ecosystems", "To clone extinct species"],
+        "keywords": ["engineer's task", "observe", "scalable technology", "respecting ecosystems"],
+        "synonymsUsed": ["task", "responsibility"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "biomimicry", "pronunciationNote": "/ˌbaɪoʊˈmɪmɪkri/", "meaning": "The practice of imitating nature's designs and processes to solve human problems." },
+      { "word": "lotus effect", "meaning": "The self-cleaning property of surfaces with microscopic structures that cause water to roll off." },
+      { "word": "structural colour", "meaning": "Colour produced by microscopic surface structures that interfere with light, rather than by pigment." },
+      { "word": "van der Waals forces", "pronunciationNote": "/væn dər wɑːlz/", "meaning": "Weak intermolecular attractions that, in large numbers, can produce strong adhesion." },
+      { "word": "spatulae", "pronunciationNote": "/ˈspætjʊliː/", "meaning": "Tiny hair-like structures on gecko toes that enable adhesion to smooth surfaces." },
+      { "word": "interference", "meaning": "The interaction of light waves that can amplify or cancel certain colours, producing structural colour." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced theoretical physics lecture on the implications of string theory.",
+    "audioScript": "Situation: A theoretical physicist delivers an advanced lecture on string theory and its implications for our understanding of the universe.\nDr. Lindqvist: Today we examine string theory, a candidate for a unified description of all fundamental forces, which proposes that the basic constituents of reality are not point particles but tiny vibrating strings.\nDr. Lindqvist: The idea originated in the late nineteen sixties as a model of the strong nuclear force, but it was soon realised that a string with the right vibrational mode naturally produces a massless spin-two particle, the graviton, suggesting string theory could unify gravity with quantum mechanics.\nDr. Lindqvist: Consistency requires that strings move in a specific number of dimensions. Bosonic string theory demands twenty-six dimensions, while superstring theory, which incorporates supersymmetry, requires ten. The extra dimensions are typically assumed to be compactified, curled up so small that we do not perceive them.\nDr. Lindqvist: There are five consistent superstring theories: Type I, Type IIA, Type IIB, Heterotic E8, and Heterotic SO32. In the mid-nineteen nineties, Edward Witten showed these are all limits of a single eleven-dimensional framework called M-theory.\nDr. Lindqvist: A central challenge is the landscape problem. String theory admits an enormous number, perhaps ten to the five hundred, of possible vacuum states, each corresponding to a different set of physical constants. This makes prediction difficult, because we cannot uniquely derive the parameters of our universe.\nDr. Lindqvist: Experimental confirmation remains elusive, because the string length scale, around ten to the minus thirty-five metres, is far beyond current accelerators. Critics argue the theory is therefore not falsifiable in the Popperian sense, while proponents point to its mathematical consistency and indirect predictions, such as the Bekenstein-Hawking entropy formula for black holes, which string theory reproduces exactly.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Lindqvist", "accent": "BRITISH", "gender": "MALE", "role": "theoretical physicist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does string theory propose as the basic constituents of reality?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Point particles with no size", "Tiny vibrating strings", "Infinite planes of energy", "Spherical quantum dots"],
+        "keywords": ["basic constituents", "vibrating strings"],
+        "synonymsUsed": ["proposes", "suggests"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which decade did string theory originate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The late nineteen sixties", "The late nineteen seventies", "The late nineteen eighties", "The late nineteen fifties"],
+        "keywords": ["originated", "late nineteen sixties"],
+        "synonymsUsed": ["began", "started"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What particle does a string with the right vibrational mode naturally produce?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A massless spin-one photon", "A massless spin-two particle, the graviton", "A massive spin-zero Higgs boson", "A charged spin-half electron"],
+        "keywords": ["vibrational mode", "massless spin-two", "graviton"],
+        "synonymsUsed": ["produce", "yield"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many dimensions does bosonic string theory demand?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten dimensions", "Eleven dimensions", "Twenty-six dimensions", "Four dimensions"],
+        "keywords": ["bosonic string theory", "twenty-six dimensions"],
+        "synonymsUsed": ["demands", "requires"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many dimensions does superstring theory require?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ten dimensions", "Eleven dimensions", "Twenty-six dimensions", "Twelve dimensions"],
+        "keywords": ["superstring", "ten dimensions"],
+        "synonymsUsed": ["require", "need"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the term 'compactified' refer to in string theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Dimensions expanded to cosmic scale", "Extra dimensions curled up so small that we do not perceive them", "Dimensions that only exist in theory", "Dimensions visible at high energy"],
+        "keywords": ["compactified", "curled up", "small", "do not perceive"],
+        "synonymsUsed": ["compactified", "hidden"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many consistent superstring theories are there?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three", "Four", "Five", "Six"],
+        "keywords": ["superstring theories", "five"],
+        "synonymsUsed": ["consistent", "valid"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who showed that the five superstring theories are limits of a single framework?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Stephen Hawking", "Edward Witten", "Albert Einstein", "Juan Maldacena"],
+        "keywords": ["Edward Witten", "M-theory", "eleven-dimensional"],
+        "synonymsUsed": ["showed", "demonstrated"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how many possible vacuum states does the landscape problem suggest?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten to the fifty", "Ten to the one hundred", "Ten to the five hundred", "Ten to the thousand"],
+        "keywords": ["landscape", "vacuum states", "ten to the five hundred"],
+        "synonymsUsed": ["possible", "number"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do critics argue string theory is not falsifiable?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The string length scale is far beyond current accelerators", "It makes no mathematical predictions", "It has already been disproved experimentally", "It contradicts known chemistry"],
+        "keywords": ["critics", "falsifiable", "string length", "accelerators"],
+        "synonymsUsed": ["critics", "sceptics"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "graviton", "pronunciationNote": "/ˈɡrævɪtɒn/", "meaning": "A hypothetical massless spin-two particle that mediates the force of gravity." },
+      { "word": "supersymmetry", "pronunciationNote": "/ˌsuːpərˈsɪmɪtri/", "meaning": "A theoretical symmetry relating bosons and fermions, required by superstring theory." },
+      { "word": "compactification", "meaning": "The process by which extra spatial dimensions are curled up to a very small scale." },
+      { "word": "landscape problem", "meaning": "The vast number of possible vacuum states in string theory, making unique predictions difficult." },
+      { "word": "falsifiable", "meaning": "Capable of being tested and potentially disproved by experiment, a key criterion in science." },
+      { "word": "M-theory", "meaning": "An eleven-dimensional framework unifying the five superstring theories." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced climate science lecture on the precision and challenges of climate modelling.",
+    "audioScript": "Situation: A climate modeller delivers an advanced lecture on climate modelling precision, including numerical methods, uncertainties, and validation techniques.\nDr. Osei: This lecture addresses climate modelling precision, how scientists simulate the Earth system numerically, and where uncertainties arise.\nDr. Osei: General circulation models divide the atmosphere and ocean into a three-dimensional grid. Horizontal resolution of roughly one degree, about a hundred kilometres, is typical for global runs. Each cell stores values for temperature, pressure, humidity, and velocity, and equations of fluid dynamics update them in time steps of minutes.\nDr. Osei: A major limitation is that many critical processes, such as cloud formation and convection, occur at scales far smaller than the grid. These are represented through parameterisation, simplified formulas that approximate the net effect of sub-grid processes.\nDr. Osei: Parameterisation is the largest source of model uncertainty. Different models use different schemes, leading to a spread in climate sensitivity, the warming from doubled CO2, ranging from about one point five to four point five degrees Celsius.\nDr. Osei: To assess reliability, modellers use hindcasting, running models on past data, for example the twentieth century, and comparing output with observations. Models that reproduce historical temperature trends, volcanic cooling events, and seasonal cycles are considered more trustworthy.\nDr. Osei: Ensemble methods improve precision. Rather than relying on a single run, scientists produce dozens of simulations with slightly varied initial conditions and parameterisations. The spread across an ensemble quantifies internal variability, while the multi-model mean consistently outperforms any individual model.\nDr. Osei: Emerging approaches couple machine learning to parameterisation, training neural networks on high-resolution simulations to predict sub-grid effects. Early results suggest improved cloud representation, though concerns about interpretability and physical consistency remain active areas of research.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Osei", "accent": "BRITISH", "gender": "FEMALE", "role": "climate modeller" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the typical horizontal resolution for global climate model runs?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Roughly one kilometre", "Roughly one degree, about a hundred kilometres", "Roughly one metre", "Roughly one thousand kilometres"],
+        "keywords": ["horizontal resolution", "one degree", "hundred kilometres"],
+        "synonymsUsed": ["typical", "standard"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What values does each grid cell store?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Only temperature and pressure", "Only humidity and wind direction", "Temperature, pressure, humidity, and velocity", "Only CO2 concentration"],
+        "keywords": ["grid cell", "temperature", "pressure", "humidity", "velocity"],
+        "synonymsUsed": ["stores", "contains"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why are processes like cloud formation represented through parameterisation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Because they occur at scales far smaller than the grid", "Because they are not important for climate", "Because they cannot be measured at all", "Because computers cannot store cloud data"],
+        "keywords": ["parameterisation", "cloud formation", "smaller than the grid"],
+        "synonymsUsed": ["represented", "approximated"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is identified as the largest source of model uncertainty?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Initial temperature readings", "Parameterisation of sub-grid processes", "The choice of programming language", "Solar radiation measurements"],
+        "keywords": ["largest source", "model uncertainty", "parameterisation"],
+        "synonymsUsed": ["identified", "considered"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What range of climate sensitivity do different models show?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Zero to one degree Celsius", "Five to ten degrees Celsius", "About one point five to four point five degrees Celsius", "About ten to twenty degrees Celsius"],
+        "keywords": ["climate sensitivity", "doubled CO2", "one point five", "four point five"],
+        "synonymsUsed": ["range", "spread"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What technique do modellers use to assess model reliability?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Hindcasting, running models on past data and comparing with observations", "Ignoring historical data entirely", "Only using future scenarios", "Relying on a single perfect model"],
+        "keywords": ["hindcasting", "past data", "observations"],
+        "synonymsUsed": ["assess", "evaluate"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which historical features must a reliable model reproduce?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Only future projections", "Historical temperature trends, volcanic cooling events, and seasonal cycles", "Only ocean salinity", "Only ice core data"],
+        "keywords": ["reproduce", "temperature trends", "volcanic cooling", "seasonal cycles"],
+        "synonymsUsed": ["reproduce", "match"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the spread across an ensemble quantify?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Internal variability", "External forcing", "Solar luminosity", "Ocean depth"],
+        "keywords": ["ensemble", "spread", "internal variability"],
+        "synonymsUsed": ["quantifies", "measures"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say about the multi-model mean?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is always worse than individual models", "It consistently outperforms any individual model", "It is identical to a single model run", "It cannot be calculated"],
+        "keywords": ["multi-model mean", "outperforms", "individual model"],
+        "synonymsUsed": ["mean", "average"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What concern about machine learning parameterisation does the lecturer mention?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It is too expensive computationally", "It produces no improvement in clouds", "Interpretability and physical consistency remain concerns", "It violates data privacy laws"],
+        "keywords": ["machine learning", "interpretability", "physical consistency", "concerns"],
+        "synonymsUsed": ["concern", "issue"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "general circulation model", "meaning": "A numerical model that simulates the atmosphere and ocean using fluid dynamics equations on a grid." },
+      { "word": "parameterisation", "pronunciationNote": "/pəˌræmɪtəraɪˈzeɪʃən/", "meaning": "Simplified formulas used to approximate the net effect of physical processes too small for the model grid." },
+      { "word": "climate sensitivity", "meaning": "The long-term temperature increase resulting from a doubling of atmospheric CO2 concentration." },
+      { "word": "hindcasting", "meaning": "Testing a model by running it on historical data and comparing results with observed outcomes." },
+      { "word": "ensemble", "pronunciationNote": "/ɒnˈsɒmbəl/", "meaning": "A collection of model runs with varied conditions, used to quantify uncertainty." },
+      { "word": "internal variability", "meaning": "Natural fluctuations in the climate system arising without external forcing." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced bioengineering lecture on synthetic biology and genome design.",
+    "audioScript": "Situation: A synthetic biologist delivers an advanced lecture on synthetic biology, genome synthesis, and ethical considerations.\nProfessor Chen: Today we examine synthetic biology, a field that goes beyond genetic engineering to design and build biological systems with novel functions.\nProfessor Chen: The foundation is recombinant DNA technology, developed in the nineteen seventies, which allowed scientists to cut and paste genes between organisms. Synthetic biology extends this by treating DNA as an engineering material, designing genetic circuits that perform logical operations inside living cells.\nProfessor Chen: A landmark achievement came in twenty ten, when the J. Craig Venter Institute synthesised the complete genome of Mycoplasma mycoides, over one million base pairs, and transplanted it into a related cell. The resulting organism, nicknamed Synthia, was the first cell controlled entirely by a synthetic genome.\nProfessor Chen: CRISPR-Cas9, adapted from a bacterial immune system, has revolutionised genome editing. The Cas9 enzyme, guided by an RNA molecule, cuts DNA at a precise target sequence. This enables targeted gene knockout, correction of disease mutations, and insertion of new traits.\nProfessor Chen: A powerful application is engineered microbes for sustainable manufacturing. Yeast has been reprogrammed to produce artemisinin, an antimalarial drug previously extracted from a slow-growing plant, at far lower cost. Similar approaches yield biofuels, biodegradable plastics, and flavour compounds.\nProfessor Chen: However, the field raises serious biosecurity concerns. The same tools that design medicines could, in principle, be used to engineer pathogens. The一九 seventy-five Asilomar conference established biosafety guidelines for recombinant DNA, and modern frameworks extend these to synthetic genomes, requiring screening of DNA sequences and oversight of risky experiments.\nProfessor Chen: Looking ahead, researchers aim to build minimal genomes containing only the genes essential for life, and to expand the genetic alphabet beyond the natural four bases with unnatural base pairs, potentially enabling proteins with entirely new chemistry.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Professor Chen", "accent": "AMERICAN", "gender": "MALE", "role": "synthetic biologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does synthetic biology differ from traditional genetic engineering?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It only studies natural ecosystems", "It treats DNA as an engineering material and designs genetic circuits with novel functions", "It exclusively clones existing organisms", "It avoids using DNA entirely"],
+        "keywords": ["synthetic biology", "engineering material", "genetic circuits", "novel functions"],
+        "synonymsUsed": ["differs", "extends"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which decade was recombinant DNA technology developed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The nineteen sixties", "The nineteen eighties", "The nineteen seventies", "The nineteen nineties"],
+        "keywords": ["recombinant DNA", "nineteen seventies"],
+        "synonymsUsed": ["developed", "created"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was achieved in twenty ten by the J. Craig Venter Institute?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Synthesis and transplantation of the complete Mycoplasma mycoides genome, creating Synthia", "Discovery of CRISPR-Cas9", "The first human clone", "Sequencing of the human genome"],
+        "keywords": ["twenty ten", "Venter", "Mycoplasma mycoides", "Synthia"],
+        "synonymsUsed": ["achieved", "accomplished"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how many base pairs were in the synthesised Mycoplasma mycoides genome?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Over ten thousand base pairs", "Over one million base pairs", "Over one billion base pairs", "Over one hundred base pairs"],
+        "keywords": ["Mycoplasma mycoides", "one million", "base pairs"],
+        "synonymsUsed": ["approximately", "roughly"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What system was CRISPR-Cas9 adapted from?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A viral replication mechanism", "A plant defence system", "A bacterial immune system", "A mammalian tumour suppressor"],
+        "keywords": ["CRISPR-Cas9", "bacterial immune system", "adapted"],
+        "synonymsUsed": ["adapted", "derived"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What guides the Cas9 enzyme to cut DNA at a precise target?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A protein antibody", "An RNA molecule", "A lipid membrane", "A sugar molecule"],
+        "keywords": ["Cas9", "RNA molecule", "guide", "target"],
+        "synonymsUsed": ["guides", "directs"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What has yeast been reprogrammed to produce at lower cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Artemisinin, an antimalarial drug", "Insulin for diabetes", "Penicillin antibiotic", "Ethanol fuel"],
+        "keywords": ["yeast", "artemisinin", "antimalarial"],
+        "synonymsUsed": ["reprogrammed", "engineered"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What biosecurity concern does synthetic biology raise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It could deplete natural resources", "The same tools could be used to engineer pathogens", "It will replace all agriculture", "It causes climate change directly"],
+        "keywords": ["biosecurity", "engineer pathogens", "tools"],
+        "synonymsUsed": ["concern", "risk"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was the Asilomar conference that established biosafety guidelines held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen seventy-five", "Nineteen eighty-five", "Nineteen ninety-five", "Two thousand five"],
+        "keywords": ["Asilomar", "nineteen seventy-five", "biosafety"],
+        "synonymsUsed": ["held", "convened"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do researchers aim to build using minimal genomes?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Larger animals for farming", "Plants that grow without water", "Cells containing only genes essential for life, potentially with unnatural base pairs", "Bacteria that live forever"],
+        "keywords": ["minimal genomes", "essential genes", "unnatural base pairs"],
+        "synonymsUsed": ["aim", "goal"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "recombinant DNA", "meaning": "DNA molecules formed by combining genetic material from different sources." },
+      { "word": "genetic circuit", "meaning": "A designed assembly of genes that performs logical operations within a living cell." },
+      { "word": "CRISPR-Cas9", "pronunciationNote": "/ˈkrɪspər kæs naɪn/", "meaning": "A genome-editing tool using an RNA-guided enzyme to cut DNA at precise locations." },
+      { "word": "minimal genome", "meaning": "The smallest set of genes sufficient to sustain a living organism." },
+      { "word": "unnatural base pair", "meaning": "A pair of synthetic DNA bases not found in nature, expanding the genetic alphabet." },
+      { "word": "biosecurity", "meaning": "Measures to prevent the misuse of biological research or organisms to cause harm." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced linguistics lecture on neurolinguistics and language processing in the brain.",
+    "audioScript": "Situation: A neurolinguist delivers an advanced lecture on how the brain processes language, covering key cortical areas and modern imaging techniques.\nDr. Romano: Good morning. Today we explore neurolinguistics, the study of how the brain structures, produces, and comprehends language.\nDr. Romano: The classical model dates to the nineteenth century. In eighteen sixty-one, Paul Broca described a patient who could understand speech but could only produce a single syllable, tan. Post-mortem analysis revealed a lesion in the left frontal lobe, now called Broca's area, associated with speech production.\nDr. Romano: In eighteen seventy-four, Carl Wernicke reported patients with damage to the left posterior temporal lobe. These patients spoke fluently but their language was meaningless, and they struggled to understand others. This region, Wernicke's area, is associated with language comprehension.\nDr. Romano: The arcuate fasciculus, a bundle of nerve fibres, connects the two areas. Damage to this pathway causes conduction aphasia, where patients understand and speak but repeat words poorly, revealing that language relies on a network, not isolated centres.\nDr. Romano: Modern neuroimaging, particularly functional magnetic resonance imaging, or fMRI, has complicated the simple model. Language activates a broad network including the inferior parietal cortex and right hemisphere regions, especially for prosody and metaphor.\nDr. Romano: Electrophysiology adds temporal precision. Event-related potentials reveal that the brain detects semantic anomalies within about four hundred milliseconds, a negative deflection called the N400. Syntactic violations elicit a later positive wave, the P600, around six hundred milliseconds.\nDr. Romano: A frontier question is neural representation of meaning. Researchers have used multivariate pattern analysis on fMRI data to show that the brain represents word meanings in distributed cortical patterns, suggesting concepts are grounded in sensory and motor systems rather than stored as abstract symbols.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Romano", "accent": "BRITISH", "gender": "FEMALE", "role": "neurolinguist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is neurolinguistics as defined in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The study of ancient written languages", "The study of how the brain structures, produces, and comprehends language", "The study of language evolution in animals", "The study of dialects in rural regions"],
+        "keywords": ["neurolinguistics", "brain", "structures", "produces", "comprehends"],
+        "synonymsUsed": ["defined", "described"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year did Paul Broca describe his famous patient?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Eighteen sixty-one", "Eighteen seventy-four", "Eighteen fifty-one", "Eighteen ninety-one"],
+        "keywords": ["Broca", "eighteen sixty-one"],
+        "synonymsUsed": ["described", "reported"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the single syllable Broca's patient could produce?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ba", "Ma", "Tan", "Pa"],
+        "keywords": ["patient", "syllable", "tan"],
+        "synonymsUsed": ["produce", "say"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is Broca's area located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The left frontal lobe", "The right frontal lobe", "The left posterior temporal lobe", "The cerebellum"],
+        "keywords": ["Broca's area", "left frontal lobe"],
+        "synonymsUsed": ["located", "found"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What symptom did Wernicke's patients show?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They could not speak at all", "They spoke fluently but their language was meaningless and they struggled to understand", "They could only repeat words", "They lost all hearing"],
+        "keywords": ["Wernicke", "fluent", "meaningless", "understand"],
+        "synonymsUsed": ["symptom", "sign"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What connects Broca's and Wernicke's areas?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The corpus callosum", "The arcuate fasciculus, a bundle of nerve fibres", "The optic nerve", "The brainstem"],
+        "keywords": ["arcuate fasciculus", "nerve fibres", "connects"],
+        "synonymsUsed": ["connects", "links"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does damage to the arcuate fasciculus cause?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Conduction aphasia, where patients understand and speak but repeat words poorly", "Complete loss of speech", "Inability to hear language", "Fluent but meaningless speech"],
+        "keywords": ["conduction aphasia", "repeat words", "poorly"],
+        "synonymsUsed": ["causes", "results in"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the N400 brain response indicate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A syntactic grammar violation", "The brain detecting a semantic anomaly within about four hundred milliseconds", "A visual processing error", "An emotional reaction to sound"],
+        "keywords": ["N400", "semantic anomaly", "four hundred milliseconds"],
+        "synonymsUsed": ["indicates", "reflects"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What brain response is elicited by syntactic violations?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The N400", "The N100", "The P600, around six hundred milliseconds", "The P300"],
+        "keywords": ["syntactic violations", "P600", "six hundred milliseconds"],
+        "synonymsUsed": ["elicited", "triggered"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does multivariate pattern analysis of fMRI data suggest about word meanings?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They are stored as abstract symbols in one region", "They are grounded in sensory and motor systems as distributed cortical patterns", "They are located only in the right hemisphere", "They cannot be detected by fMRI"],
+        "keywords": ["multivariate pattern analysis", "distributed", "sensory and motor", "grounded"],
+        "synonymsUsed": ["suggests", "implies"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "Broca's area", "pronunciationNote": "/ˈbroʊkəz ˈɛəriə/", "meaning": "A region in the left frontal lobe associated with speech production." },
+      { "word": "Wernicke's area", "pronunciationNote": "/ˈvɛərnɪkəz ˈɛəriə/", "meaning": "A region in the left posterior temporal lobe associated with language comprehension." },
+      { "word": "arcuate fasciculus", "meaning": "A bundle of nerve fibres connecting Broca's and Wernicke's areas, enabling repetition of speech." },
+      { "word": "conduction aphasia", "meaning": "A language disorder caused by damage to the arcuate fasciculus, characterised by poor repetition." },
+      { "word": "event-related potentials", "meaning": "Measured brain electrical responses time-locked to specific stimuli, used to study language processing." },
+      { "word": "prosody", "pronunciationNote": "/ˈprɒsədi/", "meaning": "The rhythm, stress, and intonation patterns of speech, often processed in the right hemisphere." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced physics lecture on quantum cryptography and secure communication.",
+    "audioScript": "Situation: A quantum physicist delivers an advanced lecture on quantum cryptography and its application to secure communication.\nDr. Ferguson: Today we explore quantum cryptography, specifically quantum key distribution, a method that uses the principles of quantum mechanics to enable provably secure communication.\nDr. Ferguson: The best-known protocol is BB84, proposed by Charles Bennett and Gilles Brassard in nineteen eighty-four. It uses photons polarised in one of four states to transmit binary bits.\nDr. Ferguson: The security rests on two quantum principles. First, the Heisenberg uncertainty principle means measuring a quantum system disturbs it. Second, the no-cloning theorem, proved in nineteen eighty-two, states that it is impossible to create an identical copy of an unknown quantum state.\nDr. Ferguson: In practice, Alice sends photons to Bob, each randomly encoded in one of two bases, rectilinear or diagonal. Bob measures each photon in a randomly chosen basis. After transmission, they compare bases publicly and discard mismatched results, leaving a shared secret key.\nDr. Frederick: If an eavesdropper, Eve, intercepts the photons, her measurements inevitably introduce errors. Alice and Bob detect these errors by comparing a sample of their key, revealing the eavesdropper's presence.\nDr. Ferguson: Real-world systems face challenges. Photon loss in optical fibre limits distance to roughly a few hundred kilometres. Beyond that, quantum repeaters are needed, and they remain experimental. Satellite-based distribution, demonstrated by China's Micius satellite in twenty seventeen, offers a path to global-scale networks.\nDr. Ferguson: Looking forward, quantum cryptography complements but does not replace post-quantum cryptography, classical algorithms resistant to quantum attacks. Together they form layered security for the emerging quantum era.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Ferguson", "accent": "BRITISH", "gender": "MALE", "role": "quantum physicist" },
+        { "name": "Dr. Frederick", "accent": "AMERICAN", "gender": "FEMALE", "role": "quantum physicist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the primary application of quantum cryptography described in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Faster internet browsing", "Quantum key distribution for provably secure communication", "Breaking existing passwords", "Storing more data on hard drives"],
+        "keywords": ["quantum key distribution", "secure communication"],
+        "synonymsUsed": ["application", "use"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the best-known quantum cryptography protocol?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["BB84", "RSA", "AES-256", "SHA-3"],
+        "keywords": ["BB84", "protocol"],
+        "synonymsUsed": ["best-known", "famous"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was BB84 proposed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen seventy-four", "Nineteen ninety-four", "Nineteen eighty-four", "Two thousand four"],
+        "keywords": ["BB84", "nineteen eighty-four"],
+        "synonymsUsed": ["proposed", "introduced"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What particles does BB84 use to transmit bits?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Electrons", "Photons polarised in one of four states", "Protons", "Neutrons"],
+        "keywords": ["photons", "polarised", "four states"],
+        "synonymsUsed": ["particles", "uses"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which theorem states that an unknown quantum state cannot be identically copied?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Heisenberg uncertainty principle", "The Pauli exclusion principle", "The no-cloning theorem", "The Bell inequality"],
+        "keywords": ["no-cloning theorem", "identical copy", "unknown quantum state"],
+        "synonymsUsed": ["states", "says"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was the no-cloning theorem proved?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen eighty-two", "Nineteen eighty-four", "Nineteen ninety-two", "Nineteen seventy-two"],
+        "keywords": ["no-cloning theorem", "nineteen eighty-two"],
+        "synonymsUsed": ["proved", "established"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do Alice and Bob do after photon transmission in BB84?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They immediately publish the full key online", "They compare bases publicly and discard mismatched results, leaving a shared secret key", "They delete all photons and start over", "They send the key through regular email"],
+        "keywords": ["compare bases", "discard", "shared secret key"],
+        "synonymsUsed": ["after", "following"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does an eavesdropper's presence get detected?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Eve's measurements introduce errors that Alice and Bob detect by comparing a sample of their key", "The photons change colour visibly", "The network speed slows down noticeably", "An alarm sounds automatically"],
+        "keywords": ["eavesdropper", "errors", "comparing", "sample"],
+        "synonymsUsed": ["detected", "revealed"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What limits fibre-based quantum key distribution distance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The speed of the internet", "Photon loss in optical fibre, limiting distance to a few hundred kilometres", "The cost of computers", "Government regulations"],
+        "keywords": ["photon loss", "optical fibre", "few hundred kilometres"],
+        "synonymsUsed": ["limits", "restricts"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which satellite demonstrated quantum key distribution in twenty seventeen?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Hubble Space Telescope", "The International Space Station", "China's Micius satellite", "The James Webb Space Telescope"],
+        "keywords": ["Micius", "satellite", "twenty seventeen", "China"],
+        "synonymsUsed": ["demonstrated", "shown"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "quantum key distribution", "meaning": "A method using quantum mechanics to securely share encryption keys between parties." },
+      { "word": "BB84", "meaning": "The first and best-known quantum cryptography protocol, using polarised photons to transmit bits." },
+      { "word": "no-cloning theorem", "meaning": "A principle stating that an unknown quantum state cannot be perfectly copied." },
+      { "word": "polarisation", "pronunciationNote": "/ˌpoʊləraɪˈzeɪʃən/", "meaning": "The orientation of a photon's electric field, used to encode information in BB84." },
+      { "word": "quantum repeater", "meaning": "A device to extend quantum communication range by reducing photon loss, still experimental." },
+      { "word": "post-quantum cryptography", "meaning": "Classical encryption algorithms designed to resist attacks from quantum computers." }
+    ],
+    "difficulty": "EASY"
+  }
+]

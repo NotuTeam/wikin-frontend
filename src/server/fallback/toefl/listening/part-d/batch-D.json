@@ -1,0 +1,724 @@
+[
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation at the library about joining a thesis writing group.",
+    "audioScript": "Situation: A writing center coordinator and a doctoral student discuss joining a thesis writing group to maintain consistent writing momentum.\nCoordinator Daniels: Hi there, thanks for stopping by. You mentioned in your email that you're interested in joining a thesis writing group. Can you tell me where you are in your dissertation process?\nMaria: I'm in my second year of the PhD program in sociology. I've finished my coursework and passed my qualifying exams, but I'm struggling to write consistently. I keep revising the same introduction chapter over and over instead of moving forward.\nCoordinator Daniels: That's very common. A writing group can help with exactly that. We have groups that meet weekly for ninety minutes. Each session starts with a brief goal-setting round, then forty-five minutes of silent writing, and ends with a check-in on progress.\nMaria: That sounds structured. How many people are in each group?\nCoordinator Daniels: We cap them at six members. The small size keeps everyone accountable without feeling overwhelming. We group people by broad discipline so the feedback feels relevant, though you won't all be in the same exact field.\nMaria: Do I need to share my writing with the group every week?\nCoordinator Daniels: Not every week. Each member shares a draft section about once a month. The others provide written feedback using a structured rubric. The point is to create a safe space for rough drafts, not polished work.\nMaria: That takes the pressure off. What about attendance? I sometimes have field interviews scheduled on weekdays.\nCoordinator Daniels: We ask members to commit to at least eighty percent attendance for the semester. If you miss more than two sessions, we'll ask you to re-enroll next semester. Consistency is really the key benefit here.\nMaria: Eighty percent sounds manageable. When does the next group start?\nCoordinator Daniels: The new cycle begins February tenth. I'll send you the registration link and your group assignment by the end of this week. Any other questions?\nMaria: Not right now. I think this is exactly what I need. Thank you so much.",
+    "speakers": [
+      { "name": "Coordinator Daniels", "role": "writing center coordinator" },
+      { "name": "Maria", "role": "doctoral student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Registering for sociology coursework",
+          "Joining a thesis writing group to maintain writing consistency",
+          "Preparing for qualifying exams",
+          "Scheduling field interviews for research"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The entire conversation revolves around Maria joining a thesis writing group to help her write consistently."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What stage is Maria at in her PhD program?",
+        "options": [
+          "First year, still taking coursework",
+          "Second year, finished coursework and passed qualifying exams",
+          "Third year, defending her proposal",
+          "Final year, preparing for graduation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Maria says she is in her second year, has finished coursework and passed qualifying exams."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How long is each weekly writing group session?",
+        "options": ["Sixty minutes", "Seventy-five minutes", "Ninety minutes", "Two hours"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Daniels states the groups meet weekly for ninety minutes."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many members are in each writing group?",
+        "options": ["Four", "Five", "Six", "Eight"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Daniels says the groups are capped at six members to keep accountability manageable."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How often does each member share a draft section?",
+        "options": ["Every week", "About once a month", "Twice a semester", "Only at the final session"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Daniels explains each member shares a draft section about once a month, with feedback from others."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the minimum attendance requirement?",
+        "options": ["At least 60%", "At least 70%", "At least 80%", "At least 90%"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Daniels states members must commit to at least eighty percent attendance for the semester."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What happens if a member misses more than two sessions?",
+        "options": [
+          "They are fined a small fee",
+          "They must present their work to the whole group",
+          "They are asked to re-enroll next semester",
+          "They are permanently removed from all groups"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Daniels says if a member misses more than two sessions, they will be asked to re-enroll next semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about Maria's writing problem?",
+        "options": [
+          "She lacks ideas for her dissertation",
+          "She revises the same chapter repeatedly instead of moving forward",
+          "She cannot find any sources for her research",
+          "She has writer's block due to burnout"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Maria says she keeps revising the same introduction chapter over and over instead of moving forward, which the coordinator says is very common."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When does the next writing group cycle begin?",
+        "options": ["January twentieth", "February first", "February tenth", "March first"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Daniels states the new cycle begins February tenth."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is Maria's attitude toward the writing group by the end of the conversation?",
+        "options": [
+          "Skeptical and reluctant",
+          "Enthusiastic and confident it will help",
+          "Indifferent and noncommittal",
+          "Anxious about the time commitment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Maria says 'this is exactly what I need' and thanks the coordinator, showing enthusiasm and confidence."
+      }
+    ],
+    "keyVocabulary": ["writing group", "qualifying exams", "goal-setting", "accountable", "structured rubric", "rough drafts", "attendance", "consistency"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion about preparing for a dissertation defense.",
+    "audioScript": "Situation: A doctoral candidate and her dissertation advisor discuss the logistics and expectations for an upcoming dissertation defense.\nProfessor Whitfield: So, Rachel, your defense is scheduled for March twenty-second, which gives us about six weeks. Let's go over what you need to prepare. First, the written dissertation must be submitted to your full committee at least three weeks before the defense date. That means the final version needs to be in their hands by March first.\nRachel: I'm on track for that. My fourth chapter is in revision now, and my editor has promised the full document by February twenty-fifth. What about the public presentation portion?\nProfessor Whitfield: The defense starts with a public presentation, usually forty to forty-five minutes, where you summarize your key findings. Think of it as a job talk. You should practice it at least three times in front of peers before the actual day. After the public portion, the committee will ask you to step out briefly while they deliberate, then call you back for the private question and answer session.\nRachel: How long does the private Q&A typically last?\nProfessor Whitfield: Usually sixty to ninety minutes. Each committee member gets roughly fifteen minutes. Dr. Okafor will likely focus on your methodology, since that's her area. Dr. Chen will probe your theoretical framework. I'll ask about your overall contribution to the field.\nRachel: What if I don't know the answer to a question? That's my biggest fear.\nProfessor Whitfield: It's perfectly acceptable to say you don't know, but you should explain how you would approach finding the answer. The committee isn't trying to trip you up. They want to see that you can think on your feet and engage critically with your own work. One thing I do recommend: prepare a one-page summary of each chapter so you can quickly reference specific sections during questioning.\nRachel: That's a great idea. What about the outcome? I know there are different possible results.\nProfessor Whitfield: Right. The committee can award a pass, a pass with revisions, or a fail. A pass with revisions is the most common outcome. In that case, you'll have a specified period, usually thirty to ninety days, to complete the requested revisions and submit them to me for final approval. A straight pass with no revisions is rare but does happen. A fail is extremely uncommon at this stage, since your proposal was already approved.\nRachel: That's reassuring. I'll schedule practice talks with my cohort for the next three Fridays.",
+    "speakers": [
+      { "name": "Professor Whitfield", "role": "dissertation advisor" },
+      { "name": "Rachel", "role": "doctoral candidate" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When is Rachel's dissertation defense scheduled?",
+        "options": ["March first", "March fifteenth", "March twenty-second", "April first"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield states the defense is scheduled for March twenty-second, giving about six weeks to prepare."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "By what date must the written dissertation be submitted to the committee?",
+        "options": ["February twentieth", "February twenty-fifth", "March first", "March fifteenth"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The dissertation must be submitted at least three weeks before the defense, meaning by March first."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How long is the public presentation portion of the defense?",
+        "options": ["Twenty to thirty minutes", "Thirty to forty minutes", "Forty to forty-five minutes", "Sixty minutes"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield says the public presentation is usually forty to forty-five minutes."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many times does the professor recommend practicing the presentation?",
+        "options": ["At least once", "At least twice", "At least three times", "At least five times"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield recommends practicing the presentation at least three times in front of peers before the actual day."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How long does the private Q&A session typically last?",
+        "options": ["Thirty to forty-five minutes", "Forty-five to sixty minutes", "Sixty to ninety minutes", "Ninety to one hundred twenty minutes"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield states the private Q&A usually lasts sixty to ninety minutes, with each committee member getting about fifteen minutes."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What area will Dr. Okafor likely focus on during questioning?",
+        "options": ["Theoretical framework", "Methodology", "Overall contribution to the field", "Literature review"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield says Dr. Okafor will likely focus on methodology since that is her area of expertise."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does the professor advise Rachel to do if she doesn't know an answer?",
+        "options": [
+          "Guess confidently without hesitation",
+          "Explain how she would approach finding the answer",
+          "Ask the committee member to rephrase",
+          "Refer to her advisor for the answer"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield says it is acceptable to not know, but Rachel should explain how she would approach finding the answer."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the professor recommend Rachel prepare for quick reference?",
+        "options": [
+          "A slide deck with animations",
+          "A one-page summary of each chapter",
+          "A bibliography of all cited works",
+          "A list of potential committee questions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield recommends preparing a one-page summary of each chapter so Rachel can quickly reference specific sections during questioning."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the most common outcome of a dissertation defense?",
+        "options": ["A straight pass", "A pass with revisions", "A conditional fail", "A postponement"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Whitfield says a pass with revisions is the most common outcome, requiring revisions within thirty to ninety days."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To review the dissertation chapters in detail",
+          "To discuss the logistics and expectations for Rachel's upcoming dissertation defense",
+          "To decide on a new dissertation topic",
+          "To negotiate the composition of the defense committee"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The conversation covers deadlines, presentation format, Q&A expectations, possible outcomes, and preparation strategies for the defense."
+      }
+    ],
+    "keyVocabulary": ["dissertation defense", "committee", "public presentation", "private Q&A", "methodology", "theoretical framework", "pass with revisions", "deliberate"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation about applying for postdoctoral positions.",
+    "audioScript": "Situation: A chemistry professor and a graduating PhD student discuss strategies for applying to postdoctoral research positions.\nProfessor Adeyemi: David, you mentioned you want to start applying for postdocs soon. You're on track to defend in May, correct?\nDavid: Yes, Professor. I'm planning to defend in mid-May and I'd like to start a postdoc by September if possible. I've identified about twelve labs that align with my research in catalysis and materials science.\nProfessor Adeyemi: Twelve is a good number, but let's prioritize. Postdoc applications are quite competitive, and timing matters a lot. For September start dates, most principal investigators begin reviewing candidates in January and February. That means your applications should be ready by early January at the latest.\nDavid: I didn't realize the timeline was that tight. What should each application include?\nProfessor Adeyemi: A strong postdoc application has four key components: a cover letter, your CV, a research statement, and two to three recommendation letters. The cover letter should be concise, no more than one page, and it must be personalized for each lab. Explain why you're interested in that specific group and how your skills complement their ongoing projects.\nDavid: What about the research statement? How detailed should that be?\nProfessor Adeyemi: The research statement is the most important document. It should be three to five pages and include two parts. First, summarize your PhD research and key publications. Second, and more importantly, propose a research direction you'd pursue in the postdoc lab. This shows you can think independently and generate original ideas.\nDavid: Should I contact the PIs before submitting the formal application?\nProfessor Adeyemi: Absolutely. In fact, a cold email before applying is almost essential. Keep it brief, maybe four to five sentences. Mention one of their recent papers, state your research interest, attach your CV, and ask if they're accepting postdocs. If they don't respond within a week, send one polite follow-up. If there's still no response, move on.\nDavid: What about funding? Do I need to bring my own grant?\nProfessor Adeyemi: It depends on the lab. Some PIs have grants that cover postdoc salaries and prefer candidates who don't require external funding. Others encourage you to apply for fellowships like the NIH F32 or NSF programs. Having a fellowship makes you more attractive because it costs the lab nothing, but it's not required for most positions. I'd say about half of postdocs secure their own funding.\nDavid: That's helpful. One more question: should I consider international labs?\nProfessor Adeyemi: International experience can be very valuable for your academic career. However, be aware that visa processing can delay your start date by two to three months. If you're targeting a September start, you'd need to apply even earlier, ideally by November or December, to account for that.",
+    "speakers": [
+      { "name": "Professor Adeyemi", "role": "chemistry professor" },
+      { "name": "David", "role": "graduating PhD student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When is David planning to defend his PhD?",
+        "options": ["March", "May", "July", "September"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "David says he is planning to defend in mid-May and hopes to start a postdoc by September."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many labs has David identified for postdoc applications?",
+        "options": ["Six", "Eight", "Ten", "Twelve"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "David mentions he has identified about twelve labs that align with his research in catalysis and materials science."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "When do most principal investigators begin reviewing postdoc candidates for September starts?",
+        "options": ["November and December", "January and February", "March and April", "May and June"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adeyemi states that for September start dates, most PIs begin reviewing candidates in January and February."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "By when should David's applications be ready?",
+        "options": ["Early November", "Early December", "Early January", "Early February"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adeyemi says applications should be ready by early January at the latest."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What are the four key components of a postdoc application?",
+        "options": [
+          "Cover letter, CV, research statement, and recommendation letters",
+          "Cover letter, transcript, teaching statement, and writing sample",
+          "CV, publication list, grant proposal, and references",
+          "Personal statement, CV, GRE scores, and recommendation letters"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adeyemi lists the four components as a cover letter, CV, research statement, and two to three recommendation letters."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How long should the research statement be?",
+        "options": ["One to two pages", "Two to three pages", "Three to five pages", "Five to seven pages"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adeyemi states the research statement should be three to five pages, summarizing PhD research and proposing a new direction."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does the professor say about cold emails to PIs?",
+        "options": [
+          "They are unnecessary if the application is strong",
+          "They are almost essential and should mention a recent paper",
+          "They should be sent after submitting the formal application",
+          "They should include a full research proposal"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adeyemi says a cold email before applying is almost essential, should mention one of their recent papers, and be brief with a CV attached."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about having a fellowship?",
+        "options": [
+          "It is required for all postdoc positions",
+          "It makes candidates more attractive because it costs the lab nothing",
+          "It guarantees a position at any lab",
+          "It is only available to international applicants"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Adeyemi explains that having a fellowship makes a candidate more attractive because it costs the lab nothing, though it is not required."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What percentage of postdocs secure their own funding?",
+        "options": ["About one quarter", "About one third", "About half", "About three quarters"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Adeyemi estimates that about half of postdocs secure their own funding through fellowships."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Choosing between academic and industry careers",
+          "Strategies and timelines for applying to postdoctoral research positions",
+          "Negotiating postdoc salary and benefits",
+          "Writing a PhD dissertation in chemistry"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers application timelines, components, cold emailing, funding, and international considerations for postdoc applications."
+      }
+    ],
+    "keyVocabulary": ["postdoctoral position", "principal investigator", "cover letter", "research statement", "cold email", "fellowship", "catalysis", "visa processing"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a faculty search committee meeting discussing candidates for a tenure-track position.",
+    "audioScript": "Situation: Three members of a faculty search committee discuss shortlisted candidates for a tenure-track position in the history department.\nChair Thompson: Thank you all for making time. We've narrowed the applicant pool from over two hundred down to five candidates for campus interviews. I want to go through each one systematically. Let's start with Dr. Amara Osei. Professor Gallagher, you reviewed her file first.\nProfessor Gallagher: Right. Dr. Osei's research on post-colonial West African history is impressive. She has a book forthcoming from Oxford University Press and six peer-reviewed articles. Her teaching portfolio is solid, with courses on African diaspora and empire. My concern is that she's only been an assistant professor for two years, so her tenure file is thin.\nChair Thompson: That's a fair point, but our job ad says we're open to advanced assistant professors. Professor Nakamura, what about Dr. James Bell?\nProfessor Nakamura: Dr. Bell's work on the American Revolution is well-regarded. He's published a monograph and four articles in top journals. His student evaluations are consistently above the department average. However, his research doesn't obviously connect to our department's new emphasis on global and transnational history. I wonder if he'd be a good fit strategically.\nChair Thompson: That's a real tension. We need someone who can teach our core American history surveys but also contribute to the global initiative. Let's move to Dr. Sofia Reyes.\nProfessor Gallagher: Dr. Reyes is the strongest researcher in the pool, in my view. She has a book, nine articles, and two major grants from the National Endowment for the Humanities. Her work on migration in the Mediterranean bridges European and global history beautifully.\nProfessor Nakamura: I agree she's exceptional on paper. But I noticed she's had three different institutional affiliations in six years. That could signal instability, or it could just reflect the realities of the academic job market. We should probe that during the interview.\nChair Thompson: Agreed. We'll ask her directly about the moves. Now, there's also the question of diversity. Our last two hires were both in European history, and the dean has emphasized that we need to broaden our faculty profile. Dr. Osei and Dr. Reyes both address that priority, but we should not let that override scholarly quality. The dean wants a report from us by April tenth with our top three ranked, and a rationale for each.\nProfessor Gallagher: For the campus visits, I suggest we have each candidate teach a sample class on a topic of their choice, followed by a research talk. That way we can evaluate both teaching and scholarship in person.\nProfessor Nakamura: I'd also recommend a structured lunch with graduate students, separately from faculty. Students often notice things we miss, and their input has been valuable in past searches.\nChair Thompson: Excellent suggestions. Let's finalize the campus visit schedule by next Friday.",
+    "speakers": [
+      { "name": "Chair Thompson", "role": "search committee chair" },
+      { "name": "Professor Gallagher", "role": "committee member" },
+      { "name": "Professor Nakamura", "role": "committee member" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How many applicants were in the initial pool?",
+        "options": ["About one hundred", "About one hundred fifty", "Over two hundred", "Over three hundred"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Chair Thompson states the committee narrowed the applicant pool from over two hundred down to five candidates."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many candidates were shortlisted for campus interviews?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Chair Thompson says the pool was narrowed down to five candidates for campus interviews."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is Dr. Osei's research area?",
+        "options": [
+          "The American Revolution",
+          "Post-colonial West African history",
+          "Migration in the Mediterranean",
+          "European Renaissance history"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Gallagher describes Dr. Osei's research as focused on post-colonial West African history."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What concern does Professor Gallagher raise about Dr. Osei?",
+        "options": [
+          "Her student evaluations are below average",
+          "She has only been an assistant professor for two years, so her tenure file is thin",
+          "She lacks a published monograph",
+          "Her research doesn't connect to global history"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Gallagher notes Dr. Osei has only been an assistant professor for two years, making her tenure file thin."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What concern does Professor Nakamura raise about Dr. Bell?",
+        "options": [
+          "His teaching evaluations are poor",
+          "He has not published a monograph",
+          "His research doesn't connect to the department's new emphasis on global and transnational history",
+          "He has too many institutional affiliations"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Nakamura says Dr. Bell's research doesn't obviously connect to the department's new emphasis on global and transnational history."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How many peer-reviewed articles has Dr. Reyes published?",
+        "options": ["Four", "Six", "Nine", "Twelve"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Gallagher states Dr. Reyes has a book, nine articles, and two major grants from the NEH."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What concern is raised about Dr. Reyes?",
+        "options": [
+          "Her teaching evaluations are below department average",
+          "She has had three different institutional affiliations in six years",
+          "She lacks grant funding",
+          "Her research is too narrow in scope"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Nakamura notes Dr. Reyes has had three different institutional affiliations in six years, which could signal instability."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Chair Thompson say about the diversity priority?",
+        "options": [
+          "Diversity should override scholarly quality",
+          "It should not override scholarly quality but both Dr. Osei and Dr. Reyes address the priority",
+          "The dean has prohibited considering diversity",
+          "Only international candidates can address the priority"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Chair Thompson says the dean has emphasized broadening the faculty profile, but that should not override scholarly quality."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When does the dean want the committee's report?",
+        "options": ["March twenty-fifth", "April first", "April tenth", "April twentieth"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Chair Thompson states the dean wants a report by April tenth with the top three ranked and a rationale for each."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the meeting?",
+        "options": [
+          "To finalize the job advertisement for a new position",
+          "To discuss and evaluate shortlisted candidates for a tenure-track faculty position",
+          "To negotiate salaries with the selected candidate",
+          "To review student complaints about faculty members"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The committee is systematically reviewing five shortlisted candidates, evaluating their research, teaching, fit, and diversity considerations for a tenure-track hire."
+      }
+    ],
+    "keyVocabulary": ["search committee", "tenure-track", "monograph", "peer-reviewed", "campus interview", "transnational history", "diversity", "institutional affiliations"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a curriculum committee discussion about redesigning an undergraduate program.",
+    "audioScript": "Situation: Three members of a curriculum committee discuss proposed changes to the undergraduate political science program at a campus planning meeting.\nChair Vernon: Let's get started. We're here to review the proposed redesign of the undergraduate political science major. The Dean has asked for a recommendation by the end of this month, so we need to be decisive. Professor Lee, can you walk us through the proposal?\nProfessor Lee: Certainly. The current major requires twelve courses, but students consistently report feeling overwhelmed by the lack of structure. There's no clear progression. Our proposal reorganizes the major into three tiers: foundational, intermediate, and capstone. Students take four foundational courses in their first two years, five intermediate courses with a thematic focus, and a capstone seminar in their final year.\nProfessor Santos: I like the tiered structure, but I'm concerned about the thematic focus at the intermediate level. If we require students to choose a theme, like 'Global Governance' or 'Elections and Democracy,' are we limiting their flexibility? Some students want a broad education.\nProfessor Lee: That's a valid concern. We've built in an 'open concentration' option where students can design their own theme with advisor approval. This way, students who want structure get it, and those who want flexibility still have a path.\nChair Vernon: How does this affect the total course count? The Dean is sensitive to credit creep.\nProfessor Lee: The total stays at twelve courses. We're not adding requirements; we're reorganizing existing ones. However, we are proposing one new foundational course, 'Introduction to Political Analysis,' which would replace the current 'Political Theory 101' as a required course. Political Theory 101 would become an elective.\nProfessor Santos: What about assessment? The Dean wants to see measurable learning outcomes for the accreditation review next year.\nProfessor Lee: Each tier would have specific learning outcomes. Foundational courses assess basic concepts and methods. Intermediate courses assess analytical writing and research skills. The capstone requires a substantial original research paper, graded with a common rubric across all sections. We'd collect data annually and report to the Dean every spring.\nChair Vernon: That addresses the accreditation concern nicely. One more thing: the Dean asked about integrating quantitative methods. Many peer institutions now require a data course.\nProfessor Lee: We agree. The new 'Introduction to Political Analysis' course would include a quantitative methods module covering basic statistics and data visualization using R. Students who want deeper training can take an advanced elective.\nProfessor Santos: I'm comfortable supporting this proposal. The tiered structure, flexible themes, and assessment plan address the main concerns we've heard from students and the Dean.\nChair Vernon: Excellent. I'll draft the formal recommendation this week and circulate it for comments before the end of the month.",
+    "speakers": [
+      { "name": "Chair Vernon", "role": "curriculum committee chair" },
+      { "name": "Professor Lee", "role": "committee member" },
+      { "name": "Professor Santos", "role": "committee member" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How many courses does the current political science major require?",
+        "options": ["Ten", "Twelve", "Fourteen", "Sixteen"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee states the current major requires twelve courses but lacks a clear progression."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many tiers does the proposed redesign include?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee explains the proposal reorganizes the major into three tiers: foundational, intermediate, and capstone."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many foundational courses would students take in their first two years?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee says students take four foundational courses in their first two years."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What concern does Professor Santos raise about the thematic focus?",
+        "options": [
+          "It adds too many required courses",
+          "It may limit flexibility for students who want a broad education",
+          "It doesn't align with accreditation standards",
+          "It is too expensive to implement"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Santos worries that requiring students to choose a theme might limit flexibility for those who want a broad education."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How does the proposal address Professor Santos's concern about flexibility?",
+        "options": [
+          "By eliminating thematic requirements entirely",
+          "By offering an open concentration option where students design their own theme with advisor approval",
+          "By reducing the total course count to ten",
+          "By allowing students to skip the capstone"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee explains the proposal includes an open concentration option where students design their own theme with advisor approval."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What new foundational course does the proposal introduce?",
+        "options": [
+          "Political Theory 101",
+          "Introduction to Political Analysis",
+          "Global Governance",
+          "Advanced Quantitative Methods"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee states a new course called 'Introduction to Political Analysis' would replace Political Theory 101 as a required course."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What happens to Political Theory 101 under the new proposal?",
+        "options": [
+          "It is eliminated entirely",
+          "It becomes an elective",
+          "It remains a required course",
+          "It becomes a capstone option"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee explains that Political Theory 101 would become an elective under the new structure."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the capstone course require?",
+        "options": [
+          "A multiple-choice final exam",
+          "A substantial original research paper graded with a common rubric",
+          "A group presentation only",
+          "An internship at a government agency"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee says the capstone requires a substantial original research paper, graded with a common rubric across all sections."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What quantitative component is included in the new foundational course?",
+        "options": [
+          "Advanced calculus for political modeling",
+          "Basic statistics and data visualization using R",
+          "Game theory and formal modeling",
+          "No quantitative content"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lee states the new course includes a quantitative methods module covering basic statistics and data visualization using R."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Hiring new faculty for the political science department",
+          "Redesigning the undergraduate political science major with a tiered structure",
+          "Reducing the budget for political science courses",
+          "Planning a study abroad program in political science"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The committee discusses reorganizing the political science major into tiers, new courses, assessment, and quantitative methods integration."
+      }
+    ],
+    "keyVocabulary": ["curriculum redesign", "tiered structure", "foundational courses", "capstone seminar", "learning outcomes", "accreditation", "quantitative methods", "open concentration"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion about implementing a new student course evaluation system.",
+    "audioScript": "Situation: A dean, a professor, and an assessment coordinator discuss implementing a new student evaluation system and addressing faculty concerns.\nDean Rivera: Thank you both for coming. As you know, the provost has approved our request to overhaul the student course evaluation system. The current paper-based forms have a response rate below forty percent, and the questions haven't been updated in fifteen years. Professor Manning, I know you have concerns. Let's hear them.\nProfessor Manning: Thank you, Dean Rivera. My primary concern is validity. The research literature is quite clear that student evaluations correlate more with factors like grade expectations and course difficulty than with actual teaching quality. If we're using these for tenure and promotion decisions, I worry we're measuring popularity, not effectiveness.\nDean Rivera: That's a legitimate concern, and it's exactly why we're redesigning the system. Dr. Park, can you explain what the new instrument addresses?\nDr. Park: Certainly. The new evaluation has three components. First, a quantitative section with standardized questions aligned to evidence-based teaching practices, like clarity of learning objectives and quality of feedback. Second, a qualitative section with open-ended prompts asking students what helped and hindered their learning. Third, a self-reflection component where the instructor adds context about pedagogical choices and constraints.\nProfessor Manning: I appreciate the self-reflection piece. That's a meaningful improvement. But what about the response rate problem? How does moving online solve that?\nDr. Park: We're piloting a hybrid approach. The evaluations will be online, but we're adding a structured in-class time slot during the last two weeks of the semester. Instructors step out, and a proctor gives students ten minutes to complete the evaluation on their devices. Our pilot data from three departments showed response rates jumped to over eighty-five percent.\nProfessor Manning: That's a significant improvement. But I still worry about bias. Studies show evaluations systematically penalize women and faculty of color, regardless of teaching quality.\nDr. Park: You're right, and that's why the new system includes a bias mitigation module. We've removed demographic cues where possible, added language neutralizing questions, and the provost has agreed that evaluation scores will never be the sole metric in personnel decisions. They'll be triangulated with peer observations and teaching portfolios.\nDean Rivera: Which is exactly the framework we've been advocating. Professor Manning, does that address your concerns sufficiently to support the rollout?\nProfessor Manning: It's much better than what we have. I'd like to see the bias data reviewed annually and publicly reported. If we're transparent about limitations, I can support it.\nDean Rivera: Agreed. Dr. Park, can you build an annual bias audit into the implementation plan?\nDr. Park: Absolutely. We'll present the first audit results at the fall faculty meeting. The system launches next semester across all twelve undergraduate departments.",
+    "speakers": [
+      { "name": "Dean Rivera", "role": "dean" },
+      { "name": "Professor Manning", "role": "faculty representative" },
+      { "name": "Dr. Park", "role": "assessment coordinator" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the response rate of the current paper-based evaluation system?",
+        "options": ["Below 20%", "Below 40%", "Below 60%", "Below 80%"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dean Rivera states the current paper-based forms have a response rate below forty percent."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long has it been since the current evaluation questions were updated?",
+        "options": ["Five years", "Ten years", "Fifteen years", "Twenty years"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dean Rivera mentions the questions haven't been updated in fifteen years."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is Professor Manning's primary concern about student evaluations?",
+        "options": [
+          "They take too much class time",
+          "They correlate more with grade expectations and course difficulty than teaching quality",
+          "They are too expensive to administer",
+          "They are written in confusing language"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Manning says the research literature shows evaluations correlate more with grade expectations and course difficulty than with actual teaching quality."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many components does the new evaluation instrument have?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Park explains the new evaluation has three components: quantitative, qualitative, and self-reflection."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does the self-reflection component allow instructors to do?",
+        "options": [
+          "Grade their own teaching performance",
+          "Add context about pedagogical choices and constraints",
+          "Challenge individual student comments",
+          "Request removal of low scores"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Park describes the self-reflection component as allowing instructors to add context about pedagogical choices and constraints."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does the new system address the low response rate?",
+        "options": [
+          "By offering students extra credit for completing evaluations",
+          "By adding a structured in-class time slot with a proctor during the last two weeks",
+          "By making evaluations mandatory by university policy",
+          "By switching to phone-based surveys after class"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Park explains the new system includes a structured in-class time slot where a proctor gives students ten minutes to complete evaluations on their devices."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What response rate did the pilot achieve?",
+        "options": ["Over 60%", "Over 70%", "Over 85%", "Over 95%"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Park reports pilot data from three departments showed response rates jumped to over eighty-five percent."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Professor Manning say about bias in evaluations?",
+        "options": [
+          "Bias is not a significant problem",
+          "Studies show evaluations systematically penalize women and faculty of color",
+          "Bias only affects quantitative scores, not qualitative comments",
+          "Bias can be eliminated by using anonymous forms"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Manning states studies show evaluations systematically penalize women and faculty of color, regardless of teaching quality."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the provost agree evaluation scores will not be used as?",
+        "options": [
+          "The sole metric in personnel decisions",
+          "Any part of tenure review",
+          "A factor in course scheduling",
+          "A basis for student grades"
+        ],
+        "correctAnswer": 0,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Park says the provost agreed evaluation scores will never be the sole metric, and will be triangulated with peer observations and teaching portfolios."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What condition does Professor Manning require for supporting the rollout?",
+        "options": [
+          "That all evaluations remain anonymous forever",
+          "That bias data is reviewed annually and publicly reported",
+          "That faculty can veto negative evaluations",
+          "That the system only applies to non-tenure faculty"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Manning says he wants to see the bias data reviewed annually and publicly reported, and if transparent about limitations, he can support it."
+      }
+    ],
+    "keyVocabulary": ["course evaluation", "response rate", "validity", "evidence-based teaching", "self-reflection", "bias mitigation", "peer observations", "triangulated"]
+  }
+]

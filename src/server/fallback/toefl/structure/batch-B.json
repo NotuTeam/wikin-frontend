@@ -1,0 +1,1016 @@
+[
+  {
+    "questionNumber": 1,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "A number of students in the advanced physics class ___ to transfer to a different section next semester.",
+    "options": [
+      "wants",
+      "want",
+      "is wanting",
+      "has wanted"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+    "explanation": {
+      "correctAnswer": "The phrase 'a number of' is always followed by a plural noun and takes a plural verb, so 'want' is the correct choice.",
+      "grammarRule": "'A number of' means 'several' or 'many' and requires a plural verb, whereas 'the number of' takes a singular verb because it refers to a single quantity.",
+      "example": "A number of researchers have questioned the validity of the controversial study.",
+      "commonMistake": "Learners often confuse 'a number of' (plural verb) with 'the number of' (singular verb) and choose 'wants' incorrectly."
+    }
+  },
+  {
+    "questionNumber": 2,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The research team ___ the effects of climate change on coral reefs for the past five years.",
+    "options": [
+      "studies",
+      "has been studying",
+      "studied",
+      "is studying"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_TENSE",
+    "explanation": {
+      "correctAnswer": "The present perfect continuous 'has been studying' correctly conveys an ongoing action that started in the past and continues to the present.",
+      "grammarRule": "Use the present perfect continuous (has/have been + -ing) for an action that began in the past and is still continuing, especially with 'for' or 'since'.",
+      "example": "She has been working on her dissertation since January of last year.",
+      "commonMistake": "Learners often choose the simple present 'studies', which does not convey the duration from past to present."
+    }
+  },
+  {
+    "questionNumber": 3,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The driver (A)should has (B)checked the tires (C)before embarking (D)on the long journey across the desert.",
+    "underlinedParts": [
+      { "text": "should has", "index": 1, "isCorrectAnswer": true },
+      { "text": "checked the tires", "index": 2, "isCorrectAnswer": false },
+      { "text": "before embarking", "index": 3, "isCorrectAnswer": false },
+      { "text": "on the long journey across the desert", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "should has",
+      "checked the tires",
+      "before embarking",
+      "on the long journey across the desert"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "MODALS",
+    "explanation": {
+      "correctAnswer": "The modal 'should' must be followed by the base form 'have', not 'has', so 'should has' must be changed to 'should have'.",
+      "grammarRule": "Modal verbs (can, could, should, would, must, may, might) are always followed by the bare infinitive form of the main verb, never by a conjugated form.",
+      "example": "She should have studied more thoroughly for the final examination.",
+      "commonMistake": "Learners often add the third-person singular '-s' to the verb after a modal: 'should has' instead of 'should have'."
+    }
+  },
+  {
+    "questionNumber": 4,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The essay was praised for its clarity, ___, and depth of analysis.",
+    "options": [
+      "concise",
+      "concision",
+      "concisely",
+      "conciseness"
+    ],
+    "correctAnswer": 3,
+    "grammarTopic": "PARALLEL_STRUCTURE",
+    "explanation": {
+      "correctAnswer": "The noun 'conciseness' is parallel with the other nouns 'clarity' and 'depth' in the series.",
+      "grammarRule": "Items in a series must use the same grammatical form; if the first items are nouns, all items must be nouns.",
+      "example": "The report was commended for its accuracy, thoroughness, and readability.",
+      "commonMistake": "Learners often mix forms in a series, using an adjective like 'concise' where a noun is required for parallelism."
+    }
+  },
+  {
+    "questionNumber": 5,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The pianist performed the difficult sonata ___ despite her injured right hand.",
+    "options": [
+      "flawless",
+      "flawlessly",
+      "flawlessness",
+      "flaw"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "ADJECTIVE_ADVERB",
+    "explanation": {
+      "correctAnswer": "The adverb 'flawlessly' is required to modify the action verb 'performed', describing how the pianist played.",
+      "grammarRule": "Adverbs (not adjectives) are used to modify action verbs, answering the question 'how' an action is performed.",
+      "example": "The athlete completed the marathon remarkably despite the extreme heat.",
+      "commonMistake": "Learners often use the adjective form 'flawless' instead of the adverb 'flawlessly' to modify a verb."
+    }
+  },
+  {
+    "questionNumber": 6,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "There were (A)less (B)attendees at this year's conference (C)than there were (D)at last year's event.",
+    "underlinedParts": [
+      { "text": "less", "index": 1, "isCorrectAnswer": true },
+      { "text": "attendees at this year's conference", "index": 2, "isCorrectAnswer": false },
+      { "text": "than there were", "index": 3, "isCorrectAnswer": false },
+      { "text": "at last year's event", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "less",
+      "attendees at this year's conference",
+      "than there were",
+      "at last year's event"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "COUNT_NONCOUNT_NOUNS",
+    "explanation": {
+      "correctAnswer": "'Attendees' is a countable plural noun, so 'less' must be changed to 'fewer' to be grammatically correct.",
+      "grammarRule": "Use 'fewer' for countable plural nouns and 'less' for uncountable nouns; this distinction is strictly tested on the TOEFL.",
+      "example": "There are fewer cars on the road during the holiday weekend.",
+      "commonMistake": "Learners frequently use 'less' for all comparisons, even with countable nouns like 'attendees' or 'students'."
+    }
+  },
+  {
+    "questionNumber": 7,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "General admission tickets for the music festival go on sale ___ March fifteenth.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PREPOSITIONS",
+    "explanation": {
+      "correctAnswer": "The preposition 'on' is used before a specific calendar date such as 'March fifteenth'.",
+      "grammarRule": "Use 'on' for specific days and dates, 'in' for months and years, and 'at' for specific times of day.",
+      "example": "The conference begins on September twenty-third and runs for three days.",
+      "commonMistake": "Learners often use 'in' before a specific date, confusing it with the rule for months ('in March')."
+    }
+  },
+  {
+    "questionNumber": 8,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The professor gave (A)excellent lecture (B)on the history (C)of (D)the Renaissance period yesterday.",
+    "underlinedParts": [
+      { "text": "excellent lecture", "index": 1, "isCorrectAnswer": true },
+      { "text": "on the history", "index": 2, "isCorrectAnswer": false },
+      { "text": "of", "index": 3, "isCorrectAnswer": false },
+      { "text": "the Renaissance period yesterday", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "excellent lecture",
+      "on the history",
+      "of",
+      "the Renaissance period yesterday"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "ARTICLES",
+    "explanation": {
+      "correctAnswer": "The singular countable noun 'lecture' requires an article, so 'excellent lecture' should be changed to 'an excellent lecture'.",
+      "grammarRule": "Singular countable nouns must be preceded by an article (a, an, the) or another determiner such as 'this' or 'every'.",
+      "example": "She delivered an outstanding presentation at the international conference.",
+      "commonMistake": "Omitting the article before a singular countable noun that is modified by an adjective is a frequent error."
+    }
+  },
+  {
+    "questionNumber": 9,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "I clearly remember ___ the documents on your desk before leaving the office yesterday afternoon.",
+    "options": [
+      "to place",
+      "placing",
+      "placed",
+      "to placing"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "GERUNDS_INFINITIVES",
+    "explanation": {
+      "correctAnswer": "The verb 'remember' followed by a gerund 'placing' means recalling a past action, which fits the context of yesterday.",
+      "grammarRule": "'Remember + gerund' refers to recalling a past action; 'remember + infinitive' refers to not forgetting to do something in the future.",
+      "example": "I remember locking the door before we left for the airport.",
+      "commonMistake": "Learners often use 'remember to place' when referring to a recalled past action, confusing the gerund and infinitive meanings."
+    }
+  },
+  {
+    "questionNumber": 10,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "All applications for the graduate scholarship ___ by a committee of five distinguished professors.",
+    "options": [
+      "reviews",
+      "reviewing",
+      "are reviewed",
+      "have reviewing"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "PASSIVE_VOICE",
+    "explanation": {
+      "correctAnswer": "The present passive 'are reviewed' is correct because the applications receive the action, they do not perform it.",
+      "grammarRule": "Use the passive voice (be + past participle) when the subject receives the action rather than performs it.",
+      "example": "All examination papers are graded by external examiners to ensure fairness.",
+      "commonMistake": "Learners sometimes choose the active 'reviews', forgetting that the subject 'applications' is the receiver of the action."
+    }
+  },
+  {
+    "questionNumber": 11,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "If I ___ you, I would accept the job offer without the slightest hesitation.",
+    "options": [
+      "was",
+      "were",
+      "am",
+      "be"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "CONDITIONAL",
+    "explanation": {
+      "correctAnswer": "In a second conditional (present unreal) sentence, the 'if' clause uses 'were' for all subjects, so 'were' is correct.",
+      "grammarRule": "In the second conditional, use 'if + past simple' (with 'were' for all subjects) and 'would + base verb' in the main clause.",
+      "example": "If she were the manager, she would implement a more flexible schedule.",
+      "commonMistake": "Learners often use 'was' instead of 'were' in formal second conditional sentences, especially with first-person subjects."
+    }
+  },
+  {
+    "questionNumber": 12,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "When the dog chased the cat, (A)it (B)ran (C)up (D)the tall oak tree in the backyard.",
+    "underlinedParts": [
+      { "text": "it", "index": 1, "isCorrectAnswer": true },
+      { "text": "ran", "index": 2, "isCorrectAnswer": false },
+      { "text": "up", "index": 3, "isCorrectAnswer": false },
+      { "text": "the tall oak tree in the backyard", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "it",
+      "ran",
+      "up",
+      "the tall oak tree in the backyard"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PRONOUN_REFERENCE",
+    "explanation": {
+      "correctAnswer": "The pronoun 'it' is ambiguous because it could refer to either 'the dog' or 'the cat', making the sentence's meaning unclear.",
+      "grammarRule": "A pronoun must have a single, unambiguous antecedent so that the reader can determine which noun it replaces.",
+      "example": "When the dog chased the cat, the cat ran up the tall oak tree.",
+      "commonMistake": "Using a pronoun when two nouns of the same grammatical gender could be the antecedent creates confusion."
+    }
+  },
+  {
+    "questionNumber": 13,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Between you and ___, the project deadline is completely unrealistic and should be extended.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PRONOUN_FORM",
+    "explanation": {
+      "correctAnswer": "The object pronoun 'me' is required because it is the object of the preposition 'between', not the subject of a verb.",
+      "grammarRule": "Prepositions are always followed by object pronouns (me, him, her, us, them), never subject pronouns (I, he, she, we, they).",
+      "example": "The decision was made by him and me without any outside consultation.",
+      "commonMistake": "Learners often use 'I' after a preposition, thinking it sounds more formal, as in 'between you and I'."
+    }
+  },
+  {
+    "questionNumber": 14,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The laboratory ___ the breakthrough occurred has been declared a national historical site.",
+    "options": [
+      "which",
+      "that",
+      "where",
+      "in that"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "RELATIVE_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The relative adverb 'where' is used to refer to a place ('the laboratory') and introduce the relative clause.",
+      "grammarRule": "Use 'where' as a relative adverb to refer to a place; it replaces 'in which' or 'at which' in a relative clause modifying a location.",
+      "example": "The village where she grew up has changed dramatically over the years.",
+      "commonMistake": "Learners sometimes use 'which' or 'that' where 'where' is needed to indicate a place of action."
+    }
+  },
+  {
+    "questionNumber": 15,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The film, (A)directing by a famous filmmaker, (B)attracted (C)large audiences (D)around the world.",
+    "underlinedParts": [
+      { "text": "directing", "index": 1, "isCorrectAnswer": true },
+      { "text": "attracted", "index": 2, "isCorrectAnswer": false },
+      { "text": "large audiences", "index": 3, "isCorrectAnswer": false },
+      { "text": "around the world", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "directing",
+      "attracted",
+      "large audiences",
+      "around the world"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "REDUCED_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The past participle 'directed' should be used instead of 'directing' because the film was directed (passive), not directing (active).",
+      "grammarRule": "When reducing a passive relative clause, use the past participle; use the present participle only for active voice reductions.",
+      "example": "The novel written by the young author became an instant bestseller.",
+      "commonMistake": "Learners sometimes use the present participle '-ing' form for a passive reduction, creating an active-voice meaning."
+    }
+  },
+  {
+    "questionNumber": 16,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "She bought a ___ vase at the antique shop downtown for a remarkably low price.",
+    "options": [
+      "large Japanese ceramic",
+      "Japanese large ceramic",
+      "ceramic Japanese large",
+      "large ceramic Japanese"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "WORD_ORDER",
+    "explanation": {
+      "correctAnswer": "The correct order is 'large Japanese ceramic' following the pattern: size, origin, material.",
+      "grammarRule": "When multiple adjectives precede a noun, follow the order: opinion, size, age, shape, color, origin, material, qualifier.",
+      "example": "He bought a small French leather wallet at the vintage market.",
+      "commonMistake": "Learners often place adjectives in the wrong order, especially mixing up origin and material positions."
+    }
+  },
+  {
+    "questionNumber": 17,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The new model is (A)as reliable, if not more reliable, (B)than (C)the previous one, according to (D)consumer reports.",
+    "underlinedParts": [
+      { "text": "as reliable, if not more reliable,", "index": 1, "isCorrectAnswer": false },
+      { "text": "than", "index": 2, "isCorrectAnswer": true },
+      { "text": "the previous one, according to", "index": 3, "isCorrectAnswer": false },
+      { "text": "consumer reports", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "as reliable, if not more reliable,",
+      "than",
+      "the previous one, according to",
+      "consumer reports"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+    "explanation": {
+      "correctAnswer": "The word 'than' must be changed to 'as' because the sentence uses the 'as...as' structure for equality comparison.",
+      "grammarRule": "Use 'as + adjective + as' for equality comparisons and 'more + adjective + than' for inequality comparisons; do not mix the two structures.",
+      "example": "She is as talented as, if not more talented than, her older sister.",
+      "commonMistake": "Learners sometimes mix 'as' and 'than' in the same comparison, writing 'as reliable...than' instead of 'as reliable...as'."
+    }
+  },
+  {
+    "questionNumber": 18,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The old family photograph had been ___ in the attic for decades before anyone discovered it.",
+    "options": [
+      "hid",
+      "hidden",
+      "hiding",
+      "hide"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_FORM",
+    "explanation": {
+      "correctAnswer": "The past participle 'hidden' is required after 'had been' to form the past perfect passive construction.",
+      "grammarRule": "The past perfect passive is formed with 'had been + past participle'; the past participle of 'hide' is the irregular form 'hidden'.",
+      "example": "The treasure had been buried under the old oak tree for over a century.",
+      "commonMistake": "Learners sometimes use the simple past 'hid' instead of the past participle 'hidden' in passive constructions."
+    }
+  },
+  {
+    "questionNumber": 19,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The number of international students (A)applying to the university (B)have (C)increased significantly (D)in recent years.",
+    "underlinedParts": [
+      { "text": "applying to the university", "index": 1, "isCorrectAnswer": false },
+      { "text": "have", "index": 2, "isCorrectAnswer": true },
+      { "text": "increased significantly", "index": 3, "isCorrectAnswer": false },
+      { "text": "in recent years", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "applying to the university",
+      "have",
+      "increased significantly",
+      "in recent years"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+    "explanation": {
+      "correctAnswer": "The phrase 'the number of' takes a singular verb, so 'have' must be changed to 'has' to agree with the singular subject.",
+      "grammarRule": "'The number of' refers to a single quantity and always takes a singular verb, unlike 'a number of' which takes a plural verb.",
+      "example": "The number of applicants has doubled since the program was launched.",
+      "commonMistake": "Learners often match the verb to the plural noun 'students' instead of the true subject 'the number', choosing 'have' over 'has'."
+    }
+  },
+  {
+    "questionNumber": 20,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The streets are completely soaked this morning; it ___ heavily sometime during the night.",
+    "options": [
+      "must have rained",
+      "must rain",
+      "must be raining",
+      "must to rain"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "MODALS",
+    "explanation": {
+      "correctAnswer": "The modal 'must have rained' expresses a logical deduction about a past event based on current evidence (wet streets).",
+      "grammarRule": "Use 'must have + past participle' to make a confident logical deduction about something that happened in the past based on present evidence.",
+      "example": "The ground is wet, so it must have rained while we were sleeping.",
+      "commonMistake": "Learners sometimes use 'must rain' or 'must be raining' for a past deduction, losing the completed-action meaning."
+    }
+  },
+  {
+    "questionNumber": 21,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The company (A)has released (B)its quarterly report (C)to its shareholders (D)two months ago.",
+    "underlinedParts": [
+      { "text": "has released", "index": 1, "isCorrectAnswer": true },
+      { "text": "its quarterly report", "index": 2, "isCorrectAnswer": false },
+      { "text": "to its shareholders", "index": 3, "isCorrectAnswer": false },
+      { "text": "two months ago", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "has released",
+      "its quarterly report",
+      "to its shareholders",
+      "two months ago"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "VERB_TENSE",
+    "explanation": {
+      "correctAnswer": "The present perfect 'has released' is incompatible with the past time marker 'two months ago'; the simple past 'released' should be used instead.",
+      "grammarRule": "The present perfect cannot be used with specific past time expressions such as 'yesterday', 'last week', or 'two months ago'; use the simple past instead.",
+      "example": "She graduated from university three years ago with honors.",
+      "commonMistake": "Learners often use the present perfect with specific past time markers, not realizing the two are grammatically incompatible."
+    }
+  },
+  {
+    "questionNumber": 22,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The teacher instructed the students to read the chapter, ___ the key terms, and write a short summary.",
+    "options": [
+      "highlighting",
+      "highlight",
+      "to highlight",
+      "highlighted"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PARALLEL_STRUCTURE",
+    "explanation": {
+      "correctAnswer": "The bare infinitive 'highlight' maintains parallelism with 'read' and 'write' after the shared 'to' of the infinitive.",
+      "grammarRule": "When a single 'to' governs a series of infinitives, use the base form for all verbs to maintain parallel structure.",
+      "example": "She was told to clean the kitchen, mop the floor, and empty the trash.",
+      "commonMistake": "Learners sometimes insert 'to' before the second and third verbs, breaking the parallel infinitive structure."
+    }
+  },
+  {
+    "questionNumber": 23,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The orchestra played (A)beautiful (B)at the concert, (C)receiving (D)a standing ovation from the audience.",
+    "underlinedParts": [
+      { "text": "beautiful", "index": 1, "isCorrectAnswer": true },
+      { "text": "at the concert,", "index": 2, "isCorrectAnswer": false },
+      { "text": "receiving", "index": 3, "isCorrectAnswer": false },
+      { "text": "a standing ovation from the audience", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "beautiful",
+      "at the concert,",
+      "receiving",
+      "a standing ovation from the audience"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "ADJECTIVE_ADVERB",
+    "explanation": {
+      "correctAnswer": "The adjective 'beautiful' must be changed to the adverb 'beautifully' because it modifies the action verb 'played'.",
+      "grammarRule": "Adverbs, not adjectives, are used to modify action verbs, describing how an action is performed.",
+      "example": "The choir sang beautifully at the holiday concert last evening.",
+      "commonMistake": "Learners frequently use the adjective form 'beautiful' instead of the adverb 'beautifully' to modify a verb."
+    }
+  },
+  {
+    "questionNumber": 24,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Despite ___ research on the topic, scientists still lack a definitive explanation for the phenomenon.",
+    "options": [
+      "many",
+      "much",
+      "several",
+      "few"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "COUNT_NONCOUNT_NOUNS",
+    "explanation": {
+      "correctAnswer": "The quantifier 'much' is used because 'research' is an uncountable noun that cannot be counted as individual units.",
+      "grammarRule": "Use 'much' with uncountable nouns and 'many' with countable plural nouns; 'research' is always uncountable in English.",
+      "example": "Much effort has been devoted to finding a cure for the disease.",
+      "commonMistake": "Learners often use 'many' or 'several' with uncountable nouns like 'research', 'information', or 'advice'."
+    }
+  },
+  {
+    "questionNumber": 25,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The treaty was negotiated (A)between (B)the seven nations (C)that had been (D)at war for over a decade.",
+    "underlinedParts": [
+      { "text": "between", "index": 1, "isCorrectAnswer": true },
+      { "text": "the seven nations", "index": 2, "isCorrectAnswer": false },
+      { "text": "that had been", "index": 3, "isCorrectAnswer": false },
+      { "text": "at war for over a decade", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "between",
+      "the seven nations",
+      "that had been",
+      "at war for over a decade"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PREPOSITIONS",
+    "explanation": {
+      "correctAnswer": "The preposition 'between' should be changed to 'among' because the treaty involves seven nations, not just two.",
+      "grammarRule": "Use 'between' for two items and 'among' for three or more items; this distinction is tested on the TOEFL examination.",
+      "example": "The inheritance was divided equally among the five siblings.",
+      "commonMistake": "Learners often use 'between' for all situations, even when more than two parties are involved."
+    }
+  },
+  {
+    "questionNumber": 26,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Mount Everest is widely regarded as ___ tallest mountain in the entire world.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "ARTICLES",
+    "explanation": {
+      "correctAnswer": "The definite article 'the' is required before the superlative adjective 'tallest' because superlatives refer to a unique entity.",
+      "grammarRule": "The definite article 'the' is always used before superlative adjectives because a superlative identifies one unique item within a group.",
+      "example": "She is the most talented musician in the entire orchestra.",
+      "commonMistake": "Learners sometimes omit 'the' before a superlative or use 'a' instead, not recognizing that superlatives require the definite article."
+    }
+  },
+  {
+    "questionNumber": 27,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The professor told the students (A)to stop (B)to talk (C)during (D)the final examination.",
+    "underlinedParts": [
+      { "text": "to stop", "index": 1, "isCorrectAnswer": false },
+      { "text": "to talk", "index": 2, "isCorrectAnswer": true },
+      { "text": "during", "index": 3, "isCorrectAnswer": false },
+      { "text": "the final examination", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "to stop",
+      "to talk",
+      "during",
+      "the final examination"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "GERUNDS_INFINITIVES",
+    "explanation": {
+      "correctAnswer": "The infinitive 'to talk' must be changed to the gerund 'talking' because 'stop + gerund' means to cease an ongoing activity.",
+      "grammarRule": "'Stop + gerund' means to cease doing something, while 'stop + infinitive' means to halt in order to do something else; the meanings are very different.",
+      "example": "The students stopped talking when the teacher entered the room.",
+      "commonMistake": "Learners often use 'stop to talk' when they mean 'stop talking', confusing cessation with purpose."
+    }
+  },
+  {
+    "questionNumber": 28,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The best-selling novel ___ into more than thirty languages since it was first published.",
+    "options": [
+      "has translated",
+      "has been translated",
+      "was translating",
+      "translated"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PASSIVE_VOICE",
+    "explanation": {
+      "correctAnswer": "The present perfect passive 'has been translated' is correct because the novel receives the action and the translating started in the past and continues.",
+      "grammarRule": "Use the present perfect passive (has/have been + past participle) when a passive action started in the past and has relevance to the present.",
+      "example": "The ancient manuscript has been preserved in the museum for centuries.",
+      "commonMistake": "Learners sometimes choose the active 'has translated', forgetting that the novel is the receiver of the translating action."
+    }
+  },
+  {
+    "questionNumber": 29,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "If she had submitted the application on time, she ___ eligible for the early decision program now.",
+    "options": [
+      "would be",
+      "would have been",
+      "will be",
+      "is"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "CONDITIONAL",
+    "explanation": {
+      "correctAnswer": "The modal 'would be' is correct because this is a mixed conditional: a past condition with a present result.",
+      "grammarRule": "In a mixed conditional (past condition, present result), use 'if + past perfect' in the if-clause and 'would + base verb' in the main clause.",
+      "example": "If he had taken the job, he would be living in London right now.",
+      "commonMistake": "Learners often use 'would have been' in both clauses of a mixed conditional, not recognizing the present-time result."
+    }
+  },
+  {
+    "questionNumber": 30,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The kitten licked (A)it's (B)paw (C)after stepping (D)in the muddy puddle near the porch.",
+    "underlinedParts": [
+      { "text": "it's", "index": 1, "isCorrectAnswer": true },
+      { "text": "paw", "index": 2, "isCorrectAnswer": false },
+      { "text": "after stepping", "index": 3, "isCorrectAnswer": false },
+      { "text": "in the muddy puddle near the porch", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "it's",
+      "paw",
+      "after stepping",
+      "in the muddy puddle near the porch"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PRONOUN_FORM",
+    "explanation": {
+      "correctAnswer": "The contraction 'it's' (it is) must be changed to the possessive pronoun 'its' (no apostrophe) to show ownership of the paw.",
+      "grammarRule": "The possessive pronoun 'its' has no apostrophe; 'it's' is always a contraction of 'it is' or 'it has'.",
+      "example": "The dog wagged its tail happily when its owner returned home.",
+      "commonMistake": "Learners frequently add an apostrophe to 'its' by analogy with other possessives like 'John's' or 'the cat's'."
+    }
+  },
+  {
+    "questionNumber": 31,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The scientist to ___ the prestigious award was presented could not attend the ceremony.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "that"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "RELATIVE_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The relative pronoun 'whom' is required because it is the object of the preposition 'to' in the relative clause.",
+      "grammarRule": "Use 'whom' (not 'who') as the object of a preposition or verb in formal English relative clauses referring to people.",
+      "example": "The professor to whom I submitted my thesis has retired.",
+      "commonMistake": "Learners often use 'who' instead of 'whom' after a preposition, especially in formal written English."
+    }
+  },
+  {
+    "questionNumber": 32,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "(A)While prepared (B)the experiment, the technician noticed (C)a discrepancy (D)in the collected data.",
+    "underlinedParts": [
+      { "text": "While prepared", "index": 1, "isCorrectAnswer": true },
+      { "text": "the experiment", "index": 2, "isCorrectAnswer": false },
+      { "text": "a discrepancy", "index": 3, "isCorrectAnswer": false },
+      { "text": "in the collected data", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "While prepared",
+      "the experiment",
+      "a discrepancy",
+      "in the collected data"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "REDUCED_CLAUSE",
+    "explanation": {
+      "correctAnswer": "'While prepared' must be changed to 'While preparing' because the technician is actively performing the action (active voice, present participle).",
+      "grammarRule": "When reducing an adverbial time clause with an active meaning, use the present participle (-ing), not the past participle (-ed).",
+      "example": "While walking through the park, she noticed a rare bird species.",
+      "commonMistake": "Learners sometimes use the past participle 'prepared' for an active reduced clause, creating an illogical passive meaning."
+    }
+  },
+  {
+    "questionNumber": 33,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "She (A)always is (B)on time (C)for her appointments (D)with important clients.",
+    "underlinedParts": [
+      { "text": "always is", "index": 1, "isCorrectAnswer": true },
+      { "text": "on time", "index": 2, "isCorrectAnswer": false },
+      { "text": "for her appointments", "index": 3, "isCorrectAnswer": false },
+      { "text": "with important clients", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "always is",
+      "on time",
+      "for her appointments",
+      "with important clients"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "WORD_ORDER",
+    "explanation": {
+      "correctAnswer": "The adverb 'always' must be placed after the 'be' verb, so 'always is' should be changed to 'is always' for correct word order.",
+      "grammarRule": "Frequency adverbs (always, usually, often, sometimes, never) go after the verb 'to be' but before other main verbs.",
+      "example": "She is always punctual for her meetings with the executive board.",
+      "commonMistake": "Learners sometimes place frequency adverbs before 'be' verbs, writing 'always is' instead of 'is always'."
+    }
+  },
+  {
+    "questionNumber": 34,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Of all the candidates interviewed, Mr. Thompson was the ___ experienced in international trade.",
+    "options": [
+      "less",
+      "least",
+      "lesser",
+      "fewest"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+    "explanation": {
+      "correctAnswer": "The superlative 'least' is used because the sentence compares three or more candidates, identifying the one with the minimum experience.",
+      "grammarRule": "Use 'the + least + adjective' for the superlative of inferiority when comparing three or more items; reserve 'less' for comparing two.",
+      "example": "She is the least experienced member of the entire surgical team.",
+      "commonMistake": "Learners often use 'less' (comparative) instead of 'least' (superlative) when comparing more than two items."
+    }
+  },
+  {
+    "questionNumber": 35,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "It is essential that every applicant ___ a valid identification document at the security entrance.",
+    "options": [
+      "presents",
+      "present",
+      "presented",
+      "is presenting"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_FORM",
+    "explanation": {
+      "correctAnswer": "The subjunctive base form 'present' is required after the phrase 'it is essential that' in formal English.",
+      "grammarRule": "After expressions of necessity such as 'it is essential that', 'it is crucial that', and 'it is important that', use the subjunctive base form of the verb.",
+      "example": "It is crucial that every employee attend the mandatory safety briefing.",
+      "commonMistake": "Learners often use the indicative 'presents' (third-person singular) instead of the subjunctive base form 'present'."
+    }
+  },
+  {
+    "questionNumber": 36,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "There (A)is (B)several reasons (C)why the proposal (D)was rejected by the review committee.",
+    "underlinedParts": [
+      { "text": "is", "index": 1, "isCorrectAnswer": true },
+      { "text": "several reasons", "index": 2, "isCorrectAnswer": false },
+      { "text": "why the proposal", "index": 3, "isCorrectAnswer": false },
+      { "text": "was rejected by the review committee", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "is",
+      "several reasons",
+      "why the proposal",
+      "was rejected by the review committee"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+    "explanation": {
+      "correctAnswer": "The verb 'is' must be changed to 'are' because the subject 'several reasons' is plural and follows the existential 'there'.",
+      "grammarRule": "In 'there + be' constructions, the verb agrees with the noun that follows it; a plural noun requires a plural verb.",
+      "example": "There are many factors that contribute to climate change.",
+      "commonMistake": "Learners sometimes use 'there is' before a plural noun, especially when the plural noun is separated from the verb."
+    }
+  },
+  {
+    "questionNumber": 37,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "With a little more preparation, she ___ the certification exam on her very first attempt.",
+    "options": [
+      "could pass",
+      "could have passed",
+      "could passing",
+      "could to pass"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "MODALS",
+    "explanation": {
+      "correctAnswer": "The modal 'could have passed' expresses a past possibility that was not realized due to insufficient preparation.",
+      "grammarRule": "Use 'could have + past participle' to express a past ability or possibility that was not realized or fulfilled.",
+      "example": "He could have won the race if he had trained more consistently.",
+      "commonMistake": "Learners often use 'could pass' (present) for a past unrealized possibility, losing the completed-action meaning."
+    }
+  },
+  {
+    "questionNumber": 38,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The job requires patience, (A)attentive, (B)and a willingness (C)to learn (D)from one's mistakes.",
+    "underlinedParts": [
+      { "text": "attentive", "index": 1, "isCorrectAnswer": true },
+      { "text": "and a willingness", "index": 2, "isCorrectAnswer": false },
+      { "text": "to learn", "index": 3, "isCorrectAnswer": false },
+      { "text": "from one's mistakes", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "attentive",
+      "and a willingness",
+      "to learn",
+      "from one's mistakes"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PARALLEL_STRUCTURE",
+    "explanation": {
+      "correctAnswer": "The adjective 'attentive' must be changed to the noun 'attentiveness' to be parallel with 'patience' and 'a willingness' in the series.",
+      "grammarRule": "Items in a series must use the same grammatical form; when the other items are nouns, an adjective must be changed to its noun form.",
+      "example": "The position demands creativity, dedication, and enthusiasm.",
+      "commonMistake": "Learners often mix adjectives and nouns in a series, not recognizing that parallel structure requires consistent forms."
+    }
+  },
+  {
+    "questionNumber": 39,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The detective examined the crime scene ___ for any evidence that might have been overlooked.",
+    "options": [
+      "careful",
+      "carefully",
+      "carefulness",
+      "care"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "ADJECTIVE_ADVERB",
+    "explanation": {
+      "correctAnswer": "The adverb 'carefully' is required to modify the action verb 'examined', describing the manner of the examination.",
+      "grammarRule": "Adverbs ending in '-ly' are used to modify action verbs, describing how, when, or where an action takes place.",
+      "example": "The surgeon operated carefully to avoid damaging the surrounding tissue.",
+      "commonMistake": "Learners often use the adjective 'careful' instead of the adverb 'carefully' to modify an action verb."
+    }
+  },
+  {
+    "questionNumber": 40,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The professor assigned (A)a great deal of (B)homeworks (C)to the students (D)over the weekend.",
+    "underlinedParts": [
+      { "text": "a great deal of", "index": 1, "isCorrectAnswer": false },
+      { "text": "homeworks", "index": 2, "isCorrectAnswer": true },
+      { "text": "to the students", "index": 3, "isCorrectAnswer": false },
+      { "text": "over the weekend", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "a great deal of",
+      "homeworks",
+      "to the students",
+      "over the weekend"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "COUNT_NONCOUNT_NOUNS",
+    "explanation": {
+      "correctAnswer": "The noun 'homeworks' must be changed to 'homework' because 'homework' is an uncountable noun and cannot take a plural '-s' ending.",
+      "grammarRule": "Uncountable nouns such as 'homework', 'information', 'advice', and 'equipment' never take a plural form and cannot be counted with numbers.",
+      "example": "The teacher assigned a large amount of homework over the holiday break.",
+      "commonMistake": "Learners often add '-s' to uncountable nouns, writing 'homeworks' or 'informations' by analogy with countable nouns."
+    }
+  },
+  {
+    "questionNumber": 41,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Many people are afraid ___ spiders, even though the vast majority of species are completely harmless.",
+    "options": [
+      "from",
+      "of",
+      "to",
+      "with"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PREPOSITIONS",
+    "explanation": {
+      "correctAnswer": "The adjective 'afraid' is always followed by the preposition 'of', making 'of' the only correct choice.",
+      "grammarRule": "Certain adjectives have fixed prepositional partners; 'afraid' is always followed by 'of', not 'from', 'to', or 'with'.",
+      "example": "The child is afraid of the dark and sleeps with a nightlight on.",
+      "commonMistake": "Learners sometimes use 'afraid from' or 'afraid to' by translating directly from their native language."
+    }
+  },
+  {
+    "questionNumber": 42,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The university offered (A)a (B)honorary degree (C)to the retired professor (D)at the spring ceremony.",
+    "underlinedParts": [
+      { "text": "a", "index": 1, "isCorrectAnswer": true },
+      { "text": "honorary degree", "index": 2, "isCorrectAnswer": false },
+      { "text": "to the retired professor", "index": 3, "isCorrectAnswer": false },
+      { "text": "at the spring ceremony", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "a",
+      "honorary degree",
+      "to the retired professor",
+      "at the spring ceremony"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "ARTICLES",
+    "explanation": {
+      "correctAnswer": "The article 'a' must be changed to 'an' because 'honorary' begins with a silent 'h', producing a vowel sound.",
+      "grammarRule": "Use 'an' before words that begin with a vowel sound, including words where the initial consonant is silent, such as 'honorary', 'honest', and 'hour'.",
+      "example": "He received an honorary doctorate from the prestigious university.",
+      "commonMistake": "Learners often use 'a' before 'honorary' because they see the letter 'h', not realizing the 'h' is silent."
+    }
+  },
+  {
+    "questionNumber": 43,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Despite the heavy rain, the children thoroughly enjoyed ___ in the muddy puddles in the backyard.",
+    "options": [
+      "to splash",
+      "splashing",
+      "splash",
+      "splashed"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "GERUNDS_INFINITIVES",
+    "explanation": {
+      "correctAnswer": "The verb 'enjoyed' is always followed by a gerund, so 'splashing' is the only grammatically correct option.",
+      "grammarRule": "Certain verbs such as 'enjoy', 'avoid', 'finish', 'mind', and 'practice' are always followed by a gerund (-ing form), never by an infinitive.",
+      "example": "The children enjoyed playing in the park all afternoon yesterday.",
+      "commonMistake": "Learners sometimes use 'enjoy to splash' instead of 'enjoy splashing', not knowing that 'enjoy' requires a gerund."
+    }
+  },
+  {
+    "questionNumber": 44,
+    "questionText": "Identify the underlined word or phrase that must be changed",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The company announced that (A)it (B)will release (C)their (D)annual report next month.",
+    "underlinedParts": [
+      { "text": "it", "index": 1, "isCorrectAnswer": false },
+      { "text": "will release", "index": 2, "isCorrectAnswer": false },
+      { "text": "their", "index": 3, "isCorrectAnswer": true },
+      { "text": "annual report", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "it",
+      "will release",
+      "their",
+      "annual report"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "PRONOUN_REFERENCE",
+    "explanation": {
+      "correctAnswer": "The possessive pronoun 'their' must be changed to 'its' because the antecedent 'company' is a singular entity.",
+      "grammarRule": "A pronoun must agree with its antecedent in number; a singular organization such as 'company' takes the singular pronoun 'its', not 'their'.",
+      "example": "The university released its annual budget to the public last week.",
+      "commonMistake": "Learners often use 'their' for singular organizations, thinking of the people within them rather than the entity itself."
+    }
+  },
+  {
+    "questionNumber": 45,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "___ the manuscript three times, the editor was confident that no remaining errors had slipped through.",
+    "options": [
+      "Having reviewed",
+      "Reviewing",
+      "Reviewed",
+      "To review"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "REDUCED_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The perfect participle 'Having reviewed' indicates that the reviewing was completed before the main clause action, showing sequence.",
+      "grammarRule": "Use 'having + past participle' (perfect participle) in a reduced adverbial clause to show that one action was completed before another.",
+      "example": "Having finished her homework, she went out to play with her friends.",
+      "commonMistake": "Learners sometimes use the simple present participle 'Reviewing', which implies simultaneous actions rather than a completed prior action."
+    }
+  }
+]

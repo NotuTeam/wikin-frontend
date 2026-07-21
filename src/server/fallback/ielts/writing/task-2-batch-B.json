@@ -1,0 +1,439 @@
+[
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "OPINION",
+    "questionText": "Some people believe that individuals can do little to address climate change and that responsibility lies solely with governments and large corporations. To what extent do you agree or disagree?",
+    "prompt": {
+      "statement": "Climate change is one of the most pressing challenges facing humanity today, yet there is ongoing debate about who bears the greatest responsibility for tackling it. Some argue that individual actions are insignificant compared to the sweeping changes that only governments and large corporations can implement, and therefore personal effort is largely futile.",
+      "question": "To what extent do you agree or disagree that individuals can do little to address climate change?",
+      "context": "This question invites you to take a clear stance on the role of personal responsibility versus institutional action in combating global warming."
+    },
+    "topicCategory": "ENVIRONMENT",
+    "instructions": "Write an essay expressing your opinion on the extent to which individuals can contribute to addressing climate change. Support your view with relevant reasons and examples from your own knowledge or experience. You should write at least 250 words.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Paraphrase the prompt and state a clear thesis indicating your level of agreement or disagreement.",
+        "shouldAddress": ["The debate over individual versus institutional responsibility", "Your clear position on the statement"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Acknowledge the opposing view that governments and corporations have far greater impact.",
+          "suggestedContent": "Discuss how large-scale policy changes, industrial regulations, and corporate emissions dwarf individual carbon footprints.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Argue that individual actions still matter and can drive systemic change.",
+          "suggestedContent": "Explain how consumer choices, lifestyle changes, and collective grassroots pressure influence corporate and governmental behaviour.",
+          "exampleType": "HYPOTHETICAL"
+        },
+        {
+          "purpose": "Conclude that individual and institutional efforts are complementary rather than mutually exclusive.",
+          "suggestedContent": "Emphasise that dismissing personal responsibility undermines the cultural shift needed for lasting environmental reform.",
+          "exampleType": "HISTORICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Restate your thesis in a fresh way and summarise your key arguments without introducing new information.",
+        "shouldAvoid": ["Introducing entirely new arguments", "Sitting on the fence without a clear position", "Overgeneralised statements with no support"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "pressing", "usage": "Climate change is one of the most pressing challenges of our era.", "formality": "FORMAL" },
+      { "word": "futile", "usage": "Some claim individual recycling efforts are futile.", "formality": "FORMAL" },
+      { "word": "carbon footprint", "usage": "Reducing one's carbon footprint through dietary choices is meaningful.", "formality": "NEUTRAL" },
+      { "word": "systemic", "usage": "Systemic reform requires both top-down and bottom-up pressure.", "formality": "FORMAL" },
+      { "word": "grassroots", "usage": "Grassroots movements have historically influenced policy shifts.", "formality": "NEUTRAL" },
+      { "word": "complementary", "usage": "Individual and governmental actions are complementary.", "formality": "FORMAL" },
+      { "word": "dwarf", "usage": "Industrial emissions dwarf the output of a single household.", "formality": "NEUTRAL" },
+      { "word": "collective", "usage": "Collective consumer demand can reshape markets.", "formality": "FORMAL" },
+      { "word": "implement", "usage": "Governments must implement stricter emissions standards.", "formality": "FORMAL" },
+      { "word": "accountable", "usage": "Corporations should be held accountable for their environmental impact.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 295,
+      "content": "Climate change is widely regarded as the defining challenge of our time, yet the question of who should bear the burden of addressing it remains contentious. Some assert that individuals are powerless and that only governments and major corporations can effect meaningful change. While I acknowledge that institutional actors wield far greater influence, I disagree that personal responsibility is negligible, as individual choices collectively drive the systemic shifts required.\n\nOn the one hand, it is true that the scale of governmental and corporate action dwarfs what any single person can achieve. A single multinational corporation may emit more greenhouse gases in a day than a family produces in a year, and only governments possess the legislative authority to enforce industry-wide emissions standards. For this reason, critics of individual action argue that urging citizens to recycle or reduce meat consumption is a distraction from the structural reforms that truly matter.\n\nOn the other hand, dismissing individual effort overlooks the power of aggregated behaviour. When millions of consumers choose electric vehicles, plant-based diets, or renewable energy tariffs, they send unmistakable market signals that compel corporations to adapt. Moreover, citizens who adopt sustainable habits are more likely to vote for environmentally responsible politicians and to support grassroots campaigns that pressure governments into bolder action. Historical precedents, such as the consumer boycotts that helped end harmful chemical production, demonstrate that personal choices can catalyse institutional change.\n\nIn conclusion, while governments and corporations undoubtedly carry the heaviest burden, individual actions are far from futile. Rather than being mutually exclusive, personal and institutional efforts are deeply complementary, and lasting progress depends on the active engagement of citizens at every level.",
+      "examinerComments": "This essay presents a well-developed argument with a clear and consistent position throughout. The introduction effectively paraphrases the prompt and states a nuanced thesis. Body paragraphs are logically organised, first acknowledging the counterargument before refuting it with relevant examples. Vocabulary is varied and precise, and grammatical structures are generally accurate with good range. Cohesion is strong, with effective use of linking devices. A few sentences could be more concise, but overall this is a strong response.",
+      "strengths": [
+        "Clear, nuanced thesis that goes beyond simple agreement or disagreement",
+        "Logical paragraph structure that addresses the counterargument before refuting it",
+        "Precise and varied vocabulary appropriate for an academic register"
+      ],
+      "areasForImprovement": [
+        "Some sentences in the second body paragraph could be tightened for greater impact",
+        "The historical example could be more specific to strengthen credibility"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Failing to state a clear position and instead arguing both sides equally.",
+        "correction": "Take a definitive stance in the introduction and maintain it throughout, even when acknowledging the opposing view.",
+        "whyItMatters": "An opinion essay requires a clear position; sitting on the fence limits your Task Response score."
+      },
+      {
+        "mistake": "Using vague examples such as 'many people do things' without specifics.",
+        "correction": "Provide concrete, illustrative examples such as 'consumer boycotts of plastic products' or 'government subsidies for solar panels'.",
+        "whyItMatters": "Specific examples demonstrate depth of thought and strengthen the persuasiveness of your argument."
+      },
+      {
+        "mistake": "Introducing a new argument in the conclusion that was not discussed in the body.",
+        "correction": "Use the conclusion solely to restate and synthesise previously presented points.",
+        "whyItMatters": "New information in the conclusion disrupts coherence and signals poor essay planning."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "EASY"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "DISCUSSION",
+    "questionText": "Some people think that nuclear energy is the best way to reduce carbon emissions and combat climate change, while others argue that the risks outweigh the benefits. Discuss both views and give your own opinion.",
+    "prompt": {
+      "statement": "As nations scramble to meet ambitious net-zero targets, nuclear power has re-emerged as a controversial solution. Proponents highlight its ability to generate large-scale, low-carbon electricity reliably, while opponents point to catastrophic accidents, radioactive waste, and proliferation risks as reasons to abandon the technology entirely.",
+      "question": "Discuss both views regarding nuclear energy and give your own opinion on whether its benefits justify its risks.",
+      "context": "This question requires a balanced discussion of competing perspectives before presenting a reasoned personal stance."
+    },
+    "topicCategory": "ENVIRONMENT",
+    "instructions": "Discuss both sides of the nuclear energy debate in a balanced manner, then clearly state your own opinion. Support each perspective with relevant reasons, evidence, or examples. You should write at least 250 words and spend about 40 minutes on this task.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Introduce the controversy surrounding nuclear energy and indicate that both perspectives will be discussed before stating your opinion.",
+        "shouldAddress": ["Why nuclear energy is back in the spotlight", "A brief signal of the two opposing views"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Present the arguments in favour of nuclear energy.",
+          "suggestedContent": "Discuss low carbon output, reliability compared to renewables, and energy security benefits.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Present the arguments against nuclear energy.",
+          "suggestedContent": "Examine safety risks, long-term waste storage challenges, and high construction costs.",
+          "exampleType": "HISTORICAL"
+        },
+        {
+          "purpose": "Give your own opinion, weighing both sides.",
+          "suggestedContent": "Argue that nuclear may serve as a transitional energy source while renewable infrastructure matures, provided safety standards are rigorous.",
+          "exampleType": "HYPOTHETICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Summarise the key points from both perspectives and restate your opinion clearly without introducing new arguments.",
+        "shouldAvoid": ["Favouring one side without acknowledging the other", "Introducing new statistics or examples", "An opinion that contradicts the body paragraphs"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "controversial", "usage": "Nuclear power remains a controversial energy source.", "formality": "FORMAL" },
+      { "word": "proponent", "usage": "Proponents argue that nuclear energy is carbon-efficient.", "formality": "FORMAL" },
+      { "word": "catastrophic", "usage": "Opponents cite the catastrophic consequences of reactor meltdowns.", "formality": "FORMAL" },
+      { "word": "radioactive waste", "usage": "Long-term storage of radioactive waste remains unresolved.", "formality": "NEUTRAL" },
+      { "word": "proliferation", "usage": "Nuclear proliferation risks deter some nations from adoption.", "formality": "FORMAL" },
+      { "word": "net-zero", "usage": "Countries have committed to net-zero emissions targets.", "formality": "NEUTRAL" },
+      { "word": "renewable", "usage": "Renewable sources like wind and solar are intermittent.", "formality": "NEUTRAL" },
+      { "word": "transitional", "usage": "Nuclear may serve as a transitional bridge to fully renewable grids.", "formality": "FORMAL" },
+      { "word": "infrastructure", "usage": "Renewable infrastructure is still maturing in many regions.", "formality": "FORMAL" },
+      { "word": "rigorous", "usage": "Rigorous safety standards are essential for nuclear operation.", "formality": "FORMAL" },
+      { "word": "intermittent", "usage": "Solar and wind power are intermittent by nature.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 310,
+      "content": "The role of nuclear power in the transition to a low-carbon future is fiercely debated. While supporters view it as an indispensable tool for reducing greenhouse gas emissions, opponents argue that the dangers it poses are too great to justify its use. This essay will examine both perspectives before concluding that nuclear energy, despite its risks, can serve as a valuable transitional solution.\n\nAdvocates of nuclear energy emphasise its remarkable efficiency and reliability. Unlike solar and wind, which are intermittent, nuclear plants produce a steady supply of electricity with virtually no carbon emissions during operation. France, for instance, generates roughly seventy per cent of its electricity from nuclear sources, enabling it to maintain one of the lowest per-capita carbon footprints among industrialised nations. In a world racing to meet net-zero targets, this consistent, large-scale output is difficult to replicate with renewables alone.\n\nDetractors, however, point to the severe risks associated with nuclear technology. The disasters at Chernobyl and Fukushima demonstrated that reactor failures can have devastating, long-lasting consequences for human health and the environment. Furthermore, the question of how to safely store radioactive waste for millennia remains unresolved, and the high cost and lengthy timelines of building new plants often undermine their practicality.\n\nIn my view, the evidence suggests that nuclear energy should not be dismissed outright but rather treated as a bridge technology. While renewable infrastructure continues to develop and battery storage improves, nuclear power can provide the stable baseload electricity needed to phase out fossil fuels rapidly. However, this should be accompanied by rigorous safety regulations and sustained investment in cleaner alternatives.\n\nIn conclusion, both sides present valid arguments, but the urgency of climate change tips the balance in favour of cautious nuclear adoption as part of a diversified energy strategy.",
+      "examinerComments": "This is a well-structured discussion essay that addresses both perspectives thoroughly before presenting a balanced personal opinion. The introduction clearly signals the structure, and each body paragraph has a distinct focus. The use of France as an example and the reference to Chernobyl and Fukushima provide relevant, concrete support. Vocabulary is sophisticated and accurate, and a range of complex sentence structures is employed. Cohesion is maintained through appropriate transitional phrases. The essay could benefit from slightly more detailed development of the waste storage argument.",
+      "strengths": [
+        "Balanced and thorough treatment of both perspectives before stating a personal opinion",
+        "Relevant, specific examples that strengthen each argument",
+        "Sophisticated vocabulary and accurate use of complex grammatical structures"
+      ],
+      "areasForImprovement": [
+        "The paragraph on waste storage could be expanded with more detail",
+        "The conclusion could more explicitly synthesise the key tension between the two views"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Failing to discuss both sides equally and focusing only on the opinion.",
+        "correction": "Dedicate one full body paragraph to each perspective before presenting your own view.",
+        "whyItMatters": "A discussion essay requires balanced coverage of both positions to satisfy the Task Response criterion."
+      },
+      {
+        "mistake": "Presenting an opinion in the body that contradicts the conclusion.",
+        "correction": "Ensure your stated opinion flows logically from the arguments presented in the body paragraphs.",
+        "whyItMatters": "Contradictory statements confuse the reader and lower your Coherence and Cohesion score."
+      },
+      {
+        "mistake": "Using overly emotional language such as 'nuclear energy is a nightmare'.",
+        "correction": "Adopt a measured, academic tone using phrases like 'poses significant risks' or 'presents considerable challenges'.",
+        "whyItMatters": "Emotional language undermines the academic register expected in IELTS Writing Task 2."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "PROBLEM_SOLUTION",
+    "questionText": "Plastic pollution has become a major environmental crisis affecting oceans, wildlife, and human health. What are the main problems caused by plastic pollution, and what solutions can be implemented to address them?",
+    "prompt": {
+      "statement": "Every year, an estimated eight million tonnes of plastic enter the world's oceans, breaking down into microplastics that infiltrate food chains, harm marine ecosystems, and even enter the human body. Despite growing awareness, global plastic production continues to rise, and waste management systems in many countries remain inadequate to cope with the volume.",
+      "question": "What are the main problems caused by plastic pollution, and what practical solutions can governments and individuals implement?",
+      "context": "This question asks you to identify specific problems and propose actionable, realistic solutions."
+    },
+    "topicCategory": "ENVIRONMENT",
+    "instructions": "Identify the key problems associated with plastic pollution and propose effective, practical solutions. Ensure that your problems and solutions are clearly linked and supported with examples. You should write at least 250 words and spend about 40 minutes on this task.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Introduce the scale of plastic pollution and briefly outline that the essay will discuss both problems and solutions.",
+        "shouldAddress": ["The severity and scope of plastic pollution", "A clear signal that problems and solutions will follow"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Describe the main problems caused by plastic pollution.",
+          "suggestedContent": "Discuss marine ecosystem damage, microplastic ingestion, and the economic cost to coastal communities.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Propose solutions at the governmental level.",
+          "suggestedContent": "Suggest banning single-use plastics, imposing taxes on packaging, and investing in biodegradable alternatives.",
+          "exampleType": "HISTORICAL"
+        },
+        {
+          "purpose": "Propose solutions at the individual and community level.",
+          "suggestedContent": "Discuss reusable products, community clean-up initiatives, and consumer education campaigns.",
+          "exampleType": "PERSONAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Summarise the key problems and solutions, emphasising that a combined effort is necessary.",
+        "shouldAvoid": ["Proposing entirely new solutions not discussed in the body", "Overstating the ease of solving the problem", "Ignoring the link between problems and solutions"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "crisis", "usage": "Plastic pollution has become a global environmental crisis.", "formality": "NEUTRAL" },
+      { "word": "microplastic", "usage": "Microplastics have been detected in drinking water.", "formality": "FORMAL" },
+      { "word": "infiltrate", "usage": "Microplastics infiltrate marine food chains.", "formality": "FORMAL" },
+      { "word": "biodegradable", "usage": "Biodegradable alternatives can reduce long-term waste.", "formality": "FORMAL" },
+      { "word": "single-use", "usage": "Single-use plastics account for a large share of waste.", "formality": "NEUTRAL" },
+      { "word": "inadequate", "usage": "Waste management systems remain inadequate in many regions.", "formality": "FORMAL" },
+      { "word": "implement", "usage": "Governments must implement bans on harmful plastics.", "formality": "FORMAL" },
+      { "word": "ecosystem", "usage": "Marine ecosystems suffer from plastic accumulation.", "formality": "FORMAL" },
+      { "word": "prohibit", "usage": "Several nations prohibit the sale of plastic bags.", "formality": "FORMAL" },
+      { "word": "sustainable", "usage": "Sustainable packaging is gaining commercial traction.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 7,
+      "wordCount": 285,
+      "content": "Plastic pollution has emerged as one of the most visible and damaging environmental crises of the modern era. With millions of tonnes of plastic entering the oceans each year, the consequences for ecosystems, wildlife, and human health are profound. This essay will outline the primary problems caused by plastic waste and propose a range of solutions at both governmental and individual levels.\n\nThe most pressing problem is the devastation of marine ecosystems. Sea turtles, seabirds, and fish frequently ingest plastic debris, mistaking it for food, which leads to injury and death. Furthermore, as plastic degrades, it forms microplastics that infiltrate the food chain, eventually reaching human consumers. Studies have detected microplastics in seafood, drinking water, and even human blood, raising serious health concerns. Additionally, the economic impact on coastal communities reliant on fishing and tourism is significant, as polluted beaches deter visitors and reduce catches.\n\nTo address these problems, governments must take decisive action. Bans on single-use plastics, such as bags and straws, have already proven effective in countries like Rwanda and Kenya. Furthermore, imposing taxes on excessive packaging would incentivise manufacturers to adopt biodegradable alternatives. Governments should also invest in modern waste management infrastructure, particularly in developing nations where mismanaged waste is most prevalent.\n\nAt the individual level, consumers can reduce demand for plastic by opting for reusable bags, bottles, and containers. Community-led beach clean-ups and educational campaigns also play a vital role in raising awareness and fostering a culture of environmental responsibility.\n\nIn conclusion, plastic pollution poses severe ecological and health risks, but a combination of legislative action, corporate accountability, and individual effort can significantly mitigate the problem. No single solution is sufficient; lasting change requires cooperation at every level of society.",
+      "examinerComments": "This essay clearly identifies the main problems of plastic pollution and proposes relevant, well-linked solutions. The structure is logical, with distinct paragraphs for problems, governmental solutions, and individual solutions. Vocabulary is appropriate and generally varied, though some repetition of 'plastic' occurs. Grammatical accuracy is good with some complex structures. The link between problems and solutions is explicit, which is a strength. The essay would benefit from more specific data or examples to support some claims.",
+      "strengths": [
+        "Clear and logical structure with distinct problem and solution paragraphs",
+        "Explicit linking between identified problems and proposed solutions",
+        "Good range of relevant topic-specific vocabulary"
+      ],
+      "areasForImprovement": [
+        "Some repetition of the word 'plastic' could be reduced with synonyms or pronouns",
+        "More specific statistical evidence would strengthen the argumentation"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Listing solutions without clearly connecting them to the problems identified.",
+        "correction": "For each solution, explicitly reference the problem it addresses, e.g. 'To tackle marine ingestion, banning single-use plastics would reduce the volume of debris entering oceans.'",
+        "whyItMatters": "A problem-solution essay must demonstrate a clear logical link between the two to score well on Task Response."
+      },
+      {
+        "mistake": "Proposing unrealistic solutions such as 'completely ban all plastic immediately'.",
+        "correction": "Suggest practical, incremental measures such as phased bans on single-use items and investment in alternatives.",
+        "whyItMatters": "Unrealistic suggestions undermine credibility and show a lack of critical thinking."
+      },
+      {
+        "mistake": "Writing only about problems or only about solutions.",
+        "correction": "Ensure the essay addresses both parts of the question in roughly equal proportion.",
+        "whyItMatters": "Ignoring one part of a two-part question significantly reduces the Task Response score."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "ADVANTAGES_DISADVANTAGES",
+    "questionText": "Social media has become an integral part of daily life for billions of people around the world. Do the advantages of social media outweigh the disadvantages?",
+    "prompt": {
+      "statement": "Social media platforms such as Facebook, Instagram, and TikTok have transformed the way people communicate, access information, and conduct business. However, growing concerns about mental health, misinformation, and privacy have led many to question whether these platforms ultimately do more harm than good.",
+      "question": "Do the advantages of social media outweigh its disadvantages?",
+      "context": "This question requires you to weigh both positive and negative impacts before reaching a reasoned judgment."
+    },
+    "topicCategory": "SOCIETY",
+    "instructions": "Discuss the advantages and disadvantages of social media, and clearly state whether you believe the benefits outweigh the drawbacks. Support your position with relevant examples and reasoning. You should write at least 250 words and spend about 40 minutes on this task.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Introduce the ubiquity of social media and state your overall position on whether advantages outweigh disadvantages.",
+        "shouldAddress": ["The pervasiveness of social media in modern life", "A clear thesis indicating your overall judgment"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Present the main advantages of social media.",
+          "suggestedContent": "Discuss connectivity, access to information, business opportunities, and community building.",
+          "exampleType": "PERSONAL"
+        },
+        {
+          "purpose": "Present the main disadvantages of social media.",
+          "suggestedContent": "Examine mental health impacts, the spread of misinformation, and privacy concerns.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Weigh both sides and justify your overall position.",
+          "suggestedContent": "Argue that while risks are real, the benefits of connectivity and access to information are more significant, provided users and platforms act responsibly.",
+          "exampleType": "HYPOTHETICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Restate your position and briefly summarise why the advantages or disadvantages prevail, without introducing new points.",
+        "shouldAvoid": ["Introducing new advantages or disadvantages not previously discussed", "A conclusion that contradicts the thesis in the introduction", "Failing to take a clear position"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "ubiquity", "usage": "The ubiquity of social media has reshaped communication.", "formality": "FORMAL" },
+      { "word": "misinformation", "usage": "The spread of misinformation is a significant drawback.", "formality": "FORMAL" },
+      { "word": "connectivity", "usage": "Social media enhances global connectivity.", "formality": "FORMAL" },
+      { "word": "mental health", "usage": "Excessive use has been linked to mental health issues.", "formality": "NEUTRAL" },
+      { "word": "privacy", "usage": "Privacy concerns have grown with data harvesting scandals.", "formality": "NEUTRAL" },
+      { "word": "integral", "usage": "Social media has become an integral part of daily life.", "formality": "FORMAL" },
+      { "word": "prevalent", "usage": "Cyberbullying is increasingly prevalent among teenagers.", "formality": "FORMAL" },
+      { "word": "democratise", "usage": "Platforms have democratised access to information.", "formality": "FORMAL" },
+      { "word": "drawback", "usage": "A major drawback is the addictive nature of these platforms.", "formality": "NEUTRAL" },
+      { "word": "outweigh", "usage": "Many believe the benefits outweigh the drawbacks.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 7,
+      "wordCount": 300,
+      "content": "Social media has become deeply embedded in the daily lives of billions of people, reshaping how individuals communicate, consume information, and build communities. While these platforms offer undeniable benefits, they also raise serious concerns about mental health, privacy, and the spread of misinformation. In my view, the advantages of social media outweigh its disadvantages, provided that users approach it critically and platforms take greater responsibility.\n\nThe advantages of social media are substantial. Foremost among them is the unprecedented level of connectivity it enables. People can maintain relationships across vast distances, and communities of shared interest can form regardless of geography. For small businesses, platforms like Instagram provide affordable marketing tools that were previously available only to large corporations. Additionally, social media has democratised access to information, allowing citizens to share news, organise movements, and hold authorities accountable in ways that were not possible before.\n\nHowever, the disadvantages cannot be ignored. Studies have linked excessive social media use to anxiety, depression, and low self-esteem, particularly among young people who are exposed to idealised representations of others' lives. The rapid spread of misinformation is another serious issue, as false claims about health and politics can influence elections and public behaviour. Furthermore, the harvesting of personal data by technology companies has eroded trust and raised legitimate privacy concerns.\n\nDespite these drawbacks, I believe the benefits are more significant. The problems associated with social media are largely the result of misuse and inadequate regulation rather than inherent flaws. With stronger data protection laws, improved content moderation, and greater digital literacy education, many of the negative effects can be mitigated while preserving the transformative benefits of global connectivity.\n\nIn conclusion, while social media presents real and well-documented risks, its capacity to connect, inform, and empower individuals means that its advantages ultimately outweigh its disadvantages.",
+      "examinerComments": "This essay effectively weighs both advantages and disadvantages before reaching a clear judgment. The introduction sets up the discussion well and states a clear thesis. Body paragraphs are well-organised, with advantages and disadvantages treated in separate paragraphs. The vocabulary is appropriate and generally varied, though there is room for more sophisticated word choice. Grammatical accuracy is good with some range of structures. The final body paragraph that justifies the overall position is a strong feature. The essay could be improved with more specific examples to support some claims.",
+      "strengths": [
+        "Clear thesis maintained throughout with a well-justified final position",
+        "Balanced treatment of both advantages and disadvantages before weighing them",
+        "Logical paragraph organisation with each paragraph having a distinct focus"
+      ],
+      "areasForImprovement": [
+        "More specific examples would strengthen the arguments, particularly for business benefits",
+        "Vocabulary could be more varied to push towards a higher band score"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Listing advantages and disadvantages without stating which outweighs the other.",
+        "correction": "Include a clear judgment, e.g. 'Overall, the advantages of connectivity and access to information outweigh the risks.'",
+        "whyItMatters": "Failing to take a position means the essay does not fully answer the question, lowering the Task Response score."
+      },
+      {
+        "mistake": "Writing only about advantages or only about disadvantages.",
+        "correction": "Dedicate roughly equal space to both sides before stating your overall judgment.",
+        "whyItMatters": "The question asks you to consider both; omitting one side results in an unbalanced and incomplete response."
+      },
+      {
+        "mistake": "Using informal language such as 'social media is awesome' or 'it sucks'.",
+        "correction": "Use academic register, e.g. 'social media offers significant benefits' or 'it poses considerable risks'.",
+        "whyItMatters": "Informal language is inappropriate for IELTS Writing Task 2 and lowers the Lexical Resource score."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "WRITING_TASK_2",
+    "essayType": "DIRECT_QUESTION",
+    "questionText": "Economic growth is often prioritised by governments, but it can come at the expense of environmental protection. Why is economic growth so important to governments, and is it possible to achieve both economic growth and environmental sustainability?",
+    "prompt": {
+      "statement": "Governments around the world consistently prioritise economic growth as a measure of national success, yet this pursuit frequently conflicts with environmental protection. Industrial expansion, resource extraction, and increased consumption drive GDP upward but accelerate deforestation, pollution, and climate change, raising the question of whether the two goals can ever be reconciled.",
+      "question": "Why is economic growth so important to governments, and do you think it is possible to achieve both economic growth and environmental sustainability?",
+      "context": "This direct-question essay requires you to answer two distinct questions: the reasons for prioritising growth, and the feasibility of reconciling growth with sustainability."
+    },
+    "topicCategory": "GOVERNMENT",
+    "instructions": "Answer both questions clearly: first, explain why economic growth is important to governments, and second, discuss whether economic growth and environmental sustainability can coexist. Support your answers with relevant reasons and examples. You should write at least 250 words and spend about 40 minutes on this task.",
+    "rubricFocus": ["TASK_RESPONSE", "COHERENCE_COHESION", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE"],
+    "suggestedStructure": {
+      "introduction": {
+        "approach": "Introduce the tension between economic growth and environmental protection, and indicate that both questions will be addressed.",
+        "shouldAddress": ["The common conflict between growth and sustainability", "A clear signal that two questions will be answered"]
+      },
+      "bodyParagraphs": [
+        {
+          "purpose": "Answer the first question: why economic growth matters to governments.",
+          "suggestedContent": "Discuss employment, living standards, tax revenue for public services, and political stability.",
+          "exampleType": "HISTORICAL"
+        },
+        {
+          "purpose": "Answer the second question: whether growth and sustainability can coexist.",
+          "suggestedContent": "Examine the concept of green growth, renewable energy industries, circular economy models, and carbon pricing as evidence that the two are compatible.",
+          "exampleType": "RESEARCH"
+        },
+        {
+          "purpose": "Address potential counterarguments that infinite growth is impossible on a finite planet.",
+          "suggestedContent": "Acknowledge the limits of green growth and argue that redefining growth to include qualitative improvement rather than sheer resource consumption is necessary.",
+          "exampleType": "HYPOTHETICAL"
+        }
+      ],
+      "conclusion": {
+        "approach": "Synthesise your answers to both questions and offer a final, balanced judgment on the compatibility of growth and sustainability.",
+        "shouldAvoid": ["Answering only one of the two questions", "Introducing entirely new arguments", "A vague conclusion that does not address the feasibility question"]
+      }
+    },
+    "keyVocabulary": [
+      { "word": "prioritise", "usage": "Governments consistently prioritise economic growth.", "formality": "FORMAL" },
+      { "word": "sustainability", "usage": "Environmental sustainability is often sidelined for profit.", "formality": "FORMAL" },
+      { "word": "reconcile", "usage": "Can growth and conservation be reconciled?", "formality": "FORMAL" },
+      { "word": "GDP", "usage": "GDP remains the dominant metric of national success.", "formality": "NEUTRAL" },
+      { "word": "circular economy", "usage": "A circular economy minimises waste through reuse.", "formality": "FORMAL" },
+      { "word": "decarbonise", "usage": "Nations must decarbonise their energy sectors.", "formality": "FORMAL" },
+      { "word": "green growth", "usage": "Green growth seeks to decouple emissions from expansion.", "formality": "FORMAL" },
+      { "word": "finite", "usage": "Infinite growth on a finite planet is unsustainable.", "formality": "FORMAL" },
+      { "word": "coexist", "usage": "Growth and sustainability must learn to coexist.", "formality": "FORMAL" },
+      { "word": "tax revenue", "usage": "Growth generates tax revenue for public services.", "formality": "NEUTRAL" },
+      { "word": "qualitative", "usage": "Growth should be measured in qualitative as well as quantitative terms.", "formality": "FORMAL" }
+    ],
+    "sampleAnswer": {
+      "bandScore": 8,
+      "wordCount": 335,
+      "content": "The pursuit of economic growth has long been the cornerstone of national policy, yet its environmental toll has sparked intense debate about whether prosperity and sustainability can truly coexist. This essay will first explain why governments place such emphasis on economic expansion, and then argue that, while challenging, reconciling growth with environmental protection is possible if growth is redefined and managed responsibly.\n\nEconomic growth is prioritised by governments for several compelling reasons. Primarily, a growing economy generates employment, raises living standards, and increases the tax revenue needed to fund healthcare, education, and infrastructure. In developing nations, growth is often the most effective tool for lifting populations out of poverty, as seen in China's dramatic transformation over the past four decades. Furthermore, political leaders are frequently judged by economic performance, meaning that stagnation can lead to voter dissatisfaction and social unrest. For these reasons, growth remains an almost universal political imperative.\n\nThe question of whether growth and sustainability can coexist is more complex. Optimists point to the concept of green growth, which seeks to decouple economic expansion from carbon emissions. Countries such as Denmark and Costa Rica have demonstrated that GDP can rise while emissions fall, thanks to heavy investment in renewable energy, carbon pricing, and circular economy practices. The renewable energy sector itself has become a major source of employment, suggesting that environmental protection can be an economic driver rather than a drag.\n\nNevertheless, critics persuasively argue that infinite growth on a finite planet is ultimately impossible, and that efficiency gains alone cannot offset the rising consumption that growth demands. This perspective suggests that genuine sustainability may require a fundamental redefinition of growth, shifting from quantitative resource throughput to qualitative improvement, such as better services, knowledge economies, and regenerative agriculture.\n\nIn conclusion, while the traditional model of growth is indeed incompatible with long-term sustainability, a reimagined approach that prioritises decarbonisation, resource efficiency, and qualitative development offers a credible pathway. Economic growth and environmental sustainability are not irreconcilable, but achieving both demands visionary policy and a willingness to move beyond GDP as the sole measure of progress.",
+      "examinerComments": "This is a sophisticated essay that addresses both questions with depth and nuance. The first body paragraph clearly explains why governments prioritise growth, using China as a relevant example. The second body paragraph tackles the feasibility question with specific examples of green growth in Denmark and Costa Rica. The third body paragraph demonstrates critical thinking by engaging with the counterargument that infinite growth is impossible, strengthening the overall analysis. Vocabulary is varied and precise, and the essay employs a wide range of complex grammatical structures with accuracy. Cohesion is excellent throughout. This is a strong response that would likely achieve a high band score.",
+      "strengths": [
+        "Both questions are answered thoroughly with a clear, logical structure",
+        "Engagement with counterarguments demonstrates sophisticated critical thinking",
+        "Precise, varied vocabulary and accurate complex grammatical structures throughout"
+      ],
+      "areasForImprovement": [
+        "The essay is close to the upper word limit; tighter editing could improve conciseness",
+        "The conclusion could more explicitly reference the counterargument before resolving it"
+      ]
+    },
+    "commonMistakes": [
+      {
+        "mistake": "Answering only one of the two direct questions, typically the 'why' question while ignoring the feasibility question.",
+        "correction": "Allocate a clear body paragraph to each question and ensure both are explicitly addressed in the conclusion.",
+        "whyItMatters": "Direct-question essays require all questions to be answered; omitting one severely limits the Task Response score."
+      },
+      {
+        "mistake": "Treating the two questions as a single, merged topic without clear separation.",
+        "correction": "Use paragraph structure and signposting language to distinguish each answer, e.g. 'Turning to the second question...'",
+        "whyItMatters": "Blurring the two questions confuses the reader and weakens coherence."
+      },
+      {
+        "mistake": "Taking an absolutist position such as 'growth and sustainability are completely incompatible' without acknowledging nuance.",
+        "correction": "Acknowledge complexities and conditions, e.g. 'reconciliation is possible if growth is redefined and properly managed'.",
+        "whyItMatters": "Nuanced positions demonstrate higher-order thinking and are rewarded in the assessment criteria."
+      }
+    ],
+    "timeLimit": 40,
+    "wordRequirement": 250,
+    "difficulty": "HARD"
+  }
+]

@@ -1,0 +1,929 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Chemistry of Cooking: How Heat Transforms Food",
+      "author": "Dr. Elaine Hartman",
+      "source": "Culinary Science Review",
+      "wordCount": 620,
+      "content": "Cooking is often described as an art, but at its most fundamental level, it is applied chemistry. Every time we sear a steak, bake bread, or caramelize onions, we are initiating complex chemical reactions that transform raw ingredients into something dramatically different. Understanding the chemistry behind these transformations not only makes us better cooks but also reveals why certain techniques work and why following a recipe precisely can matter more than intuition might suggest.\n\nOne of the most important reactions in cooking is the Maillard reaction, named after the French chemist Louis Camille Maillard, who first described it in 1912. This reaction occurs when amino acids and reducing sugars are subjected to heat, producing hundreds of new flavor compounds and the characteristic brown color associated with seared meat, toasted bread, and roasted coffee. The Maillard reaction typically begins at around 140 degrees Celsius, which is why simply boiling meat in water, at 100 degrees Celsius, will never produce a brown crust. The reaction is responsible for the complex flavors that make grilled and roasted foods so appealing to the human palate.\n\nCaramelization is a separate but related process. Unlike the Maillard reaction, which involves amino acids, caramelization is the pyrolysis of sugar alone. When sugar is heated to approximately 160 degrees Celsius, it begins to break down and reform into new compounds, producing the rich, nutty, and slightly bitter flavors characteristic of caramel. This process is used in both sweet and savory dishes, from dessert sauces to the golden crust of a creme brulee. The temperature at which caramelization occurs is critical: too low, and the sugar merely melts; too high, and it burns, producing acrid, unpleasant flavors.\n\nEmulsions represent another fascinating area of culinary chemistry. An emulsion is a mixture of two immiscible liquids, such as oil and water, that are forced to combine. Mayonnaise, vinaigrette, and butter are all emulsions. In each case, an emulsifier, a molecule with both water-loving and fat-loving ends, stabilizes the mixture. In mayonnaise, the emulsifier is lecithin, a compound found in egg yolks. Without an emulsifier, oil and water quickly separate, which is why a vinaigrette must be shaken immediately before use. Understanding emulsions allows cooks to create stable sauces and dressings that would otherwise separate into their components.\n\nFermentation is perhaps the oldest application of chemistry in cooking, predating written history. In fermentation, microorganisms such as yeast and bacteria convert sugars into other compounds, including alcohol, lactic acid, and carbon dioxide. Bread rises because yeast produces carbon dioxide gas, which becomes trapped in the dough's gluten network. Yogurt and cheese owe their tang and texture to bacteria that convert lactose into lactic acid, which also lowers the pH enough to preserve the food. Fermentation not only creates new flavors and textures but also extends shelf life, which is why fermented foods were essential to civilizations before refrigeration.\n\nThe way heat is transferred to food also affects the outcome of cooking. Conduction, convection, and radiation are the three primary modes of heat transfer. Conduction occurs when heat moves directly from one material to another, as when a pan transfers heat to a steak. Convection involves the movement of heated fluid, as in boiling or baking with circulating air. Radiation transfers heat through electromagnetic waves, as in broiling or grilling. Each method produces different results because of how the heat penetrates the food and how quickly the surface temperature rises.\n\nUltimately, the chemistry of cooking demonstrates that the kitchen is a laboratory. By understanding the reactions that occur when heat, time, and ingredients interact, cooks can move beyond merely following recipes and begin to understand why those recipes work. This knowledge empowers them to troubleshoot failures, adapt to new ingredients, and create dishes with intention rather than guesswork.",
+      "topicCategory": "NATURAL_SCIENCE",
+      "complexity": "GENERAL"
+    },
+    "vocabularyInContext": [
+      { "word": "pyrolysis", "paragraph": 3, "context": "caramelization is the pyrolysis of sugar alone", "meaningInContext": "the chemical decomposition of a substance by heat" },
+      { "word": "immiscible", "paragraph": 4, "context": "a mixture of two immiscible liquids, such as oil and water", "meaningInContext": "unable to mix or blend together" },
+      { "word": "emulsifier", "paragraph": 4, "context": "an emulsifier, a molecule with both water-loving and fat-loving ends, stabilizes the mixture", "meaningInContext": "a substance that helps two unmixable liquids combine and stay combined" },
+      { "word": "acrid", "paragraph": 3, "context": "it burns, producing acrid, unpleasant flavors", "meaningInContext": "sharp, harsh, and unpleasant in taste or smell" },
+      { "word": "intuition", "paragraph": 1, "context": "following a recipe precisely can matter more than intuition might suggest", "meaningInContext": "instinctive knowledge or feeling without conscious reasoning" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 16,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Cooking is purely an art form that cannot be explained by science",
+          "Cooking is fundamentally applied chemistry, and understanding the reactions involved makes one a better cook",
+          "Only professional chefs need to understand the chemistry of cooking",
+          "Fermentation is the most important chemical process in cooking"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage's central argument is that cooking is applied chemistry, and understanding the underlying reactions improves culinary skill."
+      },
+      {
+        "questionNumber": 17,
+        "questionText": "Who first described the Maillard reaction?",
+        "options": [
+          "Louis Camille Maillard",
+          "Marie Curie",
+          "Antoine Lavoisier",
+          "Louis Pasteur"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states the Maillard reaction was named after the French chemist Louis Camille Maillard, who first described it in 1912."
+      },
+      {
+        "questionNumber": 18,
+        "questionText": "At approximately what temperature does the Maillard reaction typically begin?",
+        "options": [
+          "100 degrees Celsius",
+          "120 degrees Celsius",
+          "140 degrees Celsius",
+          "200 degrees Celsius"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states the Maillard reaction typically begins at around 140 degrees Celsius, above the boiling point of water."
+      },
+      {
+        "questionNumber": 19,
+        "questionText": "What distinguishes caramelization from the Maillard reaction?",
+        "options": [
+          "Caramelization requires amino acids",
+          "Caramelization is the pyrolysis of sugar alone, without involving amino acids",
+          "Caramelization occurs at a lower temperature than the Maillard reaction",
+          "Caramelization only happens in savory dishes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 explains that unlike the Maillard reaction, which involves amino acids, caramelization is the pyrolysis of sugar alone."
+      },
+      {
+        "questionNumber": 20,
+        "questionText": "The word 'acrid' in paragraph 3 is closest in meaning to:",
+        "options": [
+          "sweet and pleasant",
+          "sharp, harsh, and unpleasant",
+          "mild and neutral",
+          "rich and nutty"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, 'acrid' describes the unpleasant flavors produced when sugar burns, meaning sharp, harsh, and unpleasant."
+      },
+      {
+        "questionNumber": 21,
+        "questionText": "What is the role of an emulsifier in culinary chemistry?",
+        "options": [
+          "It speeds up fermentation",
+          "It is a molecule with water-loving and fat-loving ends that stabilizes a mixture of immiscible liquids",
+          "It increases the temperature at which sugar caramelizes",
+          "It prevents the Maillard reaction from occurring"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 defines an emulsifier as a molecule with both water-loving and fat-loving ends that stabilizes a mixture of immiscible liquids."
+      },
+      {
+        "questionNumber": 22,
+        "questionText": "What is the emulsifier in mayonnaise?",
+        "options": [
+          "Lecithin from egg yolks",
+          "Gluten from wheat",
+          "Lactic acid from bacteria",
+          "Carbon dioxide from yeast"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 states that in mayonnaise, the emulsifier is lecithin, a compound found in egg yolks."
+      },
+      {
+        "questionNumber": 23,
+        "questionText": "Why can boiling meat in water never produce a brown crust?",
+        "options": [
+          "Boiling removes all flavor compounds",
+          "Water boils at 100 degrees Celsius, below the approximately 140 degrees needed for the Maillard reaction",
+          "Boiling meat destroys amino acids",
+          "Water prevents sugar from caramelizing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 2,
+        "explanation": "Since the Maillard reaction begins at around 140 degrees Celsius and water boils at only 100 degrees, boiling cannot reach the temperature needed for browning."
+      },
+      {
+        "questionNumber": 24,
+        "questionText": "Why does the author mention creme brulee in paragraph 3?",
+        "options": [
+          "To argue that caramelization is unhealthy",
+          "To illustrate a practical application of caramelization in cooking",
+          "To compare French and Italian cooking methods",
+          "To show that sugar burns easily"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The author mentions creme brulee's golden crust as an example of caramelization being used in a specific dish."
+      },
+      {
+        "questionNumber": 25,
+        "questionText": "What causes bread to rise during baking?",
+        "options": [
+          "Bacteria convert lactose into lactic acid",
+          "Yeast produces carbon dioxide gas that becomes trapped in the dough's gluten network",
+          "The Maillard reaction creates gas bubbles",
+          "Caramelization releases steam"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 explains that bread rises because yeast produces carbon dioxide gas, which becomes trapped in the dough's gluten network."
+      },
+      {
+        "questionNumber": 26,
+        "questionText": "Why were fermented foods essential to civilizations before refrigeration?",
+        "options": [
+          "They were the only source of protein",
+          "Fermentation extends shelf life by lowering pH, which preserves the food",
+          "Fermented foods cook faster than raw foods",
+          "Fermentation was required by religious law"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 states that fermentation creates new flavors and textures but also extends shelf life, which is why fermented foods were essential before refrigeration."
+      },
+      {
+        "questionNumber": 27,
+        "questionText": "What are the three primary modes of heat transfer mentioned in the passage?",
+        "options": [
+          "Conduction, convection, and radiation",
+          "Boiling, baking, and frying",
+          "Melting, freezing, and evaporating",
+          "Radiation, oxidation, and reduction"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 identifies conduction, convection, and radiation as the three primary modes of heat transfer in cooking."
+      },
+      {
+        "questionNumber": 28,
+        "questionText": "The word 'immiscible' in paragraph 4 is closest in meaning to:",
+        "options": [
+          "identical in composition",
+          "unable to mix or blend together",
+          "highly volatile",
+          "soluble in water"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 4,
+        "explanation": "In context, 'immiscible' describes liquids like oil and water that cannot mix or blend together."
+      },
+      {
+        "questionNumber": 29,
+        "questionText": "Why does the author describe the kitchen as 'a laboratory' in the final paragraph?",
+        "options": [
+          "To emphasize that cooking involves systematic chemical reactions that can be understood and controlled",
+          "To suggest that cooking requires expensive equipment",
+          "To argue that only scientists should cook",
+          "To imply that cooking is dangerous"
+        ],
+        "correctAnswer": 0,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 7,
+        "explanation": "The author uses the laboratory metaphor to emphasize that cooking involves understandable chemical reactions, empowering cooks to work with intention rather than guesswork."
+      },
+      {
+        "questionNumber": 30,
+        "questionText": "Which statement best reflects the passage as a whole?",
+        "options": [
+          "Cooking is an art that defies scientific explanation",
+          "Cooking involves complex chemical reactions, and understanding them allows cooks to improve their skills and troubleshoot failures",
+          "Only professional chefs benefit from understanding food chemistry",
+          "The Maillard reaction is the only important chemical process in cooking"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the passage's central thesis that cooking is applied chemistry, and understanding the reactions involved makes one a more skilled and adaptable cook."
+      }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Psychology of Learning: From Behaviorism to Cognitive Science",
+      "author": "Dr. Sarah Chen",
+      "source": "Educational Psychology Today",
+      "wordCount": 670,
+      "content": "The psychology of learning examines how humans acquire, process, and retain knowledge. For over a century, psychologists have studied the mechanisms of learning, producing theories that have shaped education, training, and personal development. From the behaviorist experiments of the early twentieth century to modern cognitive neuroscience, the field has evolved dramatically, yet certain core principles remain foundational to our understanding of how learning works.\n\nClassical conditioning, pioneered by the Russian physiologist Ivan Pavlov in the 1890s, demonstrated that learning can occur through association. Pavlov's famous experiments with dogs showed that when a neutral stimulus, such as a bell, was repeatedly paired with food, the dogs eventually salivated at the sound of the bell alone. This form of learning, in which an organism comes to associate two stimuli, laid the groundwork for behaviorist psychology. Classical conditioning explains not only simple reflexive responses but also more complex emotional reactions, such as phobias and aversions, that develop through repeated pairing of experiences.\n\nOperant conditioning, developed by the American psychologist B. F. Skinner, focuses on how behavior is shaped by consequences. Skinner identified two types of reinforcement: positive reinforcement, which adds a desirable stimulus to increase a behavior, and negative reinforcement, which removes an unpleasant stimulus to achieve the same effect. He also studied punishment, which decreases behavior, and extinction, the eventual disappearance of a conditioned response when reinforcement is removed. These principles have been applied widely in education, animal training, and behavior therapy, though critics argue that operant conditioning oversimplifies the complexity of human motivation.\n\nThe spacing effect, first described by the psychologist Hermann Ebbinghaus in 1885, is one of the most robust findings in the psychology of learning. Ebbinghaus's experiments with nonsense syllables demonstrated that distributing study sessions over time produces better long-term retention than massed practice, commonly known as cramming. Despite its intuitive appeal and substantial empirical support, the spacing effect is often ignored in practice. Many students continue to cram before exams, despite evidence that spaced study yields superior retention.\n\nCognitive load theory, developed by John Sweller in the 1980s, focuses on the limitations of working memory. The theory posits that working memory can hold only a limited number of information elements at once. When learning material exceeds this capacity, cognitive overload occurs, and learning is impaired. The theory distinguishes three types of cognitive load: intrinsic load, which is inherent to the material's difficulty; extraneous load, which results from poor instructional design; and germane load, which is the productive effort of constructing understanding. Effective instruction minimizes extraneous load while maintaining appropriate levels of intrinsic and germane load.\n\nMetacognition, or thinking about one's own thinking, is another powerful factor in effective learning. Learners who monitor their understanding, identify gaps in their knowledge, and adjust their strategies accordingly tend to outperform those who do not. Research by John Flavell in the 1970s identified metacognitive knowledge and metacognitive regulation as distinct but related components. Students who practice self-testing, for example, not only assess what they know but also strengthen their memory through the act of retrieval. This combination of monitoring and active recall is among the most robust findings in the learning literature.\n\nThe insights from learning psychology have practical implications for education. Curricula that incorporate spaced review, minimize unnecessary cognitive demands, and encourage metacognitive awareness are more likely to produce durable, transferable knowledge. As research continues, the integration of behavioral and cognitive approaches promises even more effective strategies for helping people learn throughout their lives.",
+      "topicCategory": "SOCIAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "neutral", "paragraph": 2, "context": "a neutral stimulus, such as a bell, was repeatedly paired with food", "meaningInContext": "not originally producing any particular response on its own" },
+      { "word": "extinction", "paragraph": 3, "context": "extinction, the eventual disappearance of a conditioned response when reinforcement is removed", "meaningInContext": "the gradual fading of a learned behavior when it is no longer reinforced" },
+      { "word": "empirical", "paragraph": 4, "context": "substantial empirical support", "meaningInContext": "based on observation, experiment, and evidence rather than theory alone" },
+      { "word": "extraneous", "paragraph": 5, "context": "extraneous load, which results from poor instructional design", "meaningInContext": "unnecessary or irrelevant to the learning task at hand" },
+      { "word": "germane", "paragraph": 5, "context": "germane load, which is the productive effort of constructing understanding", "meaningInContext": "relevant and directly contributing to learning" },
+      { "word": "transferable", "paragraph": 7, "context": "durable, transferable knowledge", "meaningInContext": "applicable across different contexts or situations beyond the original learning setting" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 16,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Behaviorism is the only valid approach to understanding learning",
+          "The psychology of learning has evolved from behaviorist principles to cognitive approaches, offering practical strategies for effective education",
+          "Cramming is the most effective study strategy for students",
+          "Metacognition is less important than reinforcement in learning"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage traces the evolution of learning psychology from behaviorism to cognitive science, highlighting key theories and their practical educational implications."
+      },
+      {
+        "questionNumber": 17,
+        "questionText": "Who pioneered classical conditioning?",
+        "options": [
+          "B. F. Skinner",
+          "John Sweller",
+          "Ivan Pavlov",
+          "Hermann Ebbinghaus"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states that classical conditioning was pioneered by the Russian physiologist Ivan Pavlov in the 1890s."
+      },
+      {
+        "questionNumber": 18,
+        "questionText": "What did Pavlov's dogs eventually do in the experiments?",
+        "options": [
+          "They refused to eat when the bell rang",
+          "They salivated at the sound of the bell alone, without food",
+          "They learned to press a lever for food",
+          "They stopped responding to any stimuli"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 describes how the dogs eventually salivated at the sound of the bell alone after it was repeatedly paired with food."
+      },
+      {
+        "questionNumber": 19,
+        "questionText": "According to paragraph 3, what is the difference between positive and negative reinforcement?",
+        "options": [
+          "Positive reinforcement adds a desirable stimulus, while negative reinforcement removes an unpleasant stimulus",
+          "Positive reinforcement is always more effective than negative reinforcement",
+          "Positive reinforcement increases behavior, while negative reinforcement decreases it",
+          "Positive reinforcement is used only with animals, while negative reinforcement is used with humans"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 defines positive reinforcement as adding a desirable stimulus and negative reinforcement as removing an unpleasant stimulus, both to increase a behavior."
+      },
+      {
+        "questionNumber": 20,
+        "questionText": "The word 'extinction' in paragraph 3 refers to:",
+        "options": [
+          "The complete elimination of a species",
+          "The eventual disappearance of a conditioned response when reinforcement is removed",
+          "A type of positive punishment",
+          "The process of learning a new behavior"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, 'extinction' refers to the gradual disappearance of a conditioned response when reinforcement is no longer provided."
+      },
+      {
+        "questionNumber": 21,
+        "questionText": "What did Ebbinghaus's experiments with nonsense syllables demonstrate?",
+        "options": [
+          "That cramming produces the best long-term retention",
+          "That distributing study sessions over time produces better long-term retention than massed practice",
+          "That nonsense syllables cannot be memorized",
+          "That classical conditioning applies to humans"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 states that Ebbinghaus demonstrated distributing study sessions over time produces better long-term retention than massed practice or cramming."
+      },
+      {
+        "questionNumber": 22,
+        "questionText": "What can be inferred about why cramming is less effective than spaced study?",
+        "options": [
+          "Cramming overloads working memory and does not allow sufficient time for consolidation",
+          "Cramming uses too many different study materials",
+          "Cramming only works for mathematics",
+          "Cramming causes students to forget everything immediately"
+        ],
+        "correctAnswer": 0,
+        "questionType": "INFERENCE",
+        "paragraphReference": 4,
+        "explanation": "The passage notes that spaced study yields superior retention, and cognitive load theory later explains that overloading working memory impairs learning, suggesting cramming overwhelms memory capacity."
+      },
+      {
+        "questionNumber": 23,
+        "questionText": "Who developed cognitive load theory?",
+        "options": [
+          "John Flavell",
+          "Ivan Pavlov",
+          "John Sweller",
+          "Hermann Ebbinghaus"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 states that cognitive load theory was developed by John Sweller in the 1980s."
+      },
+      {
+        "questionNumber": 24,
+        "questionText": "The word 'extraneous' in paragraph 5 is closest in meaning to:",
+        "options": [
+          "essential to learning",
+          "unnecessary or irrelevant to the task",
+          "extremely difficult",
+          "automatically processed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 5,
+        "explanation": "In context, 'extraneous' load results from poor instructional design and is unnecessary for learning, so it means irrelevant or unnecessary."
+      },
+      {
+        "questionNumber": 25,
+        "questionText": "What is metacognition as described in paragraph 6?",
+        "options": [
+          "The ability to memorize large amounts of information",
+          "Thinking about one's own thinking, including monitoring understanding and adjusting strategies",
+          "A type of operant conditioning",
+          "The process of forming associations between stimuli"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 defines metacognition as thinking about one's own thinking, where learners monitor their understanding and adjust strategies accordingly."
+      },
+      {
+        "questionNumber": 26,
+        "questionText": "What did John Flavell identify in the 1970s?",
+        "options": [
+          "The spacing effect and its impact on retention",
+          "Metacognitive knowledge and metacognitive regulation as distinct but related components",
+          "The three types of cognitive load",
+          "The principles of operant conditioning"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that Flavell's research in the 1970s identified metacognitive knowledge and metacognitive regulation as distinct but related components."
+      },
+      {
+        "questionNumber": 27,
+        "questionText": "Why does the author mention self-testing in paragraph 6?",
+        "options": [
+          "To argue that self-testing is a waste of time",
+          "To illustrate how metacognitive practice both assesses knowledge and strengthens memory through retrieval",
+          "To show that self-testing is only useful for mathematics",
+          "To compare self-testing with classical conditioning"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 6,
+        "explanation": "The author mentions self-testing as an example of metacognitive practice that both monitors understanding and strengthens memory through active retrieval."
+      },
+      {
+        "questionNumber": 28,
+        "questionText": "What can be inferred about worked examples based on paragraph 5?",
+        "options": [
+          "They increase extraneous cognitive load",
+          "They likely reduce extraneous load by breaking complex material into manageable steps, improving comprehension",
+          "They are only useful for advanced learners",
+          "They eliminate all forms of cognitive load"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 5,
+        "explanation": "Since the passage states that effective instruction minimizes extraneous load, and worked examples are mentioned as a technique, they likely reduce unnecessary load to improve learning."
+      },
+      {
+        "questionNumber": 29,
+        "questionText": "The word 'robust' in paragraph 4 is closest in meaning to:",
+        "options": [
+          "weak and unreliable",
+          "strong and consistently demonstrated",
+          "controversial and disputed",
+      "outdated and no longer relevant"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 4,
+        "explanation": "The spacing effect is described as 'one of the most robust findings,' meaning it is strong and consistently supported by evidence across many studies."
+      },
+      {
+        "questionNumber": 30,
+        "questionText": "Which statement best reflects the passage as a whole?",
+        "options": [
+          "Only behaviorist approaches are useful for understanding learning",
+          "Learning psychology has evolved through behaviorist and cognitive theories, yielding practical strategies like spaced study and metacognition for effective education",
+          "Cognitive load theory has replaced all earlier learning theories",
+          "Memorization is the most important aspect of learning"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the passage's overview of how learning psychology evolved from behaviorism to cognitive science, with practical implications for education."
+      }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Economics of Renewable Energy: Costs, Policies, and Transitions",
+      "author": "James Okonkwo",
+      "source": "Energy Economics Quarterly",
+      "wordCount": 660,
+      "content": "The transition from fossil fuels to renewable energy represents one of the most significant economic transformations of the twenty-first century. As concerns about climate change have intensified, governments, corporations, and consumers have increasingly turned to solar, wind, and other renewable sources. Yet the shift is not merely an environmental imperative; it is also a complex economic phenomenon shaped by technological innovation, government policy, and market dynamics that together determine how quickly and equitably the transition unfolds.\n\nAt the heart of renewable energy economics is the concept of the levelized cost of energy, or LCOE. This metric calculates the total cost of producing electricity over a power plant's lifetime, including construction, fuel, operation, and maintenance, divided by the total energy output. In the past decade, the LCOE of solar photovoltaic and wind energy has fallen dramatically. Solar energy costs have dropped by nearly ninety percent since 2010, making it, in many regions, the cheapest source of new electricity generation. These declines are driven by economies of scale, improvements in manufacturing efficiency, and technological advances in panel and turbine design.\n\nGovernment subsidies and policy mechanisms have played a crucial role in accelerating renewable energy adoption. Feed-in tariffs, which guarantee producers a fixed price for the renewable electricity they generate, were instrumental in launching the solar industries in Germany and Spain in the early 2000s. Tax credits, such as the Investment Tax Credit in the United States, have similarly incentivized deployment. Critics argue that subsidies distort markets and impose costs on taxpayers, but proponents contend that they correct for the externalities of fossil fuels, pollution and greenhouse gas emissions whose costs are borne by society rather than by the polluters.\n\nThe concept of externalities is central to the economics of energy. When a coal plant burns fuel, it releases carbon dioxide and other pollutants that contribute to climate change and health problems, yet the plant operator does not pay for these damages. Economists call this a negative externality. A carbon tax or cap-and-trade system internalizes these costs by putting a price on emissions, making renewable energy more competitive. The European Union's Emissions Trading System, launched in 2005, is the largest such program in the world, though its effectiveness has been debated due to initially low carbon prices.\n\nGrid integration presents another economic challenge. Unlike fossil fuel plants, which can generate electricity on demand, solar and wind are intermittent, producing power only when the sun shines or the wind blows. This intermittency requires investment in energy storage, such as lithium-ion batteries and pumped hydro storage, as well as in transmission infrastructure to move electricity from regions with abundant renewable resources to population centers. The cost of battery storage has fallen significantly, but storing energy for extended periods, such as seasonal storage, remains expensive and technologically challenging.\n\nThe renewable energy transition also has significant labor and distributional implications. While the sector creates jobs in manufacturing, installation, and maintenance, it also displaces workers in coal mining, oil extraction, and related industries. Economists emphasize the importance of a just transition, policies that retrain displaced workers and direct investment toward communities dependent on fossil fuel industries. Without such measures, the economic benefits of renewable energy may be unevenly distributed, exacerbating existing inequalities.\n\nThe economics of renewable energy thus involves far more than simply replacing one energy source with another. It requires rethinking markets, pricing externalities, building new infrastructure, and managing social impacts. As technology continues to advance and as the costs of renewables continue to fall, the economic case for transition grows stronger, but realizing its full benefits depends on thoughtful policy design and equitable implementation.",
+      "topicCategory": "SOCIAL_SCIENCE",
+      "complexity": "TECHNICAL"
+    },
+    "vocabularyInContext": [
+      { "word": "levelized", "paragraph": 2, "context": "the concept of the levelized cost of energy, or LCOE", "meaningInContext": "averaged out over the lifetime of the plant to enable comparison across energy sources" },
+      { "word": "externalities", "paragraph": 3, "context": "they correct for the externalities of fossil fuels", "meaningInContext": "costs or benefits of an economic activity that are not reflected in its market price and are borne by society" },
+      { "word": "internalizes", "paragraph": 4, "context": "A carbon tax or cap-and-trade system internalizes these costs", "meaningInContext": "incorporates previously hidden costs into the market price so that producers bear them" },
+      { "word": "intermittent", "paragraph": 5, "context": "solar and wind are intermittent, producing power only when the sun shines or the wind blows", "meaningInContext": "not continuous or steady; occurring at irregular intervals" },
+      { "word": "distributional", "paragraph": 6, "context": "significant labor and distributional implications", "meaningInContext": "relating to how costs and benefits are spread across different groups in society" },
+      { "word": "imperative", "paragraph": 1, "context": "the shift is not merely an environmental imperative", "meaningInContext": "an unavoidable necessity or duty" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 16,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Renewable energy is too expensive to replace fossil fuels",
+          "The transition to renewable energy is a complex economic phenomenon involving costs, policies, grid challenges, and social impacts",
+          "Government subsidies are the only way to promote renewable energy",
+          "Solar energy is the only viable renewable source"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage examines renewable energy as a multifaceted economic transformation involving cost metrics, government policy, grid integration, and labor impacts."
+      },
+      {
+        "questionNumber": 17,
+        "questionText": "What does the levelized cost of energy (LCOE) calculate?",
+        "options": [
+          "The total profit from selling electricity over one year",
+          "The total cost of producing electricity over a plant's lifetime, including construction and operation, divided by total energy output",
+          "The environmental impact of a power plant per kilowatt-hour",
+          "The amount of government subsidy required per plant"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 defines LCOE as the total cost of producing electricity over a plant's lifetime, including construction, fuel, operation, and maintenance, divided by total energy output."
+      },
+      {
+        "questionNumber": 18,
+        "questionText": "Approximately how much have solar energy costs dropped since 2010?",
+        "options": [
+          "About 50 percent",
+          "About 70 percent",
+          "Nearly 90 percent",
+          "About 30 percent"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states that solar energy costs have dropped by nearly ninety percent since 2010."
+      },
+      {
+        "questionNumber": 19,
+        "questionText": "What do feed-in tariffs guarantee to renewable energy producers?",
+        "options": [
+          "Free land for building power plants",
+          "A fixed price for the renewable electricity they generate",
+          "Exemption from all taxes",
+          "Priority access to the electrical grid without cost"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 explains that feed-in tariffs guarantee producers a fixed price for the renewable electricity they generate."
+      },
+      {
+        "questionNumber": 20,
+        "questionText": "The word 'externalities' in paragraph 3 is closest in meaning to:",
+        "options": [
+          "external business expenses that are tax-deductible",
+          "costs or effects of an economic activity that are not reflected in its market price and are borne by society",
+          "international trade barriers affecting energy markets",
+          "extra energy produced beyond what is needed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, externalities refer to pollution and greenhouse gas emissions whose costs are borne by society rather than by the polluters, meaning costs not reflected in market prices."
+      },
+      {
+        "questionNumber": 21,
+        "questionText": "What is a negative externality as described in paragraph 4?",
+        "options": [
+          "The profit lost by renewable energy companies",
+          "When a coal plant releases pollutants that cause damage the operator does not pay for",
+          "The decline in renewable energy prices",
+          "The cost of building new transmission lines"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 gives the example of a coal plant releasing carbon dioxide and pollutants that cause climate and health problems without the operator paying for the damages."
+      },
+      {
+        "questionNumber": 22,
+        "questionText": "When was the European Union's Emissions Trading System launched?",
+        "options": [
+          "1998",
+          "2005",
+          "2010",
+          "2015"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 states that the European Union's Emissions Trading System was launched in 2005."
+      },
+      {
+        "questionNumber": 23,
+        "questionText": "What can be inferred about why intermittency is a challenge for renewable energy?",
+        "options": [
+          "Intermittent energy sources produce too much electricity at peak times",
+          "Because solar and wind only produce power when conditions allow, storage and transmission investments are needed to ensure reliability",
+          "Intermittent energy damages the electrical grid",
+          "Intermittency makes renewable energy more expensive than fossil fuels in all cases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 5,
+        "explanation": "The passage explains that intermittency requires investment in storage and transmission infrastructure because renewable sources cannot generate on demand like fossil fuel plants."
+      },
+      {
+        "questionNumber": 24,
+        "questionText": "What energy storage solutions are mentioned in paragraph 5?",
+        "options": [
+          "Hydrogen fuel cells and compressed air",
+          "Lithium-ion batteries and pumped hydro storage",
+          "Flywheels and thermal storage",
+          "Supercapacitors and nuclear batteries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 mentions lithium-ion batteries and pumped hydro storage as energy storage solutions needed to address intermittency."
+      },
+      {
+        "questionNumber": 25,
+        "questionText": "Why does the author mention the European Union's Emissions Trading System in paragraph 4?",
+        "options": [
+          "To argue that it has completely solved the problem of carbon emissions",
+          "To illustrate how a cap-and-trade system attempts to internalize the costs of carbon emissions",
+          "To prove that carbon taxes are always more effective than cap-and-trade",
+          "To show that renewable energy cannot work without government mandates"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 4,
+        "explanation": "The author mentions the EU ETS as an example of a cap-and-trade system that internalizes carbon emission costs, while also noting its effectiveness has been debated."
+      },
+      {
+        "questionNumber": 26,
+        "questionText": "The word 'intermittent' in paragraph 5 is closest in meaning to:",
+        "options": [
+          "continuous and reliable",
+          "not continuous; occurring only at certain times",
+          "extremely expensive",
+          "dangerous to operate"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 5,
+        "explanation": "The passage describes solar and wind as intermittent because they produce power only when the sun shines or the wind blows, meaning not continuous."
+      },
+      {
+        "questionNumber": 27,
+        "questionText": "What is a 'just transition' as described in paragraph 6?",
+        "options": [
+          "A transition that happens quickly and without disruption",
+          "Policies that retrain displaced fossil fuel workers and invest in communities dependent on those industries",
+          "A transition that only benefits wealthy investors",
+          "A legal framework for closing coal plants"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 defines a just transition as policies that retrain displaced workers and direct investment toward communities dependent on fossil fuel industries."
+      },
+      {
+        "questionNumber": 28,
+        "questionText": "What can be inferred about seasonal energy storage from paragraph 5?",
+        "options": [
+          "It is already cheap and widely deployed",
+          "It remains expensive and technologically challenging, suggesting further innovation is needed",
+          "It is unnecessary for renewable energy grids",
+          "It has been solved by lithium-ion batteries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 5,
+        "explanation": "The passage states that while battery storage costs have fallen, storing energy for extended periods like seasonal storage remains expensive and technologically challenging."
+      },
+      {
+        "questionNumber": 29,
+        "questionText": "According to paragraph 2, what factors have driven the decline in solar energy costs?",
+        "options": [
+          "Government bans on coal production",
+          "Economies of scale, improvements in manufacturing efficiency, and technological advances in panel design",
+          "Reduced demand for electricity worldwide",
+          "Decreased labor costs in the construction industry"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states the cost declines are driven by economies of scale, improvements in manufacturing efficiency, and technological advances in panel and turbine design."
+      },
+      {
+        "questionNumber": 30,
+        "questionText": "Which statement best reflects the passage as a whole?",
+        "options": [
+          "Renewable energy is too expensive to compete with fossil fuels",
+          "The renewable energy transition requires not only technological advances but also policy design, infrastructure investment, and social equity measures to succeed",
+          "Government subsidies should be eliminated to let markets decide energy sources",
+          "The main barrier to renewable energy is public opposition"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the passage's comprehensive view that the transition involves costs, policies, grid challenges, and social impacts, requiring thoughtful and equitable implementation."
+      }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Archaeology of Ancient Civilizations: Methods and Discoveries",
+      "author": "Dr. Maria Castillo",
+      "source": "Journal of Archaeological Science",
+      "wordCount": 690,
+      "content": "Archaeology, the systematic study of human history through material remains, provides our most direct window into ancient civilizations. Unlike written records, which reflect the perspectives and biases of literate elites, archaeological evidence offers a more democratic record, encompassing the lives of ordinary people, the structures of daily existence, and the slow processes of cultural change. Through the careful excavation and analysis of artifacts, architecture, and environmental data, archaeologists reconstruct the rise and fall of societies that flourished thousands of years before the present.\n\nThe discipline relies on several fundamental principles. Stratigraphy, the study of layered deposits, is perhaps the most important. The principle of superposition, first formalized by the geologist Nicholas Steno in the seventeenth century, states that in undisturbed layers, older deposits lie beneath newer ones. This principle allows archaeologists to establish relative chronologies at excavation sites. When combined with absolute dating techniques, such as radiocarbon dating, stratigraphy enables researchers to construct detailed timelines of human occupation and cultural development.\n\nRadiocarbon dating, developed by the chemist Willard Libby in the late 1940s, revolutionized archaeology by providing a method to determine the age of organic materials. All living organisms absorb carbon, including the radioactive isotope carbon-14, from the atmosphere. Upon death, absorption ceases, and the carbon-14 decays at a known rate, with a half-life of approximately 5,730 years. By measuring the remaining carbon-14 in a sample, scientists can calculate when the organism died. This technique is effective for materials up to about 50,000 years old, though calibration with tree-ring data is necessary to account for fluctuations in atmospheric carbon-14 levels over time.\n\nThe archaeology of Mesopotamia, often called the cradle of civilization, illustrates how material evidence reshapes historical understanding. Excavations at sites such as Ur, Uruk, and Nineveh have revealed the origins of urbanism, writing, and state bureaucracy. The discovery of the Royal Cemetery at Ur by Sir Leonard Woolley in the 1920s uncovered lavish grave goods, including gold helmets, lyres, and the famous Standard of Ur, a mosaic panel depicting scenes of war and peace. These findings demonstrate that by 2500 BCE, Sumerian society had achieved remarkable levels of craft specialization, social stratification, and artistic sophistication.\n\nMesoamerican archaeology has similarly transformed our understanding of the Maya civilization. For decades, scholars believed the Maya were a peaceful society of priest-astronomers. However, archaeological discoveries beginning in the 1970s, including decipherment of glyphs and excavation of defensive walls and mass burials, revealed that warfare was far more prevalent than previously assumed. The collapse of the Classic Maya civilization around 900 CE is now understood to have been driven by a combination of drought, deforestation, overpopulation, and endemic conflict, a conclusion supported by pollen analysis, sediment cores, and settlement pattern surveys.\n\nModern archaeology has increasingly incorporated scientific techniques from other disciplines. Isotope analysis of human bones can reveal an individual's diet and geographic origin. Residue analysis of pottery shards can identify traces of ancient foods and beverages. Ground-penetrating radar and satellite imagery allow archaeologists to identify buried structures without excavation, preserving sites for future study. These technological advances have expanded the scope of archaeological inquiry, enabling researchers to answer questions that were previously unanswerable.\n\nThe archaeology of ancient civilizations ultimately reminds us that human societies are neither permanent nor inevitable. The cities that once dominated their regions, from Mesopotamia to Mesoamerica, rose and fell through complex interactions of environment, technology, and social organization. By studying these patterns, archaeologists not only illuminate the past but also provide cautionary lessons for our own civilization, which may be more vulnerable to similar forces than we care to admit.",
+      "topicCategory": "HISTORY",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "stratigraphy", "paragraph": 2, "context": "Stratigraphy, the study of layered deposits, is perhaps the most important", "meaningInContext": "the analysis of the sequence of geological or archaeological layers to determine relative age" },
+      { "word": "superposition", "paragraph": 2, "context": "The principle of superposition states that in undisturbed layers, older deposits lie beneath newer ones", "meaningInContext": "the principle that in undisturbed sequences, lower layers are older than those above them" },
+      { "word": "calibration", "paragraph": 3, "context": "calibration with tree-ring data is necessary to account for fluctuations in atmospheric carbon-14 levels", "meaningInContext": "the process of adjusting raw measurements against known reference data to improve accuracy" },
+      { "word": "stratification", "paragraph": 4, "context": "remarkable levels of craft specialization, social stratification, and artistic sophistication", "meaningInContext": "the organization of society into hierarchical layers or classes" },
+      { "word": "endemic", "paragraph": 5, "context": "overpopulation, and endemic conflict", "meaningInContext": "regularly found in a particular society; characteristic of that culture's ongoing condition" },
+      { "word": "inquiry", "paragraph": 6, "context": "expanded the scope of archaeological inquiry", "meaningInContext": "the range of questions and investigations that researchers can pursue" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 16,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Archaeology is inferior to written records for understanding the past",
+          "Archaeology uses scientific methods to reconstruct ancient civilizations, revealing insights that written records alone cannot provide",
+          "Only Mesopotamian and Mayan civilizations are worth studying archaeologically",
+          "Radiocarbon dating is the only useful archaeological technique"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage describes how archaeology uses methods like stratigraphy, radiocarbon dating, and modern scientific techniques to reconstruct ancient civilizations beyond what written records show."
+      },
+      {
+        "questionNumber": 17,
+        "questionText": "What does stratigraphy study?",
+        "options": [
+          "The chemical composition of ancient pottery",
+          "Layered deposits at archaeological sites to establish relative chronologies",
+          "The genetic makeup of ancient human populations",
+          "The climatic conditions of ancient environments"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 defines stratigraphy as the study of layered deposits, which is the most important principle for establishing relative chronologies at excavation sites."
+      },
+      {
+        "questionNumber": 18,
+        "questionText": "Who first formalized the principle of superposition?",
+        "options": [
+          "Willard Libby",
+          "Leonard Woolley",
+          "Nicholas Steno",
+          "Hermann Ebbinghaus"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states that the principle of superposition was first formalized by the geologist Nicholas Steno in the seventeenth century."
+      },
+      {
+        "questionNumber": 19,
+        "questionText": "Who developed radiocarbon dating?",
+        "options": [
+          "Nicholas Steno",
+          "Willard Libby",
+          "Leonard Woolley",
+          "John Flavell"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 states that radiocarbon dating was developed by the chemist Willard Libby in the late 1940s."
+      },
+      {
+        "questionNumber": 20,
+        "questionText": "The word 'superposition' in paragraph 2 refers to the principle that:",
+        "options": [
+          "all archaeological layers are the same age",
+          "in undisturbed layers, older deposits lie beneath newer ones",
+          "the deepest layers contain the most artifacts",
+          "layers must be removed in random order"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 2,
+        "explanation": "The passage defines superposition as the principle that in undisturbed layers, older deposits lie beneath newer ones."
+      },
+      {
+        "questionNumber": 21,
+        "questionText": "What is the approximate half-life of carbon-14?",
+        "options": [
+          "1,200 years",
+          "3,000 years",
+          "5,730 years",
+          "50,000 years"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 states that carbon-14 decays at a known rate, with a half-life of approximately 5,730 years."
+      },
+      {
+        "questionNumber": 22,
+        "questionText": "What did Sir Leonard Woolley discover at Ur in the 1920s?",
+        "options": [
+          "The first examples of Mayan glyphs",
+          "The Royal Cemetery, containing lavish grave goods including gold helmets, lyres, and the Standard of Ur",
+          "A collection of radiocarbon-dated bones",
+          "Evidence of a prehistoric volcanic eruption"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 describes Woolley's discovery of the Royal Cemetery at Ur, which contained gold helmets, lyres, and the famous Standard of Ur."
+      },
+      {
+        "questionNumber": 23,
+        "questionText": "What can be inferred about why archaeological evidence is described as 'more democratic' than written records?",
+        "options": [
+          "Archaeological evidence is voted on by committees",
+          "It includes the lives of ordinary people, not just the literate elites who wrote historical records",
+          "Archaeological sites are open to the public",
+          "Written records are always fabricated"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 1,
+        "explanation": "The passage contrasts archaeological evidence with written records that reflect literate elites' perspectives, implying archaeology encompasses ordinary people's lives too."
+      },
+      {
+        "questionNumber": 24,
+        "questionText": "The word 'endemic' in paragraph 5 is closest in meaning to:",
+        "options": [
+          "rare and unusual",
+          "regularly occurring or characteristic of a particular place",
+          "extremely destructive",
+          "newly introduced"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 5,
+        "explanation": "In context, 'endemic conflict' refers to warfare that was regularly present and characteristic of the Maya civilization, not rare or new."
+      },
+      {
+        "questionNumber": 25,
+        "questionText": "According to paragraph 5, what factors contributed to the collapse of the Classic Maya civilization?",
+        "options": [
+          "Foreign invasion and religious conversion",
+          "Drought, deforestation, overpopulation, and endemic conflict",
+          "Volcanic eruptions and earthquakes",
+          "Economic competition with neighboring empires"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 states the collapse around 900 CE was driven by a combination of drought, deforestation, overpopulation, and endemic conflict."
+      },
+      {
+        "questionNumber": 26,
+        "questionText": "Why does the author mention the Standard of Ur in paragraph 4?",
+        "options": [
+          "To argue that it is the most valuable artifact ever found",
+          "To illustrate the level of artistic sophistication and craft specialization achieved by Sumerian society by 2500 BCE",
+          "To prove that all Sumerian art depicted scenes of war",
+          "To show that archaeology is unreliable"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 4,
+        "explanation": "The Standard of Ur is mentioned as part of the lavish grave goods demonstrating the craft specialization, social stratification, and artistic sophistication of Sumerian society."
+      },
+      {
+        "questionNumber": 27,
+        "questionText": "What can isotope analysis of human bones reveal according to paragraph 6?",
+        "options": [
+          "The exact cause of death of an individual",
+          "An individual's diet and geographic origin",
+          "The individual's name and social rank",
+          "The diseases the individual carried"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that isotope analysis of human bones can reveal an individual's diet and geographic origin."
+      },
+      {
+        "questionNumber": 28,
+        "questionText": "What can be inferred about ground-penetrating radar from paragraph 6?",
+        "options": [
+          "It destroys archaeological sites during use",
+          "It allows archaeologists to identify buried structures without excavation, preserving sites for future study",
+          "It can only be used in desert environments",
+          "It replaces the need for radiocarbon dating entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "The passage states that ground-penetrating radar allows identification of buried structures without excavation, which preserves sites for future study."
+      },
+      {
+        "questionNumber": 29,
+        "questionText": "The word 'calibration' in paragraph 3 is closest in meaning to:",
+        "options": [
+          "destruction of samples for testing",
+          "adjusting raw measurements against known reference data to improve accuracy",
+          "removing contamination from archaeological samples",
+          "dating artifacts using only visual inspection"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, calibration with tree-ring data is used to account for fluctuations in atmospheric carbon-14, meaning adjusting raw radiocarbon measurements against known reference data."
+      },
+      {
+        "questionNumber": 30,
+        "questionText": "Which statement best reflects the passage as a whole?",
+        "options": [
+          "Archaeology relies exclusively on written records to understand ancient civilizations",
+          "Through scientific methods like stratigraphy, radiocarbon dating, and modern analytical techniques, archaeology reconstructs ancient civilizations and offers lessons for the present",
+          "The collapse of ancient civilizations was always caused by warfare alone",
+          "Modern technology has made traditional archaeological methods obsolete"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the passage's overview of archaeological methods from stratigraphy to modern scientific techniques, and the cautionary lessons these discoveries offer for contemporary civilization."
+      }
+    ],
+    "difficulty": "HARD"
+  }
+]

@@ -1,0 +1,651 @@
+[
+  {
+    "type": "STRUCTURE",
+    "questionText": "TOEFL Structure & Written Expression",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The committee __________ a final decision after reviewing all submitted proposals.",
+        "options": [
+          "reached",
+          "reaching",
+          "which reached",
+          "that reach"
+        ],
+        "correctAnswer": 0,
+        "grammarTopic": "VERB_TENSE",
+        "explanation": {
+          "correctAnswer": "The simple past 'reached' is the main verb of the sentence and agrees with the singular subject 'committee'.",
+          "grammarRule": "A sentence needs a finite main verb. 'reaching' is a participle, and 'which reached' / 'that reach' introduce a subordinate clause that leaves the main clause without a verb.",
+          "example": "The board approved the new policy yesterday.",
+          "commonMistake": "Learners often choose 'reaching' thinking the -ing form is more formal, but it cannot function as the main verb here."
+        }
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "Neither the manager nor the employees __________ satisfied with the new schedule.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "has been"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+        "explanation": {
+          "correctAnswer": "With 'neither...nor', the verb agrees with the noun closest to it. 'Employees' is plural, so 'are' is correct.",
+          "grammarRule": "When two subjects are joined by 'neither...nor' or 'either...or', the verb agrees with the subject nearer to it.",
+          "example": "Neither the teacher nor the students were ready for the test.",
+          "commonMistake": "Learners sometimes match the verb to the first noun ('manager'), which is singular, producing 'is' or 'was'."
+        }
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "By the time the rescue team arrived, the hikers __________ for three days.",
+        "options": [
+          "were stranded",
+          "have been stranded",
+          "had been stranded",
+          "are stranded"
+        ],
+        "correctAnswer": 2,
+        "grammarTopic": "VERB_TENSE",
+        "explanation": {
+          "correctAnswer": "The past perfect 'had been stranded' shows an action completed before another past action ('arrived').",
+          "grammarRule": "Use past perfect (had + past participle) for an action that was completed before another action in the past.",
+          "example": "By the time we reached the station, the train had already left.",
+          "commonMistake": "Using the simple past 'were stranded' loses the sense that the stranding happened before the arrival."
+        }
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The new policy requires that every employee __________ the safety training annually.",
+        "options": [
+          "completes",
+          "complete",
+          "completed",
+          "completing"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "VERB_FORM",
+        "explanation": {
+          "correctAnswer": "After verbs of demand such as 'require', the subjunctive base form 'complete' is required.",
+          "grammarRule": "Verbs like insist, require, suggest, demand, and recommend are followed by a 'that' clause using the base form of the verb.",
+          "example": "The doctor recommended that she rest for a week.",
+          "commonMistake": "Learners often use the third-person singular 'completes', forgetting the subjunctive."
+        }
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "The scientist presented (A)her findings, (B)which was published (C)in a leading journal, (D)to the conference attendees.",
+        "underlinedParts": [
+          { "text": "her findings", "index": 1, "isCorrectAnswer": false },
+          { "text": "which was published", "index": 2, "isCorrectAnswer": true },
+          { "text": "in a leading journal", "index": 3, "isCorrectAnswer": false },
+          { "text": "to the conference attendees", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "her findings",
+          "which was published",
+          "in a leading journal",
+          "to the conference attendees"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+        "explanation": {
+          "correctAnswer": "The relative pronoun 'which' refers to 'findings' (plural), so the verb should be 'were published', not 'was published'.",
+          "grammarRule": "The verb in a relative clause must agree in number with its antecedent (the noun it refers to).",
+          "example": "The results, which were surprising, changed the field.",
+          "commonMistake": "Learners sometimes match the verb to the nearest noun ('journal') instead of the actual antecedent."
+        }
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The professor emphasized the importance of __________ data before drawing conclusions.",
+        "options": [
+          "analyze",
+          "analyzing",
+          "analyzed",
+          "analysis"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "GERUNDS_INFINITIVES",
+        "explanation": {
+          "correctAnswer": "After the preposition 'of', the gerund 'analyzing' is required.",
+          "grammarRule": "A preposition must be followed by a noun or a gerund (-ing form), never a bare infinitive.",
+          "example": "She is capable of solving complex problems.",
+          "commonMistake": "Learners sometimes use the base form 'analyze' directly after a preposition."
+        }
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "Of the two candidates, Ms. Lopez is __________ qualified for the senior position.",
+        "options": [
+          "more",
+          "most",
+          "the more",
+          "the most"
+        ],
+        "correctAnswer": 2,
+        "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+        "explanation": {
+          "correctAnswer": "When comparing only two items, use the comparative form 'more' with the definite article 'the'.",
+          "grammarRule": "Use 'the + comparative' when comparing exactly two items; reserve 'the + superlative' for three or more.",
+          "example": "She is the taller of the two sisters.",
+          "commonMistake": "Using 'most' for a comparison of only two items is incorrect."
+        }
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "Despite (A)of the heavy rain, (B)the construction crew continued (C)to work (D)on the bridge.",
+        "underlinedParts": [
+          { "text": "of the heavy rain", "index": 1, "isCorrectAnswer": true },
+          { "text": "the construction crew continued", "index": 2, "isCorrectAnswer": false },
+          { "text": "to work", "index": 3, "isCorrectAnswer": false },
+          { "text": "on the bridge", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "of the heavy rain",
+          "the construction crew continued",
+          "to work",
+          "on the bridge"
+        ],
+        "correctAnswer": 0,
+        "grammarTopic": "PREPOSITIONS",
+        "explanation": {
+          "correctAnswer": "'Despite' is never followed by 'of'. The correct phrase is 'Despite the heavy rain' or 'In spite of the heavy rain'.",
+          "grammarRule": "'Despite' and 'in spite of' have the same meaning, but 'despite' is never followed by 'of'.",
+          "example": "Despite the cold weather, they went hiking.",
+          "commonMistake": "Learners often write 'despite of' by analogy with 'in spite of'."
+        }
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The manuscript is believed __________ in the fifteenth century.",
+        "options": [
+          "to write",
+          "to have been written",
+          "to be written",
+          "writing"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "PASSIVE_VOICE",
+        "explanation": {
+          "correctAnswer": "The passive infinitive 'to have been written' shows a past completed action attributed to the subject.",
+          "grammarRule": "Use 'to have been + past participle' for a past passive infinitive, especially after verbs like 'believe', 'say', 'report'.",
+          "example": "He is said to have been promoted last year.",
+          "commonMistake": "Using the simple passive 'to be written' fails to convey the past completed action."
+        }
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "__________ the storm, the captain ordered the crew to secure the cargo.",
+        "options": [
+          "Anticipating",
+          "Anticipate",
+          "Anticipated",
+          "To anticipating"
+        ],
+        "correctAnswer": 0,
+        "grammarTopic": "REDUCED_CLAUSE",
+        "explanation": {
+          "correctAnswer": "The present participle 'Anticipating' reduces the clause 'Because he was anticipating'.",
+          "grammarRule": "Adverbial clauses of reason can be reduced to a present participle phrase when the subject is the same as in the main clause.",
+          "example": "Feeling tired, she went to bed early.",
+          "commonMistake": "Using the base form 'Anticipate' or past 'Anticipated' creates an ungrammatical sentence."
+        }
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The lab's new microscope is much __________ than the previous model.",
+        "options": [
+          "powerful",
+          "more powerful",
+          "most powerful",
+          "the most powerful"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+        "explanation": {
+          "correctAnswer": "The comparative 'more powerful' is used when comparing two things.",
+          "grammarRule": "For two-syllable adjectives not ending in -y (e.g. powerful), form the comparative with 'more'.",
+          "example": "This book is more interesting than the last one.",
+          "commonMistake": "Learners sometimes add '-er' to long adjectives: 'powerfuler'."
+        }
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "The students (A)who (B)studies diligently (C)usually perform (D)well on the exam.",
+        "underlinedParts": [
+          { "text": "who", "index": 1, "isCorrectAnswer": false },
+          { "text": "studies diligently", "index": 2, "isCorrectAnswer": true },
+          { "text": "usually perform", "index": 3, "isCorrectAnswer": false },
+          { "text": "well on the exam", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "who",
+          "studies diligently",
+          "usually perform",
+          "well on the exam"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+        "explanation": {
+          "correctAnswer": "The relative pronoun 'who' refers to 'students' (plural), so the verb should be 'study', not 'studies'.",
+          "grammarRule": "The verb in a relative clause must agree with the antecedent of the relative pronoun.",
+          "example": "The engineers who design bridges need precision.",
+          "commonMistake": "Learners sometimes match the verb to the main subject instead of the relative pronoun's antecedent."
+        }
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "If the company __________ more research, it would have launched a successful product.",
+        "options": [
+          "did",
+          "had done",
+          "has done",
+          "does"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "CONDITIONAL",
+        "explanation": {
+          "correctAnswer": "This is a third conditional; the if-clause needs the past perfect 'had done'.",
+          "grammarRule": "Third conditional uses 'if + past perfect' in the if-clause and 'would have + past participle' in the main clause.",
+          "example": "If she had studied harder, she would have passed.",
+          "commonMistake": "Using 'did' (simple past) in a third conditional is incorrect."
+        }
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The senator, __________ campaign focused on environmental reform, won by a landslide.",
+        "options": [
+          "whose",
+          "which",
+          "that",
+          "who"
+        ],
+        "correctAnswer": 0,
+        "grammarTopic": "RELATIVE_CLAUSE",
+        "explanation": {
+          "correctAnswer": "'Whose' shows possession, indicating that the campaign belongs to the senator.",
+          "grammarRule": "Use 'whose' as a possessive relative pronoun for people and things.",
+          "example": "The author whose book won the prize gave a speech.",
+          "commonMistake": "Learners sometimes use 'which' or 'who' where possession is required."
+        }
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "Not until the meeting ended __________ the controversial decision had been postponed.",
+        "options": [
+          "we realized",
+          "did we realize",
+          "we did realize",
+          "realized we"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "WORD_ORDER",
+        "explanation": {
+          "correctAnswer": "When a negative adverbial phrase begins the sentence, the subject and auxiliary verb are inverted: 'did we realize'.",
+          "grammarRule": "Negative adverbials like 'not until', 'never', 'rarely' at the start of a sentence trigger inversion of subject and auxiliary.",
+          "example": "Never have I seen such a sight.",
+          "commonMistake": "Keeping normal word order 'we realized' after a fronted negative adverbial is incorrect."
+        }
+      },
+      {
+        "questionNumber": 16,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "The chef (A) seasoned the soup, (B)stirred it slowly, and (C)it was tasted (D)before serving.",
+        "underlinedParts": [
+          { "text": "seasoned the soup", "index": 1, "isCorrectAnswer": false },
+          { "text": "stirred it slowly", "index": 2, "isCorrectAnswer": false },
+          { "text": "it was tasted", "index": 3, "isCorrectAnswer": true },
+          { "text": "before serving", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "seasoned the soup",
+          "stirred it slowly",
+          "it was tasted",
+          "before serving"
+        ],
+        "correctAnswer": 2,
+        "grammarTopic": "PARALLEL_STRUCTURE",
+        "explanation": {
+          "correctAnswer": "The third item should be the past-tense verb 'tasted' to maintain parallel structure with 'seasoned' and 'stirred'.",
+          "grammarRule": "Items in a series should use the same grammatical form.",
+          "example": "She washed, chopped, and cooked the vegetables.",
+          "commonMistake": "Switching to a passive clause 'it was tasted' breaks parallelism."
+        }
+      },
+      {
+        "questionNumber": 17,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The board insisted that the report __________ by Friday at the latest.",
+        "options": [
+          "is submitted",
+          "be submitted",
+          "will be submitted",
+          "was submitted"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "VERB_FORM",
+        "explanation": {
+          "correctAnswer": "After 'insist that', use the subjunctive base form 'be submitted' (passive).",
+          "grammarRule": "Verbs of insistence (insist, demand, require) take a 'that' clause with the base form of the verb.",
+          "example": "They insisted that the document be signed.",
+          "commonMistake": "Using indicative 'is submitted' is a common error after 'insist that'."
+        }
+      },
+      {
+        "questionNumber": 18,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The researchers published their findings, __________ surprised the scientific community.",
+        "options": [
+          "that",
+          "which",
+          "who",
+          "whose"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "RELATIVE_CLAUSE",
+        "explanation": {
+          "correctAnswer": "The non-restrictive relative clause is set off by a comma, so 'which' must be used, not 'that'.",
+          "grammarRule": "Non-restrictive relative clauses (with commas) use 'which' for things; 'that' is only used in restrictive clauses.",
+          "example": "The novel, which was a bestseller, won several awards.",
+          "commonMistake": "Using 'that' after a comma in a non-restrictive clause is incorrect."
+        }
+      },
+      {
+        "questionNumber": 19,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The discovery of penicillin is considered one of __________ in medical history.",
+        "options": [
+          "the greatest breakthrough",
+          "the greatest breakthroughs",
+          "greatest breakthrough",
+          "a greatest breakthrough"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+        "explanation": {
+          "correctAnswer": "After 'one of the' use the superlative plural noun 'the greatest breakthroughs'.",
+          "grammarRule": "The pattern 'one of the + superlative + plural noun' is used to rank items within a group.",
+          "example": "She is one of the most talented musicians in the orchestra.",
+          "commonMistake": "Using a singular noun after 'one of the' breaks the pattern."
+        }
+      },
+      {
+        "questionNumber": 20,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "__________ for the timely warning, many lives would have been lost.",
+        "options": [
+          "Were it not",
+          "If it is not",
+          "Had it not been",
+          "If it was not"
+        ],
+        "correctAnswer": 2,
+        "grammarTopic": "CONDITIONAL",
+        "explanation": {
+          "correctAnswer": "In an inverted third conditional, 'Had it not been' replaces 'If it had not been'.",
+          "grammarRule": "In formal English, 'if + past perfect' can be inverted to 'had + subject + past participle', omitting 'if'.",
+          "example": "Had they known, they would have acted differently.",
+          "commonMistake": "Using the present 'If it is not' or non-inverted 'Were it not' in a past unreal conditional."
+        }
+      },
+      {
+        "questionNumber": 21,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "Each of the (A)participants (B)were given (C)a certificate (D)at the end of the workshop.",
+        "underlinedParts": [
+          { "text": "participants", "index": 1, "isCorrectAnswer": false },
+          { "text": "were given", "index": 2, "isCorrectAnswer": true },
+          { "text": "a certificate", "index": 3, "isCorrectAnswer": false },
+          { "text": "at the end of the workshop", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "participants",
+          "were given",
+          "a certificate",
+          "at the end of the workshop"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+        "explanation": {
+          "correctAnswer": "The subject is 'Each' (singular), so the verb should be 'was given', not 'were given'.",
+          "grammarRule": "'Each' is singular regardless of the plural noun in the prepositional phrase that follows.",
+          "example": "Each of the students has a desk.",
+          "commonMistake": "Learners often match the verb to 'participants' (plural) instead of 'Each'."
+        }
+      },
+      {
+        "questionNumber": 22,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The architect designed the building __________ natural light would reach every office.",
+        "options": [
+          "so that",
+          "in order to",
+          "such that",
+          "because of"
+        ],
+        "correctAnswer": 0,
+        "grammarTopic": "WORD_ORDER",
+        "explanation": {
+          "correctAnswer": "'So that' introduces a purpose clause with a subject and verb ('would reach').",
+          "grammarRule": "Use 'so that' + clause to express purpose; 'in order to' is followed by a base verb, not a clause.",
+          "example": "She left early so that she could catch the train.",
+          "commonMistake": "Using 'in order to' before a full clause is grammatically incorrect."
+        }
+      },
+      {
+        "questionNumber": 23,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The scientist's research, __________ took over a decade, finally revealed the enzyme's structure.",
+        "options": [
+          "that",
+          "which",
+          "who",
+          "what"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "RELATIVE_CLAUSE",
+        "explanation": {
+          "correctAnswer": "The non-restrictive clause is set off by commas, so 'which' is required, not 'that'.",
+          "grammarRule": "Non-restrictive relative clauses use 'which' for things and 'who' for people; 'that' cannot introduce a non-restrictive clause.",
+          "example": "The experiment, which lasted a year, produced remarkable results.",
+          "commonMistake": "Using 'that' after a comma is a common error in non-restrictive clauses."
+        }
+      },
+      {
+        "questionNumber": 24,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The new employee is not only efficient __________ extremely creative.",
+        "options": [
+          "but also",
+          "and",
+          "but",
+          "as well"
+        ],
+        "correctAnswer": 0,
+        "grammarTopic": "PARALLEL_STRUCTURE",
+        "explanation": {
+          "correctAnswer": "'Not only' is always paired with 'but also' in a correlative conjunction.",
+          "grammarRule": "Correlative conjunctions 'not only...but also' must be used together and connect parallel structures.",
+          "example": "She is not only talented but also hardworking.",
+          "commonMistake": "Omitting 'also' or using 'and' breaks the correlative pair."
+        }
+      },
+      {
+        "questionNumber": 25,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "The (A)more carefully you plan, (B)the more greater (C)your chances of success (D)will be.",
+        "underlinedParts": [
+          { "text": "more carefully you plan", "index": 1, "isCorrectAnswer": false },
+          { "text": "the more greater", "index": 2, "isCorrectAnswer": true },
+          { "text": "your chances of success", "index": 3, "isCorrectAnswer": false },
+          { "text": "will be", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "more carefully you plan",
+          "the more greater",
+          "your chances of success",
+          "will be"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+        "explanation": {
+          "correctAnswer": "The correct phrase is 'the greater'. 'Greater' is already comparative, so 'more' is redundant.",
+          "grammarRule": "Avoid double comparatives; do not use 'more' before a comparative form ending in '-er'.",
+          "example": "The faster we work, the sooner we finish.",
+          "commonMistake": "Adding 'more' to a comparative adjective like 'greater'."
+        }
+      },
+      {
+        "questionNumber": 26,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "Hardly __________ the station when the train departed.",
+        "options": [
+          "we had reached",
+          "had we reached",
+          "we reached",
+          "did we reach"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "WORD_ORDER",
+        "explanation": {
+          "correctAnswer": "After 'Hardly', inversion is required: 'had we reached'.",
+          "grammarRule": "Negative adverbials such as 'hardly', 'scarcely', 'never' at the start of a sentence trigger inversion of subject and auxiliary.",
+          "example": "Hardly had she finished speaking when the bell rang.",
+          "commonMistake": "Using normal word order 'we had reached' after 'Hardly' is incorrect."
+        }
+      },
+      {
+        "questionNumber": 27,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The professor suggested that the experiment __________ under controlled conditions.",
+        "options": [
+          "is repeated",
+          "be repeated",
+          "will be repeated",
+          "repeats"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "VERB_FORM",
+        "explanation": {
+          "correctAnswer": "After 'suggest that', the subjunctive passive 'be repeated' is required.",
+          "grammarRule": "Verbs like suggest, recommend, insist, demand take a 'that' clause with the base form of the verb.",
+          "example": "The doctor suggested that she take a vacation.",
+          "commonMistake": "Using the indicative 'is repeated' after 'suggest that' is a common error."
+        }
+      },
+      {
+        "questionNumber": 28,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "The bridge, __________ in 1890, is still in use today.",
+        "options": [
+          "building",
+          "built",
+          "was built",
+          "it was built"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "REDUCED_CLAUSE",
+        "explanation": {
+          "correctAnswer": "The past participle 'built' reduces the passive clause 'which was built'.",
+          "grammarRule": "Passive relative clauses can be reduced to a past participle phrase.",
+          "example": "The letter written in red ink is urgent.",
+          "commonMistake": "Using 'building' (present participle) suggests an active voice, which is wrong for a bridge."
+        }
+      },
+      {
+        "questionNumber": 29,
+        "questionText": "Choose the word or phrase that best completes the sentence.",
+        "sentenceType": "COMPLETION",
+        "sentence": "__________ the invention of the printing press, books were rare and expensive.",
+        "options": [
+          "Before",
+          "Before the",
+          "Prior",
+          "Earlier"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "PREPOSITIONS",
+        "explanation": {
+          "correctAnswer": "As a preposition before a noun phrase, 'Before' needs the article 'the' in this context: 'Before the invention'.",
+          "grammarRule": "'Before' as a preposition takes a noun phrase object. Here 'the invention of the printing press' is the object.",
+          "example": "Before the Industrial Revolution, goods were made by hand.",
+          "commonMistake": "Omitting the determiner in a specific reference."
+        }
+      },
+      {
+        "questionNumber": 30,
+        "questionText": "Identify the underlined word or phrase that is incorrect.",
+        "sentenceType": "ERROR_IDENTIFICATION",
+        "sentence": "The novel (A)is considered (B)being one of the greatest (C)works of (D)the twentieth century.",
+        "underlinedParts": [
+          { "text": "is considered", "index": 1, "isCorrectAnswer": false },
+          { "text": "being one of the greatest", "index": 2, "isCorrectAnswer": true },
+          { "text": "works of", "index": 3, "isCorrectAnswer": false },
+          { "text": "the twentieth century", "index": 4, "isCorrectAnswer": false }
+        ],
+        "options": [
+          "is considered",
+          "being one of the greatest",
+          "works of",
+          "the twentieth century"
+        ],
+        "correctAnswer": 1,
+        "grammarTopic": "VERB_FORM",
+        "explanation": {
+          "correctAnswer": "After 'considered', use the bare infinitive 'to be' or no verb at all: 'considered one of'.",
+          "grammarRule": "The verb 'consider' in the passive is followed by 'to be' or directly by a complement, not 'being'.",
+          "example": "She is considered to be an expert.",
+          "commonMistake": "Using the gerund 'being' after 'considered'."
+        }
+      }
+    ]
+  }
+]

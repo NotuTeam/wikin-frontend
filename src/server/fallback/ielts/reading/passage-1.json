@@ -1,0 +1,247 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The Rise of Vertical Farming in Urban Centers",
+      "subtitle": "How indoor agriculture is reshaping city food systems",
+      "source": "Adapted from urban agriculture research review",
+      "author": "Dr. Lena Hoffman",
+      "wordCount": 620,
+      "content": "As the global population becomes increasingly urbanized, cities face mounting pressure to feed their residents without relying on distant farmland. One promising solution is vertical farming, a method of growing crops in stacked layers inside climate-controlled buildings. Unlike traditional agriculture, which spreads horizontally across fields, vertical farms grow upward, using sophisticated lighting and irrigation systems to produce food year-round regardless of external weather.\n\nThe concept is not entirely new. For decades, researchers have experimented with greenhouse agriculture and hydroponics, a technique where plants grow in nutrient-rich water instead of soil. What distinguishes modern vertical farms is the use of light-emitting diodes, or LEDs, which mimic the spectrum of sunlight while consuming a fraction of the energy. By adjusting the light wavelength, farmers can even influence the taste, color, and nutritional content of the produce.\n\nProponents argue that vertical farming offers several environmental benefits. Because the crops are grown indoors, there is no need for pesticides, and water usage can be reduced by up to ninety percent compared to conventional farming. Furthermore, by locating farms close to consumers, transportation emissions shrink, and produce reaches markets fresher and with a longer shelf life. In cities where arable land is scarce or contaminated, this approach can turn abandoned warehouses into productive green spaces.\n\nCritics, however, raise significant concerns. The foremost challenge is energy consumption. Although LEDs are efficient, running thousands of them for extended periods requires substantial electricity. If that energy comes from fossil fuels, the carbon footprint of a vertical farm may exceed that of traditionally transported produce. Additionally, the initial investment to outfit a building with lighting, climate control, and irrigation systems can reach millions of dollars, making profitability difficult for all but the highest-value crops such as leafy greens and herbs.\n\nThere are also social questions. Vertical farms are highly automated, meaning they create fewer jobs per kilogram of food than conventional farms. In regions where agriculture is a major employer, this shift could displace workers. Moreover, because the technology is capital-intensive, there is a risk that only wealthy corporations will control urban food production, potentially marginalizing small farmers and limiting consumer choice.\n\nDespite these challenges, many cities are investing heavily in vertical farming. Singapore, with almost no arable land, has embraced the technology as part of its food security strategy. In North America, several startups have secured major funding to build large-scale facilities in former industrial buildings. Whether vertical farming becomes a mainstream solution or remains a niche supplement will depend on advances in energy efficiency, policy support, and consumer acceptance.",
+      "topicCategory": "ENVIRONMENT",
+      "textType": "DISCURSIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 1,
+      "questionEnd": 15
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main purpose of the passage?",
+        "paragraphReference": 1,
+        "options": [
+          "To describe a single startup in detail",
+          "To explain vertical farming and the debate surrounding it",
+          "To argue that traditional farming is obsolete",
+          "To compare farming in Singapore and North America"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The passage introduces vertical farming, explains how it works, and then presents both advantages and criticisms, indicating an explanatory and discursive purpose.",
+        "keywordsInPassage": ["vertical farming", "debate"],
+        "paraphrasing": "The text outlines the concept and the differing opinions about it."
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 2, what distinguishes modern vertical farms from earlier greenhouse experiments?",
+        "paragraphReference": 2,
+        "options": [
+          "The use of soil instead of water",
+          "The use of LEDs to mimic sunlight",
+          "The reliance on outdoor weather",
+          "The cultivation of cereal crops only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states that the key distinction is the use of LEDs, which mimic sunlight while using less energy.",
+        "keywordsInPassage": ["light-emitting diodes", "LEDs", "distinguishes"],
+        "paraphrasing": "The passage highlights LED technology as the modern differentiator."
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which environmental benefit of vertical farming is mentioned in paragraph 3?",
+        "paragraphReference": 3,
+        "options": [
+          "It eliminates the need for sunlight entirely",
+          "It uses ninety percent more water than traditional farming",
+          "It reduces the need for pesticides",
+          "It increases transportation emissions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 3 explicitly notes that because crops are grown indoors, there is no need for pesticides.",
+        "keywordsInPassage": ["pesticides", "indoor"],
+        "paraphrasing": "Indoor growing removes the requirement for chemical pest control."
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Vertical farms use less water than conventional farms.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 3 states water usage can be reduced by up to ninety percent, confirming the statement is True.",
+        "keywordsInPassage": ["water usage", "reduced"],
+        "paraphrasing": "The text explicitly notes a dramatic reduction in water consumption."
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Vertical farms are more profitable than traditional farms for growing grain crops.",
+        "paragraphReference": 4,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 indicates profitability is difficult except for high-value crops like leafy greens, implying grains are not profitable.",
+        "keywordsInPassage": ["profitability", "high-value crops"],
+        "paraphrasing": "Grains are not mentioned as profitable in vertical farms."
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What concern do critics raise about the energy used by vertical farms?",
+        "paragraphReference": 4,
+        "options": [
+          "LEDs consume more energy than sunlight",
+          "Electricity from fossil fuels could make the carbon footprint worse",
+          "Vertical farms use no electricity at all",
+          "Renewable energy cannot be used"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 warns that if electricity comes from fossil fuels, the carbon footprint may exceed traditionally transported produce.",
+        "keywordsInPassage": ["fossil fuels", "carbon footprint"],
+        "paraphrasing": "The source of electricity is critical to the environmental balance."
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 5, why might vertical farming be socially problematic?",
+        "paragraphReference": 5,
+        "options": [
+          "It creates too many low-paying jobs",
+          "It is highly automated and employs fewer workers per kilogram",
+          "It requires workers to relocate to rural areas",
+          "It discourages technological innovation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states vertical farms are highly automated and create fewer jobs per kilogram than conventional farms.",
+        "keywordsInPassage": ["automated", "jobs per kilogram"],
+        "paraphrasing": "Automation reduces the labor required per unit of food."
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Because the technology is capital-intensive,",
+        "paragraphReference": 5,
+        "options": [
+          "small farmers may be marginalized",
+          "only the government can afford it",
+          "consumers will reject the produce",
+          "it cannot be used in cities"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 warns that capital-intensive technology may leave only wealthy corporations in control, marginalizing small farmers.",
+        "keywordsInPassage": ["capital-intensive", "marginalizing"],
+        "paraphrasing": "High costs may concentrate ownership among large corporations."
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why has Singapore invested in vertical farming?",
+        "paragraphReference": 6,
+        "options": [
+          "It has abundant arable land",
+          "It has almost no arable land and needs food security",
+          "It wants to export crops globally",
+          "It has too many traditional farms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 mentions that Singapore has almost no arable land and has embraced the technology for food security.",
+        "keywordsInPassage": ["arable land", "food security"],
+        "paraphrasing": "Scarcity of farmland drives Singapore's investment in vertical farming."
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "The future of vertical farming depends on energy efficiency, policy support, and",
+        "paragraphReference": 6,
+        "options": [
+          "consumer acceptance",
+          "the price of oil",
+          "the number of farmers",
+          "the climate in tropical countries"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 concludes the future depends on energy efficiency, policy support, and consumer acceptance.",
+        "keywordsInPassage": ["energy efficiency", "policy support", "consumer acceptance"],
+        "paraphrasing": "Three factors are listed as key to mainstream adoption."
+      },
+      {
+        "questionNumber": 11,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The word 'mimic' in paragraph 2 is closest in meaning to:",
+        "paragraphReference": 2,
+        "options": [
+          "ignore",
+          "imitate",
+          "replace",
+          "destroy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Mimic' in this context means to imitate the spectrum of sunlight.",
+        "keywordsInPassage": ["mimic", "spectrum"],
+        "paraphrasing": "The lights copy the qualities of natural sunlight."
+      },
+      {
+        "questionNumber": 12,
+        "questionType": "MATCHING_HEADINGS",
+        "questionText": "Which heading best fits paragraph 4?",
+        "paragraphReference": 4,
+        "options": [
+          "Environmental benefits of indoor farming",
+          "Economic and energy challenges",
+          "The history of hydroponics",
+          "Government policy in Singapore"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 focuses on criticisms about energy consumption and high initial investment, which are economic and energy challenges.",
+        "keywordsInPassage": ["energy consumption", "investment"],
+        "paraphrasing": "The paragraph discusses cost and energy as obstacles."
+      },
+      {
+        "questionNumber": 13,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which of the following crops is mentioned as suitable for vertical farming?",
+        "paragraphReference": 4,
+        "options": [
+          "Wheat",
+          "Rice",
+          "Leafy greens",
+          "Corn"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 4 mentions high-value crops such as leafy greens and herbs as profitable for vertical farms.",
+        "keywordsInPassage": ["leafy greens", "herbs"],
+        "paraphrasing": "Leafy greens are given as an example of profitable produce."
+      },
+      {
+        "questionNumber": 14,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Abandoned warehouses can be converted into vertical farms.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 3 states this approach can turn abandoned warehouses into productive green spaces.",
+        "keywordsInPassage": ["abandoned warehouses", "green spaces"],
+        "paraphrasing": "Disused industrial buildings can host vertical farms."
+      },
+      {
+        "questionNumber": 15,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the writer's overall attitude toward vertical farming?",
+        "paragraphReference": 6,
+        "options": [
+          "Completely dismissive",
+          "Cautiously balanced",
+          "Wildly enthusiastic",
+          "Indifferent"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The writer presents both benefits and concerns, ending with a balanced conditional statement about its future.",
+        "keywordsInPassage": ["whether", "will depend"],
+        "paraphrasing": "The conclusion weighs factors on both sides before judging."
+      }
+    ]
+  }
+]

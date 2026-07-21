@@ -1,0 +1,832 @@
+[
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the student center where a student reflects on a recent summer internship with a career advisor.",
+    "audioScript": "Situation: A student stops by the career services desk in the student center to reflect on a recently completed summer internship and discuss next steps.\nCareer Advisor: Hi Tyler, welcome back. How did your summer internship at the environmental consulting firm go?\nTyler: It was great, honestly better than I expected. I spent the first two weeks mostly shadowing senior analysts, but by week three they let me run my own small site assessment for a wetland restoration project.\nCareer Advisor: That's impressive. Were you working independently or as part of a team?\nTyler: I had a mentor, a senior analyst named Karen, who reviewed all my work. But I was responsible for collecting soil samples, writing the field report, and presenting findings to the project manager. That presentation was nerve-wracking.\nCareer Advisor: I can imagine. What was the most valuable thing you took away from the experience?\nTyler: I'd say learning how to communicate technical findings to non-technical clients. In class, we write for professors who already know the science. But the client at the restoration project was a city planner who just wanted to know if the wetland was recovering. I had to translate jargon into plain language.\nCareer Advisor: That's a crucial professional skill. Did the firm offer you a return offer for next summer?\nTyler: They did, actually. Karen said they'd love to have me back, and there's a possibility of a part-time remote role during the semester if I'm interested. I'm leaning toward it, but I want to make sure it won't interfere with my thesis.\nCareer Advisor: A good rule of thumb is to cap outside work at ten hours per week during your final year. I'd also recommend updating your resume and LinkedIn now while the experience is fresh, and asking Karen for a recommendation letter before she gets too busy.\nTyler: That's smart. I'll email her this week. Thanks for the advice.",
+    "speakers": [
+      { "name": "Tyler", "role": "returning student" },
+      { "name": "Career Advisor", "role": "career services counselor" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Where did Tyler complete his summer internship?",
+        "options": [
+          "A university research laboratory",
+          "An environmental consulting firm",
+          "A city planning office",
+          "A nonprofit charity"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler states he completed his internship at an environmental consulting firm."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What did Tyler do during the first two weeks of the internship?",
+        "options": [
+          "He ran his own site assessment",
+          "He shadowed senior analysts",
+          "He collected soil samples",
+          "He wrote field reports"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler says he spent the first two weeks mostly shadowing senior analysts before getting his own project."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What project was Tyler assigned by week three?",
+        "options": [
+          "A wetland restoration site assessment",
+          "A marketing campaign analysis",
+          "A city budget review",
+          "A laboratory experiment"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Tyler mentions he ran his own small site assessment for a wetland restoration project by week three."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Who reviewed Tyler's work during the internship?",
+        "options": [
+          "The project manager only",
+          "A senior analyst named Karen",
+          "No one, he worked fully independently",
+          "The career advisor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler explains that his mentor, a senior analyst named Karen, reviewed all of his work."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Tyler say was the most valuable takeaway from the internship?",
+        "options": [
+          "Learning to use new laboratory equipment",
+          "Earning a high salary",
+          "Communicating technical findings to non-technical clients",
+          "Networking with professors"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Tyler says the most valuable thing was learning to communicate technical findings to non-technical clients like the city planner."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why was communicating with the city planner different from classwork?",
+        "options": [
+          "The planner knew more science than his professors",
+          "The planner wanted plain language, not scientific jargon",
+          "The planner required a longer report",
+          "The planner was uninterested in the results"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Tyler contrasts writing for professors who know the science with the city planner who just wanted to know if the wetland was recovering, requiring plain language."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What did the firm offer Tyler after the internship?",
+        "options": [
+          "A full-time job starting immediately",
+          "A return offer and possibly a part-time remote role",
+          "A scholarship for tuition",
+          "A recommendation for another company"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler says Karen offered him a return for next summer and a possible part-time remote role during the semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does the career advisor recommend about outside work during the final year?",
+        "options": [
+          "Avoid all work entirely",
+          "Cap it at ten hours per week",
+          "Work at least twenty hours weekly",
+          "Only work during breaks"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The advisor suggests capping outside work at ten hours per week during the final year to protect thesis time."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the career advisor suggest Tyler do while the experience is fresh?",
+        "options": [
+          "Take a vacation before updating anything",
+          "Update his resume and LinkedIn and ask Karen for a recommendation letter",
+          "Immediately apply to a different firm",
+          "Wait until graduation to update his resume"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The advisor recommends updating resume and LinkedIn now and asking Karen for a recommendation letter before she gets busy."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Tyler's struggle to find an internship",
+          "Tyler reflecting on his summer internship and planning next steps",
+          "A dispute over Tyler's internship grade",
+          "How to write a thesis on wetlands"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation centers on Tyler reflecting on his summer internship experience and discussing next steps with the career advisor."
+      }
+    ],
+    "keyVocabulary": ["internship", "shadowing", "site assessment", "wetland restoration", "mentor", "jargon", "return offer", "recommendation letter"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the academic office where a student gets feedback on an upcoming research presentation.",
+    "audioScript": "Situation: A graduate student visits her professor's office to get feedback on an upcoming research presentation for a campus symposium.\nProfessor Diaz: Come in, Nina. I reviewed the draft slides you sent last night. You've made good progress since the outline stage.\nNina: Thank you, Professor Diaz. I'm a bit nervous because this will be my first time presenting at the graduate research symposium. The audience will include faculty from other departments.\nProfessor Diaz: That's understandable. Let's start with the structure. Your introduction is solid, but you spend six slides on background literature. For a fifteen-minute talk, trim it to two slides. The audience needs just enough context to understand your research question.\nNina: Okay, I can condense it. My main concern is the methodology section. I used a mixed-methods approach, combining surveys with follow-up interviews. Is that too much to cover in the time allotted?\nProfessor Diaz: It's ambitious, but manageable if you're selective. Present the survey results as a summary chart, not individual data points. Then highlight two interview quotes that illustrate your key finding. Don't try to report every theme.\nNina: That makes sense. What about the results section? I have three main findings, but I'm not sure which one to emphasize.\nProfessor Diaz: Lead with the finding about how peer feedback improves writing confidence. That's the most novel contribution and directly answers your research question. The other two findings can be mentioned briefly as secondary results.\nNina: Should I include a limitations slide? My committee chair said it shows scholarly maturity.\nProfessor Diaz: Absolutely, one slide at the end. Acknowledge the small sample size and the fact that your participants were all from one university. Then suggest future research with a larger, more diverse sample.\nNina: Got it. Last question, how should I handle the Q&A? I'm worried about questions I can't answer.\nProfessor Diaz: That's normal. If you don't know an answer, acknowledge it honestly and explain how you might investigate it. Never make up data. Practice your talk at least three times aloud, and time yourself. I'd also suggest doing a dry run with your lab mates this Thursday.",
+    "speakers": [
+      { "name": "Nina", "role": "graduate student" },
+      { "name": "Professor Diaz", "role": "research advisor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why is Nina nervous about her presentation?",
+        "options": [
+          "She has never presented before and the audience includes faculty from other departments",
+          "She forgot to prepare any slides",
+          "Her professor told her the topic was poor",
+          "She is afraid of the technology failing"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Nina says she is nervous because it is her first time presenting at the symposium and faculty from other departments will attend."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does Professor Diaz say about the introduction?",
+        "options": [
+          "It needs more background literature",
+          "The six slides on background literature should be trimmed to two",
+          "It should be removed entirely",
+          "It is too short"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz says Nina spends six slides on background literature and should trim it to two for a fifteen-minute talk."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What research method did Nina use?",
+        "options": [
+          "Only surveys",
+          "Only interviews",
+          "A mixed-methods approach combining surveys and interviews",
+          "A purely observational study"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Nina states she used a mixed-methods approach combining surveys with follow-up interviews."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How does Professor Diaz suggest presenting the survey results?",
+        "options": [
+          "As individual data points",
+          "As a summary chart, not individual data points",
+          "In a long appendix",
+          "In a separate handout"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz advises presenting survey results as a summary chart rather than individual data points."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many interview quotes does Professor Diaz recommend highlighting?",
+        "options": ["One", "Two", "Three", "All of them"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz suggests highlighting two interview quotes that illustrate the key finding."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Which finding does Professor Diaz say Nina should lead with?",
+        "options": [
+          "The finding about survey response rates",
+          "The finding about how peer feedback improves writing confidence",
+          "The finding about interview timing",
+          "The finding about sample demographics"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz tells Nina to lead with the finding that peer feedback improves writing confidence, as it is the most novel contribution."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Professor Diaz say about a limitations slide?",
+        "options": [
+          "It is unnecessary and wastes time",
+          "It shows scholarly maturity and should include one slide at the end",
+          "It should be the first slide",
+          "It should cover at least five slides"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Diaz says to include one limitations slide at the end, acknowledging the small sample size and single-university participants."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about Nina's participants?",
+        "options": [
+          "They came from multiple universities",
+          "They were all from one university, which is a limitation",
+          "They were randomly selected nationwide",
+          "They were all professors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Diaz suggests acknowledging that participants were all from one university, implying this limits generalizability."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is Professor Diaz's advice for handling Q&A questions Nina cannot answer?",
+        "options": [
+          "Make up a plausible answer",
+          "Acknowledge honestly and explain how she might investigate it",
+          "Refuse to answer any difficult questions",
+          "Redirect all questions to the audience"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Professor Diaz advises acknowledging honestly when she doesn't know an answer and never making up data."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To select a research topic for next semester",
+          "To get feedback on an upcoming research presentation and improve the slides",
+          "To negotiate Nina's grade on a paper",
+          "To plan a conference trip budget"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Nina visits Professor Diaz to get feedback on her draft slides and presentation strategy for the graduate research symposium."
+      }
+    ],
+    "keyVocabulary": ["symposium", "methodology", "mixed-methods", "survey", "interview", "limitations", "sample size", "Q&A", "dry run"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation on campus about a student attending a campus budget hearing.",
+    "audioScript": "Situation: A student representative discusses the upcoming campus budget hearing with the student government treasurer to prepare testimony about library funding.\nTreasurer Marcus: Hey Elena, thanks for coming. The campus budget hearing is next Wednesday at six PM in the main lecture hall. Are you still planning to speak on behalf of the library expansion proposal?\nElena: Yes, I am. I've never testified at a budget hearing before, though. Can you walk me through how it works?\nTreasurer Marcus: Sure. Each speaker gets three minutes at the podium. You'll sign in at the door and they'll call names in order. The panel includes the vice chancellor for finance, three deans, and two student government representatives.\nElena: Three minutes is really short. What should I prioritize?\nTreasurer Marcus: Lead with a personal story. Last semester, you couldn't find study space during finals week, right? Use that to show the human impact. Then state the specific ask: the library needs funding to add a twenty-four-hour study wing with forty additional seats.\nElena: That's a good angle. Do I need to bring data too?\nTreasurer Marcus: Definitely. The library director compiled a report showing that seat occupancy hit ninety-two percent during peak hours last fall. Bring a one-page handout with that statistic and the projected cost. The estimate is one hundred twenty thousand dollars for renovation.\nElena: One hundred twenty thousand sounds like a lot. Won't the panel push back on the price tag?\nTreasurer Marcus: They might. Be ready to mention that the Student Activities Council endorsed the proposal unanimously, and that a petition gathered over eight hundred student signatures. Numbers like that show broad support.\nElena: Good point. What happens after the hearing?\nTreasurer Marcus: The panel reviews all testimony and submits a funding recommendation to the chancellor within two weeks. The chancellor makes the final decision, which is usually announced in March. I'll forward you the budget guidelines document so you can reference the exact funding line item.\nElena: Perfect. I'll draft my remarks tonight and send them to you for review.\nTreasurer Marcus: Sounds great. Just remember, speak clearly and don't rush. Three minutes is enough if you're concise.",
+    "speakers": [
+      { "name": "Elena", "role": "student representative" },
+      { "name": "Treasurer Marcus", "role": "student government treasurer" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When and where is the campus budget hearing?",
+        "options": [
+          "Next Wednesday at 6 PM in the main lecture hall",
+          "Next Friday at noon in the library",
+          "Tomorrow morning in the student center",
+          "Next Monday at 3 PM in the cafeteria"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states the hearing is next Wednesday at six PM in the main lecture hall."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long does each speaker get at the podium?",
+        "options": ["Two minutes", "Three minutes", "Five minutes", "Ten minutes"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus explains that each speaker gets three minutes at the podium."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Who is on the budget hearing panel?",
+        "options": [
+          "Only the chancellor",
+          "The vice chancellor for finance, three deans, and two student government representatives",
+          "Five professors and the librarian",
+          "The mayor and city council members"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus says the panel includes the vice chancellor for finance, three deans, and two student government representatives."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does Marcus suggest Elena lead her testimony with?",
+        "options": [
+          "A detailed financial breakdown",
+          "A personal story about not finding study space during finals week",
+          "A history of the library building",
+          "A list of all student clubs"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus advises Elena to lead with a personal story about not finding study space during finals to show human impact."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is Elena's specific funding request for the library?",
+        "options": [
+          "New computers for the computer lab",
+          "A twenty-four-hour study wing with forty additional seats",
+          "A new café in the library lobby",
+          "Additional librarians on weekends"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states the ask is funding for a twenty-four-hour study wing with forty additional seats."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What was the peak seat occupancy rate in the library last fall?",
+        "options": ["Seventy-five percent", "Eighty-two percent", "Ninety-two percent", "One hundred percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Marcus mentions the library director's report showed seat occupancy hit ninety-two percent during peak hours last fall."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the estimated renovation cost?",
+        "options": [
+          "Eighty thousand dollars",
+          "One hundred twenty thousand dollars",
+          "Two hundred thousand dollars",
+          "Five hundred thousand dollars"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states the projected cost estimate is one hundred twenty thousand dollars for renovation."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What evidence of broad support does Marcus suggest Elena mention?",
+        "options": [
+          "A unanimous endorsement from the Student Activities Council and over eight hundred petition signatures",
+          "A letter from the mayor",
+          "A newspaper editorial",
+          "Faculty research grants"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Marcus says to mention the Student Activities Council's unanimous endorsement and a petition with over eight hundred student signatures."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What happens after the budget hearing?",
+        "options": [
+          "The chancellor decides immediately at the hearing",
+          "The panel submits a funding recommendation to the chancellor within two weeks",
+          "The matter is dropped until next year",
+          "Students vote on the budget directly"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus explains the panel reviews testimony and submits a funding recommendation to the chancellor within two weeks, with the final decision usually announced in March."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Planning a student club fundraising event",
+          "Preparing testimony for a campus budget hearing about library funding",
+          "Discussing tuition increases for next year",
+          "Reviewing the student government election process"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation focuses on Elena preparing to testify at the campus budget hearing in support of library expansion funding."
+      }
+    ],
+    "keyVocabulary": ["budget hearing", "testify", "podium", "panel", "vice chancellor", "endorsement", "petition", "funding recommendation", "renovation"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the student center about organizing a table at the student club fair.",
+    "audioScript": "Situation: Two students and a student activities coordinator discuss how to set up an engaging table for their new robotics club at the upcoming student club fair.\nCoordinator: Hi guys, thanks for stopping by. You're registering the Robotics Club for the student club fair on September twelfth, correct?\nJordan: Yes, that's right. This is our first year as an official club, so we want to make a strong impression and recruit at least thirty new members.\nCoordinator: Great goal. Let me walk you through the logistics. The fair runs from ten AM to three PM on the main quad. Each club gets one table, two chairs, and a tablecloth in the university colors.\nPriya: What about electricity? We'd love to run a demo of our small robot picking up objects.\nCoordinator: You can request electricity, but there are only eight powered spots on the quad. I see four are still available, so I'll reserve one for you. Just bring your own extension cord, at least twenty-five feet.\nJordan: Perfect. Are there any restrictions on what we can display?\nCoordinator: No open flames, no helium balloons because of the ceiling in the backup indoor location, and all demonstrations must stay within your table footprint so walkways stay clear.\nPriya: Understood. Our robot stays on the table, so that should be fine. Do we need to bring our own sign-up sheet?\nCoordinator: I'd recommend using the digital sign-up QR code instead. The student activities office generates one for each club. Students scan it with their phones and their info goes straight to a spreadsheet. It's much more reliable than paper.\nJordan: That's convenient. Is there a way to get on the campus map or brochure?\nCoordinator: Yes, clubs registered by today are automatically listed in the fair brochure with a one-line description. I already have your description: 'Robotics Club: building and programming autonomous robots for competitions.' Does that work?\nPriya: That's exactly what we wanted. One more question, can we give out candy to attract students?\nCoordinator: Individually wrapped candy is fine. Just no homemade food items. Now, I should mention there's a mandatory orientation for all club table hosts this Friday at four PM in room two-oh-one. It covers safety guidelines and fair day procedures.",
+    "speakers": [
+      { "name": "Jordan", "role": "robotics club president" },
+      { "name": "Priya", "role": "club vice president" },
+      { "name": "Coordinator", "role": "student activities coordinator" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When does the student club fair take place?",
+        "options": [
+          "September 12 from 10 AM to 3 PM",
+          "October 1 from noon to 5 PM",
+          "September 5 from 9 AM to 1 PM",
+          "August 30 from 2 PM to 6 PM"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator confirms the fair is on September twelfth from ten AM to three PM on the main quad."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many new members does the Robotics Club hope to recruit?",
+        "options": ["At least 15", "At least 20", "At least 30", "At least 50"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Jordan says the club wants to recruit at least thirty new members at the fair."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What equipment is provided to each club?",
+        "options": [
+          "One table, two chairs, and a tablecloth",
+          "Two tables and four chairs",
+          "A tent and a sound system",
+          "A laptop and a projector"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator states each club gets one table, two chairs, and a tablecloth in university colors."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does the club need for their robot demo?",
+        "options": [
+          "A powered spot and their own extension cord of at least twenty-five feet",
+          "A special permit from the fire marshal",
+          "A backup generator",
+          "No special arrangements"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator reserves a powered spot and tells them to bring their own extension cord of at least twenty-five feet."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many powered spots are available on the quad?",
+        "options": ["Four total", "Eight total", "Twelve total", "Unlimited"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says there are only eight powered spots on the quad, with four still available."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Which of the following is NOT allowed at the fair?",
+        "options": [
+          "Individually wrapped candy",
+          "A robot demo on the table",
+          "Helium balloons",
+          "A digital QR code sign-up"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says no helium balloons are allowed because of the ceiling in the backup indoor location."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does the coordinator recommend instead of a paper sign-up sheet?",
+        "options": [
+          "A verbal commitment system",
+          "A digital sign-up QR code that feeds into a spreadsheet",
+          "An email-only registration",
+          "A social media poll"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator recommends using the digital sign-up QR code generated by the student activities office, which sends info straight to a spreadsheet."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the Robotics Club's description in the fair brochure?",
+        "options": [
+          "'Robotics Club: building and programming autonomous robots for competitions'",
+          "'Robotics Club: learning about artificial intelligence'",
+          "'Robotics Club: remote control car racing'",
+          "'Robotics Club: video game design'"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator reads the brochure description: 'Robotics Club: building and programming autonomous robots for competitions.'"
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the orientation on Friday?",
+        "options": [
+          "It is optional for first-year clubs",
+          "It is mandatory for all club table hosts and covers safety guidelines",
+          "It only applies to clubs selling food",
+          "It is held online only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The coordinator says there is a mandatory orientation for all club table hosts covering safety guidelines and fair day procedures."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To cancel the Robotics Club's registration",
+          "To plan and register the Robotics Club's table for the student club fair",
+          "To complain about the fair's location",
+          "To apply for a robotics competition grant"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Jordan and Priya meet with the coordinator to register and plan their Robotics Club table for the upcoming student club fair."
+      }
+    ],
+    "keyVocabulary": ["club fair", "recruit", "logistics", "powered spot", "extension cord", "footprint", "QR code", "brochure", "orientation"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the academic office about a student planning for graduation requirements.",
+    "audioScript": "Situation: A senior student meets with the registrar to verify graduation requirements, resolve a missing grade, and confirm the commencement ceremony details.\nRegistrar: Good afternoon, Devon. I've pulled up your graduation audit. You're on track to graduate this May, but there are two items we need to resolve.\nDevon: Hi, thanks for seeing me. What are the two issues?\nRegistrar: First, your capstone course, History 490, shows an incomplete grade from last semester. Professor Whitfield submitted a grade change form, but it hasn't been processed yet. Second, you're missing the upper-division writing requirement.\nDevon: The incomplete is because I had a medical extension. I submitted my final paper two weeks ago and Professor Whitfield said she'd file the change. For the writing requirement, I thought my history seminar counted.\nRegistrar: History 475 does count, but only if you took the writing-intensive section. You registered for the standard section, which doesn't carry that designation. You'd need either to petition to have your work in that course evaluated, or take a one-credit writing portfolio workshop this semester.\nDevon: The workshop sounds faster. When does it meet?\nRegistrar: It meets every other Friday from two to four PM, starting next week. You'd compile three writing samples from your upper-division courses and submit a reflective essay. The deadline to register for the workshop is this Friday.\nDevon: I'll sign up today. Now, about commencement, I wanted to confirm the ceremony date and cap-and-gown ordering.\nRegistrar: Commencement is Saturday, May eighteenth, at ten AM in the stadium. If it rains, they move it to the field house, but that's been announced in advance only twice in twenty years. You need to order your cap and gown through the bookstore's online portal by April first. After that, there's a late fee of twenty-five dollars.\nDevon: What about tickets for my family? My parents and two siblings want to come.\nRegistrar: Each graduate gets four guest tickets. You can request up to two additional tickets through a lottery system, but those aren't guaranteed. The lottery opens March fifteenth and closes March twenty-second.\nDevon: Four tickets should be enough, but I'll enter the lottery just in case. Is there a graduation rehearsal?\nRegistrar: Yes, rehearsal is mandatory and takes place the Friday before commencement at two PM. You'll receive your name card and learn the procession order. Don't miss it, because your diploma won't be at commencement if you skip rehearsal.",
+    "speakers": [
+      { "name": "Devon", "role": "senior student" },
+      { "name": "Registrar", "role": "registrar staff" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What are the two issues the registrar identifies in Devon's graduation audit?",
+        "options": [
+          "An incomplete grade in History 490 and a missing upper-division writing requirement",
+          "An unpaid tuition bill and a missing PE credit",
+          "A failed exam and a library fine",
+          "An incorrect major declaration and a missing lab credit"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The registrar states the two issues are an incomplete grade in History 490 and the missing upper-division writing requirement."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Why does Devon have an incomplete grade in History 490?",
+        "options": [
+          "He never submitted the final paper",
+          "He had a medical extension and submitted the paper two weeks ago",
+          "He missed the final exam",
+          "He plagiarized an assignment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Devon explains the incomplete is due to a medical extension and he submitted the final paper two weeks ago."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why doesn't History 475 count toward the writing requirement for Devon?",
+        "options": [
+          "He didn't take it at all",
+          "He registered for the standard section, not the writing-intensive section",
+          "He failed the course",
+          "The course is no longer offered"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The registrar says History 475 only counts if Devon took the writing-intensive section, but he registered for the standard section."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What are Devon's two options to fulfill the writing requirement?",
+        "options": [
+          "Retake History 475 or write a new thesis",
+          "Petition to have his work evaluated or take a one-credit writing portfolio workshop",
+          "Transfer a course from another university or take a summer class",
+          "Take a test or submit a published article"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The registrar says Devon can either petition to have his work evaluated or take a one-credit writing portfolio workshop."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "When does the writing portfolio workshop meet?",
+        "options": [
+          "Every Monday from 10 AM to noon",
+          "Every other Friday from 2 to 4 PM starting next week",
+          "Every Wednesday evening",
+          "Once a month on Saturdays"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The registrar says the workshop meets every other Friday from two to four PM, starting next week."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the deadline to register for the writing workshop?",
+        "options": ["This Friday", "April 1", "March 15", "May 18"],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The registrar states the deadline to register for the workshop is this Friday."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "When is the commencement ceremony?",
+        "options": [
+          "Saturday, May 18 at 10 AM in the stadium",
+          "Sunday, May 19 at 2 PM in the field house",
+          "Friday, May 17 at noon in the auditorium",
+          "Saturday, June 1 at 10 AM in the gymnasium"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The registrar confirms commencement is Saturday, May eighteenth, at ten AM in the stadium."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What happens if Devon orders his cap and gown after April first?",
+        "options": [
+          "He cannot participate in commencement",
+          "There is a late fee of twenty-five dollars",
+          "He must pick it up in person only",
+          "There is no penalty"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The registrar says ordering after April first incurs a late fee of twenty-five dollars."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the graduation rehearsal?",
+        "options": [
+          "It is optional and purely social",
+          "It is mandatory, and skipping it means Devon won't receive his diploma at commencement",
+          "It takes place after commencement",
+          "It is only for students receiving honors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The registrar says rehearsal is mandatory on the Friday before commencement and that Devon's diploma won't be at commencement if he skips it."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Devon's plan to change his major",
+          "Verifying Devon's graduation requirements and confirming commencement details",
+          "Appealing a failing grade in a lab course",
+          "Transferring to a different university"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers Devon's graduation audit, resolving an incomplete and a writing requirement, plus commencement ceremony logistics."
+      }
+    ],
+    "keyVocabulary": ["graduation audit", "incomplete grade", "capstone", "writing-intensive", "petition", "portfolio workshop", "commencement", "cap and gown", "rehearsal"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the academic office about a student making the most of faculty office hours.",
+    "audioScript": "Situation: A first-year student visits her academic advisor to discuss how to effectively use faculty office hours after struggling to connect with a professor.\nAdvisor Kim: Have a seat, Sofia. You mentioned in your email that you're having trouble approaching Professor Reynolds for help in your economics course. Tell me more.\nSofia: Thanks, Advisor Kim. I'm enrolled in Econ 102, and I'm finding the problem sets really difficult. I went to Professor Reynolds's office hours twice, but both times there were five or six other students waiting. By the time it was my turn, I felt rushed and couldn't fully explain what I didn't understand.\nAdvisor Kim: That's a common frustration in large introductory courses. A few strategies can help. First, have you checked whether Professor Reynolds holds office hours on different days? Some professors offer both morning and afternoon slots, and the afternoon sessions tend to be less crowded.\nSofia: I only went on Tuesday mornings. Let me check the syllabus. Yes, he also has Thursdays from three to four thirty PM.\nAdvisor Kim: Try that slot. Second, come prepared with specific questions. Instead of saying 'I don't get chapter four,' point to a particular problem and explain exactly where your reasoning breaks down. Professors appreciate targeted questions because they can help efficiently.\nSofia: That makes sense. I usually just say I'm confused generally. I'll write down my steps before I go.\nAdvisor Kim: Good. Third, if the regular office hours don't work, you can always email to request a separate appointment. Keep the email concise: state the course, the topic you need help with, and propose two or three time windows. Professors are more likely to respond to a well-structured request.\nSofia: Should I mention that I've already attempted the problems? I don't want to seem like I'm asking for answers.\nAdvisor Kim: Exactly. Show your work. That signals you're putting in effort, not looking for a shortcut. Also, consider forming a study group and bringing a shared question. Sometimes a group visit is more productive and less intimidating.\nSofia: There's a study group that meets Wednesdays. I could bring a question from there. One more thing, does it look bad if I attend office hours every week?\nAdvisor Kim: Not at all. Consistent attendance shows engagement. Just be respectful of other students' time. If you've resolved your main issue, step aside and let others have a turn. You can also use the economics tutoring center for routine practice, saving office hours for the genuinely difficult conceptual questions.",
+    "speakers": [
+      { "name": "Sofia", "role": "first-year student" },
+      { "name": "Advisor Kim", "role": "academic advisor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Sofia visit Advisor Kim?",
+        "options": [
+          "To drop her economics course",
+          "To discuss how to effectively use Professor Reynolds's office hours",
+          "To complain about her exam grade",
+          "To declare an economics major"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia emailed Advisor Kim about having trouble approaching Professor Reynolds for help and wants to discuss using office hours effectively."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What course is Sofia struggling with?",
+        "options": ["Econ 101", "Econ 102", "Econ 201", "Math 101"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia states she is enrolled in Econ 102 and finds the problem sets difficult."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What was Sofia's experience at Professor Reynolds's office hours?",
+        "options": [
+          "The professor was rude to her",
+          "Five or six students were waiting and she felt rushed when her turn came",
+          "The office was closed both times",
+          "She was the only student there"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia says both times there were five or six other students waiting and she felt rushed when her turn came."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is Advisor Kim's first strategy for Sofia?",
+        "options": [
+          "Drop the course and retake it later",
+          "Check if the professor holds office hours on different days, as some slots are less crowded",
+          "Always email instead of visiting in person",
+          "Only ask the teaching assistant for help"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim suggests checking whether the professor offers different office hour slots, noting afternoon sessions tend to be less crowded."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What additional office hours slot does Sofia find in the syllabus?",
+        "options": [
+          "Monday from 9 to 10 AM",
+          "Thursdays from 3 to 4:30 PM",
+          "Friday from 1 to 2 PM",
+          "Wednesday from 10 to 11 AM"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia finds in the syllabus that Professor Reynolds also holds office hours Thursdays from three to four thirty PM."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does Advisor Kim suggest Sofia frame her questions?",
+        "options": [
+          "Say 'I don't get chapter four' to keep it simple",
+          "Point to a particular problem and explain exactly where her reasoning breaks down",
+          "Ask the professor to redo the entire lecture",
+          "Avoid asking questions and just listen"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim advises pointing to a particular problem and explaining exactly where the reasoning breaks down, which professors appreciate."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Advisor Kim recommend if regular office hours don't work?",
+        "options": [
+          "Give up on getting help from the professor",
+          "Email to request a separate appointment, keeping it concise and proposing time windows",
+          "Wait until the final exam to ask questions",
+          "Switch to a different professor's section"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Kim says Sofia can email to request a separate appointment with a concise message proposing two or three time windows."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why does Advisor Kim say Sofia should show her work?",
+        "options": [
+          "To prove she is smarter than other students",
+          "To signal she is putting in effort and not looking for a shortcut",
+          "To get extra credit points",
+          "To challenge the professor's grading"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Advisor Kim explains that showing work signals effort and that she is not looking for a shortcut, which professors respect."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is Advisor Kim's view on attending office hours every week?",
+        "options": [
+          "It looks desperate and should be avoided",
+          "Consistent attendance shows engagement, as long as Sofia is respectful of others' time",
+          "It is required for passing the course",
+          "It only helps if the professor offers extra credit"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Advisor Kim says consistent attendance shows engagement, but Sofia should step aside once her main issue is resolved to respect other students' time."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To help Sofia develop strategies for effectively using faculty office hours",
+          "To convince Sofia to switch her major",
+          "To report Professor Reynolds for poor teaching",
+          "To plan Sofia's schedule for next semester"
+        ],
+        "correctAnswer": 0,
+        "questionType": "PURPOSE",
+        "explanation": "Advisor Kim provides Sofia with multiple strategies, from timing to question preparation to email etiquette, to help her use office hours effectively."
+      }
+    ],
+    "keyVocabulary": ["office hours", "problem sets", "syllabus", "targeted questions", "appointment", "study group", "engagement", "tutoring center", "conceptual"]
+  }
+]

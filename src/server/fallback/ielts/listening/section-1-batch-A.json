@@ -1,0 +1,986 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a conversation at a bike hire shop where a tourist rents a bicycle for a day trip.",
+    "audioScript": "Situation: A tourist visits a bike hire shop to rent a bicycle for a day trip along the coast to a lighthouse.\nStaff: Good morning, Coastal Cycles, how can I help you?\nCustomer: Hi, I'd like to rent a bike for the day. What do you have available?\nStaff: We have three types: a standard city bike at twelve pounds a day, a hybrid bike at eighteen pounds, and an electric bike at twenty-five pounds.\nCustomer: I'll go with the hybrid. I'm planning to ride to the lighthouse and back.\nStaff: Good choice. That's about twenty miles round trip, so the hybrid's gears will help on the hills.\nCustomer: Great. Do I need to leave a deposit?\nStaff: Yes, we require a fifty-pound deposit per bike, refundable when you return it undamaged. I'll also need photo ID.\nCustomer: I've got my driving licence. Does the price include a helmet and a lock?\nStaff: A lock is included free of charge, but helmets are an extra two pounds. We strongly recommend wearing one.\nCustomer: I'll take a helmet too. What time do you close?\nStaff: We close at six p.m. sharp. Bikes returned after six incur a late fee of five pounds per hour.\nCustomer: No problem, I'll be back by four. Oh, and is there a basket I can attach?\nStaff: Yes, we can fit a rear pannier rack with a bag for an additional three pounds.\nCustomer: Perfect. I'll take the hybrid, a helmet, and the pannier bag.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Staff", "accent": "BRITISH", "gender": "MALE", "role": "bike shop assistant" },
+        { "name": "Customer", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "tourist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of bike does the customer decide to rent?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A standard city bike", "A hybrid bike", "An electric bike", "A mountain bike"],
+        "keywords": ["hybrid", "rent"],
+        "synonymsUsed": ["hire", "choose"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the hybrid bike cost per day?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twelve pounds", "Eighteen pounds", "Twenty-five pounds", "Thirty pounds"],
+        "keywords": ["hybrid", "eighteen pounds", "per day"],
+        "synonymsUsed": ["daily rate", "hire price"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How far is the round trip to the lighthouse?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About twenty miles", "About fifteen miles", "About twenty-five miles", "About ten miles"],
+        "keywords": ["twenty miles", "round trip"],
+        "synonymsUsed": ["distance", "there and back"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the deposit per bike?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty pounds", "Forty pounds", "Fifty pounds", "Sixty pounds"],
+        "keywords": ["deposit", "fifty pounds"],
+        "synonymsUsed": ["security deposit", "refundable hold"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What form of photo ID does the customer provide?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A passport", "A driving licence", "A student card", "A work ID badge"],
+        "keywords": ["driving licence", "photo ID"],
+        "synonymsUsed": ["identification", "licence"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is included free of charge with the rental?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A helmet", "A pannier bag", "A lock", "Lights"],
+        "keywords": ["lock", "free of charge", "included"],
+        "synonymsUsed": ["no extra cost", "complimentary"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much extra does a helmet cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two pounds", "Three pounds", "Five pounds", "Free"],
+        "keywords": ["helmet", "extra two pounds"],
+        "synonymsUsed": ["additional charge", "surcharge"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time does the bike shop close?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five p.m.", "Six p.m.", "Seven p.m.", "Eight p.m."],
+        "keywords": ["close", "six p.m."],
+        "synonymsUsed": ["shutting time", "end of day"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the late return fee for bikes returned after closing time?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Five pounds per hour", "Ten pounds per hour", "Three pounds per hour", "Fifteen pounds flat fee"],
+        "keywords": ["late fee", "five pounds", "per hour"],
+        "synonymsUsed": ["penalty charge", "overdue"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the pannier rack with a bag cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One pound", "Two pounds", "Three pounds", "Five pounds"],
+        "keywords": ["pannier rack", "bag", "three pounds"],
+        "synonymsUsed": ["additional charge", "extra cost"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "hybrid bike", "meaning": "A bicycle that combines features of road and mountain bikes, suitable for varied terrain." },
+      { "word": "deposit", "pronunciationNote": "/dɪˈpɒzɪt/", "meaning": "A sum of money held as security and returned when an item is brought back undamaged." },
+      { "word": "pannier", "pronunciationNote": "/ˈpæniə/", "meaning": "A bag attached to a bicycle rack for carrying items." },
+      { "word": "round trip", "meaning": "A journey to a destination and back again." },
+      { "word": "incur", "pronunciationNote": "/ɪnˈkɜː/", "meaning": "To become subject to a charge or penalty as a result of an action." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a phone call to a ferry company booking a crossing for a car and two passengers.",
+    "audioScript": "Situation: A traveller phones a ferry company to book a crossing from Dover to Calais for two adults and a car.\nAgent: Good afternoon, Channel Ferries, this is Rachel speaking. How may I help?\nCaller: Hello, I'd like to book a ferry crossing from Dover to Calais for two adults and a car, travelling next Friday.\nAgent: Certainly. Our crossings run every two hours from six a.m. to ten p.m. The crossing time is ninety minutes. Which sailing would you prefer?\nCaller: I think the ten a.m. sailing would be good.\nAgent: The ten a.m. is available. The standard fare is forty-five pounds per adult and thirty pounds for a car. We also have a premium option for an extra twenty pounds, which includes priority boarding and lounge access.\nCaller: I'll just take the standard fare, thanks. Can I book a cabin?\nAgent: Cabins are only available on overnight sailings, I'm afraid. For a day crossing, you can reserve a reclining seat for seven pounds per person.\nCaller: That might be nice. I'll take two reclining seats. What about luggage?\nAgent: Each passenger can bring one carry-on bag up to ten kilos and one suitcase up to twenty kilos at no extra charge. Excess baggage is five pounds per kilo.\nCaller: Understood, we'll pack light. Can I pay by card over the phone?\nAgent: Of course. There's a one-pound-fifty booking fee for phone card payments. Or you can pay online and avoid the fee entirely.\nCaller: I'll pay online then. What's the latest I can check in?\nAgent: Check-in closes thirty minutes before departure for vehicles and forty-five minutes for foot passengers.\nCaller: Good to know. We'll be driving on, so we'll arrive an hour early to be safe.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "FEMALE", "role": "ferry booking agent" },
+        { "name": "Caller", "accent": "CANADIAN", "gender": "MALE", "role": "traveller" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many adults are travelling on the ferry?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One adult", "Two adults", "Three adults", "Four adults"],
+        "keywords": ["two adults", "travelling"],
+        "synonymsUsed": ["passengers", "people"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What route is the caller booking?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Dover to Calais", "Calais to Dover", "Portsmouth to Caen", "Holyhead to Dublin"],
+        "keywords": ["Dover", "Calais"],
+        "synonymsUsed": ["crossing route", "sailing"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often do the ferry crossings run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Every hour", "Every two hours", "Every three hours", "Every ninety minutes"],
+        "keywords": ["every two hours"],
+        "synonymsUsed": ["frequency", "interval"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which sailing does the caller choose?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The eight a.m. sailing", "The six a.m. sailing", "The ten a.m. sailing", "The twelve p.m. sailing"],
+        "keywords": ["ten a.m.", "sailing"],
+        "synonymsUsed": ["departure", "crossing time"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the ferry crossing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ninety minutes", "Sixty minutes", "One hundred and twenty minutes", "Seventy-five minutes"],
+        "keywords": ["ninety minutes", "crossing time"],
+        "synonymsUsed": ["duration", "journey length"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the car fare?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty pounds", "Twenty-five pounds", "Thirty pounds", "Thirty-five pounds"],
+        "keywords": ["car", "thirty pounds"],
+        "synonymsUsed": ["vehicle charge", "car ticket"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much extra does the premium option cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifteen pounds", "Twenty pounds", "Twenty-five pounds", "Thirty pounds"],
+        "keywords": ["premium", "extra twenty pounds"],
+        "synonymsUsed": ["upgrade fee", "additional charge"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does a reclining seat cost per person?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Seven pounds", "Five pounds", "Ten pounds", "Free of charge"],
+        "keywords": ["reclining seat", "seven pounds"],
+        "synonymsUsed": ["seat reservation", "comfort seat"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the excess baggage charge per kilo?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three pounds", "Five pounds", "Seven pounds", "Ten pounds"],
+        "keywords": ["excess baggage", "five pounds", "per kilo"],
+        "synonymsUsed": ["overweight charge", "extra luggage fee"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does vehicle check-in close before departure?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Thirty minutes before departure", "Forty-five minutes before departure", "Fifteen minutes before departure", "Sixty minutes before departure"],
+        "keywords": ["check-in closes", "thirty minutes", "vehicles"],
+        "synonymsUsed": ["latest arrival", "cut-off time"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "crossing", "meaning": "A journey by ferry from one shore to another." },
+      { "word": "sailing", "pronunciationNote": "/ˈseɪlɪŋ/", "meaning": "A scheduled departure of a ferry or ship." },
+      { "word": "priority boarding", "meaning": "A service allowing passengers to board before others." },
+      { "word": "reclining seat", "meaning": "A seat that leans back for comfort during a journey." },
+      { "word": "excess baggage", "meaning": "Luggage that exceeds the permitted weight allowance." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a woman calling a community arts centre to enrol in a beginner's pottery class.",
+    "audioScript": "Situation: A woman calls a community arts centre to enrol in a beginner's pottery course and asks about schedule, cost, and what to bring.\nInstructor: Hello, Clayworks Arts Centre, this is Karen. How can I help?\nCaller: Hi, I saw your advert for pottery classes and I'd like to enrol in the beginner's course.\nInstructor: Wonderful. Our beginner's pottery course runs for six weeks, with one two-hour session each Wednesday evening from six to eight.\nCaller: That fits my schedule. How much does the course cost?\nInstructor: The full course is one hundred and twenty pounds, which includes all materials and firing. If you prefer to pay per session, it's twenty-five pounds each, but you'd need to buy clay separately.\nCaller: I'll sign up for the full course. It's better value. When does the next one start?\nInstructor: The next intake begins on the fifth of September. There are currently four spots left out of twelve.\nCaller: Great, I'd like to reserve one. What should I bring?\nInstructor: Just wear old clothes and closed-toe shoes. We provide aprons and all tools. Oh, and tie back long hair for safety near the wheel.\nCaller: No problem. Can I bring a friend to the first session to try it out?\nInstructor: We offer a free taster session on the first evening for friends of enrolled students, but they need to book in advance as we cap it at six taster places.\nCaller: I'll mention it to my friend. Is there parking at the centre?\nInstructor: Yes, there's free parking on site after five p.m. Before that, it's pay-and-display at two pounds an hour.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Instructor", "accent": "AMERICAN", "gender": "FEMALE", "role": "arts centre instructor" },
+        { "name": "Caller", "accent": "BRITISH", "gender": "FEMALE", "role": "prospective student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does the beginner's pottery course run for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Four weeks", "Six weeks", "Eight weeks", "Ten weeks"],
+        "keywords": ["six weeks", "course"],
+        "synonymsUsed": ["duration", "course length"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On what day are the pottery sessions held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Wednesday", "Tuesday", "Thursday", "Monday"],
+        "keywords": ["Wednesday", "session"],
+        "synonymsUsed": ["weekday", "class day"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time do the sessions run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five to seven p.m.", "Six to eight p.m.", "Seven to nine p.m.", "Six to nine p.m."],
+        "keywords": ["six to eight"],
+        "synonymsUsed": ["evening slot", "class time"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the full course cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One hundred pounds", "One hundred and ten pounds", "One hundred and twenty pounds", "One hundred and thirty pounds"],
+        "keywords": ["one hundred and twenty pounds"],
+        "synonymsUsed": ["course fee", "total price"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is included in the full course fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["All materials and firing", "Materials only", "Firing only", "Nothing, everything is extra"],
+        "keywords": ["materials", "firing", "includes"],
+        "synonymsUsed": ["supplies", "kiln firing"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does a single session cost if paying per class?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen pounds", "Twenty pounds", "Twenty-five pounds", "Thirty pounds"],
+        "keywords": ["per session", "twenty-five pounds"],
+        "synonymsUsed": ["drop-in rate", "individual class"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the next course intake begin?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The fifth of September", "The fifteenth of September", "The fifth of October", "The fifth of August"],
+        "keywords": ["fifth of September", "next intake"],
+        "synonymsUsed": ["start date", "next course"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many spots are currently left in the course?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three spots", "Four spots", "Five spots", "Six spots"],
+        "keywords": ["four spots", "left"],
+        "synonymsUsed": ["places available", "openings"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What should the student wear to the class?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Formal attire", "Old clothes and closed-toe shoes", "Sports kit", "Overalls provided by the centre"],
+        "keywords": ["old clothes", "closed-toe shoes"],
+        "synonymsUsed": ["casual clothing", "sturdy footwear"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does free parking become available at the centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["After five p.m.", "After six p.m.", "All day", "After four p.m."],
+        "keywords": ["free parking", "after five p.m."],
+        "synonymsUsed": ["no charge", "evening parking"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "enrol", "pronunciationNote": "/ɪnˈrəʊl/", "meaning": "To register for a course or programme." },
+      { "word": "firing", "meaning": "The process of heating clay in a kiln to harden it into pottery." },
+      { "word": "intake", "meaning": "A group of new students beginning a course at the same time." },
+      { "word": "taster session", "meaning": "A free introductory session allowing someone to try an activity before committing." },
+      { "word": "pay-and-display", "meaning": "A parking system where drivers buy a ticket and display it in their vehicle." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a man calling a mobile network provider to sign up for a new monthly phone plan.",
+    "audioScript": "Situation: A man calls a mobile network provider to sign up for a new monthly phone plan and asks about data, contract terms, and number transfer.\nAgent: Good morning, Connect Mobile, this is James. How can I help?\nCustomer: Hi, I'd like to sign up for a monthly plan. I'm currently on pay-as-you-go and it's getting expensive.\nAgent: I can certainly help. We have three monthly plans. The basic plan is twelve pounds a month and includes five gigabytes of data, unlimited calls and texts.\nCustomer: That might not be enough data. What's the next one up?\nAgent: The standard plan is eighteen pounds a month with fifteen gigabytes of data, and the premium is twenty-five pounds with unlimited data. The premium also includes international roaming in forty countries.\nCustomer: I travel a lot for work, so the premium sounds best. Is there a contract period?\nAgent: All plans are on a twelve-month contract. If you cancel early, there's a termination fee of one month's charge.\nCustomer: That's reasonable. I'll go with the premium plan. I already have a phone, so I just need the SIM.\nAgent: No problem. We offer a SIM-only deal, so no phone cost. There's a five-pound activation fee, but we waive it if you set up a direct debit.\nCustomer: I'll set up a direct debit then. How long does the SIM take to arrive?\nAgent: It takes two to three working days by first-class post. Once you receive it, text the word ACTIVATE to 88555, and your number will be transferred within twenty-four hours.\nCustomer: Can I keep my existing number?\nAgent: Absolutely. You'll need a PAC code from your current provider. Text PAC to 65075 to get it, then give us the code and we handle the rest.\nCustomer: Perfect. One last thing, is there a data rollover if I don't use it all?\nAgent: With the premium plan, data is unlimited so there's no need. But on other plans, unused data rolls over for one month only.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "MALE", "role": "mobile network agent" },
+        { "name": "Customer", "accent": "AMERICAN", "gender": "MALE", "role": "new customer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is the customer looking to switch from his current plan?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["His phone is broken", "Pay-as-you-go is getting expensive", "He wants a new phone", "He moved to a new area"],
+        "keywords": ["pay-as-you-go", "expensive"],
+        "synonymsUsed": ["costly", "too pricey"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many monthly plans does the company offer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two", "Four", "Three", "Five"],
+        "keywords": ["three", "monthly plans"],
+        "synonymsUsed": ["options", "tariffs"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the basic plan per month?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twelve pounds", "Fifteen pounds", "Eighteen pounds", "Ten pounds"],
+        "keywords": ["basic", "twelve pounds"],
+        "synonymsUsed": ["entry-level", "cheapest"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much data does the basic plan include?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three gigabytes", "Five gigabytes", "Ten gigabytes", "Fifteen gigabytes"],
+        "keywords": ["basic", "five gigabytes"],
+        "synonymsUsed": ["data allowance", "data limit"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which plan does the customer choose?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The basic plan", "The standard plan", "The premium plan", "He hasn't decided"],
+        "keywords": ["premium", "sounds best"],
+        "synonymsUsed": ["top tier", "highest plan"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the premium plan per month?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Twelve pounds", "Eighteen pounds", "Twenty pounds", "Twenty-five pounds"],
+        "keywords": ["premium", "twenty-five pounds"],
+        "synonymsUsed": ["monthly charge", "subscription"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the contract length for all plans?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Six months", "Twelve months", "Eighteen months", "Twenty-four months"],
+        "keywords": ["twelve-month", "contract"],
+        "synonymsUsed": ["term", "commitment period"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How can the customer avoid the five-pound activation fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By paying annually", "By setting up a direct debit", "By referring a friend", "It cannot be avoided"],
+        "keywords": ["activation fee", "waive", "direct debit"],
+        "synonymsUsed": ["skip the charge", "automatic payment"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does the SIM take to arrive by post?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One to two working days", "Two to three working days", "Three to five working days", "Same day delivery"],
+        "keywords": ["two to three", "working days"],
+        "synonymsUsed": ["delivery time", "postage"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What word should the customer text to 88555 to activate the SIM?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["START", "ACTIVATE", "GO", "SIM"],
+        "keywords": ["ACTIVATE", "88555"],
+        "synonymsUsed": ["trigger word", "activation code"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "pay-as-you-go", "meaning": "A mobile plan where credit is purchased in advance and deducted as used." },
+      { "word": "gigabyte", "pronunciationNote": "/ˈɡɪɡəbaɪt/", "meaning": "A unit of digital data equal to one thousand megabytes." },
+      { "word": "roaming", "pronunciationNote": "/ˈrəʊmɪŋ/", "meaning": "The ability to use a mobile phone on a different network while abroad." },
+      { "word": "termination fee", "meaning": "A charge for ending a contract before its agreed end date." },
+      { "word": "PAC code", "meaning": "A Porting Authorisation Code that allows a user to keep their phone number when switching providers." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a homeowner calling an insurance company to get a quote for combined buildings and contents insurance.",
+    "audioScript": "Situation: A homeowner who has just bought a house phones an insurance company to get a quote for combined buildings and contents insurance and asks about add-ons.\nAgent: Good afternoon, SecureHome Insurance, this is Oliver. How may I help?\nCaller: Hello, I've just bought a three-bedroom semi-detached house and I'd like to get a combined buildings and contents insurance quote.\nAgent: Congratulations on the purchase. I'll need some details. What's the rebuild cost of the property? This is different from the market value.\nCaller: The surveyor estimated the rebuild cost at two hundred and forty thousand pounds.\nAgent: Thank you. And what's the total value of contents you'd like to insure?\nCaller: I'd say around thirty-five thousand pounds. That includes about five thousand in valuables like jewellery and watches.\nAgent: I see. Our standard combined policy is twenty-eight pounds per month. It covers fire, flood, storm damage, subsidence, and theft. The buildings excess is two hundred and fifty pounds, and the contents excess is one hundred pounds.\nCaller: What about accidental damage?\nAgent: Accidental damage isn't included in the standard policy, but you can add it for an extra four pounds per month. It covers things like spilling paint on a carpet or putting a foot through a ceiling.\nCaller: I think that's worth having. I'm a bit clumsy. What about personal possessions outside the home?\nAgent: That's a separate add-on. For an additional three pounds a month, it covers items like laptops and jewellery up to two thousand pounds per item when taken outside the property.\nCaller: I'll add that too, since I carry my laptop everywhere. So what's the total monthly premium?\nAgent: Let me calculate. The standard is twenty-eight, plus four for accidental damage, plus three for personal possessions, bringing it to thirty-five pounds per month. There's also a ten percent discount if you pay annually instead of monthly.\nCaller: That's tempting. How much would the annual payment be?\nAgent: The annual total would be three hundred and seventy-eight pounds, compared to four hundred and twenty if paid monthly. That's a saving of forty-two pounds.\nCaller: I'll pay annually then. One more thing, I have a burglar alarm fitted. Does that reduce the premium?\nAgent: Yes, a NACOSS-approved alarm gives a further five percent discount. I'll need the certificate number.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "MALE", "role": "insurance agent" },
+        { "name": "Caller", "accent": "CANADIAN", "gender": "FEMALE", "role": "new homeowner" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of property has the caller just bought?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A three-bedroom semi-detached house", "A two-bedroom terrace house", "A four-bedroom detached house", "A three-bedroom flat"],
+        "keywords": ["three-bedroom", "semi-detached"],
+        "synonymsUsed": ["property type", "house style"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the estimated rebuild cost of the property?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two hundred and twenty thousand pounds", "Two hundred and thirty thousand pounds", "Two hundred and forty thousand pounds", "Two hundred and fifty thousand pounds"],
+        "keywords": ["rebuild cost", "two hundred and forty thousand"],
+        "synonymsUsed": ["reconstruction value", "building cost"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total value of contents the caller wants to insure?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Thirty thousand pounds", "Thirty-five thousand pounds", "Forty thousand pounds", "Forty-five thousand pounds"],
+        "keywords": ["contents", "thirty-five thousand"],
+        "synonymsUsed": ["belongings value", "household goods"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much of the contents value is in valuables like jewellery?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Five thousand pounds", "Three thousand pounds", "Seven thousand pounds", "Ten thousand pounds"],
+        "keywords": ["valuables", "five thousand"],
+        "synonymsUsed": ["jewellery and watches", "precious items"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the standard combined policy per month?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty-five pounds", "Twenty-eight pounds", "Thirty-two pounds", "Thirty-five pounds"],
+        "keywords": ["standard", "twenty-eight pounds", "per month"],
+        "synonymsUsed": ["base premium", "monthly cost"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the buildings excess on the standard policy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One hundred and fifty pounds", "Two hundred pounds", "Two hundred and fifty pounds", "Three hundred pounds"],
+        "keywords": ["buildings excess", "two hundred and fifty"],
+        "synonymsUsed": ["deductible", "claim threshold"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much extra per month does accidental damage cover cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three pounds", "Four pounds", "Five pounds", "Six pounds"],
+        "keywords": ["accidental damage", "extra four pounds"],
+        "synonymsUsed": ["add-on charge", "supplement"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the per-item limit for personal possessions outside the home?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two thousand pounds", "One thousand five hundred pounds", "Two thousand five hundred pounds", "Three thousand pounds"],
+        "keywords": ["personal possessions", "two thousand pounds", "per item"],
+        "synonymsUsed": ["single article limit", "item cap"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total monthly premium with all add-ons included?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Twenty-eight pounds", "Thirty-two pounds", "Thirty-four pounds", "Thirty-five pounds"],
+        "keywords": ["total", "thirty-five pounds", "per month"],
+        "synonymsUsed": ["combined premium", "full monthly cost"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What discount does a NACOSS-approved burglar alarm provide?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten percent", "Five percent", "Fifteen percent", "Twenty percent"],
+        "keywords": ["NACOSS", "alarm", "five percent"],
+        "synonymsUsed": ["reduction", "security discount"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "rebuild cost", "meaning": "The estimated cost to reconstruct a property from scratch, distinct from its market value." },
+      { "word": "excess", "pronunciationNote": "/ɪkˈses/", "meaning": "The amount a policyholder pays towards a claim before the insurer covers the rest." },
+      { "word": "subsidence", "pronunciationNote": "/səbˈsaɪdns/", "meaning": "The gradual sinking of a building's foundations, causing structural damage." },
+      { "word": "accidental damage", "meaning": "Unintentional harm to property, such as spills or breakages, often available as an insurance add-on." },
+      { "word": "premium", "pronunciationNote": "/ˈpriːmiəm/", "meaning": "The amount paid regularly for an insurance policy." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a tenant calling a plumbing company to book an appointment for a leaking water heater.",
+    "audioScript": "Situation: A tenant phones a plumbing company to book an appointment for a leaking water heater and discusses fees, invoicing, and access details.\nReceptionist: Good morning, A1 Plumbing Services, this is Julie. How can I help?\nCaller: Hi, I've got a water heater that's leaking from the bottom and I need someone to come and look at it.\nReceptionist: I'm sorry to hear that. Is it an emergency? Is water flowing freely or just dripping?\nCaller: It's a steady drip, not gushing, but it's been going since last night and the floor is getting wet.\nReceptionist: I see. We can send a plumber tomorrow morning between nine and twelve. Our call-out fee is forty-five pounds, which includes the first half hour of labour. After that, it's thirty pounds per half hour.\nCaller: Tomorrow morning works. Do you charge for parts separately?\nReceptionist: Yes, parts are charged at cost plus fifteen percent. The plumber will give you a quote before carrying out any work beyond the initial diagnosis.\nCaller: That sounds fair. My landlord said he'd cover the cost, so can you send the invoice to him?\nReceptionist: We can do that. I'll need the landlord's name and email address for the invoice. You'll also need to sign an authorisation form when the plumber arrives.\nCaller: His name is Peter Whitfield, W-H-I-T-F-I-E-L-D. His email is p dot whitfield at businessmail dot co dot uk.\nReceptionist: Got it. Is the property a house or a flat?\nCaller: It's a ground-floor flat at fourteen Elm Street. The heater is in the airing cupboard in the hallway.\nReceptionist: Perfect. The plumber will need access to the water stopcock as well, in case the supply needs to be shut off. Do you know where it is?\nCaller: Yes, it's under the kitchen sink. I'll make sure the area is clear.\nReceptionist: Excellent. I'll book you in for tomorrow between nine and twelve. You'll get a text message thirty minutes before the plumber arrives.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Receptionist", "accent": "BRITISH", "gender": "FEMALE", "role": "plumbing company receptionist" },
+        { "name": "Caller", "accent": "AUSTRALIAN", "gender": "MALE", "role": "tenant" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What problem is the caller reporting?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A blocked drain", "A leaking water heater", "A broken boiler", "A burst pipe"],
+        "keywords": ["water heater", "leaking"],
+        "synonymsUsed": ["dripping cylinder", "fault"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long has the leak been going on?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Since this morning", "Since last night", "For two days", "For a week"],
+        "keywords": ["since last night"],
+        "synonymsUsed": ["started", "ongoing"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When can the plumber come to the property?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Tomorrow morning between nine and twelve", "This afternoon", "Tomorrow afternoon between one and four", "The day after tomorrow"],
+        "keywords": ["tomorrow", "nine and twelve"],
+        "synonymsUsed": ["appointment window", "visit time"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the call-out fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty-five pounds", "Forty pounds", "Forty-five pounds", "Fifty pounds"],
+        "keywords": ["call-out fee", "forty-five pounds"],
+        "synonymsUsed": ["visit charge", "attendance fee"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the labour rate after the first half hour?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty-five pounds per half hour", "Thirty pounds per half hour", "Thirty-five pounds per half hour", "Forty pounds per half hour"],
+        "keywords": ["thirty pounds", "per half hour"],
+        "synonymsUsed": ["hourly rate", "labour charge"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How are parts charged by the plumbing company?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At cost plus ten percent", "At cost plus fifteen percent", "At cost plus twenty percent", "At a fixed flat rate"],
+        "keywords": ["parts", "cost plus fifteen percent"],
+        "synonymsUsed": ["markup", "parts billing"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who will be paying for the plumbing work?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The tenant", "The insurance company", "The landlord", "The letting agent"],
+        "keywords": ["landlord", "cover the cost"],
+        "synonymsUsed": ["property owner", "payer"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the landlord's surname?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Whitfield", "Whitefield", "Whitfell", "Whitfeld"],
+        "keywords": ["Whitfield", "W-H-I-T-F-I-E-L-D"],
+        "synonymsUsed": ["last name", "family name"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the water heater located in the property?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In the kitchen", "In the airing cupboard in the hallway", "In the bathroom", "In the utility room"],
+        "keywords": ["airing cupboard", "hallway"],
+        "synonymsUsed": ["storage cupboard", "location"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the water stopcock located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Under the kitchen sink", "Under the bathroom sink", "In the airing cupboard", "Outside the property"],
+        "keywords": ["stopcock", "under the kitchen sink"],
+        "synonymsUsed": ["shut-off valve", "main valve"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "call-out fee", "meaning": "A charge for a tradesperson to visit a property, often including initial labour time." },
+      { "word": "stopcock", "pronunciationNote": "/ˈstɒpkɒk/", "meaning": "A valve that controls the flow of water into a property's plumbing system." },
+      { "word": "airing cupboard", "meaning": "A storage cupboard, typically housing a water heater, often found in a hallway." },
+      { "word": "diagnosis", "pronunciationNote": "/ˌdaɪəɡˈnəʊsɪs/", "meaning": "The identification of a problem or fault by a professional." },
+      { "word": "authorisation", "meaning": "Official permission for work to be carried out or costs to be charged." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a customer calling a furniture store to arrange delivery and assembly of a sofa and dining table.",
+    "audioScript": "Situation: A customer calls a furniture store's delivery department to arrange Saturday delivery, assembly, and old furniture removal for a sofa and dining table.\nAgent: Good afternoon, Homewood Furniture, delivery department, this is Marcus. How can I help?\nCustomer: Hello, I purchased a three-seater sofa and an oak dining table yesterday at your Lakeside branch, and I'd like to arrange delivery.\nAgent: Certainly. Could I have your order number, please?\nCustomer: Yes, it's H-W-seven-four-nine-two.\nAgent: Thank you. I can see the order here. The sofa is the Canterbury model in charcoal grey and the table is the solid oak extending table. Are both items in stock?\nCustomer: That's right. The salesperson said they could be delivered together.\nAgent: Yes, both are at our central warehouse. We have three delivery windows: weekday mornings between eight and twelve, weekday afternoons between one and five, and Saturdays between nine and one. Saturday delivery carries a surcharge of fifteen pounds.\nCustomer: I work during the week, so Saturday would be ideal. Can you do this coming Saturday?\nAgent: Let me check. Yes, we have availability this Saturday between nine and one. The standard delivery fee is twenty-nine pounds, plus the fifteen-pound Saturday surcharge, so forty-four pounds total.\nCustomer: That's fine. Can the delivery team assemble the furniture as well?\nAgent: Assembly is available for an additional charge. The sofa assembly is twenty-five pounds and the table assembly is thirty-five pounds, as it requires extending the leaves and fitting the legs.\nCustomer: I'll have the table assembled, but I can manage the sofa myself. Does delivery include removal of my old sofa?\nAgent: We offer a removal service for old furniture at twenty pounds per item. It's only available for items being replaced by a new purchase.\nCustomer: I'll add that for the old sofa. What happens if the furniture doesn't fit through my doorway?\nAgent: Our team carries a door frame measurer and will check before unloading. If it doesn't fit, there's a return-to-store fee of twenty pounds, and we can arrange an alternative date with a smaller team that can disassemble and reassemble on site for an extra sixty pounds.\nCustomer: The doorways are quite wide, so I think we'll be fine. I live on the second floor. Is there a charge for upstairs delivery?\nAgent: For deliveries above the ground floor without a lift, there's a surcharge of ten pounds per floor per item. So for two items on the second floor, that's an additional forty pounds.\nCustomer: Right, let me add that up. Delivery forty-four, table assembly thirty-five, old sofa removal twenty, upstairs delivery forty. That comes to one hundred and thirty-nine pounds.\nAgent: That's correct. I'll need to take payment for the delivery services today. The furniture itself was paid for in store yesterday.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Agent", "accent": "BRITISH", "gender": "MALE", "role": "furniture store delivery agent" },
+        { "name": "Customer", "accent": "CANADIAN", "gender": "FEMALE", "role": "customer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What two items did the customer purchase from the furniture store?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A three-seater sofa and an oak dining table", "A sofa and a bookshelf", "A bed and a dining table", "A sofa and a wardrobe"],
+        "keywords": ["three-seater sofa", "oak dining table"],
+        "synonymsUsed": ["furniture items", "purchases"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What colour is the Canterbury sofa?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Navy blue", "Charcoal grey", "Cream", "Forest green"],
+        "keywords": ["Canterbury", "charcoal grey"],
+        "synonymsUsed": ["sofa colour", "upholstery shade"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What surcharge applies for Saturday delivery?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Fifteen pounds", "Twenty pounds", "Twenty-five pounds", "Ten pounds"],
+        "keywords": ["Saturday", "surcharge", "fifteen pounds"],
+        "synonymsUsed": ["weekend fee", "additional charge"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the standard delivery fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty-five pounds", "Twenty-nine pounds", "Thirty-five pounds", "Thirty-nine pounds"],
+        "keywords": ["standard delivery", "twenty-nine pounds"],
+        "synonymsUsed": ["base delivery charge", "standard rate"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does sofa assembly cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty-five pounds", "Thirty pounds", "Thirty-five pounds", "Twenty pounds"],
+        "keywords": ["sofa assembly", "twenty-five pounds"],
+        "synonymsUsed": ["assembly charge", "build fee"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does table assembly cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-five pounds", "Thirty pounds", "Thirty-five pounds", "Forty pounds"],
+        "keywords": ["table assembly", "thirty-five pounds"],
+        "synonymsUsed": ["assembly charge", "build fee"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which item does the customer want assembled by the delivery team?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Both items", "The table only", "The sofa only", "Neither item"],
+        "keywords": ["table assembled", "sofa myself"],
+        "synonymsUsed": ["build service", "chosen item"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the old furniture removal service per item?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten pounds", "Fifteen pounds", "Twenty pounds", "Twenty-five pounds"],
+        "keywords": ["removal", "twenty pounds", "per item"],
+        "synonymsUsed": ["disposal fee", "take-away charge"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What fee applies if the furniture doesn't fit through the doorway?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifteen pounds", "Twenty pounds", "Twenty-five pounds", "Thirty pounds"],
+        "keywords": ["return-to-store", "twenty pounds"],
+        "synonymsUsed": ["non-delivery fee", "return charge"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total cost for all delivery services?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One hundred and twenty-nine pounds", "One hundred and thirty-four pounds", "One hundred and thirty-nine pounds", "One hundred and forty-four pounds"],
+        "keywords": ["total", "one hundred and thirty-nine"],
+        "synonymsUsed": ["grand total", "overall cost"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "surcharge", "pronunciationNote": "/ˈsɜːtʃɑːdʒ/", "meaning": "An additional charge on top of the standard price." },
+      { "word": "assembly", "meaning": "The process of putting furniture parts together to form a complete item." },
+      { "word": "extending table", "meaning": "A dining table that can be made larger by adding extra sections called leaves." },
+      { "word": "return-to-store fee", "meaning": "A charge applied when goods cannot be delivered and must be taken back to the warehouse." },
+      { "word": "pre-authorise", "meaning": "To reserve an amount on a payment card without charging it immediately." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_1",
+    "questionText": "Listen to a man calling a cookery school to register for an Italian pasta-making workshop.",
+    "audioScript": "Situation: A man calls a cookery school to register for an Italian pasta-making workshop and asks about schedule, cost, and what is included.\nInstructor: Hello, Taste of Italy Cookery School, this is Maria. How can I help?\nCaller: Hi, I'd like to register for an Italian cooking class. I saw your website and I'm interested in the pasta-making workshop.\nInstructor: Wonderful. We have a few options. The pasta-making workshop is a single three-hour session on Saturday mornings, costing sixty-five pounds. We also have a four-week Italian basics course at two hundred pounds, and a one-day intensive at one hundred and twenty pounds.\nCaller: The single pasta workshop sounds perfect for my schedule. When is the next one?\nInstructor: The next available session is the twelfth of October, from ten a.m. to one p.m. There are three spots left.\nCaller: I'll take one. What's included in the price?\nInstructor: All ingredients, an apron to use during the class, and you take home everything you make. We also email you the recipes afterward.\nCaller: That's great. Do I need any prior experience?\nInstructor: Not at all. The workshop is designed for complete beginners. Our instructor, Chef Luca, walks you through every step from dough to shaping.\nCaller: Sounds fun. Can I bring my own container for the pasta?\nInstructor: We provide takeaway containers, but you're welcome to bring your own if you prefer. Some students bring a large Tupperware box.\nCaller: I'll bring my own then. What should I wear?\nInstructor: Wear comfortable clothes and flat, closed-toe shoes. We provide aprons, but avoid loose sleeves near the hob. Also, please arrive ten minutes early for a brief safety induction.\nCaller: Got it. How do I pay?\nInstructor: You can pay by card over the phone now to secure your spot, or we can send a payment link by email. Just note that we require full payment at least forty-eight hours before the class, otherwise the spot is released.",
+    "context": {
+      "setting": "SOCIAL_SURVIVAL",
+      "speakers": [
+        { "name": "Instructor", "accent": "BRITISH", "gender": "FEMALE", "role": "cookery school instructor" },
+        { "name": "Caller", "accent": "AMERICAN", "gender": "MALE", "role": "prospective student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which workshop is the caller interested in?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The pasta-making workshop", "The four-week Italian basics course", "The one-day intensive", "A pizza-making class"],
+        "keywords": ["pasta-making workshop"],
+        "synonymsUsed": ["pasta class", "session"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the pasta-making workshop?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three hours", "Two hours", "Four hours", "A full day"],
+        "keywords": ["three-hour", "session"],
+        "synonymsUsed": ["duration", "class length"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the pasta-making workshop cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifty-five pounds", "Sixty-five pounds", "Seventy-five pounds", "One hundred and twenty pounds"],
+        "keywords": ["sixty-five pounds", "cost"],
+        "synonymsUsed": ["fee", "price"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the next available pasta-making session?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The fifth of October", "The twelfth of October", "The twentieth of October", "The second of October"],
+        "keywords": ["twelfth of October"],
+        "synonymsUsed": ["next date", "available session"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time does the session run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ten a.m. to one p.m.", "Nine a.m. to twelve p.m.", "Eleven a.m. to two p.m.", "Ten a.m. to two p.m."],
+        "keywords": ["ten a.m.", "one p.m."],
+        "synonymsUsed": ["session hours", "class time"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many spots are left in the next session?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two spots", "Three spots", "Four spots", "Five spots"],
+        "keywords": ["three spots", "left"],
+        "synonymsUsed": ["places available", "openings"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is included in the workshop price?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["All ingredients, an apron, and takeaway items", "Ingredients only", "An apron and a recipe book", "Ingredients and a meal afterwards"],
+        "keywords": ["ingredients", "apron", "take home"],
+        "synonymsUsed": ["provided", "included in fee"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is the instructor for the workshop?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Chef Marco", "Chef Luca", "Chef Antonio", "Chef Giuseppe"],
+        "keywords": ["Chef Luca", "instructor"],
+        "synonymsUsed": ["teacher", "chef"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How early should students arrive before the class?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ten minutes early", "Five minutes early", "Fifteen minutes early", "Twenty minutes early"],
+        "keywords": ["ten minutes", "early"],
+        "synonymsUsed": ["arrive before", "prior to start"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When must full payment be made to keep the spot?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At least twenty-four hours before the class", "At least forty-eight hours before the class", "On the day of the class", "One week before the class"],
+        "keywords": ["full payment", "forty-eight hours", "before"],
+        "synonymsUsed": ["payment deadline", "settle in advance"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "workshop", "meaning": "A single practical session focused on a specific skill or topic." },
+      { "word": "intensive", "pronunciationNote": "/ɪnˈtensɪv/", "meaning": "A course that packs a lot of content into a short period of time." },
+      { "word": "induction", "pronunciationNote": "/ɪnˈdʌkʃn/", "meaning": "A brief introduction to safety rules and procedures before an activity." },
+      { "word": "apron", "pronunciationNote": "/ˈeɪprən/", "meaning": "A protective garment worn over clothes while cooking." },
+      { "word": "takeaway container", "meaning": "A box used to carry food prepared during a class home with you." }
+    ],
+    "difficulty": "MEDIUM"
+  }
+]

@@ -1,0 +1,910 @@
+[
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation at the student center about signing up for a career skills workshop.",
+    "audioScript": "Situation: A student visits the student center front desk to register for a career skills workshop on resume writing.\nTyler: Hi, I saw a flyer about a resume writing workshop next week. Can I still sign up?\nCoordinator: Absolutely. The workshop is next Wednesday at two PM in Room 214. There are still seats available. May I have your name and student ID?\nTyler: Tyler Marsh, ID eight-four-nine-two-zero-seven.\nCoordinator: Great, you're registered. Please bring a printed copy of your current resume and a job description for a position you're interested in. The facilitator will use those for the hands-on revision segment.\nTyler: I don't have a job description yet. Is that a problem?\nCoordinator: Not at all. If you don't have one, the facilitator will provide sample postings. But bringing your own makes the exercises more tailored to your goals.\nTyler: That makes sense. Is there a fee?\nCoordinator: The workshop is free for all enrolled students. However, if you register and don't show up without canceling twenty-four hours in advance, a ten-dollar no-show fee will be charged to your account. That policy helps us manage waitlisted students.\nTyler: Understood. How long is the workshop?\nCoordinator: It runs for ninety minutes, from two to three thirty PM. There's also an optional fifteen-minute Q&A at the end if you want to stay and ask the facilitator specific questions.\nTyler: Perfect. Can I bring a friend who isn't registered?\nCoordinator: Walk-ins are welcome if seats remain, but registered students get priority. I'd recommend your friend sign up online tonight to guarantee a spot.\nTyler: I'll let him know. Thanks for your help.\nCoordinator: You're welcome. You'll get a confirmation email with the room details and a reminder the day before.",
+    "speakers": [
+      { "name": "Tyler", "role": "student" },
+      { "name": "Coordinator", "role": "student center staff" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What workshop does Tyler want to register for?",
+        "options": ["Interview skills", "Resume writing", "Networking strategies", "LinkedIn optimization"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler asks about signing up for a resume writing workshop he saw on a flyer."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "When is the workshop scheduled?",
+        "options": ["Next Monday at 2 PM", "Next Wednesday at 2 PM", "Next Friday at 3 PM", "Next Thursday at noon"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says the workshop is next Wednesday at two PM in Room 214."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What should Tyler bring to the workshop?",
+        "options": [
+          "A laptop and charger",
+          "A printed resume and a job description",
+          "A portfolio of past work",
+          "A letter of recommendation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator asks Tyler to bring a printed copy of his current resume and a job description for a position he's interested in."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What happens if Tyler doesn't have a job description?",
+        "options": [
+          "He cannot attend the workshop",
+          "The facilitator will provide sample postings",
+          "He must email one before the workshop",
+          "He will be assigned to a different session"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says if Tyler doesn't have a job description, the facilitator will provide sample postings."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How much does the workshop cost for enrolled students?",
+        "options": ["Ten dollars", "Twenty dollars", "Free", "Five dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator states the workshop is free for all enrolled students."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Under what condition is a no-show fee charged?",
+        "options": [
+          "If the student arrives late",
+          "If the student doesn't cancel twenty-four hours in advance",
+          "If the student forgets to bring materials",
+          "If the student leaves early"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator explains a ten-dollar no-show fee applies if a registered student doesn't show up without canceling twenty-four hours in advance."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How long is the main workshop session?",
+        "options": ["Sixty minutes", "Seventy-five minutes", "Ninety minutes", "Two hours"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator says the workshop runs for ninety minutes, from two to three thirty PM."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about bringing a friend who is not registered?",
+        "options": [
+          "Friends are never allowed",
+          "Walk-ins are welcome if seats remain, but registered students get priority",
+          "Friends must pay a fee to attend",
+          "Friends can only attend the Q&A session"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The coordinator says walk-ins are welcome if seats remain but registered students get priority, implying the friend may or may not get in."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To cancel a workshop registration",
+          "To register for a resume writing workshop and learn its requirements",
+          "To complain about a no-show fee",
+          "To apply for a job at the student center"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Tyler visits the student center to register for the resume writing workshop and learn what he needs to bring and the policies."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What will Tyler receive after registering?",
+        "options": [
+          "A printed ticket",
+          "A confirmation email with room details and a reminder",
+          "A phone call the day before",
+          "A text message confirmation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The coordinator tells Tyler he will get a confirmation email with room details and a reminder the day before."
+      }
+    ],
+    "keyVocabulary": ["workshop", "registration", "facilitator", "no-show fee", "waitlist", "walk-in", "confirmation email", "resume"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the academic office about preparing for a study abroad program.",
+    "audioScript": "Situation: A student meets with a study abroad advisor to prepare documents and deadlines for a semester in Spain.\nAdvisor: Come in, Sofia. You mentioned you're planning to study in Madrid next spring. Let's go over what you need.\nSofia: Yes, I'm really excited but a bit overwhelmed. I know I need a passport, but I'm not sure what else.\nAdvisor: First, check your passport expiration. Spain requires it to be valid for at least six months beyond your return date. If yours expires soon, renew it now because processing takes eight to ten weeks.\nSofia: Mine expires in March of next year, and I return in December. So that's only three months. I'll need to renew it.\nAdvisor: Correct. Next, you'll need a student visa. The Spanish consulate requires a letter of acceptance from your host university, proof of financial support, and a background check. The background check must be apostilled, which adds about four weeks.\nSofia: Four weeks just for the apostille? When is the visa application deadline?\nAdvisor: The consulate recommends submitting your visa application at least sixty days before departure. You're leaving January fifteenth, so aim to have everything ready by mid-November.\nSofia: That's tight. I don't have the acceptance letter yet.\nAdvisor: The host university sends it electronically within two weeks of your program approval. Your program was approved last Friday, so you should receive it by this Friday.\nSofia: Oh good. What about the financial support proof?\nAdvisor: You can use a bank statement showing sufficient funds, or a notarized letter from a sponsor, typically a parent, confirming they'll cover your expenses. The minimum amount is six thousand euros for one semester.\nSofia: My parents said they'd sponsor me. I'll ask them for the notarized letter. Are there any scholarships I can apply for?\nAdvisor: Yes, the Global Education Fund offers grants up to three thousand dollars. The application requires two faculty recommendations and a five-hundred-word essay. The deadline is October first.\nSofia: That's coming up. I'll start the essay this week.\nAdvisor: Good plan. I'll email you a checklist of all documents and deadlines so nothing slips through the cracks.",
+    "speakers": [
+      { "name": "Sofia", "role": "student" },
+      { "name": "Advisor", "role": "study abroad advisor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Where does Sofia plan to study abroad?",
+        "options": ["Paris", "Madrid", "Rome", "Berlin"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia mentions she is planning to study in Madrid next spring."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long must the passport be valid beyond the return date for Spain?",
+        "options": ["Three months", "Six months", "One year", "Two months"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The advisor states Spain requires the passport to be valid for at least six months beyond the return date."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does Sofia need to renew her passport?",
+        "options": [
+          "She lost it",
+          "It expires in March, only three months past her December return",
+          "It has no blank pages",
+          "It was issued in another country"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia's passport expires in March, and she returns in December, leaving only three months of validity, which is less than the required six."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Which document does the Spanish consulate NOT require for the student visa?",
+        "options": [
+          "Letter of acceptance",
+          "Proof of financial support",
+          "Background check",
+          "High school diploma"
+        ],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "The advisor lists a letter of acceptance, proof of financial support, and a background check, but not a high school diploma."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How long does the apostille process for the background check take?",
+        "options": ["One week", "Two weeks", "Four weeks", "Eight weeks"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The advisor says the apostille for the background check adds about four weeks."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "When should Sofia submit her visa application?",
+        "options": [
+          "At least thirty days before departure",
+          "At least sixty days before departure",
+          "At least ninety days before departure",
+          "At least two weeks before departure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The advisor says the consulate recommends submitting the visa application at least sixty days before departure."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "When will Sofia receive her acceptance letter from the host university?",
+        "options": ["This Friday", "Next Monday", "In two months", "By mid-November"],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The advisor says the host university sends the letter within two weeks of program approval, which was last Friday, so she should receive it by this Friday."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the minimum financial support amount required for one semester?",
+        "options": ["Three thousand euros", "Four thousand euros", "Five thousand euros", "Six thousand euros"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "explanation": "The advisor states the minimum amount for financial support is six thousand euros for one semester."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the Global Education Fund scholarship application require?",
+        "options": [
+          "Only a transcript",
+          "Two faculty recommendations and a five-hundred-word essay",
+          "An interview and a portfolio",
+          "A video presentation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The advisor explains the scholarship requires two faculty recommendations and a five-hundred-word essay, with a deadline of October first."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Canceling a study abroad trip",
+          "Preparing documents and deadlines for studying abroad in Spain",
+          "Choosing a host country",
+          "Applying for a language proficiency test"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers passport renewal, visa requirements, financial proof, and scholarship deadlines for Sofia's semester in Madrid."
+      }
+    ],
+    "keyVocabulary": ["passport", "student visa", "apostille", "background check", "financial support", "consulate", "scholarship", "acceptance letter", "sponsor"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation at the housing office about submitting a campus housing application.",
+    "audioScript": "Situation: A sophomore student speaks with a housing office clerk about applying for on-campus housing for the next academic year.\nMarcus: Hi, I'd like to apply for on-campus housing for next year. I'm a sophomore now, and I want to know if I'm guaranteed a spot.\nClerk: Unfortunately, on-campus housing is only guaranteed for freshmen. Sophomores and above enter a lottery system. You'll need to submit your application by March fifteenth to be included.\nMarcus: A lottery? What are my chances?\nClerk: Last year, about seventy percent of sophomores who applied received a housing offer. It depends on how many students apply and how many beds are available. Priority is given to students with documented medical accommodations.\nMarcus: I don't have a medical accommodation, but I do have a work-study job on campus. Does that help?\nClerk: Work-study status doesn't affect housing priority directly. However, there is a limited number of rooms reserved for resident advisors. If you're interested in becoming an RA, the application opens in January and includes free housing as a benefit.\nMarcus: That's interesting. What does the RA role involve?\nClerk: RAs are responsible for about forty residents on their floor. Duties include organizing events, enforcing policies, mediating conflicts, and being on call one weeknight per week and one weekend per month. It's a significant time commitment, but the free housing and a meal plan are included.\nMarcus: That sounds like a lot. If I just go with the lottery, when would I find out?\nClerk: Lottery results are emailed by April tenth. If you get a spot, you'll have one week to accept and pay a three-hundred-dollar housing deposit. If you don't get a spot, you'll be placed on a waitlist and notified if openings come up over the summer.\nMarcus: Can I choose my roommate either way?\nClerk: Yes, both lottery winners and waitlisted students can request a specific roommate, as long as that person also lists you. Roommate requests must be mutual to be honored.\nMarcus: Got it. I'll submit my application this week and think about the RA option.\nClerk: Sounds good. The application is available on the housing portal. Let me know if you have any questions.",
+    "speakers": [
+      { "name": "Marcus", "role": "sophomore student" },
+      { "name": "Clerk", "role": "housing office clerk" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why is on-campus housing not guaranteed for Marcus?",
+        "options": [
+          "He has a low GPA",
+          "Housing is only guaranteed for freshmen; sophomores enter a lottery",
+          "He hasn't paid tuition",
+          "There are no dorms available"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk explains that on-campus housing is only guaranteed for freshmen, and sophomores and above enter a lottery system."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the application deadline for the housing lottery?",
+        "options": ["March first", "March fifteenth", "April first", "April tenth"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk states Marcus needs to submit his application by March fifteenth to be included in the lottery."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What percentage of sophomores who applied received housing last year?",
+        "options": ["Fifty percent", "Sixty percent", "Seventy percent", "Eighty percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The clerk says about seventy percent of sophomores who applied last year received a housing offer."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Who gets priority in the housing lottery?",
+        "options": [
+          "Students with work-study jobs",
+          "Students with documented medical accommodations",
+          "Students with high GPAs",
+          "Student athletes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk says priority is given to students with documented medical accommodations."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Does Marcus's work-study status affect his housing priority?",
+        "options": [
+          "Yes, it gives him top priority",
+          "No, it doesn't affect housing priority directly",
+          "Yes, it guarantees a spot",
+          "Only if he works over twenty hours"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk tells Marcus that work-study status doesn't affect housing priority directly."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What benefits do resident advisors receive?",
+        "options": [
+          "A salary and parking permit",
+          "Free housing and a meal plan",
+          "Tuition waiver and free housing",
+          "Priority registration only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The clerk says RAs receive free housing and a meal plan as benefits."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "When are lottery results emailed to applicants?",
+        "options": ["March fifteenth", "April first", "April tenth", "May first"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The clerk states lottery results are emailed by April tenth."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What must Marcus do if he receives a housing spot?",
+        "options": [
+          "Accept within one week and pay a three-hundred-dollar deposit",
+          "Accept within three days and pay a five-hundred-dollar deposit",
+          "Accept immediately with no deposit",
+          "Accept within two weeks and sign a year-long lease"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The clerk says Marcus would have one week to accept and pay a three-hundred-dollar housing deposit."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about Marcus's attitude toward the RA role?",
+        "options": [
+          "He is fully committed to applying",
+          "He finds the commitment significant and wants to think about it",
+          "He has already applied",
+          "He thinks it's a waste of time"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Marcus responds 'That sounds like a lot' and later says he'll think about the RA option, suggesting he finds the commitment significant and needs to consider it."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Complaining about dorm conditions",
+          "Understanding the housing application process and lottery system",
+          "Applying for a meal plan refund",
+          "Reporting a roommate conflict"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation focuses on how Marcus can apply for on-campus housing, the lottery system, deadlines, and the RA option."
+      }
+    ],
+    "keyVocabulary": ["housing lottery", "guaranteed housing", "medical accommodation", "resident advisor", "meal plan", "housing deposit", "waitlist", "roommate request", "work-study"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation at the campus cafeteria about joining the student magazine staff.",
+    "audioScript": "Situation: Two students talk at the cafeteria about one student's interest in joining the campus magazine as a staff writer.\nEmma: Hey Jared, I heard you're thinking about joining The Campus Voice. I've been on the staff since last fall.\nJared: Yeah, I love writing and thought it'd be a good way to get involved. What's the process to join?\nEmma: First, you submit two writing samples, ideally one news article and one opinion piece, through our online portal. The editorial board reviews them and schedules an interview if they're interested.\nJared: What are they looking for in the samples?\nEmma: They want to see clear structure, engaging voice, and factual accuracy. For the news piece, make sure you cite at least two sources. For the opinion piece, they value a strong, well-supported argument rather than just a rant.\nJared: I have a news article I wrote for my journalism class last semester. Would that work?\nEmma: Definitely, class assignments are fine. As long as it hasn't been published elsewhere. We want original content. Once you're on staff, you're expected to write at least one article per issue, and we publish biweekly.\nJared: One article every two weeks seems manageable. Are there editorial meetings I'd need to attend?\nEmma: Yes, we have pitch meetings every other Tuesday at six PM in the media lab. Everyone brings two or three story ideas and the team votes on which ones to assign. Attendance is mandatory unless you have a class conflict.\nJared: What if I can't make a Tuesday meeting because of a lab?\nEmma: You can submit your pitches by email beforehand, but you should try to attend at least seventy-five percent of meetings per semester or you could be removed from staff.\nJared: That's fair. Is the position paid?\nEmma: Staff writers are unpaid, but editors receive a small stipend of two hundred dollars per semester. After one semester on staff, you can apply for an editor position. There are section editors for news, features, opinion, and arts.\nJared: I'd love to aim for opinion editor eventually. I'll submit my samples this week.\nEmma: Great! The deadline for this round is Friday. Let me know if you need feedback before you submit.",
+    "speakers": [
+      { "name": "Emma", "role": "magazine staff writer" },
+      { "name": "Jared", "role": "prospective staff writer" }
+    ],
+    "setting": "CAFETERIA",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is Jared interested in doing?",
+        "options": [
+          "Becoming a photographer for the magazine",
+          "Joining the campus magazine as a staff writer",
+          "Starting a new campus newspaper",
+          "Subscribing to the campus magazine"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jared mentions he's thinking about joining The Campus Voice and loves writing, indicating he wants to be a staff writer."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What writing samples must Jared submit?",
+        "options": [
+          "One news article and one opinion piece",
+          "Two opinion pieces",
+          "A short story and a poem",
+          "Two research papers"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Emma tells Jared to submit two writing samples, ideally one news article and one opinion piece, through the online portal."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does the editorial board look for in writing samples?",
+        "options": [
+          "Length and word count only",
+          "Clear structure, engaging voice, and factual accuracy",
+          "Controversial topics only",
+          "Use of advanced vocabulary"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Emma says they look for clear structure, engaging voice, and factual accuracy in the writing samples."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many sources should the news article cite?",
+        "options": ["At least one", "At least two", "At least three", "At least five"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Emma tells Jared to make sure the news piece cites at least two sources."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How often does the campus magazine publish?",
+        "options": ["Weekly", "Biweekly", "Monthly", "Quarterly"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Emma states staff writers are expected to write at least one article per issue, and the magazine publishes biweekly."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "When are the pitch meetings held?",
+        "options": [
+          "Every other Tuesday at 6 PM",
+          "Every Monday at 5 PM",
+          "Every Wednesday at 7 PM",
+          "Every Friday at noon"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Emma says pitch meetings are held every other Tuesday at six PM in the media lab."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What percentage of meetings must staff writers attend per semester?",
+        "options": ["Fifty percent", "Sixty percent", "Seventy-five percent", "One hundred percent"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Emma says staff should attend at least seventy-five percent of meetings per semester or they could be removed from staff."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about staff writer compensation?",
+        "options": [
+          "Staff writers receive a large salary",
+          "Staff writers are unpaid, but editors receive a stipend",
+          "All positions are paid equally",
+          "Only the editor-in-chief is paid"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Emma says staff writers are unpaid but editors receive a small stipend of two hundred dollars per semester, implying writers work voluntarily."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is Jared's long-term goal?",
+        "options": [
+          "To become editor-in-chief immediately",
+          "To eventually become the opinion editor",
+          "To leave the magazine after one semester",
+          "To start a rival publication"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jared says he would love to aim for opinion editor eventually after being on staff for a semester."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To review a published article",
+          "To explain how to join the campus magazine and its expectations",
+          "To complain about the magazine's content",
+          "To plan a magazine launch party"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Emma explains the application process, writing sample requirements, meeting attendance expectations, and compensation to help Jared join the magazine."
+      }
+    ],
+    "keyVocabulary": ["staff writer", "writing sample", "editorial board", "pitch meeting", "opinion piece", "news article", "stipend", "section editor", "biweekly"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation on campus between two students about running for student government.",
+    "audioScript": "Situation: Two students discuss the process and rules for running for student government positions on the campus quad.\nNina: Ravi, I saw your campaign posters. You're running for student body president? That's awesome!\nRavi: Thanks! I decided to run because I want to push for extended library hours and more funding for student clubs. But honestly, the election rules are confusing. I've been reading the election code all morning.\nNina: I was on the election committee last year. Maybe I can help. What's confusing you?\nRavi: First, how many signatures do I need on my nomination petition?\nNina: For president, you need two hundred signatures from currently enrolled students. For vice president, it's one hundred fifty. Make sure each signer includes their student ID number, or the signature won't count.\nRavi: Two hundred? I only have about a hundred and twenty so far. The deadline is this Friday. What happens if I don't get enough?\nNina: Then your name won't appear on the ballot. But you can still run as a write-in candidate. Write-in votes are counted, but it's much harder to win that way since your name isn't printed on the ballot.\nRavi: I'd rather get the signatures. Are there spending limits on campaigning?\nNina: Yes, each presidential ticket can spend up to three hundred dollars total. You have to submit receipts to the election committee within forty-eight hours of the polls closing. Going over the limit results in disqualification.\nRavi: Three hundred is tight. Does that include the cost of printing posters?\nNina: Yes, everything counts, posters, buttons, flyers, even food you give away at campaign events. The only exception is digital posts on official university platforms, which are free.\nRavi: Good to know. When is the actual election?\nNina: Voting opens online on Monday at eight AM and closes Wednesday at eight PM. Results are announced Thursday evening at the election rally in the student center.\nRavi: And how do students vote?\nNina: They log in to the student portal with their ID and select their candidates. Each student gets one vote for president and one for vice president. It's all electronic now, no paper ballots.\nRavi: Thanks, Nina. This clears up a lot. I'll focus on getting those signatures by Friday.",
+    "speakers": [
+      { "name": "Nina", "role": "student with election committee experience" },
+      { "name": "Ravi", "role": "student body president candidate" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why did Ravi decide to run for student body president?",
+        "options": [
+          "To gain leadership experience",
+          "To push for extended library hours and more club funding",
+          "To impress graduate schools",
+          "Because a professor asked him to"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ravi says he's running because he wants to push for extended library hours and more funding for student clubs."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many signatures does Ravi need for his nomination petition?",
+        "options": ["One hundred", "One hundred fifty", "Two hundred", "Three hundred"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Nina tells Ravi that presidential candidates need two hundred signatures from currently enrolled students."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What must each signer include for the signature to count?",
+        "options": [
+          "Their email address",
+          "Their student ID number",
+          "Their phone number",
+          "Their dorm building"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nina says each signer must include their student ID number, or the signature won't count."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many signatures does Ravi currently have?",
+        "options": ["About eighty", "About one hundred twenty", "About one hundred fifty", "About two hundred"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Ravi says he only has about a hundred and twenty signatures so far, which is short of the two hundred required."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What happens if Ravi doesn't get enough signatures by the deadline?",
+        "options": [
+          "He is permanently banned from running",
+          "His name won't appear on the ballot, but he can run as a write-in candidate",
+          "He automatically gets on the ballot anyway",
+          "He must wait until next year"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nina explains his name won't appear on the ballot, but he can still run as a write-in candidate."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the spending limit for a presidential ticket?",
+        "options": ["One hundred dollars", "Two hundred dollars", "Three hundred dollars", "Five hundred dollars"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Nina states each presidential ticket can spend up to three hundred dollars total on campaigning."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is exempt from the spending limit?",
+        "options": [
+          "Printing posters",
+          "Campaign buttons",
+          "Digital posts on official university platforms",
+          "Food at campaign events"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Nina says the only exception to the spending limit is digital posts on official university platforms, which are free."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "When are receipts due to the election committee?",
+        "options": [
+          "Before campaigning begins",
+          "Within forty-eight hours of the polls closing",
+          "One week after the election",
+          "On the day of the election rally"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nina says candidates must submit receipts to the election committee within forty-eight hours of the polls closing."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about write-in candidates?",
+        "options": [
+          "They have an equal chance of winning",
+          "It's much harder to win as a write-in since the name isn't printed on the ballot",
+          "Write-in votes are not counted",
+          "Write-in candidates get extra funding"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Nina says write-in votes are counted but it's much harder to win that way since the name isn't printed on the ballot."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Organizing an election rally",
+          "Understanding the rules and process for running in the student government election",
+          "Complaining about election committee decisions",
+          "Planning a voter registration drive"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers nomination petitions, spending limits, voting procedures, and deadlines for the student government election."
+      }
+    ],
+    "keyVocabulary": ["nomination petition", "signatures", "write-in candidate", "ballot", "spending limit", "election committee", "student portal", "disqualification", "campaign"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the library between two students about preparing for a debate tournament.",
+    "audioScript": "Situation: Two members of the debate team meet in the library to prepare arguments for an upcoming intercollegiate tournament.\nGrace: Okay Sam, the tournament is in two weeks and our resolution is about whether the government should implement a universal basic income. I'll take the affirmative and you'll take the negative. Let's compare our research.\nSam: Sounds good. I've gathered three main arguments against UBI. First, the cost is prohibitive. Studies show a nationwide UBI in the US would cost over three trillion dollars annually, requiring massive tax increases.\nGrace: That's a strong point. On the affirmative side, I have evidence from the Finland UBI experiment showing that recipients reported lower stress and better mental health without reducing employment rates.\nSam: I actually have a counter to that. The Finland experiment was small-scale, only two thousand participants, and lasted just two years. Critics argue it can't be generalized to a national population.\nGrace: That's fair, but I can cite the Alaska Permanent Fund, which has distributed dividends to all residents since 1982. That's a longer-term example, though the amount is much smaller than a full UBI.\nSam: Good, I'll need to address that. My second argument is about work disincentives. A study from the University of Chicago found that a twelve-thousand-dollar annual UBI could reduce employment by five percent nationally.\nGrace: I have a rebuttal for that. The same study noted the reduction was concentrated among secondary earners, not primary breadwinners, meaning overall household income remained stable. Also, other studies show UBI can actually encourage entrepreneurship by providing a safety net.\nSam: I'll need to find evidence questioning that entrepreneurship claim. What's your second affirmative argument?\nGrace: My second pillar is that UBI simplifies the welfare system by replacing multiple overlapping programs, reducing administrative costs and bureaucratic inefficiency.\nSam: That's interesting but risky. Some economists argue that targeted programs are more efficient because they direct resources to those who need them most, rather than giving money to everyone including the wealthy.\nGrace: That's where we'll clash. I think the simplicity argument resonates with judges who value administrative efficiency. What's your third argument?\nSam: My third is inflation risk. Injecting that much purchasing power into the economy could drive up prices, especially in housing, effectively canceling out the benefit.\nGrace: That's compelling. I need to find evidence on whether UBI is inflationary or not. Let's split the remaining research: I'll look for inflation counter-evidence, and you find studies supporting your entrepreneurship skepticism.\nSam: Deal. We should also practice cross-examination. The tournament format gives each side three minutes of cross-ex. I tend to ask too many leading questions, so I need to work on open-ended ones.\nGrace: Same here. Let's schedule a mock debate for next Thursday in the speech room. We'll each give our full constructive speeches and do cross-ex.\nSam: Perfect. I'll book the room. Let's reconvene on Monday to share what we find.",
+    "speakers": [
+      { "name": "Grace", "role": "debate team member (affirmative)" },
+      { "name": "Sam", "role": "debate team member (negative)" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the debate resolution the students are preparing for?",
+        "options": [
+          "Whether the government should implement a universal basic income",
+          "Whether tuition should be free at public universities",
+          "Whether social media should be regulated",
+          "Whether climate change policies are effective"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Grace states the resolution is about whether the government should implement a universal basic income."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which side does Grace take in the debate?",
+        "options": ["Negative", "Affirmative", "Neutral", "Moderator"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Grace says she'll take the affirmative and Sam will take the negative."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is Sam's first argument against UBI?",
+        "options": [
+          "It reduces employment",
+          "The cost is prohibitive, over three trillion dollars annually",
+          "It causes political instability",
+          "It is unconstitutional"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sam's first argument is that the cost is prohibitive, with studies showing it would cost over three trillion dollars annually."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What evidence does Grace cite from the Finland experiment?",
+        "options": [
+          "It increased employment significantly",
+          "Recipients reported lower stress and better mental health without reducing employment",
+          "It caused high inflation",
+          "It was universally popular"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Grace cites evidence showing Finland UBI recipients reported lower stress and better mental health without reducing employment rates."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is Sam's counter to the Finland experiment evidence?",
+        "options": [
+          "The data was fabricated",
+          "It was small-scale with only two thousand participants and lasted just two years",
+          "Finland later cancelled UBI entirely",
+          "The experiment was not about UBI"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sam argues the Finland experiment was small-scale with only two thousand participants and lasted just two years, so it can't be generalized nationally."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does the University of Chicago study find about UBI?",
+        "options": [
+          "It has no effect on employment",
+          "A twelve-thousand-dollar annual UBI could reduce employment by five percent nationally",
+          "It increases employment by ten percent",
+          "It has no inflationary impact"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sam cites a University of Chicago study finding a twelve-thousand-dollar annual UBI could reduce employment by five percent nationally."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is Grace's rebuttal to the employment reduction argument?",
+        "options": [
+          "The study was funded by UBI opponents",
+          "The reduction was among secondary earners, and UBI can encourage entrepreneurship",
+          "Employment always increases with UBI",
+          "The study used outdated data"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Grace argues the reduction was concentrated among secondary earners, not primary breadwinners, and that UBI can encourage entrepreneurship by providing a safety net."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about Sam's assessment of Grace's welfare simplification argument?",
+        "options": [
+          "He fully agrees with it",
+          "He thinks targeted programs are more efficient because they direct resources to those who need them most",
+          "He has no response to it",
+          "He thinks it's the strongest affirmative argument"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Sam responds that some economists argue targeted programs are more efficient because they direct resources to those who need them most, showing he disagrees."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Sam say he needs to improve in cross-examination?",
+        "options": [
+          "Speaking louder",
+          "Asking fewer leading questions and using more open-ended ones",
+          "Memorizing his arguments",
+          "Managing his time better"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Sam says he tends to ask too many leading questions and needs to work on open-ended ones for cross-examination."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main purpose of the conversation?",
+        "options": [
+          "To decide whether to quit the debate team",
+          "To compare research and prepare arguments for an upcoming debate tournament",
+          "To complain about the tournament format",
+          "To choose a new debate resolution"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Grace and Sam are comparing their research, discussing rebuttals, and planning a mock debate to prepare for the upcoming intercollegiate tournament."
+      }
+    ],
+    "keyVocabulary": ["resolution", "affirmative", "negative", "universal basic income", "cross-examination", "rebuttal", "constructive speech", "inflation", "work disincentive", "entrepreneurship"]
+  },
+  {
+    "type": "LISTENING_PART_B",
+    "questionText": "Listen to a conversation in the academic office between a student and a professor about a peer review session.",
+    "audioScript": "Situation: A student visits a professor during office hours to discuss feedback received during a peer review session for a research paper.\nProfessor Lin: Come in, Derek. You said you wanted to talk about the peer review feedback on your draft. What's on your mind?\nDerek: Thanks, Professor Lin. I'm a bit confused because my two peer reviewers gave me contradictory feedback. One said my thesis was too narrow, and the other said it was too broad. I'm not sure how to revise.\nProfessor Lin: That's actually common in peer review. Let's look at your thesis together. Read it for me?\nDerek: It says, 'Social media algorithms reinforce political polarization by prioritizing engaging content over diverse viewpoints.'\nProfessor Lin: I see the issue. The thesis is specific about the mechanism, algorithms prioritizing engagement, but it's broad in scope because 'social media' covers many platforms. One reviewer likely felt the mechanism was clear while the scope was unmanageable for a ten-page paper.\nDerek: So how do I fix it?\nProfessor Lin: Narrow the scope to one or two platforms. For example, 'Twitter's algorithm reinforces political polarization by prioritizing engaging content over diverse viewpoints.' That keeps your mechanism but makes the paper feasible within the page limit.\nDerek: That makes sense. One reviewer also said my methodology section lacked detail on how I measured polarization. What should I add?\nProfessor Lin: You need to define your measurement framework. Are you using survey data, content analysis, or a polarization index? For a paper of this length, I'd recommend citing an established index, like the Esteban-Ray polarization measure, and explaining how you apply it to your dataset.\nDerek: I was planning to use survey data from the Pew Research Center. Would that work with the Esteban-Ray measure?\nProfessor Lin: It can, but you'd need to explain how you convert survey responses into the ideological distance scores the formula requires. That conversion step is what your reviewer was missing. Add a subsection, maybe half a page, on data transformation.\nDerek: Got it. The second reviewer said my conclusion was too abrupt. Any advice?\nProfessor Lin: A good conclusion should restate your thesis in light of the evidence, acknowledge limitations, and suggest future research. Right now yours just summarizes findings. Add a paragraph on limitations, such as the fact that your study covers only one platform, and another paragraph on future directions, like extending the analysis to multiple platforms.\nDerek: That's helpful. When is the final paper due?\nProfessor Lin: The final draft is due in two weeks, on the twenty-third. I'd recommend submitting a revised draft to the peer review portal by next Wednesday so you can get one more round of feedback before the final deadline.\nDerek: I'll do that. Thank you for the guidance.\nProfessor Lin: Of course. And remember, contradictory feedback isn't a problem, it's an opportunity to clarify your thinking.",
+    "speakers": [
+      { "name": "Derek", "role": "student" },
+      { "name": "Professor Lin", "role": "professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why does Derek visit Professor Lin during office hours?",
+        "options": [
+          "To discuss a grade dispute",
+          "To discuss contradictory peer review feedback on his draft",
+          "To request an extension on the final paper",
+          "To ask about changing his topic"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Derek says his two peer reviewers gave him contradictory feedback and he's confused about how to revise, so he's visiting the professor for guidance."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What was contradictory about the peer reviewers' feedback?",
+        "options": [
+          "One said the thesis was too narrow, the other said it was too broad",
+          "One said the paper was too short, the other said too long",
+          "One liked the topic, the other hated it",
+          "One said the data was wrong, the other said it was correct"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Derek explains one reviewer said his thesis was too narrow and the other said it was too broad."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is Derek's original thesis about?",
+        "options": [
+          "Social media's effect on mental health",
+          "Social media algorithms reinforcing political polarization by prioritizing engaging content",
+          "The history of political polarization in the US",
+          "How engagement metrics are calculated"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Derek reads his thesis: 'Social media algorithms reinforce political polarization by prioritizing engaging content over diverse viewpoints.'"
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How does Professor Lin suggest narrowing the thesis?",
+        "options": [
+          "Remove the mechanism entirely",
+          "Focus on one or two platforms, such as Twitter",
+          "Change the topic to misinformation",
+          "Broaden it to all media"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lin suggests narrowing the scope to one or two platforms, giving the example of focusing on Twitter's algorithm."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Professor Lin recommend for measuring polarization?",
+        "options": [
+          "Creating a new measurement tool",
+          "Citing an established index like the Esteban-Ray polarization measure",
+          "Using only anecdotal evidence",
+          "Counting the number of political posts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lin recommends citing an established index like the Esteban-Ray polarization measure and explaining how it applies to Derek's dataset."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What data source does Derek plan to use?",
+        "options": [
+          "Gallup poll data",
+          "Pew Research Center survey data",
+          "Census Bureau data",
+          "University lab experiments"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Derek says he was planning to use survey data from the Pew Research Center."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Professor Lin say is missing in the methodology section?",
+        "options": [
+          "A literature review",
+          "The data transformation step converting survey responses into ideological distance scores",
+          "A research question",
+          "An abstract"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lin says Derek needs to explain the conversion step that turns survey responses into ideological distance scores the Esteban-Ray formula requires."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Professor Lin recommend adding to the conclusion?",
+        "options": [
+          "A counterargument section",
+          "A paragraph on limitations and another on future research directions",
+          "More citations",
+          "A personal reflection"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lin advises adding a paragraph on limitations, such as covering only one platform, and another on future directions, like extending to multiple platforms."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When is the final paper due?",
+        "options": ["Next Wednesday", "In one week", "In two weeks, on the twenty-third", "In one month"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Professor Lin states the final draft is due in two weeks, on the twenty-third."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What can be inferred about Professor Lin's attitude toward contradictory feedback?",
+        "options": [
+          "He thinks it means the student should start over",
+          "He views it as an opportunity to clarify thinking rather than a problem",
+          "He believes one reviewer is always wrong",
+          "He thinks students should ignore peer review entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "Professor Lin tells Derek that contradictory feedback isn't a problem, it's an opportunity to clarify your thinking, showing a constructive attitude."
+      }
+    ],
+    "keyVocabulary": ["peer review", "thesis", "methodology", "polarization", "Esteban-Ray measure", "data transformation", "ideological distance", "limitations", "future research", "contradictory feedback"]
+  }
+]

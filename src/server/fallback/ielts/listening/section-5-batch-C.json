@@ -1,0 +1,863 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on gerontechnology and the design of assistive technologies for ageing populations.",
+    "audioScript": "Situation: A gerontechnologist delivers an advanced lecture on how technology is being designed to support independent living for older adults.\nProfessor Sinclair: Good morning. Today we explore gerontechnology, an interdisciplinary field that pairs gerontology with engineering to extend the autonomy of older adults.\nProfessor Sinclair: The global population aged over sixty is projected to reach two point one billion by twenty fifty. This demographic shift makes assistive technology not a luxury but a necessity.\nProfessor Sinclair: A core principle is universal design. Rather than building separate devices for the elderly, gerontechnology advocates products usable by people of all ages and abilities.\nProfessor Sinclair: Consider smart home systems. Voice-controlled lighting, automated door locks, and fall-detection floor sensors allow older residents to live safely without constant supervision.\nProfessor Sinclair: Wearable health monitors are another pillar. A wristband can measure heart rate variability and detect atrial fibrillation, alerting a caregiver within seconds.\nProfessor Sinclair: Yet adoption barriers persist. A twenty twenty-two survey found that forty per cent of adults over seventy found wearable interfaces too complex. This is called the technology acceptance gap.\nProfessor Sinclair: Researchers address this through participatory design, where older adults co-create prototypes. Studies show such products have a fifty per cent higher sustained-use rate after six months.\nProfessor Sinclair: Privacy is a further concern. Continuous health monitoring generates sensitive data, and designers must comply with regulations such as GDPR to ensure informed consent and data minimisation.\nProfessor Sinclair: Looking ahead, robotic companions that assist with household tasks and remind users to take medication are entering clinical trials, though cost remains a barrier to widespread deployment.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Professor Sinclair", "accent": "BRITISH", "gender": "FEMALE", "role": "gerontechnologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the lecturer define gerontechnology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The study of ageing biology", "An interdisciplinary field pairing gerontology with engineering to extend autonomy", "The medical treatment of age-related disease", "The psychology of older adults"],
+        "keywords": ["gerontechnology", "gerontology", "engineering"],
+        "synonymsUsed": ["interdisciplinary", "pairs"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the projected global population aged over sixty by 2050?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One point five billion", "One point eight billion", "Two point one billion", "Three billion"],
+        "keywords": ["two point one billion", "twenty fifty", "aged over sixty"],
+        "synonymsUsed": ["projected", "older adults"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What core design principle does gerontechnology advocate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Universal design usable by all ages and abilities", "Separate devices exclusively for the elderly", "Minimalist aesthetics over function", "Maximum automation with no user input"],
+        "keywords": ["universal design", "all ages", "abilities"],
+        "synonymsUsed": ["principle", "inclusive"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which of the following is mentioned as a smart home feature for older residents?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Self-driving cars", "Virtual reality games", "Voice-controlled lighting and fall-detection floor sensors", "Robotic surgery systems"],
+        "keywords": ["voice-controlled lighting", "fall-detection", "floor sensors"],
+        "synonymsUsed": ["smart home", "automated"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What can a wearable wristband detect according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Bone fractures", "Atrial fibrillation and heart rate variability", "Blood sugar levels only", "Brain wave patterns"],
+        "keywords": ["wristband", "atrial fibrillation", "heart rate variability"],
+        "synonymsUsed": ["wearable", "detect"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of adults over seventy found wearable interfaces too complex?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Forty per cent", "Twenty per cent", "Sixty per cent", "Ten per cent"],
+        "keywords": ["forty per cent", "over seventy", "too complex"],
+        "synonymsUsed": ["percentage", "difficult"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the term used for the difficulty older adults face in adopting new technology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The digital divide", "The generational lag", "The technology acceptance gap", "The usability deficit"],
+        "keywords": ["technology acceptance gap", "adoption barriers"],
+        "synonymsUsed": ["term", "difficulty"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What approach do researchers use to improve product sustained-use rates?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Mass marketing campaigns", "Participatory design where older adults co-create prototypes", "Lowering prices drastically", "Removing all user controls"],
+        "keywords": ["participatory design", "co-create", "prototypes"],
+        "synonymsUsed": ["approach", "collaborative"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much higher is the sustained-use rate for participatory-designed products after six months?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty per cent higher", "Thirty per cent higher", "Fifty per cent higher", "Seventy per cent higher"],
+        "keywords": ["fifty per cent", "sustained-use", "six months"],
+        "synonymsUsed": ["higher rate", "retention"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What barrier does the lecturer identify for widespread deployment of robotic companions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Lack of interest from families", "Insufficient clinical trial volunteers", "Regulatory prohibition", "Cost remains a barrier"],
+        "keywords": ["cost", "barrier", "widespread deployment"],
+        "synonymsUsed": ["obstacle", "expense"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "gerontology", "pronunciationNote": "/ˌdʒɛrənˈtɒlədʒi/", "meaning": "The scientific study of old age and the ageing process." },
+      { "word": "universal design", "meaning": "A design philosophy aiming to make products usable by people of all ages and abilities." },
+      { "word": "atrial fibrillation", "pronunciationNote": "/ˈeɪtriəl ˌfɪbrɪlˈeɪʃən/", "meaning": "An irregular and often rapid heart rhythm that can lead to blood clots." },
+      { "word": "participatory design", "meaning": "A design approach in which end users actively co-create prototypes and products." },
+      { "word": "data minimisation", "meaning": "The principle of collecting only the personal data strictly necessary for a purpose." },
+      { "word": "technology acceptance gap", "meaning": "The disparity between available technology and the willingness or ability of users to adopt it." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on astrobiology and the search for extraterrestrial life.",
+    "audioScript": "Situation: An astrobiologist delivers an advanced lecture on the scientific methods used to search for life beyond Earth.\nDr. Mwangi: Today we examine astrobiology, the study of life's origin, evolution, and potential distribution in the universe.\nDr. Mwangi: The central question is not merely whether life exists elsewhere, but how we would detect it across interstellar distances.\nDr. Mwangi: A foundational concept is the habitable zone, sometimes called the Goldilocks zone, the orbital region where a planet can sustain liquid water on its surface.\nDr. Mwangi: However, habitability extends beyond distance from a star. Jupiter's moon Europa is covered by ice, yet beneath lies a vast ocean kept liquid by tidal heating, making it a prime astrobiological target.\nDr. Mwangi: Biosignature gases are key evidence. If a planet's atmosphere contains oxygen and methane simultaneously, that combination is hard to explain without biological replenishment, because the two gases react and would otherwise deplete within centuries.\nDr. Mwangi: The James Webb Space Telescope, launched in twenty twenty-one, can analyse exoplanet atmospheres through transit spectroscopy, measuring starlight filtered through planetary air.\nDr. Mwangi: Another approach is the search for technosignatures, evidence of technology such as artificial radio signals. The Drake equation, formulated in nineteen sixty-one, estimates the number of communicative civilisations by multiplying factors like star formation rate and planetary habitability.\nDr. Mwangi: A philosophical caveat: all life we know is carbon-based and water-dependent. Astrobiologists call this a carbon-water chauvinism, and some argue we may overlook life built on entirely different chemistry, such as silicon-based structures in liquid methane solvents.\nDr. Mwangi: In summary, astrobiology demands both rigorous instrumentation and intellectual humility, recognising that life may not resemble what we know.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Mwangi", "accent": "AMERICAN", "gender": "MALE", "role": "astrobiologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer say is the central question of astrobiology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Whether humans can colonise Mars", "How life originated on Earth", "Not merely whether life exists elsewhere, but how we would detect it across interstellar distances", "Whether aliens have visited Earth"],
+        "keywords": ["central question", "detect", "interstellar distances"],
+        "synonymsUsed": ["core", "identify"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is another name for the habitable zone?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The twilight zone", "The Goldilocks zone", "The biosphere zone", "The stellar zone"],
+        "keywords": ["habitable zone", "Goldilocks zone"],
+        "synonymsUsed": ["called", "known as"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What keeps the ocean beneath Europa's ice liquid?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Tidal heating", "Solar radiation", "Geothermal vents alone", "Greenhouse gases"],
+        "keywords": ["Europa", "tidal heating", "ocean"],
+        "synonymsUsed": ["kept liquid", "warmth"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is the simultaneous presence of oxygen and methane considered a potential biosignature?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They are both poisonous", "They are both rare elements", "They react and would deplete within centuries without biological replenishment", "They can only exist at extremely high temperatures"],
+        "keywords": ["oxygen", "methane", "react", "deplete", "biological replenishment"],
+        "synonymsUsed": ["biosignature", "replenished"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the James Webb Space Telescope launched?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty twenty", "Twenty twenty-one", "Twenty eighteen", "Twenty twenty-three"],
+        "keywords": ["James Webb", "launched", "twenty twenty-one"],
+        "synonymsUsed": ["launched", "deployed"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What technique does the James Webb telescope use to analyse exoplanet atmospheres?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Transit spectroscopy measuring starlight filtered through planetary air", "Direct imaging of planetary surfaces", "Gravitational lensing of starlight", "Radar reflection mapping"],
+        "keywords": ["transit spectroscopy", "starlight", "filtered"],
+        "synonymsUsed": ["technique", "analysis"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the Drake equation formulated?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen fifty-one", "Nineteen seventy-one", "Nineteen sixty-one", "Nineteen forty-one"],
+        "keywords": ["Drake equation", "nineteen sixty-one", "formulated"],
+        "synonymsUsed": ["created", "developed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the Drake equation estimate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The age of the universe", "The number of communicative civilisations", "The distance to the nearest exoplanet", "The rate of star formation only"],
+        "keywords": ["Drake equation", "communicative civilisations", "estimates"],
+        "synonymsUsed": ["calculates", "civilisations"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What term do astrobiologists use for the assumption that all life is carbon-based and water-dependent?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Biochemical bias", "Solvent assumption", "Terrestrial chauvinism", "Carbon-water chauvinism"],
+        "keywords": ["carbon-water chauvinism", "carbon-based", "water-dependent"],
+        "synonymsUsed": ["term", "assumption"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What alternative chemistry does the lecturer mention as a possible basis for life?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Silicon-based structures in liquid methane solvents", "Nitrogen-based structures in ammonia", "Iron-based structures in sulphuric acid", "Helium-based structures in hydrogen gas"],
+        "keywords": ["silicon-based", "liquid methane", "solvents"],
+        "synonymsUsed": ["alternative", "chemistry"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "habitable zone", "meaning": "The orbital region around a star where conditions allow liquid water on a planet's surface." },
+      { "word": "tidal heating", "pronunciationNote": "/ˈtaɪdəl ˈhiːtɪŋ/", "meaning": "Internal heat generated by gravitational friction from a planet or moon's orbital tides." },
+      { "word": "biosignature", "meaning": "A substance or phenomenon that provides scientific evidence of past or present life." },
+      { "word": "transit spectroscopy", "meaning": "A method of analysing a planet's atmosphere by observing starlight filtered through it during transit." },
+      { "word": "technosignature", "meaning": "Evidence of technology, such as artificial radio signals, indicating an advanced civilisation." },
+      { "word": "carbon-water chauvinism", "meaning": "The assumption that all life must be based on carbon chemistry and water as a solvent." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on pharmacogenomics and personalised medicine.",
+    "audioScript": "Situation: A pharmacologist delivers an advanced lecture on how genomic information is used to tailor drug therapy to individual patients.\nDr. Almeida: This morning we examine pharmacogenomics, the study of how an individual's genome influences their response to drugs.\nDr. Almeida: The premise is simple: one size does not fit all. A drug that benefits one patient may be ineffective or even toxic to another, and the difference often lies in genetic variation.\nDr. Almeida: A key example is the gene CYP2D6, which encodes an enzyme that metabolises roughly twenty-five per cent of clinically prescribed drugs. Some people have multiple copies and are ultra-rapid metabolisers, while others lack functional copies and are poor metabolisers.\nDr. Almeida: Consider codeine. Ultra-rapid metabolisers convert codeine to morphine so quickly that they risk respiratory depression. Conversely, poor metabolisers get little pain relief at all.\nDr. Almeida: The clinical implementation involves pre-prescription genotyping. A cheek swab yields results within forty-eight hours, guiding dosage selection.\nDr. Almeida: A landmark study in twenty twenty-three showed that genotype-guided dosing of the antidepressant citalopram reduced adverse side effects by thirty-two per cent compared with standard dosing.\nDr. Almeida: Challenges remain. Many drugs are metabolised by multiple enzymes, so single-gene testing can be insufficient. Polygenic risk scores, combining hundreds of variants, offer a more comprehensive approach but require large reference datasets that under-represent certain ancestries.\nDr. Almeida: Equity is therefore a central concern. If pharmacogenomic databases are dominated by individuals of European descent, the resulting algorithms may perform poorly for other populations, perpetuating health disparities.\nDr. Almeida: In summary, pharmacogenomics promises safer, more effective therapy, but only if we address both scientific complexity and the equity of the data underlying it.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Almeida", "accent": "AMERICAN", "gender": "FEMALE", "role": "pharmacologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the lecturer define pharmacogenomics?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The study of how an individual's genome influences their response to drugs", "The manufacturing of generic pharmaceuticals", "The study of drug pricing economics", "The development of new antibiotics"],
+        "keywords": ["pharmacogenomics", "genome", "response to drugs"],
+        "synonymsUsed": ["define", "individual"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the fundamental premise the lecturer states about drug therapy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["All patients respond identically to the same dose", "One size does not fit all; genetic variation causes different responses", "Drugs should always be given at maximum dose", "Genetic testing is unnecessary for prescribing"],
+        "keywords": ["one size does not fit all", "genetic variation"],
+        "synonymsUsed": ["premise", "individual differences"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately what percentage of clinically prescribed drugs are metabolised by the CYP2D6 enzyme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten per cent", "Fifteen per cent", "Twenty-five per cent", "Fifty per cent"],
+        "keywords": ["CYP2D6", "twenty-five per cent", "metabolises"],
+        "synonymsUsed": ["percentage", "breaks down"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What risk do ultra-rapid metabolisers face when taking codeine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Respiratory depression from rapid conversion to morphine", "Severe skin rashes", "Complete immunity to pain relief", "Kidney failure"],
+        "keywords": ["ultra-rapid metabolisers", "codeine", "respiratory depression", "morphine"],
+        "synonymsUsed": ["risk", "convert quickly"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do poor metabolisers experience when taking codeine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Respiratory depression", "Addiction within days", "Little pain relief at all", "Heightened euphoria"],
+        "keywords": ["poor metabolisers", "little pain relief"],
+        "synonymsUsed": ["experience", "ineffective"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does it take to get results from a cheek swab genotyping?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty-four hours", "Forty-eight hours", "One week", "Two weeks"],
+        "keywords": ["cheek swab", "forty-eight hours"],
+        "synonymsUsed": ["results", "turnaround"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was the landmark study on genotype-guided citalopram dosing conducted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty twenty-three", "Twenty twenty", "Twenty eighteen", "Twenty twenty-five"],
+        "keywords": ["landmark study", "twenty twenty-three", "citalopram"],
+        "synonymsUsed": ["year", "study"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By what percentage did genotype-guided dosing of citalopram reduce adverse side effects?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen per cent", "Twenty per cent", "Thirty-two per cent", "Fifty per cent"],
+        "keywords": ["thirty-two per cent", "adverse side effects", "reduced"],
+        "synonymsUsed": ["reduction", "decreased"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a limitation of single-gene testing mentioned in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is too expensive for clinical use", "Many drugs are metabolised by multiple enzymes, so it can be insufficient", "It requires invasive blood draws", "It only works for antibiotics"],
+        "keywords": ["multiple enzymes", "single-gene", "insufficient"],
+        "synonymsUsed": ["limitation", "drawback"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What central concern does the lecturer raise about pharmacogenomic databases?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They contain too few drug names", "They are too expensive to maintain", "They are dominated by individuals of European descent, risking poor performance for other populations", "They are illegal in most countries"],
+        "keywords": ["European descent", "under-represent", "health disparities"],
+        "synonymsUsed": ["concern", "equity"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "pharmacogenomics", "pronunciationNote": "/ˌfɑːməkəʊdʒiˈnɒmɪks/", "meaning": "The study of how an individual's genome affects their response to drugs." },
+      { "word": "CYP2D6", "meaning": "A gene encoding an enzyme that metabolises approximately a quarter of prescribed drugs." },
+      { "word": "ultra-rapid metaboliser", "meaning": "A person with multiple copies of a metabolic gene who processes drugs unusually quickly." },
+      { "word": "genotyping", "meaning": "The process of determining genetic variants in an individual's DNA." },
+      { "word": "polygenic risk score", "meaning": "A score combining hundreds of genetic variants to estimate disease or drug-response risk." },
+      { "word": "health disparities", "meaning": "Preventable differences in health outcomes between population groups." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on algorithmic game theory and the design of mechanisms for strategic agents.",
+    "audioScript": "Situation: A computer scientist delivers an advanced lecture on algorithmic game theory, blending computation with economic mechanism design.\nProfessor Tanaka: Today we discuss algorithmic game theory, a field at the intersection of computer science and economics that studies strategic interaction among self-interested agents.\nProfessor Tanaka: The foundational concept is the Nash equilibrium, named after John Nash, a situation in which no player can improve their outcome by unilaterally changing strategy.\nProfessor Tanaka: Computing a Nash equilibrium is straightforward for two-player zero-sum games, but for games with three or more players, the problem is PPAD-complete, meaning it is computationally intractable in the worst case.\nProfessor Tanaka: This complexity matters for mechanism design, the reverse engineering of games. A designer wants rules that guide selfish participants toward a socially desirable outcome.\nProfessor Tanaka: A central tool is the Vickrey-Clarke-Groves mechanism, or VCG. It allocates items to maximise total social welfare and charges each participant the externality they impose on others.\nProfessor Tanaka: A key property of VCG is incentive compatibility: truthful bidding is a dominant strategy, meaning honesty is optimal regardless of what others do.\nProfessor Tanaka: However, VCG has weaknesses. It can produce negative revenues for the seller in combinatorial auctions, and it is vulnerable to collusion among bidders.\nProfessor Tanaka: Another challenge is the price of anarchy, which measures how much social welfare degrades when agents act selfishly compared with the optimal centralised solution. In many network routing games, the price of anarchy is bounded by four-thirds.\nProfessor Tanaka: Current research explores approximate mechanisms that sacrifice exact optimality for computational tractability, and learning-based approaches where agents adjust strategies using regret minimisation over repeated rounds.\nProfessor Tanaka: Ultimately, algorithmic game theory teaches us that good systems must account not only for computational efficiency but also for the strategic behaviour of the humans and algorithms within them.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Professor Tanaka", "accent": "AMERICAN", "gender": "MALE", "role": "computer scientist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the lecturer describe algorithmic game theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A branch of pure mathematics unrelated to economics", "A field at the intersection of computer science and economics studying strategic interaction among self-interested agents", "A method for designing computer hardware", "A statistical technique for market prediction"],
+        "keywords": ["intersection", "computer science", "economics", "strategic interaction"],
+        "synonymsUsed": ["describe", "field"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In a Nash equilibrium, what happens if a player unilaterally changes strategy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They always win the game", "They reduce the total social welfare", "They cannot improve their outcome", "They are eliminated from the game"],
+        "keywords": ["Nash equilibrium", "unilaterally", "cannot improve"],
+        "synonymsUsed": ["changing strategy", "outcome"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "For how many players is computing a Nash equilibrium computationally intractable in the worst case?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One or more players", "Three or more players", "Exactly two players", "Only single-player games"],
+        "keywords": ["three or more players", "PPAD-complete", "intractable"],
+        "synonymsUsed": ["computationally", "worst case"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the complexity class for computing Nash equilibria in games with three or more players?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["PPAD-complete", "NP-hard", "PSPACE-complete", "EXPTIME-complete"],
+        "keywords": ["PPAD-complete", "complexity"],
+        "synonymsUsed": ["class", "intractable"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the VCG mechanism aim to maximise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The seller's revenue alone", "Total social welfare", "The number of participants", "The speed of computation"],
+        "keywords": ["VCG", "total social welfare", "maximise"],
+        "synonymsUsed": ["allocate", "optimise"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the VCG mechanism charge each participant?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The externality they impose on others", "A flat entry fee", "The highest bid amount", "Nothing at all"],
+        "keywords": ["VCG", "externality", "charge"],
+        "synonymsUsed": ["price", "impose"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What key property makes truthful bidding a dominant strategy in VCG?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Revenue maximisation", "Computational efficiency", "Incentive compatibility", "Collusion resistance"],
+        "keywords": ["incentive compatibility", "truthful bidding", "dominant strategy"],
+        "synonymsUsed": ["property", "honesty"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is one weakness of the VCG mechanism mentioned in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It always overcharges bidders", "It can produce negative revenues for the seller and is vulnerable to collusion", "It only works for two-player games", "It requires exponential memory"],
+        "keywords": ["negative revenues", "collusion", "weakness"],
+        "synonymsUsed": ["drawback", "vulnerable"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the price of anarchy bounded by in many network routing games?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two", "Three-halves", "Four-thirds", "One"],
+        "keywords": ["price of anarchy", "four-thirds", "network routing"],
+        "synonymsUsed": ["bounded", "ratio"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What technique do learning-based approaches use for agents to adjust strategies over repeated rounds?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Regret minimisation", "Random number generation", "Brute-force search", "Genetic mutation"],
+        "keywords": ["regret minimisation", "repeated rounds", "learning-based"],
+        "synonymsUsed": ["technique", "adjust"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "Nash equilibrium", "pronunciationNote": "/næʃ ˌiːkwɪˈlɪbriəm/", "meaning": "A state in which no player can improve their outcome by changing strategy alone." },
+      { "word": "PPAD-complete", "meaning": "A complexity class describing problems thought to be computationally intractable in the worst case." },
+      { "word": "mechanism design", "meaning": "The engineering of game rules to guide self-interested agents toward socially desirable outcomes." },
+      { "word": "incentive compatibility", "meaning": "A property ensuring that truthful reporting is each participant's optimal strategy." },
+      { "word": "price of anarchy", "meaning": "A ratio measuring how much social welfare degrades under selfish behaviour versus the optimum." },
+      { "word": "regret minimisation", "meaning": "A learning approach where agents adjust strategies to reduce cumulative regret over repeated rounds." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on paleoclimatology and the reconstruction of past climates using ice cores.",
+    "audioScript": "Situation: A paleoclimatologist delivers an advanced lecture on how scientists reconstruct ancient climates using natural archives such as ice cores.\nDr. Petrova: Today we explore paleoclimatology, the science of reconstructing Earth's past climates to understand natural variability and contextualise current warming.\nDr. Petrova: The most powerful archive is the ice core. In places like Antarctica, snow accumulates year after year, compressing into layers of ice that trap air bubbles, dust, and isotopes.\nDr. Petrova: The European EPICA project drilled an ice core at Dome Concordia reaching back eight hundred thousand years, capturing eight full glacial cycles.\nDr. Petrova: A critical proxy is the ratio of oxygen-18 to oxygen-16 isotopes. Because lighter oxygen-16 evaporates more readily, this ratio in ice reflects past temperature, with higher ratios indicating warmer periods.\nDr. Petrova: Air bubbles trapped in the ice provide direct samples of ancient atmosphere. Measurements show that CO2 concentration has never exceeded three hundred parts per million during the past eight hundred thousand years, until the industrial era when it soared past four hundred.\nDr. Petrova: Another archive is tree-ring data, or dendrochronology. Trees add one ring per year, and ring width reflects growing conditions. By overlapping patterns from living and dead trees, scientists build continuous chronologies spanning over twelve thousand years.\nDr. Petrova: A challenge is dating uncertainty. Ice cores are dated by counting annual layers, but deep ice flows plastically, thinning and distorting the oldest layers. Researchers use volcanic ash layers as fixed time markers to correct for this distortion.\nDr. Petrova: Paleoclimatology reveals that the current rate of CO2 increase is unprecedented in the ice core record. Natural climate forcings, such as orbital variations described by Milankovitch cycles, operate over tens of thousands of years, far slower than today's anthropogenic change.\nDr. Petrova: In conclusion, ice cores are not merely frozen water; they are time machines that allow us to compare the present against a deep historical baseline.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Petrova", "accent": "BRITISH", "gender": "FEMALE", "role": "paleoclimatologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the primary purpose of paleoclimatology as described in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["To predict next year's weather", "To reconstruct past climates to understand natural variability and contextualise current warming", "To mine ice for fresh water", "To study the biology of ancient organisms"],
+        "keywords": ["reconstruct", "past climates", "natural variability", "current warming"],
+        "synonymsUsed": ["purpose", "contextualise"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the lecturer call the most powerful climate archive?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The ice core", "The sediment layer", "The coral reef", "The historical record"],
+        "keywords": ["ice core", "most powerful", "archive"],
+        "synonymsUsed": ["powerful", "record"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How far back does the EPICA ice core at Dome Concordia reach?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Four hundred thousand years", "Six hundred thousand years", "Eight hundred thousand years", "One million years"],
+        "keywords": ["EPICA", "Dome Concordia", "eight hundred thousand years"],
+        "synonymsUsed": ["reach back", "span"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many full glacial cycles does the EPICA core capture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Six", "Eight", "Ten", "Twelve"],
+        "keywords": ["glacial cycles", "eight"],
+        "synonymsUsed": ["capture", "full"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does a higher ratio of oxygen-18 to oxygen-16 in ice indicate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Warmer periods", "Colder periods", "Higher rainfall", "Volcanic activity"],
+        "keywords": ["oxygen-18", "oxygen-16", "warmer", "ratio"],
+        "synonymsUsed": ["indicate", "reflect"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the maximum CO2 concentration during the past eight hundred thousand years before the industrial era?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two hundred parts per million", "Two hundred and fifty parts per million", "Three hundred parts per million", "Four hundred parts per million"],
+        "keywords": ["CO2", "three hundred parts per million", "eight hundred thousand years"],
+        "synonymsUsed": ["maximum", "concentration"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long a continuous chronology can dendrochronology build by overlapping tree-ring patterns?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Five thousand years", "Eight thousand years", "Ten thousand years", "Over twelve thousand years"],
+        "keywords": ["dendrochronology", "twelve thousand years", "chronology"],
+        "synonymsUsed": ["span", "continuous"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What causes the oldest ice layers to thin and distort?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Solar radiation melting the surface", "Deep ice flows plastically under pressure", "Volcanic heat from below", "Bacterial decomposition"],
+        "keywords": ["deep ice", "flows plastically", "thinning", "distorting"],
+        "synonymsUsed": ["cause", "distortion"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do researchers use as fixed time markers to correct dating distortion?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Volcanic ash layers", "Magnetic field reversals", "Tree-ring cross-dating", "Radiocarbon dating of ice"],
+        "keywords": ["volcanic ash layers", "fixed time markers"],
+        "synonymsUsed": ["markers", "correct"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Over what timescale do Milankovitch orbital cycles operate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Hundreds of years", "Thousands of years", "Tens of thousands of years", "Millions of years"],
+        "keywords": ["Milankovitch", "tens of thousands of years", "orbital"],
+        "synonymsUsed": ["timescale", "operate"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "paleoclimatology", "pronunciationNote": "/ˌpeɪliəʊklaɪməˈtɒlədʒi/", "meaning": "The study of past climates using natural archives to understand long-term climate variability." },
+      { "word": "ice core", "meaning": "A cylindrical sample of ancient ice that traps air bubbles, dust, and isotopes as a climate record." },
+      { "word": "oxygen isotope ratio", "meaning": "The proportion of oxygen-18 to oxygen-16 in a sample, used as a proxy for past temperature." },
+      { "word": "dendrochronology", "pronunciationNote": "/ˌdɛndrəʊkrəˈnɒlədʒi/", "meaning": "The science of dating events and environmental change by analysing tree-ring patterns." },
+      { "word": "Milankovitch cycles", "meaning": "Long-term changes in Earth's orbit and axial tilt that drive natural climate variation over millennia." },
+      { "word": "proxy", "meaning": "An indirect indicator of past climate conditions used when direct measurements are unavailable." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on neural network architectures and the evolution of deep learning models.",
+    "audioScript": "Situation: A machine learning researcher delivers an advanced lecture on the architectural evolution of neural networks from perceptrons to modern transformers.\nDr. Okafor: Today we trace the evolution of neural network architectures, from the earliest perceptrons to the transformer models that power modern artificial intelligence.\nDr. Okafor: The journey begins in nineteen fifty-eight with the perceptron, invented by Frank Rosenblatt. It was a single-layer model capable of linear classification but unable to solve non-linear problems like the XOR function.\nDr. Okafor: The breakthrough came with multi-layer perceptrons and the backpropagation algorithm, popularised in nineteen eighty-six. By stacking hidden layers and using gradient descent, networks could learn complex non-linear mappings.\nDr. Okafor: A major problem was vanishing gradients: in deep networks, error signals shrink as they propagate backward, causing early layers to learn negligibly. The Rectified Linear Unit, or ReLU activation, mitigated this by maintaining a constant gradient for positive inputs.\nDr. Okafor: Convolutional Neural Networks, or CNNs, revolutionised image processing. Yann LeCun's LeNet, built in nineteen ninety-eight, used shared weights and local receptive fields to recognise handwritten digits. The key idea of translation invariance means a pattern detected in one region is recognised anywhere in the image.\nDr. Okafor: In twenty seventeen, the paper 'Attention Is All You Need' introduced the transformer architecture. Transformers replaced recurrence entirely with self-attention, allowing every token to attend to every other token in parallel.\nDr. Okafor: Self-attention has quadratic computational complexity with respect to sequence length, making it expensive for very long inputs. Techniques like sparse attention and FlashAttention reduce this cost by limiting which token pairs are computed.\nDr. Okafor: Modern large language models, with over one hundred billion parameters, are trained on trillions of tokens. Training a single frontier model can consume megawatt-hours of electricity, raising sustainability concerns.\nDr. Okafor: Current research explores efficient architectures such as mixture-of-experts, which activates only a subset of parameters per token, and state-space models that achieve linear complexity while retaining long-range dependencies.\nDr. Okafor: In summary, each architectural leap, from perceptron to transformer, has expanded what machines can learn, but also raised new computational and ethical challenges.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Okafor", "accent": "AMERICAN", "gender": "MALE", "role": "machine learning researcher" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the perceptron invented by Frank Rosenblatt?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen fifty-eight", "Nineteen sixty-eight", "Nineteen forty-eight", "Nineteen seventy-five"],
+        "keywords": ["perceptron", "nineteen fifty-eight", "Rosenblatt"],
+        "synonymsUsed": ["invented", "year"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was a key limitation of the single-layer perceptron?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It required too much memory", "It was too slow to train", "It was unable to solve non-linear problems like the XOR function", "It could only process images"],
+        "keywords": ["perceptron", "XOR", "non-linear"],
+        "synonymsUsed": ["limitation", "unable"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the backpropagation algorithm popularised?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Nineteen seventy-six", "Nineteen eighty-six", "Nineteen ninety-six", "Nineteen sixty-six"],
+        "keywords": ["backpropagation", "nineteen eighty-six", "popularised"],
+        "synonymsUsed": ["year", "introduced"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What problem do deep networks suffer from during backpropagation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Vanishing gradients where error signals shrink as they propagate backward", "Exploding memory usage", "Overfitting on every dataset", "Inability to use GPUs"],
+        "keywords": ["vanishing gradients", "error signals", "shrink", "backward"],
+        "synonymsUsed": ["problem", "suffer"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the ReLU activation mitigate the vanishing gradient problem?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By zeroing all negative gradients", "By maintaining a constant gradient for positive inputs", "By using sigmoid functions", "By increasing the learning rate"],
+        "keywords": ["ReLU", "constant gradient", "positive inputs"],
+        "synonymsUsed": ["mitigate", "address"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was LeCun's LeNet built?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen eighty-eight", "Nineteen ninety-three", "Nineteen ninety-eight", "Two thousand and two"],
+        "keywords": ["LeNet", "nineteen ninety-eight", "LeCun"],
+        "synonymsUsed": ["built", "year"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What key idea of CNNs allows a pattern detected in one region to be recognised anywhere in the image?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Max pooling", "Dropout regularisation", "Translation invariance through shared weights", "Batch normalisation"],
+        "keywords": ["translation invariance", "shared weights", "pattern"],
+        "synonymsUsed": ["key idea", "recognised"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the transformer architecture introduced?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty fifteen", "Twenty seventeen", "Twenty nineteen", "Twenty twenty"],
+        "keywords": ["transformer", "twenty seventeen", "Attention Is All You Need"],
+        "synonymsUsed": ["introduced", "year"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the computational complexity of self-attention with respect to sequence length?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Quadratic", "Linear", "Logarithmic", "Constant"],
+        "keywords": ["self-attention", "quadratic", "sequence length"],
+        "synonymsUsed": ["complexity", "computational"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What efficiency advantage do state-space models offer over transformers?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They use fewer layers", "They achieve linear complexity while retaining long-range dependencies", "They require no training data", "They eliminate the need for GPUs entirely"],
+        "keywords": ["state-space models", "linear complexity", "long-range dependencies"],
+        "synonymsUsed": ["advantage", "efficient"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "perceptron", "pronunciationNote": "/pəˈsɛptrən/", "meaning": "An early single-layer neural network model capable of linear classification." },
+      { "word": "backpropagation", "meaning": "An algorithm that trains neural networks by propagating error gradients backward through layers." },
+      { "word": "vanishing gradient", "meaning": "A problem where error signals shrink during backpropagation, preventing early layers from learning." },
+      { "word": "translation invariance", "meaning": "A property of CNNs allowing patterns learned in one region to be recognised in any image location." },
+      { "word": "self-attention", "meaning": "A mechanism allowing every token in a sequence to attend to every other token in parallel." },
+      { "word": "mixture-of-experts", "meaning": "An architecture that activates only a subset of parameters per input token for efficiency." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_5",
+    "questionText": "Listen to an advanced lecture on biogeochemistry and the cycling of elements through Earth's systems.",
+    "audioScript": "Situation: A biogeochemist delivers an advanced lecture on how chemical elements cycle through biological, geological, and chemical processes in Earth's systems.\nDr. Larsson: Good morning. Today we examine biogeochemistry, the study of how essential elements move through living organisms, soils, oceans, and the atmosphere.\nDr. Larsson: The carbon cycle is perhaps the most familiar. Plants absorb CO2 through photosynthesis, converting it into organic matter. When organisms respire or decompose, carbon returns to the atmosphere.\nDr. Larsson: A less obvious but equally vital cycle is the nitrogen cycle. Although the atmosphere is seventy-eight per cent nitrogen gas, most organisms cannot use it directly. It must be fixed into ammonia by specialised bacteria.\nDr. Larsson: The Haber-Bosch process, invented in nineteen oh nine, industrially fixes nitrogen to produce fertiliser. This enabled the agricultural revolution that feeds roughly half of today's global population.\nDr. Larsson: However, excess nitrogen fertiliser runs off into rivers and coastal waters, causing eutrophication. Algal blooms deplete oxygen, creating dead zones where fish cannot survive. The Gulf of Mexico dead zone covers approximately eighteen thousand square kilometres in a typical summer.\nDr. Larsson: The phosphorus cycle differs fundamentally because phosphorus has no significant gaseous phase. It cycles slowly through rock weathering, biological uptake, and sedimentation over millions of years.\nDr. Larsson: Because phosphorus is a limiting nutrient in many ecosystems, its scarcity constrains biological productivity. This is why agricultural phosphorus, derived from mined phosphate rock, is so important, and why depletion of phosphate reserves is a long-term food security concern.\nDr. Larsson: Microbes are the unsung heroes of biogeochemistry. In the deep ocean, at hydrothermal vents, chemosynthetic bacteria derive energy from hydrogen sulphide rather than sunlight, supporting entire ecosystems independent of photosynthesis.\nDr. Larsson: In summary, biogeochemistry reveals that life and Earth's physical systems are deeply coupled; altering one element's cycle inevitably reshapes the entire biosphere.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE_ADVANCED",
+      "speakers": [
+        { "name": "Dr. Larsson", "accent": "AMERICAN", "gender": "FEMALE", "role": "biogeochemist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the lecturer define biogeochemistry?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The study of biological cell chemistry", "The study of how essential elements move through living organisms, soils, oceans, and the atmosphere", "The chemistry of geological rock formation", "The study of atmospheric pollution"],
+        "keywords": ["biogeochemistry", "essential elements", "organisms", "soils", "oceans", "atmosphere"],
+        "synonymsUsed": ["define", "move through"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do plants absorb carbon dioxide according to the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Through photosynthesis, converting it into organic matter", "Through root absorption from soil", "Through respiration at night", "Through nitrogen fixation"],
+        "keywords": ["plants", "photosynthesis", "organic matter", "CO2"],
+        "synonymsUsed": ["absorb", "convert"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of the atmosphere is nitrogen gas?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-one per cent", "Fifty per cent", "Seventy-eight per cent", "Ninety per cent"],
+        "keywords": ["nitrogen gas", "seventy-eight per cent", "atmosphere"],
+        "synonymsUsed": ["percentage", "composition"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must happen to atmospheric nitrogen before most organisms can use it?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It must be heated by the sun", "It must be fixed into ammonia by specialised bacteria", "It must dissolve in ocean water", "It must combine with carbon"],
+        "keywords": ["fixed", "ammonia", "specialised bacteria"],
+        "synonymsUsed": ["converted", "usable"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was the Haber-Bosch process invented?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nineteen oh nine", "Nineteen twenty-nine", "Eighteen ninety-nine", "Nineteen forty-nine"],
+        "keywords": ["Haber-Bosch", "nineteen oh nine", "invented"],
+        "synonymsUsed": ["year", "developed"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately what fraction of today's global population does the Haber-Bosch process help feed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One quarter", "One third", "Half", "Three quarters"],
+        "keywords": ["Haber-Bosch", "half", "global population"],
+        "synonymsUsed": ["feeds", "fraction"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What environmental problem does excess nitrogen fertiliser runoff cause in coastal waters?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ocean acidification", "Eutrophication leading to algal blooms and dead zones", "Coral bleaching", "Sea level rise"],
+        "keywords": ["eutrophication", "algal blooms", "dead zones"],
+        "synonymsUsed": ["problem", "runoff"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how large is the Gulf of Mexico dead zone in a typical summer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five thousand square kilometres", "Ten thousand square kilometres", "Eighteen thousand square kilometres", "Fifty thousand square kilometres"],
+        "keywords": ["Gulf of Mexico", "eighteen thousand square kilometres", "dead zone"],
+        "synonymsUsed": ["size", "typical summer"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the phosphorus cycle fundamentally differ from the carbon and nitrogen cycles?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Phosphorus has no significant gaseous phase", "Phosphorus cycles only through the atmosphere", "Phosphorus is created by bacteria", "Phosphorus does not involve living organisms"],
+        "keywords": ["phosphorus", "no significant gaseous phase", "differs"],
+        "synonymsUsed": ["differ", "unlike"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What energy source do chemosynthetic bacteria at hydrothermal vents use instead of sunlight?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Methane gas", "Hydrogen sulphide", "Uranium radiation", "Geothermal heat directly"],
+        "keywords": ["chemosynthetic bacteria", "hydrogen sulphide", "hydrothermal vents"],
+        "synonymsUsed": ["energy source", "instead of sunlight"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "biogeochemistry", "pronunciationNote": "/ˌbaɪəʊˌdʒiːəʊˈkɛmɪstri/", "meaning": "The study of how chemical elements cycle through biological, geological, and chemical processes." },
+      { "word": "nitrogen fixation", "meaning": "The conversion of atmospheric nitrogen gas into ammonia by specialised bacteria or industrial processes." },
+      { "word": "Haber-Bosch process", "meaning": "An industrial method for synthesising ammonia from nitrogen and hydrogen, enabling modern fertiliser production." },
+      { "word": "eutrophication", "pronunciationNote": "/ˌjuːtrəfɪˈkeɪʃən/", "meaning": "Excessive nutrient enrichment of water bodies causing algal blooms and oxygen depletion." },
+      { "word": "limiting nutrient", "meaning": "A nutrient whose scarcity constrains biological productivity in an ecosystem." },
+      { "word": "chemosynthesis", "meaning": "The process by which organisms derive energy from chemical reactions rather than sunlight." }
+    ],
+    "difficulty": "EASY"
+  }
+]

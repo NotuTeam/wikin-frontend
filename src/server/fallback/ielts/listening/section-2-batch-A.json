@@ -1,0 +1,863 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a museum guide giving a tour to a group of visitors.",
+    "audioScript": "Situation: A museum guide leads a group of visitors through the city museum and explains the exhibits and facilities.\nGuide: Good morning, everyone, and welcome to the Riverside City Museum. I'm Margaret, your guide for today. We'll begin in the Egyptian gallery on this floor.\nVisitor: Excuse me, how old is the oldest item here?\nGuide: Great question. Our oldest exhibit is a clay tablet dating back three thousand years. It's displayed in the first case on your right.\nVisitor: Are we allowed to take photographs?\nGuide: You may take photos, but please do not use flash, as it can damage the fragile artefacts.\nVisitor: Where can the children try the hands-on activities?\nGuide: The interactive displays are on the second floor. They're very popular, especially the pottery-making station.\nVisitor: How long will the guided tour take?\nGuide: The tour lasts forty-five minutes, after which you're free to explore the rest of the museum at your own pace.\nVisitor: Is there anything we can take away with us?\nGuide: Yes, at the end of your visit you can collect a free souvenir guide from the front desk. It includes a map and highlights.\nVisitor: We were told the museum has a free entry day. Which day is that?\nGuide: Free entry is offered every Tuesday, from opening at ten until closing at six.\nVisitor: One last question, where can we get some refreshments?\nGuide: The museum café is on the ground floor, just next to the main entrance. It serves light lunches and hot drinks.\nVisitor: And what time do you close on Sundays?\nGuide: On Sundays we close at five in the afternoon, an hour earlier than weekdays.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Margaret", "accent": "BRITISH", "gender": "FEMALE", "role": "museum guide" },
+        { "name": "Visitor", "accent": "BRITISH", "gender": "MALE", "role": "tourist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is leading the museum tour?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A university professor", "A museum guide named Margaret", "A security officer", "A volunteer student"],
+        "keywords": ["guide", "Margaret"],
+        "synonymsUsed": ["leader", "tour conductor"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which gallery does the tour begin in?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The Egyptian gallery", "The Roman gallery", "The modern art gallery", "The natural history gallery"],
+        "keywords": ["Egyptian", "gallery", "begin"],
+        "synonymsUsed": ["start", "first room"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How old is the museum's oldest exhibit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One thousand years", "Two thousand years", "Three thousand years", "Five thousand years"],
+        "keywords": ["oldest", "three thousand years", "clay tablet"],
+        "synonymsUsed": ["most ancient", "dating back"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the guide ask visitors NOT to do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Take any photographs at all", "Use flash photography", "Touch the display cases", "Bring children inside"],
+        "keywords": ["flash", "not", "damage"],
+        "synonymsUsed": ["avoid", "prohibited"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where are the interactive displays located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The ground floor", "The first floor", "The second floor", "The basement"],
+        "keywords": ["interactive", "second floor", "displays"],
+        "synonymsUsed": ["hands-on", "activities"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does the guided tour last?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Forty-five minutes", "Thirty minutes", "One hour", "Ninety minutes"],
+        "keywords": ["tour", "forty-five minutes", "lasts"],
+        "synonymsUsed": ["duration", "takes"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What can visitors collect at the end of their visit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["A free entry ticket", "A museum membership card", "A discount voucher", "A free souvenir guide"],
+        "keywords": ["collect", "free", "souvenir guide"],
+        "synonymsUsed": ["take away", "pick up"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On which day does the museum offer free entry?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Monday", "Tuesday", "Wednesday", "Sunday"],
+        "keywords": ["free entry", "Tuesday"],
+        "synonymsUsed": ["no charge", "complimentary admission"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the museum café located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["On the ground floor next to the entrance", "On the second floor", "In the Egyptian gallery", "In the basement"],
+        "keywords": ["café", "ground floor", "entrance"],
+        "synonymsUsed": ["refreshments", "near the main door"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time does the museum close on Sundays?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Four o'clock", "Six o'clock", "Five o'clock", "Seven o'clock"],
+        "keywords": ["close", "Sunday", "five"],
+        "synonymsUsed": ["shuts", "closing time"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "exhibit", "pronunciationNote": "/ɪɡˈzɪbɪt/", "meaning": "An object or item displayed for the public to view." },
+      { "word": "artefact", "pronunciationNote": "/ˈɑːtɪfækt/", "meaning": "An object made by humans, typically of historical interest." },
+      { "word": "fragile", "pronunciationNote": "/ˈfrædʒaɪl/", "meaning": "Easily broken or damaged." },
+      { "word": "souvenir", "pronunciationNote": "/ˌsuːvəˈnɪə/", "meaning": "A keepsake or memento taken home from a visit." },
+      { "word": "interactive", "pronunciationNote": "/ˌɪntərˈæktɪv/", "meaning": "Allowing two-way communication or hands-on participation." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a tour guide briefing visitors before a city walking tour begins.",
+    "audioScript": "Situation: A tour guide welcomes a group of visitors who have signed up for a guided walking tour of the city centre.\nGuide: G'day, everyone! Welcome to City Steps Tours. My name is Lucy, and I'll be your guide for today. We'll be meeting right here, outside the central train station.\nVisitor: Hi, how long will the walking tour take?\nGuide: The tour runs for two hours, covering about three kilometres at a relaxed pace. We'll make several stops along the way.\nVisitor: What's the first place we'll visit?\nGuide: Our first stop is the old town hall, which was built in 1885. It's now used as a local history museum.\nVisitor: Should we bring anything in particular?\nGuide: Yes, please make sure you wear comfortable walking shoes and bring a water bottle, especially on hot days like today.\nVisitor: How much does the tour cost per person?\nGuide: The tour is fifteen dollars per person. Children under twelve can join for free with a paying adult.\nVisitor: Where does the tour finish up?\nGuide: We'll end the tour at the harbour, where there's a waterfront market. You can grab lunch or browse the stalls there.\nVisitor: What time does the last tour of the day start?\nGuide: The final tour departs at two in the afternoon. I'd recommend booking ahead, as it's quite popular.\nVisitor: Is there a discount for groups?\nGuide: Yes, groups of six or more receive a ten percent discount on the standard price.\nVisitor: Great. And if it rains, do you still go ahead?\nGuide: We do run in light rain, so bring an umbrella. If the weather is severe, we'll reschedule or offer a full refund.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Lucy", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "tour guide" },
+        { "name": "Visitor", "accent": "AMERICAN", "gender": "MALE", "role": "tourist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the name of the walking tour company?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["City Walk Adventures", "Harbour Tours", "City Steps Tours", "Central Station Tours"],
+        "keywords": ["City Steps Tours", "company"],
+        "synonymsUsed": ["tour operator", "name"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where does the walking tour begin?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Outside the central train station", "At the harbour", "At the old town hall", "At the waterfront market"],
+        "keywords": ["begin", "outside", "central train station"],
+        "synonymsUsed": ["start", "meeting point"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does the walking tour last?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One hour", "Two hours", "Three hours", "Ninety minutes"],
+        "keywords": ["two hours", "duration", "tour"],
+        "synonymsUsed": ["lasts", "runs for"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the first historical site visited on the tour?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["The harbour", "The waterfront market", "The central train station", "The old town hall"],
+        "keywords": ["first stop", "old town hall"],
+        "synonymsUsed": ["first place", "initial visit"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the old town hall now used as?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A government office", "A local history museum", "A restaurant", "A shopping centre"],
+        "keywords": ["old town hall", "museum"],
+        "synonymsUsed": ["currently", "now used"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the guide ask visitors to bring?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Comfortable shoes and a water bottle", "A camera and a map", "A packed lunch and sunscreen", "An umbrella and a jacket"],
+        "keywords": ["comfortable", "water bottle", "shoes"],
+        "synonymsUsed": ["wear", "bring along"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the walking tour cost per person?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten dollars", "Twelve dollars", "Fifteen dollars", "Twenty dollars"],
+        "keywords": ["cost", "fifteen dollars", "per person"],
+        "synonymsUsed": ["price", "fee"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where does the walking tour end?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["The central train station", "The old town hall", "The city centre", "The harbour"],
+        "keywords": ["end", "harbour", "finish"],
+        "synonymsUsed": ["concludes", "final stop"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is available at the harbour for tourists?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A boat rental service", "A waterfront market", "A swimming pool", "A historical monument"],
+        "keywords": ["harbour", "waterfront market"],
+        "synonymsUsed": ["available", "tourists can visit"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time does the last tour of the day depart?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twelve noon", "One in the afternoon", "Two in the afternoon", "Three in the afternoon"],
+        "keywords": ["last tour", "two", "afternoon"],
+        "synonymsUsed": ["final", "departs"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "pace", "pronunciationNote": "/peɪs/", "meaning": "The speed at which someone walks or moves." },
+      { "word": "harbour", "pronunciationNote": "/ˈhɑːbə/", "meaning": "A sheltered area of water where ships dock." },
+      { "word": "waterfront", "pronunciationNote": "/ˈwɔːtəfrʌnt/", "meaning": "The area of land next to a body of water." },
+      { "word": "reschedule", "pronunciationNote": "/ˌriːˈʃedjuːl/", "meaning": "To change the time or date of a planned event." },
+      { "word": "refund", "pronunciationNote": "/ˈriːfʌnd/", "meaning": "A repayment of money for a cancelled service." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to an orientation coordinator briefing new students about orientation week activities.",
+    "audioScript": "Situation: An orientation coordinator addresses a group of new students to explain the schedule for the upcoming orientation week.\nCoordinator: Welcome, everyone. I'm Sandra Williams, your orientation coordinator. Orientation week runs from Monday through Friday, with a packed schedule of activities designed to help you settle in.\nCoordinator: On Monday, we'll start with campus tours departing from the main reception at ten. Each tour is led by a student ambassador.\nStudent: Where does the welcome ceremony take place?\nCoordinator: The welcome ceremony is on Monday afternoon at two in the main auditorium. The vice-chancellor will give the opening address.\nStudent: I heard there's a society sign-up day. Do I need to do anything before that?\nCoordinator: Yes. Before you attend the society sign-up day on Thursday, you must register online using your student portal account. This generates a barcode you'll need to scan at each stall.\nStudent: How many societies can I sign up for during orientation?\nCoordinator: You can join up to three societies during orientation week. You're welcome to join more later in the term.\nStudent: Is there anything special for international students?\nCoordinator: Absolutely. On Wednesday evening, we're hosting an international students' dinner in the dining hall. It's a great chance to meet people from different backgrounds.\nStudent: What about academic preparation? Is there a workshop?\nCoordinator: Yes, the academic skills workshop is on Tuesday morning. You'll receive a study planner and timetable templates to help you organise your semester.\nStudent: What if I miss one of the registration sessions?\nCoordinator: If you miss a session, please contact your faculty office directly. They'll help you arrange an alternative.\nStudent: And what happens on the last day?\nCoordinator: Friday wraps up with a campus-wide treasure hunt followed by a barbecue on the lawn. It's always a highlight.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Sandra", "accent": "BRITISH", "gender": "FEMALE", "role": "orientation coordinator" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Sandra Williams?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The vice-chancellor of the university", "The orientation coordinator", "A student ambassador", "The head of the faculty office"],
+        "keywords": ["Sandra Williams", "orientation coordinator"],
+        "synonymsUsed": ["in charge", "organiser"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many days does orientation week last?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three days", "Four days", "Five days", "Seven days"],
+        "keywords": ["Monday", "Friday", "five days"],
+        "synonymsUsed": ["runs", "duration"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On which day do the campus tours take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "keywords": ["Monday", "campus tours"],
+        "synonymsUsed": ["tour day", "departing"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where does the welcome ceremony take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The dining hall", "The main reception", "The main auditorium", "The lawn"],
+        "keywords": ["welcome ceremony", "main auditorium"],
+        "synonymsUsed": ["held", "venue"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must students do before attending the society sign-up day?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Pay a registration fee", "Register online using the student portal", "Attend a welcome ceremony", "Contact the faculty office"],
+        "keywords": ["register online", "student portal", "before"],
+        "synonymsUsed": ["sign up", "must complete"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many societies can a student join during orientation week?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["One", "Two", "Five", "Up to three"],
+        "keywords": ["up to three", "societies", "join"],
+        "synonymsUsed": ["sign up for", "enrol"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the international students' dinner held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tuesday evening", "Wednesday evening", "Thursday evening", "Friday evening"],
+        "keywords": ["international students", "dinner", "Wednesday"],
+        "synonymsUsed": ["hosted", "taking place"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is provided at the academic skills workshop?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A study planner and timetable templates", "A campus map and student ID card", "A textbook and reading list", "A laptop and software licence"],
+        "keywords": ["study planner", "timetable templates", "workshop"],
+        "synonymsUsed": ["receive", "provided"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who should students contact if they miss a registration session?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The orientation coordinator", "A student ambassador", "Their faculty office", "The vice-chancellor"],
+        "keywords": ["miss", "faculty office", "contact"],
+        "synonymsUsed": ["get in touch", "reach out"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens on the final day of orientation week?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["A formal dinner with professors", "A library orientation session", "A sports tournament", "A campus-wide treasure hunt and barbecue"],
+        "keywords": ["Friday", "treasure hunt", "barbecue"],
+        "synonymsUsed": ["final day", "wraps up"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "coordinator", "pronunciationNote": "/kəʊˈɔːdɪneɪtə/", "meaning": "A person who organises and manages activities or events." },
+      { "word": "auditorium", "pronunciationNote": "/ˌɔːdɪˈtɔːriəm/", "meaning": "A large hall for public gatherings and performances." },
+      { "word": "portal", "pronunciationNote": "/ˈpɔːtl/", "meaning": "A website providing access to online services and information." },
+      { "word": "barcode", "pronunciationNote": "/ˈbɑːkəʊd/", "meaning": "A printed code that can be scanned to identify an item or record." },
+      { "word": "highlight", "pronunciationNote": "/ˈhaɪlaɪt/", "meaning": "A particularly memorable or enjoyable part of an event." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a hall warden presenting dormitory rules to new residents.",
+    "audioScript": "Situation: A hall warden addresses a group of new residents in a university dormitory to explain the rules and procedures.\nWarden: Good evening, everyone. I'm Mr. Thompson, the warden of Elm Hall. I'd like to go over some essential house rules to make sure everyone has a safe and comfortable stay.\nWarden: First, quiet hours run from ten o'clock in the evening until seven in the morning on weekdays. On weekends, quiet hours begin at midnight.\nStudent: Are we allowed to have guests stay overnight?\nWarden: Yes, guests may stay overnight for a maximum of two nights per week. All guests must be signed in at the reception desk on arrival.\nStudent: Can we cook in our rooms?\nWarden: I'm afraid not. Electrical cooking appliances such as kettles and hotplates are not permitted in student rooms due to fire safety. You're welcome to use the communal kitchen on each floor instead.\nStudent: How often do you have fire drills?\nWarden: We conduct a fire drill once per term. When the alarm sounds at night, leave by the nearest exit and assemble at the car park at the rear of the building.\nStudent: What happens if I lose my room key?\nWarden: If you lose your key, there's a twenty-pound replacement charge. Just visit reception during office hours.\nStudent: Who do we tell if something in our room is broken?\nWarden: All maintenance issues should be reported to the maintenance team via the online portal. They aim to respond within forty-eight hours.\nStudent: Are there any rules about rubbish?\nWarden: Yes, please use the recycling bins in the bin store next to the car park. General waste goes in the black bins and recyclables in the green bins.\nStudent: One more thing, is there a laundry room?\nWarden: The laundry room is in the basement. Machines take a smart card which you top up online, not coins.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Thompson", "accent": "BRITISH", "gender": "MALE", "role": "hall warden" },
+        { "name": "Student", "accent": "BRITISH", "gender": "FEMALE", "role": "new resident" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Mr. Thompson?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The head of maintenance", "The warden of Elm Hall", "A fire safety officer", "The reception manager"],
+        "keywords": ["Thompson", "warden", "Elm Hall"],
+        "synonymsUsed": ["in charge", "responsible for"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time do quiet hours begin on weekdays?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight o'clock", "Nine o'clock", "Ten o'clock", "Midnight"],
+        "keywords": ["quiet hours", "ten o'clock", "weekdays"],
+        "synonymsUsed": ["start", "begin"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long can guests stay overnight per week?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A maximum of two nights", "One night only", "Three nights", "Up to five nights"],
+        "keywords": ["guests", "two nights", "maximum"],
+        "synonymsUsed": ["stay over", "limit"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where must guests be signed in?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["The communal kitchen", "The laundry room", "The bin store", "The reception desk"],
+        "keywords": ["signed in", "reception desk"],
+        "synonymsUsed": ["registered", "checked in"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is NOT allowed in student rooms?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Laptops and phones", "Electrical cooking appliances", "Books and folders", "Posters and decorations"],
+        "keywords": ["not permitted", "cooking appliances", "rooms"],
+        "synonymsUsed": ["not allowed", "prohibited"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often are fire drills conducted?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Once a month", "Twice a term", "Once per term", "Once a year"],
+        "keywords": ["fire drill", "once per term"],
+        "synonymsUsed": ["conducted", "held"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What should residents do if a fire alarm sounds at night?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Leave by the nearest exit and assemble at the car park", "Call the warden before leaving", "Collect valuables and then evacuate", "Wait for an announcement over the speaker"],
+        "keywords": ["fire alarm", "nearest exit", "car park"],
+        "synonymsUsed": ["evacuate", "assemble"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the communal kitchen located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In the basement", "On each floor", "Next to the reception", "In the car park"],
+        "keywords": ["communal kitchen", "each floor"],
+        "synonymsUsed": ["shared kitchen", "located"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the replacement charge for a lost room key?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Five pounds", "Ten pounds", "Fifteen pounds", "Twenty pounds"],
+        "keywords": ["lost", "key", "twenty pounds"],
+        "synonymsUsed": ["replacement charge", "fee"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who should residents report maintenance issues to?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The warden in person", "The reception desk", "The maintenance team via the online portal", "The fire safety officer"],
+        "keywords": ["maintenance", "online portal", "report"],
+        "synonymsUsed": ["notify", "contact"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "warden", "pronunciationNote": "/ˈwɔːdən/", "meaning": "A person responsible for the supervision of a building or institution." },
+      { "word": "curfew", "pronunciationNote": "/ˈkɜːfjuː/", "meaning": "A time by which certain restrictions, such as quiet hours, begin." },
+      { "word": "appliance", "pronunciationNote": "/əˈplaɪəns/", "meaning": "A device or machine used for a household task, such as cooking." },
+      { "word": "communal", "pronunciationNote": "/ˈkɒmjʊnəl/", "meaning": "Shared by members of a group or community." },
+      { "word": "recyclables", "pronunciationNote": "/riːˈsaɪkləblz/", "meaning": "Materials that can be processed and reused rather than discarded." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a campus security officer briefing new students on campus safety procedures.",
+    "audioScript": "Situation: A campus security officer speaks to a group of new students about safety services and emergency procedures on campus.\nOfficer: Good afternoon, everyone. I'm Officer Davis from Campus Security. I'm here to walk you through our safety services and what to do in an emergency.\nOfficer: First and foremost, memorise our emergency number: five-five-five. Call it from any campus phone or mobile for any security concern.\nStudent: Where are the emergency call boxes located?\nOfficer: There are twenty-four call boxes placed along the main walkways and in all parking lots. They have a blue light on top so you can spot them easily at night.\nStudent: Is there a service for walking back to the dorm at night?\nOfficer: Yes, we offer a free campus escort service. A security staff member will walk with you from any campus building to your residence. The service runs from dusk until two in the morning.\nStudent: What should we do to keep our belongings safe?\nOfficer: Always lock your door, even if you're just stepping out briefly. Also, register your bicycle with us so we can identify it if it's recovered after being stolen.\nStudent: How will we know if there's a safety issue on campus?\nOfficer: We send campus safety alerts by email and text message as needed. Make sure your contact details are up to date in the student system.\nStudent: Where is the security office?\nOfficer: The security office is located next to the main parking structure, just behind the gym. We're open twenty-four hours a day.\nStudent: What about lockdown drills?\nOfficer: If a lockdown is announced, stay indoors, lock all doors, and await further instructions from security. Do not evacuate unless told to do so.\nStudent: Do you offer self-defence classes?\nOfficer: Yes, we run free self-defence workshops each semester. Sign up at the security office or through the campus portal.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Davis", "accent": "AMERICAN", "gender": "MALE", "role": "campus security officer" },
+        { "name": "Student", "accent": "AMERICAN", "gender": "FEMALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Officer Davis?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A local police officer", "A campus security officer", "The head of student services", "A self-defence instructor"],
+        "keywords": ["Davis", "campus security"],
+        "synonymsUsed": ["officer", "personnel"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the campus security emergency number?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Five-five-five", "Nine-one-one", "Five-five-zero", "Two-two-two"],
+        "keywords": ["emergency number", "five-five-five"],
+        "synonymsUsed": ["call", "contact"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many emergency call boxes are on campus?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twelve", "Eighteen", "Twenty-four", "Thirty"],
+        "keywords": ["call boxes", "twenty-four"],
+        "synonymsUsed": ["emergency phones", "number"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where are the emergency call boxes located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Inside every classroom", "Only in the library", "In the cafeteria and gym", "Along main walkways and in parking lots"],
+        "keywords": ["call boxes", "main walkways", "parking lots"],
+        "synonymsUsed": ["placed", "positioned"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the campus escort service for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Escorting visitors around campus", "Walking students safely to their residence at night", "Providing taxi rides to the hospital", "Accompanying students to exams"],
+        "keywords": ["escort", "walk", "residence", "night"],
+        "synonymsUsed": ["accompany", "safely"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Until what time does the escort service run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Until midnight", "Until one in the morning", "Until two in the morning", "Until three in the morning"],
+        "keywords": ["escort", "two", "morning"],
+        "synonymsUsed": ["operates until", "available"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the officer advise students to do to secure valuables?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Lock doors and register bicycles", "Carry valuables at all times", "Use a campus locker for all electronics", "Leave valuables with the security office"],
+        "keywords": ["lock", "register", "bicycle"],
+        "synonymsUsed": ["secure", "protect"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How are campus safety alerts sent to students?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["By post only", "Via a campus radio station", "Through posters in hallways", "By email and text message as needed"],
+        "keywords": ["alerts", "email", "text"],
+        "synonymsUsed": ["notified", "sent"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the security office located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Inside the library building", "Next to the main parking structure behind the gym", "In the student union building", "At the front gate of the campus"],
+        "keywords": ["security office", "parking structure", "gym"],
+        "synonymsUsed": ["located", "found"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the procedure during a lockdown?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Evacuate the building immediately", "Call family members and then leave", "Stay indoors, lock doors, and await instructions", "Gather at the nearest call box"],
+        "keywords": ["lockdown", "stay indoors", "lock doors", "instructions"],
+        "synonymsUsed": ["remain inside", "wait"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "escort", "pronunciationNote": "/ɪˈskɔːt/", "meaning": "A person who accompanies someone for protection or guidance." },
+      { "word": "evacuate", "pronunciationNote": "/ɪˈvækjueɪt/", "meaning": "To leave a place of danger for a safer location." },
+      { "word": "lockdown", "pronunciationNote": "/ˈlɒkdaʊn/", "meaning": "A security measure requiring people to stay indoors with doors locked." },
+      { "word": "alert", "pronunciationNote": "/əˈlɜːt/", "meaning": "A warning or notification about a potential danger." },
+      { "word": "self-defence", "pronunciationNote": "/ˌself dɪˈfens/", "meaning": "Techniques for protecting oneself from physical harm." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a nurse explaining student health centre services to new students.",
+    "audioScript": "Situation: A senior nurse at the university health centre addresses new students to explain registration, appointments, and available medical services.\nNurse: Hello, everyone. I'm Dr. Patel, the senior physician here at the student health centre. I'll briefly explain how our services work so you know what to do when you need medical help.\nNurse: To register with us, you'll need to bring your student ID and a completed medical history form. You can pick up the form at reception or download it from the health centre website.\nStudent: Can we just walk in if we need to see a doctor?\nNurse: We have a walk-in clinic every weekday morning from nine until eleven. It's for minor ailments on a first-come, first-served basis.\nStudent: What about non-urgent appointments?\nNurse: For non-emergency appointments, please book online or by phone. This ensures you get a dedicated time slot with the right doctor.\nStudent: Is there a charge for seeing the doctor?\nNurse: Standard consultations are completely free for enrolled students. However, some specialist services carry a small fee.\nStudent: Are there any services that need a separate appointment?\nNurse: Yes, travel vaccinations require a separate appointment. Please book at least four weeks before you plan to travel, as some courses need multiple doses.\nStudent: What if I need to see a doctor urgently and the walk-in clinic is full?\nNurse: We reserve eight emergency appointments each day. These are only available if you call before ten in the morning.\nStudent: And what about urgent care after the health centre closes?\nNurse: For urgent care outside our hours, call the twenty-four-hour NHS helpline on one-one-one. They can advise you or direct you to the nearest service.\nStudent: How do prescriptions work?\nNurse: Once you order a prescription through our online system, it's valid for collection from the pharmacy for forty-eight hours. Just show your student ID when collecting.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Patel", "accent": "BRITISH", "gender": "FEMALE", "role": "senior physician" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Dr. Patel?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A pharmacist at the university", "The senior physician at the health centre", "A travel vaccination specialist", "The reception manager"],
+        "keywords": ["Patel", "senior physician", "health centre"],
+        "synonymsUsed": ["lead doctor", "in charge"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must students bring to register at the health centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A passport and a photograph", "A bank statement and proof of address", "Their student ID and a completed medical history form", "A referral letter from a previous doctor"],
+        "keywords": ["register", "student ID", "medical history form"],
+        "synonymsUsed": ["sign up", "enrol"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the walk-in clinic hours?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nine to eleven on weekday mornings", "Eight to ten on weekday mornings", "Twelve to two on weekday afternoons", "Nine to five every day"],
+        "keywords": ["walk-in", "nine", "eleven", "weekday"],
+        "synonymsUsed": ["opening hours", "available"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How should non-emergency appointments be booked?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By visiting the reception desk in person", "Online or by phone", "By emailing the doctor directly", "Through the student union"],
+        "keywords": ["non-emergency", "book", "online", "phone"],
+        "synonymsUsed": ["arrange", "schedule"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the charge for a standard consultation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Five pounds per visit", "Ten pounds per visit", "One pound per visit", "Free for enrolled students"],
+        "keywords": ["standard consultation", "free", "enrolled"],
+        "synonymsUsed": ["charge", "cost"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which service requires a separate appointment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Travel vaccinations", "Standard consultations", "Walk-in clinic visits", "Prescription collection"],
+        "keywords": ["separate appointment", "travel vaccinations"],
+        "synonymsUsed": ["needs booking", "requires"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many emergency appointments are reserved each day?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five", "Six", "Eight", "Ten"],
+        "keywords": ["emergency", "eight", "reserved"],
+        "synonymsUsed": ["set aside", "allocated"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are emergency appointments available?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["After five in the afternoon only", "Only if you call before ten in the morning", "During the walk-in clinic hours", "On weekends only"],
+        "keywords": ["emergency", "before ten", "morning"],
+        "synonymsUsed": ["available", "accessible"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What should students do for urgent care after the health centre closes?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Go directly to the nearest hospital", "Email the senior physician", "Wait until the walk-in clinic reopens", "Call the twenty-four-hour NHS helpline on one-one-one"],
+        "keywords": ["urgent care", "NHS", "helpline", "one-one-one"],
+        "synonymsUsed": ["after hours", "contact"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is a prescription valid for collection from the pharmacy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-four hours", "Thirty-six hours", "Forty-eight hours", "Seventy-two hours"],
+        "keywords": ["prescription", "forty-eight hours", "collection"],
+        "synonymsUsed": ["valid", "pick up"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "ailment", "pronunciationNote": "/ˈeɪlmənt/", "meaning": "A minor illness or medical condition." },
+      { "word": "consultation", "pronunciationNote": "/ˌkɒnsəlˈteɪʃən/", "meaning": "A meeting with a doctor to discuss a health concern." },
+      { "word": "vaccination", "pronunciationNote": "/ˌvæksɪˈneɪʃən/", "meaning": "A treatment that provides immunity against a disease." },
+      { "word": "prescription", "pronunciationNote": "/prɪˈskrɪpʃən/", "meaning": "A written authorisation for medicine from a doctor." },
+      { "word": "helpline", "pronunciationNote": "/ˈhelplaɪn/", "meaning": "A telephone service offering advice and support." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a career advisor briefing students about an upcoming campus career fair.",
+    "audioScript": "Situation: A career advisor addresses a group of final-year students to explain the logistics and preparation for the upcoming campus career fair.\nAdvisor: Good afternoon, everyone. I'm Ms. Chen from Career Services. I've organised this briefing to help you prepare for the career fair next week.\nAdvisor: We have fifty employers attending this year, ranging from tech companies to non-profits. The fair will be held in the Grand Hall of the conference centre, opening to students at ten in the morning.\nStudent: How should we prepare before the fair?\nAdvisor: First, bring several printed copies of your resume, at least ten. You should also research the employers you're most interested in beforehand.\nStudent: Is there a dress code?\nAdvisor: Yes, business attire is strongly recommended. First impressions matter, and recruiters do take note of how you present yourself.\nStudent: Are there any workshops before the fair?\nAdvisor: Yes, we're running a resume review session the day before the fair. Bring your current resume and a career advisor will give you one-on-one feedback.\nStudent: Can we do interviews at the fair?\nAdvisor: Some employers offer mini-interviews on the spot. Each slot is ten minutes long, and you can sign up at the employer's booth on the day.\nStudent: How can we find out which employers are coming in advance?\nAdvisor: You need to register on the career portal. Once registered, you'll have access to the full employer list and their profiles.\nStudent: What should we do after the fair?\nAdvisor: Follow up by sending a thank-you email to any recruiters you spoke with. You can also visit our career services drop-in desk for help with follow-up strategies and applications.\nStudent: Is the fair open to all students or just final-years?\nAdvisor: The fair is open to all year levels, but final-year students are especially encouraged to attend, as many employers are recruiting for graduate positions.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Chen", "accent": "CANADIAN", "gender": "FEMALE", "role": "career advisor" },
+        { "name": "Student", "accent": "CANADIAN", "gender": "MALE", "role": "final-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Ms. Chen?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A recruiter from a tech company", "A career advisor organising the fair", "The head of the conference centre", "A final-year student representative"],
+        "keywords": ["Chen", "career advisor", "Career Services"],
+        "synonymsUsed": ["organiser", "from Career Services"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many employers are attending the career fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty", "Forty", "Fifty", "Sixty"],
+        "keywords": ["fifty", "employers", "attending"],
+        "synonymsUsed": ["participating", "number"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where will the career fair be held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The Grand Hall of the conference centre", "The main auditorium", "The student union building", "The sports hall"],
+        "keywords": ["Grand Hall", "conference centre"],
+        "synonymsUsed": ["venue", "location"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the advisor recommend students bring to the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["A laptop computer", "A portfolio of essays", "A reference letter", "Several printed copies of their resume"],
+        "keywords": ["bring", "printed copies", "resume"],
+        "synonymsUsed": ["take along", "carry"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What dress code is recommended for the career fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Casual clothing", "Business attire", "Smart casual", "Formal evening wear"],
+        "keywords": ["dress code", "business attire"],
+        "synonymsUsed": ["recommended", "wear"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time does the career fair open to students?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight in the morning", "Nine in the morning", "Ten in the morning", "Eleven in the morning"],
+        "keywords": ["open", "ten", "morning"],
+        "synonymsUsed": ["starts", "begins"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What workshop is offered the day before the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A resume review session", "A mock interview workshop", "A networking skills seminar", "A salary negotiation class"],
+        "keywords": ["workshop", "resume review", "day before"],
+        "synonymsUsed": ["offered", "running"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is each mini-interview slot at the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five minutes", "Ten minutes", "Fifteen minutes", "Twenty minutes"],
+        "keywords": ["mini-interview", "ten minutes", "slot"],
+        "synonymsUsed": ["duration", "length"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must students do to access the employer list in advance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Pay a registration fee at the door", "Email Career Services directly", "Register on the career portal", "Attend the pre-fair workshop"],
+        "keywords": ["access", "employer list", "register", "career portal"],
+        "synonymsUsed": ["sign up", "obtain"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where can students get follow-up support after the fair?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["At the employer booths", "Via email from recruiters", "At the conference centre reception", "At the career services drop-in desk"],
+        "keywords": ["follow-up", "career services", "drop-in desk"],
+        "synonymsUsed": ["support", "after the fair"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "recruiter", "pronunciationNote": "/rɪˈkruːtə/", "meaning": "A person who seeks to hire new employees for an organisation." },
+      { "word": "attire", "pronunciationNote": "/əˈtaɪə/", "meaning": "Clothing, especially of a particular style for a specific occasion." },
+      { "word": "portal", "pronunciationNote": "/ˈpɔːtl/", "meaning": "A website that serves as a gateway to information and services." },
+      { "word": "portfolio", "pronunciationNote": "/pɔːtˈfəʊliəʊ/", "meaning": "A collection of documents showcasing a person's work or qualifications." },
+      { "word": "graduate position", "pronunciationNote": "/ˈɡrædʒuət pəˈzɪʃən/", "meaning": "An entry-level job aimed at recent university graduates." }
+    ],
+    "difficulty": "HARD"
+  }
+]

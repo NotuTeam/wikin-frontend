@@ -117,17 +117,17 @@ export class TOEFLEngine {
       audioScript: z.string().min(200),
       speakers: z.array(z.object({ name: z.string(), role: z.string().optional() })).length(2),
       questions: z.array(z.object({
-        questionNumber: z.number().int().min(1).max(5),
+        questionNumber: z.number().int().min(1).max(10),
         questionText: z.string().min(10),
         options: z.array(z.string().min(1)).length(4),
         correctAnswer: z.number().int().min(0).max(3),
         questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
         explanation: z.string().min(30),
-      })).length(5),
+      })).length(10),
       keyVocabulary: z.array(z.string()).min(3),
     });
 
-    const prompt = `Generate a TOEFL Listening Part A set with EXACTLY 5 questions.
+    const prompt = `Generate a TOEFL Listening Part A set with EXACTLY 10 questions.
 
 Setting: ${setting}
 Difficulty: ${difficulty}
@@ -138,8 +138,8 @@ ${difficulty === 'HARD' ? 'Use complex language with subtle implications and idi
 
 Output rules:
 1. Return only keys: questionText, audioScript, speakers, questions, keyVocabulary
-2. questions array must contain EXACTLY 5 items
-3. Each item must include: questionNumber (1-5), questionText, 4 options, correctAnswer, questionType, explanation
+2. questions array must contain EXACTLY 10 items
+3. Each item must include: questionNumber (1-10), questionText, 4 options, correctAnswer, questionType, explanation
 4. Keep explanations concise (1-2 sentences)
 5. ${this.buildListeningScriptRules()}`;
 
@@ -158,25 +158,25 @@ Output rules:
       audioScript: z.string().min(260),
       speakers: z.array(z.object({ name: z.string(), role: z.string() })).min(2).max(3),
       questions: z.array(z.object({
-        questionNumber: z.number().int().min(1).max(7),
+        questionNumber: z.number().int().min(1).max(10),
         questionText: z.string().min(10),
         options: z.array(z.string().min(1)).length(4),
         correctAnswer: z.number().int().min(0).max(3),
         questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
         explanation: z.string().min(30),
-      })).length(7),
+      })).length(10),
       keyVocabulary: z.array(z.string()).min(5),
     });
 
-    const prompt = `Generate a TOEFL Listening Part B set with EXACTLY 7 questions.
+    const prompt = `Generate a TOEFL Listening Part B set with EXACTLY 10 questions.
 
 Setting: ${setting}
 Difficulty: ${difficulty}
 
 Output rules:
 1. Return only keys: questionText, audioScript, speakers, questions, keyVocabulary
-2. questions array must contain EXACTLY 7 items
-3. Each item must include questionNumber (1-7), questionText, 4 options, correctAnswer numeric index 0..3, questionType, explanation
+2. questions array must contain EXACTLY 10 items
+3. Each item must include questionNumber (1-10), questionText, 4 options, correctAnswer numeric index 0..3, questionType, explanation
 4. Keep explanations concise (1-2 sentences)
 5. ${this.buildListeningScriptRules()}`;
 
@@ -195,24 +195,24 @@ Output rules:
       audioScript: z.string().min(500),
       speakers: z.array(z.object({ name: z.string(), role: z.string() })).min(2).max(4),
       questions: z.array(z.object({
-        questionNumber: z.number().int().min(1).max(13),
+        questionNumber: z.number().int().min(1).max(10),
         questionText: z.string().min(10),
         options: z.array(z.string().min(1)).length(4),
         correctAnswer: z.number().int().min(0).max(3),
         questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
         explanation: z.string().min(30),
-      })).length(13),
+      })).length(10),
       keyVocabulary: z.array(z.string()).min(6),
     });
 
-    const basePrompt = `Generate a TOEFL Listening Part C set with EXACTLY 13 questions.
+    const basePrompt = `Generate a TOEFL Listening Part C set with EXACTLY 10 questions.
 
 Setting: ${setting}
 Difficulty: ${difficulty}
 
 Output rules:
 1. Return only keys: questionText, audioScript, speakers, questions, keyVocabulary
-2. questions array must contain EXACTLY 13 items with questionNumber 1..13
+2. questions array must contain EXACTLY 10 items with questionNumber 1..10
 3. Keep explanations concise (1-2 sentences)
 4. ${this.buildListeningScriptRules()}`;
 
@@ -287,7 +287,7 @@ Output rules:
     const field = fields[Math.floor(Math.random() * fields.length)];
     const setting = this.pickListeningSetting();
 
-    const basePrompt = `Generate a TOEFL Listening Part E set with EXACTLY 15 questions.
+    const basePrompt = `Generate a TOEFL Listening Part E set with EXACTLY 10 questions.
 
 Setting: ${setting}
 
@@ -297,7 +297,7 @@ Difficulty: ${difficulty}
 Output rules:
 1. Return ONLY these keys: questionText, audioScript, speakers, lectureTopic, questions, keyVocabulary
 2. lectureTopic must be a descriptive string (min 20 chars) about the lecture topic
-3. questions array must contain EXACTLY 15 items with questionNumber 1..15
+3. questions array must contain EXACTLY 10 items with questionNumber 1..10
 4. All options values must be strings, NOT numbers
 5. Keep explanations concise (1-2 sentences)
 6. ${this.buildListeningScriptRules()}`;
@@ -309,13 +309,13 @@ const leanSchema = z.object({
       speakers: z.array(z.object({ name: z.string(), role: z.string().optional() })).min(1).max(2),
       lectureTopic: z.string().min(20),
       questions: z.array(z.object({
-        questionNumber: z.number().int().min(1).max(15),
+        questionNumber: z.number().int().min(1).max(10),
         questionText: z.string().min(10),
         options: z.array(z.string().min(1)).length(4),
         correctAnswer: z.number().int().min(0).max(3),
         questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
         explanation: z.string().min(30),
-      })).length(15),
+      })).length(10),
       keyVocabulary: z.array(z.string()).min(8),
     });
 

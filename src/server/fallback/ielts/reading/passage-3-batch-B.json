@@ -1,0 +1,640 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "EASY",
+    "passage": {
+      "title": "The Science of Soil Degradation",
+      "subtitle": "How human activity is eroding the foundation of civilization",
+      "source": "Adapted from environmental science literature",
+      "author": "Dr. Marcus Whitfield",
+      "wordCount": 660,
+      "content": "Soil is one of Earth's most underappreciated resources. Beneath our feet lies a living ecosystem that filters water, stores carbon, and grows the food that sustains civilization. Yet across the globe, soil is being degraded at an alarming rate. The United Nations estimates that a third of the world's agricultural land has been degraded over the past four decades, threatening food security for billions of people.\n\nSoil degradation refers to the decline in soil quality caused by human activities and natural processes. The most common form is erosion, where wind and water strip away the nutrient-rich topsoil. Every year, an estimated twenty-four billion tonnes of fertile soil are lost globally. In regions like sub-Saharan Africa, erosion reduces crop yields by up to twenty-five percent, pushing communities deeper into poverty.\n\nThe causes of soil degradation are manifold. Intensive agriculture, which relies on repeated ploughing and monoculture, depletes organic matter and breaks down soil structure. When farmers remove crop residues or leave fields bare between harvests, the soil is exposed to the full force of rain and wind. Chemical fertilizers, while boosting short-term yields, acidify the soil over time and kill the microorganisms that maintain its fertility. Overgrazing by livestock compacts the ground and strips away protective vegetation, while deforestation removes the tree roots that hold soil in place.\n\nThe consequences extend far beyond reduced harvests. Degraded soil releases stored carbon into the atmosphere, accelerating climate change. When soil loses its ability to absorb water, rainfall runs off rapidly, increasing the risk of flooding downstream. In dry regions, the loss of vegetation and soil moisture contributes to desertification, a process that renders land permanently unproductive. The Dust Bowl of the nineteen-thirties in the United States remains a stark historical warning: years of aggressive ploughing combined with severe drought turned once-fertile plains into a wasteland of blowing dust.\n\nScientists and farmers are now working to reverse the damage through a set of practices known as regenerative agriculture. The core principle is to disturb the soil as little as possible. No-till farming, which involves planting seeds without ploughing, preserves soil structure and keeps organic matter intact. Cover crops, such as clover and rye, are planted between commercial crops to protect the soil from erosion and add nutrients naturally. Rotating different crops from year to year prevents the buildup of pests and diseases while maintaining a balanced nutrient profile.\n\nAnother promising approach is agroforestry, the integration of trees into agricultural landscapes. Tree roots stabilize soil, improve water infiltration, and provide shade that reduces evaporation. In Niger, farmers who allowed trees to regrow on their land saw crop yields double within a decade. The trees fixed nitrogen in the soil, dropped leaves that formed mulch, and created a microclimate that buffered crops against drought.\n\nDespite these advances, the scale of the challenge remains immense. Restoring degraded soil is a slow process; rebuilding just one centimetre of topsoil can take between one hundred and five hundred years under natural conditions. Moreover, economic pressures often push farmers toward short-term practices that further deplete the land. Subsidies that reward production over conservation, combined with insecure land tenure in many developing countries, discourage long-term investment in soil health.\n\nSoil scientists argue that the world needs a fundamental shift in how it values this hidden resource. Carbon credit markets, which pay farmers for storing carbon in their soil, offer one financial incentive. Governments are beginning to include soil health in national climate plans, recognizing that restoring soil can capture billions of tonnes of carbon dioxide. Education programs teach farmers that soil is not merely an inert growing medium but a living system that requires care.\n\nThe stakes could not be higher. With the global population projected to reach nearly ten billion by twenty-fifty, demand for food will rise sharply even as the land base shrinks. Protecting and restoring soil is not an optional environmental measure; it is a prerequisite for human survival. As one soil scientist put it, we are standing on the foundation of civilization, and it is crumbling beneath us.",
+      "topicCategory": "ENVIRONMENT",
+      "textType": "DISCURSIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the United Nations estimate about agricultural land?",
+        "paragraphReference": 1,
+        "options": [
+          "A third has been degraded over four decades",
+          "Half has been degraded over two decades",
+          "A quarter has been degraded over one decade",
+          "Ten percent has been degraded over five decades"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 1 states the UN estimates a third of the world's agricultural land has been degraded over the past four decades.",
+        "keywordsInPassage": ["United Nations", "third", "agricultural land", "four decades"],
+        "paraphrasing": "The UN reports that one-third of farmland has deteriorated over forty years."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many tonnes of fertile soil are lost globally each year?",
+        "paragraphReference": 2,
+        "options": [
+          "Ten billion tonnes",
+          "Twenty-four billion tonnes",
+          "Fifty billion tonnes",
+          "One hundred billion tonnes"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states an estimated twenty-four billion tonnes of fertile soil are lost globally each year.",
+        "keywordsInPassage": ["twenty-four billion tonnes", "fertile soil", "lost"],
+        "paraphrasing": "Around twenty-four billion tonnes of productive soil vanish annually worldwide."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Chemical fertilizers improve soil fertility permanently.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states chemical fertilizers acidify the soil over time and kill microorganisms, so they do not improve fertility permanently.",
+        "keywordsInPassage": ["chemical fertilizers", "acidify", "kill microorganisms"],
+        "paraphrasing": "Synthetic fertilizers harm soil health rather than sustaining it long-term."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the Dust Bowl?",
+        "paragraphReference": 4,
+        "options": [
+          "A type of farming equipment",
+          "A period of severe soil erosion in the United States in the 1930s",
+          "A method of crop rotation",
+          "A brand of agricultural fertilizer"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 describes the Dust Bowl as occurring in the nineteen-thirties in the United States, when ploughing and drought turned plains into blowing dust.",
+        "keywordsInPassage": ["Dust Bowl", "nineteen-thirties", "United States", "ploughing"],
+        "paraphrasing": "The Dust Bowl was a catastrophic erosion event in 1930s America."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "No-till farming involves planting seeds without",
+        "paragraphReference": 5,
+        "correctAnswer": "ploughing",
+        "explanation": "Paragraph 5 defines no-till farming as planting seeds without ploughing, preserving soil structure and organic matter.",
+        "keywordsInPassage": ["no-till farming", "without ploughing", "preserves soil structure"],
+        "paraphrasing": "No-till agriculture avoids turning the soil to protect its integrity."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In Niger, what happened when farmers allowed trees to regrow on their land?",
+        "paragraphReference": 6,
+        "options": [
+          "Crop yields tripled",
+          "Crop yields doubled within a decade",
+          "Soil became completely barren",
+          "Nothing changed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 states that in Niger, farmers who allowed trees to regrow saw crop yields double within a decade.",
+        "keywordsInPassage": ["Niger", "trees", "crop yields double", "decade"],
+        "paraphrasing": "Nigerien farmers doubled harvests by letting trees regenerate."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Rebuilding one centimetre of topsoil under natural conditions can take up to five hundred years.",
+        "paragraphReference": 7,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 7 states rebuilding just one centimetre of topsoil can take between one hundred and five hundred years under natural conditions.",
+        "keywordsInPassage": ["one centimetre", "topsoil", "one hundred", "five hundred years"],
+        "paraphrasing": "Nature needs up to five centuries to regenerate a centimetre of topsoil."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Agroforestry is the practice of",
+        "paragraphReference": 6,
+        "options": [
+          "planting only one type of crop each year",
+          "integrating trees into agricultural landscapes",
+          "removing all trees from farmland",
+          "using only chemical fertilizers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 defines agroforestry as the integration of trees into agricultural landscapes.",
+        "keywordsInPassage": ["agroforestry", "integration of trees", "agricultural landscapes"],
+        "paraphrasing": "Agroforestry combines tree planting with crop cultivation."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the passage suggest about carbon credit markets?",
+        "paragraphReference": 8,
+        "options": [
+          "They are ineffective for soil health",
+          "They offer farmers a financial incentive to store carbon in soil",
+          "They are illegal in most countries",
+          "They focus on reducing water usage"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 8 states carbon credit markets pay farmers for storing carbon in their soil, offering a financial incentive.",
+        "keywordsInPassage": ["carbon credit markets", "pay farmers", "storing carbon", "financial incentive"],
+        "paraphrasing": "Carbon credits reward farmers monetarily for sequestering carbon."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SHORT_ANSWER",
+        "questionText": "According to the passage, what is the projected global population by 2050?",
+        "paragraphReference": 9,
+        "correctAnswer": "Nearly ten billion",
+        "explanation": "Paragraph 9 states the global population is projected to reach nearly ten billion by twenty-fifty.",
+        "keywordsInPassage": ["global population", "nearly ten billion", "twenty-fifty"],
+        "paraphrasing": "The world's population is expected to approach ten billion by mid-century."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The History of Writing Systems",
+      "subtitle": "From cuneiform to the digital alphabet",
+      "source": "Adapted from historical linguistics literature",
+      "author": "Dr. Elena Kowalski",
+      "wordCount": 680,
+      "content": "The invention of writing ranks among humanity's greatest achievements. Before writing, knowledge could only be transmitted through memory and speech, limiting what a society could preserve. With writing, civilizations could record laws, trade transactions, and stories, creating a foundation for complex administration and cultural continuity. The journey from the first scratch marks on clay to the digital text of today spans over five thousand years and reflects the ingenuity of cultures across the globe.\n\nThe earliest known writing system emerged in Mesopotamia around thirty-two hundred BCE. Scribes in the city of Uruk developed cuneiform, a script made by pressing a reed stylus into wet clay tablets to create wedge-shaped marks. Initially, cuneiform was used for accounting, recording quantities of grain and livestock. Over centuries, it evolved to represent spoken language more fully, and scribes used it to compose everything from legal codes to epic poetry, including the famous Epic of Gilgamesh.\n\nAlmost simultaneously, ancient Egypt developed its own writing system known as hieroglyphics. Egyptian scribes carved pictorial symbols onto temple walls and painted them on papyrus scrolls. Unlike cuneiform, hieroglyphics combined logographic signs, representing whole words, with phonetic signs, representing sounds. The discovery of the Rosetta Stone in seventeen ninety-nine, which bore the same text in hieroglyphics and Greek, finally allowed scholars to decipher the script after centuries of mystery.\n\nA major breakthrough occurred around fifteen hundred BCE when Semitic-speaking peoples in the Sinai region adapted Egyptian hieroglyphics into a radically simpler system. Instead of using one symbol per word, they assigned each symbol to a single consonant sound. This acrophonic principle meant that a drawing of a house, called 'bet' in their language, came to represent just the sound 'b'. This innovation gave rise to the first alphabet, a system in which a small number of signs could combine to represent any word.\n\nThe Phoenicians, a seafaring people based in modern-day Lebanon, refined this alphabet around one thousand BCE. Their twenty-two-letter script contained only consonants and was efficient enough for merchants to learn quickly. As Phoenician traders sailed the Mediterranean, they carried their alphabet to ports across the ancient world. The Greeks adopted and adapted it, crucially adding symbols for vowel sounds, which the Phoenician system lacked. This Greek innovation made the alphabet even more precise and flexible.\n\nFrom the Greek alphabet descended the Etruscan and then the Latin alphabet, which spread across Europe with the Roman Empire. Meanwhile, independent writing systems arose elsewhere. In China, writing emerged around twelve hundred BCE with a logographic script in which each character represents a concept or word rather than a sound. This system, though demanding to learn, allowed speakers of mutually unintelligible dialects to read the same texts, contributing to the cultural unity of the Chinese civilization. Chinese characters also influenced the writing systems of Japan, Korea, and Vietnam.\n\nIn Mesoamerica, the Maya developed a sophisticated hieroglyphic script around three hundred CE. Maya writing combined logograms with syllabic signs and was used to record astronomical observations, dynastic histories, and religious rituals. Like Egyptian hieroglyphics, it was only fully deciphered in the late twentieth century, revealing a civilization of remarkable intellectual depth.\n\nThe invention of the printing press by Johannes Gutenberg in the fifteenth century transformed writing from a craft practiced by a small elite into a mass medium. Movable type made books affordable, literacy spread, and the authority of handwritten manuscripts gave way to printed texts. The standardization of spelling and grammar that followed helped shape modern national languages.\n\nIn the digital age, writing continues to evolve. Keyboards, touchscreens, and voice-to-text software have changed how people produce written language, while the internet has made written communication more pervasive than ever. Emojis and abbreviations echo the ancient blend of pictorial and phonetic signs. The history of writing reveals a continuous human drive to externalize thought, to make the fleeting permanence of speech endure across time and distance.",
+      "topicCategory": "HISTORY_CULTURE",
+      "textType": "NARRATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where and when did the earliest known writing system emerge?",
+        "paragraphReference": 2,
+        "options": [
+          "In Egypt around 3000 BCE",
+          "In Mesopotamia around 3200 BCE",
+          "In China around 1200 BCE",
+          "In Greece around 800 BCE"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states the earliest known writing system emerged in Mesopotamia around thirty-two hundred BCE.",
+        "keywordsInPassage": ["earliest known writing", "Mesopotamia", "thirty-two hundred BCE"],
+        "paraphrasing": "The first writing appeared in Mesopotamia circa 3200 BCE."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "The Rosetta Stone was significant because it",
+        "paragraphReference": 3,
+        "options": [
+          "contained the first alphabet",
+          "allowed scholars to decipher Egyptian hieroglyphics",
+          "was written entirely in Greek",
+          "proved that writing originated in Africa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states the Rosetta Stone bore the same text in hieroglyphics and Greek, allowing scholars to decipher the script after centuries of mystery.",
+        "keywordsInPassage": ["Rosetta Stone", "decipher", "hieroglyphics", "Greek"],
+        "paraphrasing": "The Rosetta Stone unlocked the meaning of Egyptian hieroglyphs."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the key innovation of the first alphabet developed by Semitic peoples?",
+        "paragraphReference": 4,
+        "options": [
+          "Each symbol represented a whole word",
+          "Each symbol represented a single consonant sound",
+          "Each symbol represented a vowel",
+          "Each symbol represented a sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 explains Semitic peoples assigned each symbol to a single consonant sound, giving rise to the first alphabet.",
+        "keywordsInPassage": ["single consonant sound", "acrophonic principle", "first alphabet"],
+        "paraphrasing": "The first alphabet used one sign per consonant rather than per word."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "The Phoenician alphabet included symbols for vowel sounds.",
+        "paragraphReference": 5,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the Phoenician script contained only consonants, and the Greeks later added vowel sounds.",
+        "keywordsInPassage": ["Phoenicians", "only consonants", "Greeks", "vowel sounds"],
+        "paraphrasing": "Phoenician writing lacked vowels; Greeks introduced them later."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What crucial addition did the Greeks make to the alphabet?",
+        "paragraphReference": 5,
+        "options": [
+          "They removed all consonants",
+          "They added symbols for vowel sounds",
+          "They invented cuneiform",
+          "They created the first logographic script"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the Greeks crucially added symbols for vowel sounds, which the Phoenician system lacked.",
+        "keywordsInPassage": ["Greeks", "adding symbols", "vowel sounds", "Phoenician system lacked"],
+        "paraphrasing": "Greek scholars enriched the alphabet by introducing vowel notation."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "Chinese characters influenced the writing systems of Japan, Korea, and",
+        "paragraphReference": 6,
+        "correctAnswer": "Vietnam",
+        "explanation": "Paragraph 6 states Chinese characters also influenced the writing systems of Japan, Korea, and Vietnam.",
+        "keywordsInPassage": ["Chinese characters", "influenced", "Japan, Korea, and Vietnam"],
+        "paraphrasing": "The Chinese script shaped writing in three neighboring countries."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the passage, why did the Chinese writing system contribute to cultural unity?",
+        "paragraphReference": 6,
+        "options": [
+          "It was easy to learn",
+          "It allowed speakers of mutually unintelligible dialects to read the same texts",
+          "It was the only writing system in Asia",
+          "It was mandatory by law"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 states the logographic script allowed speakers of mutually unintelligible dialects to read the same texts, contributing to cultural unity.",
+        "keywordsInPassage": ["mutually unintelligible dialects", "read the same texts", "cultural unity"],
+        "paraphrasing": "China's script bridged linguistic divides by enabling shared reading."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "The Maya writing system was fully deciphered before the nineteenth century.",
+        "paragraphReference": 7,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states the Maya script was only fully deciphered in the late twentieth century, not before the nineteenth century.",
+        "keywordsInPassage": ["Maya", "fully deciphered", "late twentieth century"],
+        "paraphrasing": "Mayan glyphs remained unreadable until the late 1900s."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What impact did Gutenberg's printing press have on writing?",
+        "paragraphReference": 8,
+        "options": [
+          "It made writing less common",
+          "It transformed writing from a craft into a mass medium",
+          "It eliminated the need for writing",
+          "It had no significant impact"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 8 states the printing press transformed writing from a craft practiced by a small elite into a mass medium by making books affordable.",
+        "keywordsInPassage": ["printing press", "Gutenberg", "mass medium", "books affordable"],
+        "paraphrasing": "Gutenberg's press democratized writing by making texts widely accessible."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "NOTE_COMPLETION",
+        "questionText": "Complete the note: Emojis and abbreviations in digital communication echo the ancient blend of pictorial and ___ signs.",
+        "paragraphReference": 9,
+        "correctAnswer": "phonetic",
+        "explanation": "Paragraph 9 states emojis and abbreviations echo the ancient blend of pictorial and phonetic signs.",
+        "keywordsInPassage": ["emojis", "abbreviations", "pictorial and phonetic signs"],
+        "paraphrasing": "Digital symbols revive the old mixture of picture-based and sound-based writing."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The Neuroscience of Memory",
+      "subtitle": "How the brain encodes, stores, and retrieves experience",
+      "source": "Adapted from cognitive neuroscience literature",
+      "author": "Dr. Sarah Chen",
+      "wordCount": 710,
+      "content": "Memory is the thread that stitches our past to our present. Without it, we would be trapped in an eternal now, unable to recognize loved ones, learn from experience, or plan for the future. For centuries, memory was understood only through introspection and philosophy, but the advent of modern neuroscience has transformed it into a field of rigorous scientific inquiry. Researchers now know that memory is not a single faculty but a collection of distinct processes, each served by different brain regions and mechanisms.\n\nThe scientific study of memory began in earnest with the case of Henry Molaison, known in the medical literature as Patient H. M. In nineteen fifty-three, surgeons removed portions of his brain to treat severe epilepsy, including a structure called the hippocampus on both sides. After the surgery, Molaison's seizures improved dramatically, but he was left with a profound inability to form new memories. He could recall events from before the operation but could not remember a conversation from five minutes earlier. This tragic outcome revealed that the hippocampus is essential for converting short-term experiences into long-term memories, a process called consolidation.\n\nNeuroscientists now distinguish between several types of memory. Declarative memory, also called explicit memory, includes facts and events that we can consciously recall. It depends on the hippocampus and surrounding structures in the medial temporal lobe. Non-declarative memory, or implicit memory, encompasses skills and habits that operate unconsciously, such as riding a bicycle or typing on a keyboard. These are mediated by the basal ganglia and the cerebellum, which explains why Molaison could still learn new motor skills despite his inability to form new declarative memories.\n\nAt the cellular level, memories are believed to be stored in the connections between neurons, called synapses. When two neurons communicate repeatedly, the connection between them strengthens, a principle summarized by the neuroscientist Donald Hebb as 'cells that fire together, wire together.' This process, known as long-term potentiation, increases the efficiency of synaptic transmission and is considered the foundational mechanism of learning. Each experience modifies the pattern and strength of billions of synaptic connections, creating what researchers call an engram, the physical trace of a memory in the brain.\n\nMemory is not a passive recording but an active reconstruction. Each time we recall an event, we do not replay a perfect recording; we reassemble it from scattered fragments, and in doing so, we may alter it. Studies by psychologist Elizabeth Loftus demonstrated that memories can be distorted by misleading questions, a phenomenon with profound implications for the reliability of eyewitness testimony. The malleability of memory reflects its adaptive function: a system that updates and reorganizes information is more useful in a changing world than one that stores rigid, unalterable records.\n\nEmotion plays a powerful role in shaping what we remember. The amygdala, a small almond-shaped structure deep in the brain, interacts closely with the hippocampus during emotionally charged events. When a person experiences fear or excitement, the amygdala signals the hippocampus to consolidate the memory more strongly, which is why traumatic events are often vividly recalled while mundane details fade. However, extreme stress can also impair memory formation; victims of trauma sometimes develop fragmented or incomplete memories of the event.\n\nSleep is now recognized as critical for memory consolidation. During slow-wave sleep, the hippocampus replays the day's experiences, transferring them to the neocortex for long-term storage. During rapid-eye-movement sleep, emotional memories are processed and integrated. Depriving people of sleep after learning significantly impairs their ability to retain new information, underscoring that memory is not fully formed at the moment of experience but is consolidated over time, often during rest.\n\nThe decline of memory in aging and disease remains one of neuroscience's most pressing challenges. In Alzheimer's disease, the accumulation of toxic proteins first damages the hippocampus, explaining why forgetfulness is typically the earliest symptom. Researchers are exploring whether boosting synaptic plasticity, reducing inflammation, or clearing harmful proteins could slow or halt this decline. Though no cure yet exists, the pace of discovery offers hope that the coming decades will bring treatments that preserve the fragile thread of memory.",
+      "topicCategory": "SCIENCE_TECHNOLOGY",
+      "textType": "DESCRIPTIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happened to Patient H.M. after his surgery in 1953?",
+        "paragraphReference": 2,
+        "options": [
+          "He lost all memories from before the surgery",
+          "He could not form new long-term memories",
+          "His seizures became worse",
+          "He lost his ability to speak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states that after surgery Molaison was left with a profound inability to form new memories, though he could recall events from before the operation.",
+        "keywordsInPassage": ["Henry Molaison", "inability to form new memories", "hippocampus"],
+        "paraphrasing": "Surgery left H.M. unable to create lasting new memories."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which brain structure is essential for memory consolidation?",
+        "paragraphReference": 2,
+        "options": [
+          "The amygdala",
+          "The cerebellum",
+          "The hippocampus",
+          "The basal ganglia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 2 states the hippocampus is essential for converting short-term experiences into long-term memories, a process called consolidation.",
+        "keywordsInPassage": ["hippocampus", "essential", "consolidation", "long-term memories"],
+        "paraphrasing": "The hippocampus is the key brain region for cementing memories."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Non-declarative memory is mediated by",
+        "paragraphReference": 3,
+        "options": [
+          "the hippocampus and medial temporal lobe",
+          "the basal ganglia and cerebellum",
+          "the amygdala only",
+          "the prefrontal cortex"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states non-declarative memory is mediated by the basal ganglia and the cerebellum.",
+        "keywordsInPassage": ["non-declarative memory", "basal ganglia", "cerebellum", "mediated"],
+        "paraphrasing": "Implicit memory relies on the basal ganglia and cerebellum."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is long-term potentiation?",
+        "paragraphReference": 4,
+        "options": [
+          "A sleep disorder affecting memory",
+          "The process by which synaptic connections strengthen with repeated communication",
+          "A type of brain surgery",
+          "The loss of memory due to aging"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 describes long-term potentiation as the process where repeated communication between neurons strengthens their connection, increasing synaptic efficiency.",
+        "keywordsInPassage": ["long-term potentiation", "synaptic transmission", "strengthen", "foundational mechanism"],
+        "paraphrasing": "LTP is the strengthening of neural connections through repeated use."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "When we recall an event, we replay a perfect recording of it.",
+        "paragraphReference": 5,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states we do not replay a perfect recording; we reassemble memory from scattered fragments and may alter it.",
+        "keywordsInPassage": ["not a passive recording", "active reconstruction", "reassemble", "alter"],
+        "paraphrasing": "Recalling memories involves reconstruction, not exact playback."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Elizabeth Loftus's studies demonstrate about memory?",
+        "paragraphReference": 5,
+        "options": [
+          "Memory is always accurate",
+          "Memories can be distorted by misleading questions",
+          "People cannot form false memories",
+          "Eyewitness testimony is completely reliable"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states Loftus demonstrated that memories can be distorted by misleading questions, with implications for eyewitness testimony reliability.",
+        "keywordsInPassage": ["Elizabeth Loftus", "distorted", "misleading questions", "eyewitness testimony"],
+        "paraphrasing": "Loftus showed that suggestive questions can warp recollection."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "During slow-wave sleep, the hippocampus replays the day's experiences and transfers them to the",
+        "paragraphReference": 7,
+        "correctAnswer": "neocortex",
+        "explanation": "Paragraph 7 states during slow-wave sleep the hippocampus replays experiences, transferring them to the neocortex for long-term storage.",
+        "keywordsInPassage": ["slow-wave sleep", "hippocampus replays", "neocortex", "long-term storage"],
+        "paraphrasing": "The hippocampus ships daily memories to the neocortex during deep sleep."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why are emotionally charged events often vividly recalled?",
+        "paragraphReference": 6,
+        "options": [
+          "Because they are recorded on video",
+          "Because the amygdala signals the hippocampus to consolidate the memory more strongly",
+          "Because emotion destroys the memory",
+          "Because the cerebellum takes over"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 states the amygdala signals the hippocampus to consolidate emotionally charged memories more strongly, making them vivid.",
+        "keywordsInPassage": ["amygdala", "hippocampus", "consolidate", "emotionally charged", "vividly recalled"],
+        "paraphrasing": "The amygdala boosts memory storage for emotional events."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Depriving people of sleep after learning has no effect on memory retention.",
+        "paragraphReference": 7,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states depriving people of sleep after learning significantly impairs their ability to retain new information.",
+        "keywordsInPassage": ["depriving", "sleep", "significantly impairs", "retain new information"],
+        "paraphrasing": "Post-learning sleep deprivation badly undermines memory retention."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SHORT_ANSWER",
+        "questionText": "In Alzheimer's disease, which brain structure is damaged first by toxic proteins?",
+        "paragraphReference": 8,
+        "correctAnswer": "The hippocampus",
+        "explanation": "Paragraph 8 states in Alzheimer's disease, toxic proteins first damage the hippocampus, explaining why forgetfulness is the earliest symptom.",
+        "keywordsInPassage": ["Alzheimer's disease", "toxic proteins", "first damages", "hippocampus"],
+        "paraphrasing": "Alzheimer's initially strikes the hippocampus, causing early forgetfulness."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "HARD",
+    "passage": {
+      "title": "The Economics of Globalization",
+      "subtitle": "Weighing the gains and losses of an interconnected world",
+      "source": "Adapted from economic policy literature",
+      "author": "Dr. James Okonkwo",
+      "wordCount": 760,
+      "content": "Globalization, the increasing integration of economies through trade, investment, and technology, has reshaped the world over the past four decades. Since the nineteen-eighties, the flow of goods, capital, and people across borders has accelerated dramatically, driven by the reduction of trade barriers, the containerization of shipping, and the digital revolution. Proponents argue that globalization has lifted hundreds of millions out of poverty; critics contend that it has widened inequality and eroded national sovereignty. The truth, as economists have documented, is more complex than either narrative admits.\n\nThe case for globalization rests primarily on the principle of comparative advantage, first articulated by the nineteenth-century economist David Ricardo. When countries specialize in producing what they are relatively efficient at making and trade for everything else, total output rises. The post-war liberalization of trade, overseen by institutions like the World Trade Organization, put this principle into practice. Between nineteen ninety and twenty-twenty, global trade as a share of economic output nearly doubled, and the global economy grew at an unprecedented pace.\n\nThe most visible beneficiary was China. When Deng Xiaoping began opening the Chinese economy in nineteen seventy-eight, the country was impoverished and largely agrarian. By integrating into global supply chains, China achieved growth rates exceeding ten percent per year and lifted an estimated eight hundred million people out of extreme poverty. Vietnam, Bangladesh, and other developing nations followed similar paths, using export-oriented manufacturing as a ladder out of poverty. For the first time in history, the majority of humanity lived in countries with middle-income economies.\n\nYet the gains were not evenly distributed. Within wealthy nations, manufacturing workers whose jobs were offshored to lower-wage countries often experienced prolonged unemployment and falling wages. The economic historian Branko Milanovic has shown that while the global middle class, particularly in Asia, saw enormous income gains, the lower and middle classes in developed countries stagnated. This hollowing out of manufacturing in the West fueled political backlash, expressed in protectionist movements and skepticism toward international institutions. The Brexit vote and the trade wars initiated under the Trump administration were, in part, consequences of this dislocation.\n\nGlobalization also created vulnerabilities that became apparent during crises. The COVID-nineteen pandemic exposed the fragility of extended supply chains. When factories in one country shut down, production halted on the other side of the world. Medical supply shortages prompted governments to reconsider the efficiency of just-in-time manufacturing, which minimizes inventory but offers no buffer against disruption. Similarly, the war in Ukraine revealed Europe's dependence on imported energy, demonstrating that economic interdependence can become a strategic liability.\n\nEnvironmental costs represent another dimension of the debate. Global shipping accounts for roughly three percent of carbon emissions, and the pursuit of comparative advantage has sometimes shifted polluting industries to countries with lax environmental regulations, a phenomenon economists call the pollution haven effect. The relocation of manufacturing has also accelerated deforestation and resource extraction in developing nations. These externalities are rarely reflected in the price of traded goods, meaning that the economic gains of trade are partly achieved by shifting environmental burdens to the future and to poorer regions.\n\nThe digital revolution is now reshaping globalization in ways that earlier economists did not anticipate. While trade in physical goods has plateaued since the global financial crisis, the flow of data and digital services has exploded. Software, financial services, and entertainment can be delivered instantly across borders, creating new opportunities but also new anxieties about data privacy, cybersecurity, and the concentration of power in a handful of technology giants. The geography of advantage is shifting from cheap labor to digital infrastructure and skilled talent.\n\nLooking forward, the central question is not whether globalization will continue but in what form. Climate policy, geopolitical rivalry, and domestic political pressure are pushing governments toward what analysts call friend-shoring, the rerouting of supply chains through trusted allies. This fragmentation may improve resilience but will likely raise costs and reduce the efficiency gains that drove growth in the first era of globalization. The challenge for policymakers is to preserve the benefits of openness while building safeguards against its risks, a balance that no nation has yet perfected.",
+      "topicCategory": "BUSINESS_ECONOMICS",
+      "textType": "ARGUMENTATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What principle does the case for globalization primarily rest on?",
+        "paragraphReference": 2,
+        "options": [
+          "Absolute advantage",
+          "Comparative advantage",
+          "Competitive advantage",
+          "Natural advantage"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states the case for globalization rests primarily on the principle of comparative advantage, first articulated by David Ricardo.",
+        "keywordsInPassage": ["comparative advantage", "David Ricardo", "principle", "case for globalization"],
+        "paraphrasing": "Ricardo's comparative advantage theory underpins the argument for free trade."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately how many people has China lifted out of extreme poverty through economic integration?",
+        "paragraphReference": 3,
+        "options": [
+          "One hundred million",
+          "Three hundred million",
+          "Eight hundred million",
+          "One billion"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 3 states China lifted an estimated eight hundred million people out of extreme poverty by integrating into global supply chains.",
+        "keywordsInPassage": ["China", "eight hundred million", "extreme poverty", "global supply chains"],
+        "paraphrasing": "China's economic opening rescued roughly 800 million from dire poverty."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "The gains from globalization were evenly distributed within wealthy nations.",
+        "paragraphReference": 4,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states the gains were not evenly distributed; manufacturing workers in wealthy nations experienced prolonged unemployment and falling wages.",
+        "keywordsInPassage": ["not evenly distributed", "manufacturing workers", "offshored", "falling wages"],
+        "paraphrasing": "Affluent countries saw unequal benefits as factory jobs moved abroad."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "The COVID-19 pandemic exposed",
+        "paragraphReference": 5,
+        "options": [
+          "the strength of just-in-time manufacturing",
+          "the fragility of extended supply chains",
+          "the irrelevance of global trade",
+          "the superiority of domestic production in all sectors"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the COVID-19 pandemic exposed the fragility of extended supply chains when factory shutdowns halted production worldwide.",
+        "keywordsInPassage": ["COVID-nineteen", "fragility", "extended supply chains", "factories shut down"],
+        "paraphrasing": "The pandemic revealed how vulnerable long supply chains truly are."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the 'pollution haven effect'?",
+        "paragraphReference": 6,
+        "options": [
+          "Wealthy nations become cleaner by exporting pollution",
+          "The relocation of polluting industries to countries with lax environmental regulations",
+          "A type of carbon trading system",
+          "A method for cleaning polluted soil"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 defines the pollution haven effect as the shifting of polluting industries to countries with lax environmental regulations.",
+        "keywordsInPassage": ["pollution haven effect", "lax environmental regulations", "shifted polluting industries"],
+        "paraphrasing": "Dirty industries migrate to nations with weak environmental rules."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Global trade in physical goods has continued to grow rapidly since the global financial crisis.",
+        "paragraphReference": 7,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states trade in physical goods has plateaued since the global financial crisis, so it has not continued to grow rapidly.",
+        "keywordsInPassage": ["trade in physical goods", "plateaued", "global financial crisis"],
+        "paraphrasing": "Physical goods trade has stagnated since the financial crisis."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is 'friend-shoring'?",
+        "paragraphReference": 8,
+        "options": [
+          "A type of beach conservation project",
+          "The rerouting of supply chains through trusted allies",
+          "A method of reducing shipping costs",
+          "A trade agreement between rival nations"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 8 defines friend-shoring as the rerouting of supply chains through trusted allies, driven by climate policy, geopolitical rivalry, and domestic pressure.",
+        "keywordsInPassage": ["friend-shoring", "rerouting", "supply chains", "trusted allies"],
+        "paraphrasing": "Friend-shoring redirects trade toward politically reliable partners."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "According to the passage, the geography of advantage is shifting from cheap labor to",
+        "paragraphReference": 7,
+        "correctAnswer": "digital infrastructure and skilled talent",
+        "explanation": "Paragraph 7 states the geography of advantage is shifting from cheap labor to digital infrastructure and skilled talent.",
+        "keywordsInPassage": ["geography of advantage", "cheap labor", "digital infrastructure", "skilled talent"],
+        "paraphrasing": "Competitive edge now comes from digital tools and expertise, not low wages."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Branko Milanovic's research show about income gains from globalization?",
+        "paragraphReference": 4,
+        "options": [
+          "The rich in developed countries gained the most",
+          "The global middle class, particularly in Asia, saw enormous income gains",
+          "Inequality decreased everywhere",
+          "No one in developing nations benefited"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states Milanovic showed the global middle class, particularly in Asia, saw enormous income gains while lower and middle classes in developed countries stagnated.",
+        "keywordsInPassage": ["Branko Milanovic", "global middle class", "Asia", "enormous income gains"],
+        "paraphrasing": "Milanovic found Asia's middle class profited most from globalization."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the writer conclude about the future of globalization?",
+        "paragraphReference": 8,
+        "options": [
+          "Globalization will completely reverse",
+          "Globalization will continue but in a different form",
+          "Globalization has already ended",
+          "Globalization will accelerate unchanged"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 8 states the central question is not whether globalization will continue but in what form, suggesting it will continue differently.",
+        "keywordsInPassage": ["not whether globalization will continue", "in what form", "fragmentation"],
+        "paraphrasing": "Globalization persists but is transforming into a new configuration."
+      }
+    ]
+  }
+]

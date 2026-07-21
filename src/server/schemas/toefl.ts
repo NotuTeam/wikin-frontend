@@ -19,13 +19,13 @@ export const TOEFLListeningPartASchema = BaseQuestionSchema.extend({
   })).min(2).max(2),
   setting: z.enum(['CAFETERIA', 'STUDENT_CENTER','CAMPUS', 'ACADEMIC_OFFICE', 'LIBRARY', ]),
   questions: z.array(z.object({
-    questionNumber: z.number().int().min(1).max(5),
+    questionNumber: z.number().int().min(1).max(10),
     questionText: z.string().min(10),
     options: z.array(z.string().min(1)).length(4),
     correctAnswer: z.number().int().min(0).max(3),
     questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
     explanation: z.string().min(30),
-  })).length(5),
+  })).length(10),
   keyVocabulary: z.array(z.string()).min(3),
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });
@@ -39,13 +39,13 @@ export const TOEFLListeningPartBSchema = BaseQuestionSchema.extend({
   })).min(2).max(3),
   setting: z.enum(['CAFETERIA', 'STUDENT_CENTER','CAMPUS', 'ACADEMIC_OFFICE', 'LIBRARY', ]),
   questions: z.array(z.object({
-    questionNumber: z.number().int().min(1).max(7),
+    questionNumber: z.number().int().min(1).max(10),
     questionText: z.string().min(10),
     options: z.array(z.string().min(1)).length(4),
     correctAnswer: z.number().int().min(0).max(3),
     questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
     explanation: z.string().min(30),
-  })).length(7),
+  })).length(10),
   keyVocabulary: z.array(z.string()).min(5),
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });
@@ -86,13 +86,13 @@ export const TOEFLListeningPartESchema = BaseQuestionSchema.extend({
   ]),
   keyVocabulary: z.array(z.string()).min(8),
   questions: z.array(z.object({
-    questionNumber: z.number().int().min(1).max(15),
+    questionNumber: z.number().int().min(1).max(10),
     questionText: z.string().min(10),
     options: z.array(z.string().min(1)).length(4),
     correctAnswer: z.number().int().min(0).max(3),
     questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
     explanation: z.string().min(30),
-  })).length(15),
+  })).length(10),
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });
 
@@ -105,13 +105,13 @@ export const TOEFLListeningPartCSchema = BaseQuestionSchema.extend({
   })).min(2).max(4),
   setting: z.enum(['CAFETERIA', 'STUDENT_CENTER','CAMPUS', 'ACADEMIC_OFFICE', 'LIBRARY', ]),
   questions: z.array(z.object({
-    questionNumber: z.number().int().min(1).max(13),
+    questionNumber: z.number().int().min(1).max(10),
     questionText: z.string().min(10),
     options: z.array(z.string().min(1)).length(4),
     correctAnswer: z.number().int().min(0).max(3),
     questionType: z.enum(['MAIN_TOPIC', 'DETAIL', 'INFERENCE', 'PURPOSE', 'ATTITUDE']),
     explanation: z.string().min(30),
-  })).length(13),
+  })).length(10),
   keyVocabulary: z.array(z.string()).min(6),
   difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
 });

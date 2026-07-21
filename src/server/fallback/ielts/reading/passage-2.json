@@ -1,0 +1,247 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The Psychology of Color in Marketing",
+      "subtitle": "How brands manipulate perception through hue",
+      "source": "Adapted from consumer behavior studies",
+      "author": "Dr. Marcus Bell",
+      "wordCount": 640,
+      "content": "Walk into any supermarket and you will be surrounded by a carefully orchestrated symphony of colors. From the vivid red of a discount sign to the calming green of an organic label, color is one of the most powerful, yet often overlooked, tools in a marketer's arsenal. Research suggests that consumers form a subconscious judgment about a product within ninety seconds of initial viewing, and that up to ninety percent of that assessment is based on color alone.\n\nThe influence of color begins with biology. The human eye is drawn first to warm hues such as red and orange, which are associated in nature with ripe fruit and danger. This evolutionary heritage explains why clearance sales and fast-food logos so often use red: it grabs attention and, in the case of food, is believed to stimulate appetite. Blue, by contrast, is rare in natural foods, and marketers frequently use it to convey cleanliness, trust, and stability. Banks and technology companies lean heavily on blue for precisely this reason.\n\nCultural context, however, complicates any universal theory of color. While white signifies purity and new beginnings in many Western cultures, it is associated with mourning in parts of East Asia. Red, often linked to passion or warning in Europe and North America, represents luck and prosperity in China. Multinational brands must therefore adapt their palettes carefully; a single misstep can alienate an entire market. When a global soft-drink company shifted its packaging to green for an environmental campaign in a country where green carried political connotations, sales dropped sharply until the design was withdrawn.\n\nBeyond culture, personal preference plays a significant role. Studies show that men and women tend to favor different shades, and that age also influences perception. Children respond most strongly to primary colors, while adults often prefer more muted, sophisticated tones. Some brands segment their products by color to target different demographics, using bright primary hues for children's goods and elegant metallic or pastel tones for premium offerings.\n\nThe relationship between color and perceived flavor is especially intriguing. In one famous experiment, researchers gave participants the same drink colored differently. Participants described the red beverage as sweeter and the green one as more sour, even though the liquid was chemically identical. Such findings have profound implications for food packaging, where the color of a label can prime the brain to expect a particular taste before the product is even consumed.\n\nDespite these insights, color psychology in marketing is far from an exact science. Context, contrast, and combinations of colors can drastically alter perception. A color that works brilliantly in isolation may clash when placed next to another brand's packaging. Marketers increasingly use eye-tracking software and consumer panels to test how shoppers respond to color schemes in real shopping environments. The most successful brands treat color not as decoration, but as a strategic element woven into every aspect of their identity.",
+      "topicCategory": "PSYCHOLOGY",
+      "textType": "DISCURSIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 16,
+      "questionEnd": 30
+    },
+    "questions": [
+      {
+        "questionNumber": 16,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 1, how much of a consumer's initial judgment is based on color?",
+        "paragraphReference": 1,
+        "options": [
+          "About half",
+          "Up to ninety percent",
+          "Less than ten percent",
+          "Approximately a quarter"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states that up to ninety percent of the assessment is based on color alone.",
+        "keywordsInPassage": ["ninety percent", "based on color"],
+        "paraphrasing": "The vast majority of the snap judgment is driven by hue."
+      },
+      {
+        "questionNumber": 17,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do fast-food companies often use red?",
+        "paragraphReference": 2,
+        "options": [
+          "It is the cheapest ink to produce",
+          "It grabs attention and may stimulate appetite",
+          "It conveys cleanliness",
+          "It is rare in nature"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 explains that red grabs attention and is believed to stimulate appetite, making it popular for fast-food logos.",
+        "keywordsInPassage": ["red", "appetite", "grabs attention"],
+        "paraphrasing": "Red's biological associations make it ideal for food brands."
+      },
+      {
+        "questionNumber": 18,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do banks often use blue in their branding?",
+        "paragraphReference": 2,
+        "options": [
+          "To stimulate appetite",
+          "To convey trust and stability",
+          "To suggest excitement",
+          "To attract children"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states blue conveys cleanliness, trust, and stability, which is why banks and tech companies use it.",
+        "keywordsInPassage": ["blue", "trust", "stability"],
+        "paraphrasing": "Blue signals reliability, a key trait for financial firms."
+      },
+      {
+        "questionNumber": 19,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "White has the same meaning in all cultures.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 explicitly contrasts white's meaning in Western and East Asian cultures, so the statement is False.",
+        "keywordsInPassage": ["white", "mourning", "purity"],
+        "paraphrasing": "The meaning of white varies significantly by region."
+      },
+      {
+        "questionNumber": 20,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "In China, red is associated with luck and prosperity.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 3 states red represents luck and prosperity in China.",
+        "keywordsInPassage": ["red", "luck", "prosperity"],
+        "paraphrasing": "Red carries a positive cultural meaning in China."
+      },
+      {
+        "questionNumber": 21,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happened when a soft-drink company used green packaging in a country where green had political connotations?",
+        "paragraphReference": 3,
+        "options": [
+          "Sales increased",
+          "Sales dropped sharply",
+          "There was no effect",
+          "The brand became popular"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 notes that sales dropped sharply until the design was withdrawn.",
+        "keywordsInPassage": ["green", "sales dropped", "withdrawn"],
+        "paraphrasing": "The politically charged color hurt the brand's performance."
+      },
+      {
+        "questionNumber": 22,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Children respond most strongly to",
+        "paragraphReference": 4,
+        "options": [
+          "muted pastel tones",
+          "primary colors",
+          "metallic shades",
+          "dark hues"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states children respond most strongly to primary colors, while adults often prefer muted tones.",
+        "keywordsInPassage": ["children", "primary colors"],
+        "paraphrasing": "Bright primary hues appeal most to younger audiences."
+      },
+      {
+        "questionNumber": 23,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In the experiment described in paragraph 5, what did researchers find?",
+        "paragraphReference": 5,
+        "options": [
+          "Participants could not taste any difference",
+          "Color influenced the perceived sweetness or sourness of the drink",
+          "All participants preferred the green drink",
+          "The drinks were chemically different"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 reports that participants described the red drink as sweeter and the green one as more sour, despite identical chemistry.",
+        "keywordsInPassage": ["red", "sweeter", "green", "sour"],
+        "paraphrasing": "Visual cues shaped the perceived flavor of the drink."
+      },
+      {
+        "questionNumber": 24,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the experiment in paragraph 5 imply for food packaging?",
+        "paragraphReference": 5,
+        "options": [
+          "Packaging color can prime the brain to expect a particular taste",
+          "Packaging color has no impact on taste perception",
+          "Only the shape of the package matters",
+          "Bright colors always reduce sales"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 concludes the color of a label can prime the brain to expect a particular taste before consumption.",
+        "keywordsInPassage": ["prime the brain", "particular taste"],
+        "paraphrasing": "Label color sets up an expectation about flavor."
+      },
+      {
+        "questionNumber": 25,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "A color that works well alone may clash when",
+        "paragraphReference": 6,
+        "options": [
+          "used by itself",
+          "placed next to another brand's packaging",
+          "shown on a screen",
+          "printed in black and white"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 notes a color may clash when placed next to another brand's packaging.",
+        "keywordsInPassage": ["clash", "another brand's packaging"],
+        "paraphrasing": "Color context changes how a hue is perceived."
+      },
+      {
+        "questionNumber": 26,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do the most successful brands treat color?",
+        "paragraphReference": 6,
+        "options": [
+          "As mere decoration",
+          "As a strategic element of their identity",
+          "As an afterthought",
+          "As something to avoid"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 concludes the most successful brands treat color as a strategic element woven into their identity.",
+        "keywordsInPassage": ["strategic element", "identity"],
+        "paraphrasing": "Top brands integrate color into their overall strategy."
+      },
+      {
+        "questionNumber": 27,
+        "questionType": "MATCHING_HEADINGS",
+        "questionText": "Which heading best fits paragraph 3?",
+        "paragraphReference": 3,
+        "options": [
+          "The biology of color perception",
+          "Cultural variation in color meaning",
+          "Color and perceived flavor",
+          "Children and primary colors"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 focuses on how cultural context changes the meaning of color, providing examples of white and red.",
+        "keywordsInPassage": ["cultural context", "meaning"],
+        "paraphrasing": "The paragraph discusses cultural differences in interpretation."
+      },
+      {
+        "questionNumber": 28,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The word 'orchestrated' in paragraph 1 is closest in meaning to:",
+        "paragraphReference": 1,
+        "options": [
+          "random",
+          "carefully arranged",
+          "loud",
+          "broken"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Orchestrated' means carefully arranged or coordinated, like a musical performance.",
+        "keywordsInPassage": ["orchestrated", "symphony"],
+        "paraphrasing": "The colors are deliberately designed, not accidental."
+      },
+      {
+        "questionNumber": 29,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Eye-tracking software is used by some marketers to test color schemes.",
+        "paragraphReference": 6,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states marketers increasingly use eye-tracking software and consumer panels to test responses to color schemes.",
+        "keywordsInPassage": ["eye-tracking", "test"],
+        "paraphrasing": "Modern tools help measure visual response to colors."
+      },
+      {
+        "questionNumber": 30,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main point the writer makes about color psychology?",
+        "paragraphReference": 6,
+        "options": [
+          "It is a fully solved science",
+          "It is powerful but context-dependent and not an exact science",
+          "It has no real impact on sales",
+          "It works the same in every culture"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 summarizes that color psychology is far from an exact science and is heavily context-dependent.",
+        "keywordsInPassage": ["not an exact science", "context"],
+        "paraphrasing": "Color effects are real but highly variable."
+      }
+    ]
+  }
+]

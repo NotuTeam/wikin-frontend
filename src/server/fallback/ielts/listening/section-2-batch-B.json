@@ -1,0 +1,870 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to an advisor presenting information about studying abroad at a university info session.",
+    "audioScript": "Situation: A study abroad advisor gives an information session to second-year students considering a semester overseas.\nAdvisor: Good afternoon, everyone. I'm Dr Helen Carter, the study abroad coordinator here at Westfield University. Today I'll walk you through the key steps for applying to study abroad in your third year.\nAdvisor: We currently partner with forty universities across eighteen countries. The most popular destinations are Canada, Australia, and Germany, but I'd encourage you to look beyond the obvious choices.\nAdvisor: Applications open on the first of October and close on the fifteenth of December. You'll need to submit a personal statement of five hundred words, two academic references, and your most recent transcript.\nStudent: Excuse me, is there a minimum grade requirement?\nAdvisor: Yes, you must hold at least a sixty per cent average in your current modules. Some partner universities ask for sixty-five, so check the specific requirements.\nAdvisor: There are two types of placement. The exchange programme means you pay no tuition fees to the host university, only your usual fees here. The study abroad programme means you pay tuition to the host institution directly.\nAdvisor: Funding is available through the Global Mobility Bursary, worth up to fifteen hundred pounds, awarded on a competitive basis. The deadline for bursary applications is the end of February.\nAdvisor: Finally, you must attend a pre-departure workshop in May, which covers visas, health insurance, and cultural adjustment. If you have questions afterwards, email me at the study abroad office.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Advisor", "accent": "BRITISH", "gender": "FEMALE", "role": "study abroad coordinator" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "second-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is Dr Helen Carter?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A visiting professor from Germany", "The study abroad coordinator", "The head of admissions", "A student representative"],
+        "keywords": ["Helen Carter", "coordinator"],
+        "synonymsUsed": ["advisor", "organiser"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many partner universities does Westfield currently work with?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eighteen", "Thirty", "Forty", "Sixty-five"],
+        "keywords": ["partner universities", "forty"],
+        "synonymsUsed": ["affiliated institutions", "partners"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which destinations are described as the most popular?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Canada, Australia, and Germany", "France, Japan, and Spain", "The USA, Italy, and China", "Sweden, Brazil, and India"],
+        "keywords": ["popular destinations", "Canada", "Australia", "Germany"],
+        "synonymsUsed": ["favourite countries", "top choices"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When do applications close?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The first of October", "The thirtieth of November", "The fifteenth of December", "The end of February"],
+        "keywords": ["applications", "close", "fifteenth of December"],
+        "synonymsUsed": ["deadline", "final date"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long should the personal statement be?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three hundred words", "Five hundred words", "One thousand words", "Two hundred and fifty words"],
+        "keywords": ["personal statement", "five hundred words"],
+        "synonymsUsed": ["essay", "written statement"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the minimum average grade required to apply?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Sixty per cent", "Fifty per cent", "Sixty-five per cent", "Seventy per cent"],
+        "keywords": ["minimum", "grade", "sixty per cent"],
+        "synonymsUsed": ["average mark", "threshold"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Under the exchange programme, what tuition does a student pay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tuition to the host university only", "Only the usual fees to Westfield", "Half fees to both universities", "No tuition fees at all"],
+        "keywords": ["exchange programme", "tuition fees", "usual fees"],
+        "synonymsUsed": ["swap arrangement", "normal charges"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much is the Global Mobility Bursary worth?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Five hundred pounds", "Eight hundred pounds", "One thousand pounds", "Up to fifteen hundred pounds"],
+        "keywords": ["Global Mobility Bursary", "fifteen hundred"],
+        "synonymsUsed": ["grant", "financial support"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the deadline for bursary applications?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The fifteenth of December", "The end of January", "The end of February", "The end of May"],
+        "keywords": ["bursary", "deadline", "end of February"],
+        "synonymsUsed": ["grant closing date", "cut-off"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the pre-departure workshop in May cover?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Visas, health insurance, and cultural adjustment", "Module selection and exam rules", "Budgeting and cooking skills", "Language testing and interview techniques"],
+        "keywords": ["pre-departure workshop", "visas", "health insurance", "cultural adjustment"],
+        "synonymsUsed": ["preparation session", "briefing"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "coordinator", "pronunciationNote": "/kəʊˈɔːdɪneɪtə/", "meaning": "A person who organises and manages a programme." },
+      { "word": "partner universities", "meaning": "Institutions with a formal agreement to exchange students." },
+      { "word": "transcript", "pronunciationNote": "/ˈtrænskrɪpt/", "meaning": "An official record of a student's academic grades." },
+      { "word": "exchange programme", "meaning": "A scheme where students swap places and pay no host tuition." },
+      { "word": "bursary", "meaning": "A monetary award to help with study costs, not repaid." },
+      { "word": "pre-departure", "meaning": "Occurring before a person leaves for a destination abroad." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a facilities manager giving a tour of the university sports centre.",
+    "audioScript": "Situation: A sports facilities manager shows new members around the university sports centre during an induction tour.\nManager: Hi folks, I'm Greg, the facilities manager here at the Oakfield Sports Centre. Welcome aboard. Let me show you what we offer.\nManager: On this ground floor we have the main sports hall, which is marked out for badminton, basketball, and indoor cricket. It can be split into four courts at once.\nManager: Through those doors is the twenty-five-metre swimming pool. Lane swimming runs from six in the morning until eight, and again from noon to two.\nStudent: Is the pool open every day?\nManager: Every day except Sunday, when we only run family sessions from ten until four.\nManager: Upstairs you'll find the fitness suite with forty stations, including treadmills, rowing machines, and free weights. You must complete a free induction before using it, which takes about forty-five minutes.\nManager: We also offer fitness classes: spin, yoga, and circuits. Each class lasts an hour and costs three pounds for members.\nManager: Membership for students is one hundred and twenty pounds per year, or you can pay as you go at four pounds per visit. Membership includes the pool, the sports hall, and the fitness suite.\nManager: Lockers are available in the changing rooms. Bring your own padlock, or hire one from reception for a two-pound deposit.\nManager: Any questions? Drop by the reception any time between seven and ten, seven days a week.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Manager", "accent": "AUSTRALIAN", "gender": "MALE", "role": "sports facilities manager" },
+        { "name": "Student", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "new member" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is giving the tour of the sports centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A personal trainer", "The university coach", "Greg, the facilities manager", "A student volunteer"],
+        "keywords": ["Greg", "facilities manager"],
+        "synonymsUsed": ["guide", "in charge"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which sports is the main hall marked out for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tennis, netball, and hockey", "Badminton, basketball, and indoor cricket", "Volleyball, football, and squash", "Table tennis, fencing, and archery"],
+        "keywords": ["sports hall", "badminton", "basketball", "cricket"],
+        "synonymsUsed": ["courts", "marked for"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the swimming pool?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty-five metres", "Fifty metres", "Twenty metres", "Thirty metres"],
+        "keywords": ["swimming pool", "twenty-five metres"],
+        "synonymsUsed": ["pool length", "lane distance"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does lane swimming run in the morning?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["From five until seven", "From seven until nine", "From six until eight", "From six until nine"],
+        "keywords": ["lane swimming", "six", "eight"],
+        "synonymsUsed": ["morning session", "lap swimming"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens at the pool on Sundays?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Lane swimming all day", "Only family sessions from ten until four", "The pool is closed all day", "Only private lessons are available"],
+        "keywords": ["Sunday", "family sessions", "ten", "four"],
+        "synonymsUsed": ["weekend schedule", "family-only"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many stations does the fitness suite have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Forty stations", "Twenty-five stations", "Fifty stations", "Sixty stations"],
+        "keywords": ["fitness suite", "forty stations"],
+        "synonymsUsed": ["gym", "equipment units"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What must members do before using the fitness suite?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Pay a five-pound fee", "Book a personal trainer", "Complete a free induction lasting about forty-five minutes", "Sign a waiver at reception"],
+        "keywords": ["fitness suite", "induction", "forty-five minutes"],
+        "synonymsUsed": ["orientation", "safety briefing"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does each fitness class cost for members?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two pounds", "Three pounds", "Four pounds", "Five pounds"],
+        "keywords": ["fitness classes", "three pounds"],
+        "synonymsUsed": ["session fee", "charge"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the pay-as-you-go entry fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Two pounds per visit", "Three pounds per visit", "One hundred and twenty pounds per visit", "Four pounds per visit"],
+        "keywords": ["pay as you go", "four pounds"],
+        "synonymsUsed": ["casual entry", "single visit"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How can members obtain a padlock for lockers?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Buy one from the vending machine", "Hire one from reception for a two-pound deposit", "Borrow one free of charge", "Bring a key from home"],
+        "keywords": ["padlock", "reception", "two-pound deposit"],
+        "synonymsUsed": ["hire", "rental"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "facilities", "pronunciationNote": "/fəˈsɪlɪtiz/", "meaning": "Buildings and equipment provided for a particular purpose." },
+      { "word": "induction", "meaning": "A short training session introducing someone to equipment or rules." },
+      { "word": "fitness suite", "meaning": "A gym area with exercise machines and weights." },
+      { "word": "lane swimming", "meaning": "Organised swimming in marked lanes for exercise." },
+      { "word": "pay as you go", "meaning": "Paying per visit rather than a flat membership fee." },
+      { "word": "deposit", "pronunciationNote": "/ˈdɛpɒzɪt/", "meaning": "A sum held as security and returned when an item is given back." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a transport officer explaining public transport options to new students.",
+    "audioScript": "Situation: A city transport officer briefs new university students on using public transport around the city.\nOfficer: Morning everyone. I'm Sandra, a transport officer with CityBus. I'm here to help you get around affordably as students. Let's cover the essentials.\nOfficer: The city has three main bus routes serving the university. The number seven runs every ten minutes and goes straight to the city centre. The number twelve runs every fifteen minutes and reaches the shopping district. The number twenty-three runs every twenty minutes and connects to the train station.\nStudent: How much does a single ticket cost?\nOfficer: A standard single is one pound eighty for adults, but with a student SmartCard it drops to one pound twenty.\nOfficer: I'd recommend the term pass. It costs ninety pounds and covers unlimited travel on all CityBus routes for thirteen weeks. Compared with pay-as-you-go, most students save about thirty pounds a term.\nOfficer: The SmartCard itself is free, but you need a passport photo and your student ID to register at the travel centre on Market Street. Registration takes about ten minutes.\nOfficer: Buses run from five in the morning until midnight, Monday to Saturday. On Sundays, services start at eight and finish at ten in the evening.\nOfficer: There's also a night bus, the N7, running every thirty minutes from midnight to four, mainly for safety. It follows the same route as the number seven but costs two pounds fifty regardless of your card.\nOfficer: Lost SmartCards can be replaced for a five-pound fee at the travel centre, and your remaining balance transfers automatically.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Officer", "accent": "BRITISH", "gender": "FEMALE", "role": "transport officer" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which bus goes straight to the city centre?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The number seven", "The number twelve", "The number twenty-three", "The N7 night bus"],
+        "keywords": ["bus", "city centre", "number seven"],
+        "synonymsUsed": ["direct route", "straight to"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often does the number twelve bus run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Every ten minutes", "Every fifteen minutes", "Every twenty minutes", "Every thirty minutes"],
+        "keywords": ["number twelve", "fifteen minutes"],
+        "synonymsUsed": ["frequency", "interval"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which bus route connects to the train station?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The number seven", "The number twelve", "The number twenty-three", "The N7"],
+        "keywords": ["train station", "number twenty-three"],
+        "synonymsUsed": ["rail station", "connects to"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the standard adult single fare?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["One pound twenty", "One pound fifty", "Two pounds fifty", "One pound eighty"],
+        "keywords": ["single", "adult", "one pound eighty"],
+        "synonymsUsed": ["standard fare", "ticket price"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does a student pay for a single ticket with a SmartCard?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["One pound twenty", "One pound eighty", "Two pounds fifty", "Ninety pence"],
+        "keywords": ["SmartCard", "one pound twenty"],
+        "synonymsUsed": ["discounted fare", "card price"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the term pass cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Thirty pounds", "Sixty pounds", "Ninety pounds", "One hundred and twenty pounds"],
+        "keywords": ["term pass", "ninety pounds"],
+        "synonymsUsed": ["season ticket", "termly fare"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the term pass valid for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten weeks", "Thirteen weeks", "Twelve weeks", "Fifteen weeks"],
+        "keywords": ["term pass", "thirteen weeks"],
+        "synonymsUsed": ["duration", "validity"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do students need to register for a SmartCard?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A bank statement and a utility bill", "A passport photo and student ID", "A driving licence and proof of address", "An enrolment form only"],
+        "keywords": ["SmartCard", "passport photo", "student ID"],
+        "synonymsUsed": ["register", "sign up"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When do Sunday bus services finish?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["At midnight", "At eight in the evening", "At ten in the evening", "At four in the morning"],
+        "keywords": ["Sunday", "ten in the evening"],
+        "synonymsUsed": ["weekend", "end of service"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the N7 night bus cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["One pound twenty", "One pound eighty", "Ninety pence", "Two pounds fifty"],
+        "keywords": ["N7", "night bus", "two pounds fifty"],
+        "synonymsUsed": ["late bus", "after-hours fare"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "fare", "pronunciationNote": "/feə/", "meaning": "The price paid for a journey on public transport." },
+      { "word": "SmartCard", "meaning": "A rechargeable card used to pay discounted travel fares." },
+      { "word": "term pass", "meaning": "A ticket allowing unlimited travel for an academic term." },
+      { "word": "unlimited travel", "meaning": "No restriction on the number of journeys within the period." },
+      { "word": "night bus", "meaning": "A bus service running late at night or early morning." },
+      { "word": "balance", "pronunciationNote": "/ˈbæləns/", "meaning": "The amount of money remaining on a travel card." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a librarian explaining how to sign up for library skills workshops.",
+    "audioScript": "Situation: A librarian explains the schedule and booking process for a series of library skills workshops to first-year students.\nLibrarian: Hello, and welcome to Greenfield Library. I'm Marcus, and I run the library skills workshop programme. Let me tell you how to get the most from these sessions.\nLibrarian: We offer five workshops this term, each focused on a different skill. The first is Introduction to Referencing, running in week two. The second is Avoiding Plagiarism, in week three. Then Database Searching in week four, Critical Reading in week five, and finally Literature Reviews in week six.\nStudent: Do we need to attend all five?\nLibrarian: They're optional, but I strongly recommend at least the first three. They build on one another, so the order matters.\nLibrarian: Each workshop lasts ninety minutes and takes place in Seminar Room B on the second floor. The maximum group size is twenty, so places are limited.\nStudent: How do we sign up?\nLibrarian: Bookings open online one week before each session. Go to the library website, log in with your student ID, and select the workshop. You'll get a confirmation email within twenty-four hours.\nLibrarian: If a session is full, you can join the waiting list. When a place opens up, you'll receive an automatic email and have forty-eight hours to confirm.\nLibrarian: There's no charge for any workshop. However, if you book and fail to attend without cancelling twenty-four hours in advance, a penalty flag is placed on your account, and you must wait one week before booking another session.\nLibrarian: Certificates of completion are issued if you attend at least four of the five workshops, which can be added to your CV.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Librarian", "accent": "CANADIAN", "gender": "MALE", "role": "workshop coordinator" },
+        { "name": "Student", "accent": "CANADIAN", "gender": "FEMALE", "role": "first-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who runs the library skills workshop programme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A senior professor", "Marcus, the librarian", "The student union president", "A visiting researcher"],
+        "keywords": ["Marcus", "workshop programme"],
+        "synonymsUsed": ["organiser", "in charge"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many workshops are offered this term?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three", "Four", "Five", "Six"],
+        "keywords": ["workshops", "five"],
+        "synonymsUsed": ["sessions", "number"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which workshop runs in week three?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Introduction to Referencing", "Avoiding Plagiarism", "Database Searching", "Critical Reading"],
+        "keywords": ["week three", "Avoiding Plagiarism"],
+        "synonymsUsed": ["schedule", "third week"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does each workshop last?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ninety minutes", "One hour", "Two hours", "Forty-five minutes"],
+        "keywords": ["workshop", "ninety minutes"],
+        "synonymsUsed": ["duration", "length"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where do the workshops take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["In the main lecture hall", "On the ground floor of the library", "In Seminar Room B on the second floor", "In the computer lab"],
+        "keywords": ["Seminar Room B", "second floor"],
+        "synonymsUsed": ["location", "venue"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum group size for a workshop?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifteen students", "Twenty students", "Twenty-five students", "Thirty students"],
+        "keywords": ["maximum", "group size", "twenty"],
+        "synonymsUsed": ["capacity", "limit"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When do bookings open for each session?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["One week before the session", "Two weeks before the session", "Three days before the session", "On the day of the session"],
+        "keywords": ["bookings", "one week before"],
+        "synonymsUsed": ["registration", "opens"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long do students have to confirm a waiting-list place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-four hours", "Twelve hours", "Forty-eight hours", "One week"],
+        "keywords": ["waiting list", "forty-eight hours"],
+        "synonymsUsed": ["reserve list", "confirm"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if a student fails to attend without cancelling in advance?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They are fined ten pounds", "A penalty flag is placed and they wait one week before booking again", "They are banned from all workshops", "Their library card is suspended"],
+        "keywords": ["penalty flag", "one week"],
+        "synonymsUsed": ["no-show", "consequence"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many workshops must a student attend to receive a certificate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["All five", "Three", "Two", "At least four"],
+        "keywords": ["certificate", "at least four"],
+        "synonymsUsed": ["completion", "minimum"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "referencing", "pronunciationNote": "/ˈrɛfərənsɪŋ/", "meaning": "The practice of citing sources used in academic work." },
+      { "word": "plagiarism", "pronunciationNote": "/ˈpleɪdʒərɪzəm/", "meaning": "Using someone else's work without proper acknowledgement." },
+      { "word": "waiting list", "meaning": "A queue of people hoping to take a cancelled place." },
+      { "word": "penalty flag", "meaning": "A mark on an account noting a rule violation." },
+      { "word": "certificate of completion", "meaning": "An official document confirming attendance at a course." },
+      { "word": "optional", "meaning": "Available by choice rather than required." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a dining services manager presenting the campus meal plan options to students.",
+    "audioScript": "Situation: A dining services manager presents the campus dining plan options to new students at an orientation session.\nManager: Good afternoon. I'm Diane, manager of Campus Dining Services. I'll explain the meal plans available this year so you can choose what suits you best.\nManager: We offer three plans: the Basic, the Standard, and the Unlimited. Each works with your student card, which you top up or load a plan onto at the dining office.\nManager: The Basic Plan costs nine hundred pounds per semester and gives you ten meals per week plus one hundred pounds of flex dollars to spend at campus cafés.\nStudent: What's included in the Standard Plan?\nManager: The Standard Plan costs twelve hundred pounds per semester. It gives you fifteen meals per week plus two hundred and fifty flex dollars. This is our most popular option.\nManager: The Unlimited Plan costs fifteen hundred pounds per semester and offers all-you-can-eat access to the main dining hall during opening hours, plus one hundred flex dollars.\nManager: Unused meals don't roll over to the next week on the Basic and Standard plans. Flex dollars, however, carry over from the first semester to the second, but expire at the end of the academic year.\nManager: The main dining hall, located next to the science block, serves breakfast from seven to nine, lunch from eleven thirty to two, and dinner from five to seven thirty.\nManager: We accommodate dietary requirements. Vegetarian and vegan options are available at every meal. Halal and kosher meals require forty-eight hours' notice through the dining portal.\nManager: You can change your plan once per semester, free of charge, until the end of the second week of classes. After that, a twenty-pound administration fee applies.\nManager: Finally, guests can eat at the dining hall by paying eight pounds at the door, but they must be accompanied by a meal-plan holder.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Manager", "accent": "AMERICAN", "gender": "FEMALE", "role": "dining services manager" },
+        { "name": "Student", "accent": "AMERICAN", "gender": "MALE", "role": "new student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many meal plans does Campus Dining Services offer?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["meal plans", "three"],
+        "synonymsUsed": ["options", "packages"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does the Basic Plan cost per semester?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nine hundred pounds", "Twelve hundred pounds", "Fifteen hundred pounds", "Eight hundred pounds"],
+        "keywords": ["Basic Plan", "nine hundred pounds"],
+        "synonymsUsed": ["price", "fee"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many meals per week does the Basic Plan include?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen meals", "Twenty meals", "Ten meals", "Unlimited meals"],
+        "keywords": ["Basic Plan", "ten meals"],
+        "synonymsUsed": ["weekly allowance", "per week"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which plan is described as the most popular?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Basic Plan", "The Standard Plan", "The Unlimited Plan", "The Flex Plan"],
+        "keywords": ["most popular", "Standard Plan"],
+        "synonymsUsed": ["favourite", "top choice"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many flex dollars come with the Standard Plan?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One hundred", "One hundred and fifty", "Two hundred and fifty", "Three hundred"],
+        "keywords": ["Standard Plan", "flex dollars", "two hundred and fifty"],
+        "synonymsUsed": ["credit", "spending money"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to unused meals on the Basic and Standard plans?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They don't roll over to the next week", "They roll over indefinitely", "They convert to flex dollars", "They are refunded at the end of the term"],
+        "keywords": ["unused meals", "don't roll over"],
+        "synonymsUsed": ["expire", "forfeit"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When does the main dining hall serve dinner?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["From four to seven", "From five thirty to eight", "From six to eight", "From five to seven thirty"],
+        "keywords": ["dinner", "five", "seven thirty"],
+        "synonymsUsed": ["evening meal", "hours"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is required to obtain halal or kosher meals?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A doctor's note", "Forty-eight hours' notice through the dining portal", "A separate meal plan subscription", "Visiting the dining office in person"],
+        "keywords": ["halal", "kosher", "forty-eight hours' notice"],
+        "synonymsUsed": ["dietary requirement", "advance request"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Until when can students change their meal plan free of charge?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The first week of classes", "The end of the first month", "The end of the second week of classes", "Any time during the semester"],
+        "keywords": ["change", "free", "end of the second week"],
+        "synonymsUsed": ["switch", "no charge"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much does a guest pay to eat at the dining hall?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Eight pounds at the door", "Five pounds at the door", "Ten pounds at the door", "Twelve pounds at the door"],
+        "keywords": ["guest", "eight pounds", "door"],
+        "synonymsUsed": ["visitor", "entry fee"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "meal plan", "pronunciationNote": "/miːl plæn/", "meaning": "A prepaid package of meals for a semester." },
+      { "word": "flex dollars", "meaning": "Prepaid credit for use at campus cafés and food outlets." },
+      { "word": "semester", "pronunciationNote": "/sɪˈmɛstə/", "meaning": "Half of an academic year." },
+      { "word": "roll over", "meaning": "To carry unused items forward to the next period." },
+      { "word": "dietary requirements", "meaning": "Specific food needs due to religion, health, or belief." },
+      { "word": "accompanied", "meaning": "Joined by another person, here a meal-plan holder." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a student union officer introducing the university's student clubs to freshers.",
+    "audioScript": "Situation: A student union officer introduces the range of student clubs and societies to first-year students at a fresher welcome event.\nOfficer: Hi everyone, I'm Olivia, vice president of the Student Union here at Kingsmere University. Welcome to clubs night. Let me give you a quick overview before you browse the stalls.\nOfficer: We have over a hundred and twenty clubs registered this year, split into five categories: academic, cultural, sporting, special interest, and volunteering. Each club sets its own membership fee, but the average is around fifteen pounds per year.\nStudent: Can we join more than one club?\nOfficer: Absolutely, you can join as many as you like. However, I'd suggest starting with two or three so you don't overcommit, especially in your first term.\nOfficer: To join, visit the club's stall tonight, fill in a short form, and pay the fee by card or cash. You'll get a membership sticker for your student card within five working days.\nOfficer: Most clubs hold their main meetings on Wednesday afternoons, since the university keeps that slot free for activities. A few, like the debating society and the film club, meet on Tuesday or Thursday evenings instead.\nOfficer: Every club must re-register with the Union each September. If a club fails to attract at least ten members by the end of October, its funding is reviewed and it may be dissolved.\nOfficer: Union funding is allocated based on membership numbers and activity level. The minimum grant is fifty pounds, and the maximum is five hundred pounds per year. Applications open in November.\nOfficer: A word on safety: all club trips off-campus require a risk assessment submitted to the Union two weeks in advance, signed by the club president. Insurance is provided through the Union's blanket policy, but personal equipment is not covered.\nOfficer: That's the basics. Stalls are open until eight, so take your time and ask questions. I'll be at the Union desk if you need me.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Officer", "accent": "BRITISH", "gender": "FEMALE", "role": "student union vice president" },
+        { "name": "Student", "accent": "BRITISH", "gender": "MALE", "role": "first-year student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Olivia's role at the Student Union?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Club president", "Vice president", "Treasurer", "Welfare officer"],
+        "keywords": ["Olivia", "vice president"],
+        "synonymsUsed": ["deputy", "officer"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many clubs are registered this year?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One hundred", "One hundred and ten", "Over one hundred and twenty", "One hundred and fifty"],
+        "keywords": ["clubs", "one hundred and twenty"],
+        "synonymsUsed": ["societies", "registered"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many categories of clubs are there?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Four", "Five", "Six", "Seven"],
+        "keywords": ["categories", "five"],
+        "synonymsUsed": ["groups", "types"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the average annual membership fee?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Around fifteen pounds", "Around ten pounds", "Around twenty pounds", "Around twenty-five pounds"],
+        "keywords": ["average", "membership fee", "fifteen pounds"],
+        "synonymsUsed": ["typical cost", "subscription"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the officer suggest about joining clubs in the first term?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Join at least five clubs", "Join only academic clubs", "Start with two or three to avoid overcommitting", "Wait until the second term to join"],
+        "keywords": ["two or three", "overcommit"],
+        "synonymsUsed": ["recommend", "don't take on too much"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When do members receive their membership sticker?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Immediately at the stall", "Within five working days", "Within two weeks", "At the first meeting"],
+        "keywords": ["membership sticker", "five working days"],
+        "synonymsUsed": ["issue", "processed"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When are most club main meetings held?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Wednesday afternoons", "Monday evenings", "Friday mornings", "Sunday afternoons"],
+        "keywords": ["meetings", "Wednesday afternoons"],
+        "synonymsUsed": ["sessions", "scheduled"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if a club fails to attract at least ten members by the end of October?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It is immediately closed", "Its funding is reviewed and it may be dissolved", "It automatically receives extra funding", "It merges with another club"],
+        "keywords": ["ten members", "funding reviewed", "dissolved"],
+        "synonymsUsed": ["minimum", "shut down"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum Union grant a club can receive per year?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Fifty pounds", "Two hundred pounds", "Three hundred pounds", "Five hundred pounds"],
+        "keywords": ["maximum", "grant", "five hundred pounds"],
+        "synonymsUsed": ["upper limit", "funding cap"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is required for off-campus club trips?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A signed permission slip from parents", "A refundable deposit of fifty pounds", "A risk assessment submitted two weeks in advance, signed by the president", "Approval from the university registrar"],
+        "keywords": ["risk assessment", "two weeks", "president"],
+        "synonymsUsed": ["safety check", "advance notice"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "society", "pronunciationNote": "/səˈsaɪəti/", "meaning": "A student club focused on a shared interest or subject." },
+      { "word": "overcommit", "meaning": "To take on more activities than one can manage." },
+      { "word": "dissolved", "pronunciationNote": "/dɪˈzɒlvd/", "meaning": "Officially closed down or disbanded." },
+      { "word": "grant", "meaning": "A sum of money given by the Union to support a club." },
+      { "word": "risk assessment", "meaning": "A formal evaluation of potential dangers before an activity." },
+      { "word": "blanket policy", "meaning": "An insurance policy covering all groups under one organisation." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_2",
+    "questionText": "Listen to a sustainability officer leading a tour of the campus green initiatives.",
+    "audioScript": "Situation: A sustainability officer leads a small group of students on a tour of the campus environmental initiatives and facilities.\nOfficer: Welcome, everyone. I'm James, the campus sustainability officer here at Eastlake University. Today's tour covers our main green projects. We'll walk for about forty minutes, so wear comfortable shoes.\nOfficer: Our first stop is the solar array on the roof of the engineering block. Installed in twenty twenty-two, it generates about forty per cent of that building's electricity. We're planning to expand it to cover the library roof next summer.\nStudent: How much did the solar panels cost to install?\nOfficer: The initial installation cost two hundred thousand pounds, but we expect to recover that within eight years through energy savings.\nOfficer: Next, we have the rainwater harvesting system behind the sports hall. It collects water from the roof, stores it in a ten-thousand-litre tank, and supplies the irrigation system for the campus grounds. This reduces our mains water use by roughly twenty-five per cent.\nOfficer: We also run a comprehensive recycling scheme. There are four streams: paper, plastics, glass, and food waste. Food waste is sent to an anaerobic digester, which converts it into biogas used to heat the student residences.\nOfficer: The campus cycling scheme offers free bike loans for up to two weeks, with a refundable deposit of fifty pounds. After two weeks, rentals are two pounds per day. We currently have sixty bikes available across three docking stations.\nOfficer: Our latest project is the biodiversity garden, planted last spring near the lake. It features native wildflowers and a pollinator corridor, and is maintained by student volunteers. Volunteers commit to two hours per fortnight and can log it on their skills transcript.\nOfficer: Looking ahead, our target is to reach carbon neutrality by twenty thirty-five. The main challenge is heating: most buildings still rely on gas boilers, and switching to heat pumps requires significant investment.\nOfficer: If you want to get involved, sign up at the sustainability office or email green@eastlake.ac.uk. We meet on the first Thursday of each month.",
+    "context": {
+      "setting": "EDUCATIONAL_SURVIVAL",
+      "speakers": [
+        { "name": "Officer", "accent": "BRITISH", "gender": "MALE", "role": "campus sustainability officer" },
+        { "name": "Student", "accent": "BRITISH", "gender": "FEMALE", "role": "student tour participant" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the solar array located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["On the library roof", "Behind the sports hall", "On the roof of the engineering block", "Near the lake"],
+        "keywords": ["solar array", "engineering block", "roof"],
+        "synonymsUsed": ["panels", "installed"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately what percentage of the engineering block's electricity does the solar array generate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty-five per cent", "Forty per cent", "Fifty per cent", "Sixty per cent"],
+        "keywords": ["solar", "forty per cent", "electricity"],
+        "synonymsUsed": ["produces", "power"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much did the solar installation cost?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two hundred thousand pounds", "One hundred thousand pounds", "Three hundred thousand pounds", "Five hundred thousand pounds"],
+        "keywords": ["installation", "two hundred thousand"],
+        "synonymsUsed": ["cost", "investment"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long will it take to recover the solar installation cost through energy savings?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five years", "Eight years", "Ten years", "Twelve years"],
+        "keywords": ["recover", "eight years", "energy savings"],
+        "synonymsUsed": ["payback", "break even"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the capacity of the rainwater harvesting tank?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five thousand litres", "Eight thousand litres", "Ten thousand litres", "Twenty thousand litres"],
+        "keywords": ["rainwater", "tank", "ten thousand litres"],
+        "synonymsUsed": ["storage", "capacity"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By roughly how much does rainwater harvesting reduce mains water use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty-five per cent", "Forty per cent", "Fifteen per cent", "Thirty per cent"],
+        "keywords": ["mains water", "twenty-five per cent"],
+        "synonymsUsed": ["reduce", "cut"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many recycling streams does the campus scheme have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three", "Four", "Five", "Six"],
+        "keywords": ["recycling", "four streams"],
+        "synonymsUsed": ["categories", "separation"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is food waste converted into at the anaerobic digester?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Compost for gardens", "Animal feed", "Biogas used to heat student residences", "Electricity only"],
+        "keywords": ["food waste", "biogas", "heat", "residences"],
+        "synonymsUsed": ["converted", "energy"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long can students borrow a bike for free under the cycling scheme?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Up to two weeks", "Up to one week", "Up to three days", "Up to one month"],
+        "keywords": ["cycling", "free", "two weeks"],
+        "synonymsUsed": ["loan", "borrow"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the campus target year for carbon neutrality?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Twenty twenty-five", "Twenty thirty", "Twenty forty", "Twenty thirty-five"],
+        "keywords": ["carbon neutrality", "twenty thirty-five"],
+        "synonymsUsed": ["net zero", "target"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "solar array", "pronunciationNote": "/ˈsəʊlə əˈreɪ/", "meaning": "A set of solar panels that generate electricity from sunlight." },
+      { "word": "rainwater harvesting", "meaning": "Collecting and storing rainwater for reuse, such as irrigation." },
+      { "word": "anaerobic digester", "pronunciationNote": "/ˌænəˈrəʊbɪk daɪˈdʒɛstə/", "meaning": "A facility that breaks down organic waste to produce biogas." },
+      { "word": "biogas", "meaning": "A renewable fuel produced from decomposing organic matter." },
+      { "word": "carbon neutrality", "meaning": "Balancing carbon emissions with equivalent removals, achieving net zero." },
+      { "word": "biodiversity", "pronunciationNote": "/ˌbaɪəʊdaɪˈvɜːsɪti/", "meaning": "The variety of plant and animal life in a particular habitat." }
+    ],
+    "difficulty": "HARD"
+  }
+]

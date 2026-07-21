@@ -1,0 +1,925 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Physics of Sound and Music",
+      "author": "Dr. Marcus Chen",
+      "source": "Foundations of Acoustical Physics",
+      "wordCount": 560,
+      "content": "Sound is a mechanical wave that travels through a medium such as air, water, or solid materials. Unlike light, which can propagate through the vacuum of space, sound requires a physical medium because it relies on the vibration of particles. When a guitar string is plucked, it pushes against surrounding air molecules, creating regions of compression and rarefaction that ripple outward from the source. These alternating pressure waves reach our ears, where they are converted into electrical signals interpreted by the brain.\n\nThe most fundamental property of a sound wave is its frequency, measured in hertz, which refers to the number of complete cycles a wave completes per second. The human ear can detect frequencies ranging from approximately twenty hertz to twenty thousand hertz. Pitch, the perceived highness or lowness of a sound, is directly related to frequency. A high frequency produces a high-pitched sound, such as a whistle, while a low frequency produces a deep sound, such as a bass drum.\n\nAnother key property is amplitude, which determines the loudness of a sound. Amplitude corresponds to the maximum displacement of particles from their resting position. A larger amplitude means more energy is carried by the wave, resulting in a louder sound. Amplitude is typically measured in decibels, a logarithmic scale that reflects the enormous range of intensities the human ear can perceive. The threshold of hearing, the quietest sound detectable by a healthy human ear, is defined as zero decibels, while prolonged exposure to sounds above eighty-five decibels can cause permanent hearing damage.\n\nMusic is distinguished from noise by the organization of sound waves. When an instrument plays a note, it produces not only a fundamental frequency but also a series of higher frequencies called overtones or harmonics. These harmonics are integer multiples of the fundamental frequency and give each instrument its characteristic timbre, the quality that allows a listener to distinguish a violin from a flute even when both play the same note. Noise, by contrast, consists of random, disorganized frequencies with no discernible pattern.\n\nThe phenomenon of resonance plays a central role in musical instruments. Every object has a natural frequency at which it vibrates most efficiently. When a vibrating string or column of air matches the natural frequency of a resonating body, such as the wooden soundboard of a guitar or the hollow body of a cello, the result is amplification. This is why a tuning fork held in the air produces a faint sound, but when placed on a table, the sound becomes much louder.\n\nAcoustics, the science of sound behavior in enclosed spaces, is crucial to architecture and engineering. Concert halls are designed to reflect and distribute sound waves evenly so that every seat receives a balanced listening experience. Materials matter greatly: hard surfaces like stone and glass reflect sound, creating reverberation, while soft materials like fabric and foam absorb sound, reducing echoes. The reverberation time, defined as the time required for a sound to decay by sixty decibels, is a critical parameter in hall design. Too much reverberation blurs musical detail, while too little makes the space sound dead and lifeless.\n\nUnderstanding the physics of sound has enabled remarkable technological advances, from ultrasound imaging in medicine to sonar navigation in submarines. The same principles that govern a symphony orchestra underlie tools that save lives and explore the depths of the ocean.",
+      "topicCategory": "NATURAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "compression", "paragraph": 1, "context": "creating regions of compression and rarefaction that ripple outward from the source", "meaningInContext": "regions where air particles are pushed closer together by the sound wave" },
+      { "word": "frequency", "paragraph": 2, "context": "its frequency, measured in hertz, which refers to the number of complete cycles a wave completes per second", "meaningInContext": "the number of complete wave cycles occurring per second" },
+      { "word": "amplitude", "paragraph": 3, "context": "Another key property is amplitude, which determines the loudness of a sound.", "meaningInContext": "the maximum displacement of particles from their resting position, determining loudness" },
+      { "word": "timbre", "paragraph": 4, "context": "give each instrument its characteristic timbre, the quality that allows a listener to distinguish a violin from a flute", "meaningInContext": "the distinctive tone quality that differentiates instruments playing the same note" },
+      { "word": "resonance", "paragraph": 5, "context": "The phenomenon of resonance plays a central role in musical instruments.", "meaningInContext": "the amplification that occurs when vibrations match an object's natural frequency" },
+      { "word": "reverberation", "paragraph": 6, "context": "hard surfaces like stone and glass reflect sound, creating reverberation", "meaningInContext": "the persistence of sound after it reflects off hard surfaces in an enclosed space" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Sound cannot travel through the vacuum of space",
+          "Sound is a mechanical wave whose properties of frequency, amplitude, and resonance underlie music, acoustics, and technology",
+          "Musical instruments produce only one frequency at a time",
+          "Decibels and hertz are interchangeable units of measurement"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The passage explains how sound waves work through frequency, amplitude, harmonics, and resonance, and how these principles apply to music, acoustics, and technology."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to paragraph 1, why does sound require a physical medium?",
+        "options": [
+          "Because it travels faster in water than in air",
+          "Because it relies on the vibration of particles to propagate",
+          "Because light cannot travel through air",
+          "Because the brain needs electrical signals to function"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "Paragraph 1 states that sound requires a physical medium because it relies on the vibration of particles, unlike light which can travel through a vacuum."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What range of frequencies can the human ear detect according to paragraph 2?",
+        "options": [
+          "Approximately 20 Hz to 20,000 Hz",
+          "Approximately 10 Hz to 5,000 Hz",
+          "Approximately 100 Hz to 100,000 Hz",
+          "Approximately 1 Hz to 1,000 Hz"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states the human ear can detect frequencies ranging from approximately twenty hertz to twenty thousand hertz."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "The word 'pitch' in paragraph 2 is closest in meaning to:",
+        "options": [
+          "the loudness of a sound",
+          "the perceived highness or lowness of a sound",
+          "the speed at which a sound wave travels",
+          "the duration of a sound"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 defines pitch as the perceived highness or lowness of a sound, directly related to frequency."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "According to paragraph 3, what is the threshold of hearing defined as?",
+        "options": [
+          "Fifty decibels",
+          "One hundred decibels",
+          "Zero decibels",
+          "Eighty-five decibels"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 defines the threshold of hearing, the quietest sound detectable by a healthy human ear, as zero decibels."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What level of sound can cause permanent hearing damage with prolonged exposure?",
+        "options": [
+          "Above 50 decibels",
+          "Above 20 decibels",
+          "Above 0 decibels",
+          "Above 85 decibels"
+        ],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 states that prolonged exposure to sounds above eighty-five decibels can cause permanent hearing damage."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why does the author mention a violin and a flute in paragraph 4?",
+        "options": [
+          "To argue that violins are louder than flutes",
+          "To illustrate that timbre allows listeners to distinguish instruments playing the same note",
+          "To show that flutes cannot produce harmonics",
+          "To prove that all instruments sound identical"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 4,
+        "explanation": "The author mentions a violin and a flute to illustrate timbre, the quality that allows a listener to distinguish the two instruments even when both play the same note."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "The word 'timbre' in paragraph 4 refers to:",
+        "options": [
+          "the speed at which a note is played",
+          "the volume of a musical note",
+          "the characteristic tone quality that distinguishes one instrument from another",
+          "the frequency of the fundamental note only"
+        ],
+        "correctAnswer": 2,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 4,
+        "explanation": "In context, timbre is described as the quality that allows a listener to distinguish a violin from a flute even when both play the same note."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "According to paragraph 5, why does a tuning fork sound louder when placed on a table?",
+        "options": [
+          "The table vibrates at a matching natural frequency, amplifying the sound through resonance",
+          "The table absorbs the sound waves and releases them slowly",
+          "The table changes the frequency of the tuning fork",
+          "The table blocks all outside noise from interfering"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 explains that when a vibrating object matches the natural frequency of a resonating body like a table, the result is amplification through resonance."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "How is reverberation time defined in paragraph 6?",
+        "options": [
+          "The time for a sound to increase by sixty decibels",
+          "The time between two musical notes in a performance",
+          "The time a sound wave takes to cross a room",
+          "The time required for a sound to decay by sixty decibels"
+        ],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 defines reverberation time as the time required for a sound to decay by sixty decibels, a critical parameter in concert hall design."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "What can be inferred about a concert hall with too little reverberation?",
+        "options": [
+          "It would sound dead and lifeless to the audience",
+          "It would be too loud for most listeners",
+          "It would produce excessive and distracting echoes",
+          "It would permanently damage listeners' hearing"
+        ],
+        "correctAnswer": 0,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that too little reverberation makes a space sound dead and lifeless, so a hall with insufficient reverberation would have this quality."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "The author uses the example of a tuning fork on a table in order to:",
+        "options": [
+          "prove that tables make good musical instruments",
+          "show that tuning forks are unreliable tools",
+          "demonstrate how resonance amplifies sound through a resonating body",
+          "argue that all objects vibrate at the same frequency"
+        ],
+        "correctAnswer": 2,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 5,
+        "explanation": "The tuning fork example illustrates how placing a vibrating object on a resonating body amplifies the sound, demonstrating the principle of resonance."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "In paragraph 5, the word 'it' in the phrase 'it vibrates most efficiently' refers to:",
+        "options": [
+          "the frequency",
+          "every object",
+          "the natural frequency",
+          "the sound"
+        ],
+        "correctAnswer": 1,
+        "questionType": "REFERENCE",
+        "paragraphReference": 5,
+        "explanation": "The full sentence is 'Every object has a natural frequency at which it vibrates most efficiently,' so 'it' refers to 'every object.'"
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "Which of the following best summarizes the passage?",
+        "options": [
+          "Sound waves can only travel through air and have no technological applications",
+          "Sound is a mechanical wave whose properties of frequency, amplitude, harmonics, and resonance underlie music, acoustics, and technology",
+          "Decibels and hertz are the same unit used to measure different properties of sound",
+          "Musical instruments do not rely on any physical principles to produce sound"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the central themes: sound as a mechanical wave governed by frequency, amplitude, harmonics, and resonance, with applications in music, acoustics, and technology."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Which of the following best expresses the essential information in this sentence from paragraph 3: 'A larger amplitude means more energy is carried by the wave, resulting in a louder sound.'",
+        "options": [
+          "Larger waves always travel faster through the air",
+          "Greater wave energy, corresponding to larger amplitude, produces a louder sound",
+          "Amplitude has no measurable effect on the loudness of a sound",
+          "Sound energy decreases as amplitude increases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "SENTENCE_SIMPLIFICATION",
+        "paragraphReference": 3,
+        "explanation": "The simplified version captures the key relationship: larger amplitude means more energy and therefore louder sound, without altering the meaning."
+      }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Sociology of Social Media",
+      "author": "Dr. Priya Nair",
+      "source": "Journal of Digital Sociology",
+      "wordCount": 590,
+      "content": "The rise of social media platforms over the past two decades has fundamentally reshaped how human beings communicate, form relationships, and perceive themselves. Sociologists studying these platforms have identified a complex interplay between technology and social behavior, one that amplifies certain human tendencies while suppressing others. Far from being neutral tools, social media platforms embody design choices that influence how information flows, how status is conferred, and how communities form and dissolve.\n\nOne of the most significant sociological concepts for understanding social media is the network effect. A platform becomes more valuable as more people join it, creating a self-reinforcing cycle that tends toward concentration. This explains why a handful of platforms dominate the global landscape while countless alternatives fail to gain traction. The network effect also means that leaving a major platform carries a social cost, as users risk severing ties with friends, colleagues, and professional contacts who remain. This phenomenon, sometimes called lock-in, gives platforms considerable power over their users.\n\nSocial media has also transformed the concept of social capital, the resources individuals access through their networks. Sociologists distinguish between bonding social capital, which reinforces close-knit relationships within homogeneous groups, and bridging social capital, which connects people across diverse communities. Platforms facilitate both types, but research suggests they are particularly effective at generating bridging social capital by exposing users to people and perspectives outside their immediate circles. However, the same algorithms that broaden exposure can also create filter bubbles, environments where users are predominantly shown content that reinforces their existing beliefs.\n\nThe presentation of self is another area profoundly affected by social media. The sociologist Erving Goffman argued that social life resembles a theatrical performance, with individuals managing impressions through front-stage and back-stage behavior. Social media intensifies this dynamic by creating a persistent, searchable record of one's front-stage presentation. Users curate their profiles carefully, selecting which photos, posts, and personal details to share. This curation creates a gap between the authentic self and the performed self, a gap that researchers have linked to anxiety and diminished well-being, particularly among adolescents.\n\nStatus on social media operates through quantified metrics: followers, likes, shares, and views. These metrics create a visible hierarchy that did not exist in previous social environments. While traditional societies often conferred status through lineage, wealth, or accomplishment, social media platforms democratize status competition while simultaneously intensifying it. A teenager can gain a following through creative content, but the constant measurement of social worth through numbers creates pressure unknown to previous generations.\n\nThe phenomenon of viral content illustrates how social media reshapes collective attention. Content spreads not through deliberate editorial selection but through decentralized sharing decisions guided by algorithmic recommendation. This can amplify marginalized voices and accelerate social movements, but it can also disseminate misinformation at unprecedented speed. Sociologists have noted that emotionally charged content, particularly content eliciting outrage, spreads faster than neutral content, creating an attention economy that rewards polarization.\n\nThe long-term sociological implications of social media remain uncertain. What is clear is that these platforms have become deeply embedded in the fabric of modern social life, influencing everything from political mobilization to romantic courtship. Understanding their effects requires not just technological literacy but a sociological imagination capable of seeing how individual experiences connect to larger structures of power, identity, and community.",
+      "topicCategory": "SOCIAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "amplifies", "paragraph": 1, "context": "one that amplifies certain human tendencies while suppressing others", "meaningInContext": "increases or intensifies certain behaviors beyond their normal levels" },
+      { "word": "lock-in", "paragraph": 2, "context": "This phenomenon, sometimes called lock-in, gives platforms considerable power over their users", "meaningInContext": "a situation where leaving a platform carries social costs that keep users dependent on it" },
+      { "word": "bridging", "paragraph": 3, "context": "bridging social capital, which connects people across diverse communities", "meaningInContext": "connecting individuals across different and diverse social groups" },
+      { "word": "curate", "paragraph": 4, "context": "Users curate their profiles carefully, selecting which photos, posts, and personal details to share", "meaningInContext": "carefully select and organize content for public presentation" },
+      { "word": "polarization", "paragraph": 6, "context": "creating an attention economy that rewards polarization", "meaningInContext": "the division of people into opposing groups or extremes" },
+      { "word": "mobilization", "paragraph": 7, "context": "influencing everything from political mobilization to romantic courtship", "meaningInContext": "the process of organizing and rallying people for collective action" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Social media is a neutral tool that has no significant effect on society",
+          "Social media platforms reshape communication, identity, and status through design choices that amplify certain human tendencies",
+          "Social media exclusively affects the political behavior of its users",
+          "Social media platforms have replaced all traditional forms of social interaction"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The passage argues that social media platforms are far from neutral tools, and their design choices reshape communication, identity, status, and collective attention."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to paragraph 2, what is the 'network effect'?",
+        "options": [
+          "A platform loses value as more people join it",
+          "A platform becomes more valuable as more people join it, creating a self-reinforcing cycle",
+          "Networks always have a harmful effect on their users",
+          "Platforms cannot grow beyond a certain size without collapsing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 defines the network effect as a platform becoming more valuable as more people join, creating a self-reinforcing cycle that tends toward concentration."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "The term 'lock-in' in paragraph 2 refers to:",
+        "options": [
+          "the process of securing user accounts with passwords and encryption",
+          "the social cost of leaving a platform that keeps users dependent on it",
+          "the technical inability to delete a social media account permanently",
+          "the legal requirement to use a specific platform in certain professions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 describes lock-in as the phenomenon where leaving a major platform carries a social cost because users risk severing ties with contacts who remain."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "According to paragraph 3, what is the difference between bonding and bridging social capital?",
+        "options": [
+          "Bonding connects diverse communities; bridging reinforces close-knit groups",
+          "Bonding reinforces close-knit relationships; bridging connects people across diverse communities",
+          "Both types are identical in their function and effects",
+          "Bonding is always more valuable than bridging social capital"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 defines bonding social capital as reinforcing close-knit relationships within homogeneous groups, and bridging social capital as connecting people across diverse communities."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What do filter bubbles do according to paragraph 3?",
+        "options": [
+          "They expose users to opposing viewpoints and diverse perspectives",
+          "They show users predominantly content that reinforces their existing beliefs",
+          "They prevent users from seeing any content at all",
+          "They randomly select content without any pattern"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 describes filter bubbles as environments where users are predominantly shown content that reinforces their existing beliefs."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Why does the author mention Erving Goffman in paragraph 4?",
+        "options": [
+          "To argue that social media was invented by sociologists",
+          "To provide a theoretical framework for understanding how people manage self-presentation online",
+          "To prove that theater and social media are identical activities",
+          "To criticize social media platforms for invading user privacy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 4,
+        "explanation": "The author references Goffman's theory of social life as theatrical performance to frame how social media intensifies the management of self-presentation through curated profiles."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What can be inferred about the gap between the authentic self and the performed self on social media?",
+        "options": [
+          "It has no measurable effect on users' mental health",
+          "It has been linked to anxiety and diminished well-being, particularly among adolescents",
+          "It only affects adult users of social media platforms",
+          "It consistently improves users' self-confidence and self-esteem"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 states that the curation gap between the authentic and performed selves has been linked to anxiety and diminished well-being, particularly among adolescents."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How does social media change status competition compared to traditional societies?",
+        "options": [
+          "It eliminates all forms of status competition entirely",
+          "It democratizes status competition while simultaneously intensifying it through quantified metrics",
+          "It makes status impossible to measure or compare",
+          "It relies solely on lineage and inherited wealth for status"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 explains that social media democratizes status competition, allowing anyone to gain a following, while also intensifying it through constant quantified metrics like followers and likes."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "According to paragraph 6, what type of content spreads fastest on social media?",
+        "options": [
+          "Neutral, factual content with no emotional tone",
+          "Academic research papers and peer-reviewed studies",
+          "Emotionally charged content, particularly content eliciting outrage",
+          "Content that has been fact-checked by independent reviewers"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that emotionally charged content, particularly content eliciting outrage, spreads faster than neutral content on social media."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "The word 'polarization' in paragraph 6 most nearly means:",
+        "options": [
+          "collaboration between opposing groups",
+          "agreement on shared community values",
+          "the division of people into opposing groups or extremes",
+          "neutral and balanced discussion of controversial issues"
+        ],
+        "correctAnswer": 2,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 6,
+        "explanation": "In context, polarization refers to the division of people into opposing groups, which the attention economy on social media rewards through outrage-driven content."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "What can be inferred about the attention economy on social media?",
+        "options": [
+          "It rewards calm, balanced, and measured discussion",
+          "It prioritizes factual accuracy above all other factors",
+          "It rewards content that elicits strong emotional reactions, particularly outrage",
+          "It has no measurable effect on social dynamics or discourse"
+        ],
+        "correctAnswer": 2,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 explains that emotionally charged content spreads faster, creating an attention economy that rewards polarization, from which we can infer it rewards outrage-driven content."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "The author mentions filter bubbles in paragraph 3 in order to:",
+        "options": [
+          "prove that social media always exposes users to new and diverse ideas",
+          "illustrate a downside of algorithms that predominantly show reinforcing content",
+          "argue that all algorithmic recommendation systems should be banned",
+          "show that bridging social capital always succeeds on social media"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The author mentions filter bubbles to illustrate that the same algorithms that can broaden exposure can also trap users in environments that reinforce existing beliefs."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "In paragraph 2, the word 'who' in 'contacts who remain' refers to:",
+        "options": [
+          "the users who leave the platform",
+          "the friends and contacts who stay on the platform",
+          "the platform owners and developers",
+          "the sociologists studying the platform"
+        ],
+        "correctAnswer": 1,
+        "questionType": "REFERENCE",
+        "paragraphReference": 2,
+        "explanation": "The sentence discusses users risking severing ties with friends, colleagues, and professional contacts who remain on the platform, so 'who' refers to those contacts who stay."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "Which of the following best summarizes the passage?",
+        "options": [
+          "Social media platforms have no significant sociological effects on modern life",
+          "Social media reshapes communication, identity, status, and collective attention through design choices embedded in platform architecture",
+          "Social media platforms only affect political institutions and governance",
+          "Social media has completely replaced all traditional forms of community interaction"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the passage's central argument that social media platforms reshape multiple aspects of social life through their design choices and network dynamics."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Which of the following best expresses the essential information in this sentence from paragraph 5: 'While traditional societies often conferred status through lineage, wealth, or accomplishment, social media platforms democratize status competition while simultaneously intensifying it.'",
+        "options": [
+          "Social media eliminates all forms of status competition",
+          "Social media makes status competition accessible to more people while also making it more intense through quantified metrics",
+          "Traditional societies had no concept of status or hierarchy",
+          "Social media relies exclusively on inherited wealth for determining status"
+        ],
+        "correctAnswer": 1,
+        "questionType": "SENTENCE_SIMPLIFICATION",
+        "paragraphReference": 5,
+        "explanation": "The simplified version captures the contrast: traditional status was based on lineage and wealth, while social media democratizes access to status competition while intensifying it."
+      }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The Biology of Migration",
+      "author": "Dr. James Okoro",
+      "source": "Annual Review of Animal Behavior",
+      "wordCount": 540,
+      "content": "Migration is one of the most astonishing phenomena in the animal kingdom, involving the regular, seasonal movement of species across vast distances. From monarch butterflies traveling thousands of kilometers to Arctic terns flying from pole to pole, migration spans every major animal group and occurs on every continent. The sheer scale of these journeys, often undertaken by animals weighing less than a gram, has captivated biologists for centuries and raised fundamental questions about navigation, energy, and adaptation.\n\nThe primary driver of migration is the seasonal availability of resources. In temperate and polar regions, summer offers abundant food and extended daylight, making them ideal for breeding. As winter approaches, however, food becomes scarce and temperatures drop, forcing animals to move toward the tropics or the Southern Hemisphere. This pattern creates a predictable annual cycle in which species exploit the best conditions in each hemisphere at different times of year. The Arctic tern exemplifies this strategy, breeding in the Arctic summer and then flying to the Antarctic to experience a second summer, effectively living in perpetual daylight.\n\nNavigation is perhaps the most remarkable aspect of migration. How does a monarch butterfly, born in a Canadian meadow, find its way to a specific forest in Mexico it has never visited? Research has revealed that migratory animals employ multiple navigational cues. Birds use the position of the sun and stars as a compass, calibrated by an internal clock that compensates for the sun's movement across the sky. Many species also possess magnetoreception, the ability to detect Earth's magnetic field, which provides both directional and positional information. Some sea turtles and birds can apparently perceive the inclination angle of magnetic field lines, allowing them to determine latitude. In addition, olfactory cues, landmarks, and even infrasonic sound waves may guide migrants along established routes.\n\nThe energetic demands of migration are extraordinary. Birds preparing for long flights undergo hyperphagia, a period of intense feeding during which they deposit large reserves of fat. In some species, body mass increases by fifty percent or more in the weeks before departure. During flight, migrants consume these fat stores at a rapid rate, and some species, such as the bar-tailed godwit, fly nonstop across the Pacific Ocean for over eleven thousand kilometers without eating or resting. The physiological adaptations supporting such feats include enhanced aerobic capacity, altered muscle fiber composition, and the ability to temporarily shrink digestive organs to reduce weight.\n\nMigration also carries significant risks. Predators often concentrate along migratory routes, and weather can be unpredictable. Human activities have added new dangers, including habitat destruction, light pollution that disorients nocturnal migrants, and climate change that disrupts the timing of seasonal events. Phenological mismatch occurs when migrants arrive at breeding or feeding grounds at a time that no longer coincides with peak food availability, a consequence of warming temperatures altering the life cycles of plants and insects at different rates.\n\nConservation of migratory species presents unique challenges because these animals cross international borders and depend on a chain of habitats. A species may be protected in one country but hunted in another. International agreements, such as the Migratory Bird Treaty, represent attempts to coordinate conservation across political boundaries, but enforcement remains difficult. The loss of a single stopover site, a place where migrants rest and refuel, can jeopardize an entire population.",
+      "topicCategory": "NATURAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "magnetoreception", "paragraph": 3, "context": "Many species also possess magnetoreception, the ability to detect Earth's magnetic field", "meaningInContext": "the biological ability to detect and use Earth's magnetic field for navigation" },
+      { "word": "inclination", "paragraph": 3, "context": "perceive the inclination angle of magnetic field lines, allowing them to determine latitude", "meaningInContext": "the angle at which magnetic field lines meet the Earth's surface" },
+      { "word": "hyperphagia", "paragraph": 4, "context": "Birds preparing for long flights undergo hyperphagia, a period of intense feeding", "meaningInContext": "a period of greatly increased food consumption to build energy reserves" },
+      { "word": "phenological", "paragraph": 5, "context": "Phenological mismatch occurs when migrants arrive at a time that no longer coincides with peak food availability", "meaningInContext": "relating to the timing of seasonal biological events in nature" },
+      { "word": "stopover", "paragraph": 6, "context": "The loss of a single stopover site, a place where migrants rest and refuel, can jeopardize an entire population", "meaningInContext": "a location where migratory animals pause to rest and replenish energy during their journey" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Migration is a rare behavior limited to a few bird species",
+          "Migration is a widespread seasonal movement driven by resource availability, involving remarkable navigation and physiological adaptations",
+          "Migration is caused entirely by climate change in the modern era",
+          "Migration only occurs in tropical regions with stable climates"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The passage discusses migration as a widespread phenomenon driven by seasonal resource availability, covering navigation mechanisms, energetic demands, risks, and conservation challenges."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to paragraph 1, what is true about migration?",
+        "options": [
+          "It occurs only in birds and fish",
+          "It spans every major animal group and occurs on every continent",
+          "It is limited to land-dwelling animals",
+          "It only happens during the winter months"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "Paragraph 1 states that migration spans every major animal group and occurs on every continent, from monarch butterflies to Arctic terns."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "Why does the Arctic tern fly from the Arctic to the Antarctic?",
+        "options": [
+          "To escape predators that hunt in the Arctic during summer",
+          "To exploit summer conditions in both hemispheres, following seasonal resource availability",
+          "To find a permanent mate in Antarctica",
+          "To avoid competing with other bird species for food"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 explains that the Arctic tern breeds in the Arctic summer and then flies to the Antarctic to experience a second summer, effectively living in perpetual daylight."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "According to paragraph 3, what navigational cues do migratory birds use?",
+        "options": [
+          "Only the position of the moon at night",
+          "The position of the sun and stars, calibrated by an internal clock",
+          "Only olfactory cues from the environment",
+          "Only visual landmarks familiar from previous trips"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 states that birds use the position of the sun and stars as a compass, calibrated by an internal clock that compensates for the sun's movement across the sky."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "The word 'magnetoreception' in paragraph 3 refers to:",
+        "options": [
+          "the ability to produce magnetic fields around the body",
+          "the ability to detect Earth's magnetic field for navigation",
+          "the ability to navigate using visual landmarks",
+          "the ability to sense temperature changes in the environment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 defines magnetoreception as the ability to detect Earth's magnetic field, which provides both directional and positional information for navigation."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is hyperphagia as described in paragraph 4?",
+        "options": [
+          "A navigational strategy used by birds during migration",
+          "A period of intense feeding before migration to build fat reserves",
+          "A type of predator avoidance behavior during migration",
+          "A disease that weakens migratory bird populations"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 describes hyperphagia as a period of intense feeding during which birds deposit large reserves of fat, with body mass increasing by fifty percent or more."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What can be inferred about the bar-tailed godwit's migration?",
+        "options": [
+          "It stops frequently to eat during its Pacific crossing",
+          "It flies over eleven thousand kilometers without eating or resting",
+          "It cannot fly distances longer than a few hundred kilometers",
+          "It migrates only during the daytime hours"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 states that the bar-tailed godwit flies nonstop across the Pacific Ocean for over eleven thousand kilometers without eating or resting, implying extraordinary endurance."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is phenological mismatch according to paragraph 5?",
+        "options": [
+          "When migrants arrive at breeding grounds at a time that no longer coincides with peak food availability",
+          "When two species of migrants compete for the same food sources",
+          "When migrants permanently lose their navigational abilities",
+          "When breeding grounds are destroyed by severe storms"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 defines phenological mismatch as occurring when migrants arrive at breeding or feeding grounds at a time that no longer coincides with peak food availability."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "The word 'phenological' in paragraph 5 relates to:",
+        "options": [
+          "the study of rocks and geological formations",
+          "the timing of seasonal biological events in nature",
+          "the measurement of Earth's magnetic field strength",
+          "the classification of bird species by size"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 5,
+        "explanation": "In context, 'phenological' relates to the timing of seasonal biological events, as the mismatch occurs when warming temperatures alter the life cycles of plants and insects at different rates."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Why does the author ask 'How does a monarch butterfly... find its way to a specific forest in Mexico?'",
+        "options": [
+          "To prove that butterflies are more intelligent than birds",
+          "To introduce the topic of how migratory animals navigate over vast distances",
+          "To criticize the quality of monarch butterfly research",
+          "To argue that migration is a random and unplanned process"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The rhetorical question about the monarch butterfly introduces the discussion of how migratory animals navigate, leading into the explanation of multiple navigational cues."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "Why is conserving migratory species particularly challenging according to paragraph 6?",
+        "options": [
+          "Because migratory species do not need any conservation efforts",
+          "Because they cross international borders and depend on a chain of habitats across countries",
+          "Because they are too small to track with current technology",
+          "Because they migrate only within the borders of a single country"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 explains that conservation is challenging because migratory species cross international borders and depend on a chain of habitats, meaning a species may be protected in one country but hunted in another."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "What can be inferred about the loss of a single stopover site?",
+        "options": [
+          "It has no measurable effect on migratory populations",
+          "It can jeopardize an entire migratory population",
+          "It only affects the specific species that stops there",
+          "It actually improves migration efficiency by removing distractions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that the loss of a single stopover site can jeopardize an entire population, implying that each site in the chain is critical for survival."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "In paragraph 4, the word 'these' in 'migrants consume these fat stores' refers to:",
+        "options": [
+          "the birds' feathers and wings",
+          "the fat reserves deposited during hyperphagia before migration",
+          "the digestive organs that shrink during flight",
+          "the muscle fibers adapted for long-distance flight"
+        ],
+        "correctAnswer": 1,
+        "questionType": "REFERENCE",
+        "paragraphReference": 4,
+        "explanation": "The sentence refers to migrants consuming 'these fat stores,' which refers back to the large reserves of fat deposited during hyperphagia in the weeks before departure."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "Which of the following best summarizes the passage?",
+        "options": [
+          "Migration is a simple behavior with no significant risks or challenges",
+          "Migration is a complex seasonal movement involving navigation, physiological adaptation, and conservation challenges across borders",
+          "Migration only occurs in response to direct human interference",
+          "Migration is declining because animals no longer need to move seasonally"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the key themes: migration as a complex phenomenon involving remarkable navigation, extraordinary energetic demands, significant risks, and cross-border conservation challenges."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Which of the following best expresses the essential information in this sentence from paragraph 5: 'Phenological mismatch occurs when migrants arrive at breeding or feeding grounds at a time that no longer coincides with peak food availability, a consequence of warming temperatures altering the life cycles of plants and insects at different rates.'",
+        "options": [
+          "Migrants always arrive at the correct time for maximum food availability",
+          "Climate change can cause migrants to arrive when food is no longer at peak availability due to shifting biological cycles",
+          "Plants and insects always change their life cycles at the same rate",
+          "Migrants no longer need food during their breeding season"
+        ],
+        "correctAnswer": 1,
+        "questionType": "SENTENCE_SIMPLIFICATION",
+        "paragraphReference": 5,
+        "explanation": "The simplified version captures the core idea: warming temperatures alter plant and insect life cycles at different rates, causing migrants to arrive when food availability no longer peaks."
+      }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "READING_PASSAGE",
+    "passage": {
+      "title": "The History of Cartography",
+      "author": "Dr. Helena Vossberg",
+      "source": "Journal of Historical Geography",
+      "wordCount": 675,
+      "content": "Cartography, the art and science of mapmaking, is among humanity's oldest intellectual endeavors. Long before the invention of writing, early humans scratched maps into stone and bone, representing hunting grounds, water sources, and territorial boundaries. These primitive maps reveal something fundamental about human cognition: the desire to spatialize knowledge, to convert experience into a portable, shareable representation of the world. The history of cartography is not merely the history of increasingly accurate geography but the history of how civilizations understood their place in the cosmos.\n\nThe earliest known maps date from the Paleolithic period, but it was in ancient Babylon that cartography first became systematic. Babylonian mapmakers inscribed clay tablets with representations of their world, placing Babylon at the center surrounded by mythical oceans and distant lands. This convention of placing one's own culture at the center of the world map, known as ethnocentric cartography, persisted across civilizations. The ancient Greeks, however, made a crucial departure. Scholars like Eratosthenes not only calculated the circumference of the Earth with remarkable accuracy using geometric methods but also introduced the concept of latitude and longitude, creating a coordinate system that allowed for consistent spatial reference.\n\nThe medieval period in Europe saw a regression in cartographic ambition. Mappae mundi, or world maps, were less geographical documents than theological statements. These maps, typified by the T-O format, placed Jerusalem at the center with east oriented upward, reflecting a worldview in which spiritual truth took precedence over empirical observation. The Mediterranean was divided by the T shape formed by rivers, and the surrounding ocean formed the O. While these maps seem fanciful to modern eyes, they served their purpose of situating human history within a divine order.\n\nMeanwhile, Islamic cartographers preserved and expanded upon Greek geographical knowledge during the European Middle Ages. The scholar al-Idrisi, working in the twelfth century at the court of Roger II of Sicily, produced one of the most detailed world maps of the medieval era, drawing on both classical sources and contemporary accounts from merchants and travelers. Islamic geographers also developed sophisticated techniques for calculating distances and coordinates, and their work would later prove invaluable to European explorers.\n\nThe Age of Discovery, beginning in the fifteenth century, transformed cartography from a scholarly pursuit into an instrument of state power. European monarchs funded voyages of exploration that required, and in turn produced, increasingly accurate nautical charts. The portolan charts of the Mediterranean, characterized by their networks of compass roses and rhumb lines, represent a quantum leap in practical navigation. As explorers charted coastlines across the Atlantic, Pacific, and Indian Oceans, the known world expanded rapidly, and mapmakers struggled to keep pace with a flood of new geographical information.\n\nThe development of the Mercator projection in 1569 was a watershed moment. Gerardus Mercator devised a cylindrical projection that preserved angular relationships, making it invaluable for maritime navigation because a straight line on the map corresponded to a constant compass bearing. However, the projection dramatically distorted the size of landmasses near the poles, making Greenland appear larger than Africa despite being roughly one-fourteenth its size. This distortion, embedded in one of the most widely reproduced maps in history, has shaped popular perceptions of global geography for centuries.\n\nThe twentieth century brought new technologies that revolutionized cartography. Aerial photography, satellite imagery, and geographic information systems transformed mapmaking from a manual craft into a computational science. The Global Positioning System, originally developed for military use, democratized precise location data, making navigation accessible to anyone with a receiver. Contemporary digital maps are dynamic, layered with real-time data, and interactive in ways unimaginable to earlier cartographers.\n\nYet the history of cartography carries enduring lessons. Maps are never neutral representations. Every map reflects choices about what to include and what to omit, whose perspective to privilege, and whose territory to acknowledge. Critical cartography, an emerging field, examines how maps have been used to assert political claims, erase indigenous territories, and naturalize borders. Understanding the history of mapmaking is thus essential to reading maps not as transparent windows onto reality but as artifacts of power, culture, and human imagination.",
+      "topicCategory": "HISTORY",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "spatialize", "paragraph": 1, "context": "the desire to spatialize knowledge, to convert experience into a portable, shareable representation of the world", "meaningInContext": "to represent information in spatial or geographical form" },
+      { "word": "ethnocentric", "paragraph": 2, "context": "placing one's own culture at the center of the world map, known as ethnocentric cartography", "meaningInContext": "placing one's own culture at the center and judging others by its standards" },
+      { "word": "empirical", "paragraph": 3, "context": "reflecting a worldview in which spiritual truth took precedence over empirical observation", "meaningInContext": "based on observation and experience rather than theory or belief" },
+      { "word": "portolan", "paragraph": 5, "context": "The portolan charts of the Mediterranean, characterized by their networks of compass roses and rhumb lines", "meaningInContext": "navigational charts using compass roses and rhumb lines for maritime guidance" },
+      { "word": "distorted", "paragraph": 6, "context": "the projection dramatically distorted the size of landmasses near the poles", "meaningInContext": "misrepresented or altered the true proportions of landmasses" },
+      { "word": "artifacts", "paragraph": 8, "context": "reading maps not as transparent windows onto reality but as artifacts of power, culture, and human imagination", "meaningInContext": "objects created by humans that reflect cultural values and power structures" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Maps have always been perfectly accurate geographical tools",
+          "The history of cartography reveals how maps reflect cultural values, power, and evolving technology rather than neutral geography",
+          "Cartography was invented in the twentieth century with satellite technology",
+          "Maps are only useful for maritime navigation and nothing else"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The passage traces the history of mapmaking from ancient times to digital technology, emphasizing that maps reflect cultural values, power structures, and choices rather than being neutral representations."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to paragraph 1, what do the earliest maps reveal about human cognition?",
+        "options": [
+          "That early humans were incapable of understanding geography",
+          "The desire to spatialize knowledge and convert experience into shareable representations",
+          "That early maps were purely decorative with no practical purpose",
+          "That early humans had no concept of territorial boundaries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "Paragraph 1 states that primitive maps reveal the desire to spatialize knowledge, to convert experience into a portable, shareable representation of the world."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What contribution did the ancient Greeks make to cartography?",
+        "options": [
+          "They invented the T-O map format used in medieval Europe",
+          "They introduced the concept of latitude and longitude and calculated the Earth's circumference",
+          "They placed their own culture at the center of all world maps",
+          "They rejected geometric methods in favor of theological mapping"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states that Greek scholars like Eratosthenes calculated the Earth's circumference and introduced latitude and longitude, creating a coordinate system for consistent spatial reference."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What characterized medieval European mappae mundi?",
+        "options": [
+          "They were highly accurate nautical charts used for navigation",
+          "They were theological statements placing Jerusalem at the center with east oriented upward",
+          "They used the Mercator projection for the first time",
+          "They were based on satellite imagery and aerial photography"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 describes mappae mundi as theological statements using the T-O format, placing Jerusalem at the center with east oriented upward, prioritizing spiritual truth over empirical observation."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why does the author state that medieval maps 'seem fanciful to modern eyes'?",
+        "options": [
+          "To argue that medieval cartographers were unskilled and incompetent",
+          "To explain that these maps served a different purpose, prioritizing spiritual truth over geographical accuracy",
+          "To prove that medieval people could not read or understand maps",
+          "To criticize the T-O format as completely useless for any purpose"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The author acknowledges medieval maps seem fanciful to modern eyes but explains they served their purpose of situating human history within a divine order, prioritizing spiritual truth."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What did Islamic cartographer al-Idrisi produce in the twelfth century?",
+        "options": [
+          "The first Mercator projection for maritime navigation",
+          "One of the most detailed world maps of the medieval era, drawing on classical and contemporary sources",
+          "The first map to place Jerusalem at the center of the world",
+          "A map that explicitly rejected Greek geographical knowledge"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 states that al-Idrisi, working at the court of Roger II of Sicily, produced one of the most detailed world maps of the medieval era using both classical sources and contemporary accounts."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "The word 'empirical' in paragraph 3 is closest in meaning to:",
+        "options": [
+          "based on religious doctrine and theological texts",
+          "based on observation and experience rather than theory or belief",
+          "based on mathematical calculations alone",
+          "based on mythological stories and legends"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 3,
+        "explanation": "In context, 'empirical observation' is contrasted with 'spiritual truth,' indicating it refers to observation and experience rather than religious belief."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What was significant about the portolan charts described in paragraph 5?",
+        "options": [
+          "They were purely decorative maps with no navigational value",
+          "They featured networks of compass roses and rhumb lines, representing a major advance in practical navigation",
+          "They were the first maps to use the Mercator cylindrical projection",
+          "They were created exclusively by Islamic cartographers in Spain"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 describes portolan charts as characterized by networks of compass roses and rhumb lines, representing a quantum leap in practical navigation during the Age of Discovery."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What was a key feature of the Mercator projection?",
+        "options": [
+          "It accurately represented the true size of all landmasses equally",
+          "It preserved angular relationships, making it invaluable for maritime navigation",
+          "It was the first map to show the entire Western Hemisphere",
+          "It eliminated all forms of geographical distortion completely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that the Mercator projection preserved angular relationships so that a straight line corresponded to a constant compass bearing, making it invaluable for maritime navigation."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "The word 'distorted' in paragraph 6 most nearly means:",
+        "options": [
+          "accurately and precisely represented",
+          "misrepresented or altered from true proportions",
+          "completely erased from the map",
+          "made to appear smaller than in reality"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 6,
+        "explanation": "In context, the Mercator projection 'distorted the size of landmasses near the poles,' meaning it misrepresented or altered their true proportions, making Greenland appear larger than Africa."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "What can be inferred about the Mercator projection's effect on popular perceptions?",
+        "options": [
+          "It had no lasting effect on how people view the world",
+          "It has shaped popular perceptions of global geography for centuries by distorting landmass sizes",
+          "It made people immediately aware of Africa's true relative size",
+          "It was quickly replaced by more accurate projections within a decade"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 states that the distortion was embedded in one of the most widely reproduced maps in history and has shaped popular perceptions of global geography for centuries."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "Why does the author contrast Babylonian and Greek approaches to cartography in paragraph 2?",
+        "options": [
+          "To prove that Babylonians were inferior mapmakers compared to Greeks",
+          "To show that while Babylonians placed their culture at the center, Greeks introduced systematic coordinate systems and calculated the Earth's size",
+          "To argue that Greek maps were less accurate than Babylonian clay tablets",
+          "To show that both cultures used exactly the same cartographic methods"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 2,
+        "explanation": "The author contrasts Babylonian ethnocentric cartography with the Greek departure of introducing latitude, longitude, and geometric calculation of the Earth's circumference."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "In paragraph 6, the word 'its' in 'despite being roughly one-fourteenth its size' refers to:",
+        "options": [
+          "Greenland",
+          "Africa",
+          "the Mercator projection",
+          "the Pacific Ocean"
+        ],
+        "correctAnswer": 1,
+        "questionType": "REFERENCE",
+        "paragraphReference": 6,
+        "explanation": "The sentence compares Greenland to Africa, stating Greenland appears larger despite being roughly one-fourteenth the size of Africa, so 'its' refers to Africa."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "Which of the following best summarizes the passage?",
+        "options": [
+          "Cartography has always been a purely technical discipline with no cultural dimension",
+          "The history of cartography spans from ancient stone maps to digital systems, reflecting evolving technology, cultural values, and power dynamics",
+          "Maps have always been neutral and accurate representations of geographical reality",
+          "Cartography declined significantly after the medieval period and never recovered"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option captures the passage's central argument: cartography's history reveals evolving technology alongside cultural values and power dynamics, from ancient maps to modern digital systems."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "Which of the following best expresses the essential information in this sentence from paragraph 8: 'Every map reflects choices about what to include and what to omit, whose perspective to privilege, and whose territory to acknowledge.'",
+        "options": [
+          "Maps contain all available geographical data without any selection",
+          "Maps involve selective decisions that reflect particular perspectives, priorities, and power structures",
+          "Maps are always complete and entirely unbiased representations",
+          "Mapmakers have no control over what information appears on their maps"
+        ],
+        "correctAnswer": 1,
+        "questionType": "SENTENCE_SIMPLIFICATION",
+        "paragraphReference": 8,
+        "explanation": "The simplified version captures the core idea that maps are not neutral but reflect deliberate choices about inclusion, omission, perspective, and territorial acknowledgment."
+      }
+    ],
+    "difficulty": "HARD"
+  }
+]

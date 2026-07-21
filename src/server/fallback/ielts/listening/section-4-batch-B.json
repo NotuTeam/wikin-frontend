@@ -1,0 +1,871 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a biology lecture about genetic engineering and its applications in modern medicine.",
+    "audioScript": "Situation: A molecular biology professor delivers a lecture on genetic engineering, focusing on CRISPR technology and its medical applications.\nProfessor Chen: Good morning. Today we examine genetic engineering, one of the most transformative fields in modern biology, with a particular focus on CRISPR-Cas9 technology.\nProfessor Chen: Genetic engineering involves modifying an organism's DNA to alter its characteristics. The breakthrough came in twenty-twelve when researchers demonstrated that CRISPR-Cas9, a system derived from bacteria, could precisely edit genes in any organism.\nProfessor Chen: CRISPR was originally part of the bacterial immune system. When a virus attacks, the bacterium stores a fragment of viral DNA as a memory. If the same virus attacks again, the Cas9 protein uses this memory to find and cut the viral DNA, destroying the threat.\nProfessor Chen: Scientists repurposed this mechanism. They design a guide RNA that matches a target gene, and Cas9 cuts the DNA at that precise location. The cell then repairs the cut, and scientists can introduce new genetic material during repair.\nProfessor Chen: Medical applications are remarkable. In twenty-twenty, the first CRISPR-based therapy for sickle cell disease was approved, allowing patients to produce healthy red blood cells. Clinical trials are also underway for treating inherited blindness.\nProfessor Chen: However, ethical concerns persist. In twenty-eighteen, a Chinese scientist caused international outrage by editing the genomes of human embryos, producing the world's first gene-edited babies. This raised fears about designer babies and unintended consequences.\nProfessor Chen: A key challenge remains off-target effects, where CRISPR accidentally edits the wrong gene. Researchers are developing more accurate variants, but no system is yet perfect. Regulation and public dialogue must keep pace with the technology.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Chen", "accent": "AMERICAN", "gender": "FEMALE", "role": "molecular biology lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main focus of the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The history of cloning", "Genetic engineering and CRISPR-Cas9 technology", "The structure of human DNA", "Bacterial immune responses"],
+        "keywords": ["genetic engineering", "CRISPR", "focus"],
+        "synonymsUsed": ["main subject", "central topic"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did researchers demonstrate CRISPR-Cas9 could edit genes in any organism?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["In twenty-twelve", "In twenty-eighteen", "In twenty-twenty", "In twenty-oh-five"],
+        "keywords": ["demonstrated", "twenty-twelve", "edit genes"],
+        "synonymsUsed": ["showed", "proved"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was CRISPR originally part of?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A plant defence system", "A human immune response", "The bacterial immune system", "A viral replication mechanism"],
+        "keywords": ["originally", "bacterial immune system", "CRISPR"],
+        "synonymsUsed": ["initially", "first developed as"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the Cas9 protein do when a virus attacks again?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Uses stored memory to find and cut the viral DNA", "Produces antibodies to neutralise the virus", "Hides the bacterium inside a protective shell", "Releases toxins to kill the virus"],
+        "keywords": ["Cas9", "virus", "cut", "viral DNA"],
+        "synonymsUsed": ["destroys", "targets"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do scientists guide Cas9 to the target gene?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By using electric pulses", "By designing a guide RNA that matches the target", "By applying magnetic fields", "By heating the DNA sample"],
+        "keywords": ["guide RNA", "target gene", "Cas9"],
+        "synonymsUsed": ["direct", "steer"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the first CRISPR-based therapy approved for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Inherited blindness", "Cystic fibrosis", "Sickle cell disease", "Type one diabetes"],
+        "keywords": ["first", "therapy", "sickle cell disease", "approved"],
+        "synonymsUsed": ["treatment", "authorised"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year was the first CRISPR therapy approved?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In twenty-eighteen", "In twenty-twenty", "In twenty-twenty-two", "In twenty-sixteen"],
+        "keywords": ["year", "approved", "twenty-twenty"],
+        "synonymsUsed": ["authorised", "licensed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What caused international outrage in twenty-eighteen?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["A failed clinical trial", "The use of CRISPR on animals", "The high cost of gene therapy", "A Chinese scientist editing human embryo genomes"],
+        "keywords": ["twenty-eighteen", "international outrage", "embryo"],
+        "synonymsUsed": ["scandal", "controversy"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the key challenge mentioned with CRISPR?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Off-target effects where the wrong gene is edited", "The high cost of guide RNA", "The difficulty of growing bacteria", "The shortage of trained scientists"],
+        "keywords": ["challenge", "off-target effects", "wrong gene"],
+        "synonymsUsed": ["problem", "unintended edits"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor conclude must keep pace with the technology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Funding for research", "The number of scientists", "Regulation and public dialogue", "Laboratory equipment"],
+        "keywords": ["conclude", "regulation", "public dialogue"],
+        "synonymsUsed": ["oversight", "discussion"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "genetic engineering", "pronunciationNote": "/dʒəˈnetɪk ˌendʒɪˈnɪərɪŋ/", "meaning": "The deliberate modification of an organism's DNA to alter its characteristics." },
+      { "word": "CRISPR-Cas9", "meaning": "A gene-editing system derived from bacteria that can precisely cut DNA at targeted locations." },
+      { "word": "guide RNA", "meaning": "A short RNA molecule designed to direct Cas9 to a specific gene sequence." },
+      { "word": "off-target effects", "meaning": "Unintended edits to genes other than the target gene." },
+      { "word": "sickle cell disease", "meaning": "An inherited blood disorder affecting red blood cells." },
+      { "word": "embryo", "pronunciationNote": "/ˈembriəʊ/", "meaning": "An early stage of development in an organism before birth." },
+      { "word": "designer babies", "meaning": "Children whose genetic traits have been selected or modified by parents." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a psychology lecture on cognitive psychology and how memory works.",
+    "audioScript": "Situation: A cognitive psychology professor delivers a lecture on human memory, covering the distinction between short-term and long-term memory.\nProfessor Williams: Welcome. Today we explore one of the most fascinating areas of cognitive psychology: how human memory works.\nProfessor Williams: Memory is not a single system but several. The most fundamental distinction is between short-term and long-term memory. Short-term memory holds a small amount of information for roughly twenty to thirty seconds.\nProfessor Williams: Research by George Miller in nineteen fifty-six showed that the average person can hold about seven items in short-term memory, plus or minus two. Think of a phone number you repeat to yourself before dialing.\nProfessor Williams: For information to enter long-term memory, it must be encoded. The most effective method is elaborative rehearsal, where you connect new information to things you already know. Simply repeating words, called maintenance rehearsal, helps far less.\nProfessor Williams: Long-term memory itself has subdivisions. Episodic memory stores personal experiences, like your first day at university. Semantic memory stores general knowledge, such as the capital of France.\nProfessor Williams: A famous case study is patient HM, who had his hippocampus removed in nineteen fifty-three to treat epilepsy. He could no longer form new long-term memories, though memories from before the surgery remained intact. This proved the hippocampus is essential for forming new memories.\nProfessor Williams: Forgetting is also studied. Hermann Ebbinghaus discovered the forgetting curve in eighteen eighty-five, showing that memory loss is rapid at first, then levels off. Most forgetting happens within the first twenty-four hours unless the information is reviewed.\nProfessor Williams: In conclusion, understanding memory has practical applications. Techniques like spaced repetition, where you review material at increasing intervals, can dramatically improve learning and retention.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Williams", "accent": "BRITISH", "gender": "MALE", "role": "cognitive psychology lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main topic of the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The treatment of epilepsy", "How human memory works in cognitive psychology", "The biography of Hermann Ebbinghaus", "The anatomy of the human brain"],
+        "keywords": ["memory", "cognitive psychology", "topic"],
+        "synonymsUsed": ["main subject", "lecture focus"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does short-term memory hold information?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five to ten seconds", "Ten to fifteen seconds", "Twenty to thirty seconds", "One to two minutes"],
+        "keywords": ["short-term memory", "seconds", "hold"],
+        "synonymsUsed": ["duration", "retain"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to George Miller, how many items can short-term memory hold?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About seven, plus or minus two", "About five, plus or minus one", "About ten, plus or minus three", "About three, plus or minus one"],
+        "keywords": ["Miller", "seven", "items", "short-term"],
+        "synonymsUsed": ["number of items", "capacity"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year did George Miller publish his research?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In nineteen forty-six", "In nineteen fifty-six", "In nineteen sixty-six", "In nineteen seventy-six"],
+        "keywords": ["Miller", "year", "nineteen fifty-six"],
+        "synonymsUsed": ["published", "research"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the most effective method for encoding information into long-term memory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Maintenance rehearsal", "Reading aloud repeatedly", "Elaborative rehearsal, connecting new information to existing knowledge", "Writing notes word for word"],
+        "keywords": ["encoding", "elaborative rehearsal", "long-term"],
+        "synonymsUsed": ["most effective method", "best technique"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does episodic memory store?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Personal experiences", "General knowledge", "Motor skills", "Emotional responses"],
+        "keywords": ["episodic memory", "personal experiences"],
+        "synonymsUsed": ["stores", "contains"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happened to patient HM in nineteen fifty-three?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["He discovered the forgetting curve", "His hippocampus was removed to treat epilepsy", "He published a study on short-term memory", "He developed a new memory test"],
+        "keywords": ["patient HM", "hippocampus", "nineteen fifty-three", "epilepsy"],
+        "synonymsUsed": ["surgery", "removed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the case of patient HM prove about the hippocampus?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["It controls emotional responses", "It stores old memories permanently", "It is responsible for short-term memory only", "It is essential for forming new memories"],
+        "keywords": ["hippocampus", "essential", "forming new memories"],
+        "synonymsUsed": ["proved", "demonstrated"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did Hermann Ebbinghaus discover the forgetting curve?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["In eighteen eighty-five", "In nineteen oh-five", "In nineteen twenty-five", "In nineteen fifty-five"],
+        "keywords": ["Ebbinghaus", "forgetting curve", "eighteen eighty-five"],
+        "synonymsUsed": ["discovered", "identified"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What technique does the professor recommend for improving learning?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Cramming before exams", "Spaced repetition with increasing review intervals", "Reading material only once", "Listening to recordings while sleeping"],
+        "keywords": ["spaced repetition", "intervals", "learning"],
+        "synonymsUsed": ["technique", "improve"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "short-term memory", "meaning": "A memory system that holds a small amount of information for about twenty to thirty seconds." },
+      { "word": "long-term memory", "meaning": "A memory system that stores information over extended periods, potentially for a lifetime." },
+      { "word": "elaborative rehearsal", "pronunciationNote": "/ɪˈlæbərətɪv rɪˈhɜːsəl/", "meaning": "A memory technique that connects new information to existing knowledge for better retention." },
+      { "word": "episodic memory", "meaning": "The part of long-term memory that stores personal experiences and events." },
+      { "word": "semantic memory", "meaning": "The part of long-term memory that stores general knowledge and facts." },
+      { "word": "hippocampus", "pronunciationNote": "/ˌhɪpəˈkæmpəs/", "meaning": "A brain structure essential for forming new long-term memories." },
+      { "word": "forgetting curve", "meaning": "A graph showing how memory declines over time, with rapid initial loss followed by slower decline." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an environmental science lecture on sustainable agriculture and food security.",
+    "audioScript": "Situation: An environmental science professor delivers a lecture on sustainable agriculture and methods to ensure long-term food security.\nProfessor Anderson: Good afternoon. Today we discuss sustainable agriculture, a critical topic as the global population heads toward ten billion by twenty-fifty.\nProfessor Anderson: Conventional farming relies heavily on chemical fertilisers and pesticides. While these boosted yields in the twentieth century, they have degraded soil, polluted waterways, and reduced biodiversity. We need alternatives.\nProfessor Anderson: Crop rotation is one of the oldest sustainable practices. By alternating different crops on the same land, farmers break pest cycles and preserve soil nutrients. For example, planting legumes after wheat restores nitrogen naturally.\nProfessor Anderson: Agroforestry combines trees with crops or livestock. Trees provide shade, reduce erosion, and offer additional income through fruit or timber. In Africa, agroforestry has improved yields by up to thirty percent in some regions.\nProfessor Anderson: Precision agriculture uses technology, including GPS and sensors, to apply water and fertiliser only where needed. This can reduce fertiliser use by twenty to forty percent, cutting both costs and environmental damage.\nProfessor Anderson: Organic farming avoids synthetic chemicals entirely. Studies show organic farms produce roughly twenty percent less than conventional farms, but they support greater biodiversity and produce lower carbon emissions.\nProfessor Anderson: A major challenge is water. Agriculture accounts for about seventy percent of global freshwater use. Drip irrigation, which delivers water directly to plant roots, can cut water consumption by up to sixty percent compared to flood irrigation.\nProfessor Anderson: Ultimately, no single method is sufficient. The future likely involves combining these approaches, tailored to local conditions, to feed a growing population without destroying the planet.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Anderson", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "environmental science lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the lecture primarily about?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Sustainable agriculture and food security", "The history of chemical fertilisers", "The economics of organic farming", "Urban planning for growing cities"],
+        "keywords": ["sustainable agriculture", "food security", "lecture"],
+        "synonymsUsed": ["primarily about", "main topic"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What global population is expected by twenty-fifty?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Eight billion", "Ten billion", "Twelve billion", "Fifteen billion"],
+        "keywords": ["population", "twenty-fifty", "ten billion"],
+        "synonymsUsed": ["expected", "projected"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What problems has conventional farming caused?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Increased biodiversity and cleaner water", "Higher crop yields with no drawbacks", "Soil degradation, water pollution, and reduced biodiversity", "Lower food prices worldwide"],
+        "keywords": ["conventional farming", "soil degradation", "pollution", "biodiversity"],
+        "synonymsUsed": ["caused", "resulted in"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does crop rotation achieve by planting legumes after wheat?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It increases crop prices", "It restores nitrogen naturally", "It eliminates the need for water", "It prevents all diseases"],
+        "keywords": ["crop rotation", "legumes", "nitrogen"],
+        "synonymsUsed": ["achieves", "restores"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By what percentage has agroforestry improved yields in some African regions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Up to ten percent", "Up to twenty percent", "Up to thirty percent", "Up to fifty percent"],
+        "keywords": ["agroforestry", "yields", "Africa", "thirty percent"],
+        "synonymsUsed": ["improved", "increased"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much can precision agriculture reduce fertiliser use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty to forty percent", "Ten to twenty percent", "Fifty to sixty percent", "Five to ten percent"],
+        "keywords": ["precision agriculture", "fertiliser", "reduce", "twenty to forty percent"],
+        "synonymsUsed": ["decrease", "cut"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much less do organic farms produce compared to conventional farms?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Roughly ten percent less", "Roughly twenty percent less", "Roughly forty percent less", "Roughly fifty percent less"],
+        "keywords": ["organic farms", "produce", "twenty percent less"],
+        "synonymsUsed": ["yield", "output"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of global freshwater does agriculture use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["About thirty percent", "About fifty percent", "About sixty percent", "About seventy percent"],
+        "keywords": ["agriculture", "freshwater", "seventy percent"],
+        "synonymsUsed": ["accounts for", "consumes"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much water can drip irrigation save compared to flood irrigation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Up to sixty percent", "Up to thirty percent", "Up to twenty percent", "Up to ninety percent"],
+        "keywords": ["drip irrigation", "water", "sixty percent", "flood irrigation"],
+        "synonymsUsed": ["save", "reduce"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor conclude about the future of sustainable agriculture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Organic farming alone will solve the problem", "Precision agriculture is the only solution", "No single method is sufficient; approaches must be combined and tailored locally", "Chemical fertilisers must be banned immediately"],
+        "keywords": ["conclude", "no single method", "combined", "tailored"],
+        "synonymsUsed": ["future", "solution"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "sustainable agriculture", "meaning": "Farming practices that meet current food needs without compromising future generations' ability to do so." },
+      { "word": "crop rotation", "meaning": "The practice of growing different crops in succession on the same land to preserve soil health." },
+      { "word": "agroforestry", "pronunciationNote": "/ˈæɡrəʊˌfɒrɪstri/", "meaning": "A land-use system that integrates trees with crops or livestock." },
+      { "word": "precision agriculture", "meaning": "The use of technology such as GPS and sensors to optimise the application of inputs like water and fertiliser." },
+      { "word": "drip irrigation", "meaning": "A water-efficient method that delivers water directly to plant roots." },
+      { "word": "biodiversity", "meaning": "The variety of plant and animal life in a particular ecosystem." },
+      { "word": "nitrogen", "pronunciationNote": "/ˈnaɪtrədʒən/", "meaning": "A chemical element essential for plant growth, naturally restored by legumes." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a materials science lecture on nanotechnology and its diverse applications.",
+    "audioScript": "Situation: A materials science professor delivers a lecture on nanotechnology, explaining its principles and applications across medicine, electronics, and energy.\nProfessor Tanaka: Good morning. Today we explore nanotechnology, the science of manipulating matter at the nanoscale, typically one to one hundred nanometres.\nProfessor Tanaka: To put this in perspective, a single nanometre is one billionth of a metre, or about the width of ten atoms lined up. At this scale, materials behave differently because quantum effects become significant.\nProfessor Tanaka: Gold, for instance, is famously inert at normal scales. But gold nanoparticles are highly reactive catalysts. Similarly, carbon nanotubes, discovered by Sumio Iijima in nineteen ninety-one, are one hundred times stronger than steel but six times lighter.\nProfessor Tanaka: In medicine, nanoparticles are revolutionising drug delivery. Lipid nanoparticles deliver fragile molecules like mRNA directly into cells. This technology was essential for the COVID vaccines developed in twenty-twenty.\nProfessor Tanaka: In electronics, Moore's Law has driven miniaturisation for decades. Nanotechnology enables transistors smaller than five nanometres, allowing billions on a single chip. However, as components shrink, heat dissipation becomes a critical challenge.\nProfessor Tanaka: In energy, nanomaterials improve solar cells. Perovskite solar cells, enhanced with nanostructures, have reached efficiencies above twenty-five percent, rivaling traditional silicon cells at a fraction of the cost.\nProfessor Tanaka: Safety concerns remain. Nanoparticles can penetrate cell membranes and even the blood-brain barrier. Their long-term health effects are not yet fully understood. The regulatory framework is still evolving.\nProfessor Tanaka: In summary, nanotechnology offers extraordinary potential across multiple fields, but responsible development requires understanding both its power and its risks.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Tanaka", "accent": "CANADIAN", "gender": "MALE", "role": "materials science lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the lecture about?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The history of quantum physics", "Nanotechnology and its applications", "The development of COVID vaccines", "The future of solar energy"],
+        "keywords": ["nanotechnology", "applications", "lecture"],
+        "synonymsUsed": ["topic", "subject"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the typical nanoscale range?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Zero point one to one nanometre", "One to ten nanometres", "One to one hundred nanometres", "One hundred to one thousand nanometres"],
+        "keywords": ["nanoscale", "one to one hundred nanometres"],
+        "synonymsUsed": ["range", "scale"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is a single nanometre described?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["One billionth of a metre", "One millionth of a metre", "One thousandth of a metre", "One hundredth of a metre"],
+        "keywords": ["nanometre", "billionth", "metre"],
+        "synonymsUsed": ["defined as", "equals"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do gold nanoparticles differ from gold at normal scale?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They are more inert", "They are highly reactive catalysts", "They are heavier", "They are transparent"],
+        "keywords": ["gold nanoparticles", "reactive", "catalysts"],
+        "synonymsUsed": ["differ", "contrast"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When were carbon nanotubes discovered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["In nineteen seventy-five", "In nineteen eighty-five", "In nineteen ninety-one", "In two thousand and one"],
+        "keywords": ["carbon nanotubes", "discovered", "nineteen ninety-one"],
+        "synonymsUsed": ["found", "identified"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do carbon nanotubes compare to steel?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["One hundred times stronger but six times lighter", "Ten times stronger but twice as heavy", "Equal in strength but half the weight", "Five times stronger but ten times heavier"],
+        "keywords": ["carbon nanotubes", "steel", "stronger", "lighter"],
+        "synonymsUsed": ["compare", "relative to"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was lipid nanoparticle technology essential for in twenty-twenty?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Solar panel production", "Water purification", "Carbon capture", "COVID vaccines delivering mRNA"],
+        "keywords": ["lipid nanoparticles", "COVID vaccines", "mRNA", "twenty-twenty"],
+        "synonymsUsed": ["essential", "critical for"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What challenge arises as electronic components shrink?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Increased manufacturing cost", "Heat dissipation becomes critical", "Reduced transistor speed", "Lower chip reliability"],
+        "keywords": ["components", "shrink", "heat dissipation", "challenge"],
+        "synonymsUsed": ["problem", "difficulty"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What efficiency have perovskite solar cells with nanostructures reached?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Above ten percent", "Above fifteen percent", "Above twenty-five percent", "Above fifty percent"],
+        "keywords": ["perovskite", "solar cells", "efficiency", "twenty-five percent"],
+        "synonymsUsed": ["reached", "achieved"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What safety concern does the professor raise about nanoparticles?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They can penetrate cell membranes and the blood-brain barrier", "They cause immediate respiratory failure", "They dissolve all plastics", "They interfere with radio signals"],
+        "keywords": ["safety", "nanoparticles", "cell membranes", "blood-brain barrier"],
+        "synonymsUsed": ["concern", "risk"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "nanotechnology", "pronunciationNote": "/ˌnænəʊtekˈnɒlədʒi/", "meaning": "The science of manipulating matter at the nanoscale, typically one to one hundred nanometres." },
+      { "word": "nanometre", "meaning": "A unit of length equal to one billionth of a metre." },
+      { "word": "quantum effects", "meaning": "Physical phenomena that become significant at the atomic and subatomic scale." },
+      { "word": "carbon nanotubes", "meaning": "Cylindrical carbon molecules with exceptional strength and lightness." },
+      { "word": "lipid nanoparticles", "meaning": "Microscopic fat-based particles used to deliver molecules like mRNA into cells." },
+      { "word": "perovskite", "pronunciationNote": "/pəˈrɒvzskaɪt/", "meaning": "A crystalline material used in advanced solar cells for high energy conversion efficiency." },
+      { "word": "blood-brain barrier", "meaning": "A protective membrane that prevents harmful substances from reaching the brain." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a computer science lecture on the ethics of artificial intelligence.",
+    "audioScript": "Situation: A computer science professor delivers a lecture on artificial intelligence ethics, covering bias, transparency, and accountability.\nProfessor Roberts: Good morning. Today we examine the ethics of artificial intelligence, perhaps the most important social question of our time.\nProfessor Roberts: AI systems are now used in hiring, lending, healthcare, and criminal justice. The decisions these systems make can profoundly affect people's lives, so we must ensure they are fair and accountable.\nProfessor Roberts: The first major ethical issue is bias. AI learns from historical data. If that data reflects past discrimination, the AI replicates it. A famous example: in twenty-eighteen, a major company scrapped a recruitment AI tool because it systematically downgraded female applicants.\nProfessor Roberts: The second issue is transparency. Many modern AI systems, especially deep neural networks, are black boxes. Even their creators cannot fully explain why a particular decision was made. This is unacceptable in high-stakes contexts like medical diagnosis.\nProfessor Roberts: Researchers are working on explainable AI, or XAI, which aims to make decisions interpretable. Progress is being made, but we are years away from full transparency in complex systems.\nProfessor Roberts: The third issue is accountability. When an autonomous vehicle crashes, who is responsible? The manufacturer, the software developer, the owner, or the AI itself? Legal frameworks have not caught up with the technology.\nProfessor Roberts: A fourth concern is privacy. AI systems require vast amounts of personal data to function effectively. Facial recognition technology, for instance, can track individuals without consent, raising serious civil liberties concerns. Several cities have already banned its use by police.\nProfessor Roberts: Some argue for a moratorium on the most powerful AI systems until regulations are in place. Others fear this would slow beneficial innovation. The challenge is balancing innovation with safety, a debate that will define the coming decade.\nProfessor Roberts: In conclusion, AI ethics is not merely a technical problem. It requires collaboration between technologists, lawmakers, ethicists, and the public. The technology is advancing rapidly, and our ethical frameworks must keep pace.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Roberts", "accent": "BRITISH", "gender": "FEMALE", "role": "computer science lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the lecture primarily about?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["The technical design of neural networks", "The history of artificial intelligence", "The economic impact of automation", "The ethics of artificial intelligence"],
+        "keywords": ["ethics", "artificial intelligence", "lecture"],
+        "synonymsUsed": ["primarily about", "main focus"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which fields are mentioned as using AI systems?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Only entertainment and gaming", "Hiring, lending, healthcare, and criminal justice", "Only manufacturing and logistics", "Only education and research"],
+        "keywords": ["AI systems", "hiring", "lending", "healthcare", "criminal justice"],
+        "synonymsUsed": ["fields", "used in"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do AI systems replicate past discrimination?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Because they learn from historical data that reflects bias", "Because they are programmed to be unfair", "Because they lack computing power", "Because they use outdated algorithms"],
+        "keywords": ["bias", "historical data", "discrimination"],
+        "synonymsUsed": ["replicate", "reflect"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happened in twenty-eighteen regarding a recruitment AI tool?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It was adopted by all major companies", "It was praised for fairness", "A company scrapped it because it downgraded female applicants", "It was found to be perfectly unbiased"],
+        "keywords": ["twenty-eighteen", "recruitment AI", "female applicants", "scrapped"],
+        "synonymsUsed": ["abandoned", "discontinued"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor call AI systems that cannot be fully explained?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Open systems", "Black boxes", "White boxes", "Clear models"],
+        "keywords": ["black boxes", "explain", "decision"],
+        "synonymsUsed": ["opaque", "unexplainable"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does XAI stand for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Explainable AI", "Experimental AI", "Extended AI", "External AI"],
+        "keywords": ["XAI", "explainable AI"],
+        "synonymsUsed": ["stands for", "means"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What question does the professor raise about autonomous vehicles?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["How fast they should travel", "How much they should cost", "Who is responsible when one crashes", "Whether they should be banned"],
+        "keywords": ["autonomous vehicle", "crashes", "responsible", "accountability"],
+        "synonymsUsed": ["question", "accountable"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What have several cities done regarding facial recognition?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Mandated its use in schools", "Required it at all airports", "Made it available to all citizens", "Banned its use by police"],
+        "keywords": ["facial recognition", "cities", "banned", "police"],
+        "synonymsUsed": ["prohibited", "outlawed"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do some people argue for regarding the most powerful AI systems?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Immediate widespread deployment", "A moratorium until regulations are in place", "Government ownership of all AI", "Banning all AI research permanently"],
+        "keywords": ["moratorium", "regulations", "powerful AI"],
+        "synonymsUsed": ["argue for", "call for"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor conclude about AI ethics?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It requires collaboration between technologists, lawmakers, ethicists, and the public", "It is purely a technical problem for engineers", "It should be left to market forces", "It can only be solved by international courts"],
+        "keywords": ["conclude", "collaboration", "technologists", "lawmakers", "ethicists"],
+        "synonymsUsed": ["in conclusion", "requires"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "artificial intelligence", "meaning": "Computer systems designed to perform tasks that typically require human intelligence." },
+      { "word": "bias", "pronunciationNote": "/ˈbaɪəs/", "meaning": "Systematic unfairness in AI systems, often caused by biased training data." },
+      { "word": "black box", "meaning": "A system whose internal workings cannot be fully understood or explained." },
+      { "word": "explainable AI", "meaning": "AI systems designed so that their decisions can be interpreted and understood by humans." },
+      { "word": "accountability", "meaning": "The principle that someone must be responsible for the outcomes of AI decisions." },
+      { "word": "facial recognition", "meaning": "Technology that identifies individuals by analysing facial features." },
+      { "word": "moratorium", "pronunciationNote": "/ˌmɒrəˈtɔːriəm/", "meaning": "A temporary ban or suspension of an activity until certain conditions are met." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an oceanography lecture on deep sea hydrothermal vents and their unique ecosystems.",
+    "audioScript": "Situation: An oceanography professor delivers a lecture on deep sea hydrothermal vents, their discovery, and the unique ecosystems they support.\nProfessor Nguyen: Welcome. Today we journey to one of the most extreme environments on Earth: deep sea hydrothermal vents, found thousands of metres below the ocean surface.\nProfessor Nguyen: Hydrothermal vents were first discovered in nineteen seventy-seven near the Galapagos Islands, at a depth of about two thousand five hundred metres. They form along mid-ocean ridges where tectonic plates pull apart, allowing seawater to penetrate the crust.\nProfessor Nguyen: When this seawater meets magma beneath the seafloor, it is heated to temperatures exceeding four hundred degrees Celsius. The superheated water dissolves minerals from the rock and rises back to the surface, forming chimney-like structures called black smokers.\nProfessor Nguyen: What astonished scientists was the discovery of thriving ecosystems at these depths. No sunlight reaches them, so there is no photosynthesis. Instead, bacteria perform chemosynthesis, converting hydrogen sulfide from the vent water into energy.\nProfessor Nguyen: These bacteria form the base of a food web that includes giant tube worms, clams, and shrimp. The giant tube worm, Riftia pachyptila, can grow to three metres long and has no mouth or digestive system. It relies entirely on symbiotic bacteria living inside it for nutrition.\nProfessor Nguyen: Many vent species are endemic, meaning they exist nowhere else. New species are still being discovered regularly. Over seven hundred vent-specific species have been identified so far.\nProfessor Nguyen: Hydrothermal vents also have scientific importance beyond biology. Some scientists believe life on Earth may have originated in similar environments, making vents a window into the origins of life.\nProfessor Nguyen: However, these ecosystems face threats. Deep sea mining companies are interested in the mineral-rich deposits around vents. Mining could destroy habitats that took thousands of years to form. International regulations are still being developed.\nProfessor Nguyen: In summary, hydrothermal vents remind us that life can flourish in the most unlikely places, and that protecting these fragile ecosystems is an urgent responsibility.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Nguyen", "accent": "AMERICAN", "gender": "MALE", "role": "oceanography lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the lecture about?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The geology of tectonic plates", "Deep sea hydrothermal vents and their ecosystems", "The history of submarine exploration", "Marine biology of coral reefs"],
+        "keywords": ["hydrothermal vents", "ecosystems", "lecture"],
+        "synonymsUsed": ["topic", "subject"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year were hydrothermal vents first discovered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["In nineteen seventy-seven", "In nineteen sixty-seven", "In nineteen eighty-seven", "In nineteen fifty-seven"],
+        "keywords": ["discovered", "nineteen seventy-seven", "vents"],
+        "synonymsUsed": ["found", "first identified"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Near which islands were vents first discovered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Hawaiian Islands", "The Canary Islands", "The Galapagos Islands", "The Falkland Islands"],
+        "keywords": ["Galapagos Islands", "discovered", "vents"],
+        "synonymsUsed": ["near", "close to"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "At approximately what depth were the first vents found?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About one thousand metres", "About two thousand five hundred metres", "About five thousand metres", "About ten thousand metres"],
+        "keywords": ["depth", "two thousand five hundred metres", "vents"],
+        "synonymsUsed": ["found at", "located at"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What temperature can the heated water reach?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Over one hundred degrees Celsius", "Over two hundred degrees Celsius", "Over three hundred degrees Celsius", "Over four hundred degrees Celsius"],
+        "keywords": ["temperature", "four hundred degrees", "heated water"],
+        "synonymsUsed": ["reach", "exceeding"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the chimney-like vent structures called?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Black smokers", "White towers", "Deep chimneys", "Magma stacks"],
+        "keywords": ["chimney-like", "black smokers", "structures"],
+        "synonymsUsed": ["called", "known as"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do bacteria at vents produce energy without sunlight?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Through photosynthesis", "Through chemosynthesis, converting hydrogen sulfide", "Through nuclear fission", "By consuming dead organic matter"],
+        "keywords": ["bacteria", "chemosynthesis", "hydrogen sulfide", "energy"],
+        "synonymsUsed": ["produce energy", "generate"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long can the giant tube worm Riftia pachyptila grow?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Up to one metre", "Up to two metres", "Up to three metres", "Up to five metres"],
+        "keywords": ["giant tube worm", "three metres", "Riftia pachyptila"],
+        "synonymsUsed": ["grow", "reach"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many vent-specific species have been identified so far?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Over one hundred", "Over three hundred", "Over five hundred", "Over seven hundred"],
+        "keywords": ["vent-specific", "species", "seven hundred", "identified"],
+        "synonymsUsed": ["found", "discovered"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What threat do hydrothermal vent ecosystems face?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Deep sea mining of mineral-rich deposits", "Overfishing by commercial trawlers", "Pollution from oil spills", "Rising ocean temperatures"],
+        "keywords": ["threat", "deep sea mining", "mineral-rich deposits"],
+        "synonymsUsed": ["endanger", "risk"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "hydrothermal vent", "pronunciationNote": "/ˌhaɪdrəˈθɜːməl vent/", "meaning": "A fissure in the seafloor from which geothermally heated water emerges." },
+      { "word": "tectonic plates", "meaning": "Large sections of the Earth's crust that move and interact, forming geological features." },
+      { "word": "black smoker", "meaning": "A type of hydrothermal vent that releases dark, mineral-rich water, forming chimney structures." },
+      { "word": "chemosynthesis", "pronunciationNote": "/ˌkiːməʊˈsɪnθəsɪs/", "meaning": "The process by which organisms convert chemical compounds into energy, without sunlight." },
+      { "word": "endemic", "meaning": "Native to and found only in a particular place." },
+      { "word": "symbiotic", "meaning": "Describing a close, mutually beneficial relationship between different organisms." },
+      { "word": "hydrogen sulfide", "meaning": "A chemical compound released from hydrothermal vents, used by bacteria for chemosynthesis." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to an archaeology lecture on the excavation and study of ancient Egyptian sites.",
+    "audioScript": "Situation: An archaeology professor delivers a lecture on the excavation of ancient Egyptian sites and recent discoveries in the field.\nProfessor Khan: Good morning. Today we explore the archaeology of ancient Egypt, a civilisation that flourished along the Nile for over three thousand years.\nProfessor Khan: The most famous archaeological site is, of course, the Valley of the Kings, where pharaohs of the New Kingdom were buried. Howard Carter's discovery of Tutankhamun's tomb in nineteen twenty-two remains the most celebrated find in Egyptology.\nProfessor Khan: Tutankhamun's tomb was remarkably intact, containing over five thousand artefacts. It had remained largely undisturbed for over three thousand two hundred years. The famous gold death mask, weighing about ten kilograms of solid gold, is now displayed in the Egyptian Museum in Cairo.\nProfessor Khan: Modern archaeology has changed dramatically. In the past, archaeologists relied on digging. Today, we use ground-penetrating radar, satellite imagery, and three-dimensional scanning to locate and map sites without disturbing them.\nProfessor Khan: A major recent discovery occurred in twenty twenty-five, when a joint Egyptian-German team uncovered a previously unknown tomb complex near Luxor. Using muon tomography, a technique that detects subatomic particles, they identified hidden chambers beneath a known site.\nProfessor Khan: The Rosetta Stone, discovered in seventeen ninety-nine by Napoleon's soldiers, was crucial for deciphering hieroglyphs. It contained the same text in three scripts: hieroglyphic, demotic, and Greek. Jean-Francois Champollion cracked the code in eighteen twenty-two, unlocking Egypt's written history.\nProfessor Khan: Mummies provide extraordinary insights. CT scans can reveal age, health, diet, and cause of death without unwrapping them. Recent studies show that many elite Egyptians suffered from heart disease, likely due to diets rich in meat and beer.\nProfessor Khan: Tomb robbing has been a problem since antiquity. Today, illegal antiquities trading remains a challenge. International cooperation and strict export laws have reduced but not eliminated the trade.\nProfessor Khan: In conclusion, Egyptian archaeology continues to evolve. Each discovery deepens our understanding of this remarkable civilisation, and new technologies promise even more revelations in the years to come.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Khan", "accent": "BRITISH", "gender": "MALE", "role": "archaeology lecturer" },
+        { "name": "Dr. Patel", "accent": "BRITISH", "gender": "FEMALE", "role": "guest Egyptologist" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the lecture about?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The construction techniques of the pyramids", "The archaeology of ancient Egyptian sites", "The religious beliefs of ancient Egyptians", "The military conquests of pharaohs"],
+        "keywords": ["archaeology", "ancient Egypt", "lecture"],
+        "synonymsUsed": ["topic", "subject"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "For how long did ancient Egyptian civilisation flourish along the Nile?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Over one thousand years", "Over two thousand years", "Over three thousand years", "Over five thousand years"],
+        "keywords": ["flourished", "Nile", "three thousand years"],
+        "synonymsUsed": ["lasted", "endured"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who discovered Tutankhamun's tomb?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Howard Carter", "Jean-Francois Champollion", "Napoleon Bonaparte", "Dr. Patel"],
+        "keywords": ["Tutankhamun", "Howard Carter", "discovered"],
+        "synonymsUsed": ["found", "uncovered"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In what year was Tutankhamun's tomb discovered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In nineteen twelve", "In nineteen twenty-two", "In nineteen thirty-two", "In nineteen oh-two"],
+        "keywords": ["tomb", "discovered", "nineteen twenty-two"],
+        "synonymsUsed": ["found", "year"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many artefacts were found in Tutankhamun's tomb?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Over five thousand", "Over one thousand", "Over ten thousand", "Over five hundred"],
+        "keywords": ["artefacts", "five thousand", "tomb"],
+        "synonymsUsed": ["items", "objects"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much did the gold death mask weigh?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["About five kilograms", "About ten kilograms", "About twenty kilograms", "About fifty kilograms"],
+        "keywords": ["gold death mask", "ten kilograms", "weight"],
+        "synonymsUsed": ["weigh", "mass"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What modern technique did the Egyptian-German team use to find hidden chambers?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Carbon dating", "Ground-penetrating radar", "Muon tomography", "Satellite imagery"],
+        "keywords": ["muon tomography", "hidden chambers", "Egyptian-German team"],
+        "synonymsUsed": ["technique", "method"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the Rosetta Stone discovered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["In seventeen sixty-nine", "In seventeen seventy-nine", "In seventeen eighty-nine", "In seventeen ninety-nine"],
+        "keywords": ["Rosetta Stone", "discovered", "seventeen ninety-nine"],
+        "synonymsUsed": ["found", "uncovered"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did Champollion decipher hieroglyphs?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["In eighteen twenty-two", "In eighteen twelve", "In eighteen thirty-two", "In eighteen oh-two"],
+        "keywords": ["Champollion", "hieroglyphs", "eighteen twenty-two"],
+        "synonymsUsed": ["deciphered", "cracked"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What health problem did recent CT scan studies reveal in elite Egyptians?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tooth decay", "Heart disease", "Bone fractures", "Respiratory infections"],
+        "keywords": ["CT scans", "elite Egyptians", "heart disease"],
+        "synonymsUsed": ["health problem", "suffered from"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "archaeology", "pronunciationNote": "/ˌɑːkiˈɒlədʒi/", "meaning": "The study of human history through the excavation of sites and analysis of artefacts." },
+      { "word": "artefact", "meaning": "An object made by humans, typically of historical or cultural interest." },
+      { "word": "hieroglyphs", "meaning": "The writing system of ancient Egypt using pictorial symbols." },
+      { "word": "ground-penetrating radar", "meaning": "A technology that uses radar pulses to image the subsurface without excavation." },
+      { "word": "muon tomography", "meaning": "A technique that uses subatomic particles called muons to detect hidden structures." },
+      { "word": "Rosetta Stone", "meaning": "An ancient stone bearing the same text in three scripts, key to deciphering hieroglyphs." },
+      { "word": "antiquities", "pronunciationNote": "/ænˈtɪkwɪtiz/", "meaning": "Ancient objects, especially those of historical or archaeological interest." }
+    ],
+    "difficulty": "MEDIUM"
+  }
+]

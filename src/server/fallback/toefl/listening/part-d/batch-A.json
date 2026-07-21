@@ -1,0 +1,1011 @@
+[
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a conversation at the academic office about graduate school preparation.",
+    "audioScript": "Situation: A faculty advisor and a junior student discuss how to prepare competitive applications for graduate school in computer science.\nAdvisor Chen: Come in, Marcus. You mentioned in your email that you're thinking about applying to graduate programs in computer science. That's exciting. Let's map out a plan.\nMarcus: Thanks, Professor Chen. I'm a little overwhelmed. I know I need the GRE, recommendation letters, and a statement of purpose, but I'm not sure where to start or what matters most.\nAdvisor Chen: That's normal. Let's prioritize. The single most important factor in admissions, especially for PhD programs, is your research experience. Grades and test scores get you through the initial filter, but faculty readers care about whether you've done meaningful, sustained research.\nMarcus: I worked on a machine learning project last semester with Dr. Patel. Is that enough?\nAdvisor Chen: It's a good start, but one semester may not be sufficient for top programs. I'd suggest continuing that work into the fall and aiming for a publication or at least a workshop poster. Admissions committees want to see depth, not just a one-off class project.\nMarcus: How many schools should I apply to?\nAdvisor Chen: A balanced list is usually around eight to twelve. I recommend two or three reach schools, four or five match schools where your profile aligns with recent admits, and two or three safety schools. Look at the faculty research pages carefully; reaching out to a professor whose work interests you can sometimes make a real difference.\nMarcus: Should I contact professors before applying?\nAdvisor Chen: Yes, ideally in September or October. Send a concise email referencing one of their recent papers and briefly describing your research background and interests. Don't send a generic message; faculty can tell. About one in three will respond, and even a positive reply doesn't guarantee admission, but it helps.\nMarcus: What about the GRE? Some programs say it's optional now.\nAdvisor Chen: True, many programs have gone test-optional since the pandemic. However, if you score well, submitting a strong quantitative score can only help, especially if your GPA is slightly below a program's average. Aim for at least one hundred sixty-five on the quantitative section if you choose to submit.\nMarcus: And the statement of purpose?\nAdvisor Chen: It should be a focused research narrative, not a life story. Describe the problem you want to work on, what you've already done, and why their program specifically is the right fit. Mention two or three faculty by name. Revise it at least five times and have multiple people read it.\nMarcus: That's a lot to juggle with coursework.\nAdvisor Chen: It is. Start your applications in August. Most deadlines fall in mid-December. Give your letter writers at least six weeks of notice, and provide them with your transcript, CV, and a draft of your statement so they can write a detailed, specific letter.",
+    "speakers": [
+      { "name": "Advisor Chen", "role": "faculty advisor" },
+      { "name": "Marcus", "role": "junior student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the meeting?",
+        "options": [
+          "To register Marcus for spring classes",
+          "To plan Marcus's graduate school application strategy",
+          "To discuss Marcus's failing grade",
+          "To schedule a GRE exam date"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The advisor and student are mapping out a plan for Marcus to prepare competitive graduate school applications."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "According to Advisor Chen, what is the most important factor in PhD admissions?",
+        "options": [
+          "GRE scores",
+          "Grade point average",
+          "Research experience",
+          "Extracurricular activities"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen states that the single most important factor, especially for PhD programs, is sustained research experience."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How many schools does the advisor recommend applying to?",
+        "options": [
+          "Three to five",
+          "Eight to twelve",
+          "Fifteen to twenty",
+          "Only one"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen recommends a balanced list of around eight to twelve schools, including reach, match, and safety options."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "When should Marcus contact professors whose research interests him?",
+        "options": [
+          "In December right before deadlines",
+          "In September or October",
+          "After being admitted",
+          "Only after submitting the application"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen suggests contacting professors in September or October, before application deadlines, with a concise, specific email."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Advisor Chen say about the GRE?",
+        "options": [
+          "All programs now require it",
+          "Many programs have gone test-optional, but a strong quantitative score can still help",
+          "The GRE is no longer accepted by any program",
+          "Only the verbal section matters"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen explains that many programs went test-optional after the pandemic, but submitting a strong quantitative score can help if GPA is below average."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What quantitative GRE score does the advisor suggest aiming for?",
+        "options": [
+          "At least 150",
+          "At least 155",
+          "At least 165",
+          "At least 170"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen recommends aiming for at least one hundred sixty-five on the quantitative section if Marcus chooses to submit scores."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What should the statement of purpose focus on?",
+        "options": [
+          "A personal life story",
+          "A focused research narrative mentioning specific faculty",
+          "A list of all courses taken",
+          "A request for financial aid"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen says the statement should be a focused research narrative that describes the problem, prior work, and mentions two or three faculty by name."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What can be inferred about faculty responses to student emails?",
+        "options": [
+          "All professors will reply positively",
+          "About one in three professors respond, and a positive reply doesn't guarantee admission",
+          "Professors never reply to prospective students",
+          "Emailing professors automatically guarantees admission"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Advisor Chen notes that about one in three professors respond, and even a positive reply doesn't guarantee admission but can help."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How much notice should letter writers be given?",
+        "options": [
+          "At least one week",
+          "At least two weeks",
+          "At least six weeks",
+          "At least three months"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Advisor Chen recommends giving letter writers at least six weeks of notice, along with a transcript, CV, and draft statement."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Preparing for a job interview",
+          "Strategies and timeline for preparing graduate school applications",
+          "Choosing an undergraduate major",
+          "Transferring to another university"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers research experience, school selection, contacting faculty, GRE, statement of purpose, and timelines, all aimed at graduate school preparation."
+      }
+    ],
+    "keyVocabulary": ["graduate school", "research experience", "reach school", "match school", "safety school", "statement of purpose", "recommendation letter", "GRE", "quantitative section", "letter writer"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the student center about planning a conference presentation.",
+    "audioScript": "Situation: A graduate student and a faculty mentor discuss how to prepare an effective conference presentation based on the student's research findings.\nDr. Okafor: So, Elena, your abstract was accepted for the Regional Education Research Conference. Congratulations. Now we need to plan the presentation itself. How much time are you given?\nElena: Thanks, Dr. Okafor. It's a fifteen-minute oral presentation with five minutes for questions. I've never done one this long before, so I'm nervous about pacing.\nDr. Okafor: That's understandable. The most common mistake is trying to present everything you did. A fifteen-minute slot means you can realistically cover one main finding with supporting evidence. Think of it as telling a single, compelling story.\nElena: I have three experiments. Should I cut two of them?\nDr. Okafor: Not necessarily cut, but condense. Give a brief overview of all three, but focus your depth on the one that answers your core research question. You can mention the others in a single slide as confirmatory evidence, and put the details in a backup slide for the Q and A.\nElena: How many slides should I prepare?\nDr. Okafor: A good rule of thumb is roughly one minute per slide, so about twelve to fifteen content slides maximum. Start with a title and a clear motivation, then move to methods, results, and discussion. Don't spend more than two minutes on the literature review; the audience assumes you know the field.\nElena: What about visuals? I usually make text-heavy slides.\nDr. Okafor: That's the second most common mistake. Limit yourself to about six lines of text per slide. Use graphs, diagrams, and images wherever possible. A well-designed chart communicates your result faster than a paragraph. Also, use a font size of at least twenty-four points so people in the back row can read it.\nElena: Should I practice with a timer?\nDr. Okafor: Absolutely. Practice out loud at least five times, and record yourself once. You'll catch habits you didn't notice, like saying 'um' or rushing through transitions. Time yourself and aim to finish at thirteen minutes so you have a buffer for technical delays.\nElena: What if I get a question I can't answer?\nDr. Okafor: That happens to everyone. The best response is honesty. Say, 'That's a great question, I don't have that data with me, but I'd be happy to follow up by email.' Never make up an answer; experienced researchers can tell, and it damages your credibility. Also, repeat the question before answering so the whole audience hears it.\nElena: That's really helpful. Should I bring handouts?\nDr. Okafor: Optional. Most presenters don't anymore, but if you have a detailed table that won't fit on a slide, a one-page handout can be useful. Just don't overdo it. Focus your energy on the slides and your delivery.",
+    "speakers": [
+      { "name": "Dr. Okafor", "role": "faculty mentor" },
+      { "name": "Elena", "role": "graduate student" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "How long is Elena's conference presentation?",
+        "options": [
+          "Ten minutes with no questions",
+          "Fifteen minutes with five minutes for questions",
+          "Twenty minutes with ten minutes for questions",
+          "Thirty minutes with no questions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Elena states it is a fifteen-minute oral presentation with five minutes for questions."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does Dr. Okafor say is the most common presentation mistake?",
+        "options": [
+          "Speaking too softly",
+          "Trying to present everything you did",
+          "Using too few slides",
+          "Skipping the introduction"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor says the most common mistake is trying to present everything, when a fifteen-minute slot can realistically cover one main finding."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How should Elena handle her three experiments?",
+        "options": [
+          "Present all three in equal depth",
+          "Give a brief overview of all three but focus depth on the one answering the core research question",
+          "Remove two experiments entirely",
+          "Only present the third experiment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor suggests condensing, giving a brief overview of all three but focusing depth on the one that answers the core research question."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is the recommended rule of thumb for slide count?",
+        "options": [
+          "About thirty seconds per slide",
+          "Roughly one minute per slide",
+          "Two minutes per slide",
+          "Five minutes per slide"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor recommends roughly one minute per slide, so about twelve to fifteen content slides maximum."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How much time should Elena spend on the literature review?",
+        "options": [
+          "No more than two minutes",
+          "At least five minutes",
+          "Ten minutes",
+          "Skip it entirely"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor advises not spending more than two minutes on the literature review since the audience assumes familiarity with the field."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the second most common mistake Dr. Okafor mentions?",
+        "options": [
+          "Speaking too fast",
+          "Text-heavy slides",
+          "Forgetting the conclusion",
+          "Not using a microphone"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor identifies text-heavy slides as the second most common mistake and recommends about six lines of text per slide."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What minimum font size does Dr. Okafor recommend?",
+        "options": [
+          "At least 12 points",
+          "At least 18 points",
+          "At least 24 points",
+          "At least 36 points"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor recommends a font size of at least twenty-four points so people in the back row can read the slides."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How many times does Dr. Okafor suggest practicing out loud?",
+        "options": [
+          "At least once",
+          "At least three times",
+          "At least five times",
+          "At least ten times"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Okafor advises practicing out loud at least five times and recording yourself once to catch unnoticed habits."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What should Elena do if she gets a question she can't answer?",
+        "options": [
+          "Make up an answer confidently",
+          "Be honest and offer to follow up by email",
+          "Refuse to answer any questions",
+          "Redirect the question to another presenter"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Okafor says the best response is honesty, offering to follow up by email, and warns never to make up an answer as it damages credibility."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Writing a research grant proposal",
+          "Planning and preparing an effective conference presentation",
+          "Choosing which conference to attend",
+          "Publishing findings in a journal"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers presentation length, content focus, slide design, practice strategies, and handling questions, all about conference presentation planning."
+      }
+    ],
+    "keyVocabulary": ["conference presentation", "oral presentation", "core research question", "backup slide", "literature review", "text-heavy slides", "font size", "credibility", "Q and A", "pacing"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a training session at the campus center for new teaching assistants.",
+    "audioScript": "Situation: A teaching center director leads a training session for new teaching assistants, covering classroom management and grading policies.\nDirector Walsh: Welcome, everyone. You're all new teaching assistants this semester, and this session will cover the essentials. Let's start with your role. As a TA, you're not just a grader. You're a bridge between the professor and the students. That means you need to understand the course policies deeply.\nTA Candidate: What's the most important thing to get right in the first week?\nDirector Walsh: Establishing expectations. In your first discussion section, introduce yourself, explain how you'll run sessions, and clearly state your office hours and email response policy. I recommend a twenty-four-hour response window on weekdays. Students get anxious when they don't hear back, and setting a clear policy prevents frustration on both sides.\nTA Candidate: How should we handle students who dispute a grade?\nDirector Walsh: Great question. First, never argue about a grade over email. Always ask the student to come to office hours in person. This keeps the conversation professional and gives you time to review the work calmly. If you're unsure, defer to the professor. You are not the final authority on grades; the professor is.\nTA Candidate: What if a student is disruptive during a discussion section?\nDirector Walsh: Address it early and privately. If someone is dominating or side-tracking the discussion, you can redirect with a phrase like, 'Let's hear from someone who hasn't spoken yet.' If behavior continues, speak to the student after class, not in front of everyone. Document the incident and inform the professor if it persists.\nTA Candidate: Are there rules about academic dishonesty?\nDirector Walsh: Yes, and this is critical. If you suspect cheating or plagiarism, do not confront the student yourself. Report it to the professor immediately and submit a report to the academic integrity office. Confronting students directly can compromise the investigation and create liability.\nTA Candidate: How much time should we spend grading each week?\nDirector Walsh: Your contract covers twenty hours per week total, including attending lectures, running sections, office hours, and grading. If grading alone is consuming more than eight hours, something is wrong. Use rubrics, grade in focused batches, and don't write paragraph-long comments on every single assignment. Short, specific feedback is more useful than lengthy, vague notes.\nTA Candidate: Should we use a rubric even for short assignments?\nDirector Walsh: Absolutely. Rubrics make grading faster and more consistent, and they reduce grade disputes because students can see exactly how points were awarded. You can adapt the professor's rubric or create your own, but get the professor's approval first.",
+    "speakers": [
+      { "name": "Director Walsh", "role": "teaching center director" },
+      { "name": "TA Candidate", "role": "new teaching assistant" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the training session?",
+        "options": [
+          "To assign TAs to specific courses",
+          "To cover the essentials of being a new teaching assistant",
+          "To evaluate TA performance",
+          "To announce TA salary increases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Director Walsh welcomes new TAs and says the session will cover the essentials of their role."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How does Director Walsh describe the TA's role?",
+        "options": [
+          "Just a grader",
+          "A bridge between the professor and the students",
+          "A replacement for the professor",
+          "An administrator for the department"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh says a TA is not just a grader but a bridge between the professor and the students."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What email response policy does the director recommend?",
+        "options": [
+          "Respond within one hour",
+          "A twenty-four-hour response window on weekdays",
+          "Respond within one week",
+          "No email responses at all"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh recommends a twenty-four-hour response window on weekdays to prevent student anxiety and frustration."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How should a TA handle a grade dispute?",
+        "options": [
+          "Argue about it over email",
+          "Ask the student to come to office hours in person and defer to the professor if unsure",
+          "Change the grade immediately to avoid conflict",
+          "Ignore the student's complaint"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh says never to argue over email; instead, meet in person during office hours and defer to the professor if unsure."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Who is the final authority on grades?",
+        "options": [
+          "The TA",
+          "The professor",
+          "The department chair",
+          "The student"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh states that the TA is not the final authority on grades; the professor is."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How should a TA address a disruptive student during discussion?",
+        "options": [
+          "Expel the student immediately",
+          "Redirect discussion and address the behavior privately after class",
+          "Ignore the disruption completely",
+          "Call campus security right away"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh suggests redirecting with a phrase like hearing from someone else, then addressing behavior privately after class, not in front of everyone."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What should a TA do if they suspect academic dishonesty?",
+        "options": [
+          "Confront the student directly",
+          "Report it to the professor and submit a report to the academic integrity office",
+          "Lower the student's grade silently",
+          "Do nothing unless it happens again"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh says not to confront the student directly; instead, report to the professor and the academic integrity office to avoid compromising the investigation."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How many total hours per week does a TA contract cover?",
+        "options": [
+          "Ten hours",
+          "Fifteen hours",
+          "Twenty hours",
+          "Forty hours"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Director Walsh states the TA contract covers twenty hours per week total, including lectures, sections, office hours, and grading."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about using rubrics?",
+        "options": [
+          "They slow down grading significantly",
+          "They make grading faster, more consistent, and reduce grade disputes",
+          "They are only useful for large projects",
+          "They are optional and rarely helpful"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Director Walsh says rubrics make grading faster and more consistent, and reduce disputes because students can see how points were awarded."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the training session?",
+        "options": [
+          "Research methods for graduate students",
+          "Essentials of being a teaching assistant, including expectations, grading, and classroom management",
+          "How to apply for a faculty position",
+          "Strategies for passing comprehensive exams"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The session covers the TA role, expectations, grade disputes, disruptive students, academic dishonesty, grading time, and rubrics, all essentials for new TAs."
+      }
+    ],
+    "keyVocabulary": ["teaching assistant", "discussion section", "office hours", "grade dispute", "rubric", "academic dishonesty", "academic integrity office", "classroom management", "response window", "liability"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a lab safety orientation for new chemistry students in the campus lab building.",
+    "audioScript": "Situation: A lab safety officer conducts an orientation for new chemistry students, covering personal protective equipment, emergency procedures, and chemical handling protocols.\nOfficer Daniels: Welcome to the chemistry lab safety orientation. Before any of you step into a lab this semester, you need to complete this session and pass a short quiz. Let's begin with personal protective equipment, or PPE. In every lab session, you must wear safety goggles, a lab coat, and closed-toe shoes. No exceptions. If you forget your goggles, you cannot participate that day.\nStudent A: What about gloves? Are they always required?\nOfficer Daniels: Gloves are required when handling chemicals, but the type depends on the substance. Nitrile gloves work for most organic solvents, but for strong acids you may need butyl rubber gloves. Check the safety data sheet, or SDS, for each chemical before you begin. The SDS tells you the hazards, required PPE, and first-aid measures.\nStudent B: Where do we find the SDS?\nOfficer Daniels: They're available online through the university's chemical inventory system, and printed copies are in a binder near the lab entrance. You should always check the SDS before using a chemical you haven't worked with before.\nStudent A: What do we do if there's a spill?\nOfficer Daniels: That depends on the size and the chemical. For a small, non-hazardous spill, use the spill kit located under the sink. For larger spills or anything involving toxic or corrosive materials, evacuate the lab immediately, alert your instructor, and call campus safety at extension five-five-five-five. Do not attempt to clean up a major spill yourself.\nStudent B: Where are the emergency showers and eyewash stations?\nOfficer Daniels: Every lab has an eyewash station at the sink and a safety shower near the door. If you get a chemical on your skin or in your eyes, use the eyewash or shower for at least fifteen minutes. Remove contaminated clothing. Don't worry about modesty; your safety comes first.\nStudent A: What about fire? Are there extinguishers?\nOfficer Daniels: Yes, fire extinguishers are by the exit, and they're the dry chemical type rated for Class B and C fires. However, I want to emphasize: only use an extinguisher if the fire is small and contained, like a flask fire. If a fire is spreading, pull the fire alarm, evacuate, and let the fire department handle it. Your job is to get out safely.\nStudent B: Are we allowed to eat or drink in the lab?\nOfficer Daniels: Absolutely not. No food, no drinks, no gum, no lip balm. Chemical residues can contaminate what you ingest. Even water bottles must stay outside. Also, never pipette by mouth; always use a pipette bulb or pump. These rules exist because real accidents have happened. Take them seriously.",
+    "speakers": [
+      { "name": "Officer Daniels", "role": "lab safety officer" },
+      { "name": "Student A", "role": "chemistry student" },
+      { "name": "Student B", "role": "chemistry student" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the orientation?",
+        "options": [
+          "To assign students to research groups",
+          "To cover lab safety protocols before students enter the lab",
+          "To distribute lab manuals and textbooks",
+          "To demonstrate a chemistry experiment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Officer Daniels states that before stepping into a lab, students must complete this safety session and pass a quiz."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Which of the following is required PPE in the lab?",
+        "options": [
+          "Open-toe sandals",
+          "Safety goggles, a lab coat, and closed-toe shoes",
+          "A baseball cap",
+          "A surgical mask only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels requires safety goggles, a lab coat, and closed-toe shoes with no exceptions."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What happens if a student forgets their goggles?",
+        "options": [
+          "They can borrow a pair permanently",
+          "They cannot participate that day",
+          "They get a warning but can still participate",
+          "They are expelled from the course"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels states clearly that if you forget your goggles, you cannot participate that day."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Which type of gloves is recommended for most organic solvents?",
+        "options": [
+          "Latex gloves",
+          "Nitrile gloves",
+          "Cotton gloves",
+          "No gloves are needed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels says nitrile gloves work for most organic solvents, but butyl rubber gloves may be needed for strong acids."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does the SDS tell you about a chemical?",
+        "options": [
+          "Only the chemical's price",
+          "Hazards, required PPE, and first-aid measures",
+          "The chemical's molecular weight only",
+          "Where to buy the chemical"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels explains the safety data sheet tells you the hazards, required PPE, and first-aid measures for each chemical."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Where are printed copies of the SDS kept?",
+        "options": [
+          "In the library",
+          "In a binder near the lab entrance",
+          "In the professor's office only",
+          "There are no printed copies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels says printed copies of the SDS are in a binder near the lab entrance, and online versions are also available."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What should students do for a large or hazardous chemical spill?",
+        "options": [
+          "Clean it up with paper towels",
+          "Evacuate the lab, alert the instructor, and call campus safety",
+          "Pour water on it to dilute it",
+          "Ignore it and continue working"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels says for larger or toxic spills, students should evacuate, alert the instructor, and call campus safety, not clean it up themselves."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How long should the eyewash or safety shower be used after chemical exposure?",
+        "options": [
+          "At least one minute",
+          "At least five minutes",
+          "At least fifteen minutes",
+          "At least thirty minutes"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Officer Daniels instructs students to use the eyewash or shower for at least fifteen minutes and remove contaminated clothing."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "When is it appropriate to use a fire extinguisher?",
+        "options": [
+          "Never; always evacuate",
+          "Only if the fire is small and contained, like a flask fire",
+          "For any fire regardless of size",
+          "Only if the professor is present"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Officer Daniels says to only use an extinguisher if the fire is small and contained; if it's spreading, pull the alarm and evacuate."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the orientation?",
+        "options": [
+          "How to write lab reports",
+          "Lab safety protocols including PPE, spills, emergencies, and chemical handling",
+          "The history of chemistry research",
+          "How to choose a chemistry specialization"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The orientation covers PPE, safety data sheets, spill procedures, eyewash and shower use, fire extinguisher use, and food bans, all lab safety protocols."
+      }
+    ],
+    "keyVocabulary": ["personal protective equipment", "safety goggles", "nitrile gloves", "safety data sheet", "spill kit", "eyewash station", "safety shower", "fire extinguisher", "corrosive materials", "pipette bulb"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the academic office about an academic integrity case.",
+    "audioScript": "Situation: An academic integrity officer and a student discuss a reported plagiarism case, the evidence, the process, and possible outcomes.\nOfficer Nguyen: Have a seat, Tyler. I'm the academic integrity officer for the College of Arts and Sciences. I've asked you to come in because Professor Marshall filed a report regarding your essay for History 301. The report alleges that a significant portion of your essay was copied from an online source without proper citation.\nTyler: I understand. I want to explain what happened. I was really overwhelmed with three papers due the same week. I used some online sources for background, and I think I may have paraphrased too closely in a few places. I didn't intentionally copy anything.\nOfficer Nguyen: I appreciate you being upfront. Let me be clear about what the evidence shows. The similarity detection software flagged approximately thirty-five percent of your essay as matching content from three web sources. Some passages are verbatim, not just close paraphrasing. For example, two full paragraphs on page four are identical to a blog post, including word choice and sentence structure.\nTyler: I see. I admit I was careless. What happens now?\nOfficer Nguyen: You have two options. First, you can accept responsibility and go through an informal resolution. In that case, a sanction is determined jointly by me and the professor. Typical sanctions for a first offense at this level include a zero on the assignment, a mandatory academic integrity workshop, and a warning letter placed in your file for the duration of your enrollment.\nTyler: And the second option?\nOfficer Nguyen: You can request a formal hearing before the Academic Integrity Board. A panel of three faculty members and one student representative reviews the evidence, hears your statement, and issues a decision. If they find you responsible, sanctions can be more severe, up to and including suspension for a semester. However, if you believe the evidence is misinterpreted, a hearing is your right.\nTyler: Would accepting responsibility show up on my transcript?\nOfficer Nguyen: No. The warning letter stays in your departmental file, but it does not appear on your official transcript. A suspension, on the other hand, would appear as a notation. That's an important distinction.\nTyler: If I choose the informal resolution, can I still appeal later?\nOfficer Nguyen: The informal resolution is final once you sign the agreement. The formal hearing decision can be appealed, but only on procedural grounds, such as new evidence or a process error, not simply because you disagree with the outcome.\nTyler: I think I want to accept responsibility. I know I made a serious mistake. Can I still complete the workshop this semester?\nOfficer Nguyen: Yes. The workshop runs twice a month. I'll register you for the next session. I also want to emphasize that this is a learning opportunity. The workshop will teach you proper citation practices, paraphrasing skills, and how to manage your workload to avoid these situations. Many students who go through this never have another issue.\nTyler: Thank you, Officer Nguyen. I'll take the informal resolution and the workshop.",
+    "speakers": [
+      { "name": "Officer Nguyen", "role": "academic integrity officer" },
+      { "name": "Tyler", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "Why has Tyler been called to meet with Officer Nguyen?",
+        "options": [
+          "To receive an academic award",
+          "Because Professor Marshall filed a plagiarism report regarding Tyler's essay",
+          "To register for next semester's courses",
+          "To discuss a scholarship application"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Officer Nguyen explains that Professor Marshall filed a report alleging a significant portion of Tyler's essay was copied without citation."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What percentage of the essay was flagged by similarity detection software?",
+        "options": [
+          "Approximately fifteen percent",
+          "Approximately twenty-five percent",
+          "Approximately thirty-five percent",
+          "Approximately fifty percent"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen states the software flagged approximately thirty-five percent of the essay as matching content from three web sources."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does the evidence show about the content on page four?",
+        "options": [
+          "It is properly cited",
+          "Two full paragraphs are identical to a blog post, including word choice and sentence structure",
+          "It is entirely original work",
+          "It contains only minor paraphrasing errors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen specifies that two full paragraphs on page four are verbatim identical to a blog post, not just close paraphrasing."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What are the two options available to Tyler?",
+        "options": [
+          "Drop the course or retake the exam",
+          "Accept responsibility for informal resolution or request a formal hearing",
+          "Transfer to another university or withdraw",
+          "Write a new essay or take an incomplete"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen presents two options: accept responsibility for an informal resolution or request a formal hearing before the Academic Integrity Board."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What are typical sanctions for a first offense in informal resolution?",
+        "options": [
+          "Immediate expulsion",
+          "A zero on the assignment, a mandatory workshop, and a warning letter in the file",
+          "A monetary fine only",
+          "Community service hours only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen says typical sanctions include a zero on the assignment, a mandatory academic integrity workshop, and a warning letter in the departmental file."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Who reviews the case in a formal hearing?",
+        "options": [
+          "Only the professor",
+          "A panel of three faculty members and one student representative",
+          "The university president alone",
+          "A panel of five students"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen explains the Academic Integrity Board consists of three faculty members and one student representative who review evidence and issue a decision."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is the maximum sanction from a formal hearing?",
+        "options": [
+          "A warning letter",
+          "Suspension for a semester",
+          "A small grade deduction",
+          "Loss of library privileges"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen states that formal hearing sanctions can be more severe, up to and including suspension for a semester."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the key difference between the informal and formal outcomes regarding the transcript?",
+        "options": [
+          "Both appear on the transcript",
+          "The warning letter does not appear on the transcript, but a suspension would appear as a notation",
+          "Neither appears anywhere",
+          "The informal resolution always appears on the transcript"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Officer Nguyen clarifies that the warning letter stays in the departmental file and does not appear on the official transcript, while a suspension would appear as a notation."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "On what grounds can a formal hearing decision be appealed?",
+        "options": [
+          "Simply disagreeing with the outcome",
+          "Procedural grounds such as new evidence or a process error",
+          "Any reason at all",
+          "Appeals are never allowed"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Officer Nguyen says a formal hearing decision can be appealed only on procedural grounds, such as new evidence or a process error, not merely disagreement."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Registering for a history course",
+          "An academic integrity plagiarism case, its evidence, process, and possible outcomes",
+          "Applying for a study abroad program",
+          "Planning a research project timeline"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers the plagiarism report, evidence from similarity detection, resolution options, sanctions, and the academic integrity process."
+      }
+    ],
+    "keyVocabulary": ["academic integrity", "plagiarism", "similarity detection software", "paraphrase", "informal resolution", "formal hearing", "sanction", "warning letter", "suspension", "procedural grounds"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a coaching session at the student center about scholarship interview preparation.",
+    "audioScript": "Situation: A scholarship coordinator coaches a finalist student on how to prepare for an upcoming competitive scholarship interview.\nCoordinator Brooks: Congratulations, Dana. You've been selected as a finalist for the Merit Scholars Program. That's a big deal; only twenty students out of five hundred applicants made it this far. The final step is a panel interview next Friday. Let's get you ready.\nDana: Thank you. I'm excited but really nervous. I've never done a formal panel interview before. What should I expect?\nCoordinator Brooks: The interview is thirty minutes. You'll face a panel of five members: two faculty, one alumni representative, one community leader, and the program director. They'll ask a mix of questions: some about your academic background, some about your goals, and some situational or ethical questions to see how you think on your feet.\nDana: How should I prepare for the situational questions? They seem the hardest to predict.\nCoordinator Brooks: You can't predict them exactly, but you can prepare a set of personal stories that are flexible. I recommend identifying five to seven experiences from your life that demonstrate qualities like leadership, resilience, teamwork, and intellectual curiosity. Then, when a question comes, you can draw from that toolkit. Use the STAR method but keep your answers to about ninety seconds.\nDana: What about the opening? Is there a typical first question?\nCoordinator Brooks: Almost certainly. The first question will be some version of 'Tell us about yourself.' Don't recite your resume. Instead, craft a two-minute narrative that connects your background to why you're applying for this scholarship. Start with a hook, something specific and memorable, then explain your journey, and end with what you hope to accomplish with the scholarship funding.\nDana: Should I talk about my research on renewable energy policy?\nCoordinator Brooks: Absolutely, but frame it as a story of impact, not just a list of tasks. What problem were you trying to solve? What did you learn? How does it connect to your future goals? The panel wants to see passion and purpose, not just competence.\nDana: What if they ask about a failure or weakness?\nCoordinator Brooks: They likely will. The key is to choose a real failure, not a fake weakness like 'I work too hard.' Pick something genuine, explain what happened, and spend most of your answer on what you learned and how you changed. That demonstrates self-awareness and growth, which panelists value highly.\nDana: Any tips for the day of the interview?\nCoordinator Brooks: Dress professionally, arrive fifteen minutes early, and bring a folder with a copy of your application. Make eye contact with every panel member when answering, not just the person who asked the question. And at the end, you'll be invited to ask a question. Prepare one thoughtful question about the program's community or mentorship opportunities. Avoid asking about the award amount; it signals the wrong priorities.\nDana: That's great advice. Can we do a mock interview this week?\nCoordinator Brooks: Of course. Let's schedule a practice session for Wednesday. I'll bring two colleagues so you can experience a real panel dynamic. We'll record it so you can review your body language and pacing.",
+    "speakers": [
+      { "name": "Coordinator Brooks", "role": "scholarship coordinator" },
+      { "name": "Dana", "role": "scholarship finalist" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the meeting?",
+        "options": [
+          "To announce the scholarship results",
+          "To prepare Dana for the upcoming scholarship panel interview",
+          "To review Dana's scholarship application essay",
+          "To discuss Dana's course schedule"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Coordinator Brooks congratulates Dana on being a finalist and says they need to get her ready for the panel interview next Friday."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How many finalists were selected from the applicant pool?",
+        "options": [
+          "Ten out of two hundred",
+          "Twenty out of five hundred",
+          "Fifty out of one thousand",
+          "Five out of one hundred"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks states only twenty students out of five hundred applicants made it to the finalist stage."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How long is the scholarship interview?",
+        "options": [
+          "Fifteen minutes",
+          "Twenty minutes",
+          "Thirty minutes",
+          "Forty-five minutes"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks says the interview is thirty minutes long."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How many panel members will interview Dana?",
+        "options": [
+          "Three",
+          "Four",
+          "Five",
+          "Seven"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks describes a panel of five members: two faculty, one alumni representative, one community leader, and the program director."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "How many personal stories does the coordinator recommend preparing?",
+        "options": [
+          "Two to three",
+          "Five to seven",
+          "Ten to twelve",
+          "Only one"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks recommends identifying five to seven experiences demonstrating qualities like leadership, resilience, teamwork, and intellectual curiosity."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How should Dana handle the 'Tell us about yourself' question?",
+        "options": [
+          "Recite her entire resume",
+          "Craft a two-minute narrative connecting her background to why she's applying",
+          "Talk about her personal hobbies only",
+          "Ask the panel to clarify the question"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks advises crafting a two-minute narrative with a hook, explaining her journey, and ending with what she hopes to accomplish, not reciting her resume."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How should Dana frame her renewable energy research?",
+        "options": [
+          "As a list of tasks she completed",
+          "As a story of impact connecting to her future goals",
+          "As a technical report with data",
+          "As a complaint about her lab conditions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks says to frame the research as a story of impact showing passion and purpose, not just a list of tasks or competence."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Coordinator Brooks advise about discussing a failure or weakness?",
+        "options": [
+          "Use a fake weakness like working too hard",
+          "Choose a genuine failure and focus on what was learned and how she changed",
+          "Deny ever having failed at anything",
+          "Blame others for the failure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Coordinator Brooks says to pick something genuine, not a fake weakness, and spend most of the answer on lessons learned and growth, which panelists value."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What question should Dana avoid asking at the end of the interview?",
+        "options": [
+          "A question about mentorship opportunities",
+          "A question about the program's community",
+          "A question about the award amount",
+          "A question about the program's values"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "Coordinator Brooks says to prepare a thoughtful question about community or mentorship, and to avoid asking about the award amount as it signals wrong priorities."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Writing a scholarship application essay",
+          "Preparing for a competitive scholarship panel interview",
+          "Negotiating a job offer",
+          "Choosing a graduate program"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation covers the interview format, question types, personal stories, the opening question, handling weaknesses, and day-of tips, all about scholarship interview preparation."
+      }
+    ],
+    "keyVocabulary": ["scholarship interview", "panel interview", "finalist", "situational question", "STAR method", "self-awareness", "panel member", "mentorship", "body language", "intellectual curiosity"]
+  },
+  {
+    "type": "LISTENING_PART_D",
+    "questionText": "Listen to a discussion at the library about research ethics in a psychology study.",
+    "audioScript": "Situation: A research ethics committee chair and a graduate student discuss ethical concerns in a proposed psychology study involving human participants.\nDr. Gupta: Come in, Rachel. I've reviewed your proposed study on social media use and anxiety in adolescents. The methodology is solid, but the ethics committee has several concerns we need to address before approval. Let's go through them.\nRachel: Thank you, Dr. Gupta. I expected there might be questions. What's the first concern?\nDr. Gupta: The first is informed consent. Your participants are minors, ages thirteen to seventeen. That means you need both parental consent and the minor's assent. Your current proposal only mentions parental consent. You need a separate assent form written in age-appropriate language so the teenagers themselves understand what they're agreeing to.\nRachel: I see. I can draft an assent form at roughly an eighth-grade reading level. Is that appropriate?\nDr. Gupta: That's a good target. The second concern is the deception component. Your study deliberately misleads participants about the purpose of the social media activity they'll engage in. Deception is sometimes justified in psychology research, but only when there's no viable alternative and when you debrief participants thoroughly afterward.\nRachel: I do have a debriefing script. It explains the true purpose and provides resources for anxiety support.\nDr. Gupta: Good. However, the committee also wants you to offer participants the right to withdraw their data after the debriefing. Since they were deceived, they should have the opportunity to opt out retroactively once they know the full picture.\nRachel: That makes sense. I'll add a withdrawal option to the debriefing. What about data privacy?\nDr. Gupta: That's the third concern. You're collecting detailed social media usage logs and self-reported anxiety scores. This is sensitive data, especially for minors. You need to store all data on encrypted university servers, de-identify it immediately after collection, and assign a coded identifier rather than using names. Also, who will have access?\nRachel: Only my advisor and I will have access to the linking file between codes and names. The linking file will be stored separately and destroyed after the study concludes.\nDr. Gupta: Good. Make sure that's clearly stated in your revised protocol. The fourth concern is about potential harm. Some participants may experience increased anxiety during the study. Do you have a plan for that?\nRachel: Yes. I'll use a validated screening tool at the start to identify participants with severe anxiety. Those individuals will be excluded and referred to the campus counseling center. During the study, if anyone reports distress, they can stop immediately without penalty.\nDr. Gupta: That's appropriate. One final point. Your study runs for eight weeks, which is a substantial time commitment for minors. The committee wants to ensure you're offering fair compensation.\nRachel: I'm proposing a twenty-dollar gift card at the conclusion of the study.\nDr. Gupta: The committee might ask for partial compensation if a participant withdraws early. Consider offering prorated incentives, say three dollars per week completed. That's more ethical than an all-or-nothing model.\nRachel: That's a fair point. I'll revise the compensation structure and resubmit the protocol by the end of the week.\nDr. Gupta: Excellent. Once you address these items, I expect the committee will approve it at the next review meeting.",
+    "speakers": [
+      { "name": "Dr. Gupta", "role": "ethics committee chair" },
+      { "name": "Rachel", "role": "graduate student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the meeting?",
+        "options": [
+          "To approve the study immediately",
+          "To discuss ethical concerns in Rachel's proposed psychology study before approval",
+          "To reject the study outright",
+          "To assign Rachel a new research topic"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "Dr. Gupta says the methodology is solid but the ethics committee has several concerns to address before approval."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What age group are the participants in Rachel's study?",
+        "options": [
+          "Children ages six to twelve",
+          "Adolescents ages thirteen to seventeen",
+          "Young adults ages eighteen to twenty-five",
+          "Adults ages thirty to forty"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Gupta notes the participants are minors, ages thirteen to seventeen."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does Rachel need in addition to parental consent?",
+        "options": [
+          "Teacher approval",
+          "The minor's assent in age-appropriate language",
+          "A doctor's note",
+          "Court approval"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Gupta explains that since participants are minors, Rachel needs both parental consent and a separate assent form written in age-appropriate language."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "At what reading level should the assent form be written?",
+        "options": [
+          "Fifth-grade level",
+          "Eighth-grade level",
+          "Twelfth-grade level",
+          "College level"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Rachel suggests drafting the assent form at roughly an eighth-grade reading level, and Dr. Gupta confirms that's a good target."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What must Rachel offer participants after the debriefing due to the deception?",
+        "options": [
+          "Extra credit in a course",
+          "The right to withdraw their data retroactively",
+          "A financial bonus",
+          "A copy of all other participants' data"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Gupta says the committee wants participants to have the option to withdraw their data after debriefing, since they were deceived."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How should the data be stored according to the committee?",
+        "options": [
+          "On a personal laptop",
+          "On encrypted university servers, de-identified with coded identifiers",
+          "On public cloud storage",
+          "Printed and kept in a dorm room"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Gupta requires data on encrypted university servers, de-identified immediately, with coded identifiers instead of names."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What happens to the linking file between codes and names?",
+        "options": [
+          "It is published with the study",
+          "It is stored separately and destroyed after the study concludes",
+          "It is shared with all participants",
+          "It is kept permanently in the library"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Rachel says the linking file will be stored separately, accessible only to her and her advisor, and destroyed after the study concludes."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How does Rachel plan to handle participants with severe anxiety?",
+        "options": [
+          "Include them without any special treatment",
+          "Exclude them using a screening tool and refer them to the counseling center",
+          "Force them to continue for the full eight weeks",
+          "Lower their anxiety scores manually"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Rachel says she'll use a validated screening tool to identify severe anxiety cases, exclude them, and refer them to the campus counseling center."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What compensation structure does Dr. Gupta recommend instead of all-or-nothing?",
+        "options": [
+          "No compensation at all",
+          "Prorated incentives, about three dollars per week completed",
+          "A flat fifty-dollar payment regardless of participation",
+          "Compensation only for the first week"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Gupta suggests prorated incentives of about three dollars per week completed, which is more ethical than an all-or-nothing model."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the main topic of the conversation?",
+        "options": [
+          "Designing a marketing survey",
+          "Ethical concerns in a psychology study involving minor participants",
+          "Statistical analysis of survey data",
+          "Recruiting graduate students for a lab"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The conversation addresses informed consent, deception, debriefing, data privacy, participant harm, and compensation, all ethical concerns in Rachel's study with minors."
+      }
+    ],
+    "keyVocabulary": ["research ethics", "informed consent", "assent", "deception", "debriefing", "de-identified data", "encrypted server", "coded identifier", "screening tool", "prorated incentive"]
+  }
+]

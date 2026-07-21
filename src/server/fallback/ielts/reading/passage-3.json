@@ -1,0 +1,177 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "HARD",
+    "passage": {
+      "title": "The Mathematics of Collective Behavior",
+      "subtitle": "How simple rules produce complex swarm intelligence",
+      "source": "Adapted from complexity science literature",
+      "author": "Dr. Priya Raman",
+      "wordCount": 780,
+      "content": "For centuries, scientists marveled at the apparent intelligence of animal collectives. A flock of starlings twists across the evening sky as if guided by a single mind, while a column of army ants builds bridges and routes food with breathtaking coordination. Yet the individuals within these groups are not aware of any grand plan. The astonishing coordination emerges from very simple local rules, a phenomenon researchers now call swarm intelligence.\n\nThe breakthrough came in the late nineteen-eighties, when computer scientist Craig Reynolds simulated a flock of birds using only three rules. Each virtual bird, which he called a boid, adjusted its movement based on its immediate neighbors: it steered to avoid crowding, aligned its direction with nearby boids, and moved toward the average position of the flock. No bird knew the shape of the entire flock, yet the simulation produced swirling, lifelike murmurations indistinguishable from real footage. The discovery was profound: complexity could arise from simplicity, without any central controller.\n\nBiologists soon found that real animals follow strikingly similar principles. When foraging, an ant lays a chemical trail of pheromones that other ants can follow. A short route gets reinforced more frequently because ants complete it faster, and the pheromone accumulates. Within minutes, the colony converges on the optimal path, a process known as stigmergic communication. Crucially, no individual ant ever compares routes or measures distance; the colony's intelligence is distributed across thousands of tiny, simple interactions.\n\nThe implications extend far beyond biology. Engineers have adapted these principles to design algorithms for routing internet traffic, scheduling deliveries, and controlling fleets of drones. In a classic ant colony optimization algorithm, virtual ants explore possible solutions to a problem and leave behind a digital pheromone proportional to the quality of the path they found. Over many iterations, the algorithm converges on near-optimal solutions for problems that would take traditional methods impractical amounts of time to solve, such as the famous traveling salesman problem.\n\nDespite these successes, collective behavior has limits. Swarms can be tricked. When ants encounter a circular pheromone trail with no food source, they may march in an endless loop until they die of exhaustion, a phenomenon grimly named an ant mill. This reveals a fundamental weakness: systems optimized for following local signals can spiral into catastrophic failure when those signals are misleading. Similarly, algorithmic trading systems modeled on swarm behavior have occasionally triggered flash crashes, where automated agents amplified one another's sell-offs in seconds.\n\nResearchers also caution against romanticizing swarm intelligence. While colonies can solve specific problems efficiently, they cannot reflect on their decisions, plan for the distant future, or innovate radically. A beehive may select an excellent nest site, but it will never invent a new type of flower. The absence of centralized reasoning means that swarms excel at optimization but struggle with tasks requiring abstract thought or long-term strategic planning.\n\nEthical questions are now emerging as humans deploy collective algorithms in sensitive domains. Should a swarm of autonomous drones be allowed to select its own targets? Who is responsible when an algorithmic crowd, rather than a single decision-maker, causes harm? Regulators are only beginning to grapple with these questions, and existing laws, written for individual actors, fit awkwardly onto decentralized systems. Some scholars argue that any autonomous collective must include a human override, while others contend that imposing centralized control defeats the very efficiency that makes swarm systems attractive.\n\nWhat is clear is that the study of collective behavior has dissolved an old boundary between the living and the computational. The same mathematics that describes a flock of birds can describe the flow of data through a network or the spread of a rumor through a crowd. As our cities, markets, and machines become increasingly interconnected, understanding the simple rules that produce collective behavior may be one of the most consequential scientific endeavors of the century.",
+      "topicCategory": "SCIENCE_TECHNOLOGY",
+      "textType": "ARGUMENTATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the central claim of the passage?",
+        "paragraphReference": 1,
+        "options": [
+          "Animals in groups are guided by a single leader",
+          "Complex collective behavior can emerge from simple local rules",
+          "Swarm intelligence requires advanced cognitive abilities",
+          "Ants measure distances before deciding on a route"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The passage argues that coordinated group behavior emerges from simple rules without central control.",
+        "keywordsInPassage": ["simple local rules", "swarm intelligence"],
+        "paraphrasing": "Order in groups arises from basic individual interactions."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many rules did Craig Reynolds use in his boid simulation?",
+        "paragraphReference": 2,
+        "options": [
+          "Two",
+          "Three",
+          "Five",
+          "Ten"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 describes three rules: avoid crowding, align direction, and move toward the average position.",
+        "keywordsInPassage": ["three rules", "boid"],
+        "paraphrasing": "Reynolds' model used a small fixed set of behavior rules."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 3, how does an ant colony converge on the optimal path?",
+        "paragraphReference": 3,
+        "options": [
+          "A leader ant directs the others",
+          "Pheromone accumulation reinforces shorter routes",
+          "Ants compare routes mentally",
+          "Ants measure the distance visually"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 explains shorter routes get reinforced more frequently because ants complete them faster, accumulating pheromone.",
+        "keywordsInPassage": ["pheromone", "reinforced", "shorter routes"],
+        "paraphrasing": "Chemical trails grow stronger on efficient paths."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The term 'stigmergic communication' refers to:",
+        "paragraphReference": 3,
+        "options": [
+          "Direct verbal signaling between animals",
+          "Indirect coordination through environmental signals",
+          "A centralized command structure",
+          "Visual mimicry by predators"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 describes stigmergic communication as a process where individuals interact indirectly through environmental changes.",
+        "keywordsInPassage": ["stigmergic", "distributed"],
+        "paraphrasing": "Agents communicate by altering their shared environment."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "In an ant colony optimization algorithm, virtual ants leave behind",
+        "paragraphReference": 4,
+        "options": [
+          "a digital pheromone proportional to path quality",
+          "a random number generator",
+          "a central controller program",
+          "a record of every route ever taken"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 states virtual ants leave a digital pheromone proportional to the quality of the path they found.",
+        "keywordsInPassage": ["digital pheromone", "proportional"],
+        "paraphrasing": "Better solutions leave stronger digital traces."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is an 'ant mill'?",
+        "paragraphReference": 5,
+        "options": [
+          "A tool for grinding ant food",
+          "A circular pheromone trail that traps ants in an endless loop",
+          "A type of ant nest",
+          "A measuring device used by biologists"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 describes an ant mill as a circular pheromone trail with no food, where ants march until exhaustion.",
+        "keywordsInPassage": ["circular pheromone trail", "endless loop"],
+        "paraphrasing": "Misleading signals can trap a colony in fatal loops."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Algorithmic trading systems based on swarm behavior have caused flash crashes.",
+        "paragraphReference": 5,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 mentions algorithmic trading systems modeled on swarms have occasionally triggered flash crashes.",
+        "keywordsInPassage": ["flash crashes", "amplified"],
+        "paraphrasing": "Automated traders have sometimes sparked sudden market collapses."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 6, what is a limitation of swarm intelligence?",
+        "paragraphReference": 6,
+        "options": [
+          "It can invent radically new solutions",
+          "It excels at long-term strategic planning",
+          "It cannot reflect on decisions or innovate radically",
+          "It is faster than any centralized system"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 6 states swarms cannot reflect on decisions, plan long-term, or innovate radically.",
+        "keywordsInPassage": ["abstract thought", "strategic planning"],
+        "paraphrasing": "Swarms optimize but do not strategize or create."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What ethical concern does the writer raise in paragraph 7?",
+        "paragraphReference": 7,
+        "options": [
+          "Whether swarms should be allowed in art",
+          "Whether autonomous drone swarms should select their own targets",
+          "Whether animals deserve legal rights",
+          "Whether algorithms are too slow"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 asks whether a swarm of autonomous drones should be allowed to select its own targets.",
+        "keywordsInPassage": ["autonomous drones", "select targets"],
+        "paraphrasing": "The writer questions delegating lethal decisions to collectives."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the writer conclude about the study of collective behavior?",
+        "paragraphReference": 8,
+        "options": [
+          "It is irrelevant to modern technology",
+          "It may be one of the most consequential scientific endeavors of the century",
+          "It applies only to animals",
+          "It has already been fully understood"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 8 concludes understanding collective behavior may be one of the most consequential scientific endeavors of the century.",
+        "keywordsInPassage": ["consequential", "century"],
+        "paraphrasing": "The field is presented as highly significant going forward."
+      }
+    ]
+  }
+]

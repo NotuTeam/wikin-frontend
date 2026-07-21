@@ -1,0 +1,821 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "questionText": "Reading Passage 3: The Ethics of Artificial Intelligence",
+    "difficulty": "EASY",
+    "passage": {
+      "title": "The Ethics of Artificial Intelligence",
+      "subtitle": "How intelligent machines are forcing society to confront difficult moral questions",
+      "source": "Adapted from technology ethics literature",
+      "author": "Dr. Helena Voss",
+      "wordCount": 580,
+      "content": "Artificial intelligence has moved from the realm of science fiction into everyday life with remarkable speed. From recommendation algorithms that suggest what we should watch to autonomous vehicles that navigate city streets, AI systems now make decisions that affect millions of people daily. This rapid integration has raised urgent ethical questions that society is only beginning to address.\n\nOne of the most pressing concerns is bias. Machine learning systems learn from historical data, and if that data reflects existing prejudices, the system will reproduce and even amplify them. In 2018, researchers discovered that a facial recognition system used by a major technology company misidentified women of color at significantly higher rates than white men. The problem was not intentional malice but rather a training dataset that was overwhelmingly composed of images of light-skinned males. Such biases can have serious consequences when AI is used in hiring, lending, or criminal justice.\n\nTransparency is another major challenge. Many modern AI systems, particularly deep neural networks, operate as black boxes. They produce outputs, but even their creators cannot fully explain how they arrived at a particular decision. This opacity becomes deeply problematic when an AI system denies someone a loan or flags them as a security risk. If the affected person has no way to understand or challenge the decision, basic principles of justice are compromised. Some researchers are working on explainable AI, but progress has been slow.\n\nThe question of accountability is equally thorny. When a self-driving car crashes, who is responsible? The manufacturer? The software developer? The passenger who failed to intervene? Legal frameworks were designed for human actors, and they struggle to assign liability when an algorithm makes a fatal error. Several countries have begun drafting new regulations, but there is little international consensus. The European Union has taken the lead with its Artificial Intelligence Act, which classifies AI systems by risk level and imposes strict requirements on high-risk applications.\n\nPrivacy concerns also loom large. AI systems thrive on data, and the more personal information they can access, the more accurately they can predict behavior. Companies collect vast troves of data on browsing habits, location, purchases, and even emotional states. While this data enables useful services, it also creates unprecedented opportunities for surveillance and manipulation. Authoritarian governments have already deployed AI-powered surveillance systems to monitor their citizens on a massive scale, raising fears of a digital panopticon.\n\nSome philosophers argue that the real danger lies not in malicious AI but in our tendency to over-trust automated systems. Studies have shown that people tend to follow algorithmic recommendations even when they are wrong, a phenomenon known as automation bias. In healthcare, doctors may defer to an AI diagnostic tool rather than their own judgment, potentially missing nuances that a machine cannot detect. The solution, experts suggest, is not to abandon AI but to design systems that keep humans meaningfully involved in the loop.\n\nLooking forward, the most profound ethical question may concern artificial general intelligence, a hypothetical system that matches or exceeds human capabilities across all domains. While such technology does not yet exist, many researchers believe it could arrive within decades. If it does, questions about rights, consciousness, and control will become unavoidable. For now, the challenge is to ensure that the AI systems we already have are fair, transparent, and accountable. The ethical decisions we make today will shape the relationship between humans and machines for generations to come.",
+      "topicCategory": "SCIENCE_TECHNOLOGY",
+      "textType": "ARGUMENTATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 2, why did the facial recognition system misidentify women of color at higher rates?",
+        "paragraphReference": 2,
+        "options": [
+          "The system was intentionally programmed to discriminate",
+          "The training dataset was overwhelmingly composed of images of light-skinned males",
+          "The technology was too old to recognize diverse faces",
+          "The researchers deliberately biased the algorithm"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states the problem was a training dataset overwhelmingly composed of images of light-skinned males, not intentional malice.",
+        "keywordsInPassage": ["training dataset", "light-skinned males", "misidentified"],
+        "paraphrasing": "The system's bias stemmed from an unrepresentative set of training images."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the passage say about deep neural networks and transparency?",
+        "paragraphReference": 3,
+        "options": [
+          "Their creators can always explain their decisions perfectly",
+          "They operate as black boxes and even creators cannot fully explain their outputs",
+          "They are fully transparent by design",
+          "They do not produce any outputs"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 describes deep neural networks as black boxes where even creators cannot fully explain how a decision was reached.",
+        "keywordsInPassage": ["black boxes", "cannot fully explain", "deep neural networks"],
+        "paraphrasing": "Neural network decision-making is opaque even to its own designers."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "The European Union's Artificial Intelligence Act bans all AI systems regardless of risk level.",
+        "paragraphReference": 4,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states the EU Act classifies AI systems by risk level and imposes strict requirements on high-risk applications, not a blanket ban.",
+        "keywordsInPassage": ["Artificial Intelligence Act", "risk level", "classifies"],
+        "paraphrasing": "The EU legislation regulates AI according to how risky each system is."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is 'automation bias' as described in the passage?",
+        "paragraphReference": 6,
+        "options": [
+          "The tendency of machines to produce biased outputs",
+          "The tendency to distrust all algorithmic recommendations",
+          "The tendency to follow algorithmic recommendations even when they are wrong",
+          "A type of software malfunction in AI systems"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 6 defines automation bias as the tendency of people to follow algorithmic recommendations even when they are wrong.",
+        "keywordsInPassage": ["automation bias", "follow algorithmic recommendations", "even when they are wrong"],
+        "paraphrasing": "People uncritically defer to machine-generated suggestions despite errors."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the EU approach regulation of AI according to paragraph 4?",
+        "paragraphReference": 4,
+        "options": [
+          "By banning all AI development entirely",
+          "By classifying AI systems by risk level and imposing strict requirements on high-risk ones",
+          "By leaving regulation entirely to private companies",
+          "By prohibiting AI use in all public sectors"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states the EU's AI Act classifies systems by risk level and imposes strict requirements on high-risk applications.",
+        "keywordsInPassage": ["classifies", "risk level", "strict requirements"],
+        "paraphrasing": "The EU sorts AI applications by how dangerous they are and regulates accordingly."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "The writer agrees that AI systems should be designed to keep humans meaningfully involved in decision-making.",
+        "paragraphReference": 6,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states the solution is not to abandon AI but to design systems that keep humans meaningfully involved in the loop.",
+        "keywordsInPassage": ["humans meaningfully involved", "in the loop", "not to abandon AI"],
+        "paraphrasing": "The author advocates for maintaining human participation in AI-assisted decisions."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "According to paragraph 5, the more personal information AI systems can access,",
+        "paragraphReference": 5,
+        "options": [
+          "the more accurately they can predict behavior",
+          "the less reliable their predictions become",
+          "the slower they process data",
+          "the more they cost to operate"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 states the more personal information AI systems can access, the more accurately they can predict behavior.",
+        "keywordsInPassage": ["personal information", "predict behavior", "more accurately"],
+        "paraphrasing": "Greater access to personal data enhances the precision of behavioral forecasting."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the passage say about artificial general intelligence?",
+        "paragraphReference": 7,
+        "options": [
+          "It is already widely deployed in consumer products",
+          "It is a hypothetical system that matches or exceeds human capabilities across all domains",
+          "It has been proven impossible to create",
+          "It was banned by an international treaty in 2020"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 describes artificial general intelligence as a hypothetical system that matches or exceeds human capabilities across all domains.",
+        "keywordsInPassage": ["artificial general intelligence", "hypothetical", "matches or exceeds"],
+        "paraphrasing": "AGI is described as a not-yet-realized system with human-level or superior broad abilities."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "Legal frameworks struggle to assign liability when an algorithm makes a fatal error because they were designed for ______.",
+        "paragraphReference": 4,
+        "correctAnswer": "human actors",
+        "explanation": "Paragraph 4 states legal frameworks were designed for human actors and struggle to assign liability when an algorithm makes a fatal error.",
+        "keywordsInPassage": ["legal frameworks", "human actors", "assign liability"],
+        "paraphrasing": "Existing laws assume human decision-makers, not algorithmic ones."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SHORT_ANSWER",
+        "questionText": "What term describes people's tendency to follow algorithmic recommendations even when they are wrong?",
+        "paragraphReference": 6,
+        "correctAnswer": "automation bias",
+        "explanation": "Paragraph 6 names this tendency automation bias, where people follow algorithmic recommendations even when they are wrong.",
+        "keywordsInPassage": ["automation bias", "follow algorithmic recommendations"],
+        "paraphrasing": "The inclination to trust machine outputs despite their errors has a specific label."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "questionText": "Reading Passage 3: The Biology of Aging",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The Biology of Aging",
+      "subtitle": "How geroscience is redefining our understanding of growing old",
+      "source": "Adapted from molecular biology literature",
+      "author": "Dr. Marcus Chen",
+      "wordCount": 620,
+      "content": "For most of human history, aging was viewed as an inevitable, irreversible process, a slow decline that all living things must eventually undergo. In recent decades, however, biologists have begun to reframe aging not as an unalterable fact of nature but as a biological process that can be studied, understood, and potentially slowed. This shift has given rise to a new field called geroscience, which seeks to understand the molecular mechanisms that drive the aging process.\n\nAt the cellular level, several hallmarks of aging have been identified. One of the most significant is telomere shortening. Telomeres are protective caps at the ends of chromosomes, and each time a cell divides, they become slightly shorter. When telomeres reach a critical length, the cell enters a state called senescence, in which it stops dividing but does not die. Senescent cells accumulate in tissues over time and secrete inflammatory molecules that can damage neighboring cells, contributing to age-related diseases such as arthritis, cardiovascular disease, and neurodegeneration.\n\nAnother key mechanism is mitochondrial dysfunction. Mitochondria are the energy-producing structures within cells, and they gradually lose efficiency as organisms age. This decline reduces the cell's ability to generate ATP, the molecular fuel that powers biological processes. Damaged mitochondria also produce reactive oxygen species, unstable molecules that can damage DNA, proteins, and lipids. For years, scientists believed that antioxidants could counteract this damage, but clinical trials have produced disappointing results, suggesting that the relationship between oxidative stress and aging is more complex than once thought.\n\nThe field was energized in 2006 when Japanese researcher Shinya Yamanaka discovered that introducing four specific proteins into adult cells could reprogram them into induced pluripotent stem cells, effectively reversing their cellular age. This groundbreaking work, which earned Yamanaka the Nobel Prize, demonstrated that cellular aging is not a one-way street. Since then, researchers have been exploring whether partial reprogramming could rejuvenate tissues in living animals without causing tumors, a major risk of full reprogramming.\n\nOne promising approach involves a class of drugs called senolytics, which selectively destroy senescent cells. In laboratory mice, clearing senescent cells has been shown to extend lifespan and improve physical function. Early human trials are now underway, though results remain preliminary. Another avenue of research focuses on caloric restriction. Studies in yeast, worms, flies, and mice have consistently shown that reducing calorie intake by roughly thirty percent can extend lifespan, apparently by activating cellular repair mechanisms that are normally suppressed when nutrients are abundant.\n\nA drug called rapamycin, originally discovered on Easter Island, has generated particular excitement. Rapamycin inhibits a protein called mTOR, which acts as a nutrient sensor and promotes growth. By suppressing mTOR, rapamycin tricks cells into behaving as if they are starved, triggering repair and maintenance processes. In mice, rapamycin has been shown to extend lifespan by up to twenty-five percent, making it one of the most effective life-extending compounds known. However, its side effects, including immune suppression, make it unsuitable for widespread use in healthy people at present.\n\nSkeptics caution that extending lifespan is not the same as extending healthspan, the period of life spent in good health. Simply living longer is of little value if those additional years are plagued by chronic disease. Most geroscientists argue that the primary goal should be to compress morbidity, reducing the period of illness at the end of life rather than merely postponing death. Whether the insights of geroscience will translate from laboratory organisms to humans remains an open question, but the pace of discovery has never been faster.",
+      "topicCategory": "HEALTH_MEDICINE",
+      "textType": "DESCRIPTIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main shift in how biologists now view aging?",
+        "paragraphReference": 1,
+        "options": [
+          "Aging is now seen as a purely psychological process",
+          "Aging is now seen as a biological process that can be studied and potentially slowed",
+          "Aging has been proven to be fully reversible in humans",
+          "Aging is no longer studied by scientists"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states biologists have begun to reframe aging as a biological process that can be studied, understood, and potentially slowed.",
+        "keywordsInPassage": ["biological process", "studied", "potentially slowed", "geroscience"],
+        "paraphrasing": "Aging is now treated as a modifiable biological mechanism rather than an unchangeable fact."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens when telomeres reach a critical length?",
+        "paragraphReference": 2,
+        "options": [
+          "The cell divides more rapidly",
+          "The cell enters senescence, stopping division but not dying",
+          "The cell immediately dies",
+          "The telomeres regenerate automatically"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 explains that when telomeres reach a critical length, the cell enters senescence, in which it stops dividing but does not die.",
+        "keywordsInPassage": ["telomere", "senescence", "stops dividing", "does not die"],
+        "paraphrasing": "Critically shortened telomeres push a cell into a non-dividing but living state."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did clinical trials of antioxidants reveal about oxidative stress and aging?",
+        "paragraphReference": 3,
+        "options": [
+          "Antioxidants completely reversed aging in humans",
+          "Antioxidants had no effect on any biological process",
+          "Results were disappointing, suggesting the relationship is more complex than thought",
+          "Antioxidants accelerated the aging process"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 3 states clinical trials of antioxidants produced disappointing results, suggesting the relationship between oxidative stress and aging is more complex than once thought.",
+        "keywordsInPassage": ["antioxidants", "disappointing results", "more complex"],
+        "paraphrasing": "Antioxidant trials underperformed, hinting the oxidation-aging link is not straightforward."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Shinya Yamanaka's 2006 discovery proved that cellular aging is irreversible.",
+        "paragraphReference": 4,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states Yamanaka's work demonstrated that cellular aging is not a one-way street, effectively reversing cellular age.",
+        "keywordsInPassage": ["Yamanaka", "reversing", "not a one-way street"],
+        "paraphrasing": "Yamanaka's findings showed cellular aging can be reversed, not that it is permanent."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do senolytic drugs do?",
+        "paragraphReference": 5,
+        "options": [
+          "They extend telomeres in all cells",
+          "They selectively destroy senescent cells",
+          "They increase calorie absorption",
+          "They accelerate cell division"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 describes senolytics as a class of drugs that selectively destroy senescent cells.",
+        "keywordsInPassage": ["senolytics", "selectively destroy", "senescent cells"],
+        "paraphrasing": "Senolytics are designed to eliminate cells that have stopped dividing but refuse to die."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the passage, how does rapamycin extend lifespan in mice?",
+        "paragraphReference": 6,
+        "options": [
+          "By increasing the number of mitochondria",
+          "By suppressing mTOR, which tricks cells into behaving as if starved",
+          "By directly repairing telomeres",
+          "By boosting the immune system"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 explains rapamycin inhibits mTOR, tricking cells into behaving as if starved, which triggers repair and maintenance processes.",
+        "keywordsInPassage": ["rapamycin", "mTOR", "starved", "repair and maintenance"],
+        "paraphrasing": "Rapamycin mimics nutrient deprivation to activate cellular upkeep pathways."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "Rapamycin is currently suitable for widespread use in healthy people.",
+        "paragraphReference": 6,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 states rapamycin's side effects, including immune suppression, make it unsuitable for widespread use in healthy people at present.",
+        "keywordsInPassage": ["side effects", "immune suppression", "unsuitable"],
+        "paraphrasing": "The drug's adverse effects preclude its general use in healthy populations right now."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "According to paragraph 5, reducing calorie intake by roughly thirty percent",
+        "paragraphReference": 5,
+        "options": [
+          "can extend lifespan by activating cellular repair mechanisms",
+          "has no effect on lifespan in any organism",
+          "shortens lifespan in laboratory mice",
+          "only works in humans and not in simpler organisms"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 states reducing calorie intake by roughly thirty percent can extend lifespan by activating cellular repair mechanisms normally suppressed when nutrients are abundant.",
+        "keywordsInPassage": ["caloric restriction", "thirty percent", "cellular repair mechanisms"],
+        "paraphrasing": "Moderate calorie reduction activates dormant maintenance pathways across species."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What distinction do skeptics emphasize in paragraph 7?",
+        "paragraphReference": 7,
+        "options": [
+          "Lifespan and healthspan are the same thing",
+          "Extending lifespan is not the same as extending healthspan",
+          "Healthspan cannot be measured",
+          "Compressing morbidity is impossible"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states skeptics caution that extending lifespan is not the same as extending healthspan, the period of life spent in good health.",
+        "keywordsInPassage": ["lifespan", "healthspan", "not the same"],
+        "paraphrasing": "Critics draw a line between total years lived and years lived in good health."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SHORT_ANSWER",
+        "questionText": "What term do geroscientists use to describe the goal of reducing the period of illness at the end of life?",
+        "paragraphReference": 7,
+        "correctAnswer": "compress morbidity",
+        "explanation": "Paragraph 7 states most geroscientists argue the primary goal should be to compress morbidity, reducing the period of illness at the end of life.",
+        "keywordsInPassage": ["compress morbidity", "reducing", "period of illness"],
+        "paraphrasing": "The target is to squeeze the duration of late-life sickness into a shorter window."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "questionText": "Reading Passage 3: The Economics of Climate Change",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The Economics of Climate Change",
+      "subtitle": "Why global warming is as much an economic problem as an environmental one",
+      "source": "Adapted from environmental economics literature",
+      "author": "Dr. Sofia Andersson",
+      "wordCount": 630,
+      "content": "Climate change is often framed as an environmental problem, but economists increasingly argue that it is, at its core, an economic one. The burning of fossil fuels has driven unprecedented economic growth over the past two centuries, but it has also released vast quantities of greenhouse gases into the atmosphere, creating costs that are only now becoming fully apparent. Understanding the economics of climate change requires grappling with market failures, intergenerational ethics, and the challenge of coordinating action among nearly two hundred nations.\n\nThe fundamental economic problem is that greenhouse gas emissions represent a classic externality. When a factory burns coal, it benefits from the cheap energy but does not pay for the damage caused by the carbon dioxide it releases. Because this cost is borne by society as a whole rather than by the polluter, the market produces more emissions than is socially optimal. The standard economic solution is to put a price on carbon, either through a carbon tax or a cap-and-trade system, so that polluters internalize the true cost of their actions.\n\nCarbon taxes have been implemented in several countries, including Sweden, which introduced a carbon tax in 1991 and has since reduced its emissions by more than twenty-five percent while maintaining strong economic growth. However, carbon taxes face political resistance, partly because they can disproportionately affect low-income households who spend a larger share of their income on energy. Economists generally recommend returning the revenue to citizens as a dividend to address this concern, but such proposals have struggled to gain political traction.\n\nCap-and-trade systems offer an alternative approach. Under such a system, the government sets a cap on total emissions and distributes or auctions permits that allow companies to emit a certain amount. Companies that reduce their emissions can sell excess permits to those that need them, creating a market incentive for reduction. The European Union's Emissions Trading System, launched in 2005, is the world's largest, but it has been criticized for setting the cap too high in its early years, resulting in permit prices too low to drive meaningful change.\n\nEstimating the economic cost of climate change is extraordinarily complex. The most widely used metric is the social cost of carbon, which represents the monetary value of damages caused by each additional ton of carbon dioxide emitted. Calculating this figure requires making assumptions about future economic growth, technological progress, and most controversially, the discount rate, which determines how much weight to give to future harms relative to present ones. A high discount rate implies that future damages matter little, justifying modest action today. A low discount rate suggests that we should invest heavily now to protect future generations. The choice of discount rate is not merely technical but deeply ethical.\n\nThe transition to a low-carbon economy also creates economic opportunities. The renewable energy sector is now one of the fastest-growing industries in the world, employing millions of people. Solar and wind power have become cost-competitive with fossil fuels in many regions, and battery technology is advancing rapidly. However, the transition will not be painless. Regions that depend on coal mining or oil extraction face significant economic disruption, and retraining workers for new industries is both expensive and logistically challenging.\n\nInternational coordination remains the greatest obstacle. Because climate change is a global problem, a single country's reductions can be offset by another's increases. The 2015 Paris Agreement represented a landmark attempt to coordinate action, but its voluntary structure means that compliance cannot be enforced. Some economists have proposed border carbon adjustments, tariffs on goods from countries without adequate climate policies, to prevent companies from simply relocating emissions. Whether such mechanisms can be implemented without triggering trade wars remains to be seen, but the economic stakes of inaction grow higher with each passing year.",
+      "topicCategory": "BUSINESS_ECONOMICS",
+      "textType": "ARGUMENTATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do economists argue that climate change is fundamentally an economic problem?",
+        "paragraphReference": 1,
+        "options": [
+          "Because environmental science is irrelevant to climate change",
+          "Because burning fossil fuels drove economic growth but created costs now becoming apparent",
+          "Because economists are the only experts qualified to study climate",
+          "Because climate change only affects the financial sector"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states the burning of fossil fuels drove economic growth but also released greenhouse gases, creating costs now becoming fully apparent.",
+        "keywordsInPassage": ["fossil fuels", "economic growth", "costs", "becoming fully apparent"],
+        "paraphrasing": "The same energy source that fueled prosperity also generated hidden societal costs."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the passage describe greenhouse gas emissions in economic terms?",
+        "paragraphReference": 2,
+        "options": [
+          "As a benefit to society",
+          "As a classic externality where costs are borne by society rather than the polluter",
+          "As a tax on the wealthy",
+          "As a subsidy for renewable energy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 describes greenhouse gas emissions as a classic externality where the cost is borne by society as a whole rather than by the polluter.",
+        "keywordsInPassage": ["externality", "borne by society", "not by the polluter"],
+        "paraphrasing": "Emissions are costs pushed onto the public instead of being paid by those who create them."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the standard economic solution to the externality of emissions?",
+        "paragraphReference": 2,
+        "options": [
+          "Banning all industrial production",
+          "Putting a price on carbon through a carbon tax or cap-and-trade system",
+          "Subsidizing fossil fuel companies",
+          "Eliminating all government regulation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states the standard economic solution is to put a price on carbon, either through a carbon tax or a cap-and-trade system.",
+        "keywordsInPassage": ["price on carbon", "carbon tax", "cap-and-trade"],
+        "paraphrasing": "Economists recommend making polluters pay via taxes or tradeable emission permits."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Sweden's carbon tax reduced emissions while economic growth continued.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 3 states Sweden introduced a carbon tax in 1991 and has since reduced emissions by more than twenty-five percent while maintaining strong economic growth.",
+        "keywordsInPassage": ["Sweden", "reduced emissions", "strong economic growth"],
+        "paraphrasing": "Sweden cut carbon output significantly without sacrificing economic expansion."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was a criticism of the EU Emissions Trading System in its early years?",
+        "paragraphReference": 4,
+        "options": [
+          "It set the cap too high, resulting in permit prices too low to drive meaningful change",
+          "It banned all carbon emissions immediately",
+          "It was too expensive for companies to participate",
+          "It only applied to renewable energy companies"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 states the EU ETS was criticized for setting the cap too high in its early years, resulting in permit prices too low to drive meaningful change.",
+        "keywordsInPassage": ["cap too high", "permit prices", "too low"],
+        "paraphrasing": "Excessive initial emission allowances rendered the trading scheme ineffective at first."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the discount rate determine in the context of the social cost of carbon?",
+        "paragraphReference": 5,
+        "options": [
+          "The total amount of carbon in the atmosphere",
+          "How much weight to give to future harms relative to present ones",
+          "The price of renewable energy",
+          "The number of countries participating in climate agreements"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the discount rate determines how much weight to give to future harms relative to present ones.",
+        "keywordsInPassage": ["discount rate", "future harms", "present ones"],
+        "paraphrasing": "The discount rate sets the relative importance assigned to tomorrow's damages versus today's."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "A high discount rate justifies modest action on climate change today.",
+        "paragraphReference": 5,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 states a high discount rate implies that future damages matter little, justifying modest action today.",
+        "keywordsInPassage": ["high discount rate", "future damages matter little", "modest action"],
+        "paraphrasing": "Valuing the future less leads to rationale for limited current investment."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "According to paragraph 6, the transition to a low-carbon economy",
+        "paragraphReference": 6,
+        "options": [
+          "creates economic opportunities but also causes disruption in fossil-fuel-dependent regions",
+          "will have no economic impact on any workers",
+          "has already been completed in all countries",
+          "only benefits coal mining communities"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states the transition creates opportunities in renewable energy but also causes significant economic disruption in regions that depend on coal mining or oil extraction.",
+        "keywordsInPassage": ["economic opportunities", "disruption", "coal mining", "oil extraction"],
+        "paraphrasing": "The shift brings growth in clean energy while hurting communities tied to fossil fuels."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the greatest obstacle to addressing climate change according to paragraph 7?",
+        "paragraphReference": 7,
+        "options": [
+          "Lack of renewable technology",
+          "International coordination, because one country's reductions can be offset by another's increases",
+          "The cost of solar panels",
+          "Public opposition to wind farms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states international coordination remains the greatest obstacle because a single country's reductions can be offset by another's increases.",
+        "keywordsInPassage": ["international coordination", "greatest obstacle", "offset"],
+        "paraphrasing": "The hardest challenge is aligning global efforts since national cuts can be negated elsewhere."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "Economists have proposed border carbon adjustments, which are tariffs on goods from countries without adequate ______, to prevent companies from simply relocating emissions.",
+        "paragraphReference": 7,
+        "correctAnswer": "climate policies",
+        "explanation": "Paragraph 7 states economists have proposed border carbon adjustments, tariffs on goods from countries without adequate climate policies, to prevent companies from relocating emissions.",
+        "keywordsInPassage": ["border carbon adjustments", "tariffs", "adequate climate policies"],
+        "paraphrasing": "Import duties on goods from nations lacking green rules aim to deter emission offshoring."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "questionText": "Reading Passage 3: The History of Pandemics",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The History of Pandemics",
+      "subtitle": "How infectious diseases have shaped human civilization",
+      "source": "Adapted from medical history literature",
+      "author": "Dr. James Okonkwo",
+      "wordCount": 680,
+      "content": "Pandemics have shaped human history more profoundly than wars or revolutions, toppling empires, reshaping economies, and altering the course of civilizations. From the Plague of Athens to the COVID-19 outbreak, infectious diseases have periodically swept through populations with devastating consequences. The history of pandemics is not merely a chronicle of suffering but also a story of scientific discovery, social transformation, and the enduring human capacity for resilience.\n\nThe earliest recorded pandemic struck Athens in 430 BCE during the Peloponnesian War. The disease, which scholars believe may have been typhoid or typhus, killed an estimated quarter of the city's population and fatally weakened Athens in its struggle against Sparta. The historian Thucydides, who survived the disease himself, provided the first detailed account of a pandemic, noting that the overwhelming mortality caused a breakdown of social order as people abandoned their moral and religious obligations.\n\nThe most devastating pandemic in recorded history was the Black Death, which swept through Europe, Asia, and North Africa in the fourteenth century. Caused by the bacterium Yersinia pestis and transmitted by fleas on rats, the plague killed an estimated seventy-five to two hundred million people, reducing Europe's population by as much as half. The social consequences were enormous. With labor scarce, surviving workers demanded higher wages, contributing to the decline of the feudal system. The Catholic Church, unable to explain or halt the pestilence, suffered a crisis of authority from which it never fully recovered.\n\nCenturies later, cholera pandemics swept across the globe in the nineteenth century. Originating in the Ganges delta, cholera spread along trade and military routes, reaching Europe and the Americas by the 1830s. The disease, which causes severe diarrhea and dehydration, could kill within hours. In London, the repeated cholera outbreaks prompted a physician named John Snow to investigate. In 1854, he mapped cholera cases in the Soho neighborhood and traced them to a single contaminated water pump. When the pump handle was removed, the outbreak subsided. Snow's work founded the field of epidemiology and demonstrated that diseases could spread through contaminated water rather than through bad air, as the prevailing miasma theory held.\n\nThe Spanish flu of 1918-1919 was the deadliest pandemic of the twentieth century, killing an estimated fifty to one hundred million people worldwide. Unlike most influenza strains, which disproportionately kill the elderly, the Spanish flu was particularly lethal to young adults, a pattern thought to result from an overreaction of the immune system known as a cytokine storm. The pandemic occurred during the final year of World War I, and wartime censorship initially suppressed news of the outbreak. The disease killed more people than the war itself, yet it faded quickly from public memory, leading some historians to call it the forgotten pandemic.\n\nThe development of vaccines in the twentieth century transformed humanity's ability to combat infectious disease. The eradication of smallpox in 1980, achieved through a global vaccination campaign, remains one of the greatest triumphs of public health. Yet the threat of pandemics persists. The emergence of HIV in the 1980s, the SARS outbreak of 2003, and the COVID-19 pandemic that began in 2019 have each exposed vulnerabilities in global health systems. COVID-19, which has killed millions, also demonstrated the power of rapid vaccine development, as mRNA vaccines were deployed within a year of the virus's identification, a process that previously would have taken a decade or more.\n\nThe history of pandemics offers sobering lessons. Each outbreak has revealed the same patterns: initial denial, delayed response, and disproportionate impact on the poor and marginalized. Yet each pandemic has also accelerated innovation in medicine, governance, and international cooperation. Whether humanity will be better prepared for the next pandemic remains an open question, but history suggests that the question is not if another will come but when.",
+      "topicCategory": "HISTORY_CULTURE",
+      "textType": "NARRATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the passage say about the Plague of Athens?",
+        "paragraphReference": 2,
+        "options": [
+          "It occurred during the Roman Empire's peak",
+          "It killed an estimated quarter of Athens' population during the Peloponnesian War",
+          "It was caused by a virus",
+          "It had no effect on Athenian society"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states the plague struck Athens in 430 BCE during the Peloponnesian War, killing an estimated quarter of the city's population.",
+        "keywordsInPassage": ["Plague of Athens", "quarter", "Peloponnesian War"],
+        "paraphrasing": "Athens lost roughly a fourth of its people to disease during its war with Sparta."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was a social consequence of the Black Death mentioned in the passage?",
+        "paragraphReference": 3,
+        "options": [
+          "The feudal system was strengthened",
+          "The Catholic Church gained more authority",
+          "Surviving workers demanded higher wages, contributing to the decline of the feudal system",
+          "Europe's population doubled within a decade"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 3 states that with labor scarce, surviving workers demanded higher wages, contributing to the decline of the feudal system.",
+        "keywordsInPassage": ["labor scarce", "higher wages", "decline of the feudal system"],
+        "paraphrasing": "Labor shortages from the plague empowered workers and weakened feudal structures."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did John Snow's investigation of cholera in 1854 demonstrate?",
+        "paragraphReference": 4,
+        "options": [
+          "That cholera was caused by bad air, confirming the miasma theory",
+          "That diseases could spread through contaminated water rather than bad air",
+          "That cholera only affected wealthy neighborhoods",
+          "That cholera was caused by a virus"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states Snow's work demonstrated that diseases could spread through contaminated water rather than through bad air, as the miasma theory held.",
+        "keywordsInPassage": ["John Snow", "contaminated water", "miasma theory"],
+        "paraphrasing": "Snow's pump investigation overturned the airborne miasma explanation of disease spread."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "The Spanish flu was particularly lethal to elderly people.",
+        "paragraphReference": 5,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the Spanish flu was particularly lethal to young adults, unlike most influenza strains which disproportionately kill the elderly.",
+        "keywordsInPassage": ["Spanish flu", "young adults", "lethal"],
+        "paraphrasing": "The 1918 flu strain unusually targeted the young rather than the old."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why was the Spanish flu called the 'forgotten pandemic'?",
+        "paragraphReference": 5,
+        "options": [
+          "Because it killed very few people",
+          "Because it faded quickly from public memory despite killing more people than World War I",
+          "Because no records of it exist",
+          "Because it only affected Spain"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the disease killed more people than the war itself, yet it faded quickly from public memory, leading some historians to call it the forgotten pandemic.",
+        "keywordsInPassage": ["forgotten pandemic", "faded quickly", "public memory"],
+        "paraphrasing": "Despite its enormous death toll, the 1918 flu vanished rapidly from collective recollection."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the passage say about the Black Death's cause?",
+        "paragraphReference": 3,
+        "options": [
+          "It was caused by a virus spread through the air",
+          "It was caused by the bacterium Yersinia pestis, transmitted by fleas on rats",
+          "It was caused by contaminated water",
+          "Its cause remains completely unknown"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states the Black Death was caused by the bacterium Yersinia pestis and transmitted by fleas on rats.",
+        "keywordsInPassage": ["Yersinia pestis", "fleas", "rats"],
+        "paraphrasing": "The plague bacterium traveled via flea vectors on rodent hosts."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "Smallpox was eradicated through a global vaccination campaign.",
+        "paragraphReference": 6,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states the eradication of smallpox in 1980, achieved through a global vaccination campaign, remains one of the greatest triumphs of public health.",
+        "keywordsInPassage": ["smallpox", "eradicated", "global vaccination campaign"],
+        "paraphrasing": "A worldwide immunization effort succeeded in wiping out smallpox by 1980."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "According to paragraph 6, mRNA vaccines for COVID-19 were deployed",
+        "paragraphReference": 6,
+        "options": [
+          "within a year of the virus's identification, a process that previously would have taken a decade or more",
+          "only after ten years of development",
+          "but proved completely ineffective",
+          "exclusively in wealthy countries"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states mRNA vaccines were deployed within a year of the virus's identification, a process that previously would have taken a decade or more.",
+        "keywordsInPassage": ["mRNA vaccines", "within a year", "decade or more"],
+        "paraphrasing": "COVID vaccine development was dramatically faster than any prior effort."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What patterns does the passage say each pandemic has revealed?",
+        "paragraphReference": 7,
+        "options": [
+          "Immediate and effective government responses",
+          "Initial denial, delayed response, and disproportionate impact on the poor and marginalized",
+          "Equal impact across all social classes",
+          "Rapid development of cures within weeks"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states each outbreak has revealed the same patterns: initial denial, delayed response, and disproportionate impact on the poor and marginalized.",
+        "keywordsInPassage": ["initial denial", "delayed response", "disproportionate impact", "poor and marginalized"],
+        "paraphrasing": "Historical pandemics consistently show denial, sluggish action, and inequitable suffering."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SHORT_ANSWER",
+        "questionText": "What term is used to describe the immune system overreaction that made the Spanish flu particularly lethal to young adults?",
+        "paragraphReference": 5,
+        "correctAnswer": "cytokine storm",
+        "explanation": "Paragraph 5 states the Spanish flu was particularly lethal to young adults, a pattern thought to result from an overreaction of the immune system known as a cytokine storm.",
+        "keywordsInPassage": ["cytokine storm", "overreaction", "immune system"],
+        "paraphrasing": "An excessive immune response called a cytokine storm explains the flu's unusual mortality pattern."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "questionText": "Reading Passage 3: The Psychology of Addiction",
+    "difficulty": "HARD",
+    "passage": {
+      "title": "The Psychology of Addiction",
+      "subtitle": "Beyond moral failure: the science of compulsive behavior",
+      "source": "Adapted from clinical psychology literature",
+      "author": "Dr. Rachel Brennan",
+      "wordCount": 760,
+      "content": "Addiction has long been one of the most misunderstood phenomena in human psychology. For much of history, it was viewed as a moral failing, a sign of weak will or deficient character. People who could not stop drinking or gambling were seen as indulgent, irresponsible, and culpable for their own ruin. This moral model dominated public thinking for centuries and continues to influence social attitudes today, despite a century of scientific research that has thoroughly dismantled it. Modern psychology now understands addiction as a complex brain disorder shaped by neurobiology, environment, and experience, a condition that demands compassion and evidence-based treatment rather than condemnation.\n\nAt the center of the neurobiological account is the brain's reward system. When we engage in activities essential for survival, such as eating or social bonding, the brain releases dopamine, a neurotransmitter that produces feelings of pleasure and reinforcement. Addictive substances and behaviors hijack this system by triggering floods of dopamine far exceeding what natural rewards produce. Over time, the brain adapts by reducing its number of dopamine receptors, a process called downregulation. The result is tolerance, the need for increasing amounts of the substance to achieve the same effect, and anhedonia, a diminished capacity to enjoy ordinary pleasures.\n\nHowever, the neurobiological model, while powerful, does not tell the whole story. If addiction were simply a matter of chemical hijacking, everyone who tried an addictive drug would become addicted. In reality, most people who use substances, even highly addictive ones like heroin or cocaine, do not develop addiction. This observation has led psychologists to search for additional factors that make certain individuals vulnerable. Research consistently shows that trauma, particularly adverse childhood experiences, is one of the strongest predictors of addiction. Individuals who experienced abuse, neglect, or household dysfunction in childhood are far more likely to develop addictive disorders later in life.\n\nThe environmental context also plays a crucial role. The classic Rat Park experiments of the 1970s challenged the prevailing view that drugs inevitably cause addiction. In these studies, rats housed in isolated, barren cages consumed morphine-laced water compulsively. But rats housed in an enriched environment with companions, toys, and space consumed far less, even when the drug was freely available. These findings suggested that addiction is not merely a pharmacological response but is deeply connected to social isolation and environmental deprivation, a perspective that has profound implications for how society approaches treatment.\n\nPsychologists have also identified cognitive mechanisms that sustain addictive behavior. One of the most important is the phenomenon of craving, which is not simply a desire for pleasure but a conditioned response triggered by environmental cues. A person who smoked cigarettes in their car may feel an overwhelming urge to smoke every time they sit behind the wheel, even years after quitting. These conditioned responses are mediated by memory and learning circuits that persist long after the physical withdrawal has subsided, explaining why relapse is so common and why willpower alone is rarely sufficient.\n\nThe disease model of addiction has been enormously influential, but it has its critics. Some psychologists argue that calling addiction a disease risks stripping individuals of agency and oversimplifying a condition that involves choices, beliefs, and social context. They point out that many people recover from addiction without any treatment, and that the language of disease can be disempowering. Proponents of the disease model counter that it does not deny agency but rather reframes recovery as a process of managing a chronic condition, analogous to diabetes, where lifestyle choices matter but the underlying vulnerability persists.\n\nTreatment approaches have evolved significantly. While early interventions relied on punishment and moral exhortation, contemporary treatment increasingly combines medication, cognitive-behavioral therapy, and social support. Medications such as methadone and buprenorphine can reduce cravings and withdrawal symptoms, giving individuals the stability needed to address underlying psychological issues. Cognitive-behavioral therapy helps patients identify triggers, develop coping strategies, and reframe the thought patterns that sustain addictive behavior. Perhaps most importantly, peer support groups provide the social connection that the Rat Park experiments suggested is essential for recovery.\n\nUltimately, addiction sits at the intersection of biology, psychology, and society. It cannot be reduced to a single cause or cured by a single intervention. Understanding addiction requires acknowledging the suffering that often underlies it, the brain changes that perpetuate it, and the social conditions that either nourish or erode the capacity for recovery. As science continues to unravel the mechanisms of addiction, the most important shift may be not in the laboratory but in public attitudes, replacing stigma with understanding and punishment with treatment.",
+      "topicCategory": "PSYCHOLOGY",
+      "textType": "DISCURSIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 31,
+      "questionEnd": 40
+    },
+    "questions": [
+      {
+        "questionNumber": 31,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did the moral model of addiction view people with addictions?",
+        "paragraphReference": 1,
+        "options": [
+          "As victims of a brain disorder",
+          "As morally weak, indulgent, and culpable for their own ruin",
+          "As genetically predisposed to addiction",
+          "As requiring medical intervention"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states the moral model viewed addicted individuals as indulgent, irresponsible, and culpable for their own ruin, signs of weak will or deficient character.",
+        "keywordsInPassage": ["moral failing", "weak will", "culpable", "indulgent"],
+        "paraphrasing": "Historical thinking blamed addicts for lacking willpower and moral fiber."
+      },
+      {
+        "questionNumber": 32,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is downregulation as described in the passage?",
+        "paragraphReference": 2,
+        "options": [
+          "The brain increasing its number of dopamine receptors",
+          "The brain reducing its number of dopamine receptors in response to excessive dopamine",
+          "A type of behavioral therapy",
+          "The process of physical withdrawal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states the brain adapts by reducing its number of dopamine receptors, a process called downregulation, resulting in tolerance and anhedonia.",
+        "keywordsInPassage": ["downregulation", "reducing", "dopamine receptors"],
+        "paraphrasing": "The brain cuts back on dopamine receptors to compensate for overstimulation."
+      },
+      {
+        "questionNumber": 33,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What evidence does the passage offer that addiction is not purely chemical?",
+        "paragraphReference": 3,
+        "options": [
+          "Everyone who tries heroin becomes addicted",
+          "Most people who use even highly addictive substances do not develop addiction",
+          "Addiction rates are identical across all populations",
+          "Chemical composition of drugs has no effect"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states most people who use substances, even highly addictive ones like heroin or cocaine, do not develop addiction, suggesting other factors are at play.",
+        "keywordsInPassage": ["most people", "do not develop addiction", "heroin or cocaine"],
+        "paraphrasing": "The fact that the majority of drug users avoid addiction points to non-chemical vulnerabilities."
+      },
+      {
+        "questionNumber": 34,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "The Rat Park experiments showed that environmental enrichment had no effect on drug consumption in rats.",
+        "paragraphReference": 4,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states rats in an enriched environment consumed far less morphine-laced water than isolated rats, even when the drug was freely available.",
+        "keywordsInPassage": ["Rat Park", "enriched environment", "consumed far less"],
+        "paraphrasing": "The experiments actually demonstrated that a stimulating environment reduced drug intake."
+      },
+      {
+        "questionNumber": 35,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the passage identify as one of the strongest predictors of addiction?",
+        "paragraphReference": 3,
+        "options": [
+          "Genetic predisposition alone",
+          "Trauma, particularly adverse childhood experiences",
+          "Living in a wealthy neighborhood",
+          "Having a strong social network"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states research consistently shows that trauma, particularly adverse childhood experiences, is one of the strongest predictors of addiction.",
+        "keywordsInPassage": ["trauma", "adverse childhood experiences", "strongest predictors"],
+        "paraphrasing": "Early-life suffering is among the most reliable indicators of later addictive disorders."
+      },
+      {
+        "questionNumber": 36,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is relapse so common according to paragraph 5?",
+        "paragraphReference": 5,
+        "options": [
+          "Because physical withdrawal never ends",
+          "Because conditioned responses mediated by memory circuits persist long after withdrawal subsides",
+          "Because willpower is always sufficient to prevent relapse",
+          "Because environmental cues have no effect on craving"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states conditioned responses are mediated by memory and learning circuits that persist long after physical withdrawal has subsided, explaining why relapse is common and willpower alone is rarely sufficient.",
+        "keywordsInPassage": ["conditioned responses", "memory and learning circuits", "persist", "relapse"],
+        "paraphrasing": "Enduring cue-triggered memory circuits outlast withdrawal and drive relapse."
+      },
+      {
+        "questionNumber": 37,
+        "questionType": "YES_NO_NOT_GIVEN",
+        "questionText": "Critics of the disease model argue that the language of disease can be disempowering for individuals with addiction.",
+        "paragraphReference": 6,
+        "options": ["Yes", "No", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states critics argue the language of disease can be disempowering and that many people recover without any treatment.",
+        "keywordsInPassage": ["disempowering", "language of disease", "critics"],
+        "paraphrasing": "Some opponents of the disease label say it undermines personal agency."
+      },
+      {
+        "questionNumber": 38,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "According to paragraph 7, cognitive-behavioral therapy helps patients",
+        "paragraphReference": 7,
+        "options": [
+          "identify triggers, develop coping strategies, and reframe thought patterns",
+          "completely eliminate all cravings within one session",
+          "avoid any need for social support",
+          "replace medication with willpower alone"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 7 states cognitive-behavioral therapy helps patients identify triggers, develop coping strategies, and reframe the thought patterns that sustain addictive behavior.",
+        "keywordsInPassage": ["cognitive-behavioral therapy", "triggers", "coping strategies", "reframe"],
+        "paraphrasing": "CBT equips patients to recognize cues, build coping skills, and reshape destructive thinking."
+      },
+      {
+        "questionNumber": 39,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do the Rat Park experiments suggest is essential for recovery?",
+        "paragraphReference": 7,
+        "options": [
+          "Isolation from all social contact",
+          "Social connection, as peer support groups provide what Rat Park suggested is essential",
+          "Strict punishment and moral exhortation",
+          "Pharmacological treatment alone"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states peer support groups provide the social connection that the Rat Park experiments suggested is essential for recovery.",
+        "keywordsInPassage": ["peer support groups", "social connection", "Rat Park", "essential"],
+        "paraphrasing": "The experiments imply that social bonds are a core ingredient of overcoming addiction."
+      },
+      {
+        "questionNumber": 40,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "According to paragraph 2, the brain's reduced number of dopamine receptors leads to tolerance and ______, a diminished capacity to enjoy ordinary pleasures.",
+        "paragraphReference": 2,
+        "correctAnswer": "anhedonia",
+        "explanation": "Paragraph 2 states the result of downregulation is tolerance and anhedonia, a diminished capacity to enjoy ordinary pleasures.",
+        "keywordsInPassage": ["anhedonia", "diminished capacity", "ordinary pleasures"],
+        "paraphrasing": "Receptor reduction produces both the need for more drug and a reduced ability to feel normal joy."
+      }
+    ]
+  }
+]

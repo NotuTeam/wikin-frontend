@@ -1,0 +1,863 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a comparative literature lecture on how translation shapes the reception of literary works across cultures.",
+    "audioScript": "Situation: A university lecturer delivers a comparative literature lecture examining the role of translation in shaping the cross-cultural reception of literary works.\nProfessor Chen: Good morning. Today we explore a question at the heart of comparative literature: how does translation influence the way a literary work is received across different cultures?\nProfessor Chen: Many readers assume a translation is a transparent window onto the original, but scholars argue it is an act of reinterpretation. The translator makes hundreds of choices, each shaped by cultural assumptions.\nProfessor Chen: Consider Gabriel Garcia Marquez's One Hundred Years of Solitude. Gregory Rabassa's English translation, published in nineteen seventy, was praised by Marquez himself as superior to the Spanish original in certain passages.\nProfessor Chen: This raises the concept of fidelity. Traditional approaches privilege literal accuracy, preserving word-for-word meaning. In contrast, dynamic equivalence, a term coined by Eugene Nida, prioritises the reader's emotional response over literal phrasing.\nProfessor Chen: Translation also determines canon formation. Works translated into dominant languages such as English or French gain far wider international circulation. Conversely, literature from smaller language communities may remain invisible.\nProfessor Chen: The Nobel Prize illustrates this bias. Over seventy per cent of laureates write in English, French, or German, partly because translation infrastructure for these languages is far more developed.\nProfessor Chen: Furthermore, post-colonial scholars like Tejaswini Niranjana argue that translation can reinforce power imbalances, as colonisers' languages often frame the colonised culture in reductive terms.\nProfessor Chen: In conclusion, comparative literature reminds us that translation is never neutral. It is a creative, political act that shapes which stories travel and how they are understood.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Chen", "accent": "BRITISH", "gender": "FEMALE", "role": "comparative literature lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the central question of the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Whether translation is always inferior to the original", "How translation influences cross-cultural reception of literary works", "Why English dominates world literature", "How Nobel laureates are selected"],
+        "keywords": ["translation", "reception", "cultures"],
+        "synonymsUsed": ["cross-cultural", "influence"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do scholars view the act of translation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["As a mechanical process", "As unnecessary for great works", "As an act of reinterpretation shaped by cultural assumptions", "As a purely linguistic exercise"],
+        "keywords": ["reinterpretation", "cultural assumptions", "choices"],
+        "synonymsUsed": ["reinterpret", "shaped by"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did Marquez say about Gregory Rabassa's English translation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It was superior to the Spanish original in certain passages", "It was inferior and distorted his work", "It was adequate but not remarkable", "It should never have been published"],
+        "keywords": ["Rabassa", "Marquez", "superior"],
+        "synonymsUsed": ["praised", "English translation"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the traditional approach to fidelity emphasise?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The reader's emotional response", "Literal accuracy, preserving word-for-word meaning", "Dynamic equivalence", "Free adaptation"],
+        "keywords": ["fidelity", "literal accuracy", "word-for-word"],
+        "synonymsUsed": ["traditional", "preserve"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who coined the term 'dynamic equivalence'?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Gabriel Garcia Marquez", "Tejaswini Niranjana", "Eugene Nida", "Gregory Rabassa"],
+        "keywords": ["dynamic equivalence", "coined", "Eugene Nida"],
+        "synonymsUsed": ["term", "introduced"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does dynamic equivalence prioritise over literal phrasing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The reader's emotional response", "Grammatical precision", "Historical accuracy", "Rhyme and metre"],
+        "keywords": ["dynamic equivalence", "reader's emotional response"],
+        "synonymsUsed": ["prioritises", "feeling"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do works translated into dominant languages gain wider circulation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Because they are always better written", "Because translation infrastructure for these languages is more developed", "Because smaller languages have no literature worth reading", "Because dominant languages are easier to learn"],
+        "keywords": ["dominant languages", "circulation", "infrastructure"],
+        "synonymsUsed": ["wider", "translation resources"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Approximately what percentage of Nobel laureates write in English, French, or German?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Around thirty per cent", "Around fifty per cent", "Over seventy per cent", "Over ninety per cent"],
+        "keywords": ["Nobel", "seventy per cent", "laureates"],
+        "synonymsUsed": ["prize winners", "proportion"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do post-colonial scholars like Niranjana argue about translation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It can reinforce power imbalances and frame colonised cultures in reductive terms", "It has no political dimension", "It always liberates marginalised voices", "It should be abandoned entirely"],
+        "keywords": ["post-colonial", "power imbalances", "reductive"],
+        "synonymsUsed": ["reinforce", "colonised"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does Professor Chen conclude about translation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It is a neutral mechanical transfer", "It is only relevant to minor literatures", "It is a creative, political act that shapes which stories travel", "It is declining in importance"],
+        "keywords": ["conclusion", "creative", "political act"],
+        "synonymsUsed": ["summarises", "shapes"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "reinterpretation", "pronunciationNote": "/ˌriːɪntɜːprɪˈteɪʃən/", "meaning": "The act of interpreting or understanding something in a new way." },
+      { "word": "fidelity", "meaning": "Accuracy in reproducing the original text; faithfulness to the source." },
+      { "word": "dynamic equivalence", "meaning": "A translation approach prioritising the reader's response over literal phrasing." },
+      { "word": "canon formation", "meaning": "The process by which certain literary works come to be recognised as important or authoritative." },
+      { "word": "power imbalances", "meaning": "Unequal distribution of influence between groups, often along colonial or linguistic lines." },
+      { "word": "reductive", "pronunciationNote": "/rɪˈdʌktɪv/", "meaning": "Oversimplifying something, stripping it of complexity." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a materials science lecture on the properties and applications of shape-memory alloys.",
+    "audioScript": "Situation: A materials science professor delivers a lecture on shape-memory alloys, their crystalline structure, and engineering applications.\nDr Patel: Today we examine one of the most fascinating classes of smart materials: shape-memory alloys, or SMAs. These are metals that can recover their original shape after deformation when heated.\nDr Patel: The best-known example is Nitinol, an alloy of nickel and titanium, discovered at the Naval Ordnance Laboratory in the nineteen sixties. The name combines NIckel, TItanium, and Naval Ordnance Laboratory.\nDr Patel: The key to this behaviour lies in a solid-state phase transformation between two crystal structures: martensite, stable at lower temperatures, and austenite, stable at higher temperatures.\nDr Patel: In the martensitic phase, the crystal is twinned, meaning it can deform easily through a mechanism called detwinning, without breaking bonds. When heated, the material transforms back to austenite and recovers its original shape.\nDr Patel: This recovery is remarkably powerful. Nitinol can generate stresses of up to six hundred megapascals during recovery, making it useful for actuators in confined spaces where conventional motors cannot fit.\nDr Patel: Medical applications are especially significant. Nitinol stents are compressed, inserted into a blood vessel, and then expand to body temperature, holding open a blocked artery. Orthodontic wires also exploit the superelastic effect.\nDr Patel: Superelasticity occurs when stress, rather than heat, induces the phase transformation. The material can stretch up to eight per cent and spring back, far beyond ordinary metals.\nDr Patel: However, challenges remain. Fatigue life is limited by cyclic loading, and precise control of transformation temperatures requires careful composition tuning. Cost is also a factor, as titanium is expensive.\nDr Patel: Despite these limitations, SMAs represent a remarkable intersection of physics and engineering, turning a crystalline phase change into a usable mechanical function.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr Patel", "accent": "BRITISH", "gender": "MALE", "role": "materials science professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the defining property of shape-memory alloys?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["They become stronger when cooled", "They conduct electricity at room temperature", "They recover their original shape after deformation when heated", "They change colour under stress"],
+        "keywords": ["shape-memory", "recover", "heated"],
+        "synonymsUsed": ["restore", "deformation"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Nitinol an alloy of?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Nickel and titanium", "Copper and zinc", "Iron and carbon", "Aluminium and magnesium"],
+        "keywords": ["Nitinol", "nickel", "titanium"],
+        "synonymsUsed": ["alloy", "composed of"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When and where was Nitinol discovered?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At MIT in the nineteen eighties", "At the Naval Ordnance Laboratory in the nineteen sixties", "At Cambridge in the nineteen fifties", "At NASA in the nineteen seventies"],
+        "keywords": ["Nitinol", "Naval Ordnance Laboratory", "nineteen sixties"],
+        "synonymsUsed": ["discovered", "found"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which crystal structure is stable at lower temperatures?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Martensite", "Austenite", "Ferrite", "Pearlite"],
+        "keywords": ["martensite", "lower temperatures", "crystal"],
+        "synonymsUsed": ["phase", "stable"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the martensitic phase deform without breaking bonds?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Through melting and resolidification", "Through a mechanism called detwinning", "Through rapid oxidation", "Through grain boundary sliding"],
+        "keywords": ["martensitic", "detwinning", "deform"],
+        "synonymsUsed": ["mechanism", "without breaking"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much stress can Nitinol generate during recovery?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Up to sixty megapascals", "Up to two hundred megapascals", "Up to six hundred megapascals", "Up to six thousand megapascals"],
+        "keywords": ["stress", "six hundred megapascals", "recovery"],
+        "synonymsUsed": ["generate", "force"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do Nitinol stents work in the body?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They are implanted surgically and never move", "They are compressed, inserted, then expand at body temperature to hold open an artery", "They dissolve after one month", "They require an external power source"],
+        "keywords": ["stents", "expand", "body temperature"],
+        "synonymsUsed": ["blood vessel", "compressed"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What causes superelasticity?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Stress rather than heat induces the phase transformation", "Exposure to ultraviolet light", "Magnetic fields", "Rapid cooling below zero degrees"],
+        "keywords": ["superelasticity", "stress", "phase transformation"],
+        "synonymsUsed": ["induced", "triggered"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How far can a superelastic material stretch and still spring back?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Up to one per cent", "Up to three per cent", "Up to eight per cent", "Up to twenty per cent"],
+        "keywords": ["stretch", "eight per cent", "spring back"],
+        "synonymsUsed": ["extend", "recover"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a major challenge limiting SMA applications?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They are too heavy for most uses", "Fatigue life is limited by cyclic loading and cost is high", "They corrode instantly in air", "They cannot operate below freezing"],
+        "keywords": ["challenge", "fatigue life", "cyclic loading"],
+        "synonymsUsed": ["limitation", "cost"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "shape-memory alloy", "pronunciationNote": "/ʃeɪp ˈmɛməri ˈælɔɪ/", "meaning": "A metal that recovers its original shape after deformation when heated." },
+      { "word": "martensite", "meaning": "A crystal structure stable at lower temperatures in SMAs, characterised by twinning." },
+      { "word": "austenite", "meaning": "The high-temperature crystal structure of SMAs, which the material returns to upon heating." },
+      { "word": "detwinning", "meaning": "The mechanism by which twinned martensite deforms without breaking atomic bonds." },
+      { "word": "superelasticity", "pronunciationNote": "/ˌsuːpərɪlæsˈtɪsɪti/", "meaning": "The ability to stretch significantly and recover instantly when stress is removed." },
+      { "word": "actuator", "meaning": "A device that converts energy into mechanical motion." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a public health epidemiology lecture on how outbreaks are investigated and controlled.",
+    "audioScript": "Situation: A public health professor delivers a lecture on the principles of outbreak investigation and disease control in epidemiology.\nProfessor Adeyemi: Good afternoon. Today we walk through the systematic steps epidemiologists use to investigate and control disease outbreaks.\nProfessor Adeyemi: The process begins with surveillance. Public health agencies monitor data from hospitals, laboratories, and even search engine queries to detect unusual clusters of illness.\nProfessor Adeyemi: Step one is confirming an outbreak exists. We compare current case counts against a baseline, the expected number of cases for that time and place. Only a statistically significant increase triggers a full investigation.\nProfessor Adeyemi: Step two is defining a case. A case definition specifies clinical criteria, time, place, and person. Without a clear definition, we cannot distinguish real cases from background noise.\nProfessor Adeyemi: Step three involves identifying cases systematically and recording details on a line listing, a table capturing each patient's age, sex, onset date, and exposure history.\nProfessor Adeyemi: Step four is descriptive epidemiology. We characterise cases by time, in an epidemic curve, by place, on a spot map, and by person, analysing age and sex distributions.\nProfessor Adeyemi: Step five is developing hypotheses. For example, if cases cluster around a restaurant, we hypothesise contaminated food. We then test this with analytic studies, typically a cohort or case-control design.\nProfessor Adeyemi: In a case-control study, we compare exposures among ill cases versus healthy controls. If a food item shows a high odds ratio, it becomes a prime suspect.\nProfessor Adeyemi: Finally, control measures are implemented, such as recalling contaminated products, and findings are communicated to the public. The ultimate goal is prevention, not just treatment.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Adeyemi", "accent": "BRITISH", "gender": "FEMALE", "role": "public health professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the lecture mainly about?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The systematic steps used to investigate and control disease outbreaks", "The history of antibiotics", "How to design a hospital", "Vaccine manufacturing"],
+        "keywords": ["outbreak investigation", "control", "steps"],
+        "synonymsUsed": ["systematic", "process"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What sources does surveillance monitor to detect unusual illness clusters?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Only government census data", "Only patient surveys", "Hospitals, laboratories, and even search engine queries", "Pharmaceutical sales records alone"],
+        "keywords": ["surveillance", "hospitals", "search engine queries"],
+        "synonymsUsed": ["monitor", "detect"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is an outbreak confirmed in step one?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["By finding at least one death", "By comparing current case counts against a baseline of expected cases", "By declaring an emergency immediately", "By testing every citizen"],
+        "keywords": ["confirm", "baseline", "expected"],
+        "synonymsUsed": ["compare", "trigger"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does a case definition specify?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Only the patient's name and address", "Only the treatment plan", "Clinical criteria, time, place, and person", "The cost of care"],
+        "keywords": ["case definition", "clinical criteria", "time place person"],
+        "synonymsUsed": ["specifies", "defines"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a line listing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A table capturing each patient's age, sex, onset date, and exposure history", "A graph of deaths over time", "A list of hospital staff", "A budget for the investigation"],
+        "keywords": ["line listing", "table", "age sex onset"],
+        "synonymsUsed": ["record", "capturing"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does descriptive epidemiology use to characterise cases by time?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A spot map", "An epidemic curve", "A line listing", "A bar chart of costs"],
+        "keywords": ["descriptive epidemiology", "epidemic curve", "time"],
+        "synonymsUsed": ["characterise", "by time"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How are cases characterised by place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["On a spot map", "In a pie chart", "In a narrative report", "By telephone survey"],
+        "keywords": ["place", "spot map"],
+        "synonymsUsed": ["geographic", "map"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What two study designs are typically used to test hypotheses?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Randomised trial and meta-analysis", "Cross-sectional and ecological", "Cohort and case-control", "Laboratory experiment and survey"],
+        "keywords": ["analytic studies", "cohort", "case-control"],
+        "synonymsUsed": ["design", "test"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In a case-control study, what does a high odds ratio for a food item indicate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The food is safe to eat", "It becomes a prime suspect", "The study was flawed", "The outbreak is over"],
+        "keywords": ["case-control", "odds ratio", "prime suspect"],
+        "synonymsUsed": ["indicator", "suspect"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the ultimate goal of epidemiology, according to the professor?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Prevention, not just treatment", "Profitable drug development", "Publishing research papers", "Closing hospitals"],
+        "keywords": ["goal", "prevention", "treatment"],
+        "synonymsUsed": ["ultimate", "aim"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "surveillance", "pronunciationNote": "/səˈveɪləns/", "meaning": "The systematic monitoring of health data to detect disease patterns." },
+      { "word": "baseline", "meaning": "The expected number of cases for a given time and place, used for comparison." },
+      { "word": "case definition", "meaning": "A set of clinical and demographic criteria used to identify cases in an outbreak." },
+      { "word": "epidemic curve", "meaning": "A graph showing the number of cases over time during an outbreak." },
+      { "word": "odds ratio", "meaning": "A statistic comparing the odds of exposure between cases and controls." },
+      { "word": "cohort study", "pronunciationNote": "/ˈkəʊhɔːrt ˈstʌdi/", "meaning": "A study that follows a defined group over time to compare outcomes by exposure." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a mathematics lecture introducing the core concepts of game theory.",
+    "audioScript": "Situation: A mathematics professor delivers an introductory lecture on game theory, covering key concepts such as the Nash equilibrium and the prisoner's dilemma.\nProfessor Lindqvist: Today we introduce game theory, the mathematical study of strategic decision-making among rational agents.\nProfessor Lindqvist: A game, in this formal sense, consists of three elements: players, strategies, and payoffs. Each player chooses a strategy, and the combination of choices determines a payoff for every player.\nProfessor Lindqvist: The most famous example is the prisoner's dilemma. Two suspects are interrogated separately. If both stay silent, each gets one year. If both betray, each gets three years. If one betrays and the other stays silent, the betrayer goes free and the silent one gets five years.\nProfessor Lindqvist: Rational analysis shows that betraying always yields a better individual outcome regardless of the other's choice. Yet when both reason this way, they each get three years, worse than the one year they would have received by cooperating.\nProfessor Lindqvist: This leads us to the concept of dominant strategy, a strategy that is best regardless of what opponents do. In the prisoner's dilemma, betrayal is the dominant strategy for both players.\nProfessor Lindqvist: The resulting outcome is a Nash equilibrium, named after John Nash, the mathematician portrayed in the film A Beautiful Mind. A Nash equilibrium is a set of strategies where no player can improve their payoff by unilaterally changing strategy.\nProfessor Lindqvist: Crucially, Nash equilibrium does not guarantee the best collective outcome. The prisoner's dilemma equilibrium yields three years each, while mutual silence would yield one year each.\nProfessor Lindqvist: Game theory extends far beyond prisoners. It models pricing wars between firms, arms races between nations, and even evolutionary strategies in biology, where John Maynard Smith applied it to animal behaviour.\nProfessor Lindqvist: In evolutionary biology, an evolutionary stable strategy is one that, if adopted by a population, cannot be invaded by a mutant strategy. This connects game theory to natural selection.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Lindqvist", "accent": "BRITISH", "gender": "MALE", "role": "mathematics professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does game theory study?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The history of board games", "The psychology of gambling", "Strategic decision-making among rational agents", "The mathematics of probability"],
+        "keywords": ["game theory", "strategic decision-making", "rational agents"],
+        "synonymsUsed": ["study", "agents"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the three elements of a formal game?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Players, strategies, and payoffs", "Cards, dice, and boards", "Rules, referees, and scores", "Time, space, and resources"],
+        "keywords": ["elements", "players", "strategies", "payoffs"],
+        "synonymsUsed": ["components", "consists"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In the prisoner's dilemma, what happens if both betray?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Both go free", "Each gets three years", "Each gets one year", "One gets five years"],
+        "keywords": ["both betray", "three years", "prisoner's dilemma"],
+        "synonymsUsed": ["double-cross", "sentence"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens if one betrays and the other stays silent?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The betrayer goes free and the silent one gets five years", "Both get one year", "Both get three years", "The betrayer gets five years"],
+        "keywords": ["betrays", "silent", "five years", "free"],
+        "synonymsUsed": ["double-cross", "goes free"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do both prisoners end up betraying?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Because it is the cooperative choice", "Because betraying always yields a better individual outcome regardless of the other's choice", "Because they cannot communicate and must guess", "Because the police force them"],
+        "keywords": ["betraying", "better individual outcome", "regardless"],
+        "synonymsUsed": ["rational", "dominant"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is a dominant strategy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A strategy that wins every game", "A strategy chosen by the majority", "A strategy that is best regardless of what opponents do", "A strategy that is always cooperative"],
+        "keywords": ["dominant strategy", "best regardless", "opponents"],
+        "synonymsUsed": ["best", "no matter what"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is a Nash equilibrium defined?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A set of strategies where no player can improve by unilaterally changing", "A set of strategies where everyone cooperates", "A strategy that always wins", "A game with no rules"],
+        "keywords": ["Nash equilibrium", "unilaterally", "improve"],
+        "synonymsUsed": ["defined", "no player"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Does Nash equilibrium guarantee the best collective outcome?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Yes, always", "No, the prisoner's dilemma equilibrium yields three years each while mutual silence yields one", "Only in two-player games", "Only in zero-sum games"],
+        "keywords": ["Nash equilibrium", "collective outcome", "three years", "one year"],
+        "synonymsUsed": ["guarantee", "mutual"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who applied game theory to animal behaviour in biology?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["John Nash", "Gregor Mendel", "John Maynard Smith", "Charles Darwin"],
+        "keywords": ["evolutionary biology", "John Maynard Smith", "animal behaviour"],
+        "synonymsUsed": ["applied", "biology"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is an evolutionary stable strategy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["One that, if adopted by a population, cannot be invaded by a mutant strategy", "One that mutates every generation", "One that eliminates all competitors instantly", "One that is always cooperative"],
+        "keywords": ["evolutionary stable strategy", "population", "mutant strategy"],
+        "synonymsUsed": ["stable", "invaded"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "rational agent", "meaning": "A decision-maker who chooses actions to maximise their own payoff." },
+      { "word": "payoff", "pronunciationNote": "/ˈpeɪɒf/", "meaning": "The outcome or reward a player receives from a combination of strategies." },
+      { "word": "prisoner's dilemma", "meaning": "A classic game showing how individual rationality can lead to collectively worse outcomes." },
+      { "word": "dominant strategy", "meaning": "A strategy that yields the best outcome for a player regardless of opponents' choices." },
+      { "word": "Nash equilibrium", "meaning": "A set of strategies where no player benefits by changing only their own strategy." },
+      { "word": "evolutionary stable strategy", "meaning": "A strategy that cannot be displaced by a mutant strategy once adopted by a population." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a behavioural economics lecture on how cognitive biases affect financial decisions.",
+    "audioScript": "Situation: A behavioural economics lecturer introduces how cognitive biases and heuristics influence everyday financial decisions.\nDr Nguyen: Good morning. Today we look at behavioural economics, a field that combines psychology and economics to explain why people make irrational financial choices.\nDr Nguyen: Traditional economics assumes we are Homo economicus, perfectly rational agents who always maximise utility. Behavioural economics shows this is rarely true.\nDr Nguyen: Consider the endowment effect. People demand more to give up something they own than they would pay to acquire it. In one experiment, participants given a mug demanded roughly twice as much to sell it as others were willing to pay to buy it.\nDr Nguyen: This is linked to loss aversion, a concept from Daniel Kahneman and Amos Tversky's prospect theory. We feel losses about twice as intensely as equivalent gains.\nDr Nguyen: Loss aversion explains why investors hold onto losing stocks too long, hoping they recover, while selling winners too early. This is called the disposition effect.\nDr Nguyen: Another key bias is anchoring. When people see an initial number, even an irrelevant one, it skews subsequent estimates. A shirt originally priced at two hundred dollars seems like a bargain at eighty, even if eighty dollars is objectively expensive.\nDr Nguyen: Mental accounting is also important. People treat money differently depending on its source. A tax refund feels like found money to be spent freely, while a salary feels precious and is saved carefully, even though money is fungible.\nDr Nguyen: Richard Thaler won the Nobel Prize in twenty seventeen for showing how these biases systematically affect markets and policy. His nudge theory suggests small design changes in choice architecture can guide better decisions without restricting freedom.\nDr Nguyen: For example, automatically enrolling employees in a pension plan, with an opt-out, dramatically increases savings rates compared to opt-in systems.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr Nguyen", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "behavioural economics lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does behavioural economics combine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Mathematics and history", "Psychology and economics", "Biology and finance", "Sociology and law"],
+        "keywords": ["behavioural economics", "psychology", "economics"],
+        "synonymsUsed": ["combines", "integrates"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does traditional economics assume about people?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They are perfectly rational agents who maximise utility", "They are always generous", "They never save money", "They act randomly"],
+        "keywords": ["traditional economics", "Homo economicus", "rational", "utility"],
+        "synonymsUsed": ["assumes", "maximise"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the endowment effect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["People prefer new items over used ones", "People demand more to give up something they own than they would pay to acquire it", "People always buy the cheapest option", "People value digital goods less than physical ones"],
+        "keywords": ["endowment effect", "own", "give up", "acquire"],
+        "synonymsUsed": ["sell", "buy"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In the mug experiment, how much more did owners demand compared to buyers' willingness to pay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The same amount", "Half as much", "Roughly twice as much", "Ten times as much"],
+        "keywords": ["mug", "twice", "demand"],
+        "synonymsUsed": ["experiment", "willingness"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to prospect theory, how intensely do we feel losses compared to equivalent gains?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Half as intensely", "About twice as intensely", "Equally", "Ten times as intensely"],
+        "keywords": ["loss aversion", "twice", "gains"],
+        "synonymsUsed": ["feel", "intensity"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the disposition effect?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Holding losing stocks too long while selling winners too early", "Buying only blue-chip stocks", "Investing only in bonds", "Diversifying across all sectors"],
+        "keywords": ["disposition effect", "losing stocks", "winners"],
+        "synonymsUsed": ["hold", "sell early"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does anchoring refer to?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Tying investments to gold prices", "An initial number skewing subsequent estimates, even if irrelevant", "Fixing exchange rates", "Setting a minimum wage"],
+        "keywords": ["anchoring", "initial number", "estimates"],
+        "synonymsUsed": ["skews", "influences"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does mental accounting affect a tax refund?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It feels like found money to be spent freely", "It is always invested in stocks", "It feels the same as salary", "It is always donated to charity"],
+        "keywords": ["mental accounting", "tax refund", "found money"],
+        "synonymsUsed": ["freely", "spent"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why did Richard Thaler win the Nobel Prize?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["For inventing the stock exchange", "For showing how biases affect markets and policy through nudge theory", "For discovering loss aversion alone", "For founding modern macroeconomics"],
+        "keywords": ["Thaler", "Nobel", "nudge theory", "biases"],
+        "synonymsUsed": ["awarded", "markets"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does automatic pension enrolment illustrate nudge theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It forces everyone to save exactly the same amount", "It punishes those who do not save", "Opt-out enrolment dramatically increases savings rates without restricting freedom", "It eliminates the need for pensions"],
+        "keywords": ["pension", "opt-out", "savings rates"],
+        "synonymsUsed": ["enrolment", "increase"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "Homo economicus", "pronunciationNote": "/ˈhɒməʊ iːkəˈnɒmɪkəs/", "meaning": "The traditional economic model of a perfectly rational, self-interested decision-maker." },
+      { "word": "endowment effect", "meaning": "The tendency to value something more highly once one owns it." },
+      { "word": "loss aversion", "meaning": "The psychological tendency to feel losses more intensely than equivalent gains." },
+      { "word": "anchoring", "meaning": "The cognitive bias where an initial piece of information influences subsequent judgements." },
+      { "word": "mental accounting", "meaning": "The tendency to treat money differently depending on its source or intended use." },
+      { "word": "nudge theory", "meaning": "The idea that small changes in choice architecture can guide better decisions without limiting freedom." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a conservation biology lecture on the design of nature reserves and wildlife corridors.",
+    "audioScript": "Situation: A conservation biology lecturer discusses how reserve design and wildlife corridors help protect biodiversity in fragmented landscapes.\nDr Olawale: Good morning. Today we examine a central challenge in conservation biology: how to design protected areas that sustain biodiversity in landscapes fragmented by human activity.\nDr Olawale: The classic principle comes from Robert MacArthur and E. O. Wilson's theory of island biogeography, published in nineteen sixty-seven. Larger islands, and by analogy larger reserves, support more species.\nDr Olawale: A key metric is the species-area relationship. Doubling the area of a reserve typically increases species count by roughly twenty-five to fifty per cent, depending on the taxonomic group.\nDr Olawale: Shape matters too. Circular reserves minimise edge effects, where the boundary between habitat and disturbed land creates harsher conditions such as wind, invasive species, and predation.\nDr Olawale: Edge effects are particularly damaging for forest-interior species. A long, thin reserve has a high ratio of edge to interior, reducing the effective habitat for sensitive species.\nDr Olawale: Connectivity is the second major principle. Wildlife corridors, strips of habitat linking isolated reserves, allow animals to move between patches for feeding, mating, and genetic exchange.\nDr Olawale: Without corridors, small isolated populations suffer from inbreeding depression, where reduced genetic diversity lowers fertility and disease resistance.\nDr Olawale: A famous success story is the Banff wildlife overpasses in Canada. Built over the Trans-Canada Highway, these structures reduced wildlife-vehicle collisions by over eighty per cent and enabled grizzly bears and elk to cross safely.\nDr Olawale: However, corridors are not a panacea. They can facilitate the spread of diseases and invasive species, and their effectiveness depends on width, vegetation quality, and the target species' behaviour.\nDr Olawale: In conclusion, effective conservation requires thinking at the landscape scale, combining well-designed reserves with strategic connectivity to ensure long-term population viability.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Dr Olawale", "accent": "BRITISH", "gender": "MALE", "role": "conservation biology lecturer" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main challenge discussed in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Designing protected areas that sustain biodiversity in fragmented landscapes", "Stopping all human development", "Banning hunting worldwide", "Reintroducing extinct species"],
+        "keywords": ["protected areas", "biodiversity", "fragmented"],
+        "synonymsUsed": ["sustain", "reserves"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Whose theory underpins the principle that larger reserves support more species?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Charles Darwin and Alfred Russel Wallace", "Robert MacArthur and E. O. Wilson", "Gregor Mendel and Thomas Hunt Morgan", "Jane Goodall and David Attenborough"],
+        "keywords": ["MacArthur", "Wilson", "island biogeography"],
+        "synonymsUsed": ["theory", "principle"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When was the theory of island biogeography published?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Nineteen fifty-seven", "Nineteen sixty-two", "Nineteen sixty-seven", "Nineteen seventy-five"],
+        "keywords": ["published", "nineteen sixty-seven"],
+        "synonymsUsed": ["released", "year"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the species-area relationship, what does doubling reserve area do?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Doubles the species count exactly", "Increases species count by roughly twenty-five to fifty per cent", "Has no effect on species count", "Decreases species count"],
+        "keywords": ["species-area", "doubling", "twenty-five to fifty per cent"],
+        "synonymsUsed": ["increase", "area"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why are circular reserves considered preferable?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They minimise edge effects", "They are easier to patrol", "They cost less to maintain", "They attract more tourists"],
+        "keywords": ["circular", "edge effects", "minimise"],
+        "synonymsUsed": ["shape", "reduce"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which type of species is particularly harmed by edge effects?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Edge-dwelling species", "Forest-interior species", "Migratory birds only", "Aquatic species"],
+        "keywords": ["edge effects", "forest-interior species"],
+        "synonymsUsed": ["harmed", "sensitive"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main purpose of wildlife corridors?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["To attract tourists", "To generate revenue from logging", "To allow animals to move between patches for feeding, mating, and genetic exchange", "To separate predator and prey populations"],
+        "keywords": ["corridors", "move", "genetic exchange"],
+        "synonymsUsed": ["link", "connect"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to small isolated populations without corridors?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They suffer from inbreeding depression", "They evolve faster", "They become immune to disease", "They always adapt successfully"],
+        "keywords": ["isolated", "inbreeding depression", "genetic diversity"],
+        "synonymsUsed": ["suffer", "without corridors"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How effective were the Banff wildlife overpasses?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["They had no measurable effect", "They reduced wildlife-vehicle collisions by over eighty per cent", "They eliminated all collisions completely", "They increased collisions temporarily"],
+        "keywords": ["Banff", "overpasses", "eighty per cent", "collisions"],
+        "synonymsUsed": ["reduced", "success"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is one drawback of wildlife corridors mentioned in the lecture?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They can facilitate the spread of diseases and invasive species", "They are always too expensive to build", "They permanently block human migration", "They reduce biodiversity overall"],
+        "keywords": ["drawback", "diseases", "invasive species"],
+        "synonymsUsed": ["facilitate", "panacea"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "island biogeography", "pronunciationNote": "/ˈaɪlənd ˌbaɪəʊɡiˈɒɡrəfi/", "meaning": "A theory explaining how the size and isolation of habitat patches affect species diversity." },
+      { "word": "species-area relationship", "meaning": "The pattern where larger habitat areas generally contain more species." },
+      { "word": "edge effect", "meaning": "Changes in environmental conditions at the boundary between habitat and disturbed land." },
+      { "word": "wildlife corridor", "meaning": "A strip of habitat connecting isolated reserves, allowing animal movement." },
+      { "word": "inbreeding depression", "meaning": "Reduced biological fitness in small populations due to mating among closely related individuals." },
+      { "word": "panacea", "pronunciationNote": "/ˌpænəˈsiːə/", "meaning": "A supposed cure-all; a solution that solves every problem." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_4",
+    "questionText": "Listen to a forensic science lecture on how DNA profiling is used to identify suspects.",
+    "audioScript": "Situation: A forensic science professor delivers a lecture on the principles and limitations of DNA profiling in criminal investigations.\nProfessor Tanaka: Good afternoon. Today we examine how forensic scientists use DNA profiling to identify suspects, and the limitations of this powerful technique.\nProfessor Tanaka: DNA profiling exploits the fact that, except for identical twins, every person's DNA is unique. The technique focuses not on genes that code for traits, but on non-coding regions called short tandem repeats, or STRs.\nProfessor Tanaka: STRs are sequences of two to six DNA bases repeated consecutively. The number of repeats varies greatly between individuals. By examining multiple STR loci, scientists generate a genetic fingerprint.\nProfessor Tanaka: The current standard in many countries is the thirteen-loci system. The chance that two unrelated individuals match at all thirteen loci is approximately one in a trillion, making false matches extraordinarily unlikely.\nProfessor Tanaka: However, the process has limitations. Contamination is the most serious risk. A single skin cell from a technician can produce a secondary DNA profile, confusing interpretation.\nProfessor Tanaka: Low-template DNA, from tiny or degraded samples, produces partial profiles that are harder to interpret. Analysts must use statistical methods to assess the weight of such evidence.\nProfessor Tanaka: Another challenge is mixed samples, where DNA from multiple contributors is combined. Separating contributors requires sophisticated software and expert judgement.\nProfessor Tanaka: The concept of the 'prosecutor's fallacy' is also critical. This is the erroneous conflation of two probabilities: the chance of a match given innocence, and the chance of innocence given a match. They are not the same.\nProfessor Tanaka: Finally, DNA databases raise privacy concerns. In the UK, the National DNA Database holds over six million profiles. Balancing investigative power with civil liberties remains an ongoing debate.\nProfessor Tanaka: In summary, DNA profiling is a forensic cornerstone, but it requires rigorous quality control, careful statistical interpretation, and awareness of its limitations.",
+    "context": {
+      "setting": "ACADEMIC_LECTURE",
+      "speakers": [
+        { "name": "Professor Tanaka", "accent": "BRITISH", "gender": "FEMALE", "role": "forensic science professor" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What regions of DNA does profiling focus on?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Genes that code for visible traits", "Non-coding regions called short tandem repeats", "Mitochondrial genes only", "The entire genome sequenced end to end"],
+        "keywords": ["non-coding", "short tandem repeats", "STRs"],
+        "synonymsUsed": ["focus", "regions"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many DNA bases make up a typical STR repeat unit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two to six bases", "Ten to twenty bases", "One hundred bases", "Exactly one base"],
+        "keywords": ["STR", "two to six", "bases"],
+        "synonymsUsed": ["repeat unit", "length"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What varies greatly between individuals in STRs?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The type of bases used", "The number of repeats", "The chromosome location", "The colour of the DNA"],
+        "keywords": ["number of repeats", "varies", "individuals"],
+        "synonymsUsed": ["differs", "varies"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many loci are in the current standard system in many countries?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Five loci", "Eight loci", "Thirteen loci", "Twenty-five loci"],
+        "keywords": ["thirteen loci", "standard", "system"],
+        "synonymsUsed": ["current", "loci"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the chance of two unrelated individuals matching at all standard loci?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One in a thousand", "Approximately one in a trillion", "One in two", "One in a billion"],
+        "keywords": ["unrelated", "trillion", "match"],
+        "synonymsUsed": ["probability", "false match"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the most serious risk in DNA profiling?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Contamination from a technician's skin cell", "The cost of equipment", "The time taken to process", "The weight of the samples"],
+        "keywords": ["contamination", "skin cell", "risk"],
+        "synonymsUsed": ["serious", "technician"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What problem do low-template or degraded samples produce?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Perfectly clear profiles", "Partial profiles that are harder to interpret", "No DNA at all", "Artificially complete profiles"],
+        "keywords": ["low-template", "partial profiles", "degraded"],
+        "synonymsUsed": ["tiny samples", "harder"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the prosecutor's fallacy confuse?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The chance of a match given innocence and the chance of innocence given a match", "The cost of testing and its accuracy", "DNA and fingerprint evidence", "Civil and criminal law"],
+        "keywords": ["prosecutor's fallacy", "match given innocence", "innocence given match"],
+        "synonymsUsed": ["conflation", "probabilities"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many profiles does the UK National DNA Database hold?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Over six thousand", "Over six hundred thousand", "Over six million", "Over six hundred million"],
+        "keywords": ["UK", "National DNA Database", "six million"],
+        "synonymsUsed": ["holds", "profiles"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does Professor Tanaka conclude about DNA profiling?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It is flawless and needs no oversight", "It should be replaced by fingerprinting", "It is a forensic cornerstone requiring rigorous quality control and statistical care", "It is too unreliable to use in court"],
+        "keywords": ["conclusion", "cornerstone", "quality control"],
+        "synonymsUsed": ["summary", "requires"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "short tandem repeat", "pronunciationNote": "/ʃɔːt ˈtændəm rɪˈpiːt/", "meaning": "A short sequence of DNA bases repeated consecutively, used in profiling." },
+      { "word": "loci", "pronunciationNote": "/ˈləʊsaɪ/", "meaning": "The specific physical positions of genes or sequences on a chromosome." },
+      { "word": "contamination", "meaning": "The unintended introduction of foreign DNA into a forensic sample." },
+      { "word": "low-template DNA", "meaning": "DNA from very small or degraded samples, producing partial profiles." },
+      { "word": "prosecutor's fallacy", "meaning": "The error of confusing the probability of evidence given innocence with the probability of innocence given evidence." },
+      { "word": "genetic fingerprint", "meaning": "A unique pattern of DNA markers used to identify an individual." }
+    ],
+    "difficulty": "MEDIUM"
+  }
+]

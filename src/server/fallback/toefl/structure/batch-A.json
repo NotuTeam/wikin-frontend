@@ -1,0 +1,1010 @@
+[
+  {
+    "questionNumber": 1,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The number of students enrolled in the advanced chemistry course ___ increased significantly this semester.",
+    "options": [
+      "have",
+      "has",
+      "are",
+      "is"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+    "explanation": {
+      "correctAnswer": "The singular subject 'The number' requires the singular verb 'has', not the plural 'have'.",
+      "grammarRule": "The phrase 'the number of' takes a singular verb because 'number' is the head noun, whereas 'a number of' takes a plural verb.",
+      "example": "The number of applicants has risen every year since 2010.",
+      "commonMistake": "Learners often choose 'have' because they see the plural noun 'students' nearby."
+    }
+  },
+  {
+    "questionNumber": 2,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Ever since the new laboratory was built, researchers ___ a cure for the rare disease.",
+    "options": [
+      "sought",
+      "have been seeking",
+      "are seeking",
+      "were seeking"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_TENSE",
+    "explanation": {
+      "correctAnswer": "The present perfect continuous 'have been seeking' indicates an action that started in the past and continues to the present.",
+      "grammarRule": "Use present perfect continuous (have/has been + -ing) with 'since' or 'for' to show an ongoing action that began in the past.",
+      "example": "She has been studying French since she moved to Paris.",
+      "commonMistake": "Using the simple past 'sought' incorrectly suggests the search has ended."
+    }
+  },
+  {
+    "questionNumber": 3,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The committee (A)demanded that the proposal (B)is revised (C)before it (D)could be approved.",
+    "underlinedParts": [
+      { "text": "demanded that the proposal", "index": 1, "isCorrectAnswer": false },
+      { "text": "is revised", "index": 2, "isCorrectAnswer": true },
+      { "text": "before it", "index": 3, "isCorrectAnswer": false },
+      { "text": "could be approved", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "demanded that the proposal",
+      "is revised",
+      "before it",
+      "could be approved"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_FORM",
+    "explanation": {
+      "correctAnswer": "After 'demand that', the subjunctive base form 'be revised' is required, not the indicative 'is revised'.",
+      "grammarRule": "Verbs of demand or request (demand, insist, require, suggest) are followed by a 'that' clause using the base form of the verb.",
+      "example": "The manager demanded that the report be completed by noon.",
+      "commonMistake": "Learners often use the third-person singular 'is revised' instead of the subjunctive 'be revised'."
+    }
+  },
+  {
+    "questionNumber": 4,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The regulations state that all participants ___ wear protective gear while inside the facility.",
+    "options": [
+      "must",
+      "ought",
+      "might have",
+      "could have"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "MODALS",
+    "explanation": {
+      "correctAnswer": "The modal 'must' expresses a strong obligation or requirement set by the regulations.",
+      "grammarRule": "Use 'must' to express necessity or obligation imposed by an external authority; 'ought' requires 'to' before the verb.",
+      "example": "All employees must attend the safety briefing on their first day.",
+      "commonMistake": "Learners sometimes choose 'ought' without adding 'to', or use perfect modals that imply past possibility."
+    }
+  },
+  {
+    "questionNumber": 5,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The training program involves attending lectures, participating in workshops, and ___ a final project.",
+    "options": [
+      "to submit",
+      "submitting",
+      "submission of",
+      "submit"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PARALLEL_STRUCTURE",
+    "explanation": {
+      "correctAnswer": "The gerund 'submitting' maintains parallel structure with 'attending' and 'participating'.",
+      "grammarRule": "Items joined in a series after a common verb must use the same grammatical form, here all gerunds.",
+      "example": "The job requires writing reports, analyzing data, and presenting findings.",
+      "commonMistake": "Mixing a gerund with an infinitive 'to submit' breaks the parallel pattern."
+    }
+  },
+  {
+    "questionNumber": 6,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "This is (A)the most beautiful (B)of the two paintings (C)displayed in (D)the gallery.",
+    "underlinedParts": [
+      { "text": "the most beautiful", "index": 1, "isCorrectAnswer": true },
+      { "text": "of the two paintings", "index": 2, "isCorrectAnswer": false },
+      { "text": "displayed in", "index": 3, "isCorrectAnswer": false },
+      { "text": "the gallery", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "the most beautiful",
+      "of the two paintings",
+      "displayed in",
+      "the gallery"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+    "explanation": {
+      "correctAnswer": "When comparing only two items, the comparative 'the more beautiful' should be used, not the superlative 'the most beautiful'.",
+      "grammarRule": "Use the comparative form when comparing two items; reserve the superlative for three or more.",
+      "example": "She is the taller of the two children.",
+      "commonMistake": "Learners often default to the superlative even when only two items are being compared."
+    }
+  },
+  {
+    "questionNumber": 7,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The new software operates ___ than the previous version, saving users considerable time.",
+    "options": [
+      "more efficient",
+      "more efficiently",
+      "most efficiently",
+      "efficient"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "ADJECTIVE_ADVERB",
+    "explanation": {
+      "correctAnswer": "The adverb 'more efficiently' modifies the verb 'operates' and uses the comparative form because two versions are compared.",
+      "grammarRule": "Adverbs (not adjectives) modify verbs. Use the comparative adverb '-ly + more' when comparing two actions.",
+      "example": "She drives more carefully than her brother.",
+      "commonMistake": "Using the adjective 'more efficient' to modify a verb is a common error."
+    }
+  },
+  {
+    "questionNumber": 8,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The professor gave (A)an advice (B)to the student (C)who was struggling (D)with the assignment.",
+    "underlinedParts": [
+      { "text": "an advice", "index": 1, "isCorrectAnswer": true },
+      { "text": "to the student", "index": 2, "isCorrectAnswer": false },
+      { "text": "who was struggling", "index": 3, "isCorrectAnswer": false },
+      { "text": "with the assignment", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "an advice",
+      "to the student",
+      "who was struggling",
+      "with the assignment"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "COUNT_NONCOUNT_NOUNS",
+    "explanation": {
+      "correctAnswer": "'Advice' is a noncount noun and cannot take the indefinite article 'an'; it should be 'advice' or 'a piece of advice'.",
+      "grammarRule": "Noncount nouns such as advice, information, and equipment cannot be preceded by 'a' or 'an' and do not take a plural form.",
+      "example": "She gave me some valuable advice about the interview.",
+      "commonMistake": "Learners often treat noncount nouns as countable, writing 'an advice' or 'advices'."
+    }
+  },
+  {
+    "questionNumber": 9,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Each of the candidates was asked to present ___ own research proposal during the interview.",
+    "options": [
+      "their",
+      "its",
+      "his or her",
+      "our"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "PRONOUN_REFERENCE",
+    "explanation": {
+      "correctAnswer": "The singular antecedent 'Each' requires a singular pronoun 'his or her' in formal written English.",
+      "grammarRule": "When the antecedent is singular and gender-neutral (each, every, anyone), use a singular pronoun such as 'his or her' in formal writing.",
+      "example": "Each student must submit his or her essay by Friday.",
+      "commonMistake": "Using the plural 'their' with the singular 'Each' is common in speech but considered incorrect in formal writing."
+    }
+  },
+  {
+    "questionNumber": 10,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Between you and ___, the new manager is unlikely to remain in the position for very long.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PRONOUN_FORM",
+    "explanation": {
+      "correctAnswer": "The pronoun 'me' is the object of the preposition 'between', so the object form is required.",
+      "grammarRule": "After a preposition, use the objective case of pronouns (me, him, her, us, them), not the subjective case.",
+      "example": "The decision rests entirely between him and her.",
+      "commonMistake": "Learners sometimes use 'I' after a preposition, incorrectly applying the subjective form."
+    }
+  },
+  {
+    "questionNumber": 11,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The train (A)is accustomed to (B)arrive (C)at the station (D)punctually every morning.",
+    "underlinedParts": [
+      { "text": "is accustomed to", "index": 1, "isCorrectAnswer": false },
+      { "text": "arrive", "index": 2, "isCorrectAnswer": true },
+      { "text": "at the station", "index": 3, "isCorrectAnswer": false },
+      { "text": "punctually every morning", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "is accustomed to",
+      "arrive",
+      "at the station",
+      "punctually every morning"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "GERUNDS_INFINITIVES",
+    "explanation": {
+      "correctAnswer": "After 'accustomed to', the gerund 'arriving' is required, not the base form 'arrive'.",
+      "grammarRule": "The phrase 'accustomed to' (and 'used to' meaning 'habituated to') is followed by a gerund, not an infinitive.",
+      "example": "She is accustomed to working late on weeknights.",
+      "commonMistake": "Learners confuse 'used to + infinitive' (past habit) with 'accustomed to + gerund' (being habituated)."
+    }
+  },
+  {
+    "questionNumber": 12,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Rarely ___ such a dramatic improvement in a patient's condition within a single week.",
+    "options": [
+      "a doctor observes",
+      "does a doctor observe",
+      "a doctor does observe",
+      "observes a doctor"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "WORD_ORDER",
+    "explanation": {
+      "correctAnswer": "After the negative adverbial 'Rarely', inversion is required: 'does a doctor observe'.",
+      "grammarRule": "When a negative or restrictive adverbial (rarely, seldom, never, hardly) begins a sentence, the subject and auxiliary verb are inverted.",
+      "example": "Seldom have I witnessed such remarkable courage.",
+      "commonMistake": "Keeping normal word order 'a doctor observes' after a fronted negative adverbial is incorrect."
+    }
+  },
+  {
+    "questionNumber": 13,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The discovery of ___ antibiotic penicillin revolutionized modern medicine in the twentieth century.",
+    "options": [
+      "an",
+      "the",
+      "a",
+      "no article"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "ARTICLES",
+    "explanation": {
+      "correctAnswer": "The definite article 'the' is used because 'penicillin' is a specific, well-known antibiotic being identified.",
+      "grammarRule": "Use 'the' when a noun is made specific by a modifier or by shared knowledge between writer and reader.",
+      "example": "The invention of the telephone changed communication forever.",
+      "commonMistake": "Learners sometimes omit the article or use 'an' before a specific singular noun."
+    }
+  },
+  {
+    "questionNumber": 14,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The students (A)are looking forward (B)to receive (C)their exam results (D)next week.",
+    "underlinedParts": [
+      { "text": "are looking forward", "index": 1, "isCorrectAnswer": false },
+      { "text": "to receive", "index": 2, "isCorrectAnswer": true },
+      { "text": "their exam results", "index": 3, "isCorrectAnswer": false },
+      { "text": "next week", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "are looking forward",
+      "to receive",
+      "their exam results",
+      "next week"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "GERUNDS_INFINITIVES",
+    "explanation": {
+      "correctAnswer": "After 'look forward to', the gerund 'receiving' is required, not the infinitive 'to receive'.",
+      "grammarRule": "The phrase 'look forward to' ends with the preposition 'to', which must be followed by a gerund, not an infinitive verb.",
+      "example": "We are looking forward to seeing you at the conference.",
+      "commonMistake": "Learners mistake the preposition 'to' for the infinitive marker and write 'to receive'."
+    }
+  },
+  {
+    "questionNumber": 15,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The ancient manuscript ___ to have been written by a monk in the fourteenth century.",
+    "options": [
+      "believes",
+      "is believed",
+      "was believing",
+      "has believed"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PASSIVE_VOICE",
+    "explanation": {
+      "correctAnswer": "The passive construction 'is believed' is needed because the manuscript is the receiver of the belief, not the believer.",
+      "grammarRule": "Use the passive voice (be + past participle) when the subject receives the action rather than performs it, especially with verbs of saying and believing.",
+      "example": "The painting is believed to be the work of a famous artist.",
+      "commonMistake": "Using the active 'believes' makes the manuscript the believer, which is illogical."
+    }
+  },
+  {
+    "questionNumber": 16,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "If the researchers ___ access to better equipment, they would have completed the experiment sooner.",
+    "options": [
+      "had had",
+      "have",
+      "would have",
+      "had"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "CONDITIONAL",
+    "explanation": {
+      "correctAnswer": "In a third conditional, the if-clause requires the past perfect 'had had' to show an unreal past condition.",
+      "grammarRule": "The third conditional uses 'if + past perfect' in the if-clause and 'would have + past participle' in the main clause to describe unreal past situations.",
+      "example": "If she had known the truth, she would have acted differently.",
+      "commonMistake": "Using the simple past 'had' instead of the past perfect 'had had' is a common error in third conditionals."
+    }
+  },
+  {
+    "questionNumber": 17,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The novel, (A)that won the Pulitzer Prize, (B)has been translated (C)into more than (D)thirty languages.",
+    "underlinedParts": [
+      { "text": "that won the Pulitzer Prize", "index": 1, "isCorrectAnswer": true },
+      { "text": "has been translated", "index": 2, "isCorrectAnswer": false },
+      { "text": "into more than", "index": 3, "isCorrectAnswer": false },
+      { "text": "thirty languages", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "that won the Pulitzer Prize",
+      "has been translated",
+      "into more than",
+      "thirty languages"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "RELATIVE_CLAUSE",
+    "explanation": {
+      "correctAnswer": "In a non-restrictive relative clause set off by commas, 'which' must be used instead of 'that'.",
+      "grammarRule": "Non-restrictive relative clauses (set off by commas) can only use 'which' for things or 'who' for people; 'that' is never used.",
+      "example": "The book, which was published last year, became a bestseller.",
+      "commonMistake": "Learners often use 'that' in non-restrictive clauses after a comma."
+    }
+  },
+  {
+    "questionNumber": 18,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "___ in 1850, the historic lighthouse still guides ships safely into the harbor.",
+    "options": [
+      "Building",
+      "Built",
+      "It was built",
+      "Was built"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "REDUCED_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The past participle 'Built' reduces the passive clause 'which was built' and correctly modifies 'lighthouse'.",
+      "grammarRule": "A passive relative clause can be reduced to a past participle phrase placed before or after the noun it modifies.",
+      "example": "Written in 1925, the poem reflects the era's turmoil.",
+      "commonMistake": "Using the present participle 'Building' implies the lighthouse was actively building something, which is illogical."
+    }
+  },
+  {
+    "questionNumber": 19,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The group of tourists (A)were guided (B)through the museum (C)by a knowledgeable docent (D)who explained each exhibit.",
+    "underlinedParts": [
+      { "text": "were guided", "index": 1, "isCorrectAnswer": true },
+      { "text": "through the museum", "index": 2, "isCorrectAnswer": false },
+      { "text": "by a knowledgeable docent", "index": 3, "isCorrectAnswer": false },
+      { "text": "who explained each exhibit", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "were guided",
+      "through the museum",
+      "by a knowledgeable docent",
+      "who explained each exhibit"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+    "explanation": {
+      "correctAnswer": "The singular subject 'The group' requires the singular verb 'was guided', not the plural 'were guided'.",
+      "grammarRule": "Collective nouns like 'group', 'team', and 'committee' take a singular verb when the group acts as a single unit.",
+      "example": "The team was awarded a trophy for its performance.",
+      "commonMistake": "Learners sometimes use a plural verb with collective nouns because they think of the individual members."
+    }
+  },
+  {
+    "questionNumber": 20,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "By the end of this decade, scientists ___ a comprehensive map of the human genome.",
+    "options": [
+      "will complete",
+      "will have completed",
+      "have completed",
+      "are completing"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_TENSE",
+    "explanation": {
+      "correctAnswer": "The future perfect 'will have completed' shows an action that will be finished before a specific future time.",
+      "grammarRule": "Use the future perfect (will have + past participle) for an action that will be completed before a stated future time, often with 'by'.",
+      "example": "By next year, she will have earned her degree.",
+      "commonMistake": "Using the simple future 'will complete' does not convey completion before the deadline."
+    }
+  },
+  {
+    "questionNumber": 21,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The professor's duties include (A)teaching, (B)conducting research, and (C)to advise (D)graduate students.",
+    "underlinedParts": [
+      { "text": "teaching", "index": 1, "isCorrectAnswer": false },
+      { "text": "conducting research", "index": 2, "isCorrectAnswer": false },
+      { "text": "to advise", "index": 3, "isCorrectAnswer": true },
+      { "text": "graduate students", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "teaching",
+      "conducting research",
+      "to advise",
+      "graduate students"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "PARALLEL_STRUCTURE",
+    "explanation": {
+      "correctAnswer": "The third item should be the gerund 'advising' to maintain parallel structure with 'teaching' and 'conducting'.",
+      "grammarRule": "Items in a series following a common verb must share the same grammatical form, here all gerunds.",
+      "example": "Her responsibilities include planning, organizing, and directing the event.",
+      "commonMistake": "Mixing a gerund with an infinitive 'to advise' breaks the parallel pattern."
+    }
+  },
+  {
+    "questionNumber": 22,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Given the severity of the storm, residents ___ evacuate the area immediately.",
+    "options": [
+      "should",
+      "must have",
+      "could have",
+      "might"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "MODALS",
+    "explanation": {
+      "correctAnswer": "The modal 'should' expresses a strong recommendation appropriate for the emergency context.",
+      "grammarRule": "Use 'should' to give advice or a recommendation; perfect modals like 'must have' refer to past certainty and do not fit here.",
+      "example": "You should see a doctor if the symptoms persist.",
+      "commonMistake": "Using perfect modals 'must have' or 'could have' incorrectly implies a past action rather than a present recommendation."
+    }
+  },
+  {
+    "questionNumber": 23,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The results of the experiment were ___ than the researchers had initially predicted.",
+    "options": [
+      "more surprising",
+      "most surprising",
+      "surprising",
+      "the most surprising"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "COMPARATIVES_SUPERLATIVES",
+    "explanation": {
+      "correctAnswer": "The comparative 'more surprising' is used because the actual results are compared to the predicted results.",
+      "grammarRule": "Use the comparative form when comparing two things; for two-syllable adjectives not ending in -y, use 'more + adjective'.",
+      "example": "The second experiment was more conclusive than the first.",
+      "commonMistake": "Learners sometimes use the superlative 'most surprising' when only two things are compared."
+    }
+  },
+  {
+    "questionNumber": 24,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The athlete ran (A)so quick (B)that she (C)broke the school record (D)by two full seconds.",
+    "underlinedParts": [
+      { "text": "so quick", "index": 1, "isCorrectAnswer": true },
+      { "text": "that she", "index": 2, "isCorrectAnswer": false },
+      { "text": "broke the school record", "index": 3, "isCorrectAnswer": false },
+      { "text": "by two full seconds", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "so quick",
+      "that she",
+      "broke the school record",
+      "by two full seconds"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "ADJECTIVE_ADVERB",
+    "explanation": {
+      "correctAnswer": "The adverb 'quickly' is needed to modify the verb 'ran', not the adjective 'quick'.",
+      "grammarRule": "Adverbs, not adjectives, modify verbs. Add '-ly' to form the adverb from most adjectives.",
+      "example": "She spoke clearly so everyone could hear.",
+      "commonMistake": "Learners often use the adjective form 'quick' instead of the adverb 'quickly' after a verb."
+    }
+  },
+  {
+    "questionNumber": 25,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The delegation consisted of the ambassador, two diplomats, and ___.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PRONOUN_FORM",
+    "explanation": {
+      "correctAnswer": "The pronoun 'me' is the object of the preposition 'of', so the objective case is required.",
+      "grammarRule": "After a preposition, use the objective form of the pronoun (me, him, her, us, them).",
+      "example": "The gift was given to him and her.",
+      "commonMistake": "Learners sometimes use 'I' after a preposition, incorrectly applying the subjective form."
+    }
+  },
+  {
+    "questionNumber": 26,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The ceremony (A)will take place (B)in (C)Monday morning (D)at the city hall.",
+    "underlinedParts": [
+      { "text": "will take place", "index": 1, "isCorrectAnswer": false },
+      { "text": "in", "index": 2, "isCorrectAnswer": true },
+      { "text": "Monday morning", "index": 3, "isCorrectAnswer": false },
+      { "text": "at the city hall", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "will take place",
+      "in",
+      "Monday morning",
+      "at the city hall"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PREPOSITIONS",
+    "explanation": {
+      "correctAnswer": "The preposition 'on' should be used with days of the week, not 'in': 'on Monday morning'.",
+      "grammarRule": "Use 'on' for specific days and dates (on Monday, on July 4th); use 'in' for months, years, and seasons.",
+      "example": "The meeting will be held on Wednesday afternoon.",
+      "commonMistake": "Learners often use 'in' with specific days, confusing it with its use for longer periods."
+    }
+  },
+  {
+    "questionNumber": 27,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Not only ___ the technical specifications but also the budget constraints before approving the plan.",
+    "options": [
+      "the committee considered",
+      "did the committee consider",
+      "the committee did consider",
+      "considered the committee"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "WORD_ORDER",
+    "explanation": {
+      "correctAnswer": "After 'Not only' at the beginning of a sentence, inversion is required: 'did the committee consider'.",
+      "grammarRule": "When 'not only' begins a sentence for emphasis, the subject and auxiliary verb are inverted.",
+      "example": "Not only did she win the competition, but she also set a new record.",
+      "commonMistake": "Keeping normal word order 'the committee considered' after 'Not only' is grammatically incorrect."
+    }
+  },
+  {
+    "questionNumber": 28,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The city council succeeded in ___ the new public transportation system despite widespread opposition.",
+    "options": [
+      "implement",
+      "implementing",
+      "to implement",
+      "implemented"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "GERUNDS_INFINITIVES",
+    "explanation": {
+      "correctAnswer": "After the preposition 'in', the gerund 'implementing' is required.",
+      "grammarRule": "A preposition must be followed by a noun or a gerund (-ing form), never a bare infinitive.",
+      "example": "They succeeded in convincing the board to approve the plan.",
+      "commonMistake": "Learners sometimes use the infinitive 'to implement' or base form 'implement' after a preposition."
+    }
+  },
+  {
+    "questionNumber": 29,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The historic treaty (A)was signing (B)by representatives of (C)twelve nations (D)in the grand hall.",
+    "underlinedParts": [
+      { "text": "was signing", "index": 1, "isCorrectAnswer": true },
+      { "text": "by representatives of", "index": 2, "isCorrectAnswer": false },
+      { "text": "twelve nations", "index": 3, "isCorrectAnswer": false },
+      { "text": "in the grand hall", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "was signing",
+      "by representatives of",
+      "twelve nations",
+      "in the grand hall"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PASSIVE_VOICE",
+    "explanation": {
+      "correctAnswer": "The passive voice requires 'was signed' (be + past participle), not the present participle 'was signing'.",
+      "grammarRule": "In the passive voice, use 'be + past participle'. The present participle after 'was' creates a past continuous active form, which is wrong here.",
+      "example": "The letter was delivered by the postal service.",
+      "commonMistake": "Learners sometimes use the present participle instead of the past participle in passive constructions."
+    }
+  },
+  {
+    "questionNumber": 30,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "Were it not for the scholarship, she ___ able to attend such a prestigious university.",
+    "options": [
+      "would not be",
+      "will not be",
+      "would not have been",
+      "is not"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "CONDITIONAL",
+    "explanation": {
+      "correctAnswer": "This is an inverted second conditional; the main clause needs 'would not be' to match the present unreal condition.",
+      "grammarRule": "In a second conditional, use 'if + past simple' (or inverted 'were + subject') and 'would + base verb' for a present unreal situation.",
+      "example": "Were it not for his help, I would be lost.",
+      "commonMistake": "Using 'would not have been' (third conditional) or 'will not be' (no conditional) is incorrect for a present unreal situation."
+    }
+  },
+  {
+    "questionNumber": 31,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The researcher (A)published a paper in a journal (B)that, (C)despite its prestige, (D)have a very small readership.",
+    "underlinedParts": [
+      { "text": "published a paper in a journal", "index": 1, "isCorrectAnswer": false },
+      { "text": "that,", "index": 2, "isCorrectAnswer": false },
+      { "text": "despite its prestige,", "index": 3, "isCorrectAnswer": false },
+      { "text": "have a very small readership", "index": 4, "isCorrectAnswer": true }
+    ],
+    "options": [
+      "published a paper in a journal",
+      "that,",
+      "despite its prestige,",
+      "have a very small readership"
+    ],
+    "correctAnswer": 3,
+    "grammarTopic": "RELATIVE_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The relative pronoun 'that' refers to 'journal' (singular), so the verb should be 'has', not 'have'.",
+      "grammarRule": "The verb inside a relative clause must agree in number with the antecedent of the relative pronoun.",
+      "example": "The book that has a red cover belongs to me.",
+      "commonMistake": "Learners sometimes use a plural verb in a relative clause without checking the antecedent's number."
+    }
+  },
+  {
+    "questionNumber": 32,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "___ the rising cost of materials, the construction firm decided to delay the project.",
+    "options": [
+      "Considering",
+      "Considered",
+      "To consider",
+      "Having considered"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "REDUCED_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The present participle 'Considering' reduces the clause 'Because they were considering' and introduces the reason.",
+      "grammarRule": "An adverbial clause of reason can be reduced to a present participle phrase when the subject is understood from the main clause.",
+      "example": "Knowing the deadline was near, she worked through the night.",
+      "commonMistake": "Using the past participle 'Considered' implies passive voice, which does not fit the context."
+    }
+  },
+  {
+    "questionNumber": 33,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The laboratory needs (A)several new (B)equipments (C)to conduct (D)the advanced experiments.",
+    "underlinedParts": [
+      { "text": "several new", "index": 1, "isCorrectAnswer": false },
+      { "text": "equipments", "index": 2, "isCorrectAnswer": true },
+      { "text": "to conduct", "index": 3, "isCorrectAnswer": false },
+      { "text": "the advanced experiments", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "several new",
+      "equipments",
+      "to conduct",
+      "the advanced experiments"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "COUNT_NONCOUNT_NOUNS",
+    "explanation": {
+      "correctAnswer": "'Equipment' is a noncount noun and cannot take a plural '-s'; it should remain 'equipment'.",
+      "grammarRule": "Noncount nouns like equipment, furniture, and information do not take a plural form and cannot be counted with numbers.",
+      "example": "The gym purchased new equipment for the fitness center.",
+      "commonMistake": "Learners often add '-s' to noncount nouns, producing incorrect forms like 'equipments'."
+    }
+  },
+  {
+    "questionNumber": 34,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The Amazon River is ___ longest river in South America and carries more water than any other.",
+    "options": [
+      "a",
+      "the",
+      "an",
+      "no article"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "ARTICLES",
+    "explanation": {
+      "correctAnswer": "The definite article 'the' is used with superlative adjectives because the referent is unique.",
+      "grammarRule": "Use 'the' before superlative adjectives (the longest, the most, the best) because they identify a unique entity.",
+      "example": "Mount Everest is the tallest mountain in the world.",
+      "commonMistake": "Omitting 'the' before a superlative or using 'a/an' is a common article error."
+    }
+  },
+  {
+    "questionNumber": 35,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The company awarded bonuses to (A)the employees (B)which (C)exceeded their sales targets (D)this quarter.",
+    "underlinedParts": [
+      { "text": "the employees", "index": 1, "isCorrectAnswer": false },
+      { "text": "which", "index": 2, "isCorrectAnswer": true },
+      { "text": "exceeded their sales targets", "index": 3, "isCorrectAnswer": false },
+      { "text": "this quarter", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "the employees",
+      "which",
+      "exceeded their sales targets",
+      "this quarter"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "PRONOUN_REFERENCE",
+    "explanation": {
+      "correctAnswer": "The relative pronoun 'which' refers to people ('employees'), so 'who' should be used instead.",
+      "grammarRule": "Use 'who' (or 'that') for people and 'which' (or 'that') for things in restrictive relative clauses.",
+      "example": "The students who passed the exam were congratulated.",
+      "commonMistake": "Learners sometimes use 'which' for people, especially when translating from languages that do not distinguish."
+    }
+  },
+  {
+    "questionNumber": 36,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The board recommended that the proposal ___ thoroughly before any final decision is made.",
+    "options": [
+      "is reviewed",
+      "be reviewed",
+      "will be reviewed",
+      "reviews"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_FORM",
+    "explanation": {
+      "correctAnswer": "After 'recommend that', the subjunctive passive 'be reviewed' is required.",
+      "grammarRule": "Verbs like recommend, suggest, insist, and demand take a 'that' clause using the base form of the verb.",
+      "example": "The committee recommended that the policy be updated.",
+      "commonMistake": "Using the indicative 'is reviewed' or the future 'will be reviewed' after 'recommend that' is incorrect."
+    }
+  },
+  {
+    "questionNumber": 37,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "A series of lectures on environmental sustainability ___ scheduled for the upcoming semester.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "SUBJECT_VERB_AGREEMENT",
+    "explanation": {
+      "correctAnswer": "The singular subject 'A series' takes the singular verb 'is', even though 'lectures' is plural.",
+      "grammarRule": "The phrase 'a series of' takes a singular verb because 'series' is the head noun and is singular.",
+      "example": "A series of meetings is planned for next week.",
+      "commonMistake": "Learners often use a plural verb because of the plural noun 'lectures' in the prepositional phrase."
+    }
+  },
+  {
+    "questionNumber": 38,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "By the time the firefighters (A)arrived, the building (B)has been burning (C)for over (D)two hours.",
+    "underlinedParts": [
+      { "text": "arrived", "index": 1, "isCorrectAnswer": false },
+      { "text": "has been burning", "index": 2, "isCorrectAnswer": true },
+      { "text": "for over", "index": 3, "isCorrectAnswer": false },
+      { "text": "two hours", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "arrived",
+      "has been burning",
+      "for over",
+      "two hours"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "VERB_TENSE",
+    "explanation": {
+      "correctAnswer": "The past perfect continuous 'had been burning' is needed because the burning occurred before the past action 'arrived'.",
+      "grammarRule": "Use the past perfect continuous (had been + -ing) for an ongoing action that was happening before another past action.",
+      "example": "By the time we arrived, she had been waiting for an hour.",
+      "commonMistake": "Using the present perfect continuous 'has been burning' in a past-time narrative is incorrect."
+    }
+  },
+  {
+    "questionNumber": 39,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The applicant ___ have submitted the documents earlier, but the deadline was unexpectedly extended.",
+    "options": [
+      "should",
+      "must",
+      "could",
+      "would"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "MODALS",
+    "explanation": {
+      "correctAnswer": "The modal 'should' expresses a past recommendation or expectation that was not met, fitting the context of an earlier deadline.",
+      "grammarRule": "Use 'should have + past participle' to express a past recommendation or expectation that was not fulfilled.",
+      "example": "You should have told me about the change sooner.",
+      "commonMistake": "Learners sometimes use 'must have' (certainty about the past) when 'should have' (unmet expectation) is needed."
+    }
+  },
+  {
+    "questionNumber": 40,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "(A)Only after the meeting (B)had ended (C)we realized (D)the significance of the decision.",
+    "underlinedParts": [
+      { "text": "Only after the meeting", "index": 1, "isCorrectAnswer": false },
+      { "text": "had ended", "index": 2, "isCorrectAnswer": false },
+      { "text": "we realized", "index": 3, "isCorrectAnswer": true },
+      { "text": "the significance of the decision", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "Only after the meeting",
+      "had ended",
+      "we realized",
+      "the significance of the decision"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "WORD_ORDER",
+    "explanation": {
+      "correctAnswer": "After 'Only after' at the beginning, inversion is required: 'did we realize', not 'we realized'.",
+      "grammarRule": "When 'only + adverbial' begins a sentence, the subject and auxiliary verb in the main clause are inverted.",
+      "example": "Only after the storm passed did we venture outside.",
+      "commonMistake": "Keeping normal word order 'we realized' after a fronted 'Only after' phrase is incorrect."
+    }
+  },
+  {
+    "questionNumber": 41,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "The report should be concise, well-organized, and ___ to the intended audience.",
+    "options": [
+      "relevant",
+      "relevance",
+      "it is relevant",
+      "relevancy"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "PARALLEL_STRUCTURE",
+    "explanation": {
+      "correctAnswer": "The adjective 'relevant' maintains parallel structure with the adjectives 'concise' and 'well-organized'.",
+      "grammarRule": "Items in a series sharing a modifier must use the same grammatical form, here all adjectives.",
+      "example": "The essay was clear, persuasive, and engaging.",
+      "commonMistake": "Using the noun 'relevance' or a full clause breaks the parallel adjective pattern."
+    }
+  },
+  {
+    "questionNumber": 42,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "She performed (A)good (B)enough to (C)qualify for (D)the national competition.",
+    "underlinedParts": [
+      { "text": "good", "index": 1, "isCorrectAnswer": true },
+      { "text": "enough to", "index": 2, "isCorrectAnswer": false },
+      { "text": "qualify for", "index": 3, "isCorrectAnswer": false },
+      { "text": "the national competition", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "good",
+      "enough to",
+      "qualify for",
+      "the national competition"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "ADJECTIVE_ADVERB",
+    "explanation": {
+      "correctAnswer": "The adverb 'well' is needed to modify the verb 'performed', not the adjective 'good'.",
+      "grammarRule": "Adverbs modify verbs. The adverb form of 'good' is 'well', which is irregular.",
+      "example": "He played well despite his injury.",
+      "commonMistake": "Learners often use 'good' instead of 'well' to modify a verb, especially after perform, do, or play."
+    }
+  },
+  {
+    "questionNumber": 43,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "If temperatures continue to rise at the current rate, coastal cities ___ severe flooding within fifty years.",
+    "options": [
+      "would experience",
+      "will experience",
+      "would have experienced",
+      "had experienced"
+    ],
+    "correctAnswer": 1,
+    "grammarTopic": "CONDITIONAL",
+    "explanation": {
+      "correctAnswer": "This is a first conditional (real future possibility), so the main clause uses 'will experience'.",
+      "grammarRule": "In a first conditional, use 'if + present simple' and 'will + base verb' for a real or likely future condition.",
+      "example": "If it rains tomorrow, the match will be cancelled.",
+      "commonMistake": "Using 'would experience' (second conditional) implies an unreal present condition, which does not fit a real future prediction."
+    }
+  },
+  {
+    "questionNumber": 44,
+    "questionText": "Identify the underlined word or phrase that must be changed.",
+    "sentenceType": "ERROR_IDENTIFICATION",
+    "sentence": "The researcher published (A)an article about (B)the impact of (C)a climate change (D)on coastal ecosystems.",
+    "underlinedParts": [
+      { "text": "an article about", "index": 1, "isCorrectAnswer": false },
+      { "text": "the impact of", "index": 2, "isCorrectAnswer": false },
+      { "text": "a climate change", "index": 3, "isCorrectAnswer": true },
+      { "text": "on coastal ecosystems", "index": 4, "isCorrectAnswer": false }
+    ],
+    "options": [
+      "an article about",
+      "the impact of",
+      "a climate change",
+      "on coastal ecosystems"
+    ],
+    "correctAnswer": 2,
+    "grammarTopic": "ARTICLES",
+    "explanation": {
+      "correctAnswer": "'Climate change' is used without an article in this general sense, so 'a' should be removed: 'climate change'.",
+      "grammarRule": "Abstract uncountable nouns used in a general sense (climate change, knowledge, freedom) do not take an article.",
+      "example": "Climate change affects biodiversity worldwide.",
+      "commonMistake": "Learners sometimes add 'a' before abstract nouns that are used in a general, uncountable sense."
+    }
+  },
+  {
+    "questionNumber": 45,
+    "questionText": "Choose the word or phrase that best completes the sentence.",
+    "sentenceType": "COMPLETION",
+    "sentence": "___ the strict deadline, the team worked tirelessly to complete the project ahead of schedule.",
+    "options": [
+      "Facing",
+      "Faced",
+      "To face",
+      "Having been faced"
+    ],
+    "correctAnswer": 0,
+    "grammarTopic": "REDUCED_CLAUSE",
+    "explanation": {
+      "correctAnswer": "The present participle 'Facing' reduces the active clause 'Because they were facing' and introduces the reason.",
+      "grammarRule": "An adverbial clause of reason can be reduced to a present participle phrase when the subject is the same as in the main clause and the action is active.",
+      "example": "Facing a difficult decision, she consulted her mentor.",
+      "commonMistake": "Using the past participle 'Faced' implies passive voice, which does not match the active role of the team."
+    }
+  }
+]

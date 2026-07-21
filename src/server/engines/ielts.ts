@@ -96,7 +96,7 @@ export class IELTSEngine {
   }
 
   async generateListeningSection(
-    section: 'SECTION_1' | 'SECTION_2' | 'SECTION_3' | 'SECTION_4',
+    section: 'SECTION_1' | 'SECTION_2' | 'SECTION_3' | 'SECTION_4' | 'SECTION_5',
     difficulty: 'EASY' | 'MEDIUM' | 'HARD' = 'MEDIUM'
   ) {
     const configs = {
@@ -104,6 +104,7 @@ export class IELTSEngine {
       SECTION_2: 'Monologue about general academic topic (campus tour, event)',
       SECTION_3: 'Discussion between students and tutor about coursework',
       SECTION_4: 'Academic lecture on specialized topic',
+      SECTION_5: 'Advanced academic lecture with denser information',
     };
 
     const sectionSettingMap = {
@@ -111,6 +112,7 @@ export class IELTSEngine {
       SECTION_2: 'EDUCATIONAL_SURVIVAL',
       SECTION_3: 'ACADEMIC_DISCUSSION',
       SECTION_4: 'ACADEMIC_LECTURE',
+      SECTION_5: 'ACADEMIC_LECTURE_ADVANCED',
     } as const;
     const requiredSetting = sectionSettingMap[section];
 
@@ -453,6 +455,7 @@ Scoring instructions:
       this.generateListeningSection('SECTION_2', difficulty),
       this.generateListeningSection('SECTION_3', difficulty),
       this.generateListeningSection('SECTION_4', difficulty),
+      this.generateListeningSection('SECTION_5', difficulty),
     ]);
 
     return {

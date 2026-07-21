@@ -1,0 +1,1012 @@
+[
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a philosophy seminar discussion about Kant's categorical imperative.",
+    "audioScript": "Situation: A philosophy professor leads a seminar with three students discussing Kant's categorical imperative and its application to modern ethical dilemmas.\nProfessor Hahn: Good afternoon. Today we're continuing our examination of deontological ethics, specifically Immanuel Kant's categorical imperative. Last week we covered the first formulation. Today I want to explore the second formulation, the humanity formula. Who can state it?\nOlivia: The second formulation says we should always treat humanity, whether in ourselves or in others, never merely as a means but always also as an end.\nProfessor Hahn: Precisely. Now let's apply this. Consider a scenario: a tech company collects user data without explicit consent to train its artificial intelligence models. Does this violate the humanity formula?\nDiego: I think it does. By collecting data without consent, the company is using users merely as a means to improve its product. The users are not being treated as rational agents capable of giving or withholding agreement.\nProfessor Hahn: Good. But let me push back. Some philosophers argue that if the data is anonymized and the resulting technology benefits everyone, the users are also being treated as ends. How would you respond, Maya?\nMaya: I'd say the benefit doesn't erase the lack of consent. Kant's framework is about the intention behind the action, not just the outcome. Even if the result is positive, treating people as mere data sources without their knowledge fails to respect their autonomy.\nProfessor Hahn: Excellent distinction between deontological and consequentialist reasoning. Now, a counterargument: critics of Kant say the categorical imperative is too rigid. For instance, if a murderer asks you where your friend is hiding, Kant's framework seems to prohibit lying even to save a life. How do defenders respond?\nOlivia: Some Kantian scholars, like Christine Korsgaard, argue that under coercion the moral landscape shifts. The murderer has already violated the moral community, so you're not obligated to participate in their scheme. Others argue that you can refuse to answer without lying, which respects both duties.\nProfessor Hahn: That's a sophisticated response. Korsgaard's reinterpretation is influential because it preserves Kant's core commitment to rational autonomy while addressing the intuitively troubling conclusions. For next week, I want you to write a short paper applying the humanity formula to a contemporary issue of your choice. Focus on identifying who is being treated merely as a means and what a Kantian response would require.",
+    "speakers": [
+      { "name": "Professor Hahn", "role": "philosophy professor" },
+      { "name": "Olivia", "role": "student" },
+      { "name": "Diego", "role": "student" },
+      { "name": "Maya", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the seminar discussion?",
+        "options": [
+          "Comparing utilitarian and virtue ethics",
+          "Kant's categorical imperative, specifically the second formulation",
+          "The history of deontological philosophy",
+          "Modern artificial intelligence regulation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces the discussion as continuing examination of Kant's categorical imperative, specifically the second formulation, the humanity formula."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How does Olivia state the second formulation of the categorical imperative?",
+        "options": [
+          "Act only according to maxims you can will as universal law",
+          "Treat humanity never merely as a means but always also as an end",
+          "Seek the greatest happiness for the greatest number",
+          "Virtue is the mean between two extremes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia states the second formulation says we should treat humanity never merely as a means but always also as an end."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What scenario does Professor Hahn present for application?",
+        "options": [
+          "A company collecting user data without consent to train AI models",
+          "A government censoring social media content",
+          "A hospital prioritizing wealthy patients",
+          "A school monitoring student emails"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Professor Hahn presents the scenario of a tech company collecting user data without explicit consent to train artificial intelligence models."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why does Diego think the data collection violates the humanity formula?",
+        "options": [
+          "The data is sold to third parties for profit",
+          "Users are treated merely as a means without being treated as rational agents capable of consent",
+          "The AI models produce harmful outcomes",
+          "The company lies about its practices"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Diego argues the company uses users merely as a means to improve its product without treating them as rational agents capable of agreement."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What counterargument does Professor Hahn raise about anonymized data?",
+        "options": [
+          "Anonymized data is always ethical",
+          "If the data is anonymized and benefits everyone, users might also be treated as ends",
+          "Anonymization makes the data useless",
+          "Anonymized data violates privacy laws"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Hahn raises the argument that if data is anonymized and the technology benefits everyone, users are also being treated as ends."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does Maya respond to the counterargument about benefits?",
+        "options": [
+          "She agrees that benefits erase the consent problem",
+          "She argues Kant's framework focuses on intention not outcome, so lack of consent still fails to respect autonomy",
+          "She says anonymization solves all ethical concerns",
+          "She switches to a utilitarian perspective"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Maya argues the benefit doesn't erase the lack of consent because Kant's framework is about intention, and treating people as mere data sources fails to respect autonomy."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What classic criticism of Kant does Professor Hahn mention?",
+        "options": [
+          "That Kant ignores emotions entirely",
+          "That the categorical imperative is too rigid, such as prohibiting lying even to a murderer",
+          "That Kant's work is too focused on religion",
+          "That deontological ethics cannot handle modern problems"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Hahn notes critics say the categorical imperative is too rigid, giving the example of a murderer asking where a friend is hiding and Kant seeming to prohibit lying."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What scholar does Olivia mention in her defense of Kant?",
+        "options": [
+          "John Stuart Mill",
+          "Christine Korsgaard",
+          "Aristotle",
+          "John Rawls"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Olivia cites Christine Korsgaard, who argues that under coercion the moral landscape shifts and the murderer has already violated the moral community."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Professor Hahn say is valuable about Korsgaard's reinterpretation?",
+        "options": [
+          "It abandons Kant's framework entirely",
+          "It preserves Kant's commitment to rational autonomy while addressing troubling conclusions",
+          "It merges Kantian ethics with utilitarianism",
+          "It simplifies Kant for beginners"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Hahn says Korsgaard's reinterpretation is influential because it preserves Kant's core commitment to rational autonomy while addressing intuitively troubling conclusions."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What assignment does Professor Hahn give for next week?",
+        "options": [
+          "A multiple-choice quiz on Kant's biography",
+          "A short paper applying the humanity formula to a contemporary issue",
+          "A group presentation on utilitarianism",
+          "A research paper comparing three philosophers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Hahn assigns a short paper applying the humanity formula to a contemporary issue, focusing on who is treated merely as a means and what a Kantian response requires."
+      }
+    ],
+    "keyVocabulary": ["categorical imperative", "deontological ethics", "humanity formula", "autonomy", "consent", "consequentialist reasoning", "moral community", "rational agent"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a debate coach and team members preparing for a political science competition.",
+    "audioScript": "Situation: A debate coach meets with three student team members in the student center to prepare arguments for an upcoming political science debate competition on electoral reform.\nCoach Reyes: Alright team, the tournament is in two weeks and the resolution is about implementing ranked-choice voting in national elections. We need to prepare both affirmative and negative cases. Let's start with the affirmative. Jasmine, what's our strongest argument?\nJasmine: I think our best affirmative argument is the spoiler effect. In plurality voting systems, third-party candidates can split the vote and cause a candidate with minority support to win. Ranked-choice voting eliminates this by allowing voters to express second and third preferences, which produces a majority winner.\nCoach Reyes: Solid. But you need to back that up with evidence. There's a study from the University of Missouri analyzing ranked-choice elections in several American cities that showed a significant reduction in wasted votes. Cite that. Now, what about the negative side? Tyler?\nTyler: The strongest negative argument is complexity. Ranked-choice requires voters to rank all candidates, which can be confusing, especially for less educated voters. We can point to data from San Francisco showing higher rates of spoiled ballots in lower-income precincts after they adopted ranked-choice voting.\nCoach Reyes: Good, but be careful with that evidence. Follow-up studies showed the confusion was largely temporary and diminished after one or two election cycles. Anticipate that rebuttal. Priya, what's our second negative argument?\nPriya: I'd focus on cost and administrative burden. Ranked-choice requires more sophisticated ballot counting systems and software. Some jurisdictions have reported significant expenses upgrading their infrastructure. We can also argue that the two-round system, used in France, achieves similar majority outcomes without the complexity.\nCoach Reyes: That's a strong comparative argument. Now, for cross-examination strategy, when the affirmative cites the reduction in wasted votes, I want Tyler to press them on whether wasted votes are actually a problem worth solving. Force them to justify the normative claim. Jasmine, when the negative raises complexity, counter with evidence from Australia, where ranked-choice has been used nationally since nineteen eighteen with high voter satisfaction and turnout.\nJasmine: That's a great counter. Should we also prepare a disadvantage argument about extremism?\nCoach Reyes: Yes, but be subtle. Some researchers argue ranked-choice discourages negative campaigning because candidates need second-preference votes from rivals' supporters. That can be an affirmative advantage. But on the negative, you could argue it rewards vague, inoffensive positions over clear policy commitments. Frame it as a tradeoff between civility and accountability. For our next practice, I want a full mock debate. Tyler and Priya take the negative, Jasmine and I take the affirmative. Bring your full evidence packets.",
+    "speakers": [
+      { "name": "Coach Reyes", "role": "debate coach" },
+      { "name": "Jasmine", "role": "student debater" },
+      { "name": "Tyler", "role": "student debater" },
+      { "name": "Priya", "role": "student debater" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the debate resolution the team is preparing for?",
+        "options": [
+          "Abolishing the electoral college",
+          "Implementing ranked-choice voting in national elections",
+          "Lowering the voting age to sixteen",
+          "Making voting mandatory for all citizens"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Coach Reyes states the resolution is about implementing ranked-choice voting in national elections for the upcoming tournament."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is the team's strongest affirmative argument according to Jasmine?",
+        "options": [
+          "Ranked-choice voting is cheaper to administer",
+          "The spoiler effect in plurality systems causes minority winners",
+          "Ranked-choice increases voter turnout dramatically",
+          "It eliminates the need for political parties"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Jasmine argues the spoiler effect is the strongest affirmative argument: third-party candidates split the vote, and ranked-choice eliminates this by allowing preference expression."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What evidence does Coach Reyes suggest for the affirmative case?",
+        "options": [
+          "A study from Harvard on voter satisfaction",
+          "A University of Missouri study showing reduced wasted votes in ranked-choice cities",
+          "Data from France on two-round systems",
+          "A survey from Australia on national elections"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coach Reyes references a University of Missouri study analyzing ranked-choice elections in American cities that showed significant reduction in wasted votes."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is Tyler's strongest negative argument?",
+        "options": [
+          "Ranked-choice voting is unconstitutional",
+          "Complexity causes confusion, especially for less educated voters, with higher spoiled ballot rates",
+          "It takes too long to count results",
+          "It favors wealthy candidates"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler argues complexity is the strongest negative point, citing San Francisco data showing higher spoiled ballot rates in lower-income precincts."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What caveat does Coach Reyes raise about the San Francisco evidence?",
+        "options": [
+          "The data was fabricated",
+          "Follow-up studies showed the confusion was temporary and diminished after one or two election cycles",
+          "San Francisco never actually used ranked-choice",
+          "The study only covered one precinct"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Coach Reyes warns that follow-up studies showed the confusion was largely temporary and diminished after one or two election cycles, so the team should anticipate that rebuttal."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is Priya's second negative argument?",
+        "options": [
+          "Ranked-choice violates voter privacy",
+          "Cost and administrative burden, plus comparing to France's simpler two-round system",
+          "It reduces the number of political parties",
+          "It is too similar to the current system"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya focuses on cost and administrative burden, citing expenses for infrastructure upgrades, and argues France's two-round system achieves similar outcomes without the complexity."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What cross-examination strategy does Coach Reyes suggest for Tyler?",
+        "options": [
+          "Attack the affirmative's evidence sources",
+          "Press the affirmative to justify whether wasted votes are actually a problem worth solving",
+          "Question whether ranked-choice is legal",
+          "Challenge the affirmative's speaking time"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coach Reyes wants Tyler to press the affirmative on whether wasted votes are actually a problem worth solving, forcing them to justify the normative claim."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What counter-evidence does Coach Reyes suggest for Jasmine against the complexity argument?",
+        "options": [
+          "Data from Canada showing similar complexity",
+          "Evidence from Australia, which has used ranked-choice nationally since 1918 with high satisfaction and turnout",
+          "A study showing complexity doesn't affect outcomes",
+          "Evidence from Germany's proportional system"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coach Reyes tells Jasmine to counter the complexity argument with evidence from Australia, where ranked-choice has been used nationally since nineteen eighteen with high voter satisfaction and turnout."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How does Coach Reyes suggest framing the extremism argument on the negative side?",
+        "options": [
+          "That ranked-choice encourages extremist candidates",
+          "That ranked-choice rewards vague, inoffensive positions over clear policy commitments, as a tradeoff between civility and accountability",
+          "That ranked-choice eliminates all extremism",
+          "That extremism is unrelated to voting systems"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Coach Reyes suggests framing the negative argument as ranked-choice rewarding vague, inoffensive positions over clear policy, presenting it as a tradeoff between civility and accountability."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Coach Reyes plan for the next practice session?",
+        "options": [
+          "A written exam on debate theory",
+          "A full mock debate with Tyler and Priya on negative, Jasmine and Coach on affirmative",
+          "A guest lecture by a political scientist",
+          "Individual speaking drills only"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Coach Reyes plans a full mock debate for the next practice, with Tyler and Priya taking the negative and Jasmine and the coach taking the affirmative, bringing full evidence packets."
+      }
+    ],
+    "keyVocabulary": ["ranked-choice voting", "spoiler effect", "plurality voting", "wasted votes", "spoiled ballots", "two-round system", "cross-examination", "disadvantage argument", "normative claim", "evidence packet"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between an anthropology professor and students about ethnographic fieldwork methods.",
+    "audioScript": "Situation: An anthropology professor meets with two graduate students in her office to discuss ethnographic fieldwork methods for their upcoming research projects in rural communities.\nProfessor Okafor: Come in, both of you. I've read your fieldwork proposals and I want to discuss methodology before you head out. Marcus, your project is on kinship structures in a rural highland community in Peru. Let's talk about your participant observation plan.\nMarcus: I plan to live in the community for six months. I'll participate in daily activities like farming and communal meetings while taking detailed field notes each evening. I want to build trust so people share openly about family relationships.\nProfessor Okafor: Six months is a minimum for this kind of work. But I want to push you on your note-taking strategy. Are you relying solely on evening recall? That risks losing nuance. Anthropologists use what we call jottings, quick scratch notes taken in the moment, which you expand into full field notes within twenty-four hours. The immediacy matters.\nMarcus: I hadn't thought of that. I was worried that pulling out a notebook during conversations would make people uncomfortable.\nProfessor Okafor: That's a legitimate concern. The key is transparency. Explain your role openly from the start. People are more suspicious of someone who hides their note-taking than someone who is upfront about being a researcher. Also, consider using a small voice recorder for interviews, but always get explicit informed consent first.\nLena: Professor, my project is on healing practices in a coastal village in Ghana. I'm concerned about the ethical dimensions. Some of the knowledge I'll encounter may be sacred or proprietary to the community. How do I handle that?\nProfessor Okafor: That's exactly the right question. You need to negotiate informed consent as an ongoing process, not a one-time signature. Establish clear boundaries about what can be recorded and shared. Some communities use what anthropologists call partial confidentiality, where you can describe practices but not attribute them to specific individuals. Also, think about reciprocity. What does the community get from your research?\nLena: I was planning to share my findings with the local clinic, which might benefit from documented traditional remedies. Is that appropriate?\nProfessor Okafor: That's an excellent form of reciprocity, but be careful not to frame it as you validating their knowledge. Position it as a collaborative exchange. Now, both of you need to think about your positionality. Marcus, you're an outsider in terms of language and culture. How will that shape what you can and cannot access?\nMarcus: I've been studying Quechua for a year, and I've arranged for a local research assistant who can help with translation and cultural context. But I know there will be things I miss.\nProfessor Okafor: Acknowledging that in your writing is itself a methodological contribution. Reflexivity, the practice of examining how your own presence and identity shape the research, is essential in modern ethnography. Don't pretend to be invisible. For next week, I want both of you to revise your proposals to include a detailed ethics section and a reflexivity statement.",
+    "speakers": [
+      { "name": "Professor Okafor", "role": "anthropology professor" },
+      { "name": "Marcus", "role": "graduate student" },
+      { "name": "Lena", "role": "graduate student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the discussion?",
+        "options": [
+          "Analyzing historical census data",
+          "Ethnographic fieldwork methods for research in rural communities",
+          "Designing a laboratory experiment",
+          "Comparing urban and rural economies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor meets with two graduate students to discuss ethnographic fieldwork methods for their upcoming research projects in rural communities in Peru and Ghana."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How long does Marcus plan to live in the community?",
+        "options": ["Three months", "Six months", "Nine months", "One year"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Marcus states he plans to live in the community for six months, participating in daily activities while taking field notes."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What does Professor Okafor say is the minimum duration for this kind of fieldwork?",
+        "options": ["Three months", "Six months", "Nine months", "One year"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor confirms six months is a minimum for this kind of participant observation work."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What note-taking method does Professor Okafor recommend?",
+        "options": [
+          "Only evening recall from memory",
+          "Jottings taken in the moment, expanded into full field notes within twenty-four hours",
+          "Recording every conversation secretly",
+          "Having an assistant take all notes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor recommends jottings, quick scratch notes taken in the moment, expanded into full field notes within twenty-four hours to preserve nuance."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Professor Okafor say about Marcus's concern about notebook use?",
+        "options": [
+          "Notebooks should never be used in the field",
+          "Transparency is key; people are more suspicious of hidden note-taking than upfront research roles",
+          "Notes should only be taken in private",
+          "Only digital recordings should be used"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Okafor says the key is transparency: explaining one's role openly, as people are more suspicious of hidden note-taking than someone upfront about being a researcher."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Where is Lena's research project located?",
+        "options": [
+          "A rural highland community in Peru",
+          "A coastal village in Ghana",
+          "A mountain town in Nepal",
+          "An urban neighborhood in Brazil"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Lena states her project is on healing practices in a coastal village in Ghana."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How does Professor Okafor describe informed consent?",
+        "options": [
+          "A one-time signature at the start of research",
+          "An ongoing process, not a one-time signature",
+          "Unnecessary for ethnographic research",
+          "Only required for medical studies"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Okafor tells Lena that informed consent should be negotiated as an ongoing process, not a one-time signature, with clear boundaries on recording and sharing."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What form of reciprocity does Lena propose?",
+        "options": [
+          "Paying community members for interviews",
+          "Sharing findings with the local clinic about documented traditional remedies",
+          "Building a new school in the village",
+          "Donating money to village leaders"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Lena plans to share her findings with the local clinic, which might benefit from documented traditional remedies, as a form of reciprocity."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What caution does Professor Okafor give about Lena's reciprocity plan?",
+        "options": [
+          "The clinic will not be interested",
+          "Avoid framing it as validating their knowledge; position it as a collaborative exchange",
+          "Sharing findings is unethical",
+          "The remedies should be patented first"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Okafor cautions Lena not to frame the sharing as validating their knowledge, but to position it as a collaborative exchange."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Professor Okafor say about reflexivity in ethnography?",
+        "options": [
+          "It is optional for modern research",
+          "Examining how the researcher's own presence and identity shape the research is essential, and acknowledging limitations is a methodological contribution",
+          "Reflexivity undermines objectivity",
+          "It should only be included in the appendix"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Okafor explains reflexivity, examining how one's presence and identity shape the research, is essential in modern ethnography, and acknowledging limitations is itself a methodological contribution."
+      }
+    ],
+    "keyVocabulary": ["ethnographic fieldwork", "participant observation", "jottings", "field notes", "informed consent", "reciprocity", "positionality", "reflexivity", "partial confidentiality"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a workshop discussion about art criticism and formal analysis.",
+    "audioScript": "Situation: An art history professor leads a workshop with three students on formal analysis and critical approaches to contemporary abstract painting.\nProfessor Chen: Welcome to today's workshop. We're going to practice formal analysis using three paintings from the contemporary abstract collection currently on display. The goal is to move beyond subjective reactions like I like it or I hate it and develop rigorous visual arguments. Let's start with the first piece. What do you notice?\nAisha: The dominant feature is the use of complementary colors, specifically large blocks of orange and blue that create visual tension. The brushwork is aggressive, with thick impasto layers that give the surface a physical, almost sculptural quality.\nProfessor Chen: Good. You're describing formal elements. Now connect them to an interpretation. What might the tension between complementary colors suggest?\nAisha: Maybe the artist is expressing an internal conflict, with the opposing colors representing opposing emotional states pulling against each other.\nProfessor Chen: That's a reasonable interpretive leap, but be careful not to over psychologize. In formal analysis we prioritize what the painting does visually before speculating about the artist's inner life. Tyler, what else do you see?\nTyler: The composition is asymmetrical. The heavier orange blocks are clustered on the left side, creating a sense of imbalance that the eye tries to resolve by moving toward the smaller blue elements on the right. This creates a dynamic reading path rather than a static centered composition.\nProfessor Chen: Excellent observation about compositional balance and the implied movement of the viewer's gaze. This connects to what Rudolf Arnheim called visual forces in his theory of compositional dynamics. Now, let's consider the second painting, which uses a completely different approach. It's a minimal black canvas with a single thin white line running diagonally. Nadia?\nNadia: At first it seems almost empty, but the diagonal line creates a powerful directional force. The stark contrast between the black field and the white line generates maximum tonal contrast. It reminds me of Ad Reinhardt's black paintings, where the subtlety rewards sustained looking.\nProfessor Chen: Strong connection to art historical precedent. But I want to push you further. How does the scale of the canvas affect the viewer's experience? Remember, we're looking at a reproduction, but in person this painting is over three meters wide.\nNadia: At that scale, the black field would envelop the viewer's peripheral vision, making the white line feel like a fissure or an opening rather than just a mark. The experience becomes more bodily and immersive.\nProfessor Chen: Precisely. Scale transforms the relationship between viewer and object. For your written analysis due next week, I want each of you to choose one painting from the exhibition and write a formal analysis of at least eight hundred words. Focus on color, composition, brushwork, and scale. Avoid biographical speculation about the artist. Ground every claim in specific visual evidence.",
+    "speakers": [
+      { "name": "Professor Chen", "role": "art history professor" },
+      { "name": "Aisha", "role": "student" },
+      { "name": "Tyler", "role": "student" },
+      { "name": "Nadia", "role": "student" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main purpose of the workshop?",
+        "options": [
+          "To grade students' previous essays",
+          "To practice formal analysis and develop rigorous visual arguments about contemporary abstract paintings",
+          "To learn the history of abstract expressionism",
+          "To prepare for a museum visit"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Professor Chen states the goal is to move beyond subjective reactions and develop rigorous visual arguments using formal analysis of contemporary abstract paintings."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What formal elements does Aisha identify in the first painting?",
+        "options": [
+          "Symmetrical composition and muted tones",
+          "Complementary orange and blue colors with aggressive impasto brushwork",
+          "A single white line on a black field",
+          "Geometric shapes and smooth surfaces"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha identifies complementary orange and blue colors creating visual tension and aggressive brushwork with thick impasto layers."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How does Aisha initially interpret the color tension?",
+        "options": [
+          "As representing a landscape",
+          "As expressing internal conflict with opposing colors representing opposing emotional states",
+          "As a political statement",
+          "As a reference to classical mythology"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Aisha suggests the complementary colors represent opposing emotional states pulling against each other, expressing internal conflict."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What caution does Professor Chen give about Aisha's interpretation?",
+        "options": [
+          "That the painting is actually a landscape",
+          "To avoid over psychologizing and prioritize what the painting does visually before speculating about the artist's inner life",
+          "That complementary colors don't create tension",
+          "That the artist's biography supports the interpretation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Chen says to be careful not to over psychologize, and that formal analysis prioritizes visual effects before speculating about the artist's inner life."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Tyler observe about the composition of the first painting?",
+        "options": [
+          "It is perfectly symmetrical",
+          "It is asymmetrical with heavier orange blocks on the left creating imbalance and a dynamic reading path",
+          "It has no compositional structure",
+          "It uses a golden ratio layout"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Tyler observes the asymmetrical composition with heavier orange blocks on the left creating imbalance and a dynamic reading path toward smaller blue elements on the right."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "Whose theory does Professor Chen connect Tyler's observation to?",
+        "options": [
+          "Clement Greenberg's formalism",
+          "Rudolf Arnheim's theory of visual forces in compositional dynamics",
+          "Walter Benjamin's work on reproduction",
+          "John Berger's Ways of Seeing"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Chen connects the observation about compositional balance and implied movement to Rudolf Arnheim's theory of visual forces."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Nadia notice about the second painting?",
+        "options": [
+          "It uses vibrant complementary colors",
+          "It is a minimal black canvas with a single thin white diagonal line creating directional force and maximum tonal contrast",
+          "It is a large landscape scene",
+          "It features thick impasto layers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia describes the minimal black canvas with a single thin white diagonal line creating directional force and stark tonal contrast, connecting it to Ad Reinhardt's black paintings."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What art historical connection does Nadia make?",
+        "options": [
+          "To Jackson Pollock's drip paintings",
+          "To Ad Reinhardt's black paintings where subtlety rewards sustained looking",
+          "To Mark Rothko's color fields",
+          "To Picasso's cubist period"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Nadia connects the minimal black canvas to Ad Reinhardt's black paintings, where subtlety rewards sustained looking."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "How does Nadia say the scale of the second painting would affect the viewer?",
+        "options": [
+          "It would make the painting look smaller",
+          "The black field would envelop peripheral vision, making the white line feel like a fissure, creating a bodily immersive experience",
+          "It would have no effect on the viewer",
+          "It would make the line appear thicker"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Nadia says at over three meters wide, the black field would envelop peripheral vision, making the white line feel like a fissure, creating a bodily and immersive experience."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What are the requirements for the written analysis due next week?",
+        "options": [
+          "A two-page biography of the artist",
+          "A formal analysis of at least eight hundred words focusing on color, composition, brushwork, and scale, grounded in visual evidence",
+          "A comparison of three paintings from different eras",
+          "A research paper on abstract expressionism history"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Chen requires a formal analysis of at least eight hundred words focusing on color, composition, brushwork, and scale, avoiding biographical speculation and grounding every claim in specific visual evidence."
+      }
+    ],
+    "keyVocabulary": ["formal analysis", "complementary colors", "impasto", "compositional balance", "visual forces", "tonal contrast", "scale", "reading path", "peripheral vision"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a discussion between a music theory professor and students analyzing a symphonic score.",
+    "audioScript": "Situation: A music theory professor leads a small group analysis session with two students on harmonic structure and motivic development in Beethoven's Fifth Symphony.\nProfessor Ivanova: Good morning. Today we're going to do a close reading of the first movement of Beethoven's Fifth Symphony. I want us to focus on two things: the famous four-note motive and how Beethoven develops it harmonically. Let's start by identifying the motive. Carlos?\nCarlos: The opening motive is short-short-short-long, in the key of C minor. It starts on the tonic, drops down a third to the fifth scale degree, then returns and holds on the third. The rhythm is distinctive because the long note creates a sense of suspension before the phrase continues.\nProfessor Ivanova: Good. Now, what's remarkable about this motive is not the motive itself but what Beethoven does with it. He uses it as what we call a germinal motive, a small musical cell from which entire sections of the movement grow. How does he develop it in the exposition?\nEmma: In the exposition, the motive is repeated sequentially, modulating through different keys. Beethoven also fragments it, sometimes using just the first three notes without the long note. This creates a sense of urgency and forward motion. The bridge section between the first and second themes is built almost entirely from the motive.\nProfessor Ivanova: Precisely. Now let's talk about harmony. The movement is in sonata-allegro form, which means we have an exposition, development, and recapitulation. The exposition modulates from C minor to the relative major, E-flat major, for the second theme. But notice something unusual: Beethoven doesn't simply state the second theme and move on. He continues to weave the four-note motive underneath it, even in a contrasting key area. What effect does this produce?\nCarlos: It creates a sense of unity across contrasting thematic material. Even when the key and melody change, the motive persists like a thread connecting everything. The listener never fully escapes that opening gesture.\nProfessor Ivanova: Beautifully put. Now, in the development section, Beethoven takes the harmony in a radically different direction. He modulates to distant keys and fragments the motive even further, at times reducing it to a single repeated note. The harmonic rhythm, the rate at which chords change, slows down dramatically, creating tension before the recapitulation. Emma, what happens harmonically at the recapitulation?\nEmma: The recapitulation returns to C minor and restates the themes from the exposition, but Beethoven makes significant alterations. The second theme, which was in E-flat major in the exposition, is restated in C major before returning to C minor. This is unusual because the recapitulation normally keeps the second theme in the tonic key throughout.\nProfessor Ivanova: Exactly. This tonal shift to C major in the recapitulation is one of the most analyzed passages in the symphonic literature. Some scholars argue it's a moment of hope or transcendence within the minor-mode struggle. Others see it as a purely structural necessity to accommodate the modulation back to C minor. For your assignment, I want you to choose one passage from the development section and write a harmonic reduction showing every chord change. Due next Thursday.",
+    "speakers": [
+      { "name": "Professor Ivanova", "role": "music theory professor" },
+      { "name": "Carlos", "role": "student" },
+      { "name": "Emma", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main focus of the analysis session?",
+        "options": [
+          "The orchestration of Beethoven's Ninth Symphony",
+          "The four-note motive and its harmonic development in the first movement of Beethoven's Fifth Symphony",
+          "A comparison of Mozart and Haydn symphonies",
+          "The history of the sonata-allegro form"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Professor Ivanova states the session focuses on two things: the famous four-note motive and how Beethoven develops it harmonically in the first movement of the Fifth Symphony."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "How does Carlos describe the opening motive?",
+        "options": [
+          "Long-long-short-short in G major",
+          "Short-short-short-long in C minor, starting on the tonic and dropping to the fifth scale degree",
+          "A single sustained note in E-flat major",
+          "A rising arpeggio in D minor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Carlos describes the motive as short-short-short-long in C minor, starting on the tonic, dropping down a third to the fifth scale degree, then returning and holding on the third."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What term does Professor Ivanova use to describe the motive's role?",
+        "options": [
+          "A decorative figure",
+          "A germinal motive, a small musical cell from which entire sections grow",
+          "A transitional passage",
+          "A cadential gesture"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Ivanova calls it a germinal motive, a small musical cell from which entire sections of the movement grow, emphasizing its developmental role."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "How does Beethoven develop the motive in the exposition according to Emma?",
+        "options": [
+          "He abandons it after the opening",
+          "He repeats it sequentially through modulations, fragments it, and builds the bridge section almost entirely from it",
+          "He reverses it to long-short-short-short",
+          "He only uses it in the second theme"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Emma explains the motive is repeated sequentially through different keys, fragmented to just three notes, and the bridge section between themes is built almost entirely from it."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What key does the second theme appear in during the exposition?",
+        "options": [
+          "C minor",
+          "E-flat major, the relative major",
+          "G major",
+          "F minor"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Ivanova states the exposition modulates from C minor to E-flat major, the relative major, for the second theme."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What unusual feature does Professor Ivanova point out about the second theme?",
+        "options": [
+          "It has no melody at all",
+          "Beethoven continues to weave the four-note motive underneath the second theme even in the contrasting key area",
+          "It is in a completely different time signature",
+          "It is performed by only one instrument"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Ivanova notes Beethoven doesn't simply state the second theme but continues to weave the four-note motive underneath it, even in a contrasting key area."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Carlos say is the effect of weaving the motive through contrasting material?",
+        "options": [
+          "It makes the music confusing",
+          "It creates unity across contrasting thematic material, with the motive persisting as a connecting thread",
+          "It weakens the second theme",
+          "It slows down the tempo"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Carlos says it creates a sense of unity across contrasting thematic material, with the motive persisting like a connecting thread that the listener never escapes."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What happens to the harmonic rhythm in the development section?",
+        "options": [
+          "It speeds up dramatically",
+          "It slows down dramatically, creating tension before the recapitulation",
+          "It stays constant throughout",
+          "It disappears entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Ivanova explains the harmonic rhythm slows down dramatically in the development section, creating tension before the recapitulation."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What unusual tonal shift occurs in the recapitulation's second theme?",
+        "options": [
+          "It stays in E-flat major as in the exposition",
+          "It is restated in C major before returning to C minor, which is unusual for a recapitulation",
+          "It modulates to G minor",
+          "It is eliminated entirely"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Emma explains the second theme is restated in C major before returning to C minor, which is unusual because the recapitulation normally keeps the second theme in the tonic key throughout."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What assignment does Professor Ivanova give for next Thursday?",
+        "options": [
+          "A performance of the first movement",
+          "A harmonic reduction of one passage from the development section showing every chord change",
+          "An essay on Beethoven's biography",
+          "A comparison of two different recordings"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Ivanova assigns choosing one passage from the development section and writing a harmonic reduction showing every chord change, due next Thursday."
+      }
+    ],
+    "keyVocabulary": ["germinal motive", "sonata-allegro form", "exposition", "development", "recapitulation", "modulation", "harmonic rhythm", "relative major", "tonal shift", "harmonic reduction"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to an architecture review discussion between a studio critic and students.",
+    "audioScript": "Situation: An architecture studio critic meets with three students to review their design proposals for a community cultural center on an urban waterfront site.\nProfessor Dubois: Welcome to the mid-review. Each of you has ten minutes to present your design concept for the waterfront cultural center, followed by critique. Let's begin with Sofia. Walk us through your concept.\nSofia: My design responds to the site's industrial heritage by retaining the existing brick foundation walls of the old warehouse and inserting a lightweight steel and glass pavilion above them. The contrast between the heavy, grounded masonry and the transparent upper structure creates a dialogue between past and present. The ground floor opens entirely to the waterfront promenade, blurring the boundary between public space and building interior.\nProfessor Dubois: The conceptual duality is compelling. But I have a structural concern. The existing foundation walls were designed for a heavy masonry load, not a modern steel frame. Have you consulted a structural engineer about load paths? Steel concentrates loads at column points, which may not align with the existing footing locations.\nSofia: Not yet. I was planning to address that in the next phase.\nProfessor Dubois: That's a mistake. Structural feasibility should inform concept, not follow it. Moving forward, engage an engineer early. Now, Raj, your proposal.\nRaj: I took a different approach. Rather than preserving the existing structure, I'm proposing a series of interconnected pavilions arranged around a central courtyard. Each pavilion houses a different cultural program: gallery, performance, workshop, and cafe. The courtyard acts as a flexible outdoor gathering space. The roofscape is stepped, creating rooftop terraces that cascade toward the water.\nProfessor Dubois: The programmatic organization is clear, and the courtyard typology has strong precedent in civic architecture. However, I'm concerned about the circulation. How does a visitor move between pavilions in winter? If the only connections are through the exposed courtyard, the building becomes functionally disjointed in harsh weather.\nRaj: I hadn't fully resolved that. I could add enclosed glass connectors between the pavilions.\nProfessor Dubois: That would help, but be careful the connectors don't become dark corridors. Use them as galleries or informal gathering spaces in their own right. Now, Lena.\nLena: My concept centers on sustainability. The building uses a mass timber structure with cross-laminated timber panels, which sequesters carbon and reduces embodied energy compared to steel or concrete. The form is driven by solar orientation, with deep overhangs on the south facade to control summer heat gain and large north-facing windows for diffuse daylight. Rainwater is collected from the roof for landscape irrigation.\nProfessor Dubois: The environmental performance goals are admirable, and mass timber is an excellent choice for this scale. But I notice your form has become so driven by performance metrics that the spatial experience feels secondary. Architecture is not just an energy efficiency spreadsheet. Where is the poetic moment, the space that moves a visitor emotionally? A high-performance building can still be soulless. I want you to identify one space in your design where you prioritize experiential quality over quantitative optimization, and develop it in detail for the final review.\nLena: That's a fair critique. I think the main entry hall could become that moment, with a tall timber canopy framing the view of the water.\nProfessor Dubois: Good. Develop that. For all of you, the final review is in three weeks. I expect structural coordination, resolved circulation, and at least one section at one-to-fifty scale showing material assemblies.",
+    "speakers": [
+      { "name": "Professor Dubois", "role": "architecture studio critic" },
+      { "name": "Sofia", "role": "student" },
+      { "name": "Raj", "role": "student" },
+      { "name": "Lena", "role": "student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the review session?",
+        "options": [
+          "Evaluating building codes for residential structures",
+          "Reviewing student design proposals for a community cultural center on an urban waterfront site",
+          "Discussing the history of industrial architecture",
+          "Planning a field trip to a construction site"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Professor Dubois introduces the mid-review where each student presents their design concept for a waterfront cultural center, followed by critique."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What is Sofia's design concept?",
+        "options": [
+          "A series of interconnected pavilions around a courtyard",
+          "Retaining existing brick foundation walls and inserting a lightweight steel and glass pavilion above them",
+          "A mass timber structure driven by solar orientation",
+          "A concrete bunker-style community space"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Sofia describes retaining the existing brick foundation walls of the old warehouse and inserting a lightweight steel and glass pavilion above, creating a dialogue between past and present."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What structural concern does Professor Dubois raise about Sofia's design?",
+        "options": [
+          "The glass is too fragile",
+          "Steel concentrates loads at column points that may not align with existing footing locations",
+          "The brick walls are too thick",
+          "The building is too tall for the site"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Dubois points out the existing foundation walls were designed for masonry loads, not modern steel frames, and steel concentrates loads at column points that may not align with existing footings."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does Professor Dubois say about Sofia's plan to consult an engineer later?",
+        "options": [
+          "That it is the correct sequence",
+          "That structural feasibility should inform concept, not follow it, and she should engage an engineer early",
+          "That engineers are unnecessary for this project",
+          "That the concept should be abandoned"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Dubois says it's a mistake to address structural issues later, stating structural feasibility should inform concept, not follow it, and Sofia should engage an engineer early."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is Raj's design approach?",
+        "options": [
+          "Preserving existing industrial walls",
+          "A series of interconnected pavilions arranged around a central courtyard with a stepped roofscape",
+          "A mass timber structure with solar orientation",
+          "A single large concrete dome"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Raj proposes interconnected pavilions around a central courtyard, each housing a different cultural program, with a stepped roofscape creating rooftop terraces cascading toward the water."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What circulation concern does Professor Dubois raise about Raj's design?",
+        "options": [
+          "The corridors are too wide",
+          "If the only connections between pavilions are through the exposed courtyard, the building becomes functionally disjointed in winter",
+          "There are too many entrances",
+          "The staircases are not accessible"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Dubois is concerned that if connections between pavilions are only through the exposed courtyard, the building becomes functionally disjointed in harsh winter weather."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Professor Dubois suggest Raj do with the glass connectors?",
+        "options": [
+          "Make them as narrow as possible",
+          "Use them as galleries or informal gathering spaces rather than dark corridors",
+          "Eliminate them entirely",
+          "Use solid walls instead of glass"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Dubois warns the connectors shouldn't become dark corridors and suggests using them as galleries or informal gathering spaces in their own right."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is Lena's design concept centered on?",
+        "options": [
+          "Industrial heritage preservation",
+          "Sustainability using mass timber with cross-laminated timber panels, solar-oriented form, and rainwater collection",
+          "Maximum density and minimal footprint",
+          "Classical architectural proportions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Lena's concept centers on sustainability with a mass timber structure using cross-laminated timber panels, a form driven by solar orientation with deep overhangs, north-facing windows, and rainwater collection."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What critique does Professor Dubois give Lena about her form?",
+        "options": [
+          "The building is not sustainable enough",
+          "The form is so driven by performance metrics that the spatial experience feels secondary, and architecture is not just an energy efficiency spreadsheet",
+          "The mass timber is structurally unsound",
+          "The solar orientation is incorrect"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Professor Dubois critiques that Lena's form has become so driven by performance metrics that the spatial experience feels secondary, noting that architecture is not just an energy efficiency spreadsheet and needs a poetic moment."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does Professor Dubois expect for the final review in three weeks?",
+        "options": [
+          "Only conceptual sketches",
+          "Structural coordination, resolved circulation, and at least one section at one-to-fifty scale showing material assemblies",
+          "A physical model only",
+          "A written report on sustainability"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Professor Dubois expects structural coordination, resolved circulation, and at least one section at one-to-fifty scale showing material assemblies for the final review in three weeks."
+      }
+    ],
+    "keyVocabulary": ["industrial heritage", "load paths", "structural feasibility", "programmatic organization", "courtyard typology", "mass timber", "cross-laminated timber", "embodied energy", "solar orientation", "material assemblies"]
+  },
+  {
+    "type": "LISTENING_PART_C",
+    "questionText": "Listen to a medical ethics case discussion between a professor and medical students.",
+    "audioScript": "Situation: A medical ethics professor leads a case discussion with three students about a complex end-of-life decision involving a patient with advanced dementia.\nDr. Morrison: Today's case involves a seventy-eight-year-old woman with advanced Alzheimer's disease who has been admitted with aspiration pneumonia. She has no advance directive, and her family is divided on whether to insert a feeding tube. Let's work through the ethical framework. What are the key principles at stake?\nAisha: The four principles framework applies here: autonomy, beneficence, non-maleficence, and justice. The challenge is that autonomy is compromised because the patient lacks decision-making capacity due to advanced dementia. So we need to determine what she would have wanted, which brings in the concept of substituted judgment.\nDr. Morrison: Good. Substituted judgment asks the surrogate to make the decision the patient would have made, not the decision the surrogate thinks is best. That's distinct from the best interest standard, which focuses on what benefits the patient most objectively. Now, the family is divided. The daughter wants the feeding tube inserted, believing it prolongs life. The son opposes it, saying his mother once expressed that she wouldn't want to be kept alive artificially. How do we proceed?\nCarlos: I think we need to assess the credibility and specificity of the son's claim. Did the patient express a clear preference, or was it a casual remark? The more specific and consistent the prior statements, the stronger the basis for substituted judgment. If it was just an offhand comment, the best interest standard might be more appropriate.\nDr. Morrison: Exactly. Evidence shows that feeding tubes in advanced dementia patients do not consistently improve survival, prevent aspiration pneumonia, or enhance quality of life. In fact, they may cause complications like infection and discomfort. This clinical evidence is crucial because it affects the beneficence and non-maleficence analysis. If the tube doesn't clearly benefit the patient and may cause harm, the ethical calculus shifts. Priya, what about the family dynamic?\nPriya: The conflict between the daughter and son suggests we need a structured family meeting, ideally with a clinical ethics consultant. The goal would be to facilitate shared decision-making, not to override either party. We should also explore whether the daughter's desire for the feeding tube is driven by genuine belief about her mother's wishes or by anticipatory grief and inability to let go.\nDr. Morrison: That's an important psychological dimension. Clinicians sometimes confuse the family's emotional needs with the patient's interests, and our obligation is to the patient first. But we must also treat the family with compassion. Now, what if the family cannot reach consensus even after mediation?\nAisha: If mediation fails, the case may need to go to the hospital ethics committee for a formal recommendation. In extreme cases where there's genuine deadlock, some jurisdictions allow a court-appointed guardian. But that's a last resort because it's adversarial and time-consuming, and the patient may die before a resolution.\nDr. Morrison: Correct. The ethics committee is the appropriate escalation step before legal intervention. For your written assignment, I want you to analyze this case using both the four principles framework and a narrative ethics approach, which considers the patient's life story and relationships. Compare what each approach emphasizes and where they might reach different conclusions. Due in two weeks.",
+    "speakers": [
+      { "name": "Dr. Morrison", "role": "medical ethics professor" },
+      { "name": "Aisha", "role": "medical student" },
+      { "name": "Carlos", "role": "medical student" },
+      { "name": "Priya", "role": "medical student" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the case discussion?",
+        "options": [
+          "A malpractice lawsuit against a hospital",
+          "A complex end-of-life ethical decision involving a patient with advanced dementia and a divided family",
+          "The legal requirements for advance directives",
+          "A new treatment protocol for Alzheimer's disease"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "Dr. Morrison introduces the case of a seventy-eight-year-old woman with advanced Alzheimer's who has aspiration pneumonia, with no advance directive and a divided family on feeding tube insertion."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What four principles does Aisha identify as the ethical framework?",
+        "options": [
+          "Autonomy, beneficence, non-maleficence, and justice",
+          "Compassion, honesty, integrity, and duty",
+          "Consent, confidentiality, capacity, and care",
+          "Rights, responsibilities, risks, and rewards"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "Aisha identifies the four principles framework: autonomy, beneficence, non-maleficence, and justice, noting autonomy is compromised due to the patient's lack of capacity."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the difference between substituted judgment and the best interest standard?",
+        "options": [
+          "Substituted judgment focuses on what benefits the patient most objectively; best interest asks what the patient would have wanted",
+          "Substituted judgment asks what the patient would have wanted; best interest focuses on what benefits the patient most objectively",
+          "They are identical concepts",
+          "Substituted judgment is only used in legal cases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Dr. Morrison explains substituted judgment asks the surrogate to make the decision the patient would have made, while the best interest standard focuses on what benefits the patient most objectively."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What does the daughter want, and what does the son argue?",
+        "options": [
+          "The daughter opposes the feeding tube; the son wants it",
+          "The daughter wants the feeding tube inserted; the son opposes it, saying their mother wouldn't want artificial life support",
+          "Both want the feeding tube inserted",
+          "Both oppose the feeding tube"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morrison states the daughter wants the feeding tube inserted believing it prolongs life, while the son opposes it, saying their mother once expressed she wouldn't want to be kept alive artificially."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does Carlos say needs to be assessed about the son's claim?",
+        "options": [
+          "Whether the son is legally competent",
+          "The credibility and specificity of the prior statements, since more specific and consistent statements strengthen substituted judgment",
+          "Whether the son has power of attorney",
+          "Whether the son is the eldest child"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Carlos says they need to assess the credibility and specificity of the son's claim about the patient's prior statements, as more specific and consistent statements provide a stronger basis for substituted judgment."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does clinical evidence show about feeding tubes in advanced dementia patients?",
+        "options": [
+          "They significantly improve survival rates",
+          "They do not consistently improve survival, prevent aspiration pneumonia, or enhance quality of life, and may cause complications",
+          "They cure the underlying dementia",
+          "They are always beneficial with no risks"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morrison states evidence shows feeding tubes in advanced dementia patients do not consistently improve survival, prevent aspiration pneumonia, or enhance quality of life, and may cause complications like infection and discomfort."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does Priya suggest for addressing the family conflict?",
+        "options": [
+          "Immediately going to court",
+          "A structured family meeting with a clinical ethics consultant to facilitate shared decision-making",
+          "Letting the physicians decide unilaterally",
+          "Asking the patient to decide"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Priya suggests a structured family meeting with a clinical ethics consultant to facilitate shared decision-making rather than overriding either party."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Priya say should be explored about the daughter's desire for the feeding tube?",
+        "options": [
+          "Whether she has financial motives",
+          "Whether it's driven by genuine belief about her mother's wishes or by anticipatory grief and inability to let go",
+          "Whether she has medical training",
+          "Whether she is the primary caregiver"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "Priya says they should explore whether the daughter's desire is driven by genuine belief about her mother's wishes or by anticipatory grief and inability to let go."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Aisha suggest if family mediation fails?",
+        "options": [
+          "The physicians should make the final decision",
+          "The case goes to the hospital ethics committee, with court-appointed guardianship as a last resort",
+          "The feeding tube should be inserted by default",
+          "The patient should be discharged home"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Aisha suggests the case may need to go to the hospital ethics committee for a formal recommendation, with court-appointed guardianship in extreme deadlock as a last resort because it's adversarial and time-consuming."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What are the requirements for the written assignment?",
+        "options": [
+          "A research paper on Alzheimer's treatments",
+          "Analyzing the case using both the four principles framework and a narrative ethics approach, comparing what each emphasizes",
+          "A legal brief on advance directive law",
+          "A clinical case report on aspiration pneumonia"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "Dr. Morrison assigns analyzing the case using both the four principles framework and a narrative ethics approach that considers the patient's life story, comparing what each approach emphasizes and where they might differ, due in two weeks."
+      }
+    ],
+    "keyVocabulary": ["advance directive", "autonomy", "beneficence", "non-maleficence", "substituted judgment", "best interest standard", "feeding tube", "ethics committee", "anticipatory grief", "narrative ethics"]
+  }
+]

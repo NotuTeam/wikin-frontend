@@ -1,0 +1,987 @@
+[
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "EASY",
+    "passage": {
+      "title": "The Invention of the Internet and Its Early Development",
+      "subtitle": "From a Cold War military project to a global network",
+      "source": "Adapted from a history of computing research review",
+      "author": "Dr. Marcus Fielding",
+      "wordCount": 620,
+      "content": "The Internet is arguably the most transformative communication technology of the twentieth century, yet its origins lie not in a single moment of inspiration but in decades of gradual engineering. The story begins in the 1960s, during the height of the Cold War, when the United States Department of Defense sought a communication system that could survive a nuclear attack. Traditional telephone networks relied on centralized switching centers; if one was destroyed, entire regions would lose contact. To avoid this vulnerability, researchers at the Advanced Research Projects Agency, known as ARPA, funded a project to build a distributed network called ARPANET.\n\nARPANET sent its first message in 1969, from a computer at the University of California, Los Angeles to one at the Stanford Research Institute. The message was intended to be the word 'login,' but the system crashed after only two letters, sending just 'lo.' Despite this inauspicious beginning, ARPANET grew steadily, connecting universities and research institutions across the United States. A crucial innovation was packet switching, a technique in which data is broken into small packets that travel independently across the network and are reassembled at their destination. This meant no single path was essential, and the network could reroute around damaged nodes.\n\nBy the 1970s, however, a new problem emerged. ARPANET was just one of several networks, each using different communication rules. To connect them, the computer scientists Vinton Cerf and Robert Kahn developed a set of protocols known as TCP/IP, which stands for Transmission Control Protocol and Internet Protocol. TCP/IP provided a common language that allowed disparate networks to exchange data seamlessly. On January 1, 1983, ARPANET officially adopted TCP/IP, a date many consider the birth of the Internet as we know it.\n\nYet the Internet remained difficult to use. It was largely the domain of academics and military personnel who communicated through text commands. The breakthrough that brought the network to the general public was the World Wide Web, created in 1989 by the British physicist Tim Berners-Lee while working at CERN, the European particle physics laboratory. Berners-Lee combined three existing ideas: hypertext, which allowed documents to link to one another; uniform resource locators, or URLs, which gave every document a unique address; and a protocol called HTTP to transfer those documents. He also wrote the first web browser, making it possible to view text and images through a graphical interface.\n\nCrucially, Berners-Lee persuaded CERN to release the Web's underlying code to the public domain in 1993, free of charge. This decision encouraged rapid adoption and prevented any single company from controlling the technology. Within a few years, browsers such as Mosaic and Netscape made the Web accessible to ordinary users, and the number of websites exploded from a few hundred to millions.\n\nThe commercialization of the Internet followed quickly. During the late 1990s, companies began selling goods online, email became a staple of workplace communication, and search engines emerged to help users navigate the growing volume of information. The dot-com boom, a period of speculative investment in Internet companies, ended in a dramatic crash in 2000, but the underlying technology continued to mature. Broadband connections replaced slow dial-up modems, and wireless networks untethered users from desks.\n\nToday the Internet reaches into nearly every aspect of modern life, from education and healthcare to entertainment and government services. Its development illustrates a pattern common to many technologies: a military or scientific need sparks initial research, open standards enable widespread collaboration, and a simple enough interface finally brings the innovation to the public. The Internet's inventors could not have foreseen smartphones or streaming video, but the flexible architecture they designed has absorbed each new application with remarkable resilience.",
+      "topicCategory": "SCIENCE_TECHNOLOGY",
+      "textType": "NARRATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 1,
+      "questionEnd": 15
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main purpose of the passage?",
+        "paragraphReference": 1,
+        "options": [
+          "To describe a single company's success",
+          "To explain how the Internet was invented and developed over time",
+          "To argue that the Internet is dangerous",
+          "To compare military and civilian computing"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The passage traces the Internet from its Cold War origins through ARPANET, TCP/IP, and the World Wide Web, explaining its gradual development.",
+        "keywordsInPassage": ["Internet", "origins", "developed"],
+        "paraphrasing": "The text outlines the history and step-by-step growth of the network."
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why did ARPA fund the ARPANET project?",
+        "paragraphReference": 1,
+        "options": [
+          "To connect schools in rural areas",
+          "To create a network that could survive a nuclear attack",
+          "To sell computers to consumers",
+          "To replace the postal service"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states the Department of Defense sought a communication system that could survive a nuclear attack, and ARPA funded ARPANET for this purpose.",
+        "keywordsInPassage": ["survive a nuclear attack", "ARPA", "ARPANET"],
+        "paraphrasing": "The military needed a network robust enough to withstand enemy strikes."
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the first message successfully sent over ARPANET?",
+        "paragraphReference": 2,
+        "options": [
+          "The complete word 'login'",
+          "Only the letters 'lo'",
+          "The word 'hello'",
+          "A numerical code"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 explains the system crashed after two letters, so only 'lo' was sent before the intended word 'login' could be completed.",
+        "keywordsInPassage": ["crashed", "two letters", "lo"],
+        "paraphrasing": "Only part of the intended message reached the destination."
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Packet switching breaks data into small packets that are reassembled at their destination.",
+        "paragraphReference": 2,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 2 explicitly defines packet switching as breaking data into packets that travel independently and are reassembled at the destination.",
+        "keywordsInPassage": ["packet switching", "reassembled", "destination"],
+        "paraphrasing": "The technique divides information and reconstructs it upon arrival."
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did TCP/IP provide?",
+        "paragraphReference": 3,
+        "options": [
+          "A faster computer processor",
+          "A common language allowing different networks to exchange data",
+          "A graphical web browser",
+          "A way to sell goods online"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states TCP/IP provided a common language that allowed disparate networks to exchange data seamlessly.",
+        "keywordsInPassage": ["common language", "disparate networks", "exchange data"],
+        "paraphrasing": "The protocols let unlike networks communicate with one another."
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who created the World Wide Web?",
+        "paragraphReference": 4,
+        "options": [
+          "Vinton Cerf",
+          "Robert Kahn",
+          "Tim Berners-Lee",
+          "The ARPA team"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 4 credits the British physicist Tim Berners-Lee with creating the World Wide Web in 1989 while at CERN.",
+        "keywordsInPassage": ["Tim Berners-Lee", "World Wide Web", "CERN"],
+        "paraphrasing": "The Web was the work of a single physicist at a European lab."
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Berners-Lee combined hypertext, URLs, and",
+        "paragraphReference": 4,
+        "options": [
+          "a protocol called HTTP",
+          "a new type of modem",
+          "a military encryption system",
+          "a faster telephone line"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 lists the three ideas Berners-Lee combined: hypertext, URLs, and a protocol called HTTP.",
+        "keywordsInPassage": ["hypertext", "URLs", "HTTP"],
+        "paraphrasing": "The third component was a transfer protocol for documents."
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "CERN released the Web's code to the public domain free of charge in 1993.",
+        "paragraphReference": 5,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 states Berners-Lee persuaded CERN to release the Web's code to the public domain in 1993, free of charge.",
+        "keywordsInPassage": ["public domain", "1993", "free of charge"],
+        "paraphrasing": "The underlying code was given away at no cost."
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year did the dot-com crash occur?",
+        "paragraphReference": 6,
+        "options": [
+          "1989",
+          "1993",
+          "2000",
+          "2010"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Paragraph 6 states the dot-com boom ended in a dramatic crash in 2000.",
+        "keywordsInPassage": ["dot-com boom", "crash", "2000"],
+        "paraphrasing": "Speculative investment collapsed at the turn of the millennium."
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "Broadband connections replaced slow",
+        "paragraphReference": 6,
+        "options": [
+          "dial-up modems",
+          "fibre optic cables",
+          "wireless routers",
+          "satellite dishes"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states broadband connections replaced slow dial-up modems.",
+        "keywordsInPassage": ["broadband", "dial-up modems"],
+        "paraphrasing": "Faster connections took over from older telephone-based devices."
+      },
+      {
+        "questionNumber": 11,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The word 'inauspicious' in paragraph 2 is closest in meaning to:",
+        "paragraphReference": 2,
+        "options": [
+          "promising",
+          "unlucky or unfavourable",
+          "famous",
+          "expensive"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Inauspicious' means unfavourable or unlucky, fitting the context of a crashed first message.",
+        "keywordsInPassage": ["inauspicious", "crashed"],
+        "paraphrasing": "The word describes a beginning that did not bode well."
+      },
+      {
+        "questionNumber": 12,
+        "questionType": "MATCHING_HEADINGS",
+        "questionText": "Which heading best fits paragraph 5?",
+        "paragraphReference": 5,
+        "options": [
+          "The military origins of networking",
+          "Releasing the Web's code to the public",
+          "The dot-com crash",
+          "The future of smartphones"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 focuses on CERN releasing the Web's code to the public domain, which spurred rapid adoption.",
+        "keywordsInPassage": ["public domain", "rapid adoption"],
+        "paraphrasing": "The paragraph concerns the decision to give the code away freely."
+      },
+      {
+        "questionNumber": 13,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Berners-Lee sold the Web's code to a private company.",
+        "paragraphReference": 5,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states the code was released to the public domain free of charge, so the claim that it was sold is false.",
+        "keywordsInPassage": ["public domain", "free of charge"],
+        "paraphrasing": "The code was not sold but given away."
+      },
+      {
+        "questionNumber": 14,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to the final paragraph, what pattern does the Internet's development illustrate?",
+        "paragraphReference": 7,
+        "options": [
+          "Technologies always succeed immediately",
+          "A military or scientific need sparks research, open standards enable collaboration, and a simple interface brings it to the public",
+          "Private companies invent everything first",
+          "Government regulation slows innovation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The final paragraph summarizes the pattern: a need sparks research, open standards enable collaboration, and a simple interface brings innovation to the public.",
+        "keywordsInPassage": ["military or scientific need", "open standards", "simple enough interface"],
+        "paraphrasing": "The passage identifies a three-stage sequence common to technologies."
+      },
+      {
+        "questionNumber": 15,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "January 1, 1983 is considered the birth of the Internet because",
+        "paragraphReference": 3,
+        "options": [
+          "ARPANET was created on that date",
+          "ARPANET officially adopted TCP/IP",
+          "The first email was sent",
+          "The Web was invented"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states that on January 1, 1983, ARPANET officially adopted TCP/IP, a date many consider the birth of the Internet.",
+        "keywordsInPassage": ["January 1, 1983", "adopted TCP/IP", "birth of the Internet"],
+        "paraphrasing": "The adoption of shared protocols marks the network's true beginning."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "Urban Wildlife Adaptation: How Animals Learn to Live in Cities",
+      "subtitle": "Cities as engines of rapid evolutionary change",
+      "source": "Adapted from urban ecology research summaries",
+      "author": "Dr. Priya Raman",
+      "wordCount": 590,
+      "content": "As cities expand across the planet, they do not simply replace nature; they create entirely new environments to which wildlife must adjust. Far from being barren concrete deserts, modern cities offer animals food, shelter, and warmth, often in greater abundance than the surrounding countryside. The study of how species adapt to urban life has become a major focus of ecology, revealing that cities are drivers of rapid evolutionary change.\n\nOne of the most visible urban survivors is the red fox. Once confined to woodlands and meadows, foxes now thrive in suburbs and city centres across Europe and North America. Researchers have found that urban foxes are bolder and more tolerant of human presence than their rural relatives. They have also shifted their diet to include discarded fast food, pet food, and even fruit from garden trees. Studies comparing skull shapes suggest that urban foxes are developing shorter, wider muzzles, possibly an adaptation for biting into varied food sources, although scientists caution that more evidence is needed.\n\nBirds, too, show striking adaptations. The great tit, a small songbird common in European cities, has been observed raising the pitch of its songs to rise above the low-frequency rumble of traffic. Higher-pitched notes carry farther in noisy environments, allowing males to defend territories and attract mates. In some cities, birds have also learned to sing at night, when background noise is lower, though this exposes them to different predators. Urban crows and magpies display even more remarkable intelligence, using traffic to crack nuts by dropping them at pedestrian crossings and then retrieving the pieces when cars stop.\n\nMammals such as raccoons and coyotes have earned a reputation for ingenuity. Raccoons in North American cities have learned to open bins, undo latches, and even navigate complex locks in search of scraps. Laboratory tests indicate that urban raccoons have more neurons in their brains than rural ones, suggesting that the cognitive demands of city living may be selecting for greater intelligence. Coyotes, meanwhile, have colonized nearly every major North American city, including Chicago and Los Angeles, avoiding humans by hunting at night and travelling along railway corridors and riverbanks.\n\nNot all adaptations are behavioural; some are physiological. Urban birds often have higher levels of stress hormones, which can affect their immune systems, but these same hormones may help them respond quickly to threats. City-dwelling animals also tend to have smaller body sizes, a trait that helps them disperse heat in the warmer microclimate of cities, where asphalt and concrete absorb sunlight and raise temperatures several degrees above the surrounding area, a phenomenon known as the urban heat island effect.\n\nThe consequences of these changes are not always positive. Dense urban populations of certain species can become pests, spreading disease and damaging property. Moreover, as animals lose their fear of humans, conflicts increase. However, some ecologists argue that urban adaptation should be viewed with cautious optimism. Cities may serve as refuges for species whose natural habitats are disappearing, and the rapid evolution observed in urban animals offers a living laboratory for studying how life responds to environmental change.\n\nUnderstanding these adaptations has practical implications. Urban planners can design greener cities that accommodate both people and wildlife, while conservationists can learn which species are most flexible and which remain vulnerable. As the world becomes increasingly urbanized, the relationship between cities and their animal inhabitants will only grow more intertwined.",
+      "topicCategory": "ENVIRONMENT",
+      "textType": "DISCURSIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 1,
+      "questionEnd": 15
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main idea of the passage?",
+        "paragraphReference": 1,
+        "options": [
+          "Cities are lifeless deserts",
+          "Cities drive rapid evolutionary change in wildlife",
+          "Animals cannot survive in cities",
+          "Urban animals are identical to rural ones"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states the study of urban adaptation reveals that cities are drivers of rapid evolutionary change.",
+        "keywordsInPassage": ["drivers of rapid evolutionary change", "adapt"],
+        "paraphrasing": "The text argues cities accelerate how animals evolve."
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 2, what has shifted in the diet of urban foxes?",
+        "paragraphReference": 2,
+        "options": [
+          "Only small rodents",
+          "Discarded fast food, pet food, and garden fruit",
+          "Nothing but insects",
+          "Only pet food"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states urban foxes have shifted their diet to include discarded fast food, pet food, and fruit from garden trees.",
+        "keywordsInPassage": ["diet", "discarded fast food", "pet food", "fruit"],
+        "paraphrasing": "Foxes in cities eat a variety of human-related foods."
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why do great tits raise the pitch of their songs?",
+        "paragraphReference": 3,
+        "options": [
+          "To attract more insects",
+          "To rise above the low-frequency rumble of traffic",
+          "To scare predators",
+          "To imitate other birds"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 explains great tits raise pitch to rise above the low-frequency rumble of traffic so their songs carry farther.",
+        "keywordsInPassage": ["pitch", "low-frequency rumble of traffic"],
+        "paraphrasing": "Higher notes overcome the noise of vehicles."
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Skull studies suggest urban foxes are developing shorter, wider muzzles.",
+        "paragraphReference": 2,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 2 states studies comparing skull shapes suggest urban foxes are developing shorter, wider muzzles.",
+        "keywordsInPassage": ["skull shapes", "shorter, wider muzzles"],
+        "paraphrasing": "Bone structure appears to be changing in city foxes."
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How do urban crows use traffic to crack nuts?",
+        "paragraphReference": 3,
+        "options": [
+          "By pecking them open directly",
+          "By dropping them at pedestrian crossings and retrieving pieces when cars stop",
+          "By burying them in gardens",
+          "By using stones as tools"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 describes crows dropping nuts at pedestrian crossings and retrieving the pieces when cars stop.",
+        "keywordsInPassage": ["pedestrian crossings", "retrieving the pieces"],
+        "paraphrasing": "Crows exploit stopped vehicles to access cracked nuts."
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do laboratory tests indicate about urban raccoons?",
+        "paragraphReference": 4,
+        "options": [
+          "They have fewer neurons than rural ones",
+          "They have more neurons in their brains than rural ones",
+          "They cannot open bins",
+          "They are smaller than rural raccoons"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 states laboratory tests indicate urban raccoons have more neurons in their brains than rural ones.",
+        "keywordsInPassage": ["more neurons", "laboratory tests"],
+        "paraphrasing": "City raccoons show greater brain cell density."
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Coyotes have colonized nearly every major North American city.",
+        "paragraphReference": 4,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 states coyotes have colonized nearly every major North American city, including Chicago and Los Angeles.",
+        "keywordsInPassage": ["colonized", "nearly every major North American city"],
+        "paraphrasing": "Coyotes have spread across most large cities on the continent."
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "The urban heat island effect occurs because",
+        "paragraphReference": 5,
+        "options": [
+          "asphalt and concrete absorb sunlight and raise city temperatures",
+          "cities receive more rainfall than countryside",
+          "cities are located near oceans",
+          "wildlife blocks the wind"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 5 explains the urban heat island effect is caused by asphalt and concrete absorbing sunlight and raising temperatures above the surrounding area.",
+        "keywordsInPassage": ["asphalt and concrete", "urban heat island effect"],
+        "paraphrasing": "Hard surfaces trap solar energy and warm the city."
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 5, what effect might higher stress hormones have on urban birds?",
+        "paragraphReference": 5,
+        "options": [
+          "They always kill the birds",
+          "They may help them respond quickly to threats",
+          "They make them unable to fly",
+          "They have no effect"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 notes stress hormones can affect immune systems but may also help birds respond quickly to threats.",
+        "keywordsInPassage": ["stress hormones", "respond quickly to threats"],
+        "paraphrasing": "The hormones carry a trade-off, including faster threat response."
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "City-dwelling animals tend to have smaller body sizes to",
+        "paragraphReference": 5,
+        "options": [
+          "store more fat",
+          "disperse heat in the warmer urban microclimate",
+          "run faster from cars",
+          "fit into nests"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states smaller body sizes help animals disperse heat in the warmer microclimate of cities.",
+        "keywordsInPassage": ["smaller body sizes", "disperse heat"],
+        "paraphrasing": "Compact bodies cope better with urban warmth."
+      },
+      {
+        "questionNumber": 11,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The word 'ingenuity' in paragraph 4 is closest in meaning to:",
+        "paragraphReference": 4,
+        "options": [
+          "clumsiness",
+          "cleverness and resourcefulness",
+          "fear",
+          "hunger"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ingenuity' means cleverness and resourcefulness, describing how raccoons and coyotes solve problems in cities.",
+        "keywordsInPassage": ["ingenuity", "reputation"],
+        "paraphrasing": "The word praises the animals' problem-solving ability."
+      },
+      {
+        "questionNumber": 12,
+        "questionType": "MATCHING_HEADINGS",
+        "questionText": "Which heading best fits paragraph 5?",
+        "paragraphReference": 5,
+        "options": [
+          "Behavioural changes in foxes",
+          "Physiological changes in urban animals",
+          "Designing greener cities",
+          "Coyotes and railways"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 discusses physiological adaptations such as stress hormones and smaller body sizes.",
+        "keywordsInPassage": ["physiological", "stress hormones", "body sizes"],
+        "paraphrasing": "The paragraph covers internal bodily changes rather than behaviour."
+      },
+      {
+        "questionNumber": 13,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "All urban adaptations are beneficial with no negative consequences.",
+        "paragraphReference": 6,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 states consequences are not always positive, mentioning pests, disease, and increased conflicts, so the claim is false.",
+        "keywordsInPassage": ["not always positive", "pests", "conflicts"],
+        "paraphrasing": "Some outcomes of urban adaptation are harmful."
+      },
+      {
+        "questionNumber": 14,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What practical step does the passage suggest urban planners can take?",
+        "paragraphReference": 7,
+        "options": [
+          "Remove all green spaces",
+          "Design greener cities that accommodate people and wildlife",
+          "Ban all animals from cities",
+          "Build taller buildings only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 7 states urban planners can design greener cities that accommodate both people and wildlife.",
+        "keywordsInPassage": ["greener cities", "accommodate", "people and wildlife"],
+        "paraphrasing": "Planners can make room for nature within urban design."
+      },
+      {
+        "questionNumber": 15,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the writer's overall view of urban adaptation?",
+        "paragraphReference": 6,
+        "options": [
+          "Entirely negative",
+          "Cautiously optimistic",
+          "Completely indifferent",
+          "Furious"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 states some ecologists argue urban adaptation should be viewed with cautious optimism, and the writer reflects this balanced stance.",
+        "keywordsInPassage": ["cautious optimism", "refuges", "living laboratory"],
+        "paraphrasing": "The author sees potential benefits alongside the risks."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "MEDIUM",
+    "passage": {
+      "title": "The Mathematics of Music: Where Sound Meets Number",
+      "subtitle": "How numerical patterns underpin musical harmony",
+      "source": "Adapted from an interdisciplinary review of music theory",
+      "author": "Dr. Helena Voss",
+      "wordCount": 580,
+      "content": "Music and mathematics have been intertwined for more than two thousand years, a connection first explored systematically by the ancient Greek philosopher Pythagoras. According to tradition, Pythagoras noticed that a blacksmith's hammers produced harmonious sounds when their weights bore simple whole-number ratios to one another. Whether this story is true or not, experiments with a single stretched string soon confirmed the principle: when the string is divided into simple fractions, the resulting tones are pleasing to the ear.\n\nPythagoras discovered that halving the length of a vibrating string produces a note one octave higher, an interval that sounds almost identical to the original. If the string is divided in a ratio of two to one, the result is an octave; a ratio of three to two produces what musicians call a perfect fifth, one of the most stable and consonant intervals. These simple ratios form the foundation of the Pythagorean scale, a system that dominated Western music theory for centuries. The insight was profound: harmony, which seems purely emotional and subjective, is governed by precise mathematical relationships.\n\nModern physics has refined this understanding. A musical note is essentially a sound wave vibrating at a particular frequency, measured in cycles per second, or hertz. The note A above middle C, for example, is standardised in modern orchestras at 440 hertz. When a string or column of air vibrates, it does not produce only one frequency but a fundamental tone accompanied by a series of overtones, also called harmonics, whose frequencies are whole-number multiples of the fundamental. The relative strength of these overtones gives each instrument its distinctive tone colour, explaining why a violin and a flute playing the same note sound completely different.\n\nDespite its elegance, the Pythagorean system has a mathematical flaw. If one stacks perfect fifths, the ratios gradually drift away from clean octaves, producing a small but audible discrepancy known as the Pythagorean comma. This means that a keyboard tuned strictly by Pythagorean ratios sounds perfectly in tune only in certain keys and distinctly out of tune in others. To solve this problem, musicians in the seventeenth and eighteenth centuries developed equal temperament, a system that divides the octave into twelve equal semitones. Each semitone corresponds to a frequency ratio of the twelfth root of two, an irrational number that cannot be expressed as a simple fraction.\n\nEqual temperament is a compromise. No interval other than the octave is perfectly pure, but the error is distributed evenly across all keys, allowing instruments to play in any key without sounding noticeably wrong. The adoption of equal temperament was controversial; some musicians argued it robbed music of its characteristic colour. Nevertheless, it became the standard for keyboard instruments and ultimately for most of Western music, enabling the rich harmonic complexity of composers from Bach onward.\n\nThe mathematics of music extends beyond tuning. Rhythm, too, is fundamentally numerical, built on divisions of time into beats and measures. Algorithms now compose music, analyse style, and even predict whether a song will become popular. Researchers have used mathematical models to study why certain chord progressions evoke particular emotions, suggesting that the brain may be unconsciously tracking numerical patterns when it responds to music.\n\nThe enduring link between music and mathematics reveals that art and science are not separate realms but different expressions of the same underlying order. From a single vibrating string to the digital algorithms of the present day, the patterns of number continue to shape the patterns of sound.",
+      "topicCategory": "SCIENCE_TECHNOLOGY",
+      "textType": "DISCURSIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 1,
+      "questionEnd": 15
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main purpose of the passage?",
+        "paragraphReference": 1,
+        "options": [
+          "To argue music is better than math",
+          "To explain the mathematical foundations of music",
+          "To describe a single composer",
+          "To compare ancient and modern instruments"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The passage explains how mathematics underpins music, from Pythagorean ratios to modern tuning and algorithms.",
+        "keywordsInPassage": ["music and mathematics", "intertwined", "mathematical relationships"],
+        "paraphrasing": "The text explores the numerical basis of musical sound."
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 2, what happens when a vibrating string is halved in length?",
+        "paragraphReference": 2,
+        "options": [
+          "A note one octave lower is produced",
+          "A note one octave higher is produced",
+          "A perfect fifth is produced",
+          "No change occurs"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states halving the length of a vibrating string produces a note one octave higher.",
+        "keywordsInPassage": ["halving", "one octave higher"],
+        "paraphrasing": "Shortening the string by half raises the pitch by an octave."
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "A string divided in a ratio of three to two produces which interval?",
+        "paragraphReference": 2,
+        "options": [
+          "An octave",
+          "A perfect fifth",
+          "A semitone",
+          "A harmonic"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states a ratio of three to two produces a perfect fifth.",
+        "keywordsInPassage": ["three to two", "perfect fifth"],
+        "paraphrasing": "That specific ratio corresponds to a stable consonant interval."
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "A musical note is a sound wave vibrating at a particular frequency measured in hertz.",
+        "paragraphReference": 3,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 3 states a musical note is a sound wave vibrating at a particular frequency, measured in cycles per second, or hertz.",
+        "keywordsInPassage": ["frequency", "hertz", "cycles per second"],
+        "paraphrasing": "Pitch is quantified by the number of vibrations per second."
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the standardised frequency of the note A above middle C?",
+        "paragraphReference": 3,
+        "options": [
+          "261 hertz",
+          "440 hertz",
+          "330 hertz",
+          "880 hertz"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states the note A above middle C is standardised at 440 hertz in modern orchestras.",
+        "keywordsInPassage": ["A above middle C", "440 hertz"],
+        "paraphrasing": "The reference pitch is fixed at four hundred forty cycles per second."
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What do overtones give each instrument?",
+        "paragraphReference": 3,
+        "options": [
+          "Its size",
+          "Its distinctive tone colour",
+          "Its price",
+          "Its weight"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states the relative strength of overtones gives each instrument its distinctive tone colour.",
+        "keywordsInPassage": ["overtones", "distinctive tone colour"],
+        "paraphrasing": "Harmonics determine the unique sound of an instrument."
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the Pythagorean comma?",
+        "paragraphReference": 4,
+        "options": [
+          "A type of instrument",
+          "A small discrepancy produced when stacking perfect fifths",
+          "A famous composer",
+          "A unit of volume"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 defines the Pythagorean comma as a small audible discrepancy produced when stacking perfect fifths.",
+        "keywordsInPassage": ["Pythagorean comma", "stacks perfect fifths", "discrepancy"],
+        "paraphrasing": "It is the gap that emerges from accumulated tuning errors."
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Equal temperament divides the octave into",
+        "paragraphReference": 4,
+        "options": [
+          "twelve equal semitones",
+          "seven unequal tones",
+          "three parts",
+          "one hundred parts"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 states equal temperament divides the octave into twelve equal semitones.",
+        "keywordsInPassage": ["twelve equal semitones", "equal temperament"],
+        "paraphrasing": "The octave is split into a dozen equal steps."
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "In equal temperament, every interval other than the octave is perfectly pure.",
+        "paragraphReference": 5,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states no interval other than the octave is perfectly pure in equal temperament, so the claim is false.",
+        "keywordsInPassage": ["perfectly pure", "compromise"],
+        "paraphrasing": "Equal temperament sacrifices purity in most intervals."
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "Each semitone in equal temperament corresponds to a frequency ratio of",
+        "paragraphReference": 4,
+        "options": [
+          "the twelfth root of two",
+          "the square root of three",
+          "one half",
+          "three to two"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 states each semitone corresponds to a frequency ratio of the twelfth root of two.",
+        "keywordsInPassage": ["twelfth root of two", "semitone"],
+        "paraphrasing": "The step size is an irrational number derived from two."
+      },
+      {
+        "questionNumber": 11,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The word 'consonant' in paragraph 2 is closest in meaning to:",
+        "paragraphReference": 2,
+        "options": [
+          "Harmonious and pleasing",
+          "Loud",
+          "Disagreeable",
+          "Fast"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Consonant' in this context means harmonious and pleasing, describing the stable perfect fifth interval.",
+        "keywordsInPassage": ["consonant", "stable"],
+        "paraphrasing": "The word describes intervals that sound smooth together."
+      },
+      {
+        "questionNumber": 12,
+        "questionType": "MATCHING_HEADINGS",
+        "questionText": "Which heading best fits paragraph 5?",
+        "paragraphReference": 5,
+        "options": [
+          "Pythagoras and the string",
+          "The compromise of equal temperament",
+          "Rhythm and algorithms",
+          "The definition of hertz"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 discusses equal temperament as a compromise that became the standard despite controversy.",
+        "keywordsInPassage": ["compromise", "standard", "controversial"],
+        "paraphrasing": "The paragraph weighs the trade-offs of the tuning system."
+      },
+      {
+        "questionNumber": 13,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Equal temperament became the standard for",
+        "paragraphReference": 5,
+        "options": [
+          "Only string quartets",
+          "Keyboard instruments and ultimately most of Western music",
+          "Exclusively Eastern music",
+          "Percussion only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states equal temperament became the standard for keyboard instruments and ultimately for most of Western music.",
+        "keywordsInPassage": ["standard", "keyboard instruments", "most of Western music"],
+        "paraphrasing": "The system spread from keyboards to the broader tradition."
+      },
+      {
+        "questionNumber": 14,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Researchers have used mathematical models to study why chord progressions evoke particular emotions.",
+        "paragraphReference": 6,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states researchers have used mathematical models to study why certain chord progressions evoke particular emotions.",
+        "keywordsInPassage": ["mathematical models", "chord progressions", "emotions"],
+        "paraphrasing": "Studies link number-based patterns to emotional responses."
+      },
+      {
+        "questionNumber": 15,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the writer's main point in the conclusion?",
+        "paragraphReference": 7,
+        "options": [
+          "Art and science are separate realms",
+          "Art and science are different expressions of the same underlying order",
+          "Mathematics is useless for music",
+          "Music will soon replace mathematics"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The final paragraph states art and science are not separate realms but different expressions of the same underlying order.",
+        "keywordsInPassage": ["not separate realms", "same underlying order"],
+        "paraphrasing": "The author unifies the two disciplines as one structure."
+      }
+    ]
+  },
+  {
+    "type": "READING_PASSAGE",
+    "difficulty": "HARD",
+    "passage": {
+      "title": "The Decline of Bee Populations: Causes and Consequences",
+      "subtitle": "Unravelling a crisis in global pollination",
+      "source": "Adapted from pollinator ecology research review",
+      "author": "Dr. Samuel Okafor",
+      "wordCount": 640,
+      "content": "Over the past several decades, beekeepers and scientists around the world have observed a disturbing trend: honeybee colonies are dying at unprecedented rates. The phenomenon, which gained widespread attention in the mid-2000s, was given the name colony collapse disorder, or CCD. In affected colonies, the majority of worker bees disappear, leaving behind a queen, plenty of food, and a few nurse bees tending immature larvae. The abruptness and scale of these losses alarmed agricultural industries, because honeybees pollinate roughly one third of the food crops humans consume.\n\nThe causes of bee decline are multiple and interconnected, which has made solutions elusive. One major factor is the widespread use of a class of pesticides called neonicotinoids. Introduced in the 1990s as a safer alternative to older insecticides, neonicotinoids are systemic, meaning they are absorbed into every tissue of a plant, including its pollen and nectar. While the doses bees encounter are rarely immediately lethal, research has shown that even sublethal exposure can impair navigation, memory, and foraging behaviour. A bee that cannot find its way back to the hive is effectively lost, a finding that helps explain the empty colonies characteristic of CCD.\n\nParasites and diseases compound the problem. The varroa mite, a tiny parasite that attaches to bees and feeds on their body fluids, has spread to nearly every continent and is widely regarded as the single greatest biological threat to honeybees. The mite not only weakens bees directly but also transmits viruses, such as deformed wing virus, which can devastate colonies. Controlling varroa is difficult because the mites develop resistance to chemical treatments, and aggressive medications can leave residues in honey destined for human consumption.\n\nHabitat loss represents a third, slower but equally serious pressure. Modern intensive agriculture has replaced diverse wildflower meadows with vast monocultures of a single crop, which bloom for only a short period and offer bees little sustenance for the rest of the year. The removal of hedgerows and field margins further eliminates nesting sites. As a result, bees face a landscape that is nutritionally impoverished, making them more vulnerable to the stresses of pesticides and disease.\n\nClimate change adds yet another layer of complexity. Rising temperatures and shifting rainfall patterns alter the timing of flowering, causing a mismatch between when plants bloom and when bees emerge from hibernation. Some bumblebee species, adapted to cool climates, are being squeezed toward higher latitudes and altitudes, running out of suitable habitat at the southern edges of their range. Extreme weather events, such as droughts and unseasonal frosts, can destroy entire flowering seasons.\n\nThe consequences of bee decline extend well beyond honey. Roughly three quarters of the world's flowering plants depend on animal pollinators, and the loss of bees threatens the reproduction of wild plants and the yields of crops such as almonds, apples, and coffee. The economic value of pollination services is estimated in the tens of billions of dollars annually, but the ecological value is incalculable, as pollination underpins the food webs that sustain countless other species.\n\nEfforts to reverse the decline are underway but remain fragmented. The European Union restricted several neonicotinoids in 2013 and broadened the ban in 2018, though enforcement and exemptions remain contentious. Some farmers are planting wildflower strips along field edges, and urban gardeners are increasingly choosing pollinator-friendly plants. Researchers are breeding bees with natural resistance to varroa mites, while others explore technological substitutes such as robotic pollinators, though these remain far from viable at scale. Most experts agree that no single intervention will suffice; saving the bees will require coordinated action across agriculture, chemistry, and land management.",
+      "topicCategory": "ENVIRONMENT",
+      "textType": "ARGUMENTATIVE",
+      "hasDiagram": false,
+      "hasChart": false,
+      "questionStart": 1,
+      "questionEnd": 15
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main purpose of the passage?",
+        "paragraphReference": 1,
+        "options": [
+          "To describe honey production",
+          "To explain the causes and consequences of bee population decline",
+          "To promote a brand of pesticide",
+          "To compare bee species physically"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The passage outlines the phenomenon of colony collapse disorder and analyses its multiple causes and consequences for pollination.",
+        "keywordsInPassage": ["colony collapse disorder", "causes", "consequences"],
+        "paraphrasing": "The text examines why bees are dying and why it matters."
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In colonies affected by CCD, what disappears?",
+        "paragraphReference": 1,
+        "options": [
+          "The queen bee",
+          "The majority of worker bees",
+          "The honey",
+          "The larvae"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states that in affected colonies, the majority of worker bees disappear, leaving behind the queen, food, and a few nurse bees.",
+        "keywordsInPassage": ["majority of worker bees", "disappear"],
+        "paraphrasing": "It is the working bees that vanish from the hive."
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Roughly what fraction of food crops do honeybees pollinate?",
+        "paragraphReference": 1,
+        "options": [
+          "One tenth",
+          "One third",
+          "One half",
+          "All"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 1 states honeybees pollinate roughly one third of the food crops humans consume.",
+        "keywordsInPassage": ["one third", "food crops", "pollinate"],
+        "paraphrasing": "About a third of crops depend on bee pollination."
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does it mean that neonicotinoids are systemic?",
+        "paragraphReference": 2,
+        "options": [
+          "They stay on the leaf surface",
+          "They are absorbed into every tissue of the plant including pollen and nectar",
+          "They kill only mites",
+          "They dissolve in water instantly"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 2 states neonicotinoids are systemic, meaning they are absorbed into every tissue of a plant, including its pollen and nectar.",
+        "keywordsInPassage": ["systemic", "absorbed", "pollen and nectar"],
+        "paraphrasing": "The chemical spreads throughout the entire plant."
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "Sublethal exposure to neonicotinoids can impair bees' navigation.",
+        "paragraphReference": 2,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 2 states even sublethal exposure can impair navigation, memory, and foraging behaviour.",
+        "keywordsInPassage": ["sublethal", "impair navigation"],
+        "paraphrasing": "Non-lethal doses still disrupt a bee's ability to navigate."
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the varroa mite do?",
+        "paragraphReference": 3,
+        "options": [
+          "It pollinates flowers",
+          "It feeds on bees' body fluids and transmits viruses",
+          "It produces honey",
+          "It cleans the hive"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 3 states the varroa mite attaches to bees and feeds on their body fluids and also transmits viruses.",
+        "keywordsInPassage": ["varroa mite", "body fluids", "transmits viruses"],
+        "paraphrasing": "The parasite drains bees and spreads disease."
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How is deformed wing virus related to varroa mites?",
+        "paragraphReference": 3,
+        "options": [
+          "It is transmitted by varroa mites",
+          "It is caused by cold weather",
+          "It affects only queen bees",
+          "It is harmless to bees"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 3 states the varroa mite transmits viruses such as deformed wing virus, which can devastate colonies.",
+        "keywordsInPassage": ["transmits viruses", "deformed wing virus"],
+        "paraphrasing": "The mite carries and spreads the virus among bees."
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MATCHING_SENTENCE_ENDINGS",
+        "questionText": "Modern intensive agriculture has replaced diverse wildflower meadows with",
+        "paragraphReference": 4,
+        "options": [
+          "vast monocultures of a single crop",
+          "dense forests",
+          "urban gardens",
+          "wetlands"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 4 states modern intensive agriculture has replaced diverse wildflower meadows with vast monocultures of a single crop.",
+        "keywordsInPassage": ["monocultures", "wildflower meadows"],
+        "paraphrasing": "Single-crop fields have displaced varied flower habitats."
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "According to paragraph 5, what mismatch does climate change cause?",
+        "paragraphReference": 5,
+        "options": [
+          "Between day and night",
+          "Between when plants bloom and when bees emerge from hibernation",
+          "Between summer and winter",
+          "Between queens and workers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states climate change alters the timing of flowering, causing a mismatch between when plants bloom and when bees emerge from hibernation.",
+        "keywordsInPassage": ["mismatch", "flowering", "emerge from hibernation"],
+        "paraphrasing": "Warmer seasons desynchronise flowers and foraging bees."
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "SENTENCE_COMPLETION",
+        "questionText": "Bumblebees adapted to cool climates are being squeezed toward",
+        "paragraphReference": 5,
+        "options": [
+          "the equator",
+          "higher latitudes and altitudes",
+          "underground burrows",
+          "coastal cities"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states bumblebee species adapted to cool climates are being squeezed toward higher latitudes and altitudes.",
+        "keywordsInPassage": ["higher latitudes and altitudes", "bumblebee"],
+        "paraphrasing": "Cool-climate bees are retreating uphill and poleward."
+      },
+      {
+        "questionNumber": 11,
+        "questionType": "TRUE_FALSE_NOT_GIVEN",
+        "questionText": "The European Union restricted several neonicotinoids in 2013.",
+        "paragraphReference": 6,
+        "options": ["True", "False", "Not Given"],
+        "correctAnswer": 0,
+        "explanation": "Paragraph 6 states the European Union restricted several neonicotinoids in 2013 and broadened the ban in 2018.",
+        "keywordsInPassage": ["European Union", "restricted", "2013"],
+        "paraphrasing": "The EU took regulatory action against the pesticides in 2013."
+      },
+      {
+        "questionNumber": 12,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Roughly what proportion of the world's flowering plants depend on animal pollinators?",
+        "paragraphReference": 5,
+        "options": [
+          "One quarter",
+          "Three quarters",
+          "One half",
+          "All"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 5 states roughly three quarters of the world's flowering plants depend on animal pollinators.",
+        "keywordsInPassage": ["three quarters", "flowering plants", "animal pollinators"],
+        "paraphrasing": "Most flowering species rely on pollinators like bees."
+      },
+      {
+        "questionNumber": 13,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "The word 'elusive' in paragraph 2 is closest in meaning to:",
+        "paragraphReference": 2,
+        "options": [
+          "Easy to find",
+          "Difficult to achieve or grasp",
+          "Expensive",
+          "Illegal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Elusive' in this context means difficult to achieve or grasp, describing how solutions to bee decline are hard to find.",
+        "keywordsInPassage": ["elusive", "solutions"],
+        "paraphrasing": "The word signals that answers are hard to pin down."
+      },
+      {
+        "questionNumber": 14,
+        "questionType": "MATCHING_HEADINGS",
+        "questionText": "Which heading best fits paragraph 4?",
+        "paragraphReference": 4,
+        "options": [
+          "The varroa mite threat",
+          "Habitat loss and nutritional impoverishment",
+          "Climate change and flowering",
+          "Robotic pollinators"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 4 discusses habitat loss, monocultures, and the resulting nutritional impoverishment of the landscape for bees.",
+        "keywordsInPassage": ["habitat loss", "monocultures", "nutritionally impoverished"],
+        "paraphrasing": "The paragraph covers the loss of diverse foraging habitat."
+      },
+      {
+        "questionNumber": 15,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the writer's conclusion about solving bee decline?",
+        "paragraphReference": 6,
+        "options": [
+          "A single intervention will solve everything",
+          "Saving the bees will require coordinated action across agriculture, chemistry, and land management",
+          "Technology alone will fix the problem",
+          "Nothing can be done"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paragraph 6 concludes that no single intervention will suffice and saving the bees requires coordinated action across agriculture, chemistry, and land management.",
+        "keywordsInPassage": ["no single intervention", "coordinated action"],
+        "paraphrasing": "The author calls for a combined, multi-sector response."
+      }
+    ]
+  }
+]

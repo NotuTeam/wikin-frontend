@@ -1,0 +1,873 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a pharmacy student discussing a drug interaction study with her supervisor.",
+    "audioScript": "Situation: A final-year pharmacy student reviews the design of her drug interaction study with her clinical supervisor.\nSupervisor: Right, Priya, let's go through your protocol for the warfarin-amoxicillin interaction study. How many participants are you recruiting?\nPriya: I'm aiming for one hundred and twenty patients across two hospitals.\nSupervisor: Good. And what is the study duration you've proposed?\nPriya: Six weeks of observation, with a two-week follow-up after the antibiotic course ends.\nSupervisor: Sensible. Which primary outcome measure are you tracking?\nPriya: The main endpoint is the change in INR readings, that's the international normalised ratio, within the first week.\nSupervisor: Correct. INR is the gold standard here. What's your control group?\nPriya: Patients on warfarin who are prescribed a non-interacting antibiotic, cephalexin, as the comparator.\nSupervisor: Solid choice. How will you handle participants who miss doses?\nPriya: We log missed doses in an electronic diary and exclude anyone who misses more than two consecutive days.\nSupervisor: Pragmatic. And the statistical test?\nPriya: I'll use a paired t-test for within-group comparisons and a Mann-Whitney U test between groups since the data may not be normally distributed.\nSupervisor: Good thinking on non-parametric fallback. What's the main ethical consideration?\nPriya: Since warfarin monitoring is standard care, we rely on a waiver of consent for data review, but full consent for any additional blood draws.\nSupervisor: Exactly. Submit your ethics amendment by the fifteenth and we can begin recruitment next month.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Supervisor", "accent": "BRITISH", "gender": "MALE", "role": "clinical supervisor" },
+        { "name": "Priya", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "final-year pharmacy student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which two drugs are the focus of Priya's interaction study?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Warfarin and cephalexin", "Amoxicillin and cephalexin", "Warfarin and amoxicillin", "Aspirin and amoxicillin"],
+        "keywords": ["warfarin", "amoxicillin", "interaction"],
+        "synonymsUsed": ["drug combination", "interaction study"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many participants is Priya aiming to recruit?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One hundred", "One hundred and twenty", "One hundred and fifty", "Two hundred"],
+        "keywords": ["participants", "recruit"],
+        "synonymsUsed": ["sample size", "patients"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Across how many hospitals will the study take place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["hospitals"],
+        "synonymsUsed": ["sites", "centres"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total observation period including follow-up?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Four weeks", "Six weeks", "Eight weeks", "Ten weeks"],
+        "keywords": ["observation", "follow-up", "weeks"],
+        "synonymsUsed": ["duration", "study period"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the primary outcome measure?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Blood pressure readings", "Change in INR readings", "Platelet count", "Liver enzyme levels"],
+        "keywords": ["primary outcome", "INR"],
+        "synonymsUsed": ["main endpoint", "international normalised ratio"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which antibiotic is used for the control group?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Amoxicillin", "Penicillin", "Doxycycline", "Cephalexin"],
+        "keywords": ["control group", "cephalexin", "comparator"],
+        "synonymsUsed": ["comparator antibiotic", "non-interacting"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What happens to participants who miss more than two consecutive days of doses?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["They are excluded from the study", "They are given a lower dose", "They switch to a new antibiotic", "They receive a reminder call"],
+        "keywords": ["missed doses", "exclude", "two consecutive days"],
+        "synonymsUsed": ["drop-out", "removed from analysis"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which statistical test is used for between-group comparisons?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Paired t-test", "Chi-square test", "ANOVA", "Mann-Whitney U test"],
+        "keywords": ["statistical test", "Mann-Whitney", "between groups"],
+        "synonymsUsed": ["non-parametric test", "comparison"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What consent arrangement applies to the data review portion?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Full consent for all activities", "No consent required", "A waiver of consent", "Verbal consent only"],
+        "keywords": ["consent", "waiver", "data review"],
+        "synonymsUsed": ["permission", "ethics approval"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By which date must Priya submit her ethics amendment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The fifteenth", "The twentieth", "The end of the month", "The first of next month"],
+        "keywords": ["ethics amendment", "fifteenth", "submit"],
+        "synonymsUsed": ["deadline", "ethics form"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "interaction", "pronunciationNote": "/ˌɪntərˈækʃən/", "meaning": "The effect of one drug on the action or toxicity of another." },
+      { "word": "INR", "pronunciationNote": "/ˌaɪ en ˈɑːr/", "meaning": "International Normalised Ratio, a measure of blood clotting time used to monitor warfarin therapy." },
+      { "word": "comparator", "pronunciationNote": "/ˈkɒmpəreɪtə/", "meaning": "A reference treatment used as a control in a clinical study." },
+      { "word": "non-parametric", "pronunciationNote": "/ˌnɒnˌpærəˈmetrɪk/", "meaning": "A statistical test that does not assume data follow a particular distribution." },
+      { "word": "waiver of consent", "pronunciationNote": "/ˈweɪvər əv kənˈsent/", "meaning": "A formal exemption from obtaining participant consent for certain study activities." },
+      { "word": "recruitment", "pronunciationNote": "/rɪˈkruːtmənt/", "meaning": "The process of enrolling participants into a research study." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two agriculture students planning a crop rotation schedule with their lecturer.",
+    "audioScript": "Situation: Two agriculture students consult their lecturer about designing a four-year crop rotation plan for a dairy farm.\nLecturer: So, Tom and Megan, you're planning a rotation for the Watson dairy farm. What's the total arable area?\nTom: It's forty hectares split into four equal fields of ten hectares each.\nLecturer: Good. What's the first crop you'd plant in year one?\nMegan: We start with winter wheat because it gives the best gross margin for this region.\nLecturer: Sensible. And in year two?\nTom: Year two is oilseed rape. It breaks the cereal disease cycle and provides a good break crop.\nLecturer: Correct. What goes in year three?\nMegan: We put in a legume, field beans, to fix nitrogen naturally and reduce fertiliser costs.\nLecturer: Excellent reasoning. And year four?\nTom: Year four is a grass-clover ley grazed by the dairy herd. It restores soil structure and organic matter.\nLecturer: Spot on. How often should they soil test?\nMegan: Every three years, sampling in autumn before the ley is ploughed out.\nLecturer: Good. What's the main risk of shortening the rotation to three years?\nTom: Build-up of soil-borne pests like take-all and cyst nematodes, which thrive without a sufficient break.\nLecturer: Exactly. Finally, what record should the farm keep for each field?\nMegan: A field operations log noting planting dates, inputs, and yields so they can evaluate the rotation's performance.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Lecturer", "accent": "BRITISH", "gender": "MALE", "role": "agriculture lecturer" },
+        { "name": "Tom", "accent": "AUSTRALIAN", "gender": "MALE", "role": "agriculture student" },
+        { "name": "Megan", "accent": "AMERICAN", "gender": "FEMALE", "role": "agriculture student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of farm is the crop rotation being planned for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["An arable crop farm", "A poultry farm", "A dairy farm", "A vineyard"],
+        "keywords": ["dairy farm", "Watson"],
+        "synonymsUsed": ["cattle farm", "milk production"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the total arable area of the farm?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Thirty hectares", "Forty hectares", "Fifty hectares", "Sixty hectares"],
+        "keywords": ["total arable area", "hectares"],
+        "synonymsUsed": ["land size", "acreage"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How large is each of the four fields?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ten hectares", "Fifteen hectares", "Twenty hectares", "Five hectares"],
+        "keywords": ["fields", "ten hectares", "equal"],
+        "synonymsUsed": ["plots", "parcels"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which crop is planted in year one?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Oilseed rape", "Winter wheat", "Field beans", "Grass-clover ley"],
+        "keywords": ["year one", "winter wheat"],
+        "synonymsUsed": ["first crop", "cereal"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why is oilseed rape chosen for year two?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["It fixes nitrogen in the soil", "It is grazed by cattle", "It breaks the cereal disease cycle", "It produces the highest yield"],
+        "keywords": ["oilseed rape", "break", "disease cycle"],
+        "synonymsUsed": ["break crop", "interrupts disease"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the purpose of planting field beans in year three?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["To fix nitrogen naturally and reduce fertiliser costs", "To provide winter grazing", "To suppress weed growth", "To improve drainage"],
+        "keywords": ["field beans", "nitrogen", "fertiliser"],
+        "synonymsUsed": ["legume", "fix nitrogen"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is planted in year four?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Winter barley", "Maize", "Potatoes", "A grass-clover ley"],
+        "keywords": ["year four", "grass-clover ley"],
+        "synonymsUsed": ["pasture", "ley grazing"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often should soil testing be carried out?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Every year", "Every three years", "Every five years", "Every two years"],
+        "keywords": ["soil test", "three years"],
+        "synonymsUsed": ["soil sampling", "testing frequency"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main risk of shortening the rotation to three years?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Build-up of soil-borne pests like take-all and cyst nematodes", "Reduced milk yield from the herd", "Increased fertiliser costs", "Poor drainage in winter"],
+        "keywords": ["shortening rotation", "soil-borne pests", "take-all", "nematodes"],
+        "synonymsUsed": ["pest build-up", "disease pressure"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What record should the farm keep for each field?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A monthly profit report", "A livestock health log", "A field operations log of planting dates, inputs, and yields", "A weather diary"],
+        "keywords": ["record", "field operations log", "planting dates", "inputs", "yields"],
+        "synonymsUsed": ["documentation", "logbook"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "crop rotation", "pronunciationNote": "/krɒp rəʊˈteɪʃən/", "meaning": "The practice of growing different crops in succession on the same land to maintain soil health." },
+      { "word": "break crop", "pronunciationNote": "/breɪk krɒp/", "meaning": "A crop grown between cereal crops to disrupt pest and disease cycles." },
+      { "word": "legume", "pronunciationNote": "/ˈleɡjuːm/", "meaning": "A plant family that fixes atmospheric nitrogen through root nodules, e.g. beans and clover." },
+      { "word": "ley", "pronunciationNote": "/leɪ/", "meaning": "A temporary grassland used for grazing or hay within an arable rotation." },
+      { "word": "take-all", "pronunciationNote": "/teɪk ɔːl/", "meaning": "A soil-borne fungal disease of wheat that causes white heads and yield loss." },
+      { "word": "organic matter", "pronunciationNote": "/ɔːˈɡænɪk ˈmætə/", "meaning": "Decomposed plant and animal material in soil that improves structure and fertility." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two meteorology students discussing a weather forecasting model with their professor.",
+    "audioScript": "Situation: Two postgraduate meteorology students discuss the limitations of a regional numerical weather prediction model with their professor.\nProfessor: Right, Sam and Olivia, you've been running the WRF model for the south-west region. What horizontal resolution are you using?\nSam: We've set it to four kilometres, which balances detail and computational cost.\nProfessor: Reasonable. What's the main issue you've found with the convective precipitation forecasts?\nOlivia: The model tends to over-predict light rain events, producing false alarms on roughly thirty per cent of days.\nProfessor: That's a known bias. Which parameterisation scheme are you using for cumulus convection?\nSam: The Kain-Fritsch scheme. We chose it because it handles deep convection well in this climate.\nProfessor: Good. Have you tried the Grell-Freitas scheme as an alternative?\nOlivia: Not yet. We plan a sensitivity run next week comparing the two schemes over a forty-eight-hour window.\nProfessor: Sensible. What's your verification metric?\nSam: We're using the equitable threat score for precipitation thresholds above one millimetre per hour.\nProfessor: Good choice. How long is your simulation period?\nOlivia: Thirty days of the monsoon season, from the first to the thirtieth of July.\nProfessor: Adequate. What data are you using for initial and boundary conditions?\nSam: We downscale from the GFS global model at zero-point-five-degree resolution.\nProfessor: Fine. Finally, what's the biggest limitation you've identified?\nOlivia: The model under-resolves orographic rainfall over the coastal ranges because the terrain is smoothed at four-kilometre grid spacing.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Professor", "accent": "BRITISH", "gender": "MALE", "role": "meteorology professor" },
+        { "name": "Sam", "accent": "CANADIAN", "gender": "MALE", "role": "postgraduate meteorology student" },
+        { "name": "Olivia", "accent": "AMERICAN", "gender": "FEMALE", "role": "postgraduate meteorology student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What horizontal resolution have the students set for the WRF model?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two kilometres", "Four kilometres", "Eight kilometres", "Ten kilometres"],
+        "keywords": ["horizontal resolution", "four kilometres"],
+        "synonymsUsed": ["grid spacing", "model resolution"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main problem with the convective precipitation forecasts?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The model over-predicts light rain events", "The model under-predicts heavy storms", "The model misses cold fronts", "The model runs too slowly"],
+        "keywords": ["over-predict", "light rain", "false alarms"],
+        "synonymsUsed": ["bias", "false alarms"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On roughly what percentage of days do false alarms occur?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Ten per cent", "Twenty per cent", "Thirty per cent", "Forty per cent"],
+        "keywords": ["false alarms", "thirty per cent"],
+        "synonymsUsed": ["percentage", "proportion"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which cumulus parameterisation scheme are the students currently using?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Kain-Fritsch", "Grell-Freitas", "Betts-Miller-Janjic", "Tiedtke"],
+        "keywords": ["cumulus", "Kain-Fritsch", "parameterisation"],
+        "synonymsUsed": ["convection scheme", "parameterisation"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why was the Kain-Fritsch scheme chosen?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It runs fastest on the cluster", "It handles deep convection well in this climate", "It requires the least memory", "It is the default option"],
+        "keywords": ["Kain-Fritsch", "deep convection", "climate"],
+        "synonymsUsed": ["suitable for", "performs well"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the sensitivity run comparing the two schemes?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-four hours", "Thirty-six hours", "Forty-eight hours", "Seventy-two hours"],
+        "keywords": ["sensitivity run", "forty-eight-hour"],
+        "synonymsUsed": ["comparison run", "window"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which verification metric are the students using?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Equitable threat score", "Root mean square error", "Brier score", "Anomaly correlation coefficient"],
+        "keywords": ["verification", "equitable threat score"],
+        "synonymsUsed": ["skill score", "verification metric"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What precipitation threshold is used for verification?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Half a millimetre per hour", "One millimetre per hour", "Five millimetres per hour", "Ten millimetres per hour"],
+        "keywords": ["threshold", "one millimetre per hour"],
+        "synonymsUsed": ["cut-off", "rainfall rate"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the simulation period?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Thirty days of the monsoon season", "Fifteen days in winter", "Sixty days in summer", "Ninety days across a year"],
+        "keywords": ["simulation period", "thirty days", "monsoon"],
+        "synonymsUsed": ["run length", "model period"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the biggest limitation the students identified?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The model runs too slowly for real-time use", "Boundary conditions are outdated", "The model under-resolves orographic rainfall over the coastal ranges", "Initial conditions lack satellite data"],
+        "keywords": ["limitation", "orographic rainfall", "coastal ranges", "terrain smoothed"],
+        "synonymsUsed": ["drawback", "rain shadow"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "numerical weather prediction", "pronunciationNote": "/njuːˈmerɪkəl ˈweðə prɪˈdɪkʃən/", "meaning": "The use of computer models to simulate atmospheric processes and forecast weather." },
+      { "word": "parameterisation", "pronunciationNote": "/pəˌræmɪtəraɪˈzeɪʃən/", "meaning": "A technique for representing sub-grid physical processes in a model using simplified equations." },
+      { "word": "convective precipitation", "pronunciationNote": "/kənˈvektɪv prɪˌsɪpɪˈteɪʃən/", "meaning": "Rainfall produced by the rising of warm, moist air and cloud formation." },
+      { "word": "equitable threat score", "pronunciationNote": "/ˈekwɪtəbl θret skɔː/", "meaning": "A verification metric measuring forecast accuracy adjusted for random hits." },
+      { "word": "orographic", "pronunciationNote": "/ˌɒrəˈɡræfɪk/", "meaning": "Relating to mountains; rainfall caused by air being forced to rise over terrain." },
+      { "word": "downscale", "pronunciationNote": "/ˌdaʊnˈskeɪl/", "meaning": "To derive finer-resolution regional data from a coarser global model." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a student planning anthropology fieldwork with her academic advisor.",
+    "audioScript": "Situation: A doctoral anthropology student discusses her upcoming fieldwork plan in a highland village with her academic advisor.\nAdvisor: So, Nadia, your fieldwork in the Apurímac highlands. How long are you planning to stay?\nNadia: I'm planning eleven months, including a one-month language immersion period before formal data collection begins.\nAdvisor: Good. What's the primary research question?\nNadia: I'm examining how communal labour practices, known as ayni, are changing with youth out-migration to cities.\nAdvisor: Strong focus. What methods will you use?\nNadia: Participant observation is the core method, supplemented by sixty semi-structured interviews and three focus groups.\nAdvisor: Solid. How will you gain entry to the community?\nNadia: I've made contact with a local schoolteacher, Elena, who will act as my cultural broker and introduce me to village leaders.\nAdvisor: Essential. What language considerations are there?\nNadia: Most elders speak Quechua, so I'll work with a translator for the first two months while my own Quechua improves.\nAdvisor: Wise. How will you record data?\nNadia: I'll keep detailed fieldnotes in a coded notebook and use audio recordings for interviews, with participants' consent.\nAdvisor: Good. What's your main ethical concern?\nNadia: Ensuring reciprocity, so I'll share translated summaries with the community and donate a small library to the school as a thank-you.\nAdvisor: Excellent. When do you intend to submit your fieldwork proposal to the ethics board?\nNadia: By the end of March, so I can depart in May after the review is complete.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Advisor", "accent": "BRITISH", "gender": "MALE", "role": "academic advisor" },
+        { "name": "Nadia", "accent": "CANADIAN", "gender": "FEMALE", "role": "doctoral anthropology student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where will Nadia conduct her fieldwork?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The Apurímac highlands", "The Amazon lowlands", "The coastal desert", "The Andean foothills"],
+        "keywords": ["Apurímac highlands", "fieldwork"],
+        "synonymsUsed": ["research site", "highland village"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the total planned fieldwork stay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten months", "Eleven months", "Twelve months", "Nine months"],
+        "keywords": ["eleven months", "stay"],
+        "synonymsUsed": ["duration", "fieldwork period"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the focus of Nadia's research question?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The impact of tourism on local crafts", "The effects of climate change on farming", "How communal labour practices are changing with youth out-migration", "The role of women in market trade"],
+        "keywords": ["communal labour", "ayni", "youth out-migration"],
+        "synonymsUsed": ["reciprocal labour", "rural-urban migration"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the core research method Nadia will use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Participant observation", "Postal surveys", "Archival research", "Randomised trials"],
+        "keywords": ["participant observation", "core method"],
+        "synonymsUsed": ["ethnographic observation", "fieldwork method"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many semi-structured interviews does Nadia plan to conduct?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifty", "Sixty", "Seventy", "Eighty"],
+        "keywords": ["semi-structured interviews", "sixty"],
+        "synonymsUsed": ["interview count", "number"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who will act as Nadia's cultural broker?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["The village chief", "A religious leader", "A local farmer", "A schoolteacher named Elena"],
+        "keywords": ["cultural broker", "Elena", "schoolteacher"],
+        "synonymsUsed": ["intermediary", "gatekeeper"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why will Nadia work with a translator initially?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Most elders speak Quechua while her own Quechua improves", "The villagers refuse to speak Spanish", "She does not understand the local customs", "The translator is a required ethical safeguard"],
+        "keywords": ["translator", "Quechua", "elders"],
+        "synonymsUsed": ["interpreter", "indigenous language"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "For how long will Nadia need a translator?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One month", "Two months", "Three months", "Six months"],
+        "keywords": ["translator", "two months"],
+        "synonymsUsed": ["interpreter period", "duration"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How will Nadia ensure reciprocity with the community?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["By paying participants for interviews", "By hiring local guides", "By sharing translated summaries and donating a small library to the school", "By building a new health clinic"],
+        "keywords": ["reciprocity", "translated summaries", "library", "school"],
+        "synonymsUsed": ["giving back", "community benefit"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By when does Nadia intend to submit her fieldwork proposal to the ethics board?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The end of March", "The end of April", "The end of May", "The end of February"],
+        "keywords": ["ethics board", "end of March", "submit"],
+        "synonymsUsed": ["ethics review", "deadline"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "fieldwork", "pronunciationNote": "/ˈfiːldwɜːk/", "meaning": "Practical research conducted in the natural environment of the subjects being studied." },
+      { "word": "participant observation", "pronunciationNote": "/pɑːˈtɪsɪpənt ˌɒbzəˈveɪʃən/", "meaning": "A method where the researcher immerses themselves in a community to observe behaviour firsthand." },
+      { "word": "cultural broker", "pronunciationNote": "/ˈkʌltʃərəl ˈbrəʊkə/", "meaning": "A local intermediary who helps a researcher gain access to and understand a community." },
+      { "word": "reciprocity", "pronunciationNote": "/ˌresɪˈprɒsəti/", "meaning": "The principle of giving something back to the community in exchange for their participation." },
+      { "word": "out-migration", "pronunciationNote": "/aʊt maɪˈɡreɪʃən/", "meaning": "The movement of people, especially young adults, away from a rural area to urban centres." },
+      { "word": "focus group", "pronunciationNote": "/ˈfəʊkəs ɡruːp/", "meaning": "A moderated group discussion used to gather qualitative data on a specific topic." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a student analysing phonology data with her linguistics tutor.",
+    "audioScript": "Situation: A linguistics student presents her phonological analysis of vowel merger data to her tutor.\nTutor: Right, Hana, let's look at your analysis of the cot-caught merger in Pacific Northwest English. How many speakers did you record?\nHana: I recorded twenty speakers, ten from Seattle and ten from Portland, balanced for age and gender.\nTutor: Good sample. What method did you use to elicit the vowels?\nHana: I used a wordlist of forty minimal pairs, each embedded in a carrier phrase to control for prosody.\nTutor: Sensible. What acoustic measure did you extract?\nHana: I measured F1 and F2 formant frequencies at the vowel midpoint using Praat software.\nTutor: Good. What did you find regarding the merger?\nHana: Eighty-five per cent of speakers under thirty showed a complete merger, while older speakers maintained a clear distinction.\nTutor: That's a striking age stratification. What statistical test did you use to compare the groups?\nHana: I ran an independent samples t-test on the Euclidean distance between the two vowel categories.\nTutor: Appropriate. What's the main limitation of your study?\nHana: The sample is urban only, so I can't generalise to rural Pacific Northwest communities.\nTutor: Fair point. What would you add in a follow-up?\nHana: I'd include reading-style and conversational-style tasks to test for style-shifting effects.\nTutor: Good. Finally, which theoretical framework are you using to interpret the change?\nHana: I'm using Labov's principles of chain shifting, specifically the prediction that low back vowels merge before front vowels raise.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "MALE", "role": "linguistics tutor" },
+        { "name": "Hana", "accent": "AMERICAN", "gender": "FEMALE", "role": "linguistics student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which vowel merger is the focus of Hana's analysis?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The cot-caught merger", "The pin-pen merger", "The merry-marry merger", "The pool-pull merger"],
+        "keywords": ["cot-caught merger", "Pacific Northwest"],
+        "synonymsUsed": ["low back merger", "vowel merger"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which region does the study focus on?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Southern United States", "Pacific Northwest", "New England", "The Midwest"],
+        "keywords": ["Pacific Northwest", "Seattle", "Portland"],
+        "synonymsUsed": ["US north-west", "region"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many speakers did Hana record in total?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen", "Eighteen", "Twenty", "Twenty-five"],
+        "keywords": ["speakers", "twenty", "recorded"],
+        "synonymsUsed": ["participants", "sample"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How was the speaker sample balanced?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["By age and gender", "By education and income", "By occupation and region", "By language background and handedness"],
+        "keywords": ["balanced", "age", "gender"],
+        "synonymsUsed": ["stratified", "controlled"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How were the vowel sounds elicited?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Through free conversation", "By reading a passage aloud", "Using a wordlist of forty minimal pairs in a carrier phrase", "By repeating after a recording"],
+        "keywords": ["wordlist", "minimal pairs", "carrier phrase"],
+        "synonymsUsed": ["elicitation task", "word list"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which acoustic measure did Hana extract?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Pitch and intensity contours", "F1 and F2 formant frequencies at the vowel midpoint", "Voice onset time", "Duration in milliseconds"],
+        "keywords": ["F1", "F2", "formant", "midpoint"],
+        "synonymsUsed": ["formant frequencies", "acoustic measure"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of speakers under thirty showed a complete merger?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Sixty-five per cent", "Seventy-five per cent", "Eighty-five per cent", "Ninety-five per cent"],
+        "keywords": ["under thirty", "eighty-five per cent", "merger"],
+        "synonymsUsed": ["younger speakers", "complete merger"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What statistical test did Hana use to compare the groups?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["An independent samples t-test", "A paired t-test", "A chi-square test", "A regression analysis"],
+        "keywords": ["independent samples t-test", "Euclidean distance"],
+        "synonymsUsed": ["statistical comparison", "t-test"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main limitation of the study?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The sample size is too small", "The sample is urban only and cannot generalise to rural communities", "The recording equipment was unreliable", "The wordlist was too short"],
+        "keywords": ["limitation", "urban only", "rural"],
+        "synonymsUsed": ["drawback", "generalisability"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which theoretical framework is Hana using to interpret the change?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Chomsky's generative phonology", "Optimality Theory", "Labov's principles of chain shifting", "Construction Phonology"],
+        "keywords": ["Labov", "chain shifting", "framework"],
+        "synonymsUsed": ["theoretical model", "chain shift"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "merger", "pronunciationNote": "/ˈmɜːdʒə/", "meaning": "A sound change in which two previously distinct phonemes collapse into one." },
+      { "word": "minimal pair", "pronunciationNote": "/ˈmɪnɪməl peə/", "meaning": "Two words differing in only one phoneme, used to test phonological contrast." },
+      { "word": "formant", "pronunciationNote": "/ˈfɔːmənt/", "meaning": "A concentration of acoustic energy at a particular frequency that characterises a vowel." },
+      { "word": "carrier phrase", "pronunciationNote": "/ˈkæriə freɪz/", "meaning": "A standard sentence frame used to elicit target words consistently." },
+      { "word": "age stratification", "pronunciationNote": "/eɪdʒ ˌstrætɪfɪˈkeɪʃən/", "meaning": "The pattern of language variation across different age groups in a community." },
+      { "word": "chain shifting", "pronunciationNote": "/tʃeɪn ˈʃɪftɪŋ/", "meaning": "A series of related vowel changes where one vowel's movement triggers others, as described by Labov." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a social work student presenting a case study to her practice educator.",
+    "audioScript": "Situation: A social work student presents a child protection case study to her practice educator during a placement review.\nEducator: Right, Gemma, let's discuss the case of the Hartley family. How many children are involved?\nGemma: There are three children: a girl aged nine, a boy aged six, and a toddler aged two.\nEducator: And what was the primary reason for referral?\nGemma: The school referred the family due to persistent absence and signs of neglect, including poor hygiene and hunger.\nEducator: What's your initial assessment of risk level?\nGemma: I assessed the risk as moderate, using the local authority's threshold matrix, with protective factors from a maternal grandmother.\nEducator: Good. What's the main underlying issue affecting the mother?\nGemma: The mother has a long-term mental health condition, severe depression, which affects her daily functioning and parenting capacity.\nEducator: What intervention have you proposed?\nGemma: A multi-agency child in need plan, with weekly home visits and a referral to adult mental health services for the mother.\nEducator: Sensible. How often will the plan be reviewed?\nGemma: Every six weeks, with a core group meeting including the school nurse and the health visitor.\nEducator: Good. What's the main challenge you anticipate?\nGemma: The mother's reluctance to engage, as she fears the children will be removed, so building trust is critical.\nEducator: Indeed. What's your self-care plan given the emotional demands of this case?\nGemma: I have fortnightly supervision with you, and I'm using a reflective journal to process my reactions and maintain professional boundaries.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Educator", "accent": "BRITISH", "gender": "FEMALE", "role": "practice educator" },
+        { "name": "Gemma", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "social work student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the surname of the family in the case study?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Hartley", "Hamilton", "Harrison", "Henderson"],
+        "keywords": ["Hartley family", "case study"],
+        "synonymsUsed": ["family name", "case"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many children are involved in the case?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["children", "three"],
+        "synonymsUsed": ["number of children", "siblings"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the primary reason for the family's referral?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A domestic violence incident", "Housing homelessness", "Persistent absence and signs of neglect", "A child's behavioural problems at school"],
+        "keywords": ["referral", "persistent absence", "neglect", "hygiene", "hunger"],
+        "synonymsUsed": ["school referral", "truancy"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How did Gemma assess the risk level?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Moderate, using the local authority's threshold matrix", "High, requiring immediate removal", "Low, with monitoring only", "Severe, needing court intervention"],
+        "keywords": ["risk level", "moderate", "threshold matrix"],
+        "synonymsUsed": ["risk assessment", "threshold"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What protective factor did Gemma identify?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A supportive school teacher", "The maternal grandmother", "A stable housing tenancy", "The father's regular employment"],
+        "keywords": ["protective factor", "maternal grandmother"],
+        "synonymsUsed": ["safeguard", "grandparent support"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main underlying issue affecting the mother?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Substance misuse", "Learning disability", "Severe depression", "Physical illness"],
+        "keywords": ["mother", "mental health", "severe depression"],
+        "synonymsUsed": ["mental health condition", "depressive disorder"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What intervention has Gemma proposed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A multi-agency child in need plan with weekly home visits", "An emergency protection order", "A parenting course only", "Family therapy sessions fortnightly"],
+        "keywords": ["intervention", "child in need plan", "weekly home visits"],
+        "synonymsUsed": ["support plan", "multi-agency"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often will the plan be reviewed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Every four weeks", "Every six weeks", "Every eight weeks", "Every twelve weeks"],
+        "keywords": ["reviewed", "six weeks", "core group"],
+        "synonymsUsed": ["review frequency", "core group meeting"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main challenge Gemma anticipates?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The mother's reluctance to engage due to fear of removal", "Lack of funding for services", "Language barriers with the family", "Hostility from the school"],
+        "keywords": ["challenge", "mother", "reluctance", "fear", "removed"],
+        "synonymsUsed": ["engagement difficulty", "trust"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How often does Gemma have supervision with her educator?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Weekly", "Monthly", "Every three weeks", "Fortnightly"],
+        "keywords": ["supervision", "fortnightly"],
+        "synonymsUsed": ["supervision frequency", "every two weeks"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "referral", "pronunciationNote": "/rɪˈfɜːrəl/", "meaning": "The act of directing a case to a social service agency for assessment or support." },
+      { "word": "neglect", "pronunciationNote": "/nɪˈɡlekt/", "meaning": "The failure to meet a child's basic physical or emotional needs." },
+      { "word": "threshold matrix", "pronunciationNote": "/ˈθreʃhəʊld ˈmeɪtrɪks/", "meaning": "A structured tool used to assess the level of need and risk in child protection cases." },
+      { "word": "child in need plan", "pronunciationNote": "/tʃaɪld ɪn niːd plæn/", "meaning": "A multi-agency plan providing support to a child whose needs cannot be met by universal services alone." },
+      { "word": "protective factor", "pronunciationNote": "/prəˈtektɪv ˈfæktə/", "meaning": "A condition or relationship that reduces the risk of harm to a vulnerable person." },
+      { "word": "supervision", "pronunciationNote": "/ˌsuːpəˈvɪʒən/", "meaning": "Regular professional meetings between a social worker and a senior to reflect on practice and cases." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two students discussing feedback on their creative writing workshop submissions with their tutor.",
+    "audioScript": "Situation: Two creative writing students receive feedback on their short story drafts during a workshop tutorial.\nTutor: Right, Liam and Sofia, let's go through your workshop submissions. Liam, your story's set in a fishing village. What's the main issue I flagged?\nLiam: You said the opening was too slow, with too much exposition before the inciting incident.\nTutor: Exactly. Where does the real conflict begin?\nLiam: On page four, when the storm warning comes through the radio.\nTutor: Right. So what's your revision strategy?\nLiam: I'll cut the first two pages and open in medias res with the radio broadcast, then weave backstory in later.\nTutor: Good. Now, Sofia, your piece is a magical realism story about a girl whose shadow detaches. What's the strength I noted?\nSofia: You said the imagery was vivid and the voice was consistent throughout.\nTutor: Indeed. But what's the main weakness?\nSofia: The ending resolves too neatly, which undercuts the ambiguity I'd built up.\nTutor: Correct. What have you decided to do?\nSofia: I'll end on an open image, the shadow hovering at the threshold, rather than explaining whether she takes it back.\nTutor: Much better. For both of you, what's the word count target for the resubmission?\nLiam: Between two thousand five hundred and three thousand words.\nTutor: Right. And when is the resubmission due?\nSofia: By next Tuesday at noon, uploaded to the workshop portal.\nTutor: Good. One last thing, how many peer critiques must each of you complete before then?\nLiam: Three critiques, each at least three hundred words, focusing on structure and sensory detail.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "FEMALE", "role": "creative writing tutor" },
+        { "name": "Liam", "accent": "AMERICAN", "gender": "MALE", "role": "creative writing student" },
+        { "name": "Sofia", "accent": "CANADIAN", "gender": "FEMALE", "role": "creative writing student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is Liam's short story set?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A fishing village", "A mountain resort", "A suburban estate", "A city office"],
+        "keywords": ["fishing village", "Liam"],
+        "synonymsUsed": ["coastal town", "setting"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main issue the tutor flagged in Liam's story?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The dialogue is unrealistic", "The opening is too slow with too much exposition", "The ending is ambiguous", "The characters are underdeveloped"],
+        "keywords": ["opening", "slow", "exposition"],
+        "synonymsUsed": ["pacing", "info-dump"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "On which page does the real conflict begin in Liam's story?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Page two", "Page three", "Page four", "Page five"],
+        "keywords": ["conflict", "page four", "storm warning"],
+        "synonymsUsed": ["inciting incident", "turning point"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What event triggers the conflict in Liam's story?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A storm warning comes through the radio", "A boat sinks in the harbour", "A stranger arrives in town", "A family argument erupts"],
+        "keywords": ["storm warning", "radio"],
+        "synonymsUsed": ["inciting incident", "trigger"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Liam's revision strategy?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Rewrite the ending completely", "Cut the first two pages and open in medias res", "Add more characters to the opening", "Change the point of view"],
+        "keywords": ["revision", "cut first two pages", "in medias res"],
+        "synonymsUsed": ["rewrite strategy", "mid-action opening"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the genre of Sofia's story?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Historical fiction", "Science fiction", "Magical realism", "Detective fiction"],
+        "keywords": ["Sofia", "magical realism", "shadow detaches"],
+        "synonymsUsed": ["speculative fiction", "genre"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What strength did the tutor note in Sofia's story?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Vivid imagery and a consistent voice", "A clever plot twist", "Strong historical research", "Realistic dialogue"],
+        "keywords": ["strength", "vivid imagery", "consistent voice"],
+        "synonymsUsed": ["positive feedback", "praise"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the main weakness in Sofia's story?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The setting is unclear", "The ending resolves too neatly", "The protagonist is passive", "The pacing is uneven"],
+        "keywords": ["weakness", "ending", "resolves too neatly", "ambiguity"],
+        "synonymsUsed": ["criticism", "over-resolved"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the word count target for the resubmission?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Between two thousand and two thousand five hundred words", "Between two thousand five hundred and three thousand words", "Between three thousand and three thousand five hundred words", "Between one thousand five hundred and two thousand words"],
+        "keywords": ["word count", "two thousand five hundred", "three thousand"],
+        "synonymsUsed": ["length", "target"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many peer critiques must each student complete?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three, each at least three hundred words", "Two, each at least five hundred words", "Four, each at least two hundred words", "Five, each at least one hundred words"],
+        "keywords": ["peer critiques", "three", "three hundred words"],
+        "synonymsUsed": ["peer review", "feedback"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "exposition", "pronunciationNote": "/ˌekspəˈzɪʃən/", "meaning": "Background information provided in a narrative, often slowing the pace if overused." },
+      { "word": "inciting incident", "pronunciationNote": "/ɪnˈsaɪtɪŋ ˈɪnsɪdənt/", "meaning": "The event that sets the main conflict of a story in motion." },
+      { "word": "in medias res", "pronunciationNote": "/ɪn ˈmeɪdiəs reɪs/", "meaning": "A narrative technique of beginning a story in the middle of the action." },
+      { "word": "magical realism", "pronunciationNote": "/ˈmædʒɪkəl ˈriːəlɪzəm/", "meaning": "A literary genre in which realistic settings contain magical elements treated as ordinary." },
+      { "word": "ambiguity", "pronunciationNote": "/ˌæmbɪˈɡjuːəti/", "meaning": "The quality of being open to more than one interpretation in a narrative." },
+      { "word": "critique", "pronunciationNote": "/krɪˈtiːk/", "meaning": "A detailed written analysis of a peer's creative work, focusing on craft elements." }
+    ],
+    "difficulty": "MEDIUM"
+  }
+]

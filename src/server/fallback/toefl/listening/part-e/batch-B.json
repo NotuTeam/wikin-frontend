@@ -1,0 +1,1010 @@
+[
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a chemistry course on the structure and applications of polymers.",
+    "academicField": "CHEMISTRY",
+    "audioScript": "Situation: A chemistry professor delivers a lecture on the structure, synthesis, and everyday applications of polymers.\nProfessor Hartwell: Good afternoon, everyone. Today we begin our unit on macromolecules, specifically polymers. Polymers are large molecules composed of repeating structural units called monomers, which are connected by covalent bonds. The word itself comes from Greek: 'poly' meaning many, and 'mer' meaning part. So a polymer is quite literally many parts joined together.\nLet's start with how polymers are made. The process is called polymerization, and there are two main types. The first is addition polymerization, where monomers with double bonds, like ethylene, link together without losing any atoms. Imagine a row of people holding hands; each person is a monomer, and the chain they form is the polymer. Polyethylene, the most common plastic in the world, is made this way and shows up in everything from grocery bags to water pipes.\nThe second type is condensation polymerization. Here, two different monomers join, and a small molecule, usually water, is released as a byproduct. Nylon and polyester are classic examples. The key difference is that condensation polymerization typically requires two distinct monomer types, each with reactive functional groups at their ends.\nNow, not all polymers are synthetic. Nature has been making polymers for billions of years. Proteins are polymers of amino acids. DNA is a polymer of nucleotides. Cellulose, which gives plants their rigidity, is a polymer of glucose. In fact, natural rubber, harvested from the sap of rubber trees, is a polymer of isoprene units. Charles Goodyear's discovery of vulcanization in eighteen thirty-nine, which cross-linked the polymer chains with sulfur, turned sticky natural rubber into the durable material we use in tires.\nLet's talk about properties. A polymer's characteristics depend on several factors: the type of monomer, the length of the chain, and whether the chains are branched or linear. Branched polymers, like low-density polyethylene, are softer and more flexible because the branches prevent chains from packing tightly. Linear polymers, like high-density polyethylene, pack closely and are stronger and more rigid. Cross-linking, where chains are bonded to each other at various points, can make a polymer extremely tough, as seen in vulcanized rubber and epoxy resins.\nOne important concept is the glass transition temperature, or Tg. Below Tg, a polymer is hard and glassy; above Tg, it becomes rubbery and flexible. This is why a plastic ruler snaps when cold but bends when warmed. Understanding Tg lets engineers select the right polymer for a given temperature range, whether it's a car dashboard in the desert or a ski boot in the mountains.",
+    "speakers": [
+      { "name": "Professor Hartwell", "role": "chemistry professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of the plastics industry",
+          "The structure, synthesis, and applications of polymers",
+          "Methods for recycling synthetic materials",
+          "The chemical properties of water"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces polymers as large molecules made of monomers and covers their synthesis, types, and applications."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What are monomers?",
+        "options": [
+          "Small molecules that make up the repeating units of a polymer",
+          "The byproducts of condensation reactions",
+          "A type of chemical bond",
+          "Large chain molecules found only in nature"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines monomers as the repeating structural units that connect to form a polymer."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What happens during addition polymerization?",
+        "options": [
+          "Water is released as a byproduct",
+          "Monomers with double bonds link together without losing atoms",
+          "Two different monomers join and release a small molecule",
+          "Sulfur cross-links are formed between chains"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains addition polymerization involves monomers with double bonds linking without losing any atoms."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is released as a byproduct in condensation polymerization?",
+        "options": [
+          "Oxygen gas",
+          "Carbon dioxide",
+          "Water, typically",
+          "Sulfur dioxide"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states condensation polymerization releases a small molecule, usually water, as a byproduct."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Which of the following is a natural polymer?",
+        "options": [
+          "Polyethylene",
+          "Nylon",
+          "Cellulose",
+          "Epoxy resin"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor lists cellulose as a natural polymer of glucose that gives plants their rigidity."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What did Charles Goodyear discover in eighteen thirty-nine?",
+        "options": [
+          "Addition polymerization",
+          "Vulcanization, which cross-linked rubber chains with sulfur",
+          "The structure of DNA",
+          "A method for synthesizing nylon"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes Goodyear's discovery of vulcanization, which used sulfur to cross-link polymer chains, making rubber durable."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why are branched polymers softer than linear polymers?",
+        "options": [
+          "Because they contain more monomers",
+          "Because the branches prevent chains from packing tightly",
+          "Because they are always natural",
+          "Because they have more double bonds"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains branched polymers are softer because branches prevent tight packing, unlike linear polymers which pack closely."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the effect of cross-linking on a polymer?",
+        "options": [
+          "It makes the polymer softer",
+          "It makes the polymer extremely tough",
+          "It dissolves the polymer in water",
+          "It shortens the polymer chain"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states cross-linking bonds chains together at various points, making the polymer extremely tough, as in vulcanized rubber."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the professor's hand-holding analogy illustrate?",
+        "options": [
+          "The process of condensation polymerization",
+          "How people hold hands in a line",
+          "The linking of monomers with double bonds without losing atoms in addition polymerization",
+          "The release of water as a byproduct"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor uses the hand-holding analogy to illustrate addition polymerization, where monomers with double bonds link without losing atoms."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the glass transition temperature (Tg)?",
+        "options": [
+          "The temperature at which a polymer melts completely",
+          "The temperature below which a polymer is hard and glassy and above which it becomes rubbery and flexible",
+          "The temperature at which a polymer catches fire",
+          "The temperature at which cross-links form"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines Tg as the temperature below which a polymer is hard and glassy and above which it becomes rubbery and flexible."
+      }
+    ],
+    "keyVocabulary": ["monomer", "polymerization", "addition polymerization", "condensation polymerization", "covalent bond", "vulcanization", "cross-linking", "branched polymer", "linear polymer", "macromolecule", "functional group", "polyethylene"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a sociology course on social networks and the strength of weak ties.",
+    "academicField": "SOCIOLOGY",
+    "audioScript": "Situation: A sociology professor delivers a lecture on the structure of social networks and Mark Granovetter's theory of the strength of weak ties.\nProfessor Vega: Good morning. Today we explore one of the most influential ideas in network sociology: the strength of weak ties. This concept, introduced by Mark Granovetter in nineteen seventy-three, fundamentally changed how sociologists think about information flow, job seeking, and community structure.\nLet's begin with the basics. Every person sits at the center of a personal social network. Within that network, there are strong ties and weak ties. Strong ties are your close friends, family members, and trusted colleagues. You interact with them frequently, and they tend to know each other. Weak ties are acquaintances, people you see occasionally, like a former classmate or someone you chat with at the gym.\nNow, here is Granovetter's counterintuitive insight. When it comes to finding a job, it is not your strong ties that help you most. It is your weak ties. Why? Because your strong ties tend to move in the same circles you do. They know the same people, read the same news, and hear about the same opportunities. Information circulates within a closed loop. Weak ties, by contrast, bridge different social clusters. An acquaintance belongs to a different network and therefore has access to information your close friends simply do not.\nGranovetter demonstrated this empirically. In his study of job seekers in Boston, he found that roughly fifty-six percent of people who found jobs through contacts used a weak tie, while only about seventeen percent used a strong tie. The weak tie served as a bridge between the job seeker's network and a previously unconnected cluster where the job opening existed.\nThis brings us to the concept of structural holes. Ronald Burt extended Granovetter's work by arguing that the most advantageous position in a network is not at the center of a dense cluster, but rather between clusters. A person who spans a structural hole connects two otherwise disconnected groups. This person benefits because they control the flow of information between the groups. They are the first to hear about opportunities on either side.\nOf course, networks are not static. Online platforms like LinkedIn and Twitter have transformed how weak ties function. A single retweet can carry information across thousands of weak ties in seconds. But sociologists caution that the sheer quantity of weak ties online does not automatically translate into quality. Meaningful bridging still requires some minimum level of trust and reciprocity. A weak tie that is too weak, someone you barely remember, is unlikely to vouch for you or pass along a real opportunity.\nFinally, let's consider the darker side. Dense networks of strong ties can create echo chambers where misinformation thrives. But sparse networks of only weak ties can leave individuals feeling isolated and unsupported. The healthiest social lives involve a balance: a core of strong ties for emotional support, and a periphery of weak ties for new information and opportunities.",
+    "speakers": [
+      { "name": "Professor Vega", "role": "sociology professor" }
+    ],
+    "setting": "CAMPUS",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of social media platforms",
+          "The strength of weak ties and how social networks transmit information",
+          "Methods for conducting sociological surveys",
+          "The psychology of friendship formation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces Granovetter's theory of the strength of weak ties and how it explains information flow in social networks."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "Who introduced the concept of the strength of weak ties?",
+        "options": [
+          "Ronald Burt",
+          "Mark Granovetter",
+          "Emile Durkheim",
+          "Robert Putnam"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that Mark Granovetter introduced the concept in nineteen seventy-three."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is the key difference between strong ties and weak ties?",
+        "options": [
+          "Strong ties are always family; weak ties are always strangers",
+          "Strong ties are close contacts in the same circles; weak ties are acquaintances in different clusters",
+          "Strong ties are online; weak ties are offline",
+          "Strong ties are temporary; weak ties are permanent"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains strong ties are close friends and family who know each other, while weak ties are acquaintances in different social clusters."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Why are weak ties more useful than strong ties for finding a job?",
+        "options": [
+          "Because weak ties are more powerful people",
+          "Because weak ties bridge different clusters and provide access to new information",
+          "Because strong ties never help with jobs",
+          "Because weak ties are always employers"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains weak ties bridge different social clusters, giving access to information that strong ties in the same circle do not have."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "In Granovetter's Boston study, what percentage of job seekers used a weak tie?",
+        "options": [
+          "About seventeen percent",
+          "About thirty-three percent",
+          "About fifty-six percent",
+          "About eighty percent"
+        ],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that roughly fifty-six percent of people who found jobs through contacts used a weak tie."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is a structural hole, according to Ronald Burt?",
+        "options": [
+          "A gap in a person's resume",
+          "A gap between two disconnected clusters in a network",
+          "A missing link in a DNA sequence",
+          "A deficiency in survey methodology"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that a structural hole is the gap between two otherwise disconnected groups, and the person spanning it controls information flow."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What does the professor imply about online weak ties?",
+        "options": [
+          "They are always more valuable than offline ties",
+          "Having many online weak ties does not automatically mean they are useful, since bridging requires trust and reciprocity",
+          "Online weak ties never lead to real opportunities",
+          "Social media has made weak ties obsolete"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor cautions that quantity of online weak ties does not equal quality, as meaningful bridging still requires trust and reciprocity."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What problem can dense networks of strong ties create?",
+        "options": [
+          "Too many job opportunities",
+          "Echo chambers where misinformation thrives",
+          "Excessive innovation",
+          "Rapid spread of accurate news"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that dense networks of strong ties can create echo chambers where misinformation thrives."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does the professor recommend for a healthy social life?",
+        "options": [
+          "Only maintaining weak ties",
+          "Only maintaining strong ties",
+          "A balance of strong ties for support and weak ties for new information",
+          "Eliminating all offline connections"
+        ],
+        "correctAnswer": 2,
+        "questionType": "INFERENCE",
+        "explanation": "The professor concludes that the healthiest social lives involve a balance of strong ties for emotional support and weak ties for opportunities."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward Granovetter's theory?",
+        "options": [
+          "Dismissive of its relevance today",
+          "Respectful of its influence and lasting importance in network sociology",
+          "Critical of its empirical basis",
+          "Uncertain about whether it applies to modern society"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor describes the theory as one of the most influential ideas in network sociology and builds upon it throughout the lecture."
+      }
+    ],
+    "keyVocabulary": ["strong ties", "weak ties", "social network", "structural holes", "bridge", "cluster", "information flow", "echo chamber", "reciprocity", "trust", "Granovetter", "Ronald Burt"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a philosophy course on the nature of scientific revolutions.",
+    "academicField": "PHILOSOPHY",
+    "audioScript": "Situation: A philosophy professor delivers a lecture on Thomas Kuhn's theory of scientific revolutions and the concept of paradigm shifts.\nProfessor Aldridge: Good afternoon. Today we turn to one of the most debated works in the philosophy of science: Thomas Kuhn's 'The Structure of Scientific Revolutions,' published in nineteen sixty-two. Kuhn challenged the traditional view that science progresses steadily and rationally, accumulating knowledge in a straight line. Instead, he argued that science advances through radical ruptures, which he called paradigm shifts.\nLet me first define what Kuhn meant by a paradigm. A paradigm is not merely a theory or a set of hypotheses. It is a comprehensive framework, a shared set of assumptions, methods, and standards that define a scientific discipline at a given time. A paradigm tells scientists what questions are worth asking, what methods are legitimate, and what counts as a valid answer. In normal science, which Kuhn called the period of routine puzzle-solving, scientists work within the dominant paradigm. They don't question its foundations. They refine it, extend it, and solve the puzzles it presents.\nBut here is where things get interesting. Over time, anomalies accumulate. An anomaly is an observation that the current paradigm cannot explain. Most anomalies are eventually resolved, but some persist. When enough stubborn anomalies pile up, the discipline enters what Kuhn called a crisis. During a crisis, scientists begin to question the paradigm itself, and alternative frameworks emerge.\nThis leads to a scientific revolution. A new paradigm is proposed that can explain the anomalies the old one could not. But Kuhn made a controversial claim: the old and new paradigms are incommensurable. They are so fundamentally different that there is no neutral ground from which to compare them. Scientists in different paradigms literally see the world differently. Kuhn called this a gestalt switch. A classic example is the shift from Ptolemaic astronomy, where the Earth was at the center, to Copernican astronomy, where the Sun was at the center. It was not simply adding new data; it was a complete reorganization of what counted as a legitimate astronomical question.\nKuhn's incommensurability thesis provoked fierce debate. Karl Popper, another towering figure in the philosophy of science, argued that science progresses through falsification. For Popper, a scientific theory must be testable and potentially disprovable. A theory that cannot be falsified is not scientific. Popper believed that science is always provisional, always subject to being overturned by new evidence. He found Kuhn's notion of incommensurable paradigms troubling because it seemed to undermine the rationality of science. If paradigms cannot be compared, how can we say science truly progresses?\nImre Lakatos attempted to reconcile the two. He proposed that science consists of research programmes, each with a hard core of assumptions protected by a protective belt of auxiliary hypotheses. A research programme is progressive if it predicts novel facts; it is degenerating if it only patches itself retroactively. Lakatos offered a middle ground: paradigms can shift, but there are still rational criteria for judging whether one programme is better than another.\nThe debate continues today. What I want you to take away is that the philosophy of science is not settled. How we understand scientific progress shapes how we evaluate claims to truth, from climate science to medical research. Kuhn reminded us that science is a human enterprise, shaped by the communities that practice it.",
+    "speakers": [
+      { "name": "Professor Aldridge", "role": "philosophy professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of astronomy from Ptolemy to Copernicus",
+          "Thomas Kuhn's theory of scientific revolutions and paradigm shifts",
+          "Karl Popper's method for conducting experiments",
+          "The development of the scientific method in ancient Greece"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces Kuhn's theory of scientific revolutions and the concept of paradigm shifts as the central topic."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "When was Kuhn's 'The Structure of Scientific Revolutions' published?",
+        "options": [
+          "Nineteen forty-two",
+          "Nineteen sixty-two",
+          "Nineteen eighty-two",
+          "Two thousand and two"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that Kuhn's work was published in nineteen sixty-two."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What is a paradigm, according to Kuhn?",
+        "options": [
+          "A single experiment that disproves a theory",
+          "A comprehensive framework of assumptions, methods, and standards shared by a scientific community",
+          "A statistical technique for analyzing data",
+          "A type of laboratory equipment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines a paradigm as a comprehensive framework of shared assumptions, methods, and standards defining a discipline."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What happens during normal science, according to Kuhn?",
+        "options": [
+          "Scientists constantly question the foundations of their field",
+          "Scientists work within the dominant paradigm, solving puzzles without questioning its foundations",
+          "Scientists reject all existing theories",
+          "Scientists switch between paradigms frequently"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that in normal science, scientists work within the dominant paradigm, refining and extending it without questioning its foundations."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is an anomaly in Kuhn's framework?",
+        "options": [
+          "A scientist who disagrees with the majority",
+          "An observation that the current paradigm cannot explain",
+          "A mathematical error in a published paper",
+          "A piece of laboratory equipment that malfunctions"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines an anomaly as an observation that the current paradigm cannot explain, and persistent anomalies can lead to crisis."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does Kuhn mean by incommensurability?",
+        "options": [
+          "That all paradigms can be measured against a single standard",
+          "That old and new paradigms are so fundamentally different there is no neutral ground to compare them",
+          "That scientific data is always inaccurate",
+          "That scientists from different countries cannot collaborate"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains incommensurability means paradigms are so different there is no neutral ground for comparison, like a gestalt switch."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "What is Karl Popper's view of scientific progress?",
+        "options": [
+          "Science progresses through paradigm shifts that are incommensurable",
+          "Science progresses through falsification, where theories must be testable and potentially disprovable",
+          "Science progresses only through government funding",
+          "Science never truly progresses"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that Popper argued science progresses through falsification, where theories must be testable and potentially disprovable."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How did Imre Lakatos attempt to reconcile Kuhn and Popper?",
+        "options": [
+          "By arguing that Kuhn was entirely wrong",
+          "By proposing research programmes with a hard core and a protective belt, judged by whether they predict novel facts",
+          "By claiming that all paradigms are identical",
+          "By rejecting both Kuhn and Popper in favor of ancient philosophy"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Lakatos proposed research programmes with a hard core of assumptions and a protective belt, where progressive programmes predict novel facts."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about the Copernican revolution from the lecture?",
+        "options": [
+          "It was simply the addition of new astronomical data",
+          "It was a complete reorganization of what counted as a legitimate astronomical question, not just new data",
+          "It proved that the Earth is at the center of the universe",
+          "It had no effect on the philosophy of science"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor uses the Copernican revolution as a classic example of a paradigm shift, a complete reorganization, not merely adding new data."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward the debate in philosophy of science?",
+        "options": [
+          "That the debate is settled and Kuhn has won",
+          "That the debate continues and remains important for how we evaluate claims to truth",
+          "That philosophy of science is irrelevant to modern research",
+          "That only Popper's view is correct"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor states the debate continues today and emphasizes that how we understand scientific progress shapes how we evaluate claims to truth."
+      }
+    ],
+    "keyVocabulary": ["paradigm", "paradigm shift", "normal science", "anomaly", "crisis", "incommensurability", "falsification", "research programme", "scientific revolution", "gestalt switch", "Thomas Kuhn", "Karl Popper"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a biology course on evolution by natural selection.",
+    "academicField": "BIOLOGY",
+    "audioScript": "Situation: A biology professor delivers a lecture on the principles of evolution by natural selection and its modern synthesis.\nProfessor Mensah: Good morning. Today we examine the foundational theory of modern biology: evolution by natural selection, first articulated by Charles Darwin in 'On the Origin of Species' in eighteen fifty-nine. Darwin's insight was remarkable not because he invented the idea of evolution itself, but because he proposed a mechanism, natural selection, that explained how species change over time without any need for deliberate design.\nLet's lay out the four core principles. First, variation exists within any population. No two individuals are identical. Some are taller, some faster, some more resistant to disease. Second, this variation is heritable. Traits can be passed from parents to offspring. Third, more offspring are produced than can possibly survive. This is what Darwin called overproduction, building on the earlier work of Thomas Malthus. Fourth, individuals with traits better suited to their environment are more likely to survive and reproduce. This is the engine Darwin called natural selection.\nIt is critical to understand that natural selection is not goal-directed. There is no foresight, no plan, no progression toward perfection. The environment at a given moment determines which traits are advantageous. A trait that is beneficial in one context may be neutral or harmful in another. Consider the peppered moth in industrial England. Before the Industrial Revolution, light-colored moths were common because they camouflaged against lichen-covered trees. As industrial pollution darkened the trees, dark-colored moths became more common because they were now better camouflaged. When clean air legislation reduced pollution, the trend reversed. Natural selection tracked environmental change, not some predetermined direction.\nNow, Darwin knew nothing of genetics. He didn't know how traits were inherited. That gap was filled by the modern synthesis in the mid-twentieth century, which integrated Darwin's theory with Mendelian genetics. The key figure was Gregor Mendel, an Augustinian friar whose experiments with pea plants in the eighteen sixties revealed that traits are passed through discrete units, which we now call genes. Mendel's work was largely ignored until nineteen hundred, but once rediscovered, it provided the missing mechanism Darwin needed.\nThe modern synthesis also introduced the concept of population genetics. Evolution is now defined as a change in allele frequencies in a population over time. An allele is a variant form of a gene. When natural selection, genetic drift, mutation, or migration changes the proportion of alleles, evolution is occurring. Genetic drift, in particular, is the random fluctuation of allele frequencies, and it tends to have a stronger effect in small populations. This is why endangered species with small populations are especially vulnerable to losing genetic diversity.\nLet me also address a common misconception. Evolution is not the same as progress. Bacteria are not 'less evolved' than humans. Every living organism has been evolving for the same amount of time and is adapted to its own niche. In fact, some of the most successful organisms on Earth, by sheer numbers, are bacteria. They have thrived for billions of years. Evolution is about adaptation to a local environment, not climbing a ladder of progress.",
+    "speakers": [
+      { "name": "Professor Mensah", "role": "biology professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The life and travels of Charles Darwin",
+          "The principles of evolution by natural selection and the modern synthesis",
+          "The classification of plant species",
+          "The history of industrial pollution in England"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces evolution by natural selection, its four core principles, and the modern synthesis integrating genetics."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "In what year was Darwin's 'On the Origin of Species' published?",
+        "options": [
+          "Eighteen thirty-nine",
+          "Eighteen fifty-nine",
+          "Eighteen ninety-nine",
+          "Nineteen fifty-nine"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that Darwin's 'On the Origin of Species' was published in eighteen fifty-nine."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What are the four core principles of natural selection?",
+        "options": [
+          "Mutation, migration, genetic drift, and gene flow",
+          "Variation, heritability, overproduction, and differential survival and reproduction",
+          "Competition, cooperation, symbiosis, and extinction",
+          "Observation, hypothesis, experiment, and conclusion"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor lists the four principles as variation, heritability, overproduction, and that individuals with better-suited traits survive and reproduce more."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What happened to the peppered moth during industrialization?",
+        "options": [
+          "It went extinct",
+          "Dark-colored moths became more common because they were better camouflaged on pollution-darkened trees",
+          "Light-colored moths became more common because they adapted to factory smoke",
+          "The moths changed color within their own lifetimes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that as industrial pollution darkened trees, dark-colored moths became more common due to better camouflage, and the trend reversed when pollution decreased."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What does the peppered moth example demonstrate about natural selection?",
+        "options": [
+          "That natural selection always moves toward darker colors",
+          "That natural selection tracks environmental change, not a predetermined direction",
+          "That natural selection only affects moths",
+          "That natural selection requires human intervention"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor uses the peppered moth to show that natural selection tracks the environment; the trend reversed when the environment changed."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What did Gregor Mendel's experiments with pea plants reveal?",
+        "options": [
+          "That traits blend together in offspring",
+          "That traits are passed through discrete units, now called genes",
+          "That natural selection does not exist",
+          "That all traits are environmentally determined"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that Mendel's pea plant experiments revealed that traits are passed through discrete units, which we now call genes."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How is evolution defined in the modern synthesis?",
+        "options": [
+          "As the progression from simple to complex organisms",
+          "As a change in allele frequencies in a population over time",
+          "As the survival of the strongest individual",
+          "As the extinction of old species"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that in the modern synthesis, evolution is defined as a change in allele frequencies in a population over time."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "Why are small populations especially vulnerable to genetic drift?",
+        "options": [
+          "Because they have too many alleles",
+          "Because random fluctuations of allele frequencies have a stronger effect in small populations",
+          "Because small populations reproduce too quickly",
+          "Because genetic drift only occurs in large populations"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that genetic drift is random fluctuation of allele frequencies and has a stronger effect in small populations, making endangered species vulnerable."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What misconception about evolution does the professor address?",
+        "options": [
+          "That evolution only happens in laboratories",
+          "That evolution is the same as progress and bacteria are 'less evolved' than humans",
+          "That Darwin invented the idea of evolution",
+          "That natural selection requires mutation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor addresses the misconception that evolution equals progress, clarifying that bacteria are not less evolved and every organism is adapted to its niche."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's purpose in mentioning bacteria at the end of the lecture?",
+        "options": [
+          "To argue that bacteria should be eradicated",
+          "To challenge the idea that evolution is a ladder of progress by showing bacteria are highly successful",
+          "To prove that Darwin was wrong about natural selection",
+          "To suggest that bacteria are more evolved than humans"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PURPOSE",
+        "explanation": "The professor mentions bacteria's success to challenge the misconception that evolution is progress, showing adaptation to a niche is what matters."
+      }
+    ],
+    "keyVocabulary": ["natural selection", "variation", "heritability", "overproduction", "allele", "genetic drift", "modern synthesis", "Gregor Mendel", "population genetics", "allele frequency", "camouflage", "adaptation"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a history course on the Italian Renaissance and humanism.",
+    "academicField": "HISTORY",
+    "audioScript": "Situation: A history professor delivers a lecture on the Italian Renaissance, focusing on the rise of humanism and the cultural transformation of Florence.\nProfessor Rossi: Buongiorno, everyone. Today we travel to fifteenth-century Italy, to the period we call the Renaissance, a French word meaning 'rebirth.' Between roughly fourteen hundred and sixteen hundred, Italy experienced an extraordinary flowering of art, literature, and learning that reshaped European civilization. At the center of this transformation was a movement called humanism, and at the center of humanism was the city of Florence.\nLet's begin with what humanism actually meant. It was not a rejection of religion. Renaissance humanists were overwhelmingly Christian. But they shifted the focus of inquiry toward the classical world of ancient Greece and Rome. They searched monastic libraries for forgotten manuscripts, rediscovering works by Cicero, Virgil, and Seneca. The humanists believed that studying classical texts could cultivate what they called virtue, the moral and civic excellence that made a person a good citizen and a good leader.\nA key figure was Petrarch, often called the father of humanism, who lived in the fourteenth century. Petrarch collected classical manuscripts and advocated for the revival of Latin as it was written in antiquity, not the degraded medieval Latin of his day. He also wrote poetry in the vernacular Italian, most famously his sonnets to Laura. Petrarch bridged two worlds: the scholarly recovery of antiquity and the creation of a new literary culture.\nNow, why Florence? The city was a republic governed by wealthy merchant families, not a monarchy. The most famous patron family was the Medici, who bankrolled much of the artistic production we associate with the Renaissance. Cosimo de' Medici and later his grandson Lorenzo, known as Lorenzo the Magnificent, commissioned works from artists like Botticelli, Michelangelo, and Leonardo da Vinci. Patronage was the economic engine of Renaissance art. Without wealthy patrons willing to spend lavishly on paintings, sculpture, and architecture, the creative explosion simply would not have happened.\nThe invention of the printing press by Johannes Gutenberg around fourteen fifty further accelerated the spread of Renaissance ideas. Before the press, books were copied by hand, making them rare and expensive. After the press, texts could be reproduced quickly and cheaply. Humanist ideas, classical literature, and new scientific works spread across Europe in decades rather than centuries. The press also standardized languages and made literacy more accessible, laying groundwork for the Reformation and the Scientific Revolution.\nLet me emphasize one final point. The Renaissance was not a clean break from the medieval period. Modern historians increasingly see it as a gradual transition, with deep roots in medieval developments. The idea of a sudden 'rebirth' was partly a self-serving myth created by the humanists themselves, who wanted to portray their era as superior to what they called the 'Dark Ages.' Understanding this helps us see history not as a series of dramatic leaps, but as a continuous, interconnected process of change.",
+    "speakers": [
+      { "name": "Professor Rossi", "role": "history professor" }
+    ],
+    "setting": "STUDENT_CENTER",
+    "difficulty": "EASY",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The military conquests of the Roman Empire",
+          "The Italian Renaissance, focusing on humanism and the cultural transformation of Florence",
+          "The economic causes of the Protestant Reformation",
+          "The development of the printing press in Germany"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces the Italian Renaissance, the movement of humanism, and the cultural transformation centered in Florence."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What does the word 'Renaissance' mean?",
+        "options": [
+          "Reformation",
+          "Rebirth",
+          "Revolution",
+          "Renaissance is not a French word"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that Renaissance is a French word meaning 'rebirth.'"
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What did Renaissance humanism focus on?",
+        "options": [
+          "Rejecting religion entirely",
+          "The classical world of ancient Greece and Rome to cultivate civic virtue",
+          "The conquest of new territories",
+          "The study of medieval theology exclusively"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that humanists shifted inquiry toward the classical world, studying texts to cultivate moral and civic virtue."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "Who is often called the father of humanism?",
+        "options": [
+          "Lorenzo de' Medici",
+          "Petrarch",
+          "Johannes Gutenberg",
+          "Leonardo da Vinci"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor identifies Petrarch as the father of humanism, noting his manuscript collection and advocacy for classical Latin."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "Why was Florence the center of the Renaissance?",
+        "options": [
+          "Because it was the capital of the Roman Empire",
+          "Because it was a republic governed by wealthy merchant families who patronized the arts, especially the Medici",
+          "Because it had the largest army in Italy",
+          "Because it was the seat of the Pope"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Florence was a republic governed by wealthy merchant families, with the Medici bankrolling artistic production."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What role did the Medici family play in the Renaissance?",
+        "options": [
+          "They were military generals who conquered neighboring cities",
+          "They were wealthy patrons who commissioned works from artists like Botticelli, Michelangelo, and Leonardo",
+          "They were popes who controlled the Catholic Church",
+          "They were scholars who translated Greek manuscripts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes the Medici as patrons who commissioned works from major artists, making patronage the economic engine of Renaissance art."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "How did the printing press affect the spread of Renaissance ideas?",
+        "options": [
+          "It had no effect because people could not read",
+          "It allowed texts to be reproduced quickly and cheaply, spreading ideas across Europe in decades",
+          "It slowed the spread of ideas by creating confusion",
+          "It only worked for religious texts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that the printing press allowed quick, cheap reproduction of texts, spreading humanist ideas across Europe in decades rather than centuries."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What does Professor Rossi say about the relationship between the Renaissance and the medieval period?",
+        "options": [
+          "They were completely unrelated",
+          "The Renaissance was a gradual transition with deep roots in medieval developments, not a clean break",
+          "The medieval period was superior to the Renaissance",
+          "The Renaissance began in ancient Rome"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor emphasizes that modern historians see the Renaissance as a gradual transition with medieval roots, not a sudden rebirth."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "Why did humanists create the idea of a sudden 'rebirth'?",
+        "options": [
+          "To accurately describe historical events",
+          "To portray their era as superior to what they called the 'Dark Ages'",
+          "To please the Medici family",
+          "To discourage the study of classical texts"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor states the idea of a sudden rebirth was partly a self-serving myth created by humanists to portray their era as superior to the medieval 'Dark Ages.'"
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What is the professor's attitude toward the traditional narrative of the Renaissance?",
+        "options": [
+          "She fully accepts it as accurate",
+          "She encourages a more nuanced view that sees it as a gradual, interconnected process of change",
+          "She believes the Renaissance never happened",
+          "She thinks the Renaissance was limited to Germany"
+        ],
+        "correctAnswer": 1,
+        "questionType": "ATTITUDE",
+        "explanation": "The professor encourages seeing history as a continuous, interconnected process rather than dramatic leaps, reflecting modern historical scholarship."
+      }
+    ],
+    "keyVocabulary": ["Renaissance", "humanism", "Florence", "Medici", "patronage", "Petrarch", "vernacular", "printing press", "classical antiquity", "virtue", "Dark Ages", "Lorenzo the Magnificent"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a literature course on literary modernism and its key characteristics.",
+    "academicField": "LITERATURE",
+    "audioScript": "Situation: A literature professor delivers a lecture on the modernist movement in literature and its revolutionary techniques.\nProfessor Bellamy: Good afternoon. Today we enter one of the most turbulent and creative periods in literary history: modernism. Modernism flourished roughly between eighteen ninety and nineteen forty-five, a span that included the devastation of World War I, the Great Depression, and the rise of totalitarian regimes. Writers of this period confronted a world that seemed to have broken apart, and they responded by breaking apart the novel and the poem themselves.\nLet's start with what modernist writers were reacting against. The Victorian era, which preceded modernism, was characterized by a belief in progress, stability, and moral certainty. Novels of the Victorian period, like those of Dickens and George Eliot, typically featured omniscient narrators who guided the reader through a coherent, linear plot. The world made sense, and the novel reflected that order.\nWorld War I shattered that confidence. The mechanized slaughter of millions in the trenches made the Victorian faith in progress seem naive, even obscene. Modernist writers felt that traditional forms could no longer capture the fractured reality of the twentieth century. They needed new techniques to represent a world where the old certainties had collapsed.\nOne of the most important modernist techniques is stream of consciousness. Instead of an omniscient narrator telling you what a character thinks and feels, the writer plunges directly into the character's mind, presenting thoughts as they occur, often in a fragmented, associative, non-linear way. James Joyce's 'Ulysses,' published in nineteen twenty-two, is the landmark example. The novel follows a single day in the life of Leopold Bloom in Dublin, but through the stream of consciousness technique, that one day becomes an Odyssey of the mind. Virginia Woolf used similar techniques in 'Mrs Dalloway' and 'To the Lighthouse,' tracing the interior lives of her characters with extraordinary precision.\nAnother hallmark of modernism is fragmentation. Modernist works often reject linear narrative. They jump in time, shift perspectives, and leave gaps for the reader to fill. T. S. Eliot's 'The Waste Land,' published in nineteen twenty-two, is practically a collage of fragments, drawing on sources from Sanskrit to Shakespeare, with abrupt shifts in voice and scene. The poem mirrors the shattered world it describes, and its difficulty is part of the point. Eliot believed that the modern world was so broken that a coherent narrative would be a lie.\nAlienation is the emotional core of modernist literature. Characters in modernist works are often isolated, cut off from meaningful connection. They wander through cities that should provide community but instead deepen their loneliness. This reflects the experience of urbanization, where millions moved to cities but found anonymity rather than belonging. Kafka's Gregor Samsa, who wakes up transformed into an insect, is the ultimate image of modernist alienation, physically and socially cut off from the human world.\nFinally, modernism was not a single, unified movement. It had many strands: Imagism in poetry, which insisted on precise, concrete images; the Bloomsbury Group in England, which included Woolf and E. M. Forster; the Lost Generation of American expatriates in Paris, including Hemingway and Fitzgerald. What united them was a shared conviction that literature had to be reinvented to confront the reality of the modern age.",
+    "speakers": [
+      { "name": "Professor Bellamy", "role": "literature professor" }
+    ],
+    "setting": "LIBRARY",
+    "difficulty": "MEDIUM",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The life and works of Charles Dickens",
+          "The modernist movement in literature and its revolutionary techniques",
+          "The causes of World War I",
+          "The history of the Victorian novel"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces literary modernism, its historical context, and its key techniques such as stream of consciousness and fragmentation."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "During what time period did modernism flourish?",
+        "options": [
+          "Between seventeen fifty and eighteen twenty",
+          "Roughly between eighteen ninety and nineteen forty-five",
+          "Between nineteen sixty and two thousand",
+          "Between eighteen fifty and eighteen ninety"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that modernism flourished roughly between eighteen ninety and nineteen forty-five."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What characterized Victorian-era novels, according to the professor?",
+        "options": [
+          "Stream of consciousness narration",
+          "Omniscient narrators, coherent linear plots, and faith in progress",
+          "Fragmented, non-linear narratives",
+          "Complete rejection of moral themes"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains Victorian novels featured omniscient narrators, coherent linear plots, and reflected a belief in progress and moral certainty."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is stream of consciousness as a literary technique?",
+        "options": [
+          "A method of writing very quickly",
+          "Presenting a character's thoughts directly as they occur, often fragmented and non-linear",
+          "A narrator who knows everything about all characters",
+          "A poetic form with strict meter"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines stream of consciousness as plunging directly into the character's mind, presenting thoughts as they occur in a fragmented, associative way."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the significance of 'Ulysses' by James Joyce?",
+        "options": [
+          "It is a Victorian novel with an omniscient narrator",
+          "It is the landmark example of stream of consciousness, following one day in Leopold Bloom's life",
+          "It is a collection of short stories about World War I",
+          "It is a poem about the Irish countryside"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor describes 'Ulysses' as the landmark example of stream of consciousness, following one day in Dublin through Bloom's mind."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What does fragmentation in modernist literature involve?",
+        "options": [
+          "Writing only in very short sentences",
+          "Rejecting linear narrative, jumping in time, shifting perspectives, and leaving gaps",
+          "Breaking physical books into pieces",
+          "Writing only about broken objects"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that fragmentation involves rejecting linear narrative, jumping in time, shifting perspectives, and leaving gaps for the reader."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "Why is T. S. Eliot's 'The Waste Land' described as a collage of fragments?",
+        "options": [
+          "Because it was never finished",
+          "Because it draws on diverse sources with abrupt shifts in voice and scene, mirroring a shattered world",
+          "Because it was written by multiple authors",
+          "Because it is a collection of unrelated short stories"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains 'The Waste Land' draws on sources from Sanskrit to Shakespeare with abrupt shifts, mirroring the shattered modern world."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What is the emotional core of modernist literature, according to the professor?",
+        "options": [
+          "Optimism about the future",
+          "Alienation, with characters isolated and cut off from meaningful connection",
+          "Nostalgia for the Victorian era",
+          "Joy in urban community life"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states that alienation is the emotional core, with characters isolated and cut off, reflecting the anonymity of urbanization."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What does Kafka's Gregor Samsa represent in the context of modernism?",
+        "options": [
+          "The triumph of the human spirit",
+          "The ultimate image of modernist alienation, physically and socially cut off from the human world",
+          "The beauty of Victorian moral certainty",
+          "The power of omniscient narration"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor describes Gregor Samsa, who wakes transformed into an insect, as the ultimate image of modernist alienation, cut off from the human world."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What united the different strands of modernism, according to the professor?",
+        "options": [
+          "They all used the same narrative techniques",
+          "A shared conviction that literature had to be reinvented to confront the reality of the modern age",
+          "They all lived in the same city",
+          "They all rejected the use of imagery"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor concludes that despite their differences, modernist strands were united by the conviction that literature had to be reinvented for the modern age."
+      }
+    ],
+    "keyVocabulary": ["modernism", "stream of consciousness", "fragmentation", "alienation", "omniscient narrator", "Virginia Woolf", "James Joyce", "T. S. Eliot", "The Waste Land", "Lost Generation", "Imagism", "Bloomsbury Group"]
+  },
+  {
+    "type": "LISTENING_PART_E",
+    "questionText": "Listen to a lecture in a psychology course on cognitive processes and heuristics.",
+    "academicField": "PSYCHOLOGY",
+    "audioScript": "Situation: A psychology professor delivers a lecture on cognitive processes, heuristics, and the systematic biases they produce.\nProfessor Kowalski: Good morning. Today we explore how the human mind processes information, makes decisions, and, importantly, makes predictable errors. Our focus is on the cognitive revolution that transformed psychology in the nineteen fifties and sixties, and on the work of Daniel Kahneman and Amos Tversky, whose research on heuristics and biases fundamentally changed our understanding of human rationality.\nLet's start with the cognitive revolution itself. Before the nineteen fifties, American psychology was dominated by behaviorism, which focused only on observable stimuli and responses, ignoring the inner workings of the mind. The cognitive revolution challenged this by insisting that the mind could and should be studied scientifically. Researchers began using the computer as a metaphor: the mind takes in information (input), processes it (computation), and produces behavior (output). This information-processing model remains influential today.\nKahneman and Tversky's breakthrough was to show that this processing system is not perfectly rational. They identified mental shortcuts called heuristics, which the brain uses to make quick judgments. Heuristics are generally useful, they save time and cognitive effort, but they produce systematic errors called biases. The key word is systematic. These are not random mistakes; they occur predictably and consistently across individuals and cultures.\nLet's examine three major heuristics. First, the availability heuristic. People judge the probability of an event by how easily examples come to mind. After a plane crash is reported in the news, people overestimate the danger of flying because the vivid example is readily available in memory, even though driving is statistically far more dangerous. The availability heuristic explains why people fear shark attacks more than car accidents.\nSecond, the representativeness heuristic. People judge the probability that something belongs to a category by how well it matches the stereotype of that category. If I describe a quiet, organized person who loves reading, you might guess they are a librarian rather than a salesperson, even though salespeople vastly outnumber librarians. This heuristic leads people to ignore base rates, the actual statistical frequency of a category in the population.\nThird, anchoring. When people make numerical estimates, they are influenced by an initial value, the anchor, even when it is clearly irrelevant. In a famous experiment, Tversky and Kahneman asked participants to estimate the percentage of African countries in the United Nations after spinning a wheel that landed on a random number. Those who saw a higher number gave higher estimates. The random anchor contaminated their judgment, even though they knew it was random.\nKahneman later synthesized this work into what he called System 1 and System 2 thinking. System 1 is fast, automatic, and intuitive. It operates effortlessly and is the source of most heuristics. System 2 is slow, deliberate, and analytical. It requires effort and concentration. The problem is that System 1 is always running, generating impressions and intuitions, while System 2 is lazy, often accepting System 1's quick judgments without verification. Most of the time this works fine, but in complex or novel situations, it leads to predictable errors.\nThe practical implications are enormous. These biases affect medical diagnoses, financial decisions, legal judgments, and public policy. Recognizing them is the first step toward mitigation, though research shows that simply being aware of biases does not fully eliminate them. Structural interventions, like checklists and decision aids, are often more effective than relying on individual willpower.",
+    "speakers": [
+      { "name": "Professor Kowalski", "role": "psychology professor" }
+    ],
+    "setting": "ACADEMIC_OFFICE",
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "What is the main topic of the lecture?",
+        "options": [
+          "The history of behaviorism in American psychology",
+          "Cognitive processes, heuristics, and the systematic biases they produce",
+          "The clinical treatment of anxiety disorders",
+          "The development of artificial intelligence"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_TOPIC",
+        "explanation": "The professor introduces cognitive processes, the heuristics identified by Kahneman and Tversky, and the systematic biases they produce."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "What did the cognitive revolution challenge?",
+        "options": [
+          "The theory of evolution",
+          "Behaviorism, which focused only on observable stimuli and responses, ignoring the mind",
+          "The use of statistics in research",
+          "The practice of clinical psychology"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the cognitive revolution challenged behaviorism by insisting the mind could be studied scientifically."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "What metaphor did cognitive researchers use for the mind?",
+        "options": [
+          "A garden that grows over time",
+          "A computer that takes in input, processes it, and produces output",
+          "A library that stores books",
+          "A machine that never makes errors"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor states researchers used the computer as a metaphor, with the mind taking in input, processing it, and producing output."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What is a heuristic, according to the lecture?",
+        "options": [
+          "A type of statistical analysis",
+          "A mental shortcut the brain uses to make quick judgments",
+          "A clinical diagnostic tool",
+          "A method for measuring intelligence"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor defines heuristics as mental shortcuts the brain uses to make quick judgments, saving time and cognitive effort."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What is the key characteristic of biases produced by heuristics?",
+        "options": [
+          "They are random and unpredictable",
+          "They are systematic, occurring predictably and consistently across individuals and cultures",
+          "They only affect uneducated people",
+          "They can be eliminated through meditation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor emphasizes that biases are systematic, not random, occurring predictably and consistently across individuals and cultures."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "How does the availability heuristic work?",
+        "options": [
+          "People judge probability by how easily examples come to mind",
+          "People judge probability by statistical base rates",
+          "People judge probability by consulting experts",
+          "People judge probability by the first number they see"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains the availability heuristic: people judge the probability of an event by how easily examples come to mind."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "In the representativeness heuristic, what do people tend to ignore?",
+        "options": [
+          "Stereotypes",
+          "Base rates, the actual statistical frequency of a category",
+          "Their own emotions",
+          "The advice of friends"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains that the representativeness heuristic leads people to ignore base rates, the actual statistical frequency in the population."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "What did the anchoring experiment with the wheel demonstrate?",
+        "options": [
+          "That people always give accurate estimates",
+          "That a random anchor contaminated numerical estimates even when participants knew it was random",
+          "That spinning a wheel improves decision-making",
+          "That people know nothing about African geography"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor explains that a random number from a wheel anchored participants' estimates of African countries in the UN, even though they knew it was random."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What is the relationship between System 1 and System 2 thinking?",
+        "options": [
+          "System 2 is always active and overrides System 1",
+          "System 1 is fast and automatic, always running, while System 2 is slow, deliberate, and often lazy, accepting System 1's judgments",
+          "System 1 and System 2 are identical",
+          "System 1 handles complex math; System 2 handles intuition"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "explanation": "The professor explains System 1 is fast and automatic, always running, while System 2 is slow and deliberate but lazy, often accepting System 1's judgments."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "What does the professor imply about overcoming biases?",
+        "options": [
+          "Simply being aware of biases fully eliminates them",
+          "Awareness helps but structural interventions like checklists are often more effective than willpower alone",
+          "Biases can never be reduced in any way",
+          "Only experts can avoid cognitive biases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "explanation": "The professor states that awareness does not fully eliminate biases and that structural interventions like checklists are often more effective than willpower."
+      }
+    ],
+    "keyVocabulary": ["cognitive revolution", "heuristic", "bias", "availability heuristic", "representativeness heuristic", "anchoring", "base rate", "System 1", "System 2", "information processing", "Kahneman", "Tversky"]
+  }
+]

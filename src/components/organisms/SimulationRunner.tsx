@@ -108,6 +108,7 @@ export function SimulationRunner({
     {},
   );
   const [devAutoFillMinimized, setDevAutoFillMinimized] = useState(false);
+  const [devSelectedSectionId, setDevSelectedSectionId] = useState<string>("");
   const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
   const ttsProgressTimerRef = useRef<number | null>(null);
   const toeflListeningPartialRef = useRef<Record<string, any>>({});
@@ -159,9 +160,16 @@ export function SimulationRunner({
 
   const router = useRouter();
   const [isAdmin, setIsAdmin] = useState(false);
+  const [adminResolved, setAdminResolved] = useState(false);
   const templates = useMemo(() => EXAM_TEMPLATES[examType], [examType]);
   const currentSection = sections[currentSectionIndex];
   const currentQuestion = currentSection?.questions[currentQuestionIndex];
+
+  useEffect(() => {
+    if (!devSelectedSectionId && templates.length > 0) {
+      setDevSelectedSectionId(templates[0].id);
+    }
+  }, [devSelectedSectionId, templates]);
 
   const activeListeningTrack = useMemo(() => {
     if (!currentSection || currentSection.id !== "listening") return null;
@@ -368,6 +376,8 @@ export function SimulationRunner({
         }
       } catch {
         setIsAdmin(false);
+      } finally {
+        setAdminResolved(true);
       }
     };
 
@@ -720,9 +730,13 @@ export function SimulationRunner({
     }
 
     if (type === "ielts" && sectionId === "listening") {
-      const partOrder = [data.partA, data.partB, data.partC, data.partD].filter(
-        Boolean,
-      );
+      const partOrder = [
+        data.partA,
+        data.partB,
+        data.partC,
+        data.partD,
+        data.partE,
+      ].filter(Boolean);
       const sectionsData = partOrder.length ? partOrder : data.sections || [];
       const sectionsWithPartMeta = sectionsData.map(
         (sectionData: any, idx: number) => ({
@@ -1464,7 +1478,8 @@ export function SimulationRunner({
   };
 
   useEffect(() => {
-    if (!sessionInitDone || started || hasAutoStartedRef.current) return;
+    if (!sessionInitDone || !adminResolved || started || hasAutoStartedRef.current)
+      return;
 
     hasAutoStartedRef.current = true;
 
@@ -1473,8 +1488,35 @@ export function SimulationRunner({
       return;
     }
 
+    if (isAdmin) {
+      const initialSections: SimulationSection[] = templates.map((template) => ({
+        ...template,
+        questions: [],
+        rawQuestions: [],
+        listeningScripts: [],
+        listeningTracks: [],
+        status: "pending",
+      }));
+      toeflListeningPartialRef.current = {};
+      ieltsListeningPartialRef.current = {};
+      toeflReadingPartialRef.current = {};
+      ieltsReadingPartialRef.current = {};
+      setSections(initialSections);
+      setStarted(true);
+      setSessionActive(true);
+      setProgress("Development mode: choose section to generate");
+      return;
+    }
+
     void startSimulation();
-  }, [recoverableSessionPayload, sessionInitDone, started]);
+  }, [
+    adminResolved,
+    isAdmin,
+    recoverableSessionPayload,
+    sessionInitDone,
+    started,
+    templates,
+  ]);
 
   const retryFailedSection = async () => {
     if (failedSectionIndex === null) return;
@@ -1494,6 +1536,56 @@ export function SimulationRunner({
     }
 
     await processSectionsFrom(failedSectionIndex);
+  };
+
+  const generateSelectedSectionDev = async () => {
+    if (!isAdmin || !started) return;
+    const sectionIndex = templates.findIndex((s) => s.id === devSelectedSectionId);
+    if (sectionIndex < 0) return;
+
+    abortActiveStream();
+    activeAbortRef.current = new AbortController();
+
+    setCurrentSectionIndex(sectionIndex);
+    setCurrentQuestionIndex(0);
+    setIsGenerating(true);
+    setLoading(true);
+    setFailedSectionIndex(null);
+    setError(null);
+
+    if (devSelectedSectionId === "listening") {
+      toeflListeningPartialRef.current = {};
+      ieltsListeningPartialRef.current = {};
+      setFailedListeningPartIndex(null);
+    }
+
+    updateSection(sectionIndex, {
+      status: "generating",
+      error: undefined,
+      questions: [],
+      rawQuestions: [],
+      listeningScripts: [],
+      listeningTracks: [],
+    });
+
+    try {
+      const raw = await generateSection(examType, devSelectedSectionId, sectionIndex, 0);
+      const parsed = parseSection(examType, devSelectedSectionId, raw);
+      updateSection(sectionIndex, parsed);
+      setCurrentSectionIndex(sectionIndex);
+      setCurrentQuestionIndex(0);
+      setProgress(`Development generate complete: ${parsed.title}`);
+    } catch (err) {
+      if (!(err instanceof StreamAbortedError)) {
+        const message = (err as Error).message;
+        updateSection(sectionIndex, { status: "failed", error: message });
+        setFailedSectionIndex(sectionIndex);
+        setError(message);
+      }
+    } finally {
+      setIsGenerating(false);
+      setLoading(false);
+    }
   };
 
   const skipFailedSection = async () => {
@@ -2306,31 +2398,56 @@ export function SimulationRunner({
                   Minimize
                 </button>
               </div>
-              <div className="max-h-56 space-y-2 overflow-auto pr-1">
-                {sections.map((section) => (
-                  <div
-                    key={`dev-${section.id}`}
-                    className="rounded-lg bg-[var(--color-neutral-50)] p-2"
-                  >
-                    <div className="mb-1 text-xs font-medium text-[var(--color-neutral-700)]">
-                      {section.title}
-                    </div>
-                    <select
-                      value={devFillConfig[section.id] ?? 100}
-                      onChange={(e) =>
-                        setDevFillConfig((prev) => ({
-                          ...prev,
-                          [section.id]: Number(e.target.value),
-                        }))
-                      }
-                      className="w-full rounded-md border border-[var(--color-neutral-300)] bg-white px-2 py-1 text-xs"
-                    >
-                      <option value={50}>50% correct</option>
-                      <option value={75}>75% correct</option>
-                      <option value={100}>100% correct</option>
-                    </select>
+              <div className="space-y-2">
+                <div className="rounded-lg bg-[var(--color-neutral-50)] p-2">
+                  <div className="mb-1 text-xs font-medium text-[var(--color-neutral-700)]">
+                    Generate Selected Section
                   </div>
-                ))}
+                  <select
+                    value={devSelectedSectionId}
+                    onChange={(e) => setDevSelectedSectionId(e.target.value)}
+                    className="w-full rounded-md border border-[var(--color-neutral-300)] bg-white px-2 py-1 text-xs"
+                  >
+                    {templates.map((section) => (
+                      <option key={`gen-${section.id}`} value={section.id}>
+                        {section.title}
+                      </option>
+                    ))}
+                  </select>
+                  <button
+                    onClick={generateSelectedSectionDev}
+                    disabled={isGenerating || !devSelectedSectionId}
+                    className="mt-2 w-full rounded-[8px] bg-[var(--color-primary)] px-3 py-2 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60"
+                  >
+                    Generate Section
+                  </button>
+                </div>
+                <div className="max-h-48 space-y-2 overflow-auto pr-1">
+                  {sections.map((section) => (
+                    <div
+                      key={`dev-${section.id}`}
+                      className="rounded-lg bg-[var(--color-neutral-50)] p-2"
+                    >
+                      <div className="mb-1 text-xs font-medium text-[var(--color-neutral-700)]">
+                        {section.title}
+                      </div>
+                      <select
+                        value={devFillConfig[section.id] ?? 100}
+                        onChange={(e) =>
+                          setDevFillConfig((prev) => ({
+                            ...prev,
+                            [section.id]: Number(e.target.value),
+                          }))
+                        }
+                        className="w-full rounded-md border border-[var(--color-neutral-300)] bg-white px-2 py-1 text-xs"
+                      >
+                        <option value={50}>50% correct</option>
+                        <option value={75}>75% correct</option>
+                        <option value={100}>100% correct</option>
+                      </select>
+                    </div>
+                  ))}
+                </div>
               </div>
               <button
                 onClick={applyDevAutoFill}

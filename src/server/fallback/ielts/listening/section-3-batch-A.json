@@ -1,0 +1,872 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a history tutor giving feedback to a student on her essay about the Industrial Revolution.",
+    "audioScript": "Situation: A history lecturer meets an undergraduate student to discuss feedback on her essay about the social impact of the Industrial Revolution.\nTutor: Come in, Sophie. I've finished marking your essay on the Industrial Revolution. Overall, it's a solid seventy-two percent.\nSophie: Thanks, Dr Mills. I was hoping for higher, to be honest.\nTutor: You can get there. Your introduction is strong, but the main issue is structure. Your arguments jump around chronologically.\nSophie: Should I reorder by theme rather than by date?\nTutor: Exactly. Group your points thematically: urbanisation first, then labour conditions, then technological change. That gives a clearer thread.\nSophie: That makes sense. What about my evidence?\nTutor: You rely too heavily on secondary sources. I'd like to see at least three primary sources. Factory inspection reports would be ideal.\nSophie: I found some parliamentary papers online. Would those count?\nTutor: Yes, parliamentary papers are excellent primary material. Cite them properly using Chicago style.\nSophie: How long should the revised version be?\nTutor: Keep it to two thousand five hundred words. Your current draft is slightly over at two thousand eight hundred.\nSophie: When is the resubmission deadline?\nTutor: Two weeks from today, the fourteenth. And please proofread carefully, I found several typos in the conclusion.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Dr Mills", "accent": "BRITISH", "gender": "MALE", "role": "history lecturer" },
+        { "name": "Sophie", "accent": "AMERICAN", "gender": "FEMALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What grade did Sophie receive on her essay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Sixty-five percent", "Seventy-two percent", "Eighty percent", "Fifty-eight percent"],
+        "keywords": ["grade", "percent", "seventy-two"],
+        "synonymsUsed": ["mark", "score"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the tutor identify as the main structural problem?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The essay is too short", "The conclusion is missing", "Arguments jump around chronologically", "There are too many subsections"],
+        "keywords": ["structure", "chronologically", "jump"],
+        "synonymsUsed": ["organisation", "order"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the tutor suggest Sophie reorganise her arguments?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Group them thematically", "Arrange them by word count", "Present them alphabetically", "Reverse the chronological order"],
+        "keywords": ["reorganise", "thematically", "theme"],
+        "synonymsUsed": ["reorder", "regroup"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which thematic group does the tutor say should come first?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Urbanisation", "Labour conditions", "Technological change", "Political reform"],
+        "keywords": ["first", "urbanisation"],
+        "synonymsUsed": ["initial", "city growth"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What criticism does the tutor have about Sophie's use of sources?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["She uses too many primary sources", "She relies too heavily on secondary sources", "She cites no sources at all", "Her sources are all outdated"],
+        "keywords": ["sources", "secondary", "rely"],
+        "synonymsUsed": ["references", "evidence"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many primary sources does the tutor want to see in the revision?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["At least one", "At least two", "At least three", "At least five"],
+        "keywords": ["primary sources", "three"],
+        "synonymsUsed": ["original documents", "first-hand"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which type of primary source does the tutor specifically recommend?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Personal diaries", "Factory inspection reports", "Newspaper advertisements", "Court records"],
+        "keywords": ["primary", "factory inspection reports"],
+        "synonymsUsed": ["official documents", "records"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which referencing style must Sophie use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Harvard", "APA", "Chicago", "MLA"],
+        "keywords": ["referencing", "Chicago", "cite"],
+        "synonymsUsed": ["citation", "format"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the target word count for the revised essay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two thousand five hundred words", "Two thousand words", "Two thousand eight hundred words", "Three thousand words"],
+        "keywords": ["word count", "two thousand five hundred"],
+        "synonymsUsed": ["length", "word limit"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the resubmission deadline?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One week from today", "Two weeks from today, the fourteenth", "Three weeks from today", "By the end of the month"],
+        "keywords": ["deadline", "two weeks", "fourteenth"],
+        "synonymsUsed": ["due date", "resubmit"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "chronologically", "pronunciationNote": "/ˌkrɒnəˈlɒdʒɪkli/", "meaning": "Arranged in order of time." },
+      { "word": "thematically", "pronunciationNote": "/θɪˈmætɪkli/", "meaning": "Organised by themes or topics rather than by time." },
+      { "word": "urbanisation", "pronunciationNote": "/ˌɜːbənaɪˈzeɪʃən/", "meaning": "The process of people moving from rural areas to cities." },
+      { "word": "primary source", "meaning": "An original document or record from the period being studied." },
+      { "word": "secondary source", "meaning": "A work that analyses or interprets primary sources." },
+      { "word": "proofread", "pronunciationNote": "/ˈpruːfriːd/", "meaning": "To carefully check a text for errors before submission." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a biology lab instructor reviewing a student's lab report on enzyme activity.",
+    "audioScript": "Situation: A biology lab instructor meets a student to review his lab report investigating the effect of temperature on amylase enzyme activity.\nInstructor: Right, James, let's go through your lab report on amylase and temperature. The good news: your method section is clearly written.\nJames: Thanks, Dr Webb. What needs the most work?\nInstructor: Your results graph. You've plotted temperature on the x-axis, which is correct, but you've used a bar chart instead of a line graph.\nJames: I see. A line graph would show the trend better.\nInstructor: Exactly. The optimum temperature for amylase is around thirty-seven degrees, and a line graph makes that peak visible.\nJames: I found the peak at thirty-seven degrees. Should I add error bars?\nInstructor: Yes, error bars are essential here. You ran three trials, so show the standard deviation.\nJames: Got it. Is my discussion strong enough?\nInstructor: It's a good start, but you need to explain why activity drops above forty degrees. Mention denaturation.\nJames: Right, the enzyme's active site changes shape. Should I include a diagram?\nInstructor: A labelled diagram of the active site would earn extra marks. Put it in the appendix, not the main text.\nJames: What about the conclusion?\nInstructor: Keep it to one paragraph. State the optimum temperature and briefly mention the denaturation point. Avoid introducing new data there.\nJames: When should I hand in the revised report?\nInstructor: Next Tuesday at noon. Submit it through the online portal, not by email.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Dr Webb", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "biology lab instructor" },
+        { "name": "James", "accent": "BRITISH", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the instructor say is well done in James's report?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The method section", "The results graph", "The conclusion", "The bibliography"],
+        "keywords": ["method section", "clearly written"],
+        "synonymsUsed": ["procedure", "well done"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is wrong with James's results graph?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The axes are swapped", "He used a bar chart instead of a line graph", "It has no title", "The units are incorrect"],
+        "keywords": ["bar chart", "line graph", "results"],
+        "synonymsUsed": ["graph type", "chart"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the optimum temperature for amylase according to the experiment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-five degrees", "Thirty degrees", "Thirty-seven degrees", "Forty degrees"],
+        "keywords": ["optimum temperature", "amylase", "thirty-seven"],
+        "synonymsUsed": ["ideal", "peak"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Why should James use a line graph instead of a bar chart?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It makes the peak visible and shows the trend", "It is required by the syllabus", "It takes up less space", "It is easier to colour-code"],
+        "keywords": ["line graph", "peak", "trend"],
+        "synonymsUsed": ["visualise", "pattern"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many trials did James run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One", "Two", "Three", "Five"],
+        "keywords": ["trials", "three"],
+        "synonymsUsed": ["repeats", "runs"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the instructor say James must add to the graph?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A trend line", "Error bars showing standard deviation", "A legend", "A secondary y-axis"],
+        "keywords": ["error bars", "standard deviation"],
+        "synonymsUsed": ["uncertainty", "variation"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What concept must James explain in the discussion for activity dropping above forty degrees?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Denaturation", "Osmosis", "Photosynthesis", "Diffusion"],
+        "keywords": ["denaturation", "forty degrees", "discussion"],
+        "synonymsUsed": ["unfolding", "loss of structure"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where should James place the labelled diagram of the active site?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["In the introduction", "In the main text next to the discussion", "In the appendix", "On the title page"],
+        "keywords": ["diagram", "appendix", "active site"],
+        "synonymsUsed": ["supplementary section", "figure"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What advice does the instructor give about the conclusion?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["It should be at least three paragraphs", "Avoid introducing new data there", "It must include a full literature review", "It should repeat the method in detail"],
+        "keywords": ["conclusion", "no new data"],
+        "synonymsUsed": ["summary", "final section"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How should James submit the revised report?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["By email", "In print to the lab office", "Through the online portal", "On a USB drive"],
+        "keywords": ["submit", "online portal", "not email"],
+        "synonymsUsed": ["hand in", "upload"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "amylase", "pronunciationNote": "/ˈæmɪleɪz/", "meaning": "An enzyme that breaks down starch into sugars." },
+      { "word": "optimum", "pronunciationNote": "/ˈɒptɪməm/", "meaning": "The conditions under which an enzyme works most efficiently." },
+      { "word": "denaturation", "pronunciationNote": "/diːˌneɪtʃəˈreɪʃən/", "meaning": "The process by which a protein loses its shape and function, often due to heat." },
+      { "word": "standard deviation", "meaning": "A measure of how spread out data values are from the mean." },
+      { "word": "active site", "meaning": "The region of an enzyme where substrate molecules bind and react." },
+      { "word": "error bar", "meaning": "A graphical representation of the variability or uncertainty in data." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a supervisor advising a postgraduate student on planning a literature review on climate fiction.",
+    "audioScript": "Situation: A dissertation supervisor meets a postgraduate student to plan a literature review on climate fiction in contemporary novels.\nSupervisor: So, Marcus, your topic is climate fiction, or 'cli-fi', in twenty-first-century novels. Let's map out the literature review.\nMarcus: I've found about thirty sources so far. Is that enough?\nSupervisor: For a master's review, aim for forty to fifty. But more importantly, they need to be current. Focus on material from the last fifteen years.\nMarcus: Should I include foundational ecocriticism theory?\nSupervisor: Yes, but only two or three key theorists. Garrard's work on ecocriticism is a good starting point.\nMarcus: How should I structure the review? Chronologically or thematically?\nSupervisor: Thematically. Organise it around three strands: representations of disaster, human-nonhuman relationships, and political agency.\nMarcus: That's helpful. Do I need to discuss gaps in the literature?\nSupervisor: Absolutely. Identifying a gap justifies your own research. I noticed you haven't covered Indigenous perspectives. That's a significant gap.\nMarcus: You're right. I'll add a subsection on Indigenous climate narratives.\nSupervisor: Good. Use a synthesis matrix to track sources against themes. It prevents a shopping-list style review.\nMarcus: What referencing system should I use?\nSupervisor: MLA ninth edition, since you're in literary studies. Be consistent with in-text citations.\nMarcus: When should I bring you a full draft?\nSupervisor: Let's say the end of next month. Bring a complete draft, not just an outline.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Supervisor", "accent": "BRITISH", "gender": "FEMALE", "role": "dissertation supervisor" },
+        { "name": "Marcus", "accent": "CANADIAN", "gender": "MALE", "role": "postgraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many sources has Marcus found so far?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About thirty", "About twenty", "About fifty", "About fifteen"],
+        "keywords": ["sources", "thirty"],
+        "synonymsUsed": ["references", "found"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many sources does the supervisor recommend for a master's review?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty to thirty", "Thirty to forty", "Forty to fifty", "Fifty to sixty"],
+        "keywords": ["forty to fifty", "master's review"],
+        "synonymsUsed": ["target range", "sources"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What time period should Marcus focus on for his sources?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The last five years", "The last fifteen years", "The last twenty-five years", "Sources from any period"],
+        "keywords": ["current", "last fifteen years"],
+        "synonymsUsed": ["recent", "up-to-date"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Whose work does the supervisor recommend as a starting point for ecocriticism?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Garrard", "Bakhtin", "Said", "Derrida"],
+        "keywords": ["Garrard", "ecocriticism", "starting point"],
+        "synonymsUsed": ["foundational", "key theorist"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many key theorists should Marcus include for foundational theory?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One or two", "Four or five", "Two or three", "Five or six"],
+        "keywords": ["key theorists", "two or three"],
+        "synonymsUsed": ["foundational", "core"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the supervisor recommend structuring the review?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Thematically around three strands", "Chronologically by publication date", "By author alphabetically", "By genre category"],
+        "keywords": ["thematically", "three strands"],
+        "synonymsUsed": ["structure", "organise"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which of the following is NOT one of the three thematic strands mentioned?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Representations of disaster", "Human-nonhuman relationships", "Political agency", "Economic markets"],
+        "keywords": ["three strands", "disaster", "relationships", "political agency"],
+        "synonymsUsed": ["themes", "categories"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which perspective does the supervisor say Marcus has missed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Feminist perspectives", "Indigenous perspectives", "Postcolonial perspectives", "Marxist perspectives"],
+        "keywords": ["Indigenous perspectives", "gap"],
+        "synonymsUsed": ["missing", "overlooked"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What tool does the supervisor suggest to track sources against themes?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A synthesis matrix", "A concept map", "A spreadsheet of keywords", "A citation generator"],
+        "keywords": ["synthesis matrix", "track", "themes"],
+        "synonymsUsed": ["grid", "cross-reference table"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which referencing system should Marcus use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Harvard", "Chicago", "MLA ninth edition", "APA seventh edition"],
+        "keywords": ["MLA", "ninth edition", "referencing"],
+        "synonymsUsed": ["citation style", "format"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "cli-fi", "pronunciationNote": "/ˈklaɪfaɪ/", "meaning": "A genre of fiction dealing with climate change and its consequences." },
+      { "word": "ecocriticism", "pronunciationNote": "/ˈiːkəʊˌkrɪtɪsɪzəm/", "meaning": "The study of literature and the environment from an interdisciplinary perspective." },
+      { "word": "thematic", "pronunciationNote": "/θɪˈmætɪk/", "meaning": "Organised according to themes or recurring ideas." },
+      { "word": "synthesis matrix", "meaning": "A grid used to compare and contrast sources across themes." },
+      { "word": "political agency", "meaning": "The capacity of individuals or groups to act politically and influence outcomes." },
+      { "word": "gap", "pronunciationNote": "/ɡæp/", "meaning": "An area not yet covered by existing research, justifying new study." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to an engineering professor consulting two students on their bridge design project.",
+    "audioScript": "Situation: An engineering professor meets two undergraduate students to discuss their design for a pedestrian footbridge as part of a design project.\nProfessor: Alright, Priya and Tom, let's review your footbridge design. You've chosen a cable-stayed bridge spanning forty metres.\nPriya: Yes, Professor Khan. We felt cable-stayed offers the best balance of aesthetics and load distribution for that span.\nProfessor: Good reasoning. But your load calculations only account for pedestrian traffic. Have you considered maintenance vehicles?\nTom: We hadn't. What load should we add?\nProfessor: Add a maintenance vehicle load of two tonnes. The bridge must support occasional utility carts.\nPriya: Noted. We'll recalculate the cable tension with that extra load.\nProfessor: Also, your material choice. You've specified steel cables, which is fine, but what about the deck?\nTom: We chose reinforced concrete for the deck.\nProfessor: Reinforced concrete is durable, but it's heavy. Have you considered a composite deck? It would reduce dead load by about thirty percent.\nPriya: Would a composite deck affect the cost significantly?\nProfessor: Initial cost is higher, roughly fifteen percent more, but lifecycle savings are substantial. Include a cost-benefit analysis in your report.\nTom: What about the foundation? We've designed spread footings.\nProfessor: Spread footings are appropriate given the soil report shows firm clay. But add a settlement check.\nPriya: How detailed should the technical drawings be?\nProfessor: Include elevation, plan, and at least two cross-sections. Use a scale of one to fifty.\nTom: When is the final submission?\nProfessor: The design portfolio is due in three weeks. Present your model to the panel on the same day.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Professor Khan", "accent": "AMERICAN", "gender": "MALE", "role": "engineering professor" },
+        { "name": "Priya", "accent": "BRITISH", "gender": "FEMALE", "role": "undergraduate student" },
+        { "name": "Tom", "accent": "AUSTRALIAN", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of bridge have the students designed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A suspension bridge", "A cable-stayed bridge", "An arch bridge", "A truss bridge"],
+        "keywords": ["cable-stayed", "bridge", "design"],
+        "synonymsUsed": ["structure", "span type"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the span of the footbridge?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty metres", "Thirty metres", "Forty metres", "Fifty metres"],
+        "keywords": ["span", "forty metres"],
+        "synonymsUsed": ["length", "distance"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor say is missing from the load calculations?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Maintenance vehicle load", "Wind load", "Seismic load", "Snow load"],
+        "keywords": ["maintenance vehicle", "load", "missing"],
+        "synonymsUsed": ["utility cart", "overlooked"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What maintenance vehicle load does the professor recommend adding?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["One tonne", "Two tonnes", "Three tonnes", "Five tonnes"],
+        "keywords": ["maintenance vehicle", "two tonnes"],
+        "synonymsUsed": ["load", "weight"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What material have the students chosen for the deck?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Reinforced concrete", "Timber", "Aluminium", "Fibreglass"],
+        "keywords": ["deck", "reinforced concrete"],
+        "synonymsUsed": ["surface", "material"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What alternative deck material does the professor suggest?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Pre-stressed concrete", "A composite deck", "Steel plating", "Glulam timber"],
+        "keywords": ["composite deck", "alternative"],
+        "synonymsUsed": ["option", "substitute"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "By approximately how much would a composite deck reduce dead load?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen percent", "Twenty percent", "Thirty percent", "Forty-five percent"],
+        "keywords": ["composite", "dead load", "thirty percent"],
+        "synonymsUsed": ["reduce", "lighter"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much more expensive is the composite deck initially?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Roughly fifteen percent more", "Roughly twenty-five percent more", "Roughly ten percent more", "Roughly thirty percent more"],
+        "keywords": ["cost", "fifteen percent", "higher"],
+        "synonymsUsed": ["price", "expensive"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What scale does the professor require for the technical drawings?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One to twenty", "One to one hundred", "One to fifty", "One to two hundred"],
+        "keywords": ["scale", "one to fifty", "drawings"],
+        "synonymsUsed": ["ratio", "proportion"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What foundation type have the students designed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Spread footings", "Pile foundations", "Raft foundations", "Caisson foundations"],
+        "keywords": ["foundation", "spread footings"],
+        "synonymsUsed": ["base", "ground support"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "cable-stayed", "pronunciationNote": "/ˈkeɪbəlsteɪd/", "meaning": "A bridge type where cables support the deck directly from towers." },
+      { "word": "dead load", "pronunciationNote": "/dɛd ləʊd/", "meaning": "The static weight of the structure itself, excluding moving loads." },
+      { "word": "composite deck", "meaning": "A bridge surface made from combined materials, often lighter than solid concrete." },
+      { "word": "spread footing", "meaning": "A wide, shallow foundation that spreads load over a large area of soil." },
+      { "word": "settlement check", "meaning": "A calculation verifying that the foundation will not sink excessively over time." },
+      { "word": "cost-benefit analysis", "pronunciationNote": "/kɒstˈbɛnɪfɪt əˈnælɪsɪs/", "meaning": "A systematic comparison of costs and benefits to evaluate a design choice." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a psychology lecturer helping a student design an experiment on the effect of sleep on memory.",
+    "audioScript": "Situation: A psychology lecturer meets an undergraduate student to design an experiment investigating the effect of sleep deprivation on short-term memory.\nLecturer: So, Daniel, your proposal is to test how sleep deprivation affects short-term memory. Let's refine the design.\nDaniel: I plan to have three groups: a control group that sleeps eight hours, a group that sleeps four hours, and a group that is fully sleep-deprived for twenty-four hours.\nLecturer: Good start. How will you measure short-term memory?\nDaniel: I was thinking of a word recall task, giving participants a list of twenty words and asking them to recall after two minutes.\nLecturer: A word recall task is standard, but consider adding a digit span test as well. It strengthens the validity by using two measures.\nDaniel: That's a good idea. How many participants do I need per group?\nLecturer: For a study like this, aim for at least twenty per group, so sixty total. That gives you enough statistical power.\nDaniel: Should I use a between-subjects or within-subjects design?\nLecturer: Between-subjects is more appropriate here. You can't ethically ask the same person to go without sleep for twenty-four hours repeatedly.\nDaniel: Right. How do I control for individual differences in memory ability?\nLecturer: Administer a baseline memory test before the sleep manipulation and use it as a covariate in your analysis.\nDaniel: What statistical test should I use to compare the three groups?\nLecturer: A one-way ANOVA, since you have one independent variable with three levels. If significant, run a post-hoc Tukey test.\nDaniel: Are there any ethical approvals I need?\nLecturer: Yes, submit your ethics application to the committee. Participants must give informed consent and be able to withdraw at any time. Also, arrange a debriefing session afterwards.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Lecturer", "accent": "BRITISH", "gender": "FEMALE", "role": "psychology lecturer" },
+        { "name": "Daniel", "accent": "AMERICAN", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the topic of Daniel's experiment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The effect of sleep deprivation on short-term memory", "The effect of caffeine on reaction time", "The effect of exercise on mood", "The effect of music on concentration"],
+        "keywords": ["sleep deprivation", "short-term memory"],
+        "synonymsUsed": ["lack of sleep", "recall"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many groups does Daniel plan to have?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two", "Four", "Three", "Five"],
+        "keywords": ["groups", "three"],
+        "synonymsUsed": ["conditions", "categories"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the fully sleep-deprived group kept awake?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Twelve hours", "Sixteen hours", "Twenty hours", "Twenty-four hours"],
+        "keywords": ["sleep-deprived", "twenty-four hours"],
+        "synonymsUsed": ["awake", "no sleep"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many words are in the recall task list?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifteen words", "Twenty words", "Twenty-five words", "Thirty words"],
+        "keywords": ["word recall", "twenty words"],
+        "synonymsUsed": ["list", "vocabulary"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What additional memory test does the lecturer suggest?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A digit span test", "A face recognition test", "A spatial memory test", "A pattern completion test"],
+        "keywords": ["digit span test", "additional"],
+        "synonymsUsed": ["extra measure", "supplement"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many participants per group does the lecturer recommend?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Fifteen", "Twenty", "Twenty-five", "Thirty"],
+        "keywords": ["participants", "twenty per group"],
+        "synonymsUsed": ["sample size", "subjects"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which experimental design does the lecturer say is more appropriate?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Between-subjects", "Within-subjects", "Mixed design", "Single-case design"],
+        "keywords": ["between-subjects", "design"],
+        "synonymsUsed": ["independent groups", "design type"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How does the lecturer suggest controlling for individual differences?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Random sorting only", "Administer a baseline memory test and use it as a covariate", "Match participants by age only", "Exclude participants with high IQ scores"],
+        "keywords": ["baseline", "covariate", "individual differences"],
+        "synonymsUsed": ["pre-test", "control variable"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which statistical test does the lecturer recommend for comparing the three groups?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A one-way ANOVA", "An independent t-test", "A chi-square test", "A Pearson correlation"],
+        "keywords": ["one-way ANOVA", "statistical test"],
+        "synonymsUsed": ["analysis of variance", "inferential test"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What post-hoc test should Daniel run if the main test is significant?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["A Bonferroni correction", "A Scheffe test", "A Tukey test", "A Dunnett test"],
+        "keywords": ["post-hoc", "Tukey", "significant"],
+        "synonymsUsed": ["follow-up test", "pairwise comparison"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "sleep deprivation", "pronunciationNote": "/sliːp ˌdɛprɪˈveɪʃən/", "meaning": "The condition of not getting enough sleep." },
+      { "word": "short-term memory", "meaning": "The capacity for holding a small amount of information for a brief period." },
+      { "word": "digit span test", "meaning": "A memory test where participants repeat back sequences of digits of increasing length." },
+      { "word": "between-subjects", "pronunciationNote": "/bɪˈtwiːnˈsʌbdʒɪkts/", "meaning": "A design where different participants are assigned to each condition." },
+      { "word": "covariate", "pronunciationNote": "/kəʊˈvɛərɪət/", "meaning": "A variable that may affect the outcome and is controlled for in analysis." },
+      { "word": "one-way ANOVA", "meaning": "A statistical test comparing means across three or more independent groups." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to an economics professor advising two students on preparing a presentation about inflation and monetary policy.",
+    "audioScript": "Situation: An economics professor meets two postgraduate students to review their upcoming presentation on the relationship between inflation targeting and monetary policy transmission.\nProfessor: Let's go through your presentation on inflation targeting. You have twenty minutes total. How have you divided it?\nNina: I'm covering the theoretical framework, about eight minutes. Ravi handles the empirical evidence, also eight minutes, and we leave four minutes for questions.\nProfessor: That's balanced. But Nina, your theoretical section is too broad. You're trying to cover five different models. Narrow it to two: the Taylor Rule and the New Keynesian Phillips Curve.\nNina: Understood. Should I include the Fisher equation?\nProfessor: Mention it briefly as context, but don't derive it. Your audience already knows it.\nRavi: For the empirical section, I'm using data from the Bank of England between two thousand and 2010 and two thousand and ten to 2023.\nProfessor: Good periodisation. But why split at 2010 specifically?\nRavi: I chose 2010 because quantitative easing became significant after the 2008 crisis, and its effects are visible in the later period.\nProfessor: Reasonable. But be precise: QE began in 2009 in the UK. Say 2009, not 2010, as the turning point. Your data can still start in 2010.\nRavi: I'll clarify that. Should I show regression results on a slide?\nProfessor: No, full regression tables are too dense for a presentation. Instead, show a scatter plot of inflation against the policy rate with a fitted line. It's visually compelling.\nNina: What about the Phillips Curve? Some argue it has flattened. Should we address that critique?\nProfessor: Absolutely. Address the flattening Phillips Curve debate in your conclusion. Cite Blanchard's 2016 paper as a key reference.\nRavi: How many slides should we use in total?\nProfessor: Aim for no more than twelve slides, including the title and references. Keep font size at twenty-four point minimum.\nNina: Should we provide a handout?\nProfessor: Not necessary, but prepare a one-page summary of key findings for anyone who asks. Don't distribute it unless asked.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Professor", "accent": "BRITISH", "gender": "MALE", "role": "economics professor" },
+        { "name": "Nina", "accent": "CANADIAN", "gender": "FEMALE", "role": "postgraduate student" },
+        { "name": "Ravi", "accent": "AMERICAN", "gender": "MALE", "role": "postgraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the topic of the students' presentation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The relationship between inflation targeting and monetary policy transmission", "The causes of the 2008 financial crisis", "The history of the gold standard", "Fiscal policy and unemployment"],
+        "keywords": ["inflation targeting", "monetary policy", "transmission"],
+        "synonymsUsed": ["price stability", "central bank"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long is the presentation in total?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Fifteen minutes", "Eighteen minutes", "Twenty minutes", "Twenty-five minutes"],
+        "keywords": ["total", "twenty minutes"],
+        "synonymsUsed": ["duration", "time"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many minutes are allocated for questions?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Four minutes", "Five minutes", "Six minutes", "Ten minutes"],
+        "keywords": ["questions", "four minutes"],
+        "synonymsUsed": ["Q&A", "discussion time"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many models does the professor say Nina is currently trying to cover?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Three", "Five", "Seven", "Two"],
+        "keywords": ["models", "five", "too broad"],
+        "synonymsUsed": ["frameworks", "theories"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which two models does the professor tell Nina to focus on?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The Solow Model and the IS-LM Model", "The Cobb-Douglas and the Heckscher-Ohlin Model", "The Taylor Rule and the New Keynesian Phillips Curve", "The Mundell-Fleming Model and the DSGE Model"],
+        "keywords": ["Taylor Rule", "New Keynesian Phillips Curve", "two models"],
+        "synonymsUsed": ["focus", "narrow to"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "In which year did quantitative easing begin in the UK, according to the professor?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["2008", "2009", "2010", "2012"],
+        "keywords": ["QE", "2009", "UK"],
+        "synonymsUsed": ["quantitative easing", "turning point"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the professor recommend Ravi show instead of full regression tables?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A scatter plot of inflation against the policy rate with a fitted line", "A bar chart of GDP growth", "A pie chart of government spending", "A histogram of unemployment rates"],
+        "keywords": ["scatter plot", "inflation", "policy rate", "fitted line"],
+        "synonymsUsed": ["graph", "visual"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which debate does the professor say should be addressed in the conclusion?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The debate over supply-side economics", "The flattening Phillips Curve debate", "The debate over fiscal multipliers", "The debate over exchange rate pegs"],
+        "keywords": ["flattening", "Phillips Curve", "conclusion"],
+        "synonymsUsed": ["discussion", "critique"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Whose 2016 paper does the professor recommend citing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Blanchard", "Krugman", "Bernanke", "Friedman"],
+        "keywords": ["Blanchard", "2016", "cite"],
+        "synonymsUsed": ["reference", "key source"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum number of slides the professor recommends?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Eight", "Ten", "Twelve", "Fifteen"],
+        "keywords": ["slides", "twelve", "maximum"],
+        "synonymsUsed": ["limit", "no more than"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "inflation targeting", "pronunciationNote": "/ɪnˈfleɪʃən ˈtɑːɡɪtɪŋ/", "meaning": "A monetary policy strategy where a central bank sets a specific inflation rate as its goal." },
+      { "word": "monetary policy transmission", "meaning": "The process by which central bank actions affect the broader economy and prices." },
+      { "word": "Taylor Rule", "meaning": "A guideline for setting interest rates based on inflation and economic output." },
+      { "word": "New Keynesian Phillips Curve", "meaning": "A model describing the relationship between inflation and economic slack with forward-looking expectations." },
+      { "word": "quantitative easing", "pronunciationNote": "/ˈkwɒntɪtətɪv ˈiːzɪŋ/", "meaning": "A central bank policy of purchasing assets to inject money into the economy." },
+      { "word": "periodisation", "pronunciationNote": "/ˌpɪəriədaɪˈzeɪʃən/", "meaning": "The division of a time span into distinct analytical periods." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to an architecture critic reviewing a student's physical model of a community library design.",
+    "audioScript": "Situation: An architecture critic meets a final-year student to review his physical scale model of a proposed community library in a suburban setting.\nCritic: So, Oliver, this is your model for the suburban community library. The overall massing is quite elegant. Tell me about your material choices.\nOliver: The facade is locally sourced timber cladding, and the structural frame is cross-laminated timber, or CLT. I wanted sustainability to drive the design.\nCritic: Good instinct. CLT reduces the carbon footprint significantly. But I notice the roof is flat. Have you considered rainwater drainage?\nOliver: I've included a concealed gutter system along the north elevation. Rainwater feeds into an underground cistern for greywater reuse.\nCritic: Clever. But at this scale of one to fifty, the gutter detail is invisible. You should include a detail drawing at one to ten to show it.\nOliver: I'll add that. What about the interior layout? I've placed the children's reading area on the ground floor near the entrance.\nCritic: That's the right call. Accessibility for families is critical. However, the acoustics study area is directly above the children's zone. Sound transmission will be a problem.\nOliver: I could add acoustic baffling between floors. Would that be sufficient?\nCritic: Acoustic baffling helps, but I'd go further. Specify a floating floor system with resilient mounts. It adds about eight percent to the floor cost but solves the issue properly.\nOliver: Noted. The site orientation places the main glazing on the south facade for natural light.\nCritic: South-facing glazing risks overheating in summer. You need solar shading. Have you modelled brise-soleil?\nOliver: Not yet. I'll add horizontal brise-soleil louvres at forty-five degree angles.\nCritic: Good. Just ensure the louvre spacing is calculated to block high-angle summer sun while admitting low-angle winter sun. Run a daylight simulation.\nOliver: What software should I use for that?\nCritic: Use Ladybug for Grasshopper. It's industry-standard for daylight and solar analysis. Bring the results to our next review.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Critic", "accent": "BRITISH", "gender": "FEMALE", "role": "architecture critic" },
+        { "name": "Oliver", "accent": "AUSTRALIAN", "gender": "MALE", "role": "final-year architecture student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of building has Oliver modelled?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A community library", "A residential apartment block", "A municipal town hall", "A primary school"],
+        "keywords": ["community library", "model"],
+        "synonymsUsed": ["public building", "design"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where is the proposed library located?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["In an urban city centre", "In a suburban setting", "In a rural village", "On a university campus"],
+        "keywords": ["suburban", "setting", "location"],
+        "synonymsUsed": ["outskirts", "residential area"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What material is used for the structural frame?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Steel", "Reinforced concrete", "Cross-laminated timber", "Aluminium"],
+        "keywords": ["structural frame", "CLT", "cross-laminated timber"],
+        "synonymsUsed": ["skeleton", "load-bearing"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the critic say about the flat roof?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["She asks whether rainwater drainage has been considered", "She says it should be pitched at thirty degrees", "She recommends replacing it with a green roof", "She finds it visually unappealing"],
+        "keywords": ["flat roof", "rainwater drainage"],
+        "synonymsUsed": ["water runoff", "concern"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the purpose of the underground cistern?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["To store drinking water", "Greywater reuse", "To irrigate a rooftop garden", "To cool the building mechanically"],
+        "keywords": ["underground cistern", "greywater", "reuse"],
+        "synonymsUsed": ["recycling", "water storage"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "At what scale should Oliver draw the gutter detail?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["One to fifty", "One to twenty", "One to ten", "One to five"],
+        "keywords": ["detail drawing", "one to ten", "gutter"],
+        "synonymsUsed": ["scale", "close-up"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What problem does the critic identify with the acoustics study area?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It is directly above the children's zone, causing sound transmission issues", "It has no windows for natural light", "It is too small for group study", "It lacks power outlets"],
+        "keywords": ["acoustics", "above", "children's zone", "sound"],
+        "synonymsUsed": ["noise", "transmission"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the critic recommend instead of just acoustic baffling?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Moving the study area to the ground floor", "A floating floor system with resilient mounts", "Installing soundproof glass partitions", "Adding carpet throughout the study area"],
+        "keywords": ["floating floor", "resilient mounts"],
+        "synonymsUsed": ["isolated floor", "acoustic solution"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How much extra cost does the floating floor system add?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About eight percent", "About twelve percent", "About five percent", "About fifteen percent"],
+        "keywords": ["cost", "eight percent", "floating floor"],
+        "synonymsUsed": ["price increase", "additional"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What software does the critic recommend for daylight and solar analysis?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["AutoCAD", "Revit", "Ladybug for Grasshopper", "SketchUp"],
+        "keywords": ["Ladybug", "Grasshopper", "daylight", "solar"],
+        "synonymsUsed": ["simulation tool", "analysis software"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "cross-laminated timber", "pronunciationNote": "/krɒsˈlæmɪneɪtɪd ˈtɪmbə/", "meaning": "An engineered wood panel used as a sustainable structural material." },
+      { "word": "massing", "pronunciationNote": "/ˈmæsɪŋ/", "meaning": "The overall three-dimensional form and volume of a building." },
+      { "word": "brise-soleil", "pronunciationNote": "/ˌbriːz sɒˈleɪ/", "meaning": "A sun-shading architectural feature, typically louvres, on a building facade." },
+      { "word": "floating floor", "meaning": "A floor system isolated from the structure below to reduce sound transmission." },
+      { "word": "greywater", "pronunciationNote": "/ˈɡreɪwɔːtə/", "meaning": "Relatively clean wastewater from sinks and showers, reused for non-drinking purposes." },
+      { "word": "daylight simulation", "meaning": "Computer analysis of natural light levels within a building model." }
+    ],
+    "difficulty": "HARD"
+  }
+]

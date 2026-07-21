@@ -1,0 +1,875 @@
+[
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to two geography students discussing their GIS mapping project on urban green spaces with their tutor.",
+    "audioScript": "Situation: Two undergraduate students discuss their GIS mapping project on urban green spaces in Melbourne with their geography tutor.\nTutor: Right, Tom and Priya, let's review your GIS project on urban green spaces in Melbourne. How are you dividing the work?\nTom: I'm handling the data collection. I've downloaded satellite imagery from the Landsat archive covering the last five years.\nTutor: Good. Priya, what's your role?\nPriya: I'm doing the spatial analysis using QGIS. I'll overlay the green space polygons with population density maps.\nTutor: Excellent approach. What projection are you using?\nTom: We decided on WGS 84, as it's the standard for the satellite data.\nTutor: That's appropriate. Have you considered ground-truthing your results?\nPriya: Yes, we plan to visit ten sites next week to verify the satellite classification with on-site photographs.\nTutor: Ten sites is manageable. What classification method are you applying?\nTom: We're using supervised classification with a maximum likelihood algorithm.\nTutor: A solid choice. Make sure you include an accuracy assessment with a confusion matrix.\nPriya: Will do. How many sample points should the confusion matrix include?\nTutor: Aim for at least fifty per land cover class to ensure statistical reliability.\nTom: Got it. When is the final report due?\nTutor: The report is due on the fifteenth of May. Submit it as a PDF with your map layers attached.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "MALE", "role": "geography lecturer" },
+        { "name": "Tom", "accent": "AMERICAN", "gender": "MALE", "role": "undergraduate student" },
+        { "name": "Priya", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the subject of the students' GIS project?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Coastal erosion mapping", "Urban green spaces in Melbourne", "Agricultural land use change", "Transport network analysis"],
+        "keywords": ["urban green spaces", "Melbourne"],
+        "synonymsUsed": ["green space polygons", "city parks"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Who is responsible for data collection?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Tom", "Priya", "The tutor", "A research assistant"],
+        "keywords": ["data collection", "Tom"],
+        "synonymsUsed": ["gathering data", "downloading imagery"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where did Tom download the satellite imagery from?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["The Sentinel archive", "The Landsat archive", "Google Earth Engine", "A commercial provider"],
+        "keywords": ["satellite imagery", "Landsat"],
+        "synonymsUsed": ["remote sensing data", "earth observation"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What software is Priya using for spatial analysis?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["ArcGIS Pro", "GRASS GIS", "QGIS", "MapInfo"],
+        "keywords": ["spatial analysis", "QGIS"],
+        "synonymsUsed": ["mapping software", "GIS tool"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Priya overlaying the green space polygons with?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Population density maps", "Road network maps", "Elevation contour maps", "Land value maps"],
+        "keywords": ["overlay", "population density"],
+        "synonymsUsed": ["cross-reference", "demographic data"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What projection are the students using?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["UTM zone 55", "WGS 84", "British National Grid", "GDA 2020"],
+        "keywords": ["projection", "WGS 84"],
+        "synonymsUsed": ["coordinate system", "datum"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many sites will the students visit for ground-truthing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ten", "Fifteen", "Twenty", "Five"],
+        "keywords": ["ground-truthing", "sites"],
+        "synonymsUsed": ["field verification", "site visits"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What classification method are the students applying?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Unsupervised clustering", "Object-based segmentation", "Supervised classification with maximum likelihood", "Random forest classification"],
+        "keywords": ["supervised classification", "maximum likelihood"],
+        "synonymsUsed": ["algorithm", "categorisation method"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many sample points per land cover class does the tutor recommend for the confusion matrix?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At least thirty", "At least fifty", "At least one hundred", "At least twenty"],
+        "keywords": ["confusion matrix", "sample points", "fifty"],
+        "synonymsUsed": ["accuracy assessment", "validation points"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the final report due?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The fifteenth of May", "The first of June", "The thirtieth of April", "The twentieth of May"],
+        "keywords": ["report", "due", "fifteenth", "May"],
+        "synonymsUsed": ["deadline", "submission date"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "satellite imagery", "pronunciationNote": "/ˈsætəlaɪt ˈɪmɪdʒəri/", "meaning": "Images of Earth collected by orbiting satellites." },
+      { "word": "spatial analysis", "meaning": "Techniques for examining the locations and patterns of geographic data." },
+      { "word": "projection", "pronunciationNote": "/prəˈdʒekʃən/", "meaning": "A method of representing the curved surface of Earth on a flat map." },
+      { "word": "ground-truthing", "meaning": "Verifying remote sensing data through direct on-site observation." },
+      { "word": "supervised classification", "meaning": "A method where the algorithm assigns pixels to classes based on training samples." },
+      { "word": "confusion matrix", "pronunciationNote": "/kənˈfjuːʒən ˈmeɪtrɪks/", "meaning": "A table used to assess the accuracy of a classification by comparing predicted and actual values." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a philosophy tutor discussing a student's draft essay comparing utilitarianism and deontology.",
+    "audioScript": "Situation: A philosophy tutor meets with an undergraduate student to discuss his draft essay comparing utilitarianism and deontology.\nTutor: James, your draft on utilitarianism versus deontology shows promise, but there are structural issues we need to address.\nJames: Thank you. I wasn't sure how to organise the comparison.\nTutor: Your introduction is too broad. Narrow it to a specific tension: the trolley problem works well as a framing device.\nJames: That's helpful. Should I present each theory separately first?\nTutor: Yes. Dedicate one paragraph to Mill's utilitarian calculus and another to Kant's categorical imperative before comparing them.\nJames: I've read Mill but I'm less confident on Kant. Which text should I cite?\nTutor: Reference the Groundwork of the Metaphysics of Morals, specifically the first section on duty.\nJames: Got it. How many secondary sources do you recommend?\nTutor: At least five peer-reviewed sources beyond the primary texts. Aim for recent journal articles from the last decade.\nJames: Should I include counterarguments?\nTutor: Absolutely. Address at least one objection to each theory and respond to it. That demonstrates critical engagement.\nJames: What's the word count again?\nTutor: Two thousand five hundred words, plus or minus ten percent. Your current draft is only eighteen hundred.\nJames: I'll expand the analysis section. Is there a preferred referencing style?\nTutor: Use Chicago author-date format throughout. Consistency in citations is assessed.\nJames: Understood. When is the final submission date?\nTutor: The essay is due on the twentieth of March via the online portal. No extensions without a medical certificate.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "FEMALE", "role": "philosophy lecturer" },
+        { "name": "James", "accent": "BRITISH", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the topic of James's essay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Free will and determinism", "The ethics of artificial intelligence", "Utilitarianism versus deontology", "Virtue ethics and moral relativism"],
+        "keywords": ["utilitarianism", "deontology"],
+        "synonymsUsed": ["ethical theories", "moral frameworks"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What does the tutor suggest as a framing device for the introduction?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The trolley problem", "The veil of ignorance", "The prisoner's dilemma", "The categorical imperative"],
+        "keywords": ["framing device", "trolley problem"],
+        "synonymsUsed": ["introductory example", "ethical dilemma"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Whose utilitarian calculus should James dedicate a paragraph to?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Jeremy Bentham", "John Stuart Mill", "Henry Sidgwick", "Peter Singer"],
+        "keywords": ["utilitarian calculus", "Mill"],
+        "synonymsUsed": ["happiness principle", "greatest good"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which Kant text does the tutor recommend James cite?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Critique of Pure Reason", "The Metaphysics of Morals", "Groundwork of the Metaphysics of Morals", "Religion within the Bounds of Bare Reason"],
+        "keywords": ["Kant", "Groundwork", "Metaphysics of Morals"],
+        "synonymsUsed": ["primary text", "philosophical treatise"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which section of the Kant text does the tutor point to specifically?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The first section on duty", "The second section on autonomy", "The third section on freedom", "The preface"],
+        "keywords": ["first section", "duty"],
+        "synonymsUsed": ["opening part", "obligation"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many peer-reviewed secondary sources does the tutor recommend?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["At least three", "At least five", "At least seven", "At least ten"],
+        "keywords": ["secondary sources", "five"],
+        "synonymsUsed": ["academic references", "scholarly citations"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "From what time period should the journal articles be drawn?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["The last five years", "The last twenty years", "No restriction", "The last decade"],
+        "keywords": ["journal articles", "last decade"],
+        "synonymsUsed": ["recent publications", "contemporary scholarship"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the required word count for the essay?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two thousand words", "Two thousand five hundred words", "Three thousand words", "One thousand five hundred words"],
+        "keywords": ["word count", "two thousand five hundred"],
+        "synonymsUsed": ["length requirement", "word limit"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which referencing style should James use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["MLA", "APA", "Chicago author-date", "Harvard"],
+        "keywords": ["referencing style", "Chicago", "author-date"],
+        "synonymsUsed": ["citation format", "bibliographic style"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the essay due?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The twentieth of March", "The first of April", "The fifteenth of March", "The thirtieth of March"],
+        "keywords": ["due", "twentieth", "March"],
+        "synonymsUsed": ["submission deadline", "final date"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "utilitarianism", "pronunciationNote": "/juːˌtɪlɪˈteəriənɪzəm/", "meaning": "An ethical theory that judges actions by their consequences, seeking the greatest happiness for the greatest number." },
+      { "word": "deontology", "pronunciationNote": "/ˌdiːɒnˈtɒlədʒi/", "meaning": "An ethical theory based on adherence to rules or duties, regardless of consequences." },
+      { "word": "categorical imperative", "meaning": "Kant's central moral principle: act only according to maxims that could be universal laws." },
+      { "word": "counterargument", "pronunciationNote": "/ˈkaʊntərˌɑːɡjumənt/", "meaning": "An argument opposed to a preceding claim, used to test its validity." },
+      { "word": "critical engagement", "meaning": "Demonstrating thoughtful analysis and evaluation of ideas rather than mere description." },
+      { "word": "calculus", "pronunciationNote": "/ˈkælkjʊləs/", "meaning": "In philosophy, a systematic method of calculation, such as the felicific calculus of pleasure and pain." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a political science tutor helping two students prepare for a debate on electoral reform.",
+    "audioScript": "Situation: A political science tutor helps two students prepare for a debate on electoral reform, specifically proportional representation versus first-past-the-post.\nTutor: Sofia, Marcus, your debate is next Thursday. Let's structure your arguments. Sofia, you're arguing for proportional representation?\nSofia: Yes. My main point is that PR produces legislatures that better reflect the popular vote.\nTutor: Good. Can you cite a specific country as a case study?\nSofia: I'll use New Zealand, which adopted mixed-member proportional in nineteen ninety-six.\nTutor: Excellent choice. Marcus, you're defending first-past-the-post?\nMarcus: Right. I'll argue that FPTP tends to produce stable single-party governments and preserves the constituency link.\nTutor: Strong points. What evidence will you use?\nMarcus: I'll reference the United Kingdom's two thousand nineteen election to show how FPTP delivers decisive outcomes.\nTutor: Good. Each of you has ten minutes for opening statements. Sofia, how will you structure yours?\nSofia: I'll define PR, present the New Zealand case, then address two common objections.\nTutor: That's a clear structure. Marcus, what about your rebuttal strategy?\nMarcus: I'll challenge the claim that PR always improves representation by citing coalition instability in Italy.\nTutor: Wise to prepare counterexamples. Will you use visual aids?\nSofia: Yes, I've prepared a slide comparing seat shares under both systems using the two thousand twenty New Zealand election.\nTutor: Effective. Remember, the panel will ask five minutes of questions after both openings. Practise anticipating their challenges.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "AMERICAN", "gender": "MALE", "role": "political science lecturer" },
+        { "name": "Sofia", "accent": "CANADIAN", "gender": "FEMALE", "role": "undergraduate student" },
+        { "name": "Marcus", "accent": "AMERICAN", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the students' debate scheduled?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Next Thursday", "Next Tuesday", "Next Friday", "Next Monday"],
+        "keywords": ["debate", "next Thursday"],
+        "synonymsUsed": ["scheduled", "upcoming"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What electoral system is Sofia arguing for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["First-past-the-post", "Proportional representation", "Ranked-choice voting", "Electoral college"],
+        "keywords": ["Sofia", "proportional representation"],
+        "synonymsUsed": ["PR", "fair voting system"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which country does Sofia use as a case study?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Germany", "Sweden", "New Zealand", "Ireland"],
+        "keywords": ["case study", "New Zealand"],
+        "synonymsUsed": ["example", "national illustration"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did New Zealand adopt mixed-member proportional representation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Nineteen ninety", "Nineteen ninety-six", "Two thousand", "Nineteen eighty-four"],
+        "keywords": ["New Zealand", "mixed-member proportional", "nineteen ninety-six"],
+        "synonymsUsed": ["MMP adoption", "electoral reform year"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is Marcus's main argument in favour of first-past-the-post?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["It produces stable single-party governments and preserves the constituency link", "It increases voter turnout", "It is cheaper to administer", "It encourages multiparty coalitions"],
+        "keywords": ["FPTP", "stable", "single-party", "constituency link"],
+        "synonymsUsed": ["decisive outcomes", "direct representation"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which election does Marcus reference as evidence?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The UK two thousand seventeen election", "The US two thousand twenty election", "The UK two thousand nineteen election", "The Canada two thousand fifteen election"],
+        "keywords": ["United Kingdom", "two thousand nineteen"],
+        "synonymsUsed": ["British general election", "decisive result"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long does each student have for their opening statement?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Five minutes", "Ten minutes", "Fifteen minutes", "Seven minutes"],
+        "keywords": ["opening statement", "ten minutes"],
+        "synonymsUsed": ["speaking time", "allotted duration"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How will Sofia structure her opening statement?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Define PR, present the New Zealand case, then address two objections", "Present statistics first, then define PR, then conclude", "Begin with a personal anecdote, then present data", "List countries using PR, then argue theoretically"],
+        "keywords": ["Sofia", "structure", "define PR", "New Zealand", "objections"],
+        "synonymsUsed": ["organisational plan", "argument flow"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Which country does Marcus cite as an example of coalition instability?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Belgium", "Israel", "Spain", "Italy"],
+        "keywords": ["coalition instability", "Italy"],
+        "synonymsUsed": ["government collapse", "fragile coalitions"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long will the panel spend asking questions after both opening statements?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Five minutes", "Ten minutes", "Three minutes", "Fifteen minutes"],
+        "keywords": ["panel", "questions", "five minutes"],
+        "synonymsUsed": ["Q&A session", "moderator queries"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "proportional representation", "pronunciationNote": "/prəˈpɔːʃənəl ˌrɛprɪzɛnˈteɪʃən/", "meaning": "An electoral system where seats in a legislature are allocated in proportion to the votes each party receives." },
+      { "word": "first-past-the-post", "meaning": "An electoral system where the candidate with the most votes in a constituency wins, regardless of majority." },
+      { "word": "constituency link", "meaning": "The direct relationship between an elected representative and the geographic area they serve." },
+      { "word": "coalition", "pronunciationNote": "/ˌkəʊəˈlɪʃən/", "meaning": "An alliance of multiple political parties forming a government together." },
+      { "word": "rebuttal", "pronunciationNote": "/rɪˈbʌtəl/", "meaning": "A counter-argument intended to weaken or invalidate an opponent's claim." },
+      { "word": "mixed-member proportional", "meaning": "A hybrid electoral system combining constituency seats with proportional top-up seats." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a physics tutor reviewing two lab partners' experiment report on measuring the speed of sound using a resonance tube.",
+    "audioScript": "Situation: A physics tutor meets two lab partners to review their experiment report on measuring the speed of sound using a resonance tube.\nTutor: Aisha, David, your report on the resonance tube experiment needs revision before resubmission. Let's work through it.\nAisha: The main issue was our error analysis. We weren't sure how to quantify the uncertainty in the resonance positions.\nTutor: Indeed. You reported the speed of sound as three hundred forty point two metres per second but didn't include confidence intervals.\nDavid: Should we use standard deviation across our five trials?\nTutor: Yes. Calculate the mean and standard deviation, then express your result as mean plus or minus one standard deviation.\nAisha: Our five readings were at room temperature, roughly twenty-one degrees Celsius. Does temperature matter?\nTutor: Absolutely. The speed of sound varies with temperature. The theoretical formula is v equals three hundred thirty-one plus zero point six T metres per second.\nDavid: So at twenty-one degrees, the expected value is about three hundred forty-three point six metres per second. Our result is slightly low.\nTutor: Correct. You should discuss that discrepancy in your error analysis section. What might account for it?\nAisha: Possibly the tube diameter. We didn't apply the end-correction factor.\nTutor: That's a key insight. The end correction is approximately zero point six times the tube radius. Add that to your calculation.\nDavid: Should we include a graph of resonance position versus frequency?\nTutor: Yes, plot it with a line of best fit and report the R-squared value. It should demonstrate a linear relationship.\nAisha: How many significant figures should we report?\nTutor: Report to three significant figures. Your current draft uses five, which implies false precision.\nDavid: Understood. When is the resubmission due?\nTutor: Resubmit by next Wednesday. Include a short reflection paragraph on what you learned from the errors.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "MALE", "role": "physics laboratory supervisor" },
+        { "name": "Aisha", "accent": "BRITISH", "gender": "FEMALE", "role": "undergraduate student" },
+        { "name": "David", "accent": "CANADIAN", "gender": "MALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What experiment did Aisha and David conduct?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Measuring the wavelength of light using a diffraction grating", "Determining the acceleration due to gravity with a pendulum", "Measuring the speed of sound using a resonance tube", "Investigating Ohm's law with a variable resistor"],
+        "keywords": ["speed of sound", "resonance tube"],
+        "synonymsUsed": ["acoustic experiment", "standing wave apparatus"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What speed of sound did the students report?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Three hundred forty point two metres per second", "Three hundred forty-three point six metres per second", "Three hundred thirty-one metres per second", "Three hundred fifty metres per second"],
+        "keywords": ["reported", "three hundred forty point two"],
+        "synonymsUsed": ["measured value", "experimental result"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What did the students fail to include in their report?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A graph of their results", "Confidence intervals", "A list of apparatus used", "The theoretical formula"],
+        "keywords": ["failed to include", "confidence intervals"],
+        "synonymsUsed": ["uncertainty bounds", "error margins"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many trials did the students run?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three", "Four", "Five", "Six"],
+        "keywords": ["trials", "five"],
+        "synonymsUsed": ["repeated measurements", "experimental runs"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "At what temperature were the readings taken?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Twenty degrees Celsius", "Twenty-one degrees Celsius", "Twenty-five degrees Celsius", "Eighteen degrees Celsius"],
+        "keywords": ["temperature", "twenty-one degrees"],
+        "synonymsUsed": ["room temperature", "ambient conditions"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the theoretical formula for the speed of sound in air?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["v = 331 + 0.3T", "v = 340 + 0.6T", "v = 331 + T", "v = 331 + 0.6T"],
+        "keywords": ["theoretical formula", "three hundred thirty-one", "zero point six"],
+        "synonymsUsed": ["expected equation", "model equation"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was the expected speed of sound at twenty-one degrees Celsius?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["About three hundred forty-three point six metres per second", "About three hundred forty point two metres per second", "About three hundred fifty metres per second", "About three hundred thirty-one metres per second"],
+        "keywords": ["expected value", "three hundred forty-three point six"],
+        "synonymsUsed": ["theoretical prediction", "calculated value"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What factor did the students fail to apply in their calculation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Temperature correction", "Humidity correction", "End-correction factor", "Atmospheric pressure correction"],
+        "keywords": ["end-correction factor", "tube diameter"],
+        "synonymsUsed": ["boundary adjustment", "open-end correction"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "To how many significant figures should the students report their result?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["significant figures", "three"],
+        "synonymsUsed": ["precision", "decimal places"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the resubmission due?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Next Wednesday", "Next Friday", "Next Monday", "In two weeks"],
+        "keywords": ["resubmission", "next Wednesday"],
+        "synonymsUsed": ["resubmit deadline", "revision due date"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "resonance", "pronunciationNote": "/ˈrɛzənəns/", "meaning": "The phenomenon where a system oscillates at maximum amplitude when driven at its natural frequency." },
+      { "word": "confidence interval", "meaning": "A range of values that is likely to contain the true value of a measured quantity, reflecting uncertainty." },
+      { "word": "standard deviation", "pronunciationNote": "/ˈstændəd ˌdiːviˈeɪʃən/", "meaning": "A measure of how spread out a set of data values is from the mean." },
+      { "word": "end-correction", "meaning": "An adjustment to the effective length of an open tube to account for the air vibrating slightly beyond the open end." },
+      { "word": "significant figures", "meaning": "The digits in a measured value that carry meaning and reflect the precision of the measurement." },
+      { "word": "discrepancy", "pronunciationNote": "/dɪˈskrɛpənsi/", "meaning": "A difference between two values that should theoretically agree, often indicating an error or unaccounted factor." }
+    ],
+    "difficulty": "HARD"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a business tutor giving feedback to two students on their business plan for a coffee subscription start-up.",
+    "audioScript": "Situation: A business tutor gives feedback to two students on their business plan for a coffee subscription start-up called BeanBox.\nTutor: Ryan, Nina, your plan for BeanBox is creative, but the financial section needs work. Let's go through it.\nRyan: The main problem is our break-even forecast. We weren't sure how to calculate it.\nTutor: Your fixed costs are two thousand pounds per month. With a contribution margin of five pounds per box, you break even at four hundred subscriptions.\nNina: So we need at least four hundred monthly subscribers to cover costs?\nTutor: Exactly. But your marketing plan only projects two hundred fifty subscribers in month one. That's a gap.\nRyan: Should we reduce our fixed costs or increase the price?\nTutor: Consider both. If you raise the price from twelve to fourteen pounds, your contribution margin rises to seven pounds, and break-even drops to roughly two hundred eighty-six.\nNina: That seems more achievable. What about the competitor analysis section?\nTutor: You listed three competitors, which is good, but you haven't identified your unique selling point clearly.\nRyan: Our USP is sourcing beans exclusively from women-owned cooperatives.\nTutor: That's compelling. Make it prominent in the executive summary, not buried on page six.\nNina: How long should the executive summary be?\nTutor: No more than one page. Investors scan it first. Keep it concise and impactful.\nRyan: What about the funding ask? We're requesting fifty thousand pounds.\nTutor: That's reasonable for a seed round. But break down how you'll spend it: marketing, operations, and contingency. Allocate roughly sixty percent to marketing.\nNina: Got it. When is the final version due?\nTutor: Submit the revised plan by the thirtieth of April. You'll present it to a mock investor panel the following week.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "AMERICAN", "gender": "FEMALE", "role": "business studies lecturer" },
+        { "name": "Ryan", "accent": "AMERICAN", "gender": "MALE", "role": "undergraduate student" },
+        { "name": "Nina", "accent": "CANADIAN", "gender": "FEMALE", "role": "undergraduate student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the name of the students' coffee subscription start-up?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["CoffeeClub", "BeanBox", "DailyGrind", "RoastBox"],
+        "keywords": ["start-up", "BeanBox"],
+        "synonymsUsed": ["company name", "brand"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What are the monthly fixed costs for the business?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two thousand pounds", "Five thousand pounds", "One thousand pounds", "Ten thousand pounds"],
+        "keywords": ["fixed costs", "two thousand"],
+        "synonymsUsed": ["overhead", "monthly expenses"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the contribution margin per box?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Three pounds", "Four pounds", "Five pounds", "Seven pounds"],
+        "keywords": ["contribution margin", "five pounds"],
+        "synonymsUsed": ["per-unit profit", "margin per unit"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many monthly subscriptions are needed to break even?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["Two hundred fifty", "Two hundred eighty-six", "Three hundred", "Four hundred"],
+        "keywords": ["break even", "four hundred"],
+        "synonymsUsed": ["break-even point", "cover costs"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many subscribers does the marketing plan project for month one?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two hundred", "Two hundred fifty", "Three hundred", "Four hundred"],
+        "keywords": ["marketing plan", "month one", "two hundred fifty"],
+        "synonymsUsed": ["projected subscribers", "initial forecast"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is BeanBox's unique selling point?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Free delivery nationwide", "Custom roast profiles", "Sourcing beans exclusively from women-owned cooperatives", "A loyalty rewards programme"],
+        "keywords": ["unique selling point", "women-owned cooperatives"],
+        "synonymsUsed": ["USP", "differentiator"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "Where does the tutor say the USP should be placed?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["In the executive summary", "On the financial projections page", "In the appendix", "In the competitor analysis"],
+        "keywords": ["executive summary", "prominent"],
+        "synonymsUsed": ["front section", "opening summary"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long should the executive summary be?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Half a page", "No more than one page", "Two pages", "Three pages"],
+        "keywords": ["executive summary", "one page"],
+        "synonymsUsed": ["length", "concise overview"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What percentage of the funding should be allocated to marketing?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Forty percent", "Fifty percent", "Roughly sixty percent", "Thirty percent"],
+        "keywords": ["funding", "marketing", "sixty percent"],
+        "synonymsUsed": ["budget allocation", "spending split"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the revised business plan due?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The thirtieth of April", "The fifteenth of April", "The first of May", "The twentieth of April"],
+        "keywords": ["revised plan", "thirtieth of April"],
+        "synonymsUsed": ["submission deadline", "final version date"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "break-even", "pronunciationNote": "/ˈbreɪkˌiːvən/", "meaning": "The point at which total revenue equals total costs, resulting in neither profit nor loss." },
+      { "word": "contribution margin", "meaning": "The amount each unit sold contributes toward covering fixed costs, calculated as selling price minus variable cost." },
+      { "word": "fixed costs", "pronunciationNote": "/fɪkst kɒsts/", "meaning": "Costs that do not change with the level of output, such as rent or salaries." },
+      { "word": "unique selling point", "meaning": "The distinctive feature or benefit that sets a product apart from competitors." },
+      { "word": "executive summary", "meaning": "A brief overview at the start of a business plan summarising the key points for quick reading." },
+      { "word": "seed round", "pronunciationNote": "/siːd raʊnd/", "meaning": "An early stage of investment funding used to start developing a business." }
+    ],
+    "difficulty": "EASY"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to an education tutor meeting with a student teacher to reflect on his primary school teaching practicum.",
+    "audioScript": "Situation: An education tutor meets with a student teacher to reflect on his four-week primary school teaching practicum.\nTutor: Liam, let's reflect on your practicum at Riverside Primary. Overall, how do you feel it went?\nLiam: It was challenging but rewarding. I taught a class of twenty-eight year-four pupils, and classroom management was my biggest struggle.\nTutor: That's common for first placements. What specific strategies did you try?\nLiam: I used a token economy system where pupils earned stars for positive behaviour, redeemable for small rewards on Friday.\nTutor: Good. Did you notice an improvement?\nLiam: Yes, particularly during transitions between activities. Off-task behaviour dropped noticeably after the second week.\nTutor: Excellent. How did you differentiate instruction for mixed-ability learners?\nLiam: I created three task levels for maths: support, core, and extension. Pupils self-selected with my guidance.\nTutor: Self-selection can be empowering but risky. Did any pupils choose tasks that were too easy?\nLiam: A few did. I addressed it by having a brief conversation with them and adjusting their level.\nTutor: Wise. What would you do differently next time?\nLiam: I'd plan the differentiation more systematically from the outset rather than adapting mid-lesson.\nTutor: That's a strong reflective insight. For your written reflection, aim for one thousand five hundred words. Structure it using Gibbs' reflective cycle.\nLiam: I'm familiar with Gibbs. Should I include evidence from lesson observations?\nTutor: Yes. Reference at least two observed lessons and link them to the relevant stage of the cycle.\nLiam: When is the reflection due?\nTutor: Submit it by the eighth of June through the portfolio system.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "AUSTRALIAN", "gender": "FEMALE", "role": "education practicum supervisor" },
+        { "name": "Liam", "accent": "BRITISH", "gender": "MALE", "role": "student teacher" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long was Liam's teaching practicum?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two weeks", "Three weeks", "Four weeks", "Six weeks"],
+        "keywords": ["practicum", "four weeks"],
+        "synonymsUsed": ["placement duration", "teaching practice"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "At which school did Liam complete his practicum?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Riverside Primary", "Greenfield Primary", "St. Mary's Primary", "Oakwood Primary"],
+        "keywords": ["Riverside Primary", "practicum"],
+        "synonymsUsed": ["placement school", "host school"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What year group did Liam teach?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Year three", "Year four", "Year five", "Year two"],
+        "keywords": ["year four", "taught"],
+        "synonymsUsed": ["grade level", "pupil age group"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many pupils were in Liam's class?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Twenty-eight", "Twenty-four", "Thirty", "Thirty-two"],
+        "keywords": ["class", "twenty-eight"],
+        "synonymsUsed": ["class size", "number of pupils"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What was Liam's biggest struggle during the practicum?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Lesson planning", "Subject knowledge", "Classroom management", "Parent communication"],
+        "keywords": ["biggest struggle", "classroom management"],
+        "synonymsUsed": ["main challenge", "behaviour management"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What behaviour management strategy did Liam use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["A token economy system with stars", "A traffic light behaviour chart", "A timeout corner system", "A verbal praise-only approach"],
+        "keywords": ["token economy", "stars", "rewards"],
+        "synonymsUsed": ["behaviour incentive", "reward system"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When did off-task behaviour drop noticeably?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["After the first day", "After the first week", "After the third week", "After the second week"],
+        "keywords": ["off-task behaviour", "second week"],
+        "synonymsUsed": ["improvement timing", "behaviour change"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How many task levels did Liam create for maths differentiation?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Two", "Three", "Four", "Five"],
+        "keywords": ["task levels", "differentiation", "three"],
+        "synonymsUsed": ["ability tiers", "graded tasks"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What reflective framework does the tutor recommend for the written reflection?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Kolb's experiential learning cycle", "Schon's reflection-in-action model", "Gibbs' reflective cycle", "Brookfield's four lenses"],
+        "keywords": ["reflective", "Gibbs", "cycle"],
+        "synonymsUsed": ["reflection model", "reflective framework"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the written reflection due?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["The eighth of June", "The first of June", "The fifteenth of June", "The thirtieth of May"],
+        "keywords": ["reflection", "due", "eighth of June"],
+        "synonymsUsed": ["submission deadline", "portfolio deadline"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "practicum", "pronunciationNote": "/ˈpræktɪkəm/", "meaning": "A supervised practical teaching placement forming part of a teacher training programme." },
+      { "word": "classroom management", "meaning": "The strategies and techniques teachers use to maintain an orderly and productive learning environment." },
+      { "word": "token economy", "meaning": "A behaviour management system where tokens are awarded for desired behaviour and exchanged for rewards." },
+      { "word": "differentiation", "pronunciationNote": "/ˌdɪfəˌrɛnʃiˈeɪʃən/", "meaning": "Adapting teaching content or tasks to suit the varying abilities and needs of learners in a class." },
+      { "word": "Gibbs' reflective cycle", "meaning": "A six-stage framework for structured reflection on experiences, from description through to action plan." },
+      { "word": "off-task behaviour", "meaning": "Actions by pupils that deviate from the intended learning activity, such as daydreaming or talking." }
+    ],
+    "difficulty": "MEDIUM"
+  },
+  {
+    "type": "LISTENING",
+    "section": "SECTION_3",
+    "questionText": "Listen to a dental tutor reviewing two students' clinical practice cases in restorative dentistry.",
+    "audioScript": "Situation: A dental tutor reviews two students' clinical practice cases in restorative dentistry, focusing on composite resin restorations.\nTutor: Fatima, Daniel, let's review your clinical cases. Fatima, you performed a Class II composite restoration on a lower left second molar. Walk me through your adhesive protocol.\nFatima: I used a total-etch technique with thirty-seven percent phosphoric acid for fifteen seconds, then applied a two-step etch-and-rinse adhesive.\nTutor: Fifteen seconds on dentine may be too long. Over-etching can degrade the collagen network. Try ten seconds next time.\nFatima: I see. Should I consider a self-etch adhesive for posterior restorations?\nTutor: A self-etch system can reduce post-operative sensitivity, but bond strengths to enamel are generally lower. It's a clinical judgement call.\nDaniel: For my case, I placed a Class I restoration on an upper right first molar. I used bulk-fill composite to save time.\nTutor: Bulk-fill materials can be placed in increments up to four millimetres. Did you verify the depth of cure?\nDaniel: I didn't. How should I check that?\nTutor: Use a scrape test on the base of the increment. If the material is still soft, the cure is inadequate and you must layer it.\nFatima: What about the finishing and polishing stage? I found that challenging.\nTutor: Use a fine diamond bur for contouring, followed by aluminum oxide polishing points. Avoid coarse abrasives on the marginal ridge.\nDaniel: How do we minimise polymerisation shrinkage at the margins?\nTutor: Employ an incremental layering technique with two-millimetre oblique increments. This reduces the C-factor and stress at the adhesive interface.\nFatima: Should we use a rubber dam for all posterior composites?\nTutor: Best practice is yes. Moisture control is critical for adhesive dentistry. Even slight saliva contamination can compromise the bond.\nDaniel: When is our next clinical assessment?\nTutor: Your competency assessment is on the twenty-fifth of May. Bring your case portfolios with radiographs and photographs.",
+    "context": {
+      "setting": "ACADEMIC_DISCUSSION",
+      "speakers": [
+        { "name": "Tutor", "accent": "BRITISH", "gender": "MALE", "role": "restorative dentistry clinical supervisor" },
+        { "name": "Fatima", "accent": "BRITISH", "gender": "FEMALE", "role": "dental student" },
+        { "name": "Daniel", "accent": "AMERICAN", "gender": "MALE", "role": "dental student" }
+      ]
+    },
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of restoration did Fatima perform?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["A Class I restoration on an upper molar", "A Class II composite restoration on a lower left second molar", "A Class III restoration on an incisor", "A Class V restoration on a premolar"],
+        "keywords": ["Class II", "composite", "lower left second molar"],
+        "synonymsUsed": ["restoration type", "tooth location"]
+      },
+      {
+        "questionNumber": 2,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What adhesive technique did Fatima use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Total-etch with a two-step etch-and-rinse adhesive", "Self-etch with a one-step adhesive", "Selective enamel etch only", "Adhesive-free approach"],
+        "keywords": ["total-etch", "two-step", "etch-and-rinse"],
+        "synonymsUsed": ["bonding protocol", "adhesive system"]
+      },
+      {
+        "questionNumber": 3,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What concentration of phosphoric acid did Fatima use?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Twenty-five percent", "Thirty percent", "Thirty-seven percent", "Forty percent"],
+        "keywords": ["phosphoric acid", "thirty-seven percent"],
+        "synonymsUsed": ["etching acid", "acid concentration"]
+      },
+      {
+        "questionNumber": 4,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How long did Fatima etch the dentine for?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Ten seconds", "Fifteen seconds", "Twenty seconds", "Thirty seconds"],
+        "keywords": ["etch", "dentine", "fifteen seconds"],
+        "synonymsUsed": ["etching time", "acid application duration"]
+      },
+      {
+        "questionNumber": 5,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What etching time does the tutor recommend for dentine?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Ten seconds", "Fifteen seconds", "Twenty seconds", "Five seconds"],
+        "keywords": ["recommend", "dentine", "ten seconds"],
+        "synonymsUsed": ["suggested duration", "optimal etch time"]
+      },
+      {
+        "questionNumber": 6,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What type of restoration did Daniel place?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 3,
+        "options": ["A Class II on a lower molar", "A Class IV on a canine", "A Class V on a premolar", "A Class I on an upper right first molar"],
+        "keywords": ["Daniel", "Class I", "upper right first molar"],
+        "synonymsUsed": ["restoration type", "tooth treated"]
+      },
+      {
+        "questionNumber": 7,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What is the maximum increment depth for bulk-fill composite?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["Two millimetres", "Three millimetres", "Four millimetres", "Five millimetres"],
+        "keywords": ["bulk-fill", "increment", "four millimetres"],
+        "synonymsUsed": ["layer thickness", "placement depth"]
+      },
+      {
+        "questionNumber": 8,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "How should Daniel verify the depth of cure?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 1,
+        "options": ["Take a radiograph of the restoration", "Use a scrape test on the base of the increment", "Check the colour change of the material", "Measure the curing light intensity"],
+        "keywords": ["depth of cure", "scrape test"],
+        "synonymsUsed": ["cure verification", "hardness check"]
+      },
+      {
+        "questionNumber": 9,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "What increment technique does the tutor recommend to minimise polymerisation shrinkage?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 0,
+        "options": ["Two-millimetre oblique increments", "Four-millimetre bulk increments", "One-millimetre horizontal layers", "Three-millimetre vertical layers"],
+        "keywords": ["incremental layering", "two-millimetre", "oblique"],
+        "synonymsUsed": ["layering technique", "placement method"]
+      },
+      {
+        "questionNumber": 10,
+        "questionType": "MULTIPLE_CHOICE",
+        "questionText": "When is the students' competency assessment?",
+        "answerFormat": "LETTER",
+        "correctAnswer": 2,
+        "options": ["The fifteenth of May", "The twentieth of May", "The twenty-fifth of May", "The first of June"],
+        "keywords": ["competency assessment", "twenty-fifth of May"],
+        "synonymsUsed": ["clinical exam", "assessment date"]
+      }
+    ],
+    "keyVocabulary": [
+      { "word": "composite resin", "pronunciationNote": "/ˈkɒmpəzɪt ˈrɛzɪn/", "meaning": "A tooth-coloured restorative material made of a resin matrix filled with inorganic particles." },
+      { "word": "total-etch technique", "meaning": "A bonding method where phosphoric acid is applied to both enamel and dentine before applying adhesive." },
+      { "word": "end-correction", "pronunciationNote": "/ɛnd kəˈrɛkʃən/", "meaning": "An adjustment to the effective length of an open tube to account for air vibrating beyond the open end." },
+      { "word": "bulk-fill composite", "meaning": "A type of composite resin that can be placed in thicker increments up to four millimetres due to increased translucency." },
+      { "word": "polymerisation shrinkage", "pronunciationNote": "/pəˌlɪməraɪˈzeɪʃən ˈʃrɪŋkɪdʒ/", "meaning": "The reduction in volume of composite resin as it cures, which can create stress at the restoration margins." },
+      { "word": "rubber dam", "meaning": "A latex or nitrile sheet used to isolate teeth during dental procedures for moisture control." }
+    ],
+    "difficulty": "HARD"
+  }
+]

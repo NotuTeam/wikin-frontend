@@ -1,0 +1,421 @@
+[
+  {
+    "passage": {
+      "title": "The Rise of Urban Beekeeping and Its Ecological Impact",
+      "author": "Marcus Bellweather",
+      "source": "Urban Ecology Quarterly",
+      "wordCount": 610,
+      "content": "Over the past decade, rooftop beehives have appeared atop hotels, office buildings, and apartment complexes in cities around the world. What began as a niche hobby among environmentally conscious urban dwellers has grown into a mainstream movement embraced by corporations seeking sustainability credentials and municipalities promoting green initiatives. Yet beneath the wholesome image of urban beekeeping lies a complicated ecological debate about whether the practice genuinely helps pollinator populations or inadvertently exacerbates the very problems it claims to solve.\n\nThe appeal of urban beekeeping is understandable. Honeybees are charismatic creatures whose decline has become a symbol of broader environmental crisis. By installing hives, urbanites feel they are taking direct action to support pollinators and, as a bonus, harvest hyperlocal honey. Cities offer certain genuine advantages: urban gardens and parks provide diverse forage throughout the season, and the abundance of flowering trees along streets creates a continuous food supply that some rural monocultures cannot match. Several studies have indeed found that urban honeybees often produce more honey and show lower parasite loads than their rural counterparts.\n\nHowever, ecologists have raised a concern that receives far less public attention. The honeybee, Apis mellifera, is just one of approximately twenty thousand bee species worldwide, and it is a managed agricultural animal, not a wild species in need of conservation. In fact, in many regions, honeybees are not native at all. They were introduced by European colonists and have been propagated by beekeepers ever since. When urban beekeepers add more honeybee hives to a neighborhood, they introduce a dense population of generalist pollinators that compete directly with wild, native bee species for finite nectar and pollen resources.\n\nResearch conducted in Paris and London demonstrated this competitive pressure clearly. In neighborhoods with high densities of managed hives, wild bee species showed measurable declines in body size and reproductive success. The mechanism is straightforward. A single honeybee hive can contain fifty thousand individuals, each visiting hundreds of flowers daily. When dozens of hives are concentrated in a small urban area, the collective foraging pressure can deplete floral resources that solitary bees, bumblebees, and other native pollinators depend upon. These wild species, many of which are genuinely endangered, cannot simply relocate to another neighborhood.\n\nFurthermore, honeybees can act as disease reservoirs. Viruses and parasites that thrive in managed hives, such as the deformed wing virus, can spill over into wild bee populations through shared flowers. A healthy managed hive may show no symptoms, yet still transmit pathogens to vulnerable wild species that have no evolutionary defenses against them. This dynamic creates a paradox: the very practice promoted as helping pollinators may be accelerating the decline of the species most in need of protection.\n\nAdvocates of urban beekeeping argue that the solution is not to abandon the practice but to manage it more thoughtfully. They point out that honeybees are essential for agriculture and that urban hives can serve as educational tools, connecting city residents with the natural world. Some cities have begun requiring beekeeper registration and limiting hive density per square kilometer, measures aimed at reducing competitive pressure on wild species. Others emphasize that the most effective way to support all pollinators is not adding more honeybees but planting more flowers, thereby expanding the resource base rather than increasing competition for what already exists.\n\nThe debate ultimately hinges on a question of framing. If the goal is agricultural pollination and honey production, urban beekeeping has clear merits. If the goal is biodiversity conservation, resources might be better directed toward habitat restoration and protection of native bee species. Recognizing the difference between these goals is the first step toward pollinator policies that actually achieve what they intend, rather than those that merely feel virtuous.",
+      "topicCategory": "ENVIRONMENT",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "niche", "paragraph": 1, "context": "What began as a niche hobby among environmentally conscious urban dwellers", "meaningInContext": "appealing to a small, specialized group" },
+      { "word": "exacerbates", "paragraph": 1, "context": "whether the practice genuinely helps pollinator populations or inadvertently exacerbates the very problems", "meaningInContext": "makes a problem worse" },
+      { "word": "forage", "paragraph": 2, "context": "urban gardens and parks provide diverse forage throughout the season", "meaningInContext": "food sources available for animals to gather" },
+      { "word": "generalist", "paragraph": 3, "context": "they introduce a dense population of generalist pollinators", "meaningInContext": "able to use a wide variety of resources rather than specializing" },
+      { "word": "virtuous", "paragraph": 7, "context": "rather than those that merely feel virtuous", "meaningInContext": "morally good or well-intentioned, even if not effective" }
+    ],
+    "questions": [
+      {
+        "questionNumber": 16,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Urban beekeeping is entirely harmful and should be banned",
+          "Urban beekeeping has benefits but may unintentionally harm wild pollinators through competition and disease",
+          "Honeybees are an endangered species requiring urgent conservation",
+          "Cities are unsuitable environments for any bee species"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "paragraphReference": 1,
+        "explanation": "The passage presents urban beekeeping as a well-intentioned practice that carries ecological trade-offs, particularly for wild bees."
+      },
+      {
+        "questionNumber": 17,
+        "questionText": "According to paragraph 2, what advantage do cities offer honeybees?",
+        "options": [
+          "Cities have no predators",
+          "Urban gardens and parks provide diverse forage throughout the season",
+          "Cities have cooler temperatures than rural areas",
+          "Urban beekeepers use no pesticides"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "The passage states urban gardens and parks provide diverse forage, giving a continuous food supply."
+      },
+      {
+        "questionNumber": 18,
+        "questionText": "The word 'exacerbates' in paragraph 1 is closest in meaning to:",
+        "options": ["solves", "worsens", "ignores", "describes"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 1,
+        "explanation": "In context, 'exacerbates' means makes a problem worse."
+      },
+      {
+        "questionNumber": 19,
+        "questionText": "What concern do ecologists raise about urban honeybees?",
+        "options": [
+          "Honeybees produce too much honey",
+          "Managed honeybees compete with wild, native bee species for limited resources",
+          "Urban bees are more aggressive than rural bees",
+          "Honeybees damage city infrastructure"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Ecologists worry that dense honeybee populations compete with wild native bees for nectar and pollen."
+      },
+      {
+        "questionNumber": 20,
+        "questionText": "What did the Paris and London studies demonstrate?",
+        "options": [
+          "Urban beekeeping increases wild bee populations",
+          "High hive density correlates with declines in wild bee body size and reproduction",
+          "Honeybees cannot survive in cold cities",
+          "Wild bees prefer urban habitats"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "The studies showed wild bees declined in body size and reproductive success where managed hive density was high."
+      },
+      {
+        "questionNumber": 21,
+        "questionText": "Approximately how many individual bees can one hive contain?",
+        "options": ["Five hundred", "Five thousand", "Fifty thousand", "Five hundred thousand"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "The passage states a single hive can contain fifty thousand individuals."
+      },
+      {
+        "questionNumber": 22,
+        "questionText": "What is the 'paradox' described in paragraph 5?",
+        "options": [
+          "Urban bees produce less honey than rural bees",
+          "A practice promoted as helping pollinators may accelerate the decline of vulnerable species",
+          "Wild bees prefer managed hives to natural nests",
+          "Honeybees cannot transmit diseases"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 5,
+        "explanation": "The paradox is that promoting honeybees to help pollinators may actually harm wild species through disease transmission."
+      },
+      {
+        "questionNumber": 23,
+        "questionText": "Why can honeybees act as disease reservoirs?",
+        "options": [
+          "They never carry viruses",
+          "Healthy managed hives may carry pathogens that spill over to wild bees with no defenses",
+          "Wild bees are immune to all viruses",
+          "Urban environments sterilize hives naturally"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Managed hives can carry viruses like deformed wing virus, transmitting them to vulnerable wild bees via shared flowers."
+      },
+      {
+        "questionNumber": 24,
+        "questionText": "What do some cities do to address competitive pressure?",
+        "options": [
+          "Ban beekeeping entirely",
+          "Require beekeeper registration and limit hive density per square kilometer",
+          "Subsidize more hive purchases",
+          "Import wild bees from other countries"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Some cities require registration and limit hive density to reduce pressure on wild species."
+      },
+      {
+        "questionNumber": 25,
+        "questionText": "According to advocates, what is the most effective way to support all pollinators?",
+        "options": [
+          "Adding more honeybee hives",
+          "Planting more flowers to expand the resource base",
+          "Relocating wild bees to rural areas",
+          "Removing all managed hives"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Advocates emphasize planting more flowers to expand resources rather than increasing competition."
+      },
+      {
+        "questionNumber": 26,
+        "questionText": "The word 'virtuous' in the last paragraph most nearly means:",
+        "options": ["effective", "morally well-intentioned", "profitable", "scientific"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 7,
+        "explanation": "The author uses 'virtuous' to mean policies that feel morally good even if they are not actually effective."
+      },
+      {
+        "questionNumber": 27,
+        "questionText": "What does the author conclude about pollinator policy?",
+        "options": [
+          "All beekeeping should be banned in cities",
+          "Policies should distinguish between agricultural goals and biodiversity conservation goals",
+          "Urban beekeeping is always the best solution",
+          "Honeybees are native to all cities"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 7,
+        "explanation": "The author argues recognizing the difference between agricultural and conservation goals is key to effective policy."
+      },
+      {
+        "questionNumber": 28,
+        "questionText": "Why does the author mention Apis mellifera in paragraph 3?",
+        "options": [
+          "To identify honeybees as a managed agricultural species, not a wild one needing conservation",
+          "To argue honeybees are native to every continent",
+          "To show that all twenty thousand bee species are identical",
+          "To prove urban bees are a different species"
+        ],
+        "correctAnswer": 0,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 3,
+        "explanation": "The scientific name is used to distinguish the managed honeybee from the many wild bee species that actually need conservation."
+      },
+      {
+        "questionNumber": 29,
+        "questionText": "According to the passage, how were honeybees introduced to many regions?",
+        "options": [
+          "They migrated naturally across oceans",
+          "They were introduced by European colonists",
+          "They evolved in cities",
+          "They were created in laboratories"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "The passage states honeybees were introduced by European colonists and propagated by beekeepers."
+      },
+      {
+        "questionNumber": 30,
+        "questionText": "Which statement best reflects the passage as a whole?",
+        "options": [
+          "Urban beekeeping is purely beneficial",
+          "Urban beekeeping is well-intentioned but requires careful management to avoid harming wild pollinators",
+          "All bee species compete equally",
+          "Cities should have no bees at all"
+        ],
+        "correctAnswer": 1,
+        "questionType": "PROSE_SUMMARY",
+        "explanation": "This option best captures the nuanced view that beekeeping needs thoughtful management to balance benefits and ecological risks."
+      }
+    ]
+  },
+  {
+    "passage": {
+      "title": "The Deep Sea Hydrothermal Vent Ecosystems",
+      "author": "Dr. Hiroshi Tanabe",
+      "source": "Oceanography Today Quarterly",
+      "wordCount": 650,
+      "content": "In nineteen-seventy-seven, scientists exploring the ocean floor near the Galapagos Islands made one of the most astonishing discoveries in the history of biology. At a depth of two and a half kilometers, where sunlight never penetrates and water pressure is crushing, they found thriving communities of giant tube worms, clams, and shrimp clustered around towering mineral chimneys. These were hydrothermal vents, and the ecosystems they supported challenged every assumption about what life requires to exist.\n\nHydrothermal vents form along mid-ocean ridges, where tectonic plates spread apart and magma rises close to the seafloor. Seawater seeps into cracks in the crust, is heated by the magma to temperatures exceeding four hundred degrees Celsius, and then erupts back through the seafloor laden with dissolved minerals. As the superheated water meets the near-freezing ocean water, minerals precipitate out, forming towering chimneys of sulfide minerals that can grow as tall as skyscrapers.\n\nThe fundamental question was: how does life survive here without sunlight? On Earth's surface, virtually all ecosystems ultimately depend on photosynthesis, the process by which plants and algae convert sunlight into chemical energy. At hydrothermal vents, there is no sunlight. Instead, these ecosystems are powered by a process called chemosynthesis. Specialized bacteria and archaea convert hydrogen sulfide, methane, and other chemicals belching from the vents into organic molecules. These microorganisms are the primary producers, the foundation of the entire vent food web, analogous to the role of plants in surface ecosystems.\n\nThe most iconic vent organism is the giant tube worm, Riftia pachyptila. These creatures can grow up to three meters long and have no mouth or digestive tract. Instead, they house billions of chemosynthetic bacteria in a specialized organ called a trophosome. The tube worm absorbs hydrogen sulfide from the vent water through its red plume, which is rich in hemoglobin, and delivers it to the bacteria. The bacteria produce organic molecules, which the tube worm uses for nourishment. This arrangement, known as endosymbiosis, is one of the most remarkable partnerships in the animal kingdom.\n\nVent ecosystems also exhibit extraordinary dynamics. Because vents are transient features, lasting from decades to perhaps a few centuries, vent communities must colonize new vents as old ones go dormant. Scientists have documented remarkable cases where vent organisms traveled hundreds of kilometers along mid-ocean ridges to establish new colonies. The genetic diversity of these populations suggests they have sophisticated dispersal mechanisms, though much remains unknown about how larvae navigate the pitch-black ocean to find new vents.\n\nThe discovery of hydrothermal vent ecosystems has profound implications for the search for extraterrestrial life. If life can thrive on chemical energy alone, without sunlight, then similar ecosystems might exist on other worlds. Scientists have identified several moons in our solar system as prime candidates. Europa, Jupiter's ice-covered moon, and Enceladus, Saturn's moon, both likely harbor subsurface oceans with hydrothermal activity. The vents on Earth serve as natural laboratories for understanding what alien ecosystems might look like.\n\nHowever, these unique ecosystems face threats. Deep-sea mining companies are eyeing the mineral-rich deposits around vents for copper, gold, and rare earth elements. Marine biologists warn that mining could irreversibly damage vent communities that have taken millennia to establish. The International Seabed Authority is currently developing regulations for deep-sea mining, but conservationists argue that the pace of regulatory progress is too slow relative to the speed of technological development.",
+      "topicCategory": "NATURAL_SCIENCE",
+      "complexity": "ACADEMIC"
+    },
+    "vocabularyInContext": [
+      { "word": "precipitate", "paragraph": 2, "context": "As the superheated water meets the near-freezing ocean water, minerals precipitate out", "meaningInContext": "to separate from a solution and form a solid" },
+      { "word": "chemosynthesis", "paragraph": 3, "context": "these ecosystems are powered by a process called chemosynthesis", "meaningInContext": "the process by which organisms convert chemical compounds into energy without sunlight" },
+      { "word": "endosymbiosis", "paragraph": 4, "context": "This arrangement, known as endosymbiosis, is one of the most remarkable partnerships", "meaningInContext": "a relationship where one organism lives inside another to mutual benefit" },
+      { "word": "transient", "paragraph": 5, "context": "Because vents are transient features, lasting from decades to perhaps a few centuries", "meaningInContext": "temporary or short-lived in geological terms" },
+      { "word": "irreversibly", "paragraph": 7, "context": "mining could irreversibly damage vent communities that have taken millennia to establish", "meaningInContext": "in a way that cannot be undone or reversed" }
+    ],
+    "difficulty": "HARD",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "questionText": "When and where were hydrothermal vents first discovered?",
+        "options": [
+          "In 1977, near the Galapagos Islands",
+          "In 1965, near Hawaii",
+          "In 1990, near Iceland",
+          "In 2001, near Japan"
+        ],
+        "correctAnswer": 0,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "Paragraph 1 states scientists exploring the ocean floor near the Galapagos Islands in nineteen-seventy-seven discovered the first hydrothermal vents."
+      },
+      {
+        "questionNumber": 2,
+        "questionText": "At what depth were the vents discovered?",
+        "options": ["1 kilometer", "1.5 kilometers", "2.5 kilometers", "4 kilometers"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 1,
+        "explanation": "Paragraph 1 specifies the depth as two and a half kilometers."
+      },
+      {
+        "questionNumber": 3,
+        "questionText": "How do hydrothermal vents form according to paragraph 2?",
+        "options": [
+          "From volcanic eruptions on the ocean surface",
+          "Along mid-ocean ridges where tectonic plates spread and magma heats seawater",
+          "From asteroid impacts",
+          "From coral reef growth"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 explains vents form along mid-ocean ridges where tectonic plates spread and magma heats seeping seawater."
+      },
+      {
+        "questionNumber": 4,
+        "questionText": "What temperature can the heated water at vents reach?",
+        "options": ["Over 100 degrees Celsius", "Over 200 degrees Celsius", "Over 300 degrees Celsius", "Over 400 degrees Celsius"],
+        "correctAnswer": 3,
+        "questionType": "DETAIL",
+        "paragraphReference": 2,
+        "explanation": "Paragraph 2 states the heated water exceeds four hundred degrees Celsius."
+      },
+      {
+        "questionNumber": 5,
+        "questionText": "What process powers vent ecosystems instead of photosynthesis?",
+        "options": ["Respiration", "Fermentation", "Chemosynthesis", "Transpiration"],
+        "correctAnswer": 2,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 explains these ecosystems are powered by chemosynthesis, where bacteria convert chemicals into organic molecules."
+      },
+      {
+        "questionNumber": 6,
+        "questionText": "What is the role of chemosynthetic bacteria in the vent ecosystem?",
+        "options": [
+          "They are parasites",
+          "They are the primary producers, the foundation of the entire food web",
+          "They decompose dead organisms",
+          "They produce oxygen"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 3,
+        "explanation": "Paragraph 3 states chemosynthetic bacteria and archaea are the primary producers, analogous to plants in surface ecosystems."
+      },
+      {
+        "questionNumber": 7,
+        "questionText": "The word 'endosymbiosis' in paragraph 4 refers to:",
+        "options": [
+          "A relationship of competition between species",
+          "A relationship where one organism lives inside another for mutual benefit",
+          "A type of deep-sea predator",
+          "A method of reproduction"
+        ],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 describes endosymbiosis as the partnership where tube worms house bacteria internally for mutual nourishment."
+      },
+      {
+        "questionNumber": 8,
+        "questionText": "How long do hydrothermal vents typically last?",
+        "options": ["A few years", "Decades to a few centuries", "Thousands of years", "Millions of years"],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 states vents are transient features lasting from decades to perhaps a few centuries."
+      },
+      {
+        "questionNumber": 9,
+        "questionText": "What can be inferred about vent organism dispersal?",
+        "options": [
+          "They cannot travel between vents",
+          "They have sophisticated mechanisms for finding and colonizing new vents",
+          "They only reproduce asexually",
+          "They rely on humans for transport"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 5,
+        "explanation": "Paragraph 5 describes organisms traveling hundreds of kilometers along ridges and suggests sophisticated, if poorly understood, dispersal mechanisms."
+      },
+      {
+        "questionNumber": 10,
+        "questionText": "Which moons are identified as candidates for similar ecosystems?",
+        "options": [
+          "Earth's Moon and Mars",
+          "Europa (Jupiter) and Enceladus (Saturn)",
+          "Titan and Ganymede",
+          "Io and Callisto"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 identifies Europa, Jupiter's moon, and Enceladus, Saturn's moon, as prime candidates with subsurface oceans and hydrothermal activity."
+      },
+      {
+        "questionNumber": 11,
+        "questionText": "Why is the discovery of vent ecosystems significant for astrobiology?",
+        "options": [
+          "It proves aliens exist on Earth",
+          "It shows life can thrive on chemical energy without sunlight, broadening the search for extraterrestrial life",
+          "It means all planets have life",
+          "It disproves the theory of evolution"
+        ],
+        "correctAnswer": 1,
+        "questionType": "INFERENCE",
+        "paragraphReference": 6,
+        "explanation": "Paragraph 6 explains that if life can thrive on chemical energy alone, similar ecosystems might exist on other worlds like Europa and Enceladus."
+      },
+      {
+        "questionNumber": 12,
+        "questionText": "What is the main idea of the passage?",
+        "options": [
+          "Hydrothermal vents are dangerous and should be avoided",
+          "Hydrothermal vent ecosystems are remarkable deep-sea communities powered by chemosynthesis with implications for biology and space exploration",
+          "Deep-sea mining is beneficial for the economy",
+          "Tube worms are the only organisms living at vents"
+        ],
+        "correctAnswer": 1,
+        "questionType": "MAIN_IDEA",
+        "explanation": "The passage covers vent formation, chemosynthesis, unique organisms, ecological dynamics, astrobiological implications, and conservation threats."
+      },
+      {
+        "questionNumber": 13,
+        "questionText": "The word 'irreversibly' in paragraph 7 most nearly means:",
+        "options": ["temporarily", "in a way that cannot be undone", "partially", "quickly"],
+        "correctAnswer": 1,
+        "questionType": "VOCABULARY",
+        "paragraphReference": 7,
+        "explanation": "In context, 'irreversibly' means mining damage to vent communities cannot be undone or reversed."
+      },
+      {
+        "questionNumber": 14,
+        "questionText": "Why does the author mention the International Seabed Authority in paragraph 7?",
+        "options": [
+          "To argue that mining should be banned everywhere",
+          "To illustrate the regulatory response to the threat of deep-sea mining",
+          "To promote deep-sea mining investments",
+          "To describe tube worm conservation"
+        ],
+        "correctAnswer": 1,
+        "questionType": "RHETORICAL_PURPOSE",
+        "paragraphReference": 7,
+        "explanation": "The ISA is mentioned to show the regulatory effort addressing mining threats, while noting conservationists find progress too slow."
+      },
+      {
+        "questionNumber": 15,
+        "questionText": "How does the giant tube worm obtain nourishment?",
+        "options": [
+          "By filter-feeding plankton",
+          "By housing bacteria that produce organic molecules from hydrogen sulfide",
+          "By hunting shrimp",
+          "By absorbing nutrients from sediment"
+        ],
+        "correctAnswer": 1,
+        "questionType": "DETAIL",
+        "paragraphReference": 4,
+        "explanation": "Paragraph 4 explains tube worms house bacteria in a trophosome and absorb hydrogen sulfide, which bacteria convert to nourishment."
+      }
+    ]
+  }
+]
